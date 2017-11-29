@@ -1,0 +1,15 @@
+========
+Glossary
+========
+
+.. glossary::
+
+    template
+        A chunk of text that acts as formatting for representing data. A
+        template helps to abstract the presentation of data from the data
+        itself.
+
+        See :doc:`/tutorials/overview`.
+
+    view
+        A function responsible for rendering a page.
