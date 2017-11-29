@@ -56,8 +56,8 @@ Are you new to Contentsphere? This is the place to start!:
   :doc:`Part 7:`Customizing the admin site <tutorials/tutorial01>`
 
 # **Advanced Tutorials**
-  :doc:`Integrating application and systems <tutorials/adtutorial01` |
-  :doc:`Working with complex datasets <tutorials/adtutorials102`
+  :doc:`Integrating application and systems <tutorials/advtutorial01>` |
+  :doc:`Working with complex datasets <tutorials/advtutorial02>`
 
 Contentsphere Product Lines
 ===========================
