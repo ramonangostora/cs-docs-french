@@ -14,10 +14,10 @@ Contentsphere Product Line Handbook and Guides!
     feature/index
     reference/index
     how/index
-    scratch/index
     product/index
     deploy/index
     releases/index
+    faq/index
     glossary
 
 

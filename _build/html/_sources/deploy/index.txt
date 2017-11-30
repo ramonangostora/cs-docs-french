@@ -1,3 +1,14 @@
 =================
 Deployment Guides
 =================
+
+
+.. toctree::
+   :maxdepth: 2
+
+   install
+   deployment planning
+   deployment prerequisites
+   deploy in AWS
+   deploy in Azure
+   deploy on premise

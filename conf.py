@@ -12,8 +12,6 @@
 import sys
 from os.path import abspath, dirname, join
 
-print(sys.path)
-
 # Workaround for sphinx-build recursion limit overflow:
 # pickle.dump(doctree, f, pickle.HIGHEST_PROTOCOL)
 #  RuntimeError: maximum recursion depth exceeded while pickling an object
@@ -142,6 +140,7 @@ suppress_warnings = ['app.add_directive']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = "contentspheredocs"
+html_static_path = ["_theme/contentspheredocs/_static"]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -150,7 +149,6 @@ html_theme = "contentspheredocs"
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["_theme"]
-html_static_path = ["_theme/contentspheredocs/_static"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".

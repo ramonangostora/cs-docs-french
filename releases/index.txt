@@ -6,9 +6,9 @@ Release notes for the official Django releases. Each release note will tell you
 what's new in each version, and will also describe any backwards-incompatible
 changes made in that version.
 
-For those :doc:`upgrading to a new version of Django</howto/upgrade-version>`,
+For those :doc:`upgrading to a new version of Contentsphere</how/upgrade version>`,
 you will need to check all the backwards-incompatible changes and
-:doc:`deprecated features</internals/deprecation>` for each 'final' release
+:doc:`deprecated features</feature/deprecation>` for each 'final' release
 from the one after your current Django version, up to and including the new
 version.
 
@@ -22,7 +22,7 @@ versions of the documentation contain the release notes for any later releases.
 
 
 17.1 release
------------
+------------
 .. toctree::
    :maxdepth: 1
 

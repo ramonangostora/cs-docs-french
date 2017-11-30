@@ -1,3 +1,9 @@
 ================
 Reference Guides
 ================
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading
+   

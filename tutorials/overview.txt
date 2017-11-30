@@ -1,3 +1,7 @@
 ========
 Overview
 ========
+
+.. image:: _images/admin01.png
+   :alt: Contentspher log in screen
+   

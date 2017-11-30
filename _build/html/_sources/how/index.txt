@@ -1,3 +1,9 @@
 =====================
 How to Guides and FAQ
 =====================
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrade version
+   

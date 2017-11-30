@@ -13,3 +13,45 @@ Glossary
 
     view
         A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    class
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    attribute
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    tag
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    taxonomy
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    role
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    admin
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    feature
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
+
+    feature
+        A function responsible for rendering a page.
+
+        See :doc:`/tutorials/overview`.
