@@ -1,0 +1,15 @@
+=================
+FAQ: Installation
+=================
+
+How do I get started?
+=====================
+
+What are Contentsphere's prerequisites?
+=======================================
+
+For a production environment, can run on a variety of server platforms.
+See :doc:`Deploying Contentsphere </deploy/index>` for some
+popular alternatives.
+
+.. _Oracle: https://www.oracle.com/

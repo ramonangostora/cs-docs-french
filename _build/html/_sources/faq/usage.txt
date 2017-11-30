@@ -1,0 +1,22 @@
+========================
+FAQ: Using Contentsphere
+========================
+
+Why do I get an error about
+===========================
+
+
+
+
+Do I have to use your model/database layer?
+===========================================
+
+
+
+How do I use image and file fields?
+===================================
+
+
+
+How do I make a variable available to all my templates?
+=======================================================

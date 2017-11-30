@@ -1,0 +1,121 @@
+==============
+Feature guides
+==============
+
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
+
+Master Data Management Features
+-------------------------------
+
+  * :doc:`Manage Buyer Catalog </feature/index>` As a buyer I want to manage my own catalog of products in the master catalog
+    so that I can manage the products from partners that I am associated with.
+
+  * :doc:`Manage Virtual Catalog </feature/index>` As a buyer I want to create multiple collections & bookmarks
+    so as to effectively manage different selections of products in my catalog.
+
+  * :doc:`Create Tasks for Partners </feature/index>` As a data steward I want to create tasks for Partners
+    so that they can correct data quality issues and improve their product definitions.
+
+  * :doc:`Communicate with Partners </feature/index>` As a data steward I want to communicate with Partners
+    over the Platform so that they can I can help them improve their product definitions.
+
+  * :doc:`Remedy Quality Issues </feature/index>` As a data steward, I want to edit records with incorrect
+    or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system.
+
+  * :doc:`KPI Based DQ Reports </feature/index>` As a data steward, I want to see KPI based Data Quality Reports,
+    so that I can assess the level of quality and take corrective actions.
+
+  * :doc:`Monitor Data Quality </feature/index>` As a user I want to monitor the quality of the data in my catalog
+    so that I can better define my products and take corrective actions.
+
+  * :doc:`Standardize Product </feature/index>` Definitions As a data steward I want to be standardize product definitions
+    via standardization rules to improve consistency of product definitions.
+
+  * :doc:`Check & Filter </feature/index>` Incomplete Products As a data steward, I want to view all the products with
+    flagged with must / should data completion violations, so that I can take corrective actions.
+
+  * :doc:`Check & Erroneous Products </feature/index>` As a data steward, I want to view all the products
+    with flagged with errors and warnings, so that I can take corrective actions.
+
+  * :doc:`Single Supplier View </feature/index>` As a buyer I want to be able to explore products
+    per supplier so that I can better manage products from a particular supplier.
+
+  * :doc:`Multiple Supplier View </feature/index>` As a buyer I want to be able to explore products across
+    multiple suppliers so that I can have an overview of products across a selection of suppliers.
+
+  * :doc:`End Points & Mappings </feature/index>`
+
+  * :doc:`Validation, Normalisation & Transformation Rules </feature/index>`
+
+  * :doc:`Standard Import Interfaces & Formats </feature/index>`
+
+  * :doc:`Relations/Links Import </feature/index>`
+
+  * :doc:`Workflows </feature/index>`
+
+  * :doc:`Manual/Automated Imports </feature/index>`
+
+  * :doc:`Manage Product Definitions Across Partners </feature/index>` : As a data steward I want to see all products
+    in the Master Catalog so that I can have a consolidated view of product definitions Partners.
+
+  * :doc:`Manage Product Definitions Across Systems </feature/index>` : As a data steward I want to see all products
+    in the Master Catalog so that I can have a consolidated view of product definitions across Systems.
+
+  * :doc:`Improve Product Classifications </feature/index>` : As a data steward I want to manually classify products
+    further into their taxonomies so as to improve their definition.
+
+  * :doc:`Classify in Bulk </feature/index>` : As a data steward I want to select a set of products and classify
+    them so that I can classify multiple products in one go.
+
+  * :doc:`Golden Record </feature/index>` : As a data steward I want to be able to manage golden record of a
+    product with definitions consolidated from across partners & systems.
+
+  * :doc:`Manage Products in Master Catalog </feature/index>` : As a data steward I want to add
+    additional information to the products so that I can complete their definition.
+
+  * :doc:`Search & Filter Products in Master Catalog </feature/index>` : As a data steward I want to search
+    and filter products by their classifications & properties.
+
+  * :doc:`Mantaining the Onboarding Pool </feature/index>`
+
+  * :doc:`Data Governance & Remediation </feature/index>`
+
+  * :doc:`Maintaining the Off boarding Pool </feature/index>`
+
+  * :doc:`Setup Supplier Profile </feature/index>`
+
+  * :doc:`Users & Permissions </feature/index>`
+
+  * :doc:`Data Quality Levels </feature/index>`
+
+  * :doc:`Preferences </feature/index>`
+
+  * :doc:`Supplier Catalog </feature/index>`
+
+  * :doc:`Classification & Enrichment </feature/index>`
+
+  * :doc:`Combine/Split Articles </feature/index>`
+
+  * :doc:`Governance & Collaboration Dashboard </feature/index>`
+
+  .. image:: _images/line-png-32.png
+     :alt: Contentspher log in screen
+
+Product Information Management
+------------------------------
+
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
+
+Marketing Content Hub
+---------------------
+
+.. image:: _images/line-png-32.png
+  :alt: Contentspher log in screen
+
+Partner Engagement Platform
+---------------------------
+
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen

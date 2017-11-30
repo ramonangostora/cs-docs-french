@@ -1,0 +1,6 @@
+===============
+Troubleshooting
+===============
+
+This page contains some advice about errors and problems commonly encountered
+during the use of Contentsphere.
