@@ -6,8 +6,4 @@ Feature Guides
    :maxdepth: 1
 
    deprecation
-   match and merge
-   onboarding
-   offboarding
-   taxonomy
-   multilanguage management
+   feature guides

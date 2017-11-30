@@ -5,9 +5,4 @@ MCH Feature Guides
 .. toctree::
    :maxdepth: 1
 
-   deprecation
-   match and merge
-   onboarding
-   offboarding
-   taxonomy
-   multilanguage management
+   

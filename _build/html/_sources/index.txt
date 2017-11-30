@@ -5,6 +5,9 @@ Contentsphere Handbook
 Everything you need to know about the **Contentsphere** Application suite and
 training materials and guides is provided in this suite of materials.
 
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
+
 Getting help
 ============
 
@@ -15,6 +18,9 @@ For Help, trouble shooting and general information please refer to the FAQ secti
 
 * For specific information? Try the :ref:`genindex`, :ref:`modindex` or
   the :doc:`detailed table of contents <contents>`.
+
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
 
 Using the handbook
 ==================
@@ -40,6 +46,9 @@ the basis for the context sensitive help and tooltips within the application.
 
 .. _new-to-contentsohere:
 
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
+
 New to Contentsphere
 ====================
 
@@ -63,6 +72,9 @@ Are you new to Contentsphere? This is the place to start!:
    :doc:`Integrating application and systems <tutorials/advtutorial01>` |
    :doc:`Working with complex datasets <tutorials/advtutorial02>`
 
+.. image:: _images/line-png-32.png
+  :alt: Contentspher log in screen
+  
 Contentsphere Product Lines
 ===========================
 Learn about some other core functionalities of the Contentsphere product line:

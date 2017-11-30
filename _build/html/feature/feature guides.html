@@ -1,0 +1,254 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Feature guides &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Reference Guides" href="../reference/index.html" />
+    <link rel="prev" title="Deprecated Features" href="deprecation.html" />
+
+
+
+ 
+<script type="text/javascript" src="../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="hd">
+      <h1><a href="../index.html">Contentsphere  documentation</a></h1>
+      <div id="global-nav">
+        <a title="Home page" href="../index.html">Home</a>  |
+        <a title="Table of contents" href="../contents.html">Table of contents</a>  |
+        <a title="Global index" href="../genindex.html">Index</a>  |
+        
+      </div>
+      <div class="nav">
+    &laquo; <a href="deprecation.html" title="Deprecated Features">previous</a>
+     |
+    <a href="index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../reference/index.html" title="Reference Guides">next</a> &raquo;</div>
+    </div>
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-feature guides">
+            
+  <div class="section" id="s-feature-guides">
+<span id="feature-guides"></span><h1>Feature guides<a class="headerlink" href="#feature-guides" title="Permalink to this headline">¶</a></h1>
+<img alt="Contentspher log in screen" src="../_images/line-png-32.png" />
+<div class="section" id="s-master-data-management-features">
+<span id="master-data-management-features"></span><h2>Master Data Management Features<a class="headerlink" href="#master-data-management-features" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="index.html"><span class="doc">Manage Buyer Catalog</span></a> As a buyer I want to manage my own catalog of products in the master catalog
+so that I can manage the products from partners that I am associated with.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Manage Virtual Catalog</span></a> As a buyer I want to create multiple collections &amp; bookmarks
+so as to effectively manage different selections of products in my catalog.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Create Tasks for Partners</span></a> As a data steward I want to create tasks for Partners
+so that they can correct data quality issues and improve their product definitions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Communicate with Partners</span></a> As a data steward I want to communicate with Partners
+over the Platform so that they can I can help them improve their product definitions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Remedy Quality Issues</span></a> As a data steward, I want to edit records with incorrect
+or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">KPI Based DQ Reports</span></a> As a data steward, I want to see KPI based Data Quality Reports,
+so that I can assess the level of quality and take corrective actions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Monitor Data Quality</span></a> As a user I want to monitor the quality of the data in my catalog
+so that I can better define my products and take corrective actions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Standardize Product</span></a> Definitions As a data steward I want to be standardize product definitions
+via standardization rules to improve consistency of product definitions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Check &amp; Filter</span></a> Incomplete Products As a data steward, I want to view all the products with
+flagged with must / should data completion violations, so that I can take corrective actions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Check &amp; Erroneous Products</span></a> As a data steward, I want to view all the products
+with flagged with errors and warnings, so that I can take corrective actions.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Single Supplier View</span></a> As a buyer I want to be able to explore products
+per supplier so that I can better manage products from a particular supplier.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Multiple Supplier View</span></a> As a buyer I want to be able to explore products across
+multiple suppliers so that I can have an overview of products across a selection of suppliers.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">End Points &amp; Mappings</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Validation, Normalisation &amp; Transformation Rules</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Standard Import Interfaces &amp; Formats</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Relations/Links Import</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Workflows</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Manual/Automated Imports</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Manage Product Definitions Across Partners</span></a> : As a data steward I want to see all products
+in the Master Catalog so that I can have a consolidated view of product definitions Partners.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Manage Product Definitions Across Systems</span></a> : As a data steward I want to see all products
+in the Master Catalog so that I can have a consolidated view of product definitions across Systems.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Improve Product Classifications</span></a> : As a data steward I want to manually classify products
+further into their taxonomies so as to improve their definition.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Classify in Bulk</span></a> : As a data steward I want to select a set of products and classify
+them so that I can classify multiple products in one go.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Golden Record</span></a> : As a data steward I want to be able to manage golden record of a
+product with definitions consolidated from across partners &amp; systems.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Manage Products in Master Catalog</span></a> : As a data steward I want to add
+additional information to the products so that I can complete their definition.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Search &amp; Filter Products in Master Catalog</span></a> : As a data steward I want to search
+and filter products by their classifications &amp; properties.</li>
+<li><a class="reference internal" href="index.html"><span class="doc">Mantaining the Onboarding Pool</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Data Governance &amp; Remediation</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Maintaining the Off boarding Pool</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Setup Supplier Profile</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Users &amp; Permissions</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Data Quality Levels</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Preferences</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Supplier Catalog</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Classification &amp; Enrichment</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Combine/Split Articles</span></a></li>
+<li><a class="reference internal" href="index.html"><span class="doc">Governance &amp; Collaboration Dashboard</span></a></li>
+</ul>
+<img alt="Contentspher log in screen" src="../_images/line-png-32.png" />
+</div></blockquote>
+</div>
+<div class="section" id="s-product-information-management">
+<span id="product-information-management"></span><h2>Product Information Management<a class="headerlink" href="#product-information-management" title="Permalink to this headline">¶</a></h2>
+<img alt="Contentspher log in screen" src="../_images/line-png-32.png" />
+</div>
+<div class="section" id="s-marketing-content-hub">
+<span id="marketing-content-hub"></span><h2>Marketing Content Hub<a class="headerlink" href="#marketing-content-hub" title="Permalink to this headline">¶</a></h2>
+<img alt="Contentspher log in screen" src="../_images/line-png-32.png" />
+</div>
+<div class="section" id="s-partner-engagement-platform">
+<span id="partner-engagement-platform"></span><h2>Partner Engagement Platform<a class="headerlink" href="#partner-engagement-platform" title="Permalink to this headline">¶</a></h2>
+<img alt="Contentspher log in screen" src="../_images/line-png-32.png" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Feature guides</a><ul>
+<li><a class="reference internal" href="#master-data-management-features">Master Data Management Features</a></li>
+<li><a class="reference internal" href="#product-information-management">Product Information Management</a></li>
+<li><a class="reference internal" href="#marketing-content-hub">Marketing Content Hub</a></li>
+<li><a class="reference internal" href="#partner-engagement-platform">Partner Engagement Platform</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="deprecation.html">Deprecated Features</a></li>
+    
+    
+      <li>Next: <a href="../reference/index.html">Reference Guides</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="index.html">Feature Guides</a>
+        
+        <ul><li>Feature guides</li></ul>
+        </li></ul>
+      </li>
+  </ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/feature/feature guides.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+              <h3>Last update:</h3>
+              <p class="topless">Dec 01, 2017</p>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="deprecation.html" title="Deprecated Features">previous</a>
+     |
+    <a href="index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../reference/index.html" title="Reference Guides">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
