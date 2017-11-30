@@ -1,10 +1,17 @@
 /*** setup ***/
-html { background:#092e20;}
-body { font:12px/1.5 Verdana,sans-serif; background:#092e20; color: white;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+html { background:white;}
+body { font-size:15px; font-family: 'Roboto', sans-serif; background:white; }
 #custom-doc { width:76.54em;*width:74.69em;min-width:995px; max-width:100em; margin:auto; text-align:left; padding-top:16px; margin-top:0;}
-#hd { padding: 4px 0 12px 0; }
-#bd { background:#234F32; }
+#hd { padding: 1px 0 5px 0; font-family: 'Roboto', sans-serif; }
+#bd { background:white; font-family: 'Roboto', sans-serif; }
 #ft { color:#487858; font-size:90%; padding-bottom: 2em; }
+h1, h2, h3, h4, h5, h6 {
+	color: #4A5256;
+}
+p {
+	line-height: 1.5;
+}
 
 /*** links ***/
 a {text-decoration: none;}
@@ -20,8 +27,8 @@ a.reference em { font-style: normal; }
 
 /*** sidebar ***/
 #sidebar div.sphinxsidebarwrapper { font-size:92%; margin-right: 14px; }
-#sidebar h3, #sidebar h4 { color: white; font-size: 125%; }
-#sidebar a { color: white; }
+#sidebar h3, #sidebar h4 { font-size: 125%; }
+/*#sidebar a { color: white; }*/
 #sidebar ul ul { margin-top:0; margin-bottom:0; }
 #sidebar li { margin-top: 0.2em; margin-bottom: 0.2em; }
 
@@ -29,13 +36,60 @@ a.reference em { font-style: normal; }
 div.nav { margin: 0; font-size: 11px; text-align: right; color: #487858;}
 #hd div.nav { margin-top: -27px; }
 #ft div.nav { margin-bottom: -18px; }
-#hd h1 a { color: white; }
+#hd { background-color: #9B2820 }
+#hd h1 a { 
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
 #global-nav { position:absolute; top:5px; margin-left: -5px; padding:7px 0; color:#263E2B; }
 #global-nav a:link, #global-nav a:visited {color:#487858;}
 #global-nav a {padding:0 4px;}
 #global-nav a.about {padding-left:0;}
 #global-nav:hover {color:#fff;}
 #global-nav:hover a:link, #global-nav:hover a:visited  { color:#ffc757; }
+.documentation-header {
+	color: white;
+	padding-left: 48px;
+	font-weight: 300;
+}
+.cs-logo {
+	height: 50px;
+	padding: 20px 0;
+}
+#top-nav {
+	display: flex;
+	justify-content: space-between;
+}
+ul.nav-ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+	color: blue;
+	display: flex;
+}
+li.nav-li {
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	float: right;
+}
+li.nav-li img {
+	display: inline;
+}
+li.nav-li a {
+	padding: 0 10px;
+	font-size: 18px;
+}
+li.nav-li.active a, li.nav-li.active a:hover, li.nav-li.active a:link, li.nav-li.active a:active {
+	color: #9B2820;
+}
+li.nav-li a {
+	color: #4A5256;
+}
+li.nav-li a:hover {
+	color: #9B2820;
+}
+
 
 /*** content ***/
 #yui-main div.yui-b { position: relative; }
@@ -43,10 +97,10 @@ div.nav { margin: 0; font-size: 11px; text-align: right; color: #487858;}
 
 /*** basic styles ***/
 dd { margin-left:15px; }
-h1,h2,h3,h4 { margin-top:1em; font-family:"Trebuchet MS",sans-serif; font-weight:normal; }
+h1,h2,h3,h4 { margin-top:1em; font-weight:normal; }
 h1 { font-size:218%; margin-top:0.6em; margin-bottom:.4em; line-height:1.1em; }
-h2 { font-size:175%; margin-bottom:.6em; line-height:1.2em; color:#092e20; }
-h3 { font-size:150%; font-weight:bold; margin-bottom:.2em; color:#487858; }
+h2 { font-size:175%; margin-bottom:.6em; line-height:1.2em; }
+h3 { font-size:150%; font-weight:bold; margin-bottom:.2em; }
 h4 { font-size:125%; font-weight:bold; margin-top:1.5em; margin-bottom:3px; }
 div.figure { text-align: center; }
 div.figure p.caption { font-size:1em; margin-top:0; margin-bottom:1.5em; color: #555;}
