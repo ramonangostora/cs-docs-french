@@ -1,7 +1,0 @@
-==================
-Deploying to Azure
-==================
-
-
-.. image:: _images/azure01.png
-   :alt: azure admin login screen
