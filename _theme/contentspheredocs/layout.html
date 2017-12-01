@@ -21,6 +21,7 @@
 {# as it causes problems in compiled CHM files.                  #}
 {% if builder != "htmlhelp" %}
 {{ super() }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="{{ pathto('templatebuiltins.js', 1) }}"></script>
 <script type="text/javascript">
 (function($) {
@@ -71,14 +72,22 @@
     </div>
     <div id="hd">
       <h1 class="documentation-header"><a href="{{ pathto('index') }}">Documentation</a></h1>
-      <div id="global-nav">
-        <a title="Home page" href="{{ pathto('index') }}">Home</a> {{ reldelim2 }}
-        <a title="Table of contents" href="{{ pathto('contents') }}">Table of contents</a> {{ reldelim2 }}
-        <a title="Global index" href="{{ pathto('genindex') }}">Index</a> {{ reldelim2 }}
-        
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
       </div>
-      <!-- <div class="nav">{{ secondnav() }}</div> -->
     </div>
+    <div id="global-nav">
+      <a title="Home page" href="{{ pathto('index') }}">Home</a> {{ reldelim2 }}
+      <a title="Table of contents" href="{{ pathto('contents') }}">Table of contents</a> {{ reldelim2 }}
+      <a title="Global index" href="{{ pathto('genindex') }}">Index</a> {{ reldelim2 }}
+      
+    </div>
+    <!-- <div class="nav">{{ secondnav() }}</div> -->
 
     <div id="bd">
       <div id="yui-main">

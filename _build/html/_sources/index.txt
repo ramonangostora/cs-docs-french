@@ -47,7 +47,7 @@ the basis for the context sensitive help and tooltips within the application.
 .. _new-to-contentsohere:
 
 .. image:: _images/line-png-32.png
-   :alt: Contentspher log in screen
+   :alt: Contentsphere log in screen
 
 New to Contentsphere
 ====================

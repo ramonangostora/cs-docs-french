@@ -4,6 +4,9 @@
 
 #index #s-getting-help { float: right; width: 35em; background: #FFCCCC; padding: 1em; margin: 2em 0 2em 2em; }
 #index #s-getting-help h2 { margin: 0; }
+#index #s-getting-help {
+	background-image: url("_static/valkyrie_screenshot_compressed.png");
+}
 
 #index #s-contentsphere-documentation div.section div.section h3 { margin: 0; }
 #index #s-contentsphere-documentation div.section div.section { background: #FFCCCC; padding: 1em; margin: 2em 0 2em 40.3em; }

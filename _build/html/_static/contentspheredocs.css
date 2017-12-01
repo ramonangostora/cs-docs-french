@@ -3,7 +3,12 @@
 html { background:white;}
 body { font-size:15px; font-family: 'Roboto', sans-serif; background:white; }
 #custom-doc { width:76.54em;*width:74.69em;min-width:995px; max-width:100em; margin:auto; text-align:left; padding-top:16px; margin-top:0;}
-#hd { padding: 1px 0 5px 0; font-family: 'Roboto', sans-serif; }
+#hd {
+	padding: 1px 0 5px 0; 
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-between;
+}
 #bd { background:white; font-family: 'Roboto', sans-serif; }
 #ft { color:#487858; font-size:90%; padding-bottom: 2em; }
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +31,7 @@ a:link, a:visited { color:#000033; }
 #bd a:link, #bd a:visited { color:#d61c45; text-decoration:underline; }
 #bd #sidebar a:link, #bd #sidebar a:visited { color:#000033; text-decoration:none; }
 a:hover { color:#ffe761; }
-#bd a:hover { background-color:#E0FFB8; color:#f2f2f2; text-decoration:none; }
+#bd a:hover { color:#9B2820; text-decoration:none; }
 #bd #sidebar a:hover { color:#ffe761; background:none; }
 h2 a, h3 a, h4 a { text-decoration:none !important; }
 a.reference em { font-style: normal; }
@@ -39,6 +44,12 @@ a.reference em { font-style: normal; }
 #sidebar a { color: white; }*/
 #sidebar ul ul { margin-top:0; margin-bottom:0; }
 #sidebar li { margin-top: 0.2em; margin-bottom: 0.2em; }
+#sidebar {
+	background-color: #F8F8F8;
+}
+.sphinxsidebar {
+	padding: 20px;
+}
 
 /*** nav ***/
 div.nav { margin: 0; font-size: 11px; text-align: right; color: #00004C;}
@@ -97,7 +108,44 @@ li.nav-li a {
 li.nav-li a:hover {
 	color: #9B2820;
 }
-
+.search-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 48px;
+}
+.form-input {
+  padding: 0.275rem 0.55rem;
+  margin-top: 5px;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-btn {
+	padding: 0.275rem 0.55rem;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ced4da;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-btn:hover {
+	background-color: #F2F2F2;
+}
+.form-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
 
 /*** content ***/
 #yui-main div.yui-b { position: relative; }
@@ -118,7 +166,7 @@ hr { color:#ccc; background-color:#ccc; height:1px; border:0; }
 p, ul, dl { margin-top:.6em; margin-bottom:1em; padding-bottom: 0.1em;}
 #yui-main div.yui-b img { max-width: 50em; margin-left: auto; margin-right: auto; display: block; }
 caption { font-size:1em; font-weight:bold; margin-top:0.5em; margin-bottom:0.5em; margin-left: 2px; text-align: center; }
-blockquote { padding: 0 1em; margin: 1em 0; font:125%/1.2em "Trebuchet MS", sans-serif; color:#264e6b; border-left:2px solid #94da3a; }
+blockquote { padding: 0 1em; margin: 1em 0; font:125%/1.2em, sans-serif; color:#264e6b; border-left:2px solid #9B2820; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 ins { font-weight: bold; text-decoration: none; }
