@@ -6,4 +6,9 @@ Reference Guides
    :maxdepth: 1
 
    upgrading
-   
+   install
+   deployment planning
+   deployment prerequisites
+   deploy in AWS
+   deploy in Azure
+   deploy on premise

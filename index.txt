@@ -25,7 +25,7 @@ For Help, trouble shooting and general information please refer to the FAQ secti
 Using the handbook
 ==================
 
-It refers to the section itself, see :ref:`search`.
+To search through the documentation see :ref:`search`.
 
 The site is organised into four key areas which are referenced throughout the handbook. The Handbook is also
 the basis for the context sensitive help and tooltips within the application.
@@ -74,7 +74,7 @@ Are you new to Contentsphere? This is the place to start!:
 
 .. image:: _images/line-png-32.png
   :alt: Contentspher log in screen
-  
+
 Contentsphere Product Lines
 ===========================
 Learn about some other core functionalities of the Contentsphere product line:

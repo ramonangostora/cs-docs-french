@@ -15,7 +15,6 @@ Contentsphere Product Line Handbook and Guides!
     reference/index
     how/index
     product/index
-    deploy/index
     releases/index
     faq/index
     glossary
