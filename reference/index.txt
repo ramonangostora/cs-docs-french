@@ -12,3 +12,5 @@ Reference Guides
    deploy in AWS
    deploy in Azure
    deploy on premise
+   deploy in the cloud
+   security

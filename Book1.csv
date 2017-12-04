@@ -1,0 +1,20 @@
+﻿Component,Elastic,Orient,OMD,Tomcat,Oracle
+ Access On All Folders,755,755,755,755,755
+Home For CS,/home/cs,/home/cs,/home/cs,/home/cs,/home/cs
+Home For Application User,/home/elastic,/home/orient,/home/omd,/home/tomcat,/home/oracle
+Users,elastic,orient,omd,tomcat,oracle
+Users,elastic,orient,omd,tomcat,"Deployment User : CSDeploy,"
+Users,elastic,orient,omd,tomcat,"Application User : CSUser,"
+Users,elastic,orient,omd,tomcat,Support User : CSSupport
+Location : Deployment Packages,/opt/cs/elastic/elastic_installation_date_time,/opt/cs/orientdb/orient_installation_date_time,/opt/cs/omd/omd_installation_date_time,/opt/cs/tomcat/tomcat_installation_date_time,/opt/cs/oracle/oracle_installation_date_time
+Application Installation Home,/opt/cs,/opt/cs,/opt/cs,/opt/cs,/opt/cs
+Application Installation Folder,/opt/cs/elastic/ApplicationFolder,/opt/cs/orient/ApplicationFolder,/opt/omd(default path),/opt/cs/tomcat/ApplicationFolder,
+Application Installation Folder,/opt/cs/elastic/ApplicationFolder,/opt/cs/orient/ApplicationFolder,/opt/cs/tomcat/ApplicationFolder,,
+Plugin Location,/opt/cs/elastic/plugins/date_time,/opt/cs/orient/plugins/date_time,/opt/cs/omd/plugins/date_time,/opt/cs/tomcat/plugins/date_time,
+Other Applications,/opt/cs/ApplicationName,/opt/cs/ApplicationName,/opt/cs/ApplicationName,/opt/cs/ApplicationName,/opt/cs/ApplicationName
+Application Data Backup,/opt/cs/backups/elastic/data,/opt/cs/backups/orient/data,/opt/cs/backups/omd/data,/opt/cs/backups/tomcat/data,/opt/cs/backups/oracle/data
+Applicaton Log Backup,/opt/cs/backups/elastic/logs,/opt/cs/backups/orient/logs,/opt/cs/backups/omd/logs,/opt/cs/backups/tomcat/logs,/opt/cs/backups/oracle/logs
+Commands Needed,"cp, mv, mkdir, ls, unzip, tar, vi, nano, echo, which, source, df, mount, du, watch, top, free, touch, sh, ssh, scp, netstat, kill, ps, telnet, grep, tail, nano","cp, mv, mkdir, ls, unzip, tar, vi, nano, echo, which, source, df, mount, du, watch, top, free, touch, sh, ssh, scp, netstat, kill, ps, telnet, grep, tail, nano","cp, mv, mkdir, ls, unzip, tar, vi, nano, echo, which, source, df, mount, du, watch, top, free, touch, sh, ssh, scp, netstat, kill, ps, telnet, grep, tail, nano","cp, mv, mkdir, ls, unzip, tar, vi, nano, echo, which, source, df, mount, du, watch, top, free, touch, sh, ssh, scp, netstat, kill, ps, telnet, grep, tail, nano","cp, mv, mkdir, ls, unzip, tar, vi, nano, echo, which, source, df, mount, du, watch, top, free, touch, sh, ssh, scp, netstat, kill, ps, telnet, grep, tail, nano"
+Commands Needed,,,,,"CSDeploy : Create Table, Drop Table, Create Public Synonym, Drop Public Synonym, Create Procedures, Execute Procedures."
+Commands Needed,,,,,"CSUser : select, insert, update, delete, execute functions."
+Commands Needed,,,,,CSSupport : select 

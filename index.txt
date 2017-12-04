@@ -14,7 +14,7 @@ Getting help
 For Help, trouble shooting and general information please refer to the FAQ section.
 
 * general answers are found in the :doc:`FAQ <how/index>` .
-* links to the Contentsphere website .. _Contentsphere Home: http://www.contentsphere.com
+* links to the Contentsphere website .. _Contentsphere Home: <http://www.contentsphere.com>
 
 * For specific information? Try the :ref:`genindex`, :ref:`modindex` or
   the :doc:`detailed table of contents <contents>`.
