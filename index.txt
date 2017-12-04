@@ -24,7 +24,7 @@ the basis for the context sensitive help and tooltips within the application.
 
 * :doc:`Tutorials </tutorials/index>` take you by the hand through a series of steps to work within the **Contentsphere** application.
   Start here if you’re new to **Contentsphere** or training on the product as a user.
-  Also look at the **note** `new-to-contentsohere`_ below
+  Also look at the **note** `new-to-contentsphere`_ below
 
 * :doc:`Feature guides </feature/index>` discuss key features and concepts at a fairly high level and provide
   useful background information and explanation, including key user stories.
@@ -36,7 +36,7 @@ the basis for the context sensitive help and tooltips within the application.
 * :doc:`How to guides </how/index>` are recipes. They guide you through the steps involved in addressing key problems
   and use-cases. They are more advanced than tutorials and assume some knowledge of how **Contentsphere** works.
 
-.. _new-to-contentsohere:
+.. _new-to-contentsphere:
 
 .. image:: _images/line-png-32.png
    :alt: Contentsphere log in screen
