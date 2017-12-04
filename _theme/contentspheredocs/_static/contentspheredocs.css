@@ -1,6 +1,6 @@
 /*** setup ***/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
-html { background:white;}
+html { background:white; }
 body { font-size:15px; font-family: 'Roboto', sans-serif; background:white; }
 #custom-doc { width:76.54em;*width:74.69em;min-width:995px; max-width:100em; margin:auto; text-align:left; padding-top:16px; margin-top:0;}
 #hd {
@@ -46,10 +46,9 @@ a.reference em { font-style: normal; }
 #sidebar li { margin-top: 0.2em; margin-bottom: 0.2em; }
 #sidebar {
 	background-color: #F8F8F8;
+	min-height: 100vh;
 }
-.sphinxsidebar {
-	padding: 20px;
-}
+.sidebar-padding { padding: 20px; }
 
 /*** nav ***/
 div.nav { margin: 0; font-size: 11px; text-align: right; color: #00004C;}
@@ -148,6 +147,9 @@ li.nav-li a:hover {
 }
 
 /*** content ***/
+#bd {
+	/*height: 100%;*/
+}
 #yui-main div.yui-b { position: relative; }
 #yui-main div.yui-b { margin: 0 0 0 20px; background: white; color: black; padding: 0.3em 2em 1em 2em; }
 

@@ -109,11 +109,13 @@
       {% block sidebarwrapper %}
         {% if pagename != 'index' %}
           <div class="yui-b" id="sidebar">
-            {{ sidebar() }}
-            {%- if last_updated %}
-              <h3>Last update:</h3>
-              <p class="topless">{{ last_updated }}</p>
-            {%- endif %}
+            <div class="sidebar-padding">
+              {{ sidebar() }}
+              {%- if last_updated %}
+                <h3>Last update:</h3>
+                <p class="topless">{{ last_updated }}</p>
+              {%- endif %}
+            </div>
           </div>
         {% endif %}
       {% endblock %}
