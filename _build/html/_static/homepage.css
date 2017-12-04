@@ -23,3 +23,31 @@
 #index #s-reference,
 #index #s-and-all-the-rest
     { clear: left; }
+
+/**/
+
+#index p.rubric { font-size:150%; font-weight:normal; margin-bottom:.2em; color:#487858; }
+
+#index div.section dt { font-weight: normal; }
+
+#index #getting-help { float: right; width: 35em; background: #FFF; margin: 2em 0 2em 2em; }
+#index #getting-help h2 { margin: 0; display: none; }
+#index #getting-help img {
+	width: 100%;
+}
+
+#index #contentsphere-documentation div.section div.section h3 { margin: 0; }
+#index #contentsphere-documentation div.section div.section { background: #FFCCCC; padding: 1em; margin: 2em 0 2em 40.3em; }
+#index #contentsphere-documentation div.section div.section a.reference { white-space: nowrap; }
+
+#index #using-contentsphere dl,
+#index #add-on-contrib-applications dl,
+#index #solving-specific-problems dl,
+#index #reference dl
+    { float: left; width: 41em; }
+
+#index #add-on-contrib-applications,
+#index #solving-specific-problems,
+#index #reference,
+#index #and-all-the-rest
+    { clear: left; }
