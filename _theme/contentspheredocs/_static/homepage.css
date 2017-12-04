@@ -7,6 +7,11 @@
 #index #s-getting-help img {
 	width: 100%;
 }
+#index #getting-help { float: right; width: 35em; background: #FFF; margin: 2em 0 2em 2em; }
+#index #getting-help h2 { margin: 0; display: none; }
+#index #getting-help img {
+	width: 100%;
+}
 
 #index #s-contentsphere-documentation div.section div.section h3 { margin: 0; }
 #index #s-contentsphere-documentation div.section div.section { background: #FFCCCC; padding: 1em; margin: 2em 0 2em 40.3em; }
