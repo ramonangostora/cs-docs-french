@@ -27,12 +27,12 @@ body { font:12px/1.5 Verdana,sans-serif; background:white; color: white;}
 /*** links ***/
 a {text-decoration: none;}
 a img {border: none;}
-a:link, a:visited { color:#000033; }
-#bd a:link, #bd a:visited { color:#d61c45; text-decoration:underline; }
-#bd #sidebar a:link, #bd #sidebar a:visited { color:#000033; text-decoration:none; }
-a:hover { color:#ffe761; }
-#bd a:hover { color:#9B2820; text-decoration:none; }
-#bd #sidebar a:hover { color:#ffe761; background:none; }
+a:link, a:visited { color:#0066CC; }
+#bd a:link, #bd a:visited { color:#0066CC; text-decoration:underline; }
+#bd #sidebar a:link, #bd #sidebar a:visited { color:#0066CC; text-decoration:none; }
+a:hover { color:#0000EE; }
+#bd a:hover { color:#0000EE; text-decoration:none; }
+#bd #sidebar a:hover { color:#0000EE; background:none; }
 h2 a, h3 a, h4 a { text-decoration:none !important; }
 a.reference em { font-style: normal; }
 
@@ -224,7 +224,7 @@ div.snippet-filename + pre { margin-top: 0; }
 
 
 /*** notes & admonitions ***/
-.note, .admonition { padding:.8em 1em .8em; margin: 1em 0; border:1px solid #94da3a; }
+.note, .admonition { padding:.8em 1em .8em; margin: 1em 0; border:1px solid #9B2820; }
 .admonition-title { font-weight:bold; margin-top:0 !important; margin-bottom:0 !important;}
 .admonition .last { margin-bottom:0 !important; }
 .note, .admonition { padding-left:65px; background:url(docicons-note.png) .8em .8em no-repeat;}
