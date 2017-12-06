@@ -1,0 +1,8 @@
+=====================
+How to Guides and FAQ
+=====================
+
+.. toctree::
+   :maxdepth: 1
+
+   parametric search

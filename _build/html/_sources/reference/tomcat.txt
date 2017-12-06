@@ -1,0 +1,46 @@
+==================
+Tomcat : WebServer
+==================
+
+Brief :-
+Tomcat can handle high number of incoming requests, efficiently using a combination of load balancing, multiple server "workers" to process the balanced load.
+Installation :-
+Setup and Configuration :-
+1.	Download Apache Tomcat (/opt/cs/tomcat)  http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz
+                                                                           OR
+Visit “https://tomcat.apache.org/download-90.cgi” and download Version 9
+2.	Extract tar.gz
+1.	cd /opt/cs/tomcat
+2.	tar -zxvf apache-tomcat-9.0.0.M9.tar.gz
+3.	Change configuration:
+1.	You will find a block of code for  Connector port, Replace that code with the one mentioned below.
+1.	vim /opt/cs/tomcat/apache-tomcat-9.0.0.M9/conf/server.xml
+                         <Connector port="8080" maxHttpHeaderSize="8192"
+                         maxThreads="150" minSpareThreads="25" maxSpareThreads="75"
+                         enableLookups="false" redirectPort="8443" acceptCount="100"
+                         connectionTimeout="20000" disableUploadTimeout="true"
+                         compression="on"
+                         compressionMinSize="2048"
+                         noCompressionUserAgents="gozilla, traviata"
+                         compressableMimeType="text/html,text/plain,text/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml,application/x-javascript,application/json"/>
+2.	Also Add IP. You will find this at the end of the file.
+
+2.	Create a file 'bin/setenv.sh' and specify the memory configuration
+1.	touch /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh
+2.	vim  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh and add the following line.
+1.	export JAVA_OPTS="-Dfile.encoding=UTF-8 -Xms4216m -Xmx13312m"
+4.	Application Statup:
+1.	Stop Tomcat
+1.	/opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/shutdown.shORfuser -k 8080/tcp
+Note: fuser is used just to kill the process if it is  running even after using 'shutdown.sh'
+2.	Start Tomcat:
+1.	cd  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/
+2.	./startup.sh
+5.	Remove/Add war:
+1.	Remove war:
+1.	cd /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
+2.	rm edeka.war
+3.	rm -r edeka
+2.	Add war:
+1.	cp <Path of CS-Refactored>/CS-Refactored/REST/build/libs/edeka.war /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
+Note: Before copying edeka.war to webapps directory of tomcat, make sure you have built the war

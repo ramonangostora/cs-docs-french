@@ -1,3 +1,14 @@
 ======================
 Master Data Management
 ======================
+
+#. The Contextual Multi-Domain MDM seamlessly combines the functionalities of PIM, DAM/MAM
+   and MDM systems as well as those of a publishing and editing system in one single solution.
+#. All data can be provided for publication on all channels and at all touch-points directly from
+   the Contextual Multi-Domain MDM: product information, master data, customer, supplier and location 
+   data, etc., marketing content, editorial content and media assets.
+#. All content can be displayed automatically in order to ensure an optimum presentation in the specific context.
+#. An integrated, powerful On-boarding Portal allows for the efficient integration of data from various
+   sources (suppliers, manufacturers, agencies, etc.).
+#. An integrated data quality check guarantees that, despite the maximum personalisation of messages
+   and product presentation, all information remains consistent at all times.

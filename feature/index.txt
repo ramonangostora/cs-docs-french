@@ -7,3 +7,8 @@ Feature Guides
 
    deprecation
    feature guides
+   mch/index
+   mdm/index
+   pep/index
+   pim/index
+   

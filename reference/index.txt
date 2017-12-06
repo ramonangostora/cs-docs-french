@@ -9,8 +9,14 @@ Reference Guides
    install
    deployment planning
    deployment prerequisites
-   deploy in AWS
-   deploy in Azure
+   deploy in aws
+   deploy in azure
    deploy on premise
    deploy in the cloud
    security
+   elastic search
+   oracle masterstore
+   orient db
+   swift asset storage
+   tomcat
+   configuration

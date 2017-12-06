@@ -1,0 +1,242 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tomcat : WebServer &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Configuration" href="configuration.html" />
+    <link rel="prev" title="Swift : Asset Storage" href="swift asset storage.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <div>
+        <img src="_static/logoweb.png" class="cs-logo">
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <a title="Home page" href="../index.html">Home</a>  |
+      <a title="Table of contents" href="../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../genindex.html">Index</a>  |
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="swift asset storage.html" title="Swift : Asset Storage">previous</a>
+     |
+    <a href="index.html" title="Reference Guides" accesskey="U">up</a>
+   |
+    <a href="configuration.html" title="Configuration">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="reference-tomcat">
+            
+  <div class="section" id="s-tomcat-webserver">
+<span id="tomcat-webserver"></span><h1>Tomcat : WebServer<a class="headerlink" href="#tomcat-webserver" title="Permalink to this headline">¶</a></h1>
+<p>Brief :-
+Tomcat can handle high number of incoming requests, efficiently using a combination of load balancing, multiple server “workers” to process the balanced load.
+Installation :-
+Setup and Configuration :-
+1.      Download Apache Tomcat (/opt/cs/tomcat)  <a class="reference external" href="http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz">http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz</a></p>
+<blockquote>
+<div>OR</div></blockquote>
+<p>Visit “<a class="reference external" href="https://tomcat.apache.org/download-90.cgi">https://tomcat.apache.org/download-90.cgi</a>” and download Version 9
+2.      Extract tar.gz
+1.      cd /opt/cs/tomcat
+2.      tar -zxvf apache-tomcat-9.0.0.M9.tar.gz
+3.      Change configuration:
+1.      You will find a block of code for  Connector port, Replace that code with the one mentioned below.
+1.      vim /opt/cs/tomcat/apache-tomcat-9.0.0.M9/conf/server.xml</p>
+<blockquote>
+<div>&lt;Connector port=”8080” maxHttpHeaderSize=”8192”
+maxThreads=”150” minSpareThreads=”25” maxSpareThreads=”75”
+enableLookups=”false” redirectPort=”8443” acceptCount=”100”
+connectionTimeout=”20000” disableUploadTimeout=”true”
+compression=”on”
+compressionMinSize=”2048”
+noCompressionUserAgents=”gozilla, traviata”
+compressableMimeType=”text/html,text/plain,text/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml,application/x-javascript,application/json”/&gt;</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>Also Add IP. You will find this at the end of the file.</li>
+</ol>
+<p>2.      Create a file ‘bin/setenv.sh’ and specify the memory configuration
+1.      touch /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh
+2.      vim  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh and add the following line.
+1.      export JAVA_OPTS=”-Dfile.encoding=UTF-8 -Xms4216m -Xmx13312m”
+4.      Application Statup:
+1.      Stop Tomcat
+1.      /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/shutdown.shORfuser -k 8080/tcp
+Note: fuser is used just to kill the process if it is  running even after using ‘shutdown.sh’
+2.      Start Tomcat:
+1.      cd  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/
+2.      ./startup.sh
+5.      Remove/Add war:
+1.      Remove war:
+1.      cd /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
+2.      rm edeka.war
+3.      rm -r edeka
+2.      Add war:
+1.      cp &lt;Path of CS-Refactored&gt;/CS-Refactored/REST/build/libs/edeka.war /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
+Note: Before copying edeka.war to webapps directory of tomcat, make sure you have built the war</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="swift asset storage.html">Swift : Asset Storage</a></li>
+    
+    
+      <li>Next: <a href="configuration.html">Configuration</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="index.html">Reference Guides</a>
+        
+        <ul><li>Tomcat : WebServer</li></ul>
+        </li></ul>
+      </li>
+  </ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/tomcat.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Dec 06, 2017</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="swift asset storage.html" title="Swift : Asset Storage">previous</a>
+     |
+    <a href="index.html" title="Reference Guides" accesskey="U">up</a>
+   |
+    <a href="configuration.html" title="Configuration">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

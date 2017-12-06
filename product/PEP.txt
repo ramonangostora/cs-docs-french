@@ -1,3 +1,24 @@
 ===========================
 Partner Engagement Platform
 ===========================
+
+#. The Contentsphere Onboarding Portal supports the seamless integration
+   of various data sources and ensures efficient processes through
+#. Standardised upload, validation and editing processes.
+#. Direct communication and feedback via a central platform.
+#. Cooperation of all participants in the creation of an optimum purchasing experience.
+#. Integration of data pools, content aggregators and other available sources.
+#. Upload and merging of data, quickly and via a secure access point.
+
+
+COMPREHENSIVE FUNCTIONALITIES OUT-OF-THE-BOX
+
+The Contentsphere Onboarding-Portal significantly simplifies the management of data from different sources.
+The solution is a module of our Contextual Multi-Domain MDM, but can also be used and connected separately. A range of functionalities are available directly “out-of-the-box”, including:
+
+#. Automatically create of variants
+#. Create Golden Records for maximum data quality.
+#. Match & Merge data and check for duplicates across all data sources.
+#. Enquire articles of suppliers and initiate request for proposal processes.
+#. Allow suppliers to edit data directly online, thanks to web-based access via a browser.
+#. Data can be delivered and mapped in Excel format or as structured formats, such as XML.

@@ -1,0 +1,54 @@
+=================
+Parametric Search
+=================
+
+.. image:: /how/_images/line-png-32.png
+
+#. Click on the Advanced Filter on the right side to the top.
+
+.. image:: /how/_images/line-png-32.png
+
+.. figure:: /how/_images/advanced_filter_click.png
+
+   *Click on the Advanced Filter on the right side to the top.*
+
+#. Select an Attribute for example List Price
+
+.. image:: /how/_images/line-png-32.png
+
+.. figure:: /how/_images/list_price_attribute.png
+
+*Click on the Advanced Filter on the right side to the top.*
+
+#. Click on the drop down list of the Contains Button, a list with multiple values will be visible. Select the appropriate operator.
+
+.. image:: /how/_images/line-png-32.png
+
+.. figure:: /how/_images/contains_button_select.png
+
+*Click on the Advanced Filter on the right side to the top.*
+
+#. Select the appropriate operator (eg. Greater than), based on the attribute the units can be selected from a drop down list and then select the value and Click Apply
+
+.. image:: /how/_images/line-png-32.png
+
+
+#. Based on the Search criteria the Search Result will be displayed. The search criteria will be displayed in the Applied Filter section as shown in the image.
+
+.. image:: /how/_images/line-png-32.png
+
+.. figure:: /how/_images/search_results.png
+
+
+#. Multiple properties(attributes/tags) can also be used for better and narrowed down search.
+
+.. image:: /how/_images/line-png-32.png
+
+#. Multiple criterias can be applied for a single property as well with a OR operation.
+
+.. image:: /how/_images/line-png-32.png
+
+How It's Done
+-------------
+
+.. image:: /how/_images/line-png-32.png

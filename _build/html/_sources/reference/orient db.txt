@@ -1,0 +1,50 @@
+======================
+OrientDB : Graph Store
+======================
+
+Brief :-
+We would be using OrientDB as Graph Storing Component.
+There are a lot of interconnections within the data like links between articles, links between promotions and articles, links between various variants of the articles etc. This leads to a lot of joins in traditional RDBMS systems leading to performance degradation. In order to significantly boost the performance of fetching linked data, we use a graph database.
+Installation :-
+Setup and Configuration :-
+1.	Download OrientDB Community 2.1.16 (/opt/cs/orientdb) http://orientdb.com/download.php?email=unknown@unknown.com&file=orientdb-community-2.1.16.tar.gz&os=multi
+2.	Extract tar.gz
+a.	cd /opt/cs/orientdb
+b.	tar -zxvf orientdb-community-2.1.16.tar.gz
+3.	Specify path and user in orientdb.sh (orientdb-community-2.1.16/bin)
+0.	vim orientdb-community-2.1.16/bin/orientdb.sh
+1.	Add Following :
+1.	ORIENTDB_DIR=/opt/cs/orientdb/orientdb-community-2.1.16
+2.	ORIENTDB_USER=<system username>
+4.	Change configurations
+0.	vim orientdb-community-2.1.16/bin/orientdb.sh
+1.	Add the following line in start() function (And comment the previous line which looks similar to the following. This is done so that password will not be asked while starting the service)
+1.	sudo -u $ORIENTDB_USER sh -c "cd \"$ORIENTDB_DIR/bin\"; /usr/bin/nohup ./server.sh 1>../log/orientdb.log 2>../log/orientdb.err &"
+2.	Add the following line in stop() function (And comment the previous line which looks similar to the following. This is done so that password will not be asked while stoping the service)
+1.	sudo -u $ORIENTDB_USER sh -c "cd \"$ORIENTDB_DIR/bin\"; /usr/bin/nohup ./shutdown.sh 1>>../log/orientdb.log 2>>../log/orientdb.err &"
+5.	Specify Memory:
+0.	vim orientdb-community-2.1.16/bin/server.sh
+1.	Search for "ORIENTDB_OPTS_MEMORY="-Xms512m -Xmx512m""
+2.	Change it to the required values as per your hardware configurations.
+6.	Replace  orientdb-server-config.xml and cp OrientDB.jar (Note: replace orientdb-server-config.xml with the one modified by  our developers.)
+0.	cp <path of CS-Refactored >/CS-Refactored/ServerPlugins/OrientDB/src/main/resources/orientdb-server-config.xml
+1.	PATH To Copy : /opt/cs/orientdb/orientdb-community-2.1.16/config/
+7.	Add plugins :
+0.	cp <path of CS-Refactored >/ CS-Refactored/ServerPlugins/OrientDB/build/libs/OrientDB.jar
+1.	PATH To Copy : /opt/cs/orientdb/orientdb-community-2.1.16/lib
+Verify If Plugin(OrientDB.jar) and xml file (orientdb-server-config.xml) are present at respective locations : /opt/cs/orientdb/orientdb-community-2.1.16/lib and /opt/cs/orientdb/orientdb-community-2.1.16/config.
+Application Startup :-
+1.	Start Orientdb
+a.	/opt/cs/orientdb/orientdb-community-2.1.16/bin/orientdb.sh start
+2.	Check whether the service is running or not
+ .	netstat -tulpn | grep 2480
+Commands :-
+1.	Stop OrientDB
+a.	/opt/cs/orientdb/orientdb-community-2.1.16/bin/orientdb.sh stop
+b.	# fuser is used just to kill the process if it is running even after using 'orientdb.sh stop'
+c.	fuser -k 2480/tcp
+2.	Start OrientDB
+0.	/opt/cs/orientdb/orientdb-community-2.1.16/bin/orientdb.sh start
+3.	Check If Application Is Running
+0.	netstat -tulpn | grep 2480
+1.	ps -ef | grep orientdb
