@@ -1,15 +1,15 @@
 =======================
 MDM 6: Fulltext Search
 =======================
-The Fulltext Search feature allows a user the capability to search for a product or asset directly using matching criteria.
+The Fulltext Search feature gives a user the capability to search for a product or asset directly by using the matching criteria.
 
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search for products or assets in the system using the fulltext search. The search feature should return all objects that match the search criteria.
+**User Story:**         As a user, I want to search for products or assets in the system using a fulltext search. The search feature should return all objects that match the search criteria.
 
-**Description:**        * This feature is used to search for a product, directly.
+**Description:**        * This feature is used to search directly for a product .
 
 **Prerequisite:**       * *Search Bar*
                         * *Products*
@@ -17,9 +17,9 @@ The Fulltext Search feature allows a user the capability to search for a product
 **Application:**        * A user can use the fulltext search to search for a single product.
                         * *Example:*
 
-                            If a user only wants to search for Red Bull in the system, the user directly types Red Bull on the search bar.  The search results will only display entries with Red Bull.
+                            If a user only wants to search for Red Bull in the system, the user directly types "Red Bull" on the search bar.  The search results will only display entries with Red Bull.
 
-**How To:**               A How to do: Fulltext Search document is available to provide instructions on how to do this search in the system.
+**How To:**               A **How to do: Fulltext Search** document is available to provide instructions on how to do this search in the system.
 =================       =============================================================================================================================================================
 
 |
@@ -38,16 +38,16 @@ To do a Fulltext Search, follow these steps:
 
 |
 
-#. Enter the search keyword (in this example, *Red Bull*) then, click **Enter**.
+#. Enter the search keyword(s) (in this example, *Red Bull*) then, click **Enter**.
 
 |
 
-#. View the search results that are displayed based on the attributes that are defined as searchable.
+#. View the search results that are displayed based on the attributes.  These attributes should have been defined as searchable.
 
 .. figure:: /feature/mdm/_images/fulltext_search_03.png
 |
 
-*Note: The products that contain the keywords (in this example, "Red" and "Bull") were searched for and displayed. That is, the bag containing 'Red' and energy drink 'Red Bull' are both displayed.*
+*Note: The products that contain the keywords (in this example, "Red" and "Bull") were searched for and displayed. That is, the bag containing 'Red' and the energy drink 'Red Bull' are both displayed.*
 
 .. figure:: /feature/mdm/_images/fulltext_search_04.png
 |

@@ -1,5 +1,5 @@
 ==============================
-CORE 16: Multi-Faceted Search
+CORE 16: Multi-faceted Search
 ==============================
 The Faceted Search feature allows a user to have a multi-faceted search support functionality in addition to the multi-criteria search for refined search results.
 
@@ -20,7 +20,7 @@ The Faceted Search feature allows a user to have a multi-faceted search support 
 **Application:**        * Using either of the ways, a user will land to the desired searched product.
                         * A user can use sorting used to sort the products in ascending or descending order.
 
-**How To:**               A How to do: Multi-faceted Search document is available to show the steps on how to perform that search.
+**How To:**               A **How to do: Multi-faceted Search** document is available to show the steps on how to perform that search.
 =================       =============================================================================================================================================================
 
 |
@@ -41,7 +41,7 @@ To do a multi-faceted search, follow these steps:
 |
 |
 
-#. Apply filters such as *Gender*.
+#. Apply filter(s) such as *Gender*.
 
 .. image:: /feature/mdm/_images/fs02.png
 |

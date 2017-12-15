@@ -7,12 +7,12 @@ The Search within Taxonomy feature allows a user to search (for an article or a 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As a user, I want to search for products or assets using search with taxonomy.
+**User Story:**         * As a user, I want to search for products or assets using search within taxonomy.
                         * As a user, I want to navigate the system via taxonomy.
 
 **Description:**        * This feature allows a user to search for an item or navigate the system.
                         * This feature provides a classification of products that gives a user the ease to search.
-                        * This feature provides a user a hierarchy of object in the Taxonomy that can be used
+                        * This feature provides a user a hierarchy of objects in the Taxonomy that can be used
                           for navigation.
 
 **Prerequisite:**       *Taxonomy*  the ordered classification of products.
@@ -22,7 +22,7 @@ The Search within Taxonomy feature allows a user to search (for an article or a 
 
                             If a user wants to search for an object or navigate the system, the user can use the Taxonomy Hierarchy.
 
-**How To:**               A How to do: Search within taxonomy document is available to show the steps on how to perform that search.
+**How To:**               A **How to do: Search within Taxonomy** document is available to show the steps on how to perform that search.
 =================       ===============================================================================================================================================================
 
 |
@@ -57,19 +57,19 @@ To do a search within taxonomy, follow these steps:
 |
 |
 
-#. Click on a node to display another list of children nodes along with the count of products. The selected node is highlighted in bold text.
+#. Click on a node to display another list of children nodes along with the count of the products. The selected node is highlighted in bold text.
 
 .. image:: /feature/mdm/_images/ts04.png
 |
 |
 
-#. Tick the checkbox on the title heading to select all children nodes at once.
+#. Tick the checkbox of the title heading to select all children nodes at once.
 
 .. image:: /feature/mdm/_images/ts05.png
 |
 |
 
-#. To view the entire taxonomoy tree structure including the blank nodes, click the **Show All** button.
+#. To view the entire taxonomy tree structure including the blank nodes, click the **Show All** button.
 
 .. image:: /feature/mdm/_images/ts05.png
 |
@@ -78,7 +78,7 @@ To do a search within taxonomy, follow these steps:
 |
 |
 
-#. To desselect all the selected taxonomy nodes, click the **Clear Selection** button.
+#. To desselect all selected taxonomy nodes, click the **Clear Selection** button.
 
 .. image:: /feature/mdm/_images/ts06.png
 |

@@ -14,17 +14,17 @@ so that the users can narrow down items using the specified criteria.
 **Description:**        * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
                         * A user can put the conditions for the filter values.
 
-**Prerequisite:**       *Advance Filter*  to set the values in *Tags*, *Attributes*, and *Roles*.
+**Prerequisite:**       *Advanced Filter*  to set the values in *Tags*, *Attributes*, and *Roles*.
 
-**Application:**        * A user can use the advance filter for the conditional search.
+**Application:**        * A user can use the advanced filter for the conditional search.
                         * A user can use specific detailed search to narrow down items with the help of the fine criteria.
                         * *Examples:*
 
-                            Number attribute can have conditions such as range, greater than, less than, etc.
+                            Number attribute can have conditions such as *range, greater than, less than*, etc.
 
-                            Text attibute can have conditions such as starts with, ends with, contains, etc.
+                            Text attibute can have conditions such as *starts with, ends with, contains*, etc.
 
-**How To:**               A How to do: Parametric Search document is available to show the steps on how to perform a parametric search.
+**How To:**               A **How to do: Parametric Search** document is available to show the steps on how to perform a parametric search.
 =================       =============================================================================================================================================================
 
 |
@@ -59,7 +59,7 @@ To do a parametric search, follow these steps:
 
 |
 
-#. The search results will be displayed based on the search criteria. The search criteria can be found in the **Applied Filter** section as shown.
+#. Wait for the search results to be displayed based on the search criteria. The search criteria can be found in the **Applied Filter** section as shown.
 
 .. image:: /feature/mdm/_images/search_results.png
 |

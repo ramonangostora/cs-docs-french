@@ -11,16 +11,16 @@ The Group By feature allows a user to view a group of objects in the system by s
 
 **Description:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
 
-**Prerequisite:**       *Group By*  to make groups according to Tags and Attributes.
+**Prerequisite:**       *Group By*  to make groups according to *Tags* and *Attributes*.
 
 **Application:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
                         * The feature allows a user to specify the sequence of grouping attributes.
                         * *Example:*
 
-                            If a user wants to view a group of products that is related to Female section, the *Group By*  feature may be used.
+                            If a user wants to view a group of products that is related to **Female section**, the *Group By*  feature may be used.
 
 
-**How To:**               A How to do: Group By document is available to provide instructions on how to group objects in the system.
+**How To:**               A **How to do: Group By** document is available to provide instructions on how to group objects in the system.
 =================       =============================================================================================================================================================
 
 |
@@ -35,19 +35,19 @@ To do a Group By, follow these steps:
 
 |
 
-#. Click the **Group By** button found on the upper right section.
+#. Click the **Group By** button found on the upper right corner of the screen.
 
 .. image:: /feature/mdm/_images/group_by_01.png
 |
 |
 
-#. Click the "+" icon to add the properties for a grouping.
+#. Click the "+" icon to add the properties of a grouping.
 
 .. image:: /feature/mdm/_images/group_by_02.png
 |
 |
 
-#. Select the property to be grouped. A list of values will be displayed along with the number of products.
+#. Select the property/properties to be used. A list of values will be displayed along with the number of products.
 
 .. image:: /feature/mdm/_images/group_by_03.png
 |
@@ -55,7 +55,7 @@ To do a Group By, follow these steps:
 |
 |
 
-#. Wait for the product to be displayed upon selecting the value.
+#. View the products that are displayed after selecting the value.
 
 .. image:: /feature/mdm/_images/group_by_04.png
 |
