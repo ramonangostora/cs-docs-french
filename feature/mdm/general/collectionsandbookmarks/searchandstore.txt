@@ -1,6 +1,6 @@
-==========================
-Search and Store Bookmarks
-==========================
+======================================
+CORE E-52: Search and Store Bookmarks
+======================================
 
 
 
@@ -26,24 +26,30 @@ The search and Store Bookmarks feature provides general users the ability to use
                           If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
                           When a fully automated washing machine is added to the system, it is automatically added to the bookmark.
 
+
+**How To**              Below are the steps on how to search and store bookmarks.
+
+
 =================       =============================================================================================================================================================
 
-Below are the steps on how to search and store bookmarks.
 
-|
 
-|
+.. image:: /feature/_images/line-png-32.png
+
+
 
 How to Do Search and Store Bookmarks
-------------------------------------
+====================================
+
 This **How To** guide provides instructions on how to search for products or assets using various criteria.
 It also provides details on how to save the search results and how to visit these results at a later time. Follow these steps:
 
 
-.. image:: /how/_images/line-png-32.png
 
-**Storing a bookmark**
+Storing a bookmark
+------------------
 
+|
 
 #. Go to PIM.
 
@@ -51,13 +57,13 @@ It also provides details on how to save the search results and how to visit thes
 
 #. Go to Advanced Filters.
 
-.. image:: /how/_images/searchandexplore_GotoAdvancedFiltersandselectthefilterforbookmark.png
+.. image:: /feature/_images/searchandexplore_GotoAdvancedFiltersandselectthefilterforbookmark.png
 |
 |
 
 #. Select the filter for bookmarks and click on apply.
 
-.. image:: /how/_images/searchandstore_clickonapply.png
+.. image:: /feature/_images/searchandstore_clickonapply.png
 |
 |
 
@@ -65,22 +71,24 @@ It also provides details on how to save the search results and how to visit thes
 
 |
 
-#. Click *Create Bookmarks* button.
+#. Click **Create Bookmarks** button.
 
-.. image:: /how/_images/searchandstore_clickcreatebookmarksbutton.png
+.. image:: /feature/_images/searchandstore_clickcreatebookmarksbutton.png
 |
 |
 
 #. Check the notification at the lower left side of the page noting that the bookmark has been added successfully.
 
-.. image:: /how/_images/searchandstore_checkthenotificationatthelowerleftsideofthepage.png
+.. image:: /feature/_images/searchandstore_checkthenotificationatthelowerleftsideofthepage.png
 |
 
-.. image:: /how/_images/line-png-32.png
+.. image:: /feature/_images/line-png-32.png
 
 
-**Searching for a bookmark**
+Searching for a bookmark
+------------------------
 
+|
 
 #. Go to PIM.
 
@@ -88,19 +96,19 @@ It also provides details on how to save the search results and how to visit thes
 
 #. On the search bar, click the Bookmark icon.
 
-.. image:: /how/_images/searchandstore_onthesearchbarclickthebookmarkicon.png
+.. image:: /feature/_images/searchandstore_onthesearchbarclickthebookmarkicon.png
 |
 |
 
-#. Type the name of the bookmark and click the *Open* button.
+#. Type the name of the bookmark and click the **Open** button.
 
-.. image:: /how/_images/searchandstore_typethenameofthebookmark.png
+.. image:: /feature/_images/searchandstore_typethenameofthebookmark.png
 |
 |
 
 #. Once done, wait for the bookmark to open.
 
-.. image:: /how/_images/searchandstore_oncedonewaitforthebookmarkpagetoopen.png
+.. image:: /feature/_images/searchandstore_oncedonewaitforthebookmarkpagetoopen.png
 *Note: The bookmark page will be updated automatically, if in the opted category, more products are added.*
 
 |

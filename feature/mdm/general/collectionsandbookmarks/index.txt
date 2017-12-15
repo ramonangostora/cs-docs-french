@@ -1,6 +1,6 @@
-=========================
-Collections and Bookmarks
-=========================
+===================================
+CORE E-2: Collections and Bookmarks
+===================================
 
 .. toctree::
    :maxdepth: 1

@@ -1,5 +1,174 @@
-=====================================
-Private / Public Bookmark Collections
-=====================================
+======================================================
+CORE-53: Public or Private Bookmarks and Collections
+======================================================
 
-testing
+
+
+
+The Public / Private Bookmarks and Collections feature provides general users the ability to set a bookmark as a public or private bookmark.
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to define a bookmark or collection as either Private or Public.
+
+**Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visble to all users of the system
+                        * A lock icon indicates that the bookmark is a private. bookmark
+                        * An unlock icon indicates that the bookmark is a public bookmark.
+                        * To change a bookmark into a private bookmark, user needs to click the lock icon to lock the bookmark and change it into a private one.
+
+**Prerequisite:**       User must create a bookmark.
+
+**Application:**        * A bookmark can be a private or a public bookmark.
+                        * A private bookmark will only be seen by the user who created the bookmark, and not the other users.
+                        * *Examples:*
+
+
+                        Suppose the marketing team of a company has created a bookmark for a trial,
+                        they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
+                        On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.
+
+**How To**              Below are the steps on how to search and store bookmarks.
+
+
+=================       =============================================================================================================================================================
+
+
+
+.. image:: /feature/_images/line-png-32.png
+
+
+
+How to Do Public or Private Bookmarks and Collections
+=====================================================
+
+This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting provides access to any user while a private setting restricts access to specific users.
+Follow these steps:
+
+
+.. image:: /feature/_images/line-png-32.png
+
+Bookmarks: Setting a Public bookmark
+------------------------------------
+
+|
+
+#. Log in as admin.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_loggedinasadmin.png
+|
+|
+
+#. Go to the desired bookmark.
+
+|
+
+#. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_thedefaultsettingofabookmarkispublic.png
+|
+|
+
+#. Once done, the bookmark can be viewed by all users.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewablebyallusers.png
+*As seen on the image above, the bookmark can be viewed by the Seller.*
+
+.. image:: /feature/_images/line-png-32.png
+
+
+Bookmarks: Setting a Private bookmark
+-------------------------------------
+
+|
+
+#. Log in as admin.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_loggedinasadmin.png
+|
+|
+
+#. Go to the desired bookmark.
+
+|
+
+#. Click on the bookmark icon and set the bookmark to *Private*.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_clickonthebookmarkicontomakeitprivate.png
+|
+|
+
+#. Once done, the bookmark can be viewed only by specific users.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewableonlytospecificusers.png
+*As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
+
+.. image:: /feature/_images/line-png-32.png
+
+
+Collections: Setting a Public collection
+----------------------------------------
+
+|
+
+#. To start creating a collection, select the products or assets that will be included in the collection.
+
+|
+
+#. Click on the pin icon on the right side of the search bar to create the collection.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_clickonthepinbuttonontherightside.png
+|
+|
+
+#. Name the collection and click on the *Create Collection* button.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_namethecollection.png
+|
+|
+
+#. Once created, search for the collection as you would a bookmark.
+
+|
+
+#. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncefoundcheckthedefaultsettingispublic.png
+|
+|
+
+#. Once done, the collection data can be viewed by all users.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectionwillbeviewablebyallusers.png
+|
+
+.. image:: /feature/_images/line-png-32.png
+
+
+Collections: Setting a Private collection
+------------------------------------------
+
+|
+
+#. To set a collection to private, search for the collection.
+
+|
+
+#. Once searched, click on the lock icon to change the setting to *Private*.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncesearchedclickonthelockicon.png
+|
+|
+
+#. Once done, the collection can be viewed only by specific users.
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectioncanonlybeviewedbyspecific1.png
+
+|
+
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectioncanonlybeviewedbyspecific2.png
+*As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
+
+|
+
+.. image:: /feature/_images/line-png-32.png
