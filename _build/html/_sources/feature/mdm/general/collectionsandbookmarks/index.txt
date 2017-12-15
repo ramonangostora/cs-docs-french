@@ -1,0 +1,11 @@
+=========================
+Collections and Bookmarks
+=========================
+
+.. toctree::
+   :maxdepth: 1
+
+   searchandstore
+   bookmarkcollections
+   manageproducts
+   collectionhierarchy

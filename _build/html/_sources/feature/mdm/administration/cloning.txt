@@ -4,4 +4,3 @@ Manage Buyer Catalog
 
 .. image:: /feature/_images/line-png-32.png
    :alt: Contentsphere log in screen
-   

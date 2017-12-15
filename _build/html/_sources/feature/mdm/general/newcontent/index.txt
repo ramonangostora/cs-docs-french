@@ -1,0 +1,9 @@
+=========================
+Collections and Bookmarks
+=========================
+
+.. toctree::
+   :maxdepth: 1
+
+   searchandexplore
+   bookmarkcollections

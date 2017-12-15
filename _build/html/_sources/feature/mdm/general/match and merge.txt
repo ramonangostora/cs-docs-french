@@ -1,0 +1,23 @@
+===============
+Match and Merge
+===============
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere log in screen
+
+
+Concept
+-------
+
+As a buyer I want to manage my own catalog of products in the master catalog
+so that I can manage the products from partners that I am associated with
+
+
+View
+----
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentspher log in screen
+
+Usage
+-----
