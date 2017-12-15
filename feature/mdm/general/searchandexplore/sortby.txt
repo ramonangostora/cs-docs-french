@@ -7,12 +7,12 @@ The Sort By feature allows a user to view products and assets in the system acco
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         One or more attributes: As a user, I want to be able to sort products in the system according to specific attribute sort-order.
+**User Story:**         One or more attributes: As a user, I want to be able to sort products in the system according to specific attribute sort order.
 
 **Description:**        * The Sort By feature allows the use of filters to sort products in ascending or
                           descending order.
 
-**Prerequisite:**       *Sort By Filter* is to arrange the products in descending or ascending order.
+**Prerequisite:**       *Sort By Filter*  to arrange the products in descending or ascending order.
 
 **Application:**        * A user can sort the products in the desired order either ascending or descending order.
                         * The feature gives the ease to search the product by arranging it in a user's desired order.
@@ -21,9 +21,51 @@ The Sort By feature allows a user to view products and assets in the system acco
                             If a user wants to arrange products from highest to lowest price, or arrange the product alphabetically, the Sort By feature is used.
 
 
-**Link:**               A :doc:`How to do: Sort By </how/howtodo/sort by>` document is available to show the steps on how to perform the Sort By feature.
+**How To:**               A How to do: Sort By document is available to provide instructions on how to sort objects in the system.
 =================       =============================================================================================================================================================
 
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
+
+
+How to do: Sort By
+==================================
+To do a Sort By, follow these steps:
+
+|
+
+#. Click the **Sort By** button. Only filterable properties are displayed.
+
+.. image:: /feature/mdm/_images/sort_by_01.png
+|
+|
+
+#. Select an attribute. The selected attribute is highlighted in bold.
+
+|
+
+#. An icon is shown near the selected attribute to indicate the sorting order.
+
+.. figure:: /feature/mdm/_images/sort_by_03.png
+|
+|
+
+  *Examples:*
+
+  |
+
+  #. Below is an example of List Price in ascending order.
+
+  .. image:: /feature/mdm/_images/sort_by_04.png
+  |
+  |
+
+  #. Below is an example of List Price in descending order.  Click the icon near the attribute to toggle between ascending or descending sort order.
+
+  .. image:: /feature/mdm/_images/sort_by_05.png
+  |
 
 .. image:: /feature/_images/line-png-32.png
    :alt: Contentsphere line

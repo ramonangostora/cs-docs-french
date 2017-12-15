@@ -14,7 +14,7 @@ so that the users can narrow down items using the specified criteria.
 **Description:**        * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
                         * A user can put the conditions for the filter values.
 
-**Prerequisite:**       *Advance Filter* is to set the values in *Tags*, *Attributes*, and *Roles*.
+**Prerequisite:**       *Advance Filter*  to set the values in *Tags*, *Attributes*, and *Roles*.
 
 **Application:**        * A user can use the advance filter for the conditional search.
                         * A user can use specific detailed search to narrow down items with the help of the fine criteria.
@@ -24,9 +24,52 @@ so that the users can narrow down items using the specified criteria.
 
                             Text attibute can have conditions such as starts with, ends with, contains, etc.
 
-**Link:**               A :doc:`How to do: Parametric Search </how/howtodo/parametric search>` document is available to show the steps on how to perform a parametric search.
+**How To:**               A How to do: Parametric Search document is available to show the steps on how to perform a parametric search.
 =================       =============================================================================================================================================================
 
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
+
+
+How to do: Parametric Search
+=============================
+To do a parametric search, follow these steps:
+
+|
+
+#. Click the **Advanced Filter** button found on the upper right corner.
+
+.. image:: /feature/mdm/_images/advanced_filter_click.png
+
+#. Select an attribute, for example, *List Price*.
+
+.. image:: /feature/mdm/_images/list_price_attribute.png
+|
+|
+
+#. Click the **Contains** drop-down list and select the appropriate operator.
+
+.. image:: /feature/mdm/_images/contains_button_select.png
+|
+|
+
+#. After selecting an operator based on the attribute, select the value and click the **Apply** button.
+
+|
+
+#. The search results will be displayed based on the search criteria. The search criteria can be found in the **Applied Filter** section as shown.
+
+.. image:: /feature/mdm/_images/search_results.png
+|
+|
+
+#. For improved and narrowed down search, use multiple properties (attributes/tags).
+
+|
+
+*Note: Multiple criteria can be applied for a single property as well using an "OR" operation.*
 
 .. image:: /feature/_images/line-png-32.png
    :alt: Contentsphere line
