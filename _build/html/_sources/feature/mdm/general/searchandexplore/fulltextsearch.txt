@@ -1,0 +1,23 @@
+=======================
+MDM 6: Fulltext Search
+=======================
+The Fulltext Search feature allows a user the capability to search for a product or asset directly using matching criteria.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to search products or assets in the system using the fulltext search. The search feature should return all objects that match the search criteria.
+
+**Description:**        * This feature is used to search for a product, directly.
+
+**Prerequisite:**       * *Search Bar*
+                        * *Products*
+
+**Application:**        * A user can use the fulltext search to search for a single product.
+                        * *Example:*
+
+                            If a user only wants to search for Red Bull in the system, the user directly types Red Bull on the search bar.  The search results will only display entries with Red Bull.
+
+**Link:**               A :doc:`How to do: Fulltext Search </how/howtodo/fulltext search>` document is available to show the steps on how to perform a fulltext search.
+=================       =============================================================================================================================================================

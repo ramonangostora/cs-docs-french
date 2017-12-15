@@ -1,0 +1,28 @@
+=============================
+CORE 16: Multi-Faceted Search
+=============================
+The Faceted Search feature allows a user to have a multi-faceted search support functionality in addition to the multi-criteria search for refined search results.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to be able to search products or assets using the multi-criteria search with a multi-faceted search support functionality to refine the results.
+
+**Description:**        * In addition to multi-criteria search, the solution will feature multi-faceted search support functionality to refine results.
+                        * A user can refine the results through filters or taxonomy.
+                        * A user can sort filters used to sort the products in ascending or descending order.
+
+**Prerequisite:**       * *Taxonomy* is to select taxonomy criteria.
+                        * *Application Filter* is to choose the filterable tags.
+                        * *Sort by* is to sort the product as per the order.
+
+**Application:**        * Using either of the ways, a user will land to the desired searched product.
+                        * A user can use sorting used to sort the products in ascending or descending order.
+
+**Link:**               A :doc:`How to do: Faceted Search </how/howtodo/faceted search>` document is available to show the steps on how to perform a multi-faceted search.
+=================       =============================================================================================================================================================
+
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

@@ -1,0 +1,28 @@
+==================
+CORE 63: Group By
+==================
+The Group By feature allows a user to view a group of objects in the system by specifying an attribute.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.
+
+**Description:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
+
+**Prerequisite:**       *Group By* is to make groups according to Tags and Attributes.
+
+**Application:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
+                        * The feature allows a user to specify the sequence of grouping attributes.
+                        * *Example:*
+
+                            If a user wants to view a group of products that is related to Female section, the *Group By*  feature may be used.
+
+
+**Link:**               A :doc:`How to do: Group By </how/howtodo/group by>` document is available to show the steps on how to perform the Group By feature.
+=================       =============================================================================================================================================================
+
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

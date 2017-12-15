@@ -1,0 +1,29 @@
+=================
+CORE 64: Sort By
+=================
+The Sort By feature allows a user to view products and assets in the system according to a specific attribute sort-order.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         One or more attributes: As a user, I want to be able to sort products in the system according to specific attribute sort-order.
+
+**Description:**        * The Sort By feature allows the use of filters to sort products in ascending or
+                          descending order.
+
+**Prerequisite:**       *Sort By Filter* is to arrange the products in descending or ascending order.
+
+**Application:**        * A user can sort the products in the desired order either ascending or descending order.
+                        * The feature gives the ease to search the product by arranging it in a user's desired order.
+                        * *Example:*
+
+                            If a user wants to arrange products from highest to lowest price, or arrange the product alphabetically, the Sort By feature is used.
+
+
+**Link:**               A :doc:`How to do: Sort By </how/howtodo/sort by>` document is available to show the steps on how to perform the Sort By feature.
+=================       =============================================================================================================================================================
+
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

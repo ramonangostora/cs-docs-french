@@ -1,0 +1,32 @@
+==========================
+CORE 1: Parametric Search
+==========================
+The Parametric Search feature provides general users the ability to search products or assets using various data fields
+so that the users can narrow down items using the specified criteria.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to search products or assets using various/detailed criteria so that I can narrow down
+                        items using the fine criteria.
+
+**Description:**        * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
+                        * A user can put the conditions for the filter values.
+
+**Prerequisite:**       *Advance Filter* is to set the values in *Tags*, *Attributes*, and *Roles*.
+
+**Application:**        * A user can use the advance filter for the conditional search.
+                        * A user can use specific detailed search to narrow down items with the help of the fine criteria.
+                        * *Examples:*
+
+                            Number attribute can have conditions such as range, greater than, less than, etc.
+
+                            Text attibute can have conditions such as starts with, ends with, contains, etc.
+
+**Link:**               A :doc:`How to do: Parametric Search </how/howtodo/parametric search>` document is available to show the steps on how to perform a parametric search.
+=================       =============================================================================================================================================================
+
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
