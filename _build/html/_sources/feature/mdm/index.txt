@@ -10,4 +10,3 @@ MDM Feature Guides
    general/index
    governance/index
    products/index
-   

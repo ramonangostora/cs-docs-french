@@ -1,0 +1,89 @@
+===========================================
+CORE-74: Embedded Variants within Contexts
+===========================================
+
+
+
+
+The Manage Products across Collections feature provides general users the ability to copy or move products or objects between collections.
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to copy or move products or objects between collections.
+
+**Description:**        * Collections are created to collect and store a group of products based on the relevance of the user.
+                        * Collections can have their own hierarchy and the products in the collection can belong to these hierarchies.
+                        * Collections help to quickly classify a group of products.
+
+**Prerequisite:**       * Product created
+                        * Collection hierarchy
+
+**Application:**        * Collections helps the user to group the products and place them in hierachies.
+                        * *Example:*
+
+                          A collection can be made for a few furtniture products and in the collection, hierarchies can be made based on the class type for the article.
+
+
+**How To**              A **How to do: Manage Products across Collections** document is available below.
+
+
+=================       =============================================================================================================================================================
+
+
+
+.. image:: /feature/_images/line-png-32.png
+
+
+
+How to do: Manage Products across Collections
+=============================================
+
+This How To guide provides instructions on how to copy or move products across collections.
+To do this, follow these steps:
+
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/manageprodacrosscollections_gotopim.png
+|
+|
+
+#. Go to *Collections* and click on the **ORGANIZE** button.
+
+.. image:: /feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png
+|
+|
+
+#. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
+
+.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png
+|
+
+.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png
+|
+
+#. Go back to the first collection and select the product you would like to copy or move.
+
+   | *Note: Multiple products can be selected for copying.*
+
+|
+|
+
+#. Once selected, click on the *Copy* button on the upper right side of the page.
+
+.. image:: /feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png
+|
+|
+
+#. Go to the collection where you want to copy the product.
+
+|
+
+#. Click **Paste**.
+
+.. image:: /feature/_images/manageprodacrosscollections_clickpaste.png
+
+|
