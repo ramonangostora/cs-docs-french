@@ -1,8 +1,10 @@
-==================
-MDM Feature Guides
-==================
+===============================
+MDM Guide for General Features
+===============================
 
 .. toctree::
    :maxdepth: 1
 
-   
+   multitaxonomyassignment/index
+   searchandexplore/index
+   collectionsandbookmarks/index

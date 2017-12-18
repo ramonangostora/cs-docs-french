@@ -1,0 +1,73 @@
+==================================
+CORE 3: Multi-taxonomy Assignment
+==================================
+The Multi-taxonomy Assignment feature provides general users the capability to assign an object to various taxonomies or to multiple nodes within the same taxonomy.
+
+
+=================       ===============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to assign a single object to multiple different taxonomies or to multiple nodes within the same taxonomy.
+
+**Description:**        * This feature allows multiple taxonomies to be assigned to a single product.
+                        * This feature enhances the classification of products/articles in a more structured way.
+
+**Prerequisite:**       * *Products* created.
+                        * *Taxonomy* configured in the settings.
+
+**Application:**        * This feature is used to classify a product into 2 or more structures or hierarchies. Taxonomies allow a user to have hierarchies in the system.
+                          Multiple hierarchies can be applied to a product.
+                        * *Example:*
+
+                            A user has created an energy drink product and was given a hierarchy of just *Beverages* for the product under *Food and Beverages*. The product
+                            may also have another hierarchy which can be under *Sports and Energy Drinks*. Multi-taxonomy allows a user to have more than one taxonomy for the product.
+
+**How To:**               A **How to do: Multi-taxonomy Assignment** document is available to list the steps on how to apply this feature.
+=================       ===============================================================================================================================================================
+
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
+
+
+How to do: Multi-taxonomy Assignment
+====================================
+To assign a single object to multiple different taxonomies or to multiple nodes within the same taxonomy, follow these steps:
+
+|
+
+#. On the product page, click on the **Add Taxonomy** button.
+
+.. image:: /feature/mdm/_images/multitaxonomy_ontheprodpageclickaddtaxonomy.png
+|
+|
+
+#. From the drop-down list, select a parent taxonomy (e.g. *Products*).
+
+.. image:: /feature/mdm/_images/multitaxonomy_selectaparenttaxonomy.png
+|
+.. image:: /feature/mdm/_images/multitaxonomy_selectaparenttaxonomy2.png
+|
+|
+
+#. To further classify the product, click on the **Classify Further** button.
+
+.. image:: /feature/mdm/_images/multitaxonomy_tofurtherclassify.png
+|
+|
+
+#. Select a node from the drop-down list. In the images below, the example would be *Food > Beverages > Energy Drinks*.
+
+.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist.png
+|
+.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist2.png
+|
+
+*Note: The last image shows the multiple nodes within a single taxonomy added to the product.*
+
+.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist3.png
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

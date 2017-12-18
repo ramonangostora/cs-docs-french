@@ -1,0 +1,87 @@
+===============================================
+CORE 60: Product Classification via Taxonomies
+===============================================
+The Product Classification via Taxonomies feature provides the functionality to associate a product with another taxonomy to classify a product with multiple taxonomies.
+
+
+=================       ===============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to associate a product to a taxonomy and then to another taxonomy to classify the product using multiple taxonomies so that
+                          I have a more refined product classification.
+
+**Description:**        * Taxonomies are structured hierarchies which can be used to classify the products in the system.
+                        * Products can have multiple taxonomies set by users to have a more refined classification and easier search.
+
+**Prerequisite:**       * Articles created
+                        * Taxonomy
+
+**Application:**        * This feature is used to easily classify, as well as to search for a product with the help of taxonomy.
+                        * *Example:*
+
+                            If a user has an energy drink as a product that is classified under the *energy drink* taxonomy, the user can also associate the product to the
+                            *beverages* taxonomy that will allow the product to be easily refined using both taxonomies.
+
+**How To:**               A **How to do: Product Classification via Taxonomies** document is available to show the steps on how to do this feature.
+=================       ===============================================================================================================================================================
+
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
+
+
+How to do: Product Classification via Taxonomies
+================================================
+To do a product classification via taxonomies, follow these steps:
+
+|
+
+#. On the product page, click on the **Add Taxonomy** button to add a taxonomy to the product.
+
+.. image:: /feature/mdm/_images/prodclassification_clickonaddtaxonomy.png
+|
+|
+
+#. Select a parent taxonomy from the drop-down menu (e.g. *Products*).
+
+.. image:: /feature/mdm/_images/prodclassification_selectaparenttaxonomy.png
+|
+.. image:: /feature/mdm/_images/prodclassification_selectaparenttaxonomy2.png
+|
+|
+
+#. To further classify the product, click on **Classify Further** button.
+
+.. image:: /feature/mdm/_images/prodclassification_furtherclassify.png
+|
+|
+
+#. Select a node from the drop-down list (e.g. *Food > Beverages > Energy Drinks*).
+
+.. image:: /feature/mdm/_images/prodclassification_selectanode.png
+|
+.. image:: /feature/mdm/_images/prodclassification_selectanode2.png
+|
+.. image:: /feature/mdm/_images/prodclassification_selectanode3.png
+|
+|
+
+#. Go to PIM and click on the **Choose Taxonomies** button.
+
+.. image:: /feature/mdm/_images/prodclassification_gotopimandclickchoosetaxonomies.png
+|
+|
+
+#. Choose the *Products* taxonomy, followed by the *Food* node and then the *Beverages* node. Click the **Apply** button.
+
+.. image:: /feature/mdm/_images/prodclassification_choosetheproductstaxonomy.png
+|
+
+#. View the results that will contain the products that belong to the selected taxonomies.
+
+.. image:: /feature/mdm/_images/prodclassification_viewtheresults.png
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
