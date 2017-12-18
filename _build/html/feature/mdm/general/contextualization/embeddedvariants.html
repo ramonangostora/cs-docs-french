@@ -23,6 +23,8 @@
     <script type="text/javascript" src="../../../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="MDM-11: Target and Channel Contextualization" href="targetandchannel.html" />
+    <link rel="prev" title="CORE E-6 Contextualization - Attributes and Embedded Objects" href="index.html" />
 
 
 
@@ -105,7 +107,11 @@
       
     </div>
     <!-- <div class="nav">
-    <a title="Contentsphere  documentation" href="../../../../index.html" accesskey="U">up</a></div> -->
+    &laquo; <a href="index.html" title="CORE E-6 Contextualization - Attributes and Embedded Objects">previous</a>
+     |
+    <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="targetandchannel.html" title="MDM-11: Target and Channel Contextualization">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
@@ -114,7 +120,7 @@
             
   <div class="section" id="s-core-74-embedded-variants-within-contexts">
 <span id="core-74-embedded-variants-within-contexts"></span><h1>CORE-74: Embedded Variants within Contexts<a class="headerlink" href="#core-74-embedded-variants-within-contexts" title="Permalink to this headline">¶</a></h1>
-<p>The Manage Products across Collections feature provides general users the ability to copy or move products or objects between collections.</p>
+<p>The Embedded Variants within Context feature provides general users the ability to create embedded variants for a product within a context.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -125,102 +131,117 @@
 <td>1.0</td>
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
-<td>As a user, I want to copy or move products or objects between collections.</td>
+<td>As a user, I want to create a pack of different pack sizes of fruit juice with different quantity.</td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>Collections are created to collect and store a group of products based on the relevance of the user.</li>
-<li>Collections can have their own hierarchy and the products in the collection can belong to these hierarchies.</li>
-<li>Collections help to quickly classify a group of products.</li>
+<li>Embedded variants enable the user to create variants for a product in terms of a context.</li>
+<li>A product can have several variants, and these variants can be distinguished based on a context.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
 <li>Product created</li>
-<li>Collection hierarchy</li>
+<li>Embedded variant configuration</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
-<td><ul class="first last">
-<li><p class="first">Collections helps the user to group the products and place them in hierachies.</p>
-</li>
-<li><p class="first"><em>Example:</em></p>
-<p>A collection can be made for a few furtniture products and in the collection, hierarchies can be made based on the class type for the article.</p>
-</li>
+<td><ul class="first simple">
+<li>A product can have a number of variants with the master product representing a group of products.</li>
+<li><em>Example:</em></li>
 </ul>
+<p class="last">A fruit juice can be available in various packaging variants such as single, pack of 4 or pack of 6.
+In this example, the packaging is a context of the type tag based on which the product is having its variants.</p>
 </td>
 </tr>
 <tr class="row-even"><td><strong>How To</strong></td>
-<td>A <strong>How to do: Manage Products across Collections</strong> document is available below.</td>
+<td>A <strong>How to do: Embedded Variants within Context</strong> document is available below.</td>
 </tr>
 </tbody>
 </table>
 <img alt="../../../../_images/line-png-321.png" src="../../../../_images/line-png-321.png" />
-<div class="section" id="s-how-to-do-manage-products-across-collections">
-<span id="how-to-do-manage-products-across-collections"></span><h2>How to do: Manage Products across Collections<a class="headerlink" href="#how-to-do-manage-products-across-collections" title="Permalink to this headline">¶</a></h2>
-<p>This How To guide provides instructions on how to copy or move products across collections.
+<div class="section" id="s-how-to-do-embedded-variants-within-context">
+<span id="how-to-do-embedded-variants-within-context"></span><h2>How to do: Embedded Variants within Context<a class="headerlink" href="#how-to-do-embedded-variants-within-context" title="Permalink to this headline">¶</a></h2>
+<p>This How To guide provides instructions on how to create embedded variants for a product within a context.
 To do this, follow these steps:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Go to PIM.</li>
+<li>Click on the <strong>+</strong> icon and select <strong>Single Article</strong>.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_gotopim.png" src="feature/_images/manageprodacrosscollections_gotopim.png" />
+<img alt="../../../../_images/embeddedvariants_clickplusicon.png" src="../../../../_images/embeddedvariants_clickplusicon.png" />
 <div class="line-block">
-<div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Go to <em>Collections</em> and click on the <strong>ORGANIZE</strong> button.</li>
+<li>Fill in the appropriate data and add images for the product and its variants.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png" src="feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png" />
+<img alt="../../../../_images/embeddedvariants_filldata.png" src="../../../../_images/embeddedvariants_filldata.png" />
 <div class="line-block">
-<div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>On the collections page, click on the <em>Add New Collection</em> button and enter the name of that new collection. This will add a new collection.</li>
+<li>Click on the context icon found next to the home icon.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png" src="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png" />
+<img alt="../../../../_images/embeddedvariants_clickcontexticon.png" src="../../../../_images/embeddedvariants_clickcontexticon.png" />
 <div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png" src="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<ol class="arabic">
-<li><p class="first">Go back to the first collection and select the product you would like to copy or move.</p>
-<div class="line-block">
-<div class="line"><em>Note: Multiple products can be selected for copying.</em></div>
-</div>
-</li>
-</ol>
-<div class="line-block">
-<div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Once selected, click on the <em>Copy</em> button on the upper right side of the page.</li>
-</ol>
-<img alt="feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png" src="feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Go to the collection where you want to copy the product.</li>
+<li>Click on the <strong>+</strong> icon with Create Vsriant button.</li>
 </ol>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click <strong>Paste</strong>.</li>
+<li>Select the appropriate tags, select the name of the variant, and click <strong>Save</strong>.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_clickpaste.png" src="feature/_images/manageprodacrosscollections_clickpaste.png" />
+<img alt="../../../../_images/embeddedvariants_selecttag.png" src="../../../../_images/embeddedvariants_selecttag.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill in the data for the variant.</li>
+</ol>
+<img alt="../../../../_images/embeddedvariants_filldataforvariant.png" src="../../../../_images/embeddedvariants_filldataforvariant.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the Camera icon to add the image.</li>
+</ol>
+<img alt="../../../../_images/embeddedvariants_clickcamera.png" src="../../../../_images/embeddedvariants_clickcamera.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the image from the asset selection of the parent products and click <strong>OK</strong>.</li>
+</ol>
+<img alt="../../../../_images/embeddedvariants_selectimage.png" src="../../../../_images/embeddedvariants_selectimage.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click <strong>Save</strong> to save the variant.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the back icon at the top.</li>
+</ol>
+<img alt="../../../../_images/embeddedvariants_clickbackicon.png" src="../../../../_images/embeddedvariants_clickbackicon.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Check if the output is something like the image below. Similiarly, the user can create several embedded variants.</li>
+</ol>
+<img alt="../../../../_images/embeddedvariants_checkoutput.png" src="../../../../_images/embeddedvariants_checkoutput.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -241,7 +262,7 @@ To do this, follow these steps:</p>
   <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">CORE-74: Embedded Variants within Contexts</a><ul>
-<li><a class="reference internal" href="#how-to-do-manage-products-across-collections">How to do: Manage Products across Collections</a></li>
+<li><a class="reference internal" href="#how-to-do-embedded-variants-within-context">How to do: Embedded Variants within Context</a></li>
 </ul>
 </li>
 </ul>
@@ -249,6 +270,10 @@ To do this, follow these steps:</p>
   <h3>Browse</h3>
   <ul>
     
+      <li>Prev: <a href="index.html">CORE E-6 Contextualization - Attributes and Embedded Objects</a></li>
+    
+    
+      <li>Next: <a href="targetandchannel.html">MDM-11: Target and Channel Contextualization</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -256,8 +281,16 @@ To do this, follow these steps:</p>
       <li>
         <a href="../../../../index.html">Contentsphere  documentation</a>
         
-        <ul><li>CORE-74: Embedded Variants within Contexts</li></ul>
+          <ul><li><a href="../../../index.html">Feature Guides</a>
         
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">MDM Guide for General Features</a>
+        
+          <ul><li><a href="index.html">CORE E-6 Contextualization - Attributes and Embedded Objects</a>
+        
+        <ul><li>CORE-74: Embedded Variants within Contexts</li></ul>
+        </li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
 
@@ -290,7 +323,11 @@ To do this, follow these steps:</p>
 
     <div id="ft">
       <div class="nav">
-    <a title="Contentsphere  documentation" href="../../../../index.html" accesskey="U">up</a></div>
+    &laquo; <a href="index.html" title="CORE E-6 Contextualization - Attributes and Embedded Objects">previous</a>
+     |
+    <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="targetandchannel.html" title="MDM-11: Target and Channel Contextualization">next</a> &raquo;</div>
     </div>
   </div>
 
