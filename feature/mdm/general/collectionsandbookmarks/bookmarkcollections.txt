@@ -1,18 +1,18 @@
-======================================================
+=====================================================
 CORE-53: Public or Private Bookmarks and Collections
-======================================================
+=====================================================
 
 
 
 
-The Public / Private Bookmarks and Collections feature provides general users the ability to set a bookmark as a public or private bookmark.
+The Public or Private Bookmarks and Collections feature provides general users the ability to set a bookmark as a public or private bookmark.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
 **User Story:**         As a user, I want to define a bookmark or collection as either Private or Public.
 
-**Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visble to all users of the system
+**Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visble to all users of the system.
                         * A lock icon indicates that the bookmark is a private. bookmark
                         * An unlock icon indicates that the bookmark is a public bookmark.
                         * To change a bookmark into a private bookmark, user needs to click the lock icon to lock the bookmark and change it into a private one.
@@ -21,14 +21,14 @@ The Public / Private Bookmarks and Collections feature provides general users th
 
 **Application:**        * A bookmark can be a private or a public bookmark.
                         * A private bookmark will only be seen by the user who created the bookmark, and not the other users.
-                        * *Examples:*
+                        * *Example:*
 
 
                         Suppose the marketing team of a company has created a bookmark for a trial,
                         they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
                         On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.
 
-**How To**              Below are the steps on how to search and store bookmarks.
+**How To**              A **How to do: Public or Private Bookmarks and Collections** document is available below.
 
 
 =================       =============================================================================================================================================================
@@ -39,16 +39,16 @@ The Public / Private Bookmarks and Collections feature provides general users th
 
 
 
-How to Do Public or Private Bookmarks and Collections
-=====================================================
+How to do: Public or Private Bookmarks and Collections
+======================================================
 
-This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting provides access to any user while a private setting restricts access to specific users.
+This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting grants access to all users while a private setting grants access only to specific users.
 Follow these steps:
 
 
 .. image:: /feature/_images/line-png-32.png
 
-Bookmarks: Setting a Public bookmark
+Bookmarks: Setting a Public Bookmark
 ------------------------------------
 
 |
@@ -77,7 +77,7 @@ Bookmarks: Setting a Public bookmark
 .. image:: /feature/_images/line-png-32.png
 
 
-Bookmarks: Setting a Private bookmark
+Bookmarks: Setting a Private Bookmark
 -------------------------------------
 
 |
@@ -106,7 +106,7 @@ Bookmarks: Setting a Private bookmark
 .. image:: /feature/_images/line-png-32.png
 
 
-Collections: Setting a Public collection
+Collections: Setting a Public Collection
 ----------------------------------------
 
 |
@@ -121,7 +121,7 @@ Collections: Setting a Public collection
 |
 |
 
-#. Name the collection and click on the *Create Collection* button.
+#. Name the collection and click on the **Create Collection** button.
 
 .. image:: /feature/_images/puborpribookmarksorcollections_namethecollection.png
 |
@@ -145,8 +145,8 @@ Collections: Setting a Public collection
 .. image:: /feature/_images/line-png-32.png
 
 
-Collections: Setting a Private collection
-------------------------------------------
+Collections: Setting a Private Collection
+-----------------------------------------
 
 |
 

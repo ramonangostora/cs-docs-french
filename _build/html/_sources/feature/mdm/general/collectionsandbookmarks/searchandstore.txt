@@ -5,29 +5,29 @@ CORE E-52: Search and Store Bookmarks
 
 
 
-The search and Store Bookmarks feature provides general users the ability to use different criteria so that they can easily identify the items that they want to work on.
+The Search and Store Bookmarks feature provides general users the ability to use different criteria so that they can easily identify the items that they want to work on.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search products or assets using various/detailed criteria so that I easily identify the items that I want to work on
+**User Story:**         As a user, I want to search products or assets using various criteria so that I easily identify the items that I want to work on
 
 **Description:**        * The user can save his search and visit it later to see newly added products that satisfy the search criteria.
-                        * Bookmark allows users to save their favorite products as part of a watchlist so that they can easily find such products for comparison or for later view.
+                        * Bookmark allows users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically indluced.
                         * Collection includes the products added by the user. A collection always contains the same products unless the user removes them or add other products.
 
 **Prerequisite:**       User must select the products to be added in the bookmarks.
 
-**Application:**        * A user can easily find his favorite products through bookmarking them.
+**Application:**        * A user can easily find his favorite products by bookmarking them.
                         * A bookmark is autoupdated with products matching the criteria.
-                        * *Examples:*
+                        * *Example:*
 
-                          A relatiler deals with a mixture of washing machine and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
+                          A retailer deals with a mixture of washing machines and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
                           If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
-                          When a fully automated washing machine is added to the system, it is automatically added to the bookmark.
+                          Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.
 
 
-**How To**              Below are the steps on how to search and store bookmarks.
+**How To**              A **How to do: Search and Store Bookmarks** document is available below.
 
 
 =================       =============================================================================================================================================================
@@ -38,8 +38,8 @@ The search and Store Bookmarks feature provides general users the ability to use
 
 
 
-How to Do Search and Store Bookmarks
-====================================
+How to do: Search and Store Bookmarks
+======================================
 
 This **How To** guide provides instructions on how to search for products or assets using various criteria.
 It also provides details on how to save the search results and how to visit these results at a later time. Follow these steps:
@@ -61,7 +61,7 @@ Storing a bookmark
 |
 |
 
-#. Select the filter for bookmarks and click on apply.
+#. Select the filter for bookmarks and click **Apply**.
 
 .. image:: /feature/_images/searchandstore_clickonapply.png
 |
@@ -71,7 +71,7 @@ Storing a bookmark
 
 |
 
-#. Click **Create Bookmarks** button.
+#. Click on the **Create Bookmarks** button.
 
 .. image:: /feature/_images/searchandstore_clickcreatebookmarksbutton.png
 |
@@ -100,7 +100,7 @@ Searching for a bookmark
 |
 |
 
-#. Type the name of the bookmark and click the **Open** button.
+#. Type the name of the bookmark and click on the **Open** button.
 
 .. image:: /feature/_images/searchandstore_typethenameofthebookmark.png
 |
