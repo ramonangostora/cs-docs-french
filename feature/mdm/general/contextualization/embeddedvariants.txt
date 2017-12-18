@@ -26,8 +26,6 @@ The Embedded Variants within Context feature provides general users the ability 
 
 
 **How To**              A **How to do: Embedded Variants within Context** document is available below.
-
-
 =================       =============================================================================================================================================================
 
 
@@ -67,9 +65,6 @@ To do this, follow these steps:
 #. Click on the **+** icon with Create Variant button.
 
 .. image:: /feature/_images/embeddedvariants_clickplusiconcreatevariant.png
-
-   | *Note: Multiple products can be selected for copying.*
-
 
 |
 
