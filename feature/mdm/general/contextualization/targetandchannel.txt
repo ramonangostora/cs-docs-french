@@ -1,31 +1,31 @@
 =============================================
-MDM-11: Target and Channel Contextualization
+MDM 11: Target and Channel Contextualization
 =============================================
 
 
 
 
-The Manage Products across Collections feature provides general users the ability to copy or move products or objects between collections.
+The Target and Channel Contextualization feature provides general users the ability to have attributes that can have multiple values which vary based on context.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to copy or move products or objects between collections.
+**User Story:**         As a user, I want to have attributes that can have multiple values which vary based on context.
 
-**Description:**        * Collections are created to collect and store a group of products based on the relevance of the user.
-                        * Collections can have their own hierarchy and the products in the collection can belong to these hierarchies.
-                        * Collections help to quickly classify a group of products.
+**Description:**        * The target and channel contextualization enables the user to setup values which are based on a context.
+                        * This feature is particularly useful for values that are dependent on a context or tag.
+                        * The value can be based on two or more contexts.
 
-**Prerequisite:**       * Product created
-                        * Collection hierarchy
+**Prerequisite:**       * Context configuration
+                        * Article created
 
-**Application:**        * Collections helps the user to group the products and place them in hierachies.
+**Application:**        * Target contextualization allows the user to have a multi-value attribute based on a tag.
                         * *Example:*
 
-                          A collection can be made for a few furtniture products and in the collection, hierarchies can be made based on the class type for the article.
+                        A product has multiple prices based on the regions it is being sold to, where Region is the context that drives the price attribute.
 
 
-**How To**              A **How to do: Manage Products across Collections** document is available below.
+**How To**              A **How to do: Target and Channel Contextualization** document is available below.
 
 
 =================       =============================================================================================================================================================
@@ -36,54 +36,89 @@ The Manage Products across Collections feature provides general users the abilit
 
 
 
-How to do: Manage Products across Collections
-=============================================
+How to do: Target and Channel Contextualization
+===============================================
 
-This How To guide provides instructions on how to copy or move products across collections.
+This How To guide provides instructions on how to have attributes that can have multiple values which vary based on context.
 To do this, follow these steps:
 
 
 |
 
-#. Go to PIM.
+#. Go to **Settings** tab
 
-.. image:: /feature/_images/manageprodacrosscollections_gotopim.png
+.. image:: /feature/_images/targetandchannel_gotosettings.png
 |
 |
 
-#. Go to *Collections* and click on the **ORGANIZE** button.
+#. Select **Context Configuration**.
 
-.. image:: /feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png
+.. image:: /feature/_images/targetandchannel_selectcontextconfiguration.png
 |
 |
 
-#. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
+#. Create new context.
 
-.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png
+.. image:: /feature/_images/targetandchannel_createnewcontext.png
 |
 
-.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png
-|
 
-#. Go back to the first collection and select the product you would like to copy or move.
+#. Fiil in the name and select type attribute context.
 
-   | *Note: Multiple products can be selected for copying.*
-
-|
-|
-
-#. Once selected, click on the *Copy* button on the upper right side of the page.
-
-.. image:: /feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png
-|
-|
-
-#. Go to the collection where you want to copy the product.
+.. image:: /feature/_images/targetandchannel_fillname.png
 
 |
 
-#. Click **Paste**.
+#. Select tag group to be added in the context and click **Save**.
 
-.. image:: /feature/_images/manageprodacrosscollections_clickpaste.png
+.. image:: /feature/_images/targetandchannel_selecttaggroup.png
+
+|
+
+#. In the class configuration, select the class.
+
+.. image:: /feature/_images/targetandchannel_selectclass.png
+
+|
+
+#. Select the desired attribute and select the context from the drop-down list.
+
+.. image:: /feature/_images/targetandchannel_selectdesiredattribute.png
+
+|
+
+#. Click **Save** and go to **Runtime**.
+
+.. image:: /feature/_images/targetandchannel_clicksave.png
+
+|
+
+#. Select the product.
+
+.. image:: /feature/_images/targetandchannel_selectproduct.png
+
+|
+
+#. Click on the attirbute with variations.
+
+.. image:: /feature/_images/targetandchannel_clickattribute.png
+
+|
+
+#. Create Attribute Variant for list price.
+
+.. image:: /feature/_images/targetandchannel_createattributevariant.png
+
+|
+
+#. Select the tag group, enter the value for the attribute, and click **Save**
+
+.. image:: /feature/_images/targetandchannel_selecttagandentervalue.png
+
+|
+
+#. Check if the output is something like the image below.
+
+.. image:: /feature/_images/targetandchannel_checkoutput.png
 
 |

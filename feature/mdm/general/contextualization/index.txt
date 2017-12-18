@@ -1,5 +1,5 @@
 =============================================================
-CORE E-6 Contextualization - Attributes and Embedded Objects
+CORE E-6: Contextualization - Attributes and Embedded Objects
 =============================================================
 
 .. toctree::

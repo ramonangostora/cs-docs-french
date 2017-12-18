@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>MDM-11: Target and Channel Contextualization &#8212; Contentsphere  documentation</title>
+    <title>MDM 11: Target and Channel Contextualization &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -24,7 +24,7 @@
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
     <link rel="next" title="MDM Feature Guides" href="../../governance/index.html" />
-    <link rel="prev" title="CORE-74: Embedded Variants within Contexts" href="embeddedvariants.html" />
+    <link rel="prev" title="CORE 74: Embedded Variants within Contexts" href="embeddedvariants.html" />
 
 
 
@@ -107,7 +107,7 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="embeddedvariants.html" title="CORE-74: Embedded Variants within Contexts">previous</a>
+    &laquo; <a href="embeddedvariants.html" title="CORE 74: Embedded Variants within Contexts">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
@@ -119,8 +119,8 @@
           <div class="yui-g" id="feature-mdm-general-contextualization-targetandchannel">
             
   <div class="section" id="s-mdm-11-target-and-channel-contextualization">
-<span id="mdm-11-target-and-channel-contextualization"></span><h1>MDM-11: Target and Channel Contextualization<a class="headerlink" href="#mdm-11-target-and-channel-contextualization" title="Permalink to this headline">¶</a></h1>
-<p>The Manage Products across Collections feature provides general users the ability to copy or move products or objects between collections.</p>
+<span id="mdm-11-target-and-channel-contextualization"></span><h1>MDM 11: Target and Channel Contextualization<a class="headerlink" href="#mdm-11-target-and-channel-contextualization" title="Permalink to this headline">¶</a></h1>
+<p>The Target and Channel Contextualization feature provides general users the ability to have attributes that can have multiple values which vary based on context.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -131,102 +131,134 @@
 <td>1.0</td>
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
-<td>As a user, I want to copy or move products or objects between collections.</td>
+<td>As a user, I want to have attributes that can have multiple values which vary based on context.</td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>Collections are created to collect and store a group of products based on the relevance of the user.</li>
-<li>Collections can have their own hierarchy and the products in the collection can belong to these hierarchies.</li>
-<li>Collections help to quickly classify a group of products.</li>
+<li>The target and channel contextualization enables the user to setup values which are based on a context.</li>
+<li>This feature is particularly useful for values that are dependent on a context or tag.</li>
+<li>The value can be based on two or more contexts.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
-<li>Product created</li>
-<li>Collection hierarchy</li>
+<li>Context configuration</li>
+<li>Article created</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
-<td><ul class="first last">
-<li><p class="first">Collections helps the user to group the products and place them in hierachies.</p>
-</li>
-<li><p class="first"><em>Example:</em></p>
-<p>A collection can be made for a few furtniture products and in the collection, hierarchies can be made based on the class type for the article.</p>
-</li>
+<td><ul class="first simple">
+<li>Target contextualization allows the user to have a multi-value attribute based on a tag.</li>
+<li><em>Example:</em></li>
 </ul>
+<p class="last">A product has multiple prices based on the regions it is being sold to, where Region is the context that drives the price attribute.</p>
 </td>
 </tr>
 <tr class="row-even"><td><strong>How To</strong></td>
-<td>A <strong>How to do: Manage Products across Collections</strong> document is available below.</td>
+<td>A <strong>How to do: Target and Channel Contextualization</strong> document is available below.</td>
 </tr>
 </tbody>
 </table>
 <img alt="../../../../_images/line-png-321.png" src="../../../../_images/line-png-321.png" />
-<div class="section" id="s-how-to-do-manage-products-across-collections">
-<span id="how-to-do-manage-products-across-collections"></span><h2>How to do: Manage Products across Collections<a class="headerlink" href="#how-to-do-manage-products-across-collections" title="Permalink to this headline">¶</a></h2>
-<p>This How To guide provides instructions on how to copy or move products across collections.
+<div class="section" id="s-how-to-do-target-and-channel-contextualization">
+<span id="how-to-do-target-and-channel-contextualization"></span><h2>How to do: Target and Channel Contextualization<a class="headerlink" href="#how-to-do-target-and-channel-contextualization" title="Permalink to this headline">¶</a></h2>
+<p>This How To guide provides instructions on how to have attributes that can have multiple values which vary based on context.
 To do this, follow these steps:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Go to PIM.</li>
+<li>Go to <strong>Settings</strong> tab</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_gotopim.png" src="feature/_images/manageprodacrosscollections_gotopim.png" />
+<img alt="../../../../_images/targetandchannel_gotosettings.png" src="../../../../_images/targetandchannel_gotosettings.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Go to <em>Collections</em> and click on the <strong>ORGANIZE</strong> button.</li>
+<li>Select <strong>Context Configuration</strong>.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png" src="feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png" />
+<img alt="../../../../_images/targetandchannel_selectcontextconfiguration.png" src="../../../../_images/targetandchannel_selectcontextconfiguration.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>On the collections page, click on the <em>Add New Collection</em> button and enter the name of that new collection. This will add a new collection.</li>
+<li>Create new context.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png" src="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png" src="feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<ol class="arabic">
-<li><p class="first">Go back to the first collection and select the product you would like to copy or move.</p>
-<div class="line-block">
-<div class="line"><em>Note: Multiple products can be selected for copying.</em></div>
-</div>
-</li>
-</ol>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Once selected, click on the <em>Copy</em> button on the upper right side of the page.</li>
-</ol>
-<img alt="feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png" src="feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Go to the collection where you want to copy the product.</li>
-</ol>
+<img alt="../../../../_images/targetandchannel_createnewcontext.png" src="../../../../_images/targetandchannel_createnewcontext.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click <strong>Paste</strong>.</li>
+<li>Fiil in the name and select type attribute context.</li>
 </ol>
-<img alt="feature/_images/manageprodacrosscollections_clickpaste.png" src="feature/_images/manageprodacrosscollections_clickpaste.png" />
+<img alt="../../../../_images/targetandchannel_fillname.png" src="../../../../_images/targetandchannel_fillname.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select tag group to be added in the context and click <strong>Save</strong>.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_selecttaggroup.png" src="../../../../_images/targetandchannel_selecttaggroup.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>In the class configuration, select the class.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_selectclass.png" src="../../../../_images/targetandchannel_selectclass.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the desired attribute and select the context from the drop-down list.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_selectdesiredattribute.png" src="../../../../_images/targetandchannel_selectdesiredattribute.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click <strong>Save</strong> and go to <strong>Runtime</strong>.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_clicksave.png" src="../../../../_images/targetandchannel_clicksave.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the product.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_selectproduct.png" src="../../../../_images/targetandchannel_selectproduct.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the attirbute with variations.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_clickattribute.png" src="../../../../_images/targetandchannel_clickattribute.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Create Attribute Variant for list price.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_createattributevariant.png" src="../../../../_images/targetandchannel_createattributevariant.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the tag group, enter the value for the attribute, and click <strong>Save</strong></li>
+</ol>
+<img alt="../../../../_images/targetandchannel_selecttagandentervalue.png" src="../../../../_images/targetandchannel_selecttagandentervalue.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Check if the output is something like the image below.</li>
+</ol>
+<img alt="../../../../_images/targetandchannel_checkoutput.png" src="../../../../_images/targetandchannel_checkoutput.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -246,8 +278,8 @@ To do this, follow these steps:</p>
         <div class="sphinxsidebarwrapper">
   <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">MDM-11: Target and Channel Contextualization</a><ul>
-<li><a class="reference internal" href="#how-to-do-manage-products-across-collections">How to do: Manage Products across Collections</a></li>
+<li><a class="reference internal" href="#">MDM 11: Target and Channel Contextualization</a><ul>
+<li><a class="reference internal" href="#how-to-do-target-and-channel-contextualization">How to do: Target and Channel Contextualization</a></li>
 </ul>
 </li>
 </ul>
@@ -255,7 +287,7 @@ To do this, follow these steps:</p>
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="embeddedvariants.html">CORE-74: Embedded Variants within Contexts</a></li>
+      <li>Prev: <a href="embeddedvariants.html">CORE 74: Embedded Variants within Contexts</a></li>
     
     
       <li>Next: <a href="../../governance/index.html">MDM Feature Guides</a></li>
@@ -274,7 +306,7 @@ To do this, follow these steps:</p>
         
           <ul><li><a href="index.html">CORE E-6 Contextualization - Attributes and Embedded Objects</a>
         
-        <ul><li>MDM-11: Target and Channel Contextualization</li></ul>
+        <ul><li>MDM 11: Target and Channel Contextualization</li></ul>
         </li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
@@ -308,7 +340,7 @@ To do this, follow these steps:</p>
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="embeddedvariants.html" title="CORE-74: Embedded Variants within Contexts">previous</a>
+    &laquo; <a href="embeddedvariants.html" title="CORE 74: Embedded Variants within Contexts">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
