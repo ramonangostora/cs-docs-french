@@ -7,14 +7,14 @@ The Compare Product Revisions feature of PIM allows a user to compare different 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As a user, I want to to be able to compare different versions of the same product so that I can understand the changes made across the versions.
+**User Story:**         As a user, I want to to be able to compare different versions of the same product so that I can understand the changes made across the versions.
 
 **Description:**        * This feature allows a user to compare the versions of a product/article.
                         * This feature gives an overview of the similarities and differences of comparable versions to track the changes made over a period of time.
                         * This feature creates a comparison table that contains columns for the products (or services) and rows for the attributes. This enables a user
-                          to check the changes made in the versions of the article.
+                          to easily check the changes made in the versions of the product/article.
 
-**Prerequisite:**       * Selecting a product with different versions for comparison.
+**Prerequisite:**       Selecting a product with different versions for comparison.
 
 **Application:**        * A user can compare and track the changes done in the version.
                         * *Example:*
@@ -22,7 +22,7 @@ The Compare Product Revisions feature of PIM allows a user to compare different 
                             A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product
                             with the new description, a version is created. In the timeline, the user can compare these versions and track the changes.
 
-**How To:**               A **How to do: Compare Product Revisions** document is available that provides the steps on how to compare product revisions.
+**How To:**              A **How to do: Compare Product Revisions** document is available that provides the steps on how to compare product revisions.
 =================       ===============================================================================================================================================================
 
 |
@@ -33,7 +33,7 @@ The Compare Product Revisions feature of PIM allows a user to compare different 
 
 How to do: Compare Product Revisions
 =====================================
-To compare product revisions, follow these steps:
+To do this feature, follow these steps:
 
 |
 
@@ -49,7 +49,7 @@ To compare product revisions, follow these steps:
 |
 |
 
-#. Check the revision history by hovering over the version you are interested in and by clicking on the icon below the version number.
+#. Check the revision history by hovering over the version of interest and by clicking on the icon below the version number.
 
 .. image:: /feature/mdm/_images/timelineandhistory_checktherevisionhistory.PNG
 |
