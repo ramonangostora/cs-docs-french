@@ -41,19 +41,19 @@ To do a parametric search, follow these steps:
 
 #. Click the **Advanced Filter** button found on the upper right corner.
 
-.. image:: /feature/mdm/_images/advanced_filter_click.PNG
+.. image:: /feature/mdm/_images/advanced_filter_click.PNG.PNG
 |
 |
 
 #. Select an attribute (e.g. *List Price*).
 
-.. image:: /feature/mdm/_images/list_price_attribute.PNG
+.. image:: /feature/mdm/_images/list_price_attribute.PNG.PNG
 |
 |
 
 #. Click the on the first drop-down list (the *Contains* drop-down list) and select the appropriate operator.
 
-.. image:: /feature/mdm/_images/contains_button_select.PNG
+.. image:: /feature/mdm/_images/contains_button_select.PNG.PNG
 |
 |
 
