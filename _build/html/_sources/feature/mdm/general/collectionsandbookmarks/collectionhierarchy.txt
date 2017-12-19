@@ -37,11 +37,11 @@ The Collection Hierarchy feature provides general users the ability to view thei
 How to do: Collection Hierarchy
 ===============================
 
-This How To guide provides instructions on how to organize and view the collections within a structured hierarchy (of collections).
+This How To guide provides instructions on how to organize and view the collections within a structured hierarchy of collections.
 To do this, follow these steps:
 
 
-#. Go to **Collections** and click on the **Organize** button.
+#. Go to *Collections* and click on the **Organize** button.
 
 .. image:: /feature/_images/collecthier_gotocollectionsandclickorganizebutton.PNG
 
