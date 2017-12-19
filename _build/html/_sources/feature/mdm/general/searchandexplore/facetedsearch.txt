@@ -55,7 +55,7 @@ To do a multi-faceted search, follow these steps:
 
 #. Perform a final search on the above criteria.
 
-.. image:: /feature/mdm/_images/search_results.PNG
+.. image:: /feature/mdm/_images/mfsearch_results.PNG
 |
 |
 
