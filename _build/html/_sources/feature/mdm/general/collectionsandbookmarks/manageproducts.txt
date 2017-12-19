@@ -55,17 +55,17 @@ To do this, follow these steps:
 
 #. Go to *Collections* and click on the **Organize** button.
 
-.. image:: /feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png
+.. image:: /feature/_images/manageprod_gotocollectionsandclickorganizebutton.png
 |
 
 |
 
 #. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
 
-.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection1.png
+.. image:: /feature/_images/manageprod_onthecollectionspageclickonaddnewcollection1.png
 |
 
-.. image:: /feature/_images/manageprodacrosscollections_onthecollectionspageclickonaddnewcollection2.png
+.. image:: /feature/_images/manageprod_onthecollectionspageclickonaddnewcollection2.png
 |
 
 #. Go back to the first collection and select the product you would like to copy or move.
@@ -77,7 +77,7 @@ To do this, follow these steps:
 
 #. Once selected, click on the *Copy* button on the upper right side of the page.
 
-.. image:: /feature/_images/manageprodacrosscollections_gobacktothefirstcollectionandselect.png
+.. image:: /feature/_images/manageprod_gobacktothefirstcollectionandselect.png
 |
 |
 
@@ -87,11 +87,11 @@ To do this, follow these steps:
 
 #. Click **Paste**.
 
-.. image:: /feature/_images/manageprodacrosscollections_clickpaste.png
+.. image:: /feature/_images/manageprod_clickpaste.png
 
 |
 
-.. image:: /feature/_images/manageprodacrosscollections_clickpaste2.png
+.. image:: /feature/_images/manageprod_clickpaste2.png
 *The product has been added successfully. Follow the same steps to move the products. To do that, click Cut instead of Copy.*
 
 |
