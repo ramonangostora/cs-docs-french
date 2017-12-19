@@ -39,34 +39,34 @@ To assign a single object to multiple different taxonomies or to multiple nodes 
 
 #. On the product page, click on the **Add Taxonomy** button.
 
-.. image:: /feature/mdm/_images/multitaxonomy_ontheprodpageclickaddtaxonomy.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_ontheprodpageclickaddtaxonomy.png
 |
 |
 
 #. From the drop-down list, select a parent taxonomy (e.g. *Products*).
 
-.. image:: /feature/mdm/_images/multitaxonomy_selectaparenttaxonomy.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_selectaparenttaxonomy.png
 |
-.. image:: /feature/mdm/_images/multitaxonomy_selectaparenttaxonomy2.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_selectaparenttaxonomy2.png
 |
 |
 
 #. To further classify the product, click on the **Classify Further** button.
 
-.. image:: /feature/mdm/_images/multitaxonomy_tofurtherclassify.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_tofurtherclassify.png
 |
 |
 
 #. Select a node from the drop-down list. In the images below, the example would be *Food > Beverages > Energy Drinks*.
 
-.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist.png
 |
-.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist2.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist2.png
 |
 
 *Note: The last image shows the multiple nodes within a single taxonomy added to the product.*
 
-.. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist3.png
+.. image:: /cs-docs/feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist3.png
 |
 
 .. image:: /feature/_images/line-png-32.png
