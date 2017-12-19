@@ -14,7 +14,7 @@ The Compare Product Revisions feature of PIM allows a user to compare different 
                         * This feature creates a comparison table that contains columns for the products (or services) and rows for the attributes. This enables a user
                           to easily check the changes made in the versions of the product/article.
 
-**Prerequisite:**       Selecting a product with different versions for comparison.
+**Prerequisite:**       *Product*  with different versions for comparison.
 
 **Application:**        * A user can compare and track the changes done in the version.
                         * *Example:*
