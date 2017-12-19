@@ -67,7 +67,7 @@ To do a parametric search, follow these steps:
 
 #. Wait for the search results to be displayed based on the search criteria. The search criteria can be found in the **Applied Filter** section as shown.
 
-.. image:: /feature/mdm/_images/search_results.PNG
+.. image:: /feature/mdm/_images/pssearch_results.PNG
 |
 |
 
