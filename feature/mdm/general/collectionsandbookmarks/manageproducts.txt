@@ -49,12 +49,14 @@ To do this, follow these steps:
 
 .. image:: /feature/_images/manageprodacrosscollections_gotopim.PNG
 |
+
 |
 
 #. Go to *Collections* and click on the **Organize** button.
 
 .. image:: /feature/_images/manageprodacrosscollections_gotocollectionsandclickorganizebutton.png
 |
+
 |
 
 #. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
