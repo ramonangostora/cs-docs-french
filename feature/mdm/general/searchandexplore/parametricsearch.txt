@@ -41,35 +41,46 @@ To do a parametric search, follow these steps:
 
 #. Click the **Advanced Filter** button found on the upper right corner.
 
-.. image:: /feature/mdm/_images/advanced_filter_click.png
-
-#. Select an attribute, for example, *List Price*.
-
-.. image:: /feature/mdm/_images/list_price_attribute.png
+.. image:: /feature/mdm/_images/advanced_filter_click.PNG
 |
 |
 
-#. Click the **Contains** drop-down list and select the appropriate operator.
+#. Select an attribute (e.g. *List Price*).
 
-.. image:: /feature/mdm/_images/contains_button_select.png
+.. image:: /feature/mdm/_images/list_price_attribute.PNG
 |
 |
 
-#. After selecting an operator based on the attribute, select the value and click the **Apply** button.
+#. Click the on the first drop-down list (the *Contains* drop-down list) and select the appropriate operator.
 
+.. image:: /feature/mdm/_images/contains_button_select.PNG
+|
+|
+
+#. After selecting an operator (e.g. *Greater Than*) based on the attribute, select the value and units. Click the **Apply** button.
+
+.. image:: /feature/mdm/_images/greatherthanoperator.PNG
+|
+.. image:: /feature/mdm/_images/greatherthanoperator2.PNG
+|
 |
 
 #. Wait for the search results to be displayed based on the search criteria. The search criteria can be found in the **Applied Filter** section as shown.
 
-.. image:: /feature/mdm/_images/search_results.png
+.. image:: /feature/mdm/_images/search_results.PNG
 |
 |
 
 #. For improved and narrowed down search, use multiple properties (attributes/tags).
 
+.. image:: /feature/mdm/_images/forimprovedandnarroweddownsearch.PNG
+|
 |
 
 *Note: Multiple criteria can be applied for a single property as well using an "OR" operation.*
+
+.. image:: /feature/mdm/_images/notemultiplecriteria.PNG
+|
 
 .. image:: /feature/_images/line-png-32.png
    :alt: Contentsphere line

@@ -37,7 +37,7 @@ To do a Sort By, follow these steps:
 
 #. Click the **Sort By** button. Only filterable properties are displayed.
 
-.. image:: /feature/mdm/_images/sort_by_01.png
+.. image:: /feature/mdm/_images/sort_by_01.PNG
 |
 |
 
@@ -45,9 +45,9 @@ To do a Sort By, follow these steps:
 
 |
 
-#. An icon is shown near the selected attribute to indicate the sorting order.
+#. View the icon shown near the selected attribute that indicates the sorting order.
 
-.. figure:: /feature/mdm/_images/sort_by_03.png
+.. figure:: /feature/mdm/_images/sort_by_03.PNG
 |
 |
 
@@ -55,15 +55,15 @@ To do a Sort By, follow these steps:
 
   |
 
-  #. Below is List Price in ascending order.
+  #. Below is *List Price* in ascending order.
 
-  .. image:: /feature/mdm/_images/sort_by_04.png
+  .. image:: /feature/mdm/_images/sort_by_04.PNG
   |
   |
 
-  #. Below is List Price in descending order.  Click the icon near the attribute to toggle between ascending or descending sort order.
+  #. Below is *List Price* in descending order.  Click the icon near the attribute to toggle between ascending or descending sort order.
 
-  .. image:: /feature/mdm/_images/sort_by_05.png
+  .. image:: /feature/mdm/_images/sort_by_05.PNG
   |
 
 .. image:: /feature/_images/line-png-32.png

@@ -39,48 +39,48 @@ To do a search within taxonomy, follow these steps:
 
 #. Click **Choose Taxonomies** button found at the left side of the Search bar.
 
-.. image:: /feature/mdm/_images/ts01.png
+.. image:: /feature/mdm/_images/ts01.PNG
 |
 |
 
-#. From the drop-down list, select the appropriate taxonomy. Children nodes are also displayed.
+#. From the pop-up menu, select the appropriate taxonomy (e.g. *Products*). Children nodes are also displayed.
 
-.. image:: /feature/mdm/_images/ts02.png
+.. image:: /feature/mdm/_images/ts02.PNG
 |
 |
 
 #. Tick the checkbox and click the **Apply** button to display the results for the products belonging to the specific node.
 
-.. image:: /feature/mdm/_images/ts03.png
+.. image:: /feature/mdm/_images/ts03.PNG
 |
-.. image:: /feature/mdm/_images/ts03b.png
+.. image:: /feature/mdm/_images/ts03b.PNG
 |
 |
 
-#. Click on a node to display another list of children nodes along with the count of the products. The selected node is highlighted in bold text.
+#. Click on a node to display its children nodes along with the count of the products. The selected node is highlighted in bold text.
 
-.. image:: /feature/mdm/_images/ts04.png
+.. image:: /feature/mdm/_images/ts04.PNG
 |
 |
 
 #. Tick the checkbox of the title heading to select all children nodes at once.
 
-.. image:: /feature/mdm/_images/ts05.png
+.. image:: /feature/mdm/_images/ts05.PNG
 |
 |
 
 #. To view the entire taxonomy tree structure including the blank nodes, click the **Show All** button.
 
-.. image:: /feature/mdm/_images/ts05.png
+.. image:: /feature/mdm/_images/ts05b.PNG
 |
 
-.. image:: /feature/mdm/_images/ts06.png
+.. image:: /feature/mdm/_images/ts06.PNG
 |
 |
 
 #. To desselect all selected taxonomy nodes, click the **Clear Selection** button.
 
-.. image:: /feature/mdm/_images/ts06.png
+.. image:: /feature/mdm/_images/ts07.PNG
 |
 
 .. image:: /feature/_images/line-png-32.png

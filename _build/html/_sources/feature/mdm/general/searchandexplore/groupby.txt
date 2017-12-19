@@ -37,39 +37,39 @@ To do a Group By, follow these steps:
 
 #. Click the **Group By** button found on the upper right corner of the screen.
 
-.. image:: /feature/mdm/_images/group_by_01.png
+.. image:: /feature/mdm/_images/group_by_01.PNG
 |
 |
 
-#. Click the "+" icon to add the properties of a grouping.
+#. Click the "+" icon to add the properties of a grouping. A list of all the filterable properties will be shown.
 
-.. image:: /feature/mdm/_images/group_by_02.png
+.. image:: /feature/mdm/_images/group_by_02.PNG
 |
 |
 
 #. Select the property/properties to be used. A list of values will be displayed along with the number of products.
 
-.. image:: /feature/mdm/_images/group_by_03.png
+.. image:: /feature/mdm/_images/group_by_03.PNG
 |
-.. image:: /feature/mdm/_images/group_by_03b.png
-|
-|
-
-#. View the products that are displayed after selecting the value.
-
-.. image:: /feature/mdm/_images/group_by_04.png
+.. image:: /feature/mdm/_images/group_by_03b.PNG
 |
 |
 
-#. To add another level, click the "+" icon.
+#. View the products that are displayed after selecting a value.
 
-.. image:: /feature/mdm/_images/group_by_05.png
+.. image:: /feature/mdm/_images/group_by_04.PNG
 |
 |
 
-#. On the list that appears, select the appropriate property. Select a subtag to have a refined grouping.
+#. To add another level for the grouping, click the "+" icon.
 
-.. image:: /feature/mdm/_images/group_by_06.png
+.. image:: /feature/mdm/_images/group_by_05.PNG
+|
+|
+
+#. Similarly on the list that appears, select the appropriate property. Select a subtag to have a refined grouping.
+
+.. image:: /feature/mdm/_images/group_by_06.PNG
 |
 
 .. image:: /feature/_images/line-png-32.png
