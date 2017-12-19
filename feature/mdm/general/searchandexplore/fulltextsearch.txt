@@ -1,7 +1,7 @@
 =======================
 MDM 6: Fulltext Search
 =======================
-The Fulltext Search feature gives a user the capability to search for a product or asset directly by using the matching criteria.
+The Fulltext Search feature gives a user the capability to search for a product or asset directly by using matching criteria.
 
 
 =================       =============================================================================================================================================================
@@ -9,7 +9,7 @@ The Fulltext Search feature gives a user the capability to search for a product 
 
 **User Story:**         As a user, I want to search for products or assets in the system using a fulltext search. The search feature should return all objects that match the search criteria.
 
-**Description:**        * This feature is used to search directly for a product .
+**Description:**        This feature is used to search directly for a product .
 
 **Prerequisite:**       * *Search Bar*
                         * *Products*
@@ -17,7 +17,8 @@ The Fulltext Search feature gives a user the capability to search for a product 
 **Application:**        * A user can use the fulltext search to search for a single product.
                         * *Example:*
 
-                            If a user only wants to search for Red Bull in the system, the user directly types "Red Bull" on the search bar.  The search results will only display entries with Red Bull.
+                            If a user wants to search for products that match the "Red Bull" criteria in the system, the user directly types "Red Bull" on the search bar.
+                            The search results will only display entries with Red Bull.
 
 **How To:**               A **How to do: Fulltext Search** document is available to provide instructions on how to do this search in the system.
 =================       =============================================================================================================================================================

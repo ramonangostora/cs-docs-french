@@ -9,7 +9,7 @@ The Group By feature allows a user to view a group of objects in the system by s
 
 **User Story:**         One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.
 
-**Description:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
+**Description:**        The feature provides a user a functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
 
 **Prerequisite:**       *Group By*  to make groups according to *Tags* and *Attributes*.
 
@@ -19,8 +19,7 @@ The Group By feature allows a user to view a group of objects in the system by s
 
                             If a user wants to view a group of products that is related to **Female section**, the *Group By*  feature may be used.
 
-
-**How To:**               A **How to do: Group By** document is available to provide instructions on how to group objects in the system.
+**How To:**              A **How to do: Group By** document is available to provide instructions on how to group objects in the system.
 =================       =============================================================================================================================================================
 
 |
@@ -67,7 +66,7 @@ To do a Group By, follow these steps:
 |
 |
 
-#. Similarly on the list that appears, select the appropriate property. Select a subtag to have a refined grouping.
+#. Similarly, on the list that will appear, select the appropriate property. Select a subtag to have a more refined grouping.
 
 .. image:: /feature/mdm/_images/group_by_06.PNG
 |

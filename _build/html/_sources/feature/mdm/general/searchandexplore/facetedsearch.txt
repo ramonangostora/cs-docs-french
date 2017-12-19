@@ -7,20 +7,20 @@ The Faceted Search feature allows a user to have a multi-faceted search support 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to be able to search products or assets using the multi-criteria search with a multi-faceted search support functionality to refine the results.
+**User Story:**         As a user, I want to be able to search for products or assets using the multi-criteria search with a multi-faceted search support functionality to refine the results.
 
 **Description:**        * In addition to multi-criteria search, the solution will feature multi-faceted search support functionality to refine results.
                         * A user can refine the results through filters or taxonomy.
-                        * A user can sort filters used to sort the products in ascending or descending order.
+                        * A user can use sort filters used to arrange the products in ascending or descending order.
 
 **Prerequisite:**       * *Taxonomy*  to select taxonomy criteria.
                         * *Application Filter*  to choose the filterable tags.
                         * *Sort by*  to sort the product as per the order.
 
 **Application:**        * Using either of the ways, a user will land to the desired searched product.
-                        * A user can use sorting used to sort the products in ascending or descending order.
+                        * A user can use the sorting functionality to sort the products in ascending or descending order.
 
-**How To:**               A **How to do: Multi-faceted Search** document is available to show the steps on how to perform that search.
+**How To:**              A **How to do: Multi-faceted Search** document is available to show the steps on how to perform the search.
 =================       =============================================================================================================================================================
 
 |
@@ -31,7 +31,7 @@ The Faceted Search feature allows a user to have a multi-faceted search support 
 
 How to do: Multi-faceted Search
 ================================
-To do a multi-faceted search, follow these steps:
+To do a Multi-faceted Search, follow these steps:
 
 |
 
@@ -53,7 +53,7 @@ To do a multi-faceted search, follow these steps:
 |
 |
 
-#. Perform a final search on the above criteria.
+#. Perform a final search on the results based on the above criteria.
 
 .. image:: /feature/mdm/_images/mfsearch_results.PNG
 |
