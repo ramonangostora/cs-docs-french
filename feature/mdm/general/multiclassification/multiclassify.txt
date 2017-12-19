@@ -13,7 +13,7 @@ The Multi-classify Objects feature provides general users the ability to add att
 **User Story:**         As a user, I want to add attribution classes to the product in addition to the single Nature Class.
 
 **Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
-                          Attribution classes contain detailed descriptive properties for the prooduct.
+                          Attribution classes contain detailed descriptive properties for the product.
                         * The user is able to define the product further by adding properties based on different attribution classes.
 
 
@@ -24,7 +24,7 @@ The Multi-classify Objects feature provides general users the ability to add att
                         * *Example:*
 
                           For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
-                          As for another class *Energy Drinks*, it would give properties such as nutrition cotnents and caffeine contents.
+                          As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
 
 **How To**               A **How to do: Multi-classify Objects** document is available below.
 =================       =============================================================================================================================================================
@@ -53,9 +53,13 @@ To do this, follow these steps:
 
 |
 
+|
+
 #. To add a Non-Nature class or Attribution class, click **Add Class**.
 
 .. image:: /feature/_images/multiclassify_addnonnature.png
+
+|
 
 |
 
@@ -65,7 +69,7 @@ To do this, follow these steps:
 
 |
 
-#. To add additional attribution class, click **Add Class** again.
+#. To add another attribution class, click **Add Class** again.
 
 .. image:: /feature/_images/multiclassify_addclassagain.png
 
@@ -74,6 +78,8 @@ To do this, follow these steps:
 |
 
 .. image:: /feature/_images/multiclassify_addclassagain2.png
+
+|
 
 |
 
