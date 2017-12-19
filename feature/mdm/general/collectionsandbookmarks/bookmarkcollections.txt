@@ -55,7 +55,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_loggedinasadmin.png
+.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.png
 |
 |
 
@@ -65,13 +65,13 @@ Bookmarks: Setting a Public Bookmark
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_thedefaultsettingofabookmarkispublic.png
+.. image:: /feature/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.png
 |
 |
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewablebyallusers.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.png
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
 .. image:: /feature/_images/line-png-32.png
@@ -85,7 +85,7 @@ Bookmarks: Setting a Private Bookmark
 #. Log in as admin.
 
 .. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
-|
+
 |
 
 #. Go to the desired bookmark.
@@ -95,12 +95,12 @@ Bookmarks: Setting a Private Bookmark
 #. Click on the bookmark icon and set the bookmark to *Private*.
 
 .. image:: /feature/_images/bookmarkcollection_clickonthebookmarkicontomakeitprivate.PNG
-|
+
 |
 
 #. Once done, the bookmark can be viewed only by specific users.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
+.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
 *As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
 
 .. image:: /feature/_images/line-png-32.png
@@ -118,13 +118,13 @@ Collections: Setting a Public Collection
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
 .. image:: /feature/_images/bookmarkcollection_clickonthepinbuttonontherightside.png
-|
+
 |
 
 #. Name the collection and click on the **Create Collection** button.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_namethecollection.png
-|
+.. image:: /feature/_images/bookmarkcollection_namethecollection.png
+
 |
 
 #. Once created, search for the collection as you would a bookmark.
@@ -133,13 +133,13 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncefoundcheckthedefaultsettingispublic.png
+.. image:: /feature/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.png
 |
 |
 
 #. Once done, the collection data can be viewed by all users.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectionwillbeviewablebyallusers.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.png
 |
 
 .. image:: /feature/_images/line-png-32.png
@@ -156,17 +156,17 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncesearchedclickonthelockicon.png
+.. image:: /feature/_images/bookmarkcollection_oncesearchedclickonthelockicon.png
 |
 |
 
 #. Once done, the collection can be viewed only by specific users.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectioncanonlybeviewedbyspecific1.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.png
 
 |
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethecollectioncanonlybeviewedbyspecific2.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.png
 *As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
 
 |
