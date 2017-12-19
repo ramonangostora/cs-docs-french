@@ -97,4 +97,3 @@ To do this, follow these steps:
 *The product has been added successfully. Follow the same steps to move the products. To do that, click Cut instead of Copy.*
 
 |
-.. image:: /feature/_images/line-png-32.PNG
