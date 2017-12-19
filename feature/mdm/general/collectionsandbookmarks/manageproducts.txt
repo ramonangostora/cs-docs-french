@@ -63,11 +63,11 @@ To do this, follow these steps:
 
 #. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
 
-.. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection1.png
+.. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection1.PNG
 
 |
 
-.. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection2.png
+.. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection2.PNG
 |
 
 #. Go back to the first collection and select the product you would like to copy or move.
@@ -79,7 +79,7 @@ To do this, follow these steps:
 
 #. Once selected, click on the *Copy* button on the upper right side of the page.
 
-.. image:: /feature/_images/mngprod_gobacktothefirstcollectionandselect.png
+.. image:: /feature/_images/mngprod_gobacktothefirstcollectionandselect.PNG
 |
 |
 
