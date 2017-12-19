@@ -22,12 +22,10 @@ The Target and Channel Contextualization feature provides general users the abil
 **Application:**        * Target contextualization allows the user to have a multi-value attribute based on a tag.
                         * *Example:*
 
-                        A product has multiple prices based on the regions it is being sold to, where Region is the context that drives the price attribute.
+                          A product has multiple prices based on the regions it is being sold to, where Region is the context that drives the price attribute.
 
 
 **How To**              A **How to do: Target and Channel Contextualization** document is available below.
-
-
 =================       =============================================================================================================================================================
 
 
@@ -45,7 +43,7 @@ To do this, follow these steps:
 
 |
 
-#. Go to **Settings** tab
+#. Go to **Settings** tab.
 
 .. image:: /feature/_images/targetandchannel_gotosettings.png
 |
