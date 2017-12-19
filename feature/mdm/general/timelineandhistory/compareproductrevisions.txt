@@ -1,0 +1,82 @@
+===================================
+CORE 56: Compare Product Revisions
+===================================
+The Compare Product Revisions feature of PIM allows a user to compare different versions of the same product.
+
+
+=================       ===============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to to be able to compare different versions of the same product so that I can understand the changes made across the versions.
+
+**Description:**        * This feature allows a user to compare the versions of a product/article.
+                        * This feature gives an overview of the similarities and differences of comparable versions to track the changes made over a period of time.
+                        * This feature creates a comparison table that contains columns for the products (or services) and rows for the attributes. This enables a user
+                          to check the changes made in the versions of the article.
+
+**Prerequisite:**       * Selecting a product with different versions for comparison.
+
+**Application:**        * A user can compare and track the changes done in the version.
+                        * *Example:*
+
+                            A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product
+                            with the new description, a version is created. In the timeline, the user can compare these versions and track the changes.
+
+**How To:**               A **How to do: Compare Product Revisions** document is available that provides the steps on how to compare product revisions.
+=================       ===============================================================================================================================================================
+
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
+
+
+How to do: Compare Product Revisions
+=====================================
+To compare product revisions, follow these steps:
+
+|
+
+#. Click on any product and go to the **Timeline Tab**.
+
+.. image:: /feature/mdm/_images/timelineandhistory_clickonanyproduct.png
+|
+|
+
+#. View the revision timeline.
+
+.. image:: /feature/mdm/_images/timelineandhistory_viewtherevisiontimeline.png
+|
+|
+
+#. Check the revision history by hovering over the version you are interested in and by clicking on the icon below the version number.
+
+.. image:: /feature/mdm/_images/timelineandhistory_checktherevisionhistory.png
+|
+|
+
+#. Select the versions to be compared by clicking on the check marks on the right.
+
+.. image:: /feature/mdm/_images/timelineandhistory_selecttheversionstobecompared.png
+|
+|
+
+#. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the products (or services) and rows for the attributes.
+
+.. image:: /feature/mdm/_images/timelineandhistory_clickthecomparebutton.png
+|
+|
+
+#. View the comparison table that shows the attribute changes in the selected versions.
+
+.. image:: /feature/mdm/_images/timelineandhistory_viewthecomparisontable.png
+|
+|
+
+*Note: A user may also compare the selected versions with the latest version.*
+
+.. image:: /feature/mdm/_images/timelineandhistory_comparetheselectedversionswithlatest.png
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

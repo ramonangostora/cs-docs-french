@@ -1,0 +1,325 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CORE 56: Compare Product Revisions &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="CORE 78: Compare Product Revision" href="compareproductrevision.html" />
+    <link rel="prev" title="CORE E-12: Timeline and History" href="index.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <div>
+        <img src="_static/logoweb.png" class="cs-logo">
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <a title="Home page" href="../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../genindex.html">Index</a>  |
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="index.html" title="CORE E-12: Timeline and History">previous</a>
+     |
+    <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="compareproductrevision.html" title="CORE 78: Compare Product Revision">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-mdm-general-timelineandhistory-compareproductrevisions">
+            
+  <div class="section" id="s-core-56-compare-product-revisions">
+<span id="core-56-compare-product-revisions"></span><h1>CORE 56: Compare Product Revisions<a class="headerlink" href="#core-56-compare-product-revisions" title="Permalink to this headline">¶</a></h1>
+<p>The Compare Product Revisions feature of PIM allows a user to compare different versions of the same product.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>As a user, I want to to be able to compare different versions of the same product so that I can understand the changes made across the versions.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature allows a user to compare the versions of a product/article.</li>
+<li>This feature gives an overview of the similarities and differences of comparable versions to track the changes made over a period of time.</li>
+<li>This feature creates a comparison table that contains columns for the products (or services) and rows for the attributes. This enables a user
+to check the changes made in the versions of the article.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li>Selecting a product with different versions for comparison.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">A user can compare and track the changes done in the version.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product
+with the new description, a version is created. In the timeline, the user can compare these versions and track the changes.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>How To:</strong></td>
+<td>A <strong>How to do: Compare Product Revisions</strong> document is available that provides the steps on how to compare product revisions.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../_images/line-png-321.png" />
+<div class="section" id="s-how-to-do-compare-product-revisions">
+<span id="how-to-do-compare-product-revisions"></span><h2>How to do: Compare Product Revisions<a class="headerlink" href="#how-to-do-compare-product-revisions" title="Permalink to this headline">¶</a></h2>
+<p>To compare product revisions, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on any product and go to the <strong>Timeline Tab</strong>.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_clickonanyproduct.png" src="../../../../_images/timelineandhistory_clickonanyproduct.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the revision timeline.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_viewtherevisiontimeline.png" src="../../../../_images/timelineandhistory_viewtherevisiontimeline.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Check the revision history by hovering over the version you are interested in and by clicking on the icon below the version number.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_checktherevisionhistory.png" src="../../../../_images/timelineandhistory_checktherevisionhistory.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the versions to be compared by clicking on the check marks on the right.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_selecttheversionstobecompared.png" src="../../../../_images/timelineandhistory_selecttheversionstobecompared.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the <strong>Compare</strong> button on the upper right corner of the screen. It will load a comparison table that has columns for the products (or services) and rows for the attributes.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_clickthecomparebutton.png" src="../../../../_images/timelineandhistory_clickthecomparebutton.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the comparison table that shows the attribute changes in the selected versions.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_viewthecomparisontable.png" src="../../../../_images/timelineandhistory_viewthecomparisontable.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note: A user may also compare the selected versions with the latest version.</em></p>
+<img alt="../../../../_images/timelineandhistory_comparetheselectedversionswithlatest.png" src="../../../../_images/timelineandhistory_comparetheselectedversionswithlatest.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../_images/line-png-321.png" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">CORE 56: Compare Product Revisions</a><ul>
+<li><a class="reference internal" href="#how-to-do-compare-product-revisions">How to do: Compare Product Revisions</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="index.html">CORE E-12: Timeline and History</a></li>
+    
+    
+      <li>Next: <a href="compareproductrevision.html">CORE 78: Compare Product Revision</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">MDM Guide for General Features</a>
+        
+          <ul><li><a href="index.html">CORE E-12: Timeline and History</a>
+        
+        <ul><li>CORE 56: Compare Product Revisions</li></ul>
+        </li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/feature/mdm/general/timelineandhistory/compareproductrevisions.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Dec 19, 2017</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="index.html" title="CORE E-12: Timeline and History">previous</a>
+     |
+    <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="compareproductrevision.html" title="CORE 78: Compare Product Revision">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
