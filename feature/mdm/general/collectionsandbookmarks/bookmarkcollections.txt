@@ -55,7 +55,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.png
+.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
 |
 |
 
@@ -65,13 +65,13 @@ Bookmarks: Setting a Public Bookmark
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.png
+.. image:: /feature/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.PNG
 |
 |
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.PNG
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
 .. image:: /feature/_images/line-png-32.png
@@ -117,13 +117,13 @@ Collections: Setting a Public Collection
 
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
-.. image:: /feature/_images/bookmarkcollection_clickonthepinbuttonontherightside.png
+.. image:: /feature/_images/bookmarkcollection_clickonthepinbuttonontherightside.PNG
 
 |
 
 #. Name the collection and click on the **Create Collection** button.
 
-.. image:: /feature/_images/bookmarkcollection_namethecollection.png
+.. image:: /feature/_images/bookmarkcollection_namethecollection.PNG
 
 |
 
