@@ -41,31 +41,31 @@ To compare product revision, follow these steps:
 
 #. Select a product and click on the **Timeline Tab**.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeselectaproductandclicktimeline.png
+.. image:: /feature/mdm/_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG
 |
 |
 
 #. View the revision timeline.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeviewtherevisiontimeline.png
+.. image:: /feature/mdm/_images/timelineandhistory_mergeviewtherevisiontimeline.PNG
 |
 |
 
 #. Select the latest version and any of the former version. Then, click on the **Compare** button.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeselectthelatestversionandformerversion.png
+.. image:: /feature/mdm/_images/timelineandhistory_mergeselectthelatestversionandformerversion.PNG
 |
 |
 
 #. Select the data of the older version in the **Compare** view and then click the **Save** button.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.png
+.. image:: /feature/mdm/_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG
 |
 |
 
 #. View the timeline. The latest version in the timeline will be updated accordingly.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeviewthetimeline.png
+.. image:: /feature/mdm/_images/timelineandhistory_mergeviewthetimeline.PNG
 |
 
 .. image:: /feature/_images/line-png-32.png
