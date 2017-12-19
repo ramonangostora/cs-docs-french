@@ -22,7 +22,7 @@ The Collection Hierarchy feature provides general users the ability to view thei
                         * *Example:*
 
 
-                        A collection of furniture products having level based on product type such as office and home furniture, chairs, tables, and others.
+                          A collection of furniture products having level based on product type such as office and home furniture, chairs, tables, and others.
 
 **How To**              A **How to do: Collection Hierarchy** document is available below.
 
