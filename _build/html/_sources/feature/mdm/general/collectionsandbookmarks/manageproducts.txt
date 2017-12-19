@@ -47,7 +47,8 @@ To do this, follow these steps:
 
 #. Go to PIM.
 
-.. image:: /feature/_images/manageprodacrosscollections_gotopim.PNG
+.. image:: /feature/_images/manageprod_gotopim.png
+
 |
 
 |
