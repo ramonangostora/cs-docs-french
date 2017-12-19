@@ -1,0 +1,92 @@
+======================
+Multi-classify Objects
+======================
+
+
+The Multi-classify Objects feature provides general users the ability to add attribution classes to the product in addition to the single Nature Class.
+
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to add attribution classes to the product in addition to the single Nature Class.
+
+**Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
+                          Attribution classes contain detailed descriptive properties for the prooduct.
+                        * The user is able to define the product further by adding properties based on different attribution classes.
+
+
+**Prerequisite:**       * Attribution classes with attributes and tags
+
+**Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products. The nature class would only have general properties.
+                        * The attribution class would define the product more in detail.
+                        * *Example:*
+
+                          For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
+                          As for another class *Energy Drinks*, it would give properties such as nutrition cotnents and caffeine contents.
+
+**How To**               A **How to do: Multi-classify Objects** document is available below.
+=================       =============================================================================================================================================================
+
+
+.. image:: /feature/_images/line-png-32.png
+
+
+
+How to do: Multi-classify Objects
+=================================
+
+This How To guide provides instructions on how to multi-classify objects.
+To do this, follow these steps:
+
+|
+
+#. Click on the **+** icon to create a Single Article, then add a name to it.
+
+.. image:: /feature/_images/multiclassify_clickplusicon.png
+
+|
+
+|
+.. image:: /feature/_images/multiclassify_addname.png
+
+|
+
+#. To add a Non-Nature class or Attribution class, click **Add Class**.
+
+.. image:: /feature/_images/multiclassify_addnonnature.png
+
+|
+
+#. Add a class from the drop-down list.
+
+.. image:: /feature/_images/multiclassify_addclass.png
+
+|
+
+#. To add additional attribution class, click **Add Class** again.
+
+.. image:: /feature/_images/multiclassify_addclassagain.png
+
+|
+
+|
+
+.. image:: /feature/_images/multiclassify_addclassagain2.png
+
+|
+
+#. To switch templates from nature class to non-nature class, click on the drop-down list and select an option, for example *Beverages*.
+
+.. image:: /feature/_images/multiclassify_switchtemplate.png
+
+|
+
+.. image:: /feature/_images/multiclassify_switchtemplate2.png
+
+|
+
+.. image:: /feature/_images/multiclassify_switchtemplate3.png
+
+|
