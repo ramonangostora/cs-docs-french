@@ -47,7 +47,7 @@ To do this, follow these steps:
 
 #. Go to PIM.
 
-.. image:: /feature/_images/mngprod_gotopim.png
+.. image:: /feature/_images/mngprod_gotopim.PNG
 
 |
 
@@ -55,7 +55,8 @@ To do this, follow these steps:
 
 #. Go to *Collections* and click on the **Organize** button.
 
-.. image:: /feature/_images/mngprod_gotocollectionsandclickorganizebutton.png
+.. image:: /feature/_images/mngprod_gotocollectionsandclickorganizebutton.PNG
+
 |
 
 |
@@ -63,6 +64,7 @@ To do this, follow these steps:
 #. On the collections page, click on the *Add New Collection* button and enter the name of that new collection. This will add a new collection.
 
 .. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection1.png
+
 |
 
 .. image:: /feature/_images/mngprod_onthecollectionspageclickonaddnewcollection2.png
@@ -77,7 +79,7 @@ To do this, follow these steps:
 
 #. Once selected, click on the *Copy* button on the upper right side of the page.
 
-.. image:: /feature/_images/mngprod_gobacktothefirstcollectionandselect.PNG
+.. image:: /feature/_images/mngprod_gobacktothefirstcollectionandselect.png
 |
 |
 
