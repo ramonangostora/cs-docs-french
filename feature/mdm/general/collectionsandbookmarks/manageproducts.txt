@@ -1,5 +1,5 @@
 ============================================
-CORE-67: Manage Products across Collections
+CORE 67: Manage Products across Collections
 ============================================
 
 
