@@ -6,5 +6,3 @@ MDM Guide for General Features
    :maxdepth: 1
 
    multitaxonomyassignment/index
-   searchandexplore/index
-   collectionsandbookmarks/index
