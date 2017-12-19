@@ -39,7 +39,7 @@ To compare product revisions, follow these steps:
 
 #. Click on any product and go to the **Timeline Tab**.
 
-.. image:: /cs-docs/feature/_images/timelineandhistory_clickonanyproduct.png
+.. image:: \feature\_images\timelineandhistory_clickonanyproduct.PNG
 |
 |
 
