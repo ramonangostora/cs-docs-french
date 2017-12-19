@@ -84,7 +84,7 @@ Bookmarks: Setting a Private Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_loggedinasadmin.png
+.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
 |
 |
 
@@ -94,13 +94,13 @@ Bookmarks: Setting a Private Bookmark
 
 #. Click on the bookmark icon and set the bookmark to *Private*.
 
-.. image:: /feature/_images/puborpri_clickonthebookmarkicontomakeitprivate.png
+.. image:: /feature/_images/bookmarkcollection_clickonthebookmarkicontomakeitprivate.PNG
 |
 |
 
 #. Once done, the bookmark can be viewed only by specific users.
 
-.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewableonlytospecificusers.png
+.. image:: /feature/_images/puborpribookmarksorcollections_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
 *As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
 
 .. image:: /feature/_images/line-png-32.png
@@ -117,7 +117,7 @@ Collections: Setting a Public Collection
 
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
-.. image:: /feature/_images/puborpri_clickonthepinbuttonontherightside.png
+.. image:: /feature/_images/bookmarkcollection_clickonthepinbuttonontherightside.png
 |
 |
 
@@ -156,7 +156,7 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/_images/puborpri_oncesearchedclickonthelockicon.png
+.. image:: /feature/_images/puborpribookmarksorcollections_oncesearchedclickonthelockicon.png
 |
 |
 
