@@ -4,7 +4,7 @@ CORE 72: Creating a Complete Clone
 
 
 The Creating a Complete Clone feature provides general users the ability to create complete clones or duplicates of the product.
-In a complete clone, all the values of the original product are cloned into the cloned product
+In a complete clone, all the values of the original product are cloned into the clone product.
 
 
 
@@ -13,17 +13,17 @@ In a complete clone, all the values of the original product are cloned into the 
 
 **User Story:**         As a user, I want to create complete clones or duplicates of the product. In a complete clone, all the values of the original product are cloned into the cloned product.
 
-**Description:**        * We use clone context to copy the product of make a new product with the features of the existing product.
+**Description:**        * We use clone context to copy the product or make a new product with the features of the existing product.
                         * The feature of a clone is to create an identical twin of a product.
                         * When creating a complete clone, all the attributes and tag values in the parent product are copied to the clone.
                         * A complete cloned product even copies the relationship of the parent product.
 
 **Prerequisite:**       * Requires articles with relevant data such as tags, attributes, and relationships
 
-**Application:**        * We use a complete clone to instanly create a duplicate or copy of a product.
+**Application:**        * We use a complete clone to instantly create a duplicate or copy of a product.
                         * Reduces effort for creating a duplicate product
                         * Reduces effort for adding the same values of the duplicate article
-                        * *Examples:*
+                        * *Example:*
 
                           Suppose we have two watches with the only difference being the color of their dial. Watch 1 has a red dial and Watch 2 has a black dial.
                           So instead of individually creating a product for both items, we create Watch 1 and completely clone it. Then we simply change the dial color tag or attribute and change the image for that product.
