@@ -57,13 +57,13 @@ Storing a bookmark
 
 #. Go to Advanced Filters.
 
-.. image:: /feature/_images/searchandexplore_GotoAdvancedFiltersandselectthefilterforbookmark.png
+.. image:: /feature/_images/searchstore_GotoAdvancedFiltersandselectthefilterforbookmark.PNG
 |
 |
 
 #. Select the filter for bookmarks and click **Apply**.
 
-.. image:: /feature/_images/searchandstore_clickonapply.png
+.. image:: /feature/_images/searchstore_clickonapply.PNG
 |
 |
 
@@ -73,13 +73,13 @@ Storing a bookmark
 
 #. Click on the **Create Bookmarks** button.
 
-.. image:: /feature/_images/searchandstore_clickcreatebookmarksbutton.png
+.. image:: /feature/_images/searchstore_clickcreatebookmarksbutton.PNG
 |
 |
 
 #. Check the notification at the lower left side of the page noting that the bookmark has been added successfully.
 
-.. image:: /feature/_images/searchandstore_checkthenotificationatthelowerleftsideofthepage.png
+.. image:: /feature/_images/searchstore_checkthenotificationatthelowerleftsideofthepage.PNG
 |
 
 .. image:: /feature/_images/line-png-32.png
@@ -96,19 +96,19 @@ Searching for a bookmark
 
 #. On the search bar, click the Bookmark icon.
 
-.. image:: /feature/_images/searchandstore_onthesearchbarclickthebookmarkicon.png
+.. image:: /feature/_images/searchstore_onthesearchbarclickthebookmarkicon.PNG
 |
 |
 
 #. Type the name of the bookmark and click on the **Open** button.
 
-.. image:: /feature/_images/searchandstore_typethenameofthebookmark.png
+.. image:: /feature/_images/searchstore_typethenameofthebookmark.PNG
 |
 |
 
 #. Once done, wait for the bookmark to open.
 
-.. image:: /feature/_images/searchandstore_oncedonewaitforthebookmarkpagetoopen.png
+.. image:: /feature/_images/searchstore_oncedonewaitforthebookmarkpagetoopen.PNG
 *Note: The bookmark page will be updated automatically, if in the opted category, more products are added.*
 
 |
