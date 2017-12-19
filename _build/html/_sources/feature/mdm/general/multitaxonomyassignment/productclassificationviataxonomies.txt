@@ -11,7 +11,7 @@ The Product Classification via Taxonomies feature provides the functionality to 
                           I have a more refined product classification.
 
 **Description:**        * Taxonomies are structured hierarchies which can be used to classify the products in the system.
-                        * Products can have multiple taxonomies set by users to have a more refined classification and easier search.
+                        * Products can have multiple taxonomies set by a user to have a more refined classification and easier search.
 
 **Prerequisite:**       * Articles created
                         * Taxonomy
@@ -37,7 +37,7 @@ To do a product classification via taxonomies, follow these steps:
 
 |
 
-#. On the product page, click on the **Add Taxonomy** button to add a taxonomy to the product.
+#. On the product page to add a taxonomy to the product, click on the **Add Taxonomy** button.
 
 .. image:: /feature/mdm/_images/prodclassification_clickonaddtaxonomy.PNG
 |
@@ -57,7 +57,7 @@ To do a product classification via taxonomies, follow these steps:
 |
 |
 
-#. Select a node from the drop-down list (e.g. *Food > Beverages > Energy Drinks*).
+#. Select a node from the list (e.g. *Food > Beverages > Energy Drinks*).
 
 .. image:: /feature/mdm/_images/prodclassification_selectanode.PNG
 |
@@ -78,7 +78,7 @@ To do a product classification via taxonomies, follow these steps:
 .. image:: /feature/mdm/_images/prodclassification_choosetheproductstaxonomy.PNG
 |
 
-#. View the results that will contain the products that belong to the selected taxonomies.
+#. View the results that contain the products belonging to the selected taxonomies.
 
 .. image:: /feature/mdm/_images/prodclassification_viewtheresults.PNG
 |
