@@ -39,43 +39,43 @@ To compare product revisions, follow these steps:
 
 #. Click on any product and go to the **Timeline Tab**.
 
-.. image:: \feature\_images\timelineandhistory_clickonanyproduct.PNG
+.. image:: /feature/mdm/_images/timelineandhistory_clickonanyproduct.PNG
 |
 |
 
 #. View the revision timeline.
 
-.. image:: /feature/_images/timelineandhistory_viewtherevisiontimeline.png
+.. image:: /feature/mdm/_images/timelineandhistory_viewtherevisiontimeline.png
 |
 |
 
 #. Check the revision history by hovering over the version you are interested in and by clicking on the icon below the version number.
 
-.. image:: /feature/_images/timelineandhistory_checktherevisionhistory.png
+.. image:: /feature/mdm/_images/timelineandhistory_checktherevisionhistory.png
 |
 |
 
 #. Select the versions to be compared by clicking on the check marks on the right.
 
-.. image:: /feature/_images/timelineandhistory_selecttheversionstobecompared.png
+.. image:: /feature/mdm/_images/timelineandhistory_selecttheversionstobecompared.png
 |
 |
 
 #. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the products (or services) and rows for the attributes.
 
-.. image:: /feature/_images/timelineandhistory_clickthecomparebutton.png
+.. image:: /feature/mdm/_images/timelineandhistory_clickthecomparebutton.png
 |
 |
 
 #. View the comparison table that shows the attribute changes in the selected versions.
 
-.. image:: /feature/_images/timelineandhistory_viewthecomparisontable.png
+.. image:: /feature/mdm/_images/timelineandhistory_viewthecomparisontable.png
 |
 |
 
 *Note: A user may also compare the selected versions with the latest version.*
 
-.. image:: /feature/_images/timelineandhistory_comparetheselectedversionswithlatest.png
+.. image:: /feature/mdm/_images/timelineandhistory_comparetheselectedversionswithlatest.png
 |
 
 .. image:: /feature/_images/line-png-32.png
