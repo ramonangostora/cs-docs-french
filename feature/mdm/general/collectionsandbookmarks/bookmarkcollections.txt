@@ -133,13 +133,13 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.png
+.. image:: /feature/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.PNG
 |
 |
 
 #. Once done, the collection data can be viewed by all users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.PNG
 |
 
 .. image:: /feature/_images/line-png-32.png
@@ -156,17 +156,17 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/_images/bookmarkcollection_oncesearchedclickonthelockicon.png
+.. image:: /feature/_images/bookmarkcollection_oncesearchedclickonthelockicon.PNG
 |
 |
 
 #. Once done, the collection can be viewed only by specific users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.PNG
 
 |
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.png
+.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.PNG
 *As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
 
 |
