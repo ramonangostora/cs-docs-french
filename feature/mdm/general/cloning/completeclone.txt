@@ -28,7 +28,7 @@ In a complete clone, all the values of the original product are cloned into the 
                           Suppose we have two watches with the only difference being the color of their dial. Watch 1 has a red dial and Watch 2 has a black dial.
                           So instead of individually creating a product for both items, we create Watch 1 and completely clone it. Then we simply change the dial color tag or attribute and change the image for that product.
 
-**How To**               A How to do: Creating a Complete Clone document is available below.
+**How To**               A **How to do: Creating a Complete Clone** document is available below.
 =================       =============================================================================================================================================================
 
 
@@ -37,12 +37,12 @@ In a complete clone, all the values of the original product are cloned into the 
 
 
 How to do: Creating a Complete Clone
-===================================
+=====================================
+
 This How To guide provides instructions on how to create a complete clone.
 To do this, follow these steps:
 
-
-
+|
 
 #. Go to PIM.
 

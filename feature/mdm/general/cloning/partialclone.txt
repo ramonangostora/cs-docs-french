@@ -1,6 +1,6 @@
-===================================
+==================================
 CORE 73: Creating a Partial Clone
-===================================
+==================================
 
 
 The Creating a Partial Clone feature provides general users the ability to create partial clones in which only selected properties of the original product are cloned.
@@ -27,7 +27,8 @@ The Creating a Partial Clone feature provides general users the ability to creat
 
                           Suppose a product is to be duplicated without certain values and relationships.
                           Since the copy may  have a different supplier, image, or market, we can create a partial clone wherein the relationships and attributes that are not to be copied can be left unchecked.
-**How To**               A How to do: Creating a Partial Clone document is available below.
+
+**How To**               A **How to do: Creating a Partial Clone** document is available below.
 
 =================       =============================================================================================================================================================
 
@@ -37,14 +38,14 @@ The Creating a Partial Clone feature provides general users the ability to creat
 
 
 How to do: Creating a Partial Clone
-====================================
+===================================
 
 This How To guide provides instructions on how to create a partial clone.
 To do this, follow these steps:
 
+|
 
-
-#. Click on the product.
+#. Click on the product. On the top right section, the Create Clone option is shown.
 
 .. image:: /feature/_images/partialclone_clickproduct.png
 
