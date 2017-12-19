@@ -58,13 +58,13 @@ Storing a bookmark
 #. Go to Advanced Filters.
 
 .. image:: /feature/_images/searchstore_GotoAdvancedFiltersandselectthefilterforbookmark.PNG
-|
+
 |
 
 #. Select the filter for bookmarks and click **Apply**.
 
 .. image:: /feature/_images/searchstore_clickonapply.PNG
-|
+
 |
 
 #. At the top, click bookmarks and enter the name of the bookmark.
@@ -74,7 +74,7 @@ Storing a bookmark
 #. Click on the **Create Bookmarks** button.
 
 .. image:: /feature/_images/searchstore_clickcreatebookmarksbutton.PNG
-|
+
 |
 
 #. Check the notification at the lower left side of the page noting that the bookmark has been added successfully.

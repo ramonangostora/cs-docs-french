@@ -46,7 +46,6 @@ This How To guide provides instructions on how to define a bookmark (or collecti
 Follow these steps:
 
 
-.. image:: /feature/_images/line-png-32.png
 
 Bookmarks: Setting a Public Bookmark
 ------------------------------------
@@ -56,7 +55,7 @@ Bookmarks: Setting a Public Bookmark
 #. Log in as admin.
 
 .. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
-|
+
 |
 
 #. Go to the desired bookmark.

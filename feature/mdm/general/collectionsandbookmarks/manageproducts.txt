@@ -74,13 +74,13 @@ To do this, follow these steps:
 
    | *Note: Multiple products can be selected for copying.*
 
-|
+
 |
 
 #. Once selected, click on the *Copy* button on the upper right side of the page.
 
 .. image:: /feature/_images/mngprod_gobacktothefirstcollectionandselect.PNG
-|
+
 |
 
 #. Go to the collection where you want to copy the product.

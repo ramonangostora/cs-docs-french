@@ -44,13 +44,13 @@ To do this, follow these steps:
 #. Go to **Collections** and click on the **Organize** button.
 
 .. image:: /feature/_images/collecthier_gotocollectionsandclickorganizebutton.PNG
-|
+
 |
 
 #. On the collections page, click on the **Add New Collection** button and enter the name of the new collection.
 
 .. image:: /feature/_images/collecthier_onthecollectionspageclickonaddnewcollection1.PNG
-|
+
 |
 
 #. Repeat the previous step to create a hierarchy of the product, accordingly.
