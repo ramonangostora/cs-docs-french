@@ -25,8 +25,8 @@ The Product Comparison feature allows users to compare products and their proper
                           This is where comparison plays a big role.
                         * *Example:*
 
-                          A user wants to buy a sofa so he uses filter to narrow down his search to the sofas that cost more than $600.
-                          Having a list of sofas that match the criteria, the user can use the comparison view feature to compare two or more sofas along with their properties.
+                            A user wants to buy a sofa so he uses filter to narrow down his search to the sofas that cost more than $600.
+                            Having a list of sofas that match the criteria, the user can use the comparison view feature to compare two or more sofas along with their properties.
 
 **How To**               A **How to do: Product Comparison** document is available below.
 =================       =============================================================================================================================================================
