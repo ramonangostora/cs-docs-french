@@ -22,9 +22,9 @@ The Search and Store Bookmarks feature provides general users the ability to use
                         * A bookmark is auto-updated with products matching the criteria.
                         * *Example:*
 
-                          A retailer deals with a mixture of washing machines and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
-                          If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
-                          Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.
+                            A retailer deals with a mixture of washing machines and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
+                            If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
+                            Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.
 
 
 **How To**              A **How to do: Search and Store Bookmarks** document is available below.
