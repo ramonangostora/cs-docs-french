@@ -16,7 +16,7 @@ The Compare Product Revisions feature allows a user to compare different version
 
 **Prerequisite:**       *Product*  with different versions for comparison.
 
-**Application:**        * A user can compare and track the changes done in the version.
+**Application:**        * A user can compare and track the changes done in the versions.
                         * *Example:*
 
                             A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product

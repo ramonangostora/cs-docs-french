@@ -16,7 +16,7 @@ It also allows merging of specific values from previous versions into the latest
                         * This feature creates a comparison table that shows columns for the products (or services) and rows for the attributes.  This table allows quick and easy
                           comparison between each offering's features and characteristics.
 
-**Prerequisite:**       *Products* created with versions.
+**Prerequisite:**       *Product*  created with different versions.
 
 **Application:**        * A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.
                         * *Example:*
