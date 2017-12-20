@@ -5,14 +5,14 @@ MDM 11: Target and Channel Contextualization
 
 
 
-The Target and Channel Contextualization feature provides general users the ability to have attributes that can have multiple values which vary based on context.
+Target and Channel Contextualization is a feature that allows users to have attributes that can have multiple values which vary based on context.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
 **User Story:**         As a user, I want to have attributes that can have multiple values which vary based on context.
 
-**Description:**        * The target and channel contextualization enables the user to setup values which are based on a context.
+**Description:**        * Target and channel contextualization enables the user to setup values which are based on a context.
                         * This feature is particularly useful for values that are dependent on a context or tag.
                         * The value can be based on two or more contexts.
 
@@ -43,27 +43,35 @@ To do this, follow these steps:
 
 |
 
-#. Go to **Settings** tab.
+#. Go to *Settings* tab.
 
 .. image:: /feature/_images/targetandchannel_gotosettings.png
-|
+
 |
 
-#. Select **Context Configuration**.
+|
+
+#. Select *Context Configuration*.
 
 .. image:: /feature/_images/targetandchannel_selectcontextconfiguration.png
+
 |
+
 |
 
 #. Create new context.
 
 .. image:: /feature/_images/targetandchannel_createnewcontext.png
+
 |
 
+|
 
-#. Fiil in the name and select type attribute context.
+#. Fill in the name and select *Attribute Context* as the feature type.
 
 .. image:: /feature/_images/targetandchannel_fillname.png
+
+|
 
 |
 
@@ -73,21 +81,29 @@ To do this, follow these steps:
 
 |
 
+|
+
 #. In the class configuration, select the class.
 
 .. image:: /feature/_images/targetandchannel_selectclass.png
 
 |
 
-#. Select the desired attribute and select the context from the drop-down list.
+|
+
+#. Select the desired attribute then select the context from the drop-down list.
 
 .. image:: /feature/_images/targetandchannel_selectdesiredattribute.png
 
 |
 
-#. Click **Save** and go to **Runtime**.
+|
+
+#. Click **Save** and go to *Runtime*.
 
 .. image:: /feature/_images/targetandchannel_clicksave.png
+
+|
 
 |
 
@@ -97,9 +113,13 @@ To do this, follow these steps:
 
 |
 
+|
+
 #. Click on the attirbute with variations.
 
 .. image:: /feature/_images/targetandchannel_clickattribute.png
+
+|
 
 |
 
@@ -109,13 +129,17 @@ To do this, follow these steps:
 
 |
 
-#. Select the tag group, enter the value for the attribute, and click **Save**
+|
+
+#. Select the tag group, enter the value for the attribute, and click **Save**.
 
 .. image:: /feature/_images/targetandchannel_selecttagandentervalue.png
 
 |
 
-#. Check if the output is something like the image below.
+|
+
+#. It should display something like the image below.
 
 .. image:: /feature/_images/targetandchannel_checkoutput.png
 
