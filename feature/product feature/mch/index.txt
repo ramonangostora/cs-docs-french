@@ -1,8 +1,14 @@
+<<<<<<< HEAD:feature/product feature/mch/index.txt
 ==================
 MCH Feature Guides
 ==================
+=======
+===============================
+MDM Guide for General Features
+===============================
+>>>>>>> Added the Mass Editing - Bulk Apply feature:_build/html/_sources/feature/mdm/general/index.txt
 
 .. toctree::
    :maxdepth: 1
 
-   
+   masseditingbulkapply/index

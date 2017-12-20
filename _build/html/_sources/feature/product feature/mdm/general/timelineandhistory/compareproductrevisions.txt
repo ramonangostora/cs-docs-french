@@ -2,80 +2,62 @@
 Compare Product Revisions
 =========================
 
-The Compare Product Revisions feature allows a user to compare different versions of the same product.
+The Compare Product Revision feature allows the selection and comparison of different versions of the same product.
+It also allows merging of specific values from previous versions into the latest version.
+
 
 =================       ===============================================================================================================================================================
-**Version:**            1.0
 
-**User Story:**         * As a user, I want to to be able to compare different versions of the same product so that I can understand the changes made across the versions.
+**Description:**        * This feature allows a user to compare versions of a product/article.
+                        * This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.
+                        * This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
+                          comparison between each offering's features and characteristics.
 
-**Description:**        * This feature allows a user to compare the versions of a product/article.
-                        * This feature gives an overview of the similarities and differences of comparable versions to track the changes made over a period of time.
-                        * This feature creates a comparison table that contains columns for the product versions and rows for the attributes. This enables a user
-                          to easily check the changes made in the versions of the product/article.
+**Prerequisite:**       * *Product*  created with different versions.
 
-**Prerequisite:**       * *Product*  with different versions for comparison.
-
-**Application:**        * A user can compare and track the changes done in the versions.
+**Application:**        * A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.
                         * *Example:*
 
-                            A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product
-                            with the new description, a version is created. In the timeline, the user can compare these versions and track the changes.
+                            For a Red Bull product, a short description is initially provided and then later, some additional changes are done (which are not required).
+                            In the timeline, a user can compare these two versions and merge the appropriate values for the description.
 
 =================       ===============================================================================================================================================================
 
 
 How to do: Compare Product Revisions
-=====================================
+====================================
 To do this feature, follow these steps:
 
 |
 
-#. Click on any product and go to the **Timeline Tab**.
+#. Select a product and click on the **Timeline Tab**.
 
-.. image:: /feature/_images/mdmimages/timelineandhistory_clickonanyproduct.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeselectaproductandclicktimeline.PNG
 |
 |
 
 #. View the revision timeline.
 
-.. image:: /feature/_images/mdmimages/timelineandhistory_viewtherevisiontimeline.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeviewtherevisiontimeline.PNG
 |
 |
 
-#. Check the revision history by hovering over the version of interest and by clicking on the icon below the version number.
+#. Select the latest version and any of the former version. Then, click on the **Compare** button.
 
-.. image:: /feature/_images/mdmimages/timelineandhistory_checktherevisionhistory.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeselectthelatestversionandformerversion.PNG
 |
 |
 
-#. Select the versions to be compared by clicking on the check marks on the right.
+#. Select the data of the older version in the **Compare** view and then click the **Save** button.
 
-.. image:: /feature/_images/mdmimages/timelineandhistory_selecttheversionstobecompared.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG
 |
 |
 
-#. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the product versions and rows for the attributes.
+#. View the timeline. The latest version in the timeline will be updated accordingly with the merged data.
 
-.. image:: /feature/_images/mdmimages/timelineandhistory_clickthecomparebutton.PNG
-|
-|
-
-#. View the comparison table that shows the attribute changes in the selected versions.
-
-.. image:: /feature/_images/mdmimages/timelineandhistory_viewthecomparisontable.PNG
-|
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeviewthetimeline.PNG
 |
 
-*Note: A user may also compare the selected versions with the latest version.*
-
-.. image:: /feature/_images/mdmimages/timelineandhistory_comparetheselectedversionswithlatest.PNG
-|
-
-<<<<<<< HEAD:feature/product feature/mdm/general/timelineandhistory/compareproductrevisions.txt
 .. image:: /feature/_images/mdmimages/line-png-32.png
-=======
-
-.. image:: /feature/mdm/_images/line-png-32.PNG
->>>>>>> b605e4e36ef72da1794b225d53fa7af753ecf88c:feature/mdm/general/timelineandhistory/compareproductrevisions.txt
    :alt: Contentsphere line

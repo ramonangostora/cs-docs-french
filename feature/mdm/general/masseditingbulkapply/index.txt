@@ -1,0 +1,8 @@
+=====================================
+CORE E-26: Mass Editing - Bulk Apply
+=====================================
+
+.. toctree::
+   :maxdepth: 1
+
+   bulkedit
