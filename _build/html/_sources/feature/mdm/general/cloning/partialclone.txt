@@ -3,7 +3,7 @@ CORE 73: Creating a Partial Clone
 ==================================
 
 
-The Creating a Partial Clone feature provides general users the ability to create partial clones in which only selected properties of the original product are cloned.
+Creating a Partial Clone is a feature that allows users to create partial clones in which only selected properties of the original product are cloned.
 
 
 

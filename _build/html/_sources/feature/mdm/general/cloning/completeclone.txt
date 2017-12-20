@@ -3,7 +3,7 @@ CORE 72: Creating a Complete Clone
 ===================================
 
 
-The Creating a Complete Clone feature provides general users the ability to create complete clones or duplicates of the product.
+Creating a Complete Clone is a feature that allows users to create complete clones or duplicates of the product.
 In a complete clone, all the values of the original product are cloned into the clone product.
 
 
