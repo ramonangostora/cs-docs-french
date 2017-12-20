@@ -21,8 +21,8 @@ Embedded Variants within Contexts is a feature that allows users to create embed
 **Application:**        * A product can have a number of variants with the master product representing the group of products.
                         * *Example:*
 
-                          A fruit juice can be available in various packaging variants such as single, pack of 4 or pack of 6.
-                          In this example, the packaging is a context of the type tag based on which the product is having its variants.
+                            A fruit juice can be available in various packaging variants such as single, pack of 4 or pack of 6.
+                            In this example, the packaging is a context of the type tag based on which the product is having its variants.
 
 
 **How To**              A **How to do: Embedded Variants within Contexts** document is available below.
