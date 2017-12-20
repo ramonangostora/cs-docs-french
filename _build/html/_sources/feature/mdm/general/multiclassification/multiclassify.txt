@@ -42,7 +42,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on the **+** icon to create a Single Article, then add a name to it.
+#. Click on the "+" icon then create a name.
 
 .. image:: /feature/_images/multiclassify_clickplusicon.png
 
