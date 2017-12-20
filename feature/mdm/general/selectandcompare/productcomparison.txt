@@ -3,7 +3,7 @@ CORE 55: Product Comparison
 ===========================
 
 
-The Product Comparison feature provides general users the ability to compare their products.
+The Product Comparison feature allows users to compare products and their properties.
 
 
 
@@ -12,11 +12,11 @@ The Product Comparison feature provides general users the ability to compare the
 
 **User Story:**         As a user, I want to compare products so that I can compare their properties.
 
-**Description:**        * The product comparison view is a feature to compare two or more products.
+**Description:**        * The product comparison view is a feature that compares two or more products.
                         * This feature gives an overview of the similarities and difference of comparable products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
-                          It allows for easy comprasion between each product's features and characteristics.
-                        * It additional comp[ares the products along with their relationshiops.]
+                          It allows for easy comparison between the features and characteristics of each product.
+                        * This feature also compares the products along with their relationships.
 
 **Prerequisite:**       * Selecting the products to compare
                         * Clearly differentiated products or services
@@ -37,7 +37,7 @@ The Product Comparison feature provides general users the ability to compare the
 
 
 How to do: Product Comparison
-=====================================
+=============================
 
 This How To guide provides instructions on how to comapre products.
 To do this, follow these steps:
@@ -54,16 +54,18 @@ To do this, follow these steps:
 
 |
 
-#. Select the icon to Comparison view product which appears at the top of products..
+#. Select the Comparison View icon found at the top of the products.
 
 .. image:: /feature/_images/productcomparison_selecticon.png
-|
+
 |
 
-#. The Comaprison view enables the user to compare the data of two products. The indicators for comparing are shown at the right side.
+|
+
+#. Comaprison View enables the user to compare the data of two products.
 
 .. image:: /feature/_images/productcomparison_comparisonview.png
 
 |
 
-The red icon indicates *less than*, green icon with '=' indicates *equal to*, and green icon with up arrow indicates *greater than*.
+The indicators for comparing are shown at the right side. The red icon indicates *less than*, the green icon with "=" indicates *equal to*, and the green icon with up arrow indicates *greater than*.

@@ -5,4 +5,4 @@ MDM Guide for General Features
 .. toctree::
    :maxdepth: 1
 
-   productcomparison
+   selectandcompare/index
