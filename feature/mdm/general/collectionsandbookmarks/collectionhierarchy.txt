@@ -17,12 +17,11 @@ The Collection Hierarchy feature provides general users the ability to view thei
 
 **Prerequisite:**       Collection that contains products
 
-**Application:**        * Hierarchies in collection hnelps to categorically structure the products or group of products.
-                        * The collection can cotnain any number of products and can be moved or copied between the levels of hierarchies.
+**Application:**        * Hierarchies in collection helps to categorically structure the products or group of products.
+                        * The collection can contain any number of products and can be moved or copied between the levels of hierarchies.
                         * *Example:*
 
-
-                          A collection of furniture products having level based on product type such as office and home furniture, chairs, tables, and others.
+                          A collection of furniture products having hierarchy level based on product type such as office and home furniture, chairs, tables, and others.
 
 **How To**              A **How to do: Collection Hierarchy** document is available below.
 

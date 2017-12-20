@@ -19,7 +19,7 @@ The Manage Products across Collections feature provides general users the abilit
 **Prerequisite:**       * Product created
                         * Collection hierarchy
 
-**Application:**        * Collections helps the user to group the products and place them in hierachies.
+**Application:**        * Collections help the user to group the products and place them in hierarchies.
                         * *Example:*
 
                           A collection can be made for a few furtniture products and in the collection, hierarchies can be made based on the class type for the article.

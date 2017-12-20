@@ -13,7 +13,7 @@ The Public or Private Bookmarks and Collections feature provides general users t
 **User Story:**         As a user, I want to define a bookmark or collection as either Private or Public.
 
 **Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visble to all users of the system.
-                        * A lock icon indicates that the bookmark is a private. bookmark
+                        * A lock icon indicates that the bookmark is a private bookmark.
                         * An unlock icon indicates that the bookmark is a public bookmark.
                         * To change a bookmark into a private bookmark, user needs to click the lock icon to lock the bookmark and change it into a private one.
 
@@ -22,7 +22,6 @@ The Public or Private Bookmarks and Collections feature provides general users t
 **Application:**        * A bookmark can be a private or a public bookmark.
                         * A private bookmark will only be seen by the user who created the bookmark, and not the other users.
                         * *Example:*
-
 
                           Suppose the marketing team of a company has created a bookmark for a trial,
                           they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
@@ -43,7 +42,7 @@ How to do: Public or Private Bookmarks and Collections
 ======================================================
 
 This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting grants access to all users while a private setting grants access only to specific users.
-Follow these steps:
+To do this, follow these steps:
 
 
 

@@ -19,7 +19,7 @@ The Search and Store Bookmarks feature provides general users the ability to use
 **Prerequisite:**       User must select the products to be added in the bookmarks.
 
 **Application:**        * A user can easily find his favorite products by bookmarking them.
-                        * A bookmark is autoupdated with products matching the criteria.
+                        * A bookmark is auto-updated with products matching the criteria.
                         * *Example:*
 
                           A retailer deals with a mixture of washing machines and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
@@ -42,7 +42,7 @@ How to do: Search and Store Bookmarks
 ======================================
 
 This **How To** guide provides instructions on how to search for products or assets using various criteria.
-It also provides details on how to save the search results and how to visit these results at a later time. Follow these steps:
+It also provides details on how to save the search results and how to visit these results at a later time. To do this, follow these steps:
 
 
 
