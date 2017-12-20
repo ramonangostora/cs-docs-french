@@ -22,7 +22,7 @@ The Multi-taxonomy Assignment feature provides general users the capability to a
                             A user has created an energy drink product and was given a hierarchy of just *Beverages* under *Food and Beverages*. The product
                             may also have another hierarchy which can be under *Sports and Energy Drinks*. Multi-taxonomy allows a user to define more than one taxonomy for the product.
 
-**How To:**              A **How to do: Multi-taxonomy Assignment** document is available to list the steps on how to apply this feature.
+**How To:**              A **How to do: Multi-taxonomy Assignment** document is available that lists the steps on how to apply this feature.
 =================       ===============================================================================================================================================================
 
 |
@@ -57,7 +57,7 @@ To assign a single object to multiple different taxonomies or to multiple nodes 
 |
 |
 
-#. Select a node from the drop-down list. In the images below, the example would be *Food > Beverages > Energy Drinks*.
+#. Select a node from the drop-down list. In the images below, the example would be *Food > Beverages > Sports and Energy Drinks*.
 
 .. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist.PNG
 |
