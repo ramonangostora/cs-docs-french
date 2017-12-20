@@ -68,4 +68,4 @@ To do this, follow these steps:
 
 |
 
-The indicators for comparing are shown at the right side. The red icon indicates *less than*, the green icon with "=" indicates *equal to*, and the green icon with up arrow indicates *greater than*.
+   The indicators for comparing are shown at the right side. The red icon indicates *less than*, the green icon with "=" indicates *equal to*, and the green icon with up arrow indicates *greater than*.
