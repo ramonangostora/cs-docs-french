@@ -13,7 +13,7 @@ The Product Comparison feature allows users to compare products and their proper
 **User Story:**         As a user, I want to compare products so that I can compare their properties.
 
 **Description:**        * The product comparison view is a feature that compares two or more products.
-                        * This feature gives an overview of the similarities and difference of comparable products.
+                        * This feature gives an overview of the similarities and differences of comparable products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
                           It allows for easy comparison between the features and characteristics of each product.
                         * This feature also compares the products along with their relationships.
