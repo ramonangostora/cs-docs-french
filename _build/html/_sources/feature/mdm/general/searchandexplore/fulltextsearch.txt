@@ -1,26 +1,26 @@
-=======================
-MDM 6: Fulltext Search
-=======================
-The Fulltext Search feature gives a user the capability to search for a product or asset directly by using matching criteria.
+========================
+MDM 6: Full-text Search
+========================
+The Full-text Search feature gives a user the capability to search for a product or asset directly by using matching criteria.
 
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search for products or assets in the system using a fulltext search. The search feature should return all objects that match the search criteria.
+**User Story:**         As a user, I want to search for products or assets in the system using a full-text search. The search feature should return all objects that match the search criteria.
 
 **Description:**        This feature is used to search directly for a product .
 
 **Prerequisite:**       * *Search Bar*
                         * *Products*
 
-**Application:**        * A user can use the fulltext search to search for a single product.
+**Application:**        * A user can use the full-text search to search for a single product.
                         * *Example:*
 
                             If a user wants to search for products that match the "Red Bull" criteria in the system, the user directly types "Red Bull" on the search bar.
                             The search results will only display entries with Red Bull.
 
-**How To:**               A **How to do: Fulltext Search** document is available to provide instructions on how to do this search in the system.
+**How To:**               A **How to do: Full-text Search** document is available to provide instructions on how to do this search in the system.
 =================       =============================================================================================================================================================
 
 |
@@ -29,9 +29,9 @@ The Fulltext Search feature gives a user the capability to search for a product 
    :alt: Contentsphere line
 
 
-How to do: Fulltext Search
-==================================
-To do a Fulltext Search, follow these steps:
+How to do: Full-text Search
+============================
+To do a Full-text Search, follow these steps:
 
 |
 

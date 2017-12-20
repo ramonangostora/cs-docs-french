@@ -17,8 +17,7 @@ The Sort By feature allows a user to view products and assets in the system acco
                         * The feature gives the ease to search for a product by arranging it by the user's desired order.
                         * *Example:*
 
-                            If a user wants to arrange products from the highest to the lowest price or to arrange the products alphabetically, the Sort By feature can be used.
-
+                            If a user wants to arrange products from the highest to the lowest price or to arrange the products alphabetically, the *Sort By* feature can be used.
 
 **How To:**               A **How to do: Sort By** document is available to provide instructions on how to sort objects in the system.
 =================       =============================================================================================================================================================

@@ -11,11 +11,11 @@ The Faceted Search feature allows a user to have a multi-faceted search support 
 
 **Description:**        * In addition to multi-criteria search, the solution will feature multi-faceted search support functionality to refine results.
                         * A user can refine the results through filters or taxonomy.
-                        * A user can use sort filters used to arrange the products in ascending or descending order.
+                        * A user can use sort filters that are used to arrange the products in ascending or descending order.
 
 **Prerequisite:**       * *Taxonomy*  to select taxonomy criteria.
                         * *Application Filter*  to choose the filterable tags.
-                        * *Sort by*  to sort the product as per the order.
+                        * *Sort by*  to sort the product in ascending or descending order.
 
 **Application:**        * Using either of the ways, a user will land to the desired searched product.
                         * A user can use the sorting functionality to sort the products in ascending or descending order.

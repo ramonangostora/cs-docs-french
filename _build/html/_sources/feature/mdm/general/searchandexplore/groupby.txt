@@ -9,11 +9,11 @@ The Group By feature allows a user to view a group of objects in the system by s
 
 **User Story:**         One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.
 
-**Description:**        The feature provides a user a functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
+**Description:**        The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
 
 **Prerequisite:**       *Group By*  to make groups according to *Tags* and *Attributes*.
 
-**Application:**        * The feature provides a functionality for a user to view a grouping of products with the desired sequence of attributes and tags (filterable).
+**Application:**        * The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
                         * The feature allows a user to specify the sequence of grouping attributes.
                         * *Example:*
 
@@ -29,7 +29,7 @@ The Group By feature allows a user to view a group of objects in the system by s
 
 
 How to do: Group By
-==================================
+====================
 To do a Group By, follow these steps:
 
 |
