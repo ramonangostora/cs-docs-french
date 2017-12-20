@@ -23,8 +23,8 @@ The Multi-classify Objects feature provides general users the ability to add att
                         * The attribution class would define the product more in detail.
                         * *Example:*
 
-                          For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
-                          As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
+                            For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
+                            As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
 
 **How To**               A **How to do: Multi-classify Objects** document is available below.
 =================       =============================================================================================================================================================
