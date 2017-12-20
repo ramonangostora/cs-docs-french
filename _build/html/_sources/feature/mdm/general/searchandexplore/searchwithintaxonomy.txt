@@ -15,7 +15,7 @@ The Search within Taxonomy feature allows a user to search (for an article or a 
                         * This feature provides a user a hierarchy of objects in the Taxonomy that can be used
                           for navigation.
 
-**Prerequisite:**       *Taxonomy*  to arrange classification of products.
+**Prerequisite:**       *Taxonomy*  to arrange the classification of products.
 
 **Application:**        * This feature is used to search for a product within the taxonomy.
                         * *Example:*
