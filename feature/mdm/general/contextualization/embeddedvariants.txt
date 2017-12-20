@@ -5,12 +5,12 @@ CORE 74: Embedded Variants within Contexts
 
 
 
-The Embedded Variants within Context feature provides general users the ability to create embedded variants for a product within a context.
+Embedded Variants within Contexts is a feature that allows users to create embedded variants for a product within a context.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to create a pack of different pack sizes of fruit juice with different quantity.
+**User Story:**         As a user, I want to create different quantity pack sizes of fruit juice.
 
 **Description:**        * Embedded Variants enable the user to create variants for a product in terms of a context.
                         * A product can have several variants, and these variants can be distinguished based on a context.
@@ -25,7 +25,7 @@ The Embedded Variants within Context feature provides general users the ability 
                           In this example, the packaging is a context of the type tag based on which the product is having its variants.
 
 
-**How To**              A **How to do: Embedded Variants within Context** document is available below.
+**How To**              A **How to do: Embedded Variants within Contexts** document is available below.
 =================       =============================================================================================================================================================
 
 
@@ -34,8 +34,8 @@ The Embedded Variants within Context feature provides general users the ability 
 
 
 
-How to do: Embedded Variants within Context
-===========================================
+How to do: Embedded Variants within Contexts
+============================================
 
 This How To guide provides instructions on how to create embedded variants for a product within a context.
 To do this, follow these steps:
@@ -43,9 +43,11 @@ To do this, follow these steps:
 
 |
 
-#. Click on the **+** icon and select **Single Article**.
+#. Click on the "+" icon and select **Single Article**.
 
 .. image:: /feature/_images/embeddedvariants_clickplusicon.png
+
+|
 
 |
 
@@ -55,33 +57,45 @@ To do this, follow these steps:
 
 |
 
+|
+
 #. Click on the context icon found next to the home icon.
 
 .. image:: /feature/_images/embeddedvariants_clickcontexticon.png
 
 |
 
+|
 
-#. Click on the **+** icon with Create Variant button.
+#. Click on the "+" icon with Create Variant button.
 
 .. image:: /feature/_images/embeddedvariants_clickplusiconcreatevariant.png
+
+|
 
 |
 
 #. Select the appropriate tags, select the name of the variant, and click **Save**.
 
 .. image:: /feature/_images/embeddedvariants_selecttag.png
+
 |
+
 |
 
 #. Fill in the data for the variant.
 
 .. image:: /feature/_images/embeddedvariants_filldataforvariant.png
+
+|
+
 |
 
 #. Click on the Camera icon to add the image.
 
 .. image:: /feature/_images/embeddedvariants_clickcamera.png
+
+|
 
 |
 
@@ -91,18 +105,21 @@ To do this, follow these steps:
 
 |
 
-#. Click **Save** to save the variant.
+|
+
+#. Click **Save**.
 
 |
 
-#. Click on the back icon at the top.
+#. Click on the Back icon at the top left corner.
 
 .. image:: /feature/_images/embeddedvariants_clickbackicon.png
 
 |
 
+|
 
-#. Check if the output is something like the image below. Similarly, the user can create several embedded variants.
+#. The variant looks similar to the image below. Take note that users can create several embedded variants.
 
 .. image:: /feature/_images/embeddedvariants_checkoutput.png
 
