@@ -69,6 +69,8 @@ To do this, follow these steps:
 
 |
 
+|
+
 #. To add another attribution class, click **Add Class** again.
 
 .. image:: /feature/_images/multiclassify_addclassagain.png
