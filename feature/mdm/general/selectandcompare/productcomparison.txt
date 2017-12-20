@@ -39,7 +39,7 @@ The Product Comparison feature allows users to compare products and their proper
 How to do: Product Comparison
 =============================
 
-This How To guide provides instructions on how to comapre products.
+This How To guide provides instructions on how to compare products.
 To do this, follow these steps:
 
 |
@@ -54,7 +54,7 @@ To do this, follow these steps:
 
 |
 
-#. Select the Comparison View icon found at the top of the products.
+#. Click the Comparison View icon found at the top of the products.
 
 .. image:: /feature/_images/productcomparison_selecticon.png
 
@@ -62,7 +62,7 @@ To do this, follow these steps:
 
 |
 
-#. Comaprison View enables the user to compare the data of two products.
+#. Comparison View enables the user to compare the data of two products.
 
 .. image:: /feature/_images/productcomparison_comparisonview.png
 
