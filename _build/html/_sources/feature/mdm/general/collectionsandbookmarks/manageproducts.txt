@@ -5,7 +5,7 @@ CORE 67: Manage Products across Collections
 
 
 
-The Manage Products across Collections feature provides general users the ability to copy or move products or objects between collections.
+Manage Products across Collections is a feature that allows users to copy or move products or objects between collections.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0

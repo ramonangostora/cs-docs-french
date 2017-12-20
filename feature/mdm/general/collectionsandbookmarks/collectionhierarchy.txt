@@ -5,7 +5,7 @@ CORE 68: Collection Hierarchy
 
 
 
-The Collection Hierarchy feature provides general users the ability to view their collections within a structured hierarchy of collections.
+Collection Hierarchy is a feature that allows users to view their collections within a structured hierarchy of collections.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0

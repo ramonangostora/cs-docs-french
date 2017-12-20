@@ -5,18 +5,18 @@ CORE E-52: Search and Store Bookmarks
 
 
 
-The Search and Store Bookmarks feature provides general users the ability to use different criteria so that they can easily identify the items that they want to work on.
+Search and Store Bookmarks is a feature that allows users to search for products using various criteria so that users can easily identify the items that they want to work on.
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search products or assets using various criteria so that I easily identify the items that I want to work on
+**User Story:**         As a user, I want to search for products or assets using various criteria so that I easily identify the items that I want to work on
 
 **Description:**        * The user can save his search and visit it later to see newly added products that satisfy the search criteria.
                         * Bookmark allows users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically indluced.
                         * Collection includes the products added by the user. A collection always contains the same products unless the user removes them or add other products.
 
-**Prerequisite:**       User must select the products to be added in the bookmarks.
+**Prerequisite:**       * Selecting the products to be added in the bookmarks
 
 **Application:**        * A user can easily find his favorite products by bookmarking them.
                         * A bookmark is auto-updated with products matching the criteria.
