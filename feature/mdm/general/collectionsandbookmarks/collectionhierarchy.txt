@@ -22,7 +22,6 @@ Collection Hierarchy is a feature that allows users to view their collections wi
                         * *Example:*
 
                             A collection of furniture products having hierarchy level based on product type such as office and home furniture, chairs, tables, and others.
-
 =================       =============================================================================================================================================================
 
 
