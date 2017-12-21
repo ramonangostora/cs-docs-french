@@ -43,18 +43,18 @@ To do this, follow these steps:
 
 #. Go to PIM.
 
-.. image:: /feature/_images/completeclone_gotopim.png
+.. image:: /feature/mdm/_images/completeclone_gotopim.png
 
 |
 
 #. Select the product to clone.
 
-.. image:: /feature/_images/completeclone_selectproduct.png
+.. image:: /feature/mdm/_images/completeclone_selectproduct.png
 |
 |
 
 #. A duplicate product having exactly the same properties is created.
 
-.. image:: /feature/_images/completeclone_duplicateproduct.png
+.. image:: /feature/mdm/_images/completeclone_duplicateproduct.png
 
 |
