@@ -25,16 +25,10 @@ The Public or Private Bookmarks and Collections feature provides general users t
 
                             Suppose the marketing team of a company has created a bookmark for a trial, they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
                             On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.
-
-**How To**              A **How to do: Public or Private Bookmarks and Collections** document is available below.
-
-
 =================       =============================================================================================================================================================
 
 
-
-.. image:: /feature/_images/line-png-32.png
-
+|
 
 
 How to do: Public or Private Bookmarks and Collections
