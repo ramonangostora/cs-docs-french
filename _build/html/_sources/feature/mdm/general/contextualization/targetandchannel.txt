@@ -1,0 +1,146 @@
+=============================================
+MDM 11: Target and Channel Contextualization
+=============================================
+
+
+
+
+Target and Channel Contextualization is a feature that allows users to have attributes that can have multiple values which vary based on context.
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         As a user, I want to have attributes that can have multiple values which vary based on context.
+
+**Description:**        * Target and channel contextualization enables the user to setup values which are based on a context.
+                        * This feature is particularly useful for values that are dependent on a context or tag.
+                        * The value can be based on two or more contexts.
+
+**Prerequisite:**       * Context configuration
+                        * Article created
+
+**Application:**        * Target contextualization allows the user to have a multi-value attribute based on a tag.
+                        * *Example:*
+
+                            A product has multiple prices based on the regions it is being sold to, where Region is the context that drives the price attribute.
+
+
+**How To**              A **How to do: Target and Channel Contextualization** document is available below.
+=================       =============================================================================================================================================================
+
+
+
+.. image:: /feature/_images/line-png-32.png
+
+
+
+How to do: Target and Channel Contextualization
+===============================================
+
+This How To guide provides instructions on how to have attributes that can have multiple values which vary based on context.
+To do this, follow these steps:
+
+
+|
+
+#. Go to *Settings* tab.
+
+.. image:: /feature/_images/targetandchannel_gotosettings.png
+
+|
+
+|
+
+#. Select *Context Configuration*.
+
+.. image:: /feature/_images/targetandchannel_selectcontextconfiguration.png
+
+|
+
+|
+
+#. Create new context.
+
+.. image:: /feature/_images/targetandchannel_createnewcontext.png
+
+|
+
+|
+
+#. Fill in the name and select *Attribute Context* as the feature type.
+
+.. image:: /feature/_images/targetandchannel_fillname.png
+
+|
+
+|
+
+#. Select tag group to be added in the context and click **Save**.
+
+.. image:: /feature/_images/targetandchannel_selecttaggroup.png
+
+|
+
+|
+
+#. In the class configuration, select the class.
+
+.. image:: /feature/_images/targetandchannel_selectclass.png
+
+|
+
+|
+
+#. Select the desired attribute then select the context from the drop-down list.
+
+.. image:: /feature/_images/targetandchannel_selectdesiredattribute.png
+
+|
+
+|
+
+#. Click **Save** and go to *Runtime*.
+
+.. image:: /feature/_images/targetandchannel_clicksave.png
+
+|
+
+|
+
+#. Select the product.
+
+.. image:: /feature/_images/targetandchannel_selectproduct.png
+
+|
+
+|
+
+#. Click on the attirbute with variations.
+
+.. image:: /feature/_images/targetandchannel_clickattribute.png
+
+|
+
+|
+
+#. Create Attribute Variant for list price.
+
+.. image:: /feature/_images/targetandchannel_createattributevariant.png
+
+|
+
+|
+
+#. Select the tag group, enter the value for the attribute, and click **Save**.
+
+.. image:: /feature/_images/targetandchannel_selecttagandentervalue.png
+
+|
+
+|
+
+#. It should display something like the image below.
+
+.. image:: /feature/_images/targetandchannel_checkoutput.png
+
+|
