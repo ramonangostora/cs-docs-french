@@ -11,7 +11,7 @@ In a complete clone, all the values of the original product are cloned into the 
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to create complete clones or duplicates of the product. In a complete clone, all the values of the original product are cloned into the cloned product.
+**User Story:**         * As a user, I want to create complete clones or duplicates of the product. In a complete clone, all the values of the original product are cloned into the cloned product.
 
 **Description:**        * We use clone context to copy the product or make a new product with the features of the existing product.
                         * The feature of a clone is to create an identical twin of a product.
@@ -30,7 +30,6 @@ In a complete clone, all the values of the original product are cloned into the 
 =================       =============================================================================================================================================================
 
 
-.. image:: /feature/_images/line-png-32.png
 
 
 
