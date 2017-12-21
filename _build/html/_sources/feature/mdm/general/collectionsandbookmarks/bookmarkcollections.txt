@@ -47,7 +47,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_loggedinasadmin.PNG
 
 |
 
@@ -57,16 +57,16 @@ Bookmarks: Setting a Public Bookmark
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.PNG
 |
 |
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.PNG
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.png
 
 
 Bookmarks: Setting a Private Bookmark
@@ -76,7 +76,7 @@ Bookmarks: Setting a Private Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/_images/bookmarkcollection_loggedinasadmin.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_loggedinasadmin.PNG
 
 |
 
@@ -86,16 +86,16 @@ Bookmarks: Setting a Private Bookmark
 
 #. Click on the bookmark icon and set the bookmark to *Private*.
 
-.. image:: /feature/_images/bookmarkcollection_clickonthebookmarkicontomakeitprivate.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_clickonthebookmarkicontomakeitprivate.PNG
 
 |
 
 #. Once done, the bookmark can be viewed only by specific users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
 *As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.png
 
 
 Collections: Setting a Public Collection
@@ -109,13 +109,13 @@ Collections: Setting a Public Collection
 
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
-.. image:: /feature/_images/bookmarkcollection_clickonthepinbuttonontherightside.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_clickonthepinbuttonontherightside.PNG
 
 |
 
 #. Name the collection and click on the **Create Collection** button.
 
-.. image:: /feature/_images/bookmarkcollection_namethecollection.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_namethecollection.PNG
 
 |
 
@@ -125,16 +125,16 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.PNG
 |
 |
 
 #. Once done, the collection data can be viewed by all users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.png
 
 
 Collections: Setting a Private Collection
@@ -148,19 +148,19 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/_images/bookmarkcollection_oncesearchedclickonthelockicon.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncesearchedclickonthelockicon.PNG
 |
 |
 
 #. Once done, the collection can be viewed only by specific users.
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.PNG
 
 |
 
-.. image:: /feature/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.PNG
 *As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
 
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.png
