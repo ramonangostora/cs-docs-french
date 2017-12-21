@@ -19,7 +19,7 @@ Property Collection is a feature that allows grouping of attributes and tags und
 **Application:**        * Property Collection can hold attributes and tags for similar type of information or content.
                         * *Example:*
 
-                            For the property collection "General Information", the attributes (name, PID, SKU, GTIN, Description) and tags (Brands) are brought under one property collection
+                            For the property collection "General Information", the attributes (name, PID, SKU, GTIN, Description) and tags (Brands) are brought under one property collection.
 =================       =============================================================================================================================================================
 
 
