@@ -27,13 +27,8 @@ Creating a Partial Clone is a feature that allows users to create partial clones
 
                             Suppose a product is to be duplicated without certain values and relationships.
                             Since the copy may  have a different supplier, image, or market, we can create a partial clone wherein the relationships and attributes that are not to be copied can be left unchecked.
-
-**How To**               A **How to do: Creating a Partial Clone** document is available below.
-
 =================       =============================================================================================================================================================
 
-
-.. image:: /feature/_images/line-png-32.png
 
 
 
