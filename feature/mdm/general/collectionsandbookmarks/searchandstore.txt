@@ -10,7 +10,7 @@ Search and Store Bookmarks is a feature that allows users to search for products
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search for products or assets using various criteria so that I easily identify the items that I want to work on
+**User Story:**         * As a user, I want to search for products or assets using various criteria so that I easily identify the items that I want to work on
 
 **Description:**        * The user can save his search and visit it later to see newly added products that satisfy the search criteria.
                         * Bookmark allows users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically indluced.
@@ -26,15 +26,8 @@ Search and Store Bookmarks is a feature that allows users to search for products
                             If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
                             Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.
 
-
-**How To**              A **How to do: Search and Store Bookmarks** document is available below.
-
-
 =================       =============================================================================================================================================================
 
-
-
-.. image:: /feature/_images/line-png-32.png
 
 
 
