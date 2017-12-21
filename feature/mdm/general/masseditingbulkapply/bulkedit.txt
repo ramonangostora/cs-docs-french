@@ -7,14 +7,14 @@ The Bulk Edit feature allows a user to change the values of multiple attributes/
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I can change the values of multiple attributes/tags for multiple products in a single operation.
+**User Story:**         * As a user, I can change the values of multiple attributes/tags for multiple products in a single operation.
 
 **Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
                         * This feature can be used on similar or dissimilar types of products.
                         * This feature allows multiple attributes/tags to be edited in a single operation.
                         * This feature allows multiple attributes/tags to be changed and applied to products.
 
-**Prerequisite:**        *Products* to apply the bulk editing.
+**Prerequisite:**       * *Products* to apply the bulk editing.
 
 **Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
                         * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
