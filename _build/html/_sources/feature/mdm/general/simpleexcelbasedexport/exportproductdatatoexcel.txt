@@ -7,7 +7,7 @@ The Export Product Data to Excel feature provides the functionality to select an
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to select and export product information to an Excel file so that I can work with the exported data outside the platform.
+**User Story:**         * As a user, I want to select and export product information to an Excel file so that I can work with the exported data outside the platform.
 
 **Description:**        * This feature allows the export of data from PIM/MAM to a Microsoft Excel spreadsheet.
                         * This feature allows (1) the export of all the products and images or (2) the export of selected items to an Excel sheet.
@@ -22,13 +22,7 @@ The Export Product Data to Excel feature provides the functionality to select an
                             A user has a department/workgroup that uses Microsoft Excel to work on data.
                             The user can directly export data from the platform to an Excel file that the department/workgroup can easily use.
 
-**How To:**              A **How to do: Export Product Data to Excel** document is available that provides information on how to do the feature.
 =================       ===============================================================================================================================================================
-
-|
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
 
 
 How to do: Export Product Data to Excel
