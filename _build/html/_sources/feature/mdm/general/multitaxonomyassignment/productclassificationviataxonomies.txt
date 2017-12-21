@@ -7,8 +7,8 @@ The Product Classification via Taxonomies feature provides the functionality to 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to associate a product to a taxonomy and then to another taxonomy to classify the product to multiple taxonomies so that
-                        I have a more refined product classification.
+**User Story:**         * As a user, I want to associate a product to a taxonomy and then to another taxonomy to classify the product to multiple taxonomies so that
+                          I have a more refined product classification.
 
 **Description:**        * Taxonomies are structured hierarchies which can be used to classify the products in the system.
                         * Products can have multiple taxonomies set by a user to have a more refined classification and easier search.
@@ -22,13 +22,7 @@ The Product Classification via Taxonomies feature provides the functionality to 
                             If a user has an energy drink as a product that is classified under the *Energy Drinks* taxonomy, the user can also associate the product to the
                             *Beverages* taxonomy that will allow the product to be easily searched by using the taxonomies.
 
-**How To:**              A **How to do: Product Classification via Taxonomies** document is available that shows the steps on how to do this feature.
 =================       ===============================================================================================================================================================
-
-|
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
 
 
 How to do: Product Classification via Taxonomies

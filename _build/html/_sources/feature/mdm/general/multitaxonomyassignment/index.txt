@@ -6,5 +6,5 @@ CORE E-3: Multi-taxonomy Assignment
    :maxdepth: 1
 
    multitaxonomyassignment
-   .. settingupaffinities
+   settingupaffinities
    productclassificationviataxonomies
