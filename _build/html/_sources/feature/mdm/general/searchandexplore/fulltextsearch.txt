@@ -7,9 +7,9 @@ The Full-text Search feature gives a user the capability to search for a product
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to search for products or assets in the system using a full-text search. The search feature should return all objects that match the search criteria.
+**User Story:**         * As a user, I want to search for products or assets in the system using a full-text search. The search feature should return all objects that match the search criteria.
 
-**Description:**        This feature is used to search directly for a product.
+**Description:**        * This feature is used to search directly for a product.
 
 **Prerequisite:**       * *Search Bar*
                         * *Products*
@@ -20,13 +20,7 @@ The Full-text Search feature gives a user the capability to search for a product
                             If a user wants to search for products that match the "Red Bull" criteria in the system, the user directly types "Red Bull" on the search bar.
                             The search results will only display entries with Red Bull.
 
-**How To:**               A **How to do: Full-text Search** document is available that provides instructions on how to do this search in the system.
 =================       =============================================================================================================================================================
-
-|
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
 
 
 How to do: Full-text Search

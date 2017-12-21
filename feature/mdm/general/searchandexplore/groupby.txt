@@ -7,11 +7,11 @@ The Group By feature allows a user to view a group of objects in the system by s
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.
+**User Story:**         * One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.
 
-**Description:**        The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
+**Description:**        * The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
 
-**Prerequisite:**       *Group By*  to make groups according to *Tags* and *Attributes*.
+**Prerequisite:**       * *Group By*  to make groups according to *Tags* and *Attributes*.
 
 **Application:**        * The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
                         * The feature allows a user to specify the sequence of grouping attributes.
@@ -19,13 +19,7 @@ The Group By feature allows a user to view a group of objects in the system by s
 
                             If a user wants to view a group of products that is related to **Female section**, the *Group By*  feature may be used.
 
-**How To:**              A **How to do: Group By** document is available to provide instructions on how to group objects in the system.
 =================       =============================================================================================================================================================
-
-|
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
 
 
 How to do: Group By
