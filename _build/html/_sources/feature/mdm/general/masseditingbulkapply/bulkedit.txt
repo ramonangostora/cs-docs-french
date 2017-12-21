@@ -14,23 +14,17 @@ The Bulk Edit feature allows a user to change the values of multiple attributes/
                         * This feature allows multiple attributes/tags to be edited in a single operation.
                         * This feature allows multiple attributes/tags to be changed and applied to products.
 
-**Prerequisite:**       *Products* to apply the bulk editing.
+**Prerequisite:**        *Products* to apply the bulk editing.
 
-**Application:**        * Bulk Edit is used to support a variety of actions, such as: *editing, labeling, changing states, moving, or deleting*.
-                        * Bulk Edit saves hours of manual work by editing products in batch instead of one product at a time.
-                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *price, compare at price, weight, tags, and more*.
+**Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
+                        * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
+                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
                         * *Example:*
 
-                            A food company changed their tagline or description for their products. The company can select their products in the system and change the
-                            description using bulk edit. It can also apply the description change to all of their products.
+                            A food company changed the tagline or description of their products. The company can select their products in the system and change the
+                            description using bulk edit. The feature will also apply the description change to all of their products.
 
-**How To:**              A **How to do: Bulk Edit** document is available to provide information on how to do the mass editing.
 =================       ===============================================================================================================================================================
-
-|
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
 
 
 How to do: Bulk Edit
@@ -57,20 +51,18 @@ To do mass editing, follow these steps:
 |
 |
 
-#. Either (1) select the tags/attributes from the list or (2) search for the tags/attributes in the search bar and enter the values. Refer to the images below:
+#. Either (1) select the tags/attributes from the list or (2) search for the tags/attributes in the search bar and enter the values. Refer to the images below.
 
-  |
 
-  #. Selecting tags/attributes from the list.
+  #. Selecting tags/attributes from the list:
 
   .. image:: /feature/mdm/_images/bulkedit_selectingtags.PNG
   |
   |
 
-  #. Searching for tags/attributes in the search bar.
+  #. Searching for tags/attributes in the search bar:
 
   .. image:: /feature/mdm/_images/bulkedit_searchingtags.PNG
-  |
   |
 
 |
