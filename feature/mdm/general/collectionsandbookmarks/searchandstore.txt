@@ -18,7 +18,7 @@ Search and Store Bookmarks is a feature that allows users to search for products
 
 **Prerequisite:**       * Selecting the products to be added in the bookmarks
 
-**Application:**        * A user can easily find his favorite products by bookmarking them.
+**Application:**        * Users can easily find their favorite products by placing them on bookmark.
                         * A bookmark is auto-updated with products matching the criteria.
                         * *Example:*
 
@@ -77,7 +77,7 @@ Storing a bookmark
 
 |
 
-#. Check the notification at the lower left side of the page noting that the bookmark has been added successfully.
+#. Check the notification at the lower left side of the page indicating that the bookmark has been added successfully.
 
 .. image:: /feature/_images/searchstore_checkthenotificationatthelowerleftsideofthepage.PNG
 |
