@@ -41,12 +41,12 @@ To do this, follow these steps:
 
 #. Click on the "+" icon then create a name.
 
-.. image:: /feature/_images/multiclassify_clickplusicon.png
+.. image:: /feature/mdm/_images/multiclassify_clickplusicon.png
 
 |
 
 |
-.. image:: /feature/_images/multiclassify_addname.png
+.. image:: /feature/mdm/_images/multiclassify_addname.png
 
 |
 
@@ -54,7 +54,7 @@ To do this, follow these steps:
 
 #. To add a Non-Nature class or Attribution class, click **Add Class**.
 
-.. image:: /feature/_images/multiclassify_addnonnature.png
+.. image:: /feature/mdm/_images/multiclassify_addnonnature.png
 
 |
 
@@ -62,21 +62,23 @@ To do this, follow these steps:
 
 #. Add a class from the drop-down list.
 
-.. image:: /feature/_images/multiclassify_addclass.png
+.. image:: /feature/mdm/_images/multiclassify_addclass.png
 
 |
+
+.. image:: /feature/mdm/_images/multiclassify_addclass2.png
 
 |
 
 #. To add another attribution class, click **Add Class** again.
 
-.. image:: /feature/_images/multiclassify_addclassagain.png
+.. image:: /feature/mdm/_images/multiclassify_addclassagain.png
 
 |
 
 |
 
-.. image:: /feature/_images/multiclassify_addclassagain2.png
+.. image:: /feature/mdm/_images/multiclassify_addclassagain2.png
 
 |
 
@@ -84,14 +86,14 @@ To do this, follow these steps:
 
 #. To switch templates from nature class to non-nature class, click on the drop-down list and select an option, for example *Beverages*.
 
-.. image:: /feature/_images/multiclassify_switchtemplate.png
+.. image:: /feature/mdm/_images/multiclassify_switchtemplate.png
 
 |
 
-.. image:: /feature/_images/multiclassify_switchtemplate2.png
+.. image:: /feature/mdm/_images/multiclassify_switchtemplate2.png
 
 |
 
-.. image:: /feature/_images/multiclassify_switchtemplate3.png
+.. image:: /feature/mdm/_images/multiclassify_switchtemplate3.png
 
 |
