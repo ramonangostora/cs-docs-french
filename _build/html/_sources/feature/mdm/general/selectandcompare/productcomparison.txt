@@ -10,7 +10,7 @@ The Product Comparison feature allows users to compare products and their proper
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to compare products so that I can compare their properties.
+**User Story:**         * As a user, I want to compare products so that I can compare their properties.
 
 **Description:**        * The product comparison view is a feature that compares two or more products.
                         * This feature gives an overview of the similarities and differences of comparable products.
@@ -27,12 +27,9 @@ The Product Comparison feature allows users to compare products and their proper
 
                             A user wants to buy a sofa so he uses filter to narrow down his search to the sofas that cost more than $600.
                             Having a list of sofas that match the criteria, the user can use the comparison view feature to compare two or more sofas along with their properties.
-
-**How To**               A **How to do: Product Comparison** document is available below.
 =================       =============================================================================================================================================================
 
 
-.. image:: /feature/_images/line-png-32.png
 
 
 
