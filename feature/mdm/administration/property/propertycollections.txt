@@ -1,0 +1,105 @@
+====================
+Property Collections
+====================
+
+
+Property Collection is a feature that allows grouping of attributes and tags under one area.
+
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * Data Model - Property Collections
+
+**Description:**        * A property collection is used to group the attributes and tags under one area.
+
+**Prerequisite:**       * Attributes and tags created
+
+**Application:**        * Property Collection can hold attributes and tags for similar type of information or content.
+                        * *Example:*
+
+                            For the property collection "General Information", the attributes (such as )name, PID, SKU, GTIN, Description) and tags (Brands) are brought under one property collection
+=================       =============================================================================================================================================================
+
+
+
+
+
+How to do: Property Collection
+===============================
+
+This How To guide provides instructions on how to group attributes and tags into one collection.
+To do this, follow these steps:
+
+|
+
+|
+
+#. Go to *Configuration Settings*.
+
+.. image:: /feature/mdm/_images/propertycollection_gotoconfigset.png
+
+|
+
+|
+
+#. Go to the property collection configuration section.
+
+.. image:: /feature/mdm/_images/propertycollection_gotopcconfig.png
+
+|
+
+|
+
+#. Click on the "+" icon to create a Property Collection.
+
+.. image:: /feature/mdm/_images/propertycollection_clickplusicon.png
+
+|
+
+|
+
+#. Enter a name and icon for that property collection.
+
+.. image:: /feature/mdm/_images/propertycollection_nameandicon.png
+
+|
+
+|
+
+#. Increase or decrease the number of rows and columns to accommodate the necessary attributes and tags into the property collection,
+
+.. image:: /feature/mdm/_images/propertycollection_rowscolumns.png
+
+|
+
+|
+
+#. Add the necessary attributes, tags and roles to the property collection.
+
+.. image:: /feature/mdm/_images/propertycollection_addattrib.png
+
+|
+
+|
+
+#. You can drag and drop the attributes and tags into the empty rows and columns.
+
+.. image:: /feature/mdm/_images/propertycollection_dragdrop.png
+
+|
+
+|
+
+#. Click the "+" icon in the class to add the property collection.
+
+.. image:: /feature/mdm/_images/propertycollection_addpc.png
+
+|
+
+|
+
+#. The property collection is now ready.
+
+.. image:: /feature/mdm/_images/propertycollection_propcoll.png
