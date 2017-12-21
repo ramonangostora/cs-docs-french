@@ -10,7 +10,7 @@ The Multi-classify Objects feature provides general users the ability to add att
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         As a user, I want to add attribution classes to the product in addition to the single Nature Class.
+**User Story:**         * As a user, I want to add attribution classes to the product in addition to the single Nature Class.
 
 **Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
                           Attribution classes contain detailed descriptive properties for the product.
@@ -25,12 +25,9 @@ The Multi-classify Objects feature provides general users the ability to add att
 
                             For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
                             As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
-
-**How To**               A **How to do: Multi-classify Objects** document is available below.
 =================       =============================================================================================================================================================
 
 
-.. image:: /feature/_images/line-png-32.png
 
 
 
