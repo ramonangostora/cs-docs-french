@@ -53,7 +53,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on the "+" icon to create a Property Collection.
+#. Click on the "+" icon to create a property collection.
 
 .. image:: /feature/mdm/_images/propertycollection_clickplusicon.png
 
