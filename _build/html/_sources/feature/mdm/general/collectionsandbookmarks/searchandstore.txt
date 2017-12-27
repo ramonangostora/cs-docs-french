@@ -122,7 +122,7 @@ Searching for a bookmark
 
 #. The bookmark is displayed.
 
-.. image:: /feature/mdm/_images/searchandstore_clickopen.PNG
+.. image:: /feature/mdm/_images/searchandstore_bookmarkopened.PNG
 
 *Note: The bookmark page will be updated automatically, if in the opted category, more products are added.*
 
