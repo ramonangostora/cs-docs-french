@@ -1,4 +1,3 @@
-==============================
 MDM Guide for General Features
 ==============================
 
@@ -7,3 +6,4 @@ MDM Guide for General Features
 
    contextualization/index
    multiclassification/index
+   searchandexplore/index

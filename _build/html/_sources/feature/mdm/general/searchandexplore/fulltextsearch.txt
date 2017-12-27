@@ -1,0 +1,51 @@
+========================
+MDM 6: Full-text Search
+========================
+The Full-text Search feature gives a user the capability to search for a product or asset directly by using matching criteria.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to search for products or assets in the system using a full-text search. The search feature should return all objects that match the search criteria.
+
+**Description:**        * This feature is used to search directly for a product.
+
+**Prerequisite:**       * *Search Bar*
+                        * *Products*
+
+**Application:**        * A user can use the full-text search to search for a single product.
+                        * *Example:*
+
+                            If a user wants to search for products that match the "Red Bull" criteria in the system, the user directly types "Red Bull" on the search bar.
+                            The search results will only display entries with Red Bull.
+
+=================       =============================================================================================================================================================
+
+
+How to do: Full-text Search
+============================
+To do a Full-text Search, follow these steps:
+
+|
+
+#. Click on the **Search bar**.
+
+|
+
+#. Enter the search keyword(s) (e.g. *Red Bull*). Then, click **Enter**.
+
+|
+
+#. View the search results that are displayed based on the attributes.  These attributes should have been defined as searchable.
+
+.. figure:: /feature/mdm/_images/fulltext_search_03.PNG
+|
+
+*Note: The products that contain the keywords (in this example, "Red" and "Bull") were searched for and displayed. The search results will display: the bag tagged as 'Red' and the energy drink named 'Red Bull'.*
+
+.. figure:: /feature/mdm/_images/fulltext_search_04.PNG
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line
