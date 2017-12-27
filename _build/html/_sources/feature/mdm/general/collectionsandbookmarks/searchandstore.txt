@@ -44,38 +44,43 @@ Storing a bookmark
 
 |
 
-#. Go to PIM.
+#. Go to PIM and click **Advanced Filters**.
+
+.. image:: /feature/mdm/_images/searchandstore_gotopim.PNG
 
 |
 
-#. Go to Advanced Filters.
+#. Select the desired filters and click **Apply**.
 
-.. image:: /feature/mdm/_images/searchstore_GotoAdvancedFiltersandselectthefilterforbookmark.PNG
-
-|
-
-#. Select the filter for bookmarks and click **Apply**.
-
-.. image:: /feature/mdm/_images/searchstore_clickonapply.PNG
+.. image:: /feature/mdm/_images/searchandstore_selectfilter.PNG
 
 |
 
-#. At the top, click bookmarks and enter the name of the bookmark.
+|
+
+#. Click the bookmark icon.
+
+.. image:: /feature/mdm/_images/searchandstore_clickbookmarks.PNG
 
 |
 
-#. Click on the **Create Bookmarks** button.
+|
 
-.. image:: /feature/mdm/_images/searchstore_clickcreatebookmarksbutton.PNG
+#. Enter the name of the bookmark and click **Create**.
+
+.. image:: /feature/mdm/_images/searchandstore_entername.PNG
 
 |
 
-#. Check the notification at the lower left side of the page indicating that the bookmark has been added successfully.
-
-.. image:: /feature/mdm/_images/searchstore_checkthenotificationatthelowerleftsideofthepage.PNG
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+#. Bookmark has been added successfully.
+
+.. image:: /feature/mdm/_images/searchandstore_addedsuccessfully.PNG
+
+|
+
+|
 
 
 Searching for a bookmark
@@ -85,23 +90,40 @@ Searching for a bookmark
 
 #. Go to PIM.
 
+.. image:: /feature/mdm/_images/searchandstore_gotopim.PNG
+
 |
 
-#. On the search bar, click the Bookmark icon.
-
-.. image:: /feature/mdm/_images/searchstore_onthesearchbarclickthebookmarkicon.PNG
-|
 |
 
-#. Type the name of the bookmark and click on the **Open** button.
+#. On the search bar, click the bookmark icon.
 
-.. image:: /feature/mdm/_images/searchstore_typethenameofthebookmark.PNG
+.. image:: /feature/mdm/_images/searchandstore_searchbar.PNG
+
 |
+
 |
 
-#. Once done, wait for the bookmark to open.
+#. Search for and click the bookmark.
 
-.. image:: /feature/mdm/_images/searchstore_oncedonewaitforthebookmarkpagetoopen.PNG
+.. image:: /feature/mdm/_images/searchandstore_searchbookmark.PNG
+
+|
+
+|
+
+#. Click **Open**.
+
+.. image:: /feature/mdm/_images/searchandstore_clickopen.PNG
+
+|
+
+|
+
+#. The bookmark is displayed.
+
+.. image:: /feature/mdm/_images/searchandstore_clickopen.PNG
+
 *Note: The bookmark page will be updated automatically, if in the opted category, more products are added.*
 
 |
