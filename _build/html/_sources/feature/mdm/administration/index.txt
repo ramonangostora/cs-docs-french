@@ -1,17 +1,8 @@
-=====================================
+======================================
 MDM Guide for Administration Features
-=====================================
+======================================
 
 .. toctree::
    :maxdepth: 1
 
-   search and explore
-   collections and bookmarks
-   multi taxonomy assignment
-   contextualization
-   timeline and history
-   cloning
-   simple excel based export
-   multiclassification
-   mass editing
-   select and compare
+   datamodelrelationships/index

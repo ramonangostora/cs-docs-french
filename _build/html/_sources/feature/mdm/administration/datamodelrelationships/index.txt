@@ -1,0 +1,11 @@
+======================================
+ADMIN E-9: Data Model - Relationships
+======================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managemedialinks
+   definearticlelinks
+   definerelationships
+   datamodelrelationships
