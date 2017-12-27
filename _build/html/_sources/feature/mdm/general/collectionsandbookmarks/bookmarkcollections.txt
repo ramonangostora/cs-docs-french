@@ -47,7 +47,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_loggedinasadmin.PNG
+.. image:: /feature/mdm/_images/bookmarksandcollections_admin.PNG
 
 |
 
