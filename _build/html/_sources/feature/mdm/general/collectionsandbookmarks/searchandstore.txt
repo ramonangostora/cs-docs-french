@@ -46,13 +46,13 @@ Storing a bookmark
 
 #. Go to PIM and click **Advanced Filters**.
 
-.. image:: /feature/mdm/_images/searchandstore_gotopim.PNG
+.. image:: /feature/mdm/_images/searchnstore_gotopim.png
 
 |
 
 #. Select the desired filters and click **Apply**.
 
-.. image:: /feature/mdm/_images/searchandstore_selectfilter.PNG
+.. image:: /feature/mdm/_images/searchnstore_selectfilter.PNG
 
 |
 
@@ -60,7 +60,7 @@ Storing a bookmark
 
 #. Click the bookmark icon.
 
-.. image:: /feature/mdm/_images/searchandstore_clickbookmarks.PNG
+.. image:: /feature/mdm/_images/searchnstore_clickbookmarks.PNG
 
 |
 
