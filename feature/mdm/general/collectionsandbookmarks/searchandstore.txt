@@ -52,7 +52,7 @@ Storing a bookmark
 
 #. Select the desired filters and click **Apply**.
 
-.. image:: /feature/mdm/_images/searchnstore_selectfilter.PNG
+.. image:: /feature/mdm/_images/searchnstore_selectfilter.png
 
 |
 
@@ -60,7 +60,7 @@ Storing a bookmark
 
 #. Click the bookmark icon.
 
-.. image:: /feature/mdm/_images/searchnstore_clickbookmarks.PNG
+.. image:: /feature/mdm/_images/searchnstore_clickbookmarks.png
 
 |
 
@@ -68,7 +68,7 @@ Storing a bookmark
 
 #. Enter the name of the bookmark and click **Create**.
 
-.. image:: /feature/mdm/_images/searchandstore_entername.PNG
+.. image:: /feature/mdm/_images/searchnstore_entername.png
 
 |
 
@@ -76,7 +76,7 @@ Storing a bookmark
 
 #. Bookmark has been added successfully.
 
-.. image:: /feature/mdm/_images/searchandstore_addedsuccessfully.PNG
+.. image:: /feature/mdm/_images/searchnstore_addedsuccessfully.png
 
 |
 

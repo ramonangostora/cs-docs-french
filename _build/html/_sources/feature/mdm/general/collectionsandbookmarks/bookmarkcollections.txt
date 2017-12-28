@@ -47,7 +47,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/mdm/_images/bookmarksandcollections_admin.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_admin.png
 
 |
 
@@ -59,7 +59,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/mdm/_images/bookmarksandcollections_publicbookmark.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_publicbookmark.png
 
 |
 
@@ -67,7 +67,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarksandcollections_publicuser.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_publicuser.png
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
 .. image:: /feature/mdm/_images/line-png-32.png
