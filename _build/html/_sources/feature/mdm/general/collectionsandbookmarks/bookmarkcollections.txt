@@ -123,7 +123,9 @@ Collections: Setting a Public Collection
 
 #. Enter the name of the collection and click **Create**.
 
-.. image:: /feature/mdm/_images/bookmarkcollections_entername.png
+.. image:: /feature/mdm/_images/bookmarksncollections_entername.png
+
+|
 
 |
 
@@ -139,7 +141,7 @@ Collections: Setting a Public Collection
 
 #. Once done, the collection data can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_publiccollectionview.png
+.. image:: /feature/mdm/_images/bookmarksncollections_publiccollectionview.png
 |
 
 .. image:: /feature/mdm/_images/line-png-32.png
@@ -156,17 +158,17 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncesearchedclickonthelockicon.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_privatecollection.png
+
 |
+
 |
 
 #. Once done, the collection can be viewed only by specific users.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific1.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_privatecollectionview.png
 
-|
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectioncanonlybeviewedbyspecific2.PNG
 *As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
 
 |
