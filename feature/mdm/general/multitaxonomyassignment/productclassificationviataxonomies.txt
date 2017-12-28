@@ -51,7 +51,7 @@ To classify a product to multiple taxonomies, follow these steps:
 |
 |
 
-#. Select a node from the list (e.g. *Food > Beverages > Sports and Energy Drinks*).
+#. Select a node from the list. Classify further until the desired taxonomy is achieved (e.g. *Food > Beverages > Sports and Energy Drinks*).
 
 .. image:: /feature/mdm/_images/prodclassification_selectanode.PNG
 |

@@ -19,7 +19,7 @@ The Multi-taxonomy Assignment feature provides general users the capability to a
                           Multiple hierarchies can be applied to a product.
                         * *Example:*
 
-                            A user has created an energy drink product and was given a hierarchy of just *Beverages* under *Food and Beverages*. The product
+                            A user has created an energy drink product and was given a hierarchy of just *Beverages* under *Food*. The product
                             may also have another hierarchy which can be under *Sports and Energy Drinks*. Multi-taxonomy allows a user to define more than one taxonomy for the product.
 
 =================       ===============================================================================================================================================================
