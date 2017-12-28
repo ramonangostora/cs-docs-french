@@ -106,7 +106,7 @@ Searching for a bookmark
 
 #. Search for and click the bookmark.
 
-.. image:: /feature/mdm/_images/searchandstore_searchbookmark.png
+.. image:: /feature/mdm/_images/searchnstore_searchbookmark.png
 
 |
 
@@ -114,7 +114,7 @@ Searching for a bookmark
 
 #. Click **Open**.
 
-.. image:: /feature/mdm/_images/searchandstore_clickopen.png
+.. image:: /feature/mdm/_images/searchnstore_clickopen.png
 
 |
 

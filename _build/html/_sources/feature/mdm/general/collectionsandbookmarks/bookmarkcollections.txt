@@ -80,23 +80,25 @@ Bookmarks: Setting a Private Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_loggedinasadmin.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_admin.png
 
 |
 
-#. Go to the desired bookmark.
+#. Click the bookmark icon and go to the desired bookmark.
 
 |
 
 #. Click on the bookmark icon and set the bookmark to *Private*.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_clickonthebookmarkicontomakeitprivate.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_privatebookmark.png
+
+|
 
 |
 
 #. Once done, the bookmark can be viewed only by specific users.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethebookmarkwillbeviewableonlytospecificusers.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_privateuser.png
 *As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
 
 .. image:: /feature/mdm/_images/line-png-32.png
