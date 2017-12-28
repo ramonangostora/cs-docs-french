@@ -40,53 +40,53 @@ To do this, follow these steps:
 
 #. Go to PIM.
 
-.. image:: /feature/mdm/_images/mngprod_gotopim.PNG
+.. image:: /feature/mdm/_images/manageprod_gotopim.png
 
 |
 
 |
 
-#. Go to *Collections* and click on the **Organize** button.
+#. Search for and click the collection.
 
-.. image:: /feature/mdm/_images/mngprod_gotocollectionsandclickorganizebutton.PNG
+.. image:: /feature/mdm/_images/manageprod_clickcollection.png
 
+|
+
+|
+
+#. Click **Organize**.
+
+.. image:: /feature/mdm/_images/manageprod_clickorganize.png
 |
 
 |
 
-#. On the collections page, click on the **Add New Collection** button and enter the name of that new collection. This will add a new collection.
+#. Click **Add New Collection**.
 
-.. image:: /feature/mdm/_images/mngprod_clickonaddnewcollection1.PNG
-
-|
-
-.. image:: /feature/mdm/_images/mngprod_clickonaddnewcollection2.PNG
-|
-
-#. Go back to the first collection and select the product you would like to copy or move.
-
-   | *Note: Multiple products can be selected for copying.*
+.. image:: /feature/mdm/_images/manageprod_addnewcollection.png
 
 
 |
 
-#. Once selected, click on the **Copy** button on the upper right side of the page.
+#. Enter the name for the collection.
 
-.. image:: /feature/mdm/_images/mngprod_gobacktothefirstcollectionandselect.PNG
-
-|
-
-#. Go to the collection where you want to copy the product.
+.. image:: /feature/mdm/_images/manageprod_entername.png
 
 |
 
-#. Click **Paste**.
+#. Select the product and click the Copy icon.
 
-.. image:: /feature/mdm/_images/mngprod_clickpaste.PNG
+.. image:: /feature/mdm/_images/manageprod_copy.png
+|
+
+#. Go to the desired path and click the Paste icon.
+
+.. image:: /feature/mdm/_images/manageprod_paste.png
 
 |
 
-.. image:: /feature/mdm/_images/mngprod_clickpaste2.PNG
-*The product has been added successfully. Follow the same steps to move the products. To do that, click Cut instead of Copy.*
+#. The product is added successfully.
+
+.. image:: /feature/mdm/_images/manageprod_addedsuccessfully.PNG
 
 |
