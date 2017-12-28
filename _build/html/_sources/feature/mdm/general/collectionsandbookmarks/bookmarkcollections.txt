@@ -51,19 +51,23 @@ Bookmarks: Setting a Public Bookmark
 
 |
 
-#. Go to the desired bookmark.
+|
+
+#. Click the bookmark icon and go to the desired bookmark.
 
 |
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_thedefaultsettingofabookmarkispublic.PNG
+.. image:: /feature/mdm/_images/bookmarksandcollections_publicbookmark.PNG
+
 |
+
 |
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethebookmarkwillbeviewablebyallusers.PNG
+.. image:: /feature/mdm/_images/bookmarksandcollections_publicuser.PNG
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
 .. image:: /feature/mdm/_images/line-png-32.png
