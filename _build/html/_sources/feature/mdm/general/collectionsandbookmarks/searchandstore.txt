@@ -90,7 +90,7 @@ Searching for a bookmark
 
 #. Go to PIM.
 
-.. image:: /feature/mdm/_images/searchnstore_gotopim.png
+.. image:: /feature/mdm/_images/searchnstore_gotopim2.png
 
 |
 
@@ -124,7 +124,7 @@ Searching for a bookmark
 
 .. image:: /feature/mdm/_images/searchnstore_bookmarkopened.png
 
-*Note: The bookmark page will be updated automatically, if in the opted category, more products are added.*
+*Note: The bookmark page will be updated automatically in case there are new products that satisfy the criteria.*
 
 |
 
