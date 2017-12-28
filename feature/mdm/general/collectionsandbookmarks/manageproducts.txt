@@ -87,6 +87,6 @@ To do this, follow these steps:
 
 #. The product is added successfully.
 
-.. image:: /feature/mdm/_images/manageprod_addedsuccessfully.PNG
+.. image:: /feature/mdm/_images/manageprod_addedsuccessfully.png
 
 |

@@ -12,10 +12,10 @@ The Public or Private Bookmarks and Collections feature provides general users t
 
 **User Story:**         * As a user, I want to define a bookmark or collection as either Private or Public.
 
-**Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visble to all users of the system.
-                        * A lock icon indicates that the bookmark is a private bookmark.
-                        * An unlock icon indicates that the bookmark is a public bookmark.
-                        * To change a bookmark into a private bookmark, user needs to click the lock icon to lock the bookmark and change it into a private one.
+**Description:**        * Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visible to all users of the system.
+                        * A locked icon indicates that the bookmark is a private bookmark.
+                        * An unlocked icon indicates that the bookmark is a public bookmark.
+                        * To change a bookmark into a private bookmark, user needs to set the bookmark status into a locked icon.
 
 **Prerequisite:**       * User must create a bookmark.
 
@@ -23,7 +23,7 @@ The Public or Private Bookmarks and Collections feature provides general users t
                         * A private bookmark will only be seen by the user who created the bookmark, and not the other users.
                         * *Example:*
 
-                            Suppose the marketing team of a company has created a bookmark for a trial, they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
+                            Suppose the marketing team of a company has created a bookmark for a trial, so they make the bookmark as a private bookmark because they don't want to show their bookmark to the other users of the system.
                             On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.
 
 =================       =============================================================================================================================================================
@@ -53,7 +53,7 @@ Bookmarks: Setting a Public Bookmark
 
 |
 
-#. Click the bookmark icon and go to the desired bookmark.
+#. Click the Bookmark icon and go to the desired bookmark.
 
 |
 
@@ -84,11 +84,11 @@ Bookmarks: Setting a Private Bookmark
 
 |
 
-#. Click the bookmark icon and go to the desired bookmark.
+#. Click the Bookmark icon and go to the desired bookmark.
 
 |
 
-#. Click on the bookmark icon and set the bookmark to *Private*.
+#. Set the bookmark to *Private*.
 
 .. image:: /feature/mdm/_images/bookmarksncollections_privatebookmark.png
 
@@ -96,7 +96,7 @@ Bookmarks: Setting a Private Bookmark
 
 |
 
-#. Once done, the bookmark can be viewed only by specific users.
+#. Once done, only certain users can view the bookmark.
 
 .. image:: /feature/mdm/_images/bookmarksncollections_privateuser.png
 *As seen on the image above, the bookmark cannot be viewed by the seller as it is restricted to the admin.*
@@ -139,7 +139,7 @@ Collections: Setting a Public Collection
 |
 |
 
-#. Once done, the collection data can be viewed by all users.
+#. Once done, the collection can be viewed by all users.
 
 .. image:: /feature/mdm/_images/bookmarksncollections_publiccollectionview.png
 |
@@ -164,12 +164,12 @@ Collections: Setting a Private Collection
 
 |
 
-#. Once done, the collection can be viewed only by specific users.
+#. Once done, only certain users can view the collection.
 
 .. image:: /feature/mdm/_images/bookmarksncollections_privatecollectionview.png
 
 
-*As seen on the images above, the collection cannot be viewed by the user as it is restricted to the admin.*
+*As seen on the images above, the collection cannot be viewed by the seller as it is restricted to the admin.*
 
 |
 

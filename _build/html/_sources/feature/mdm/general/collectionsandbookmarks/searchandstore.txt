@@ -13,7 +13,7 @@ Search and Store Bookmarks is a feature that allows users to search for products
 **User Story:**         * As a user, I want to search for products or assets using various criteria so that I easily identify the items that I want to work on
 
 **Description:**        * The user can save his search and visit it later to see newly added products that satisfy the search criteria.
-                        * Bookmark allows users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically indluced.
+                        * Bookmark allows users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically incluced.
                         * Collection includes the products added by the user. A collection always contains the same products unless the user removes them or add other products.
 
 **Prerequisite:**       * Selecting the products to be added in the bookmarks
@@ -58,7 +58,7 @@ Storing a bookmark
 
 |
 
-#. Click the bookmark icon.
+#. Click the Bookmark icon.
 
 .. image:: /feature/mdm/_images/searchnstore_clickbookmarks.png
 
@@ -96,7 +96,7 @@ Searching for a bookmark
 
 |
 
-#. On the search bar, click the bookmark icon.
+#. On the search bar, click the Bookmark icon.
 
 .. image:: /feature/mdm/_images/searchnstore_searchbar.png
 
