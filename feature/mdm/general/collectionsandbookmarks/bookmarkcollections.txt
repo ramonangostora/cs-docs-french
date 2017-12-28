@@ -99,7 +99,7 @@ Bookmarks: Setting a Private Bookmark
 #. Once done, the bookmark can be viewed only by specific users.
 
 .. image:: /feature/mdm/_images/bookmarksncollections_privateuser.png
-*As seen on the image above, the bookmark cannot be viewed by the user as it is restricted to the admin.*
+*As seen on the image above, the bookmark cannot be viewed by the seller as it is restricted to the admin.*
 
 .. image:: /feature/mdm/_images/line-png-32.png
 
@@ -111,17 +111,19 @@ Collections: Setting a Public Collection
 
 #. To start creating a collection, select the products or assets that will be included in the collection.
 
+.. image:: /feature/mdm/_images/bookmarksncollections_selectproducts.png
+
 |
 
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_clickonthepinbuttonontherightside.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_createcollection.png
 
 |
 
-#. Name the collection and click on the **Create Collection** button.
+#. Enter the name of the collection and click **Create**.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_namethecollection.PNG
+.. image:: /feature/mdm/_images/bookmarkcollections_entername.png
 
 |
 
@@ -131,13 +133,13 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncefoundcheckthedefaultsettingispublic.PNG
+.. image:: /feature/mdm/_images/bookmarksncollections_publiccollection.png
 |
 |
 
 #. Once done, the collection data can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarkcollection_oncedonethecollectionwillbeviewablebyallusers.PNG
+.. image:: /feature/mdm/_images/bookmarkcollection_publiccollectionview.png
 |
 
 .. image:: /feature/mdm/_images/line-png-32.png
