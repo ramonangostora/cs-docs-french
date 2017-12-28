@@ -13,7 +13,7 @@ It also allows merging of specific values from previous versions into the latest
 
 **Description:**        * This feature allows a user to compare versions of a product/article.
                         * This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.
-                        * This feature creates a comparison table that shows columns for the products (or services) and rows for the attributes.  This table allows quick and easy
+                        * This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
                           comparison between each offering's features and characteristics.
 
 **Prerequisite:**       * *Product*  created with different versions.

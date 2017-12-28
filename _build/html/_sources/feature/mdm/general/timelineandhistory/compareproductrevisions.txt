@@ -11,7 +11,7 @@ The Compare Product Revisions feature allows a user to compare different version
 
 **Description:**        * This feature allows a user to compare the versions of a product/article.
                         * This feature gives an overview of the similarities and differences of comparable versions to track the changes made over a period of time.
-                        * This feature creates a comparison table that contains columns for the products (or services) and rows for the attributes. This enables a user
+                        * This feature creates a comparison table that contains columns for the product versions and rows for the attributes. This enables a user
                           to easily check the changes made in the versions of the product/article.
 
 **Prerequisite:**       * *Product*  with different versions for comparison.
@@ -55,7 +55,7 @@ To do this feature, follow these steps:
 |
 |
 
-#. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the products (or services) and rows for the attributes.
+#. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the product versions and rows for the attributes.
 
 .. image:: /feature/mdm/_images/timelineandhistory_clickthecomparebutton.PNG
 |
