@@ -1,35 +1,28 @@
 ===============================
 ADMIN 12: Define Article Links
 ===============================
-The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.
+The Define Article Links feature provides the functionality to set up relationships between articles.
+The relationship between article-to-article or product-to-product is bi-directional.
 
 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As a user, .
+**User Story:**         * As an administrator, I want to set up relationships between articles (bi-directional relationships).
 
-**Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
-                        * This feature can be used on similar or dissimilar types of products.
-                        * This feature allows multiple attributes/tags to be edited in a single operation.
-                        * This feature allows multiple attributes/tags to be changed and applied to products.
+**Description:**        * This feature allows the linking of product to different products (e.g. *Related Products, others,* etc).
+                          The related products will be visible in the product relationship side. The same product is visible in the relationship tab of the related products, too.
 
-**Prerequisite:**       * *Products* to apply the bulk editing.
+**Prerequisite:**       * *Products* to apply the relationships.
 
-**Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
-                        * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
-                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
-                        * *Example:*
-
-                            A food company changed the tagline or description of their products. The company can select their products in the system and change the
-                            description using bulk edit. The feature will also apply the description change to all of their products.
+**Application:**        * Define Article Links will allow
 
 =================       ===============================================================================================================================================================
 
 
-How to do: Bulk Edit
-=====================
-To do mass editing, follow these steps:
+How to do: Define Article Links
+================================
+To do this feature, follow these steps:
 
 |
 

@@ -1,35 +1,29 @@
 ===============================
 ADMIN 13: Define Relationships
 ===============================
-The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.
+The Define Relationships feature provides the functionality to set up relationships between entities.
 
 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As a user, .
+**User Story:**         * As an administrator, I want to set up relationships between entities (e.g. *Article-to-Market*).
 
-**Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
-                        * This feature can be used on similar or dissimilar types of products.
-                        * This feature allows multiple attributes/tags to be edited in a single operation.
-                        * This feature allows multiple attributes/tags to be changed and applied to products.
+**Description:**        * This feature can link two objects/entities in the system. An example of such link is the linking of an *Article* to a *Market*
+                          or *Market* to a *Promotion*.
 
-**Prerequisite:**       * *Products* to apply the bulk editing.
+**Prerequisite:**       * *Article-to-Market relationship.*
+                        * *Article-to-Supplier relationship.*
+                        * *Market-to-Promotion relationship.*
 
-**Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
-                        * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
-                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
-                        * *Example:*
-
-                            A food company changed the tagline or description of their products. The company can select their products in the system and change the
-                            description using bulk edit. The feature will also apply the description change to all of their products.
+**Application:**        * The Define Relationships will allow
 
 =================       ===============================================================================================================================================================
 
 
-How to do: Bulk Edit
-=====================
-To do mass editing, follow these steps:
+How to do: Define Relationships
+================================
+To do this feature, follow these steps:
 
 |
 
