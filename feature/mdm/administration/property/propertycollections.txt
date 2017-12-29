@@ -37,17 +37,17 @@ To do this, follow these steps:
 
 |
 
-#. Go to *Configuration Settings*.
+#. Go to Settings.
 
-.. image:: /feature/mdm/_images/propertycollection_gotoconfigset.png
-
-|
+.. image:: /feature/mdm/_images/propertycollection_gotosettings.png
 
 |
 
-#. Go to the property collection configuration section.
+|
 
-.. image:: /feature/mdm/_images/propertycollection_gotopcconfig.png
+#. Click on **Property Collection Configuration**.
+
+.. image:: /feature/mdm/_images/propertycollection_config.png
 
 |
 
@@ -55,31 +55,31 @@ To do this, follow these steps:
 
 #. Click on the "+" icon to create a property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_clickplusicon.png
+.. image:: /feature/mdm/_images/propertycollection_create.png
 
 |
 
 |
 
-#. Enter the name and icon for the property collection.
+#. Enter the name for the property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_nameandicon.png
-
-|
-
-|
-
-#. Increase or decrease the number of rows and columns to accommodate the necessary attributes and tags into the property collection,
-
-.. image:: /feature/mdm/_images/propertycollection_rowscolumns.png
+.. image:: /feature/mdm/_images/propertycollection_name.png
 
 |
 
 |
 
-#. Add the necessary attributes, tags and roles to the property collection.
+#. Increase or decrease the number of rows and columns to accommodate the attributes and tags into the property collection,
 
-.. image:: /feature/mdm/_images/propertycollection_addattrib.png
+.. image:: /feature/mdm/_images/propertycollection_rows.png
+
+|
+
+|
+
+#. Add the attributes, tags and roles to the property collection.
+
+.. image:: /feature/mdm/_images/propertycollection_canbeadded.png
 
 |
 
@@ -93,9 +93,17 @@ To do this, follow these steps:
 
 |
 
+#. Click on **Class Configuration**.
+
+.. image:: /feature/mdm/_images/propertycollection_addtoclass.png
+
+|
+
+|
+
 #. Click the "+" icon in the class to add the property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_addpc.png
+.. image:: /feature/mdm/_images/propertycollection_addtoclass2.png
 
 |
 
