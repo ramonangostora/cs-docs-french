@@ -1,0 +1,9 @@
+==================
+CORE E-17: Cloning
+==================
+
+.. toctree::
+   :maxdepth: 1
+
+   completeclone
+   partialclone

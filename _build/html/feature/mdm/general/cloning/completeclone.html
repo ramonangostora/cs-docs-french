@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CORE 78: Compare Product Revision &#8212; Contentsphere  documentation</title>
+    <title>CORE 72: Creating a Complete Clone &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../../../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="CORE E-17: Cloning" href="../cloning/index.html" />
-    <link rel="prev" title="CORE 56: Compare Product Revisions" href="compareproductrevisions.html" />
+    <link rel="next" title="CORE 73: Creating a Partial Clone" href="partialclone.html" />
+    <link rel="prev" title="CORE E-17: Cloning" href="index.html" />
 
 
 
@@ -107,25 +107,25 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="compareproductrevisions.html" title="CORE 56: Compare Product Revisions">previous</a>
+    &laquo; <a href="index.html" title="CORE E-17: Cloning">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="../cloning/index.html" title="CORE E-17: Cloning">next</a> &raquo;</div> -->
+    <a href="partialclone.html" title="CORE 73: Creating a Partial Clone">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
         <div class="yui-b">
-          <div class="yui-g" id="feature-mdm-general-timelineandhistory-compareproductrevision">
+          <div class="yui-g" id="feature-mdm-general-cloning-completeclone">
             
-  <div class="section" id="s-core-78-compare-product-revision">
-<span id="core-78-compare-product-revision"></span><h1>CORE 78: Compare Product Revision<a class="headerlink" href="#core-78-compare-product-revision" title="Permalink to this headline">¶</a></h1>
-<p>The Compare Product Revision feature allows the selection and comparison of different versions of the same product.
-It also allows merging of specific values from previous versions into the latest version.</p>
+  <div class="section" id="s-core-72-creating-a-complete-clone">
+<span id="core-72-creating-a-complete-clone"></span><h1>CORE 72: Creating a Complete Clone<a class="headerlink" href="#core-72-creating-a-complete-clone" title="Permalink to this headline">¶</a></h1>
+<p>Creating a Complete Clone is a feature that allows users to create complete clones or duplicates of the product.
+In a complete clone, all the values of the original product are cloned into the clone product.</p>
 <table class="docutils">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col width="8%" />
+<col width="92%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td><strong>Version:</strong></td>
@@ -133,34 +133,37 @@ It also allows merging of specific values from previous versions into the latest
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
 <td><ul class="first last simple">
-<li>As a user, I want to select and compare different versions of the same product and merge specific values from the previous revision
-into the latest revision.</li>
+<li>As a user, I want to create complete clones or duplicates of the product. In a complete clone, all the values of the original product are cloned into the cloned product.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>This feature allows a user to compare versions of a product/article.</li>
-<li>This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.</li>
-<li>This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
-comparison between each offering’s features and characteristics.</li>
+<li>We use clone context to copy the product or make a new product with the features of the existing product.</li>
+<li>The feature of a clone is to create an identical twin of a product.</li>
+<li>When creating a complete clone, all the attributes and tag values in the parent product are copied to the clone.</li>
+<li>A complete cloned product even copies the relationship of the parent product.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
-<li><em>Product</em>  created with different versions.</li>
+<li>Requires articles with relevant data such as tags, attributes, and relationships</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.</p>
+<li><p class="first">We use a complete clone to instantly create a duplicate or copy of a product.</p>
+</li>
+<li><p class="first">Reduces effort for creating a duplicate product</p>
+</li>
+<li><p class="first">Reduces effort for adding the same values of the duplicate article</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>For a Red Bull product, a short description is initially provided and then later, some additional changes are done (which are not required).
-In the timeline, a user can compare these two versions and merge the appropriate values for the description.</p>
+<div><p>Suppose we have two watches with the only difference being the color of their dial. Watch 1 has a red dial and Watch 2 has a black dial.
+So instead of individually creating a product for both items, we create Watch 1 and completely clone it. Then we simply change the dial color tag or attribute and change the image for that product.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -168,52 +171,35 @@ In the timeline, a user can compare these two versions and merge the appropriate
 </tr>
 </tbody>
 </table>
-<div class="section" id="s-how-to-do-compare-product-revision">
-<span id="how-to-do-compare-product-revision"></span><h2>How to do: Compare Product Revision<a class="headerlink" href="#how-to-do-compare-product-revision" title="Permalink to this headline">¶</a></h2>
-<p>To do this feature, follow these steps:</p>
+<div class="section" id="s-how-to-do-creating-a-complete-clone">
+<span id="how-to-do-creating-a-complete-clone"></span><h2>How to do: Creating a Complete Clone<a class="headerlink" href="#how-to-do-creating-a-complete-clone" title="Permalink to this headline">¶</a></h2>
+<p>This How To guide provides instructions on how to create a complete clone.
+To do this, follow these steps:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select a product and click on the <strong>Timeline Tab</strong>.</li>
+<li>Go to PIM.</li>
 </ol>
-<img alt="../../../../_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG" src="../../../../_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG" />
+<img alt="../../../../_images/completeclone_gotopim.png" src="../../../../_images/completeclone_gotopim.png" />
 <div class="line-block">
-<div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>View the revision timeline.</li>
+<li>Select the product to clone.</li>
 </ol>
-<img alt="../../../../_images/timelineandhistory_mergeviewtherevisiontimeline.PNG" src="../../../../_images/timelineandhistory_mergeviewtherevisiontimeline.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Select the latest version and any of the former version. Then, click on the <strong>Compare</strong> button.</li>
-</ol>
-<img alt="../../../../_images/timelineandhistory_mergeselectthelatestversionandformerversion.PNG" src="../../../../_images/timelineandhistory_mergeselectthelatestversionandformerversion.PNG" />
+<img alt="../../../../_images/completeclone_selectproduct.png" src="../../../../_images/completeclone_selectproduct.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select the data of the older version in the <strong>Compare</strong> view and then click the <strong>Save</strong> button.</li>
+<li>A duplicate product having exactly the same properties is created.</li>
 </ol>
-<img alt="../../../../_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG" src="../../../../_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>View the timeline. The latest version in the timeline will be updated accordingly with the merged data.</li>
-</ol>
-<img alt="../../../../_images/timelineandhistory_mergeviewthetimeline.PNG" src="../../../../_images/timelineandhistory_mergeviewthetimeline.PNG" />
+<img alt="../../../../_images/completeclone_duplicateproduct.png" src="../../../../_images/completeclone_duplicateproduct.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
 </div>
 </div>
 
@@ -230,8 +216,8 @@ In the timeline, a user can compare these two versions and merge the appropriate
         <div class="sphinxsidebarwrapper">
   <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">CORE 78: Compare Product Revision</a><ul>
-<li><a class="reference internal" href="#how-to-do-compare-product-revision">How to do: Compare Product Revision</a></li>
+<li><a class="reference internal" href="#">CORE 72: Creating a Complete Clone</a><ul>
+<li><a class="reference internal" href="#how-to-do-creating-a-complete-clone">How to do: Creating a Complete Clone</a></li>
 </ul>
 </li>
 </ul>
@@ -239,10 +225,10 @@ In the timeline, a user can compare these two versions and merge the appropriate
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="compareproductrevisions.html">CORE 56: Compare Product Revisions</a></li>
+      <li>Prev: <a href="index.html">CORE E-17: Cloning</a></li>
     
     
-      <li>Next: <a href="../cloning/index.html">CORE E-17: Cloning</a></li>
+      <li>Next: <a href="partialclone.html">CORE 73: Creating a Partial Clone</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -256,9 +242,9 @@ In the timeline, a user can compare these two versions and merge the appropriate
         
           <ul><li><a href="../index.html">&lt;no title&gt;</a>
         
-          <ul><li><a href="index.html">CORE E-12: Timeline and History</a>
+          <ul><li><a href="index.html">CORE E-17: Cloning</a>
         
-        <ul><li>CORE 78: Compare Product Revision</li></ul>
+        <ul><li>CORE 72: Creating a Complete Clone</li></ul>
         </li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
@@ -266,7 +252,7 @@ In the timeline, a user can compare these two versions and merge the appropriate
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../../../_sources/feature/mdm/general/timelineandhistory/compareproductrevision.txt"
+      <li><a href="../../../../_sources/feature/mdm/general/cloning/completeclone.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -292,11 +278,11 @@ In the timeline, a user can compare these two versions and merge the appropriate
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="compareproductrevisions.html" title="CORE 56: Compare Product Revisions">previous</a>
+    &laquo; <a href="index.html" title="CORE E-17: Cloning">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="../cloning/index.html" title="CORE E-17: Cloning">next</a> &raquo;</div>
+    <a href="partialclone.html" title="CORE 73: Creating a Partial Clone">next</a> &raquo;</div>
     </div>
   </div>
 
