@@ -42,6 +42,7 @@ To do this feature, follow these steps:
 
 .. image:: /feature/mdm/_images/managemedialinks_createanewrelationship.PNG
 |
+|
 .. image:: /feature/mdm/_images/managemedialinks_createanewrelationship2.PNG
 |
 |
