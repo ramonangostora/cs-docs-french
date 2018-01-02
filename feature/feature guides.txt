@@ -7,7 +7,6 @@ marketing content hub and the partner engagement platform.
 
 
 .. image:: _images/line-png-32.png
-   :alt: Contentspher log in screen
 
 Master Data Management Features
 -------------------------------

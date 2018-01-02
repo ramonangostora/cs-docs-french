@@ -1,6 +1,6 @@
-==================
-MDM Feature Guides
-==================
+=============
+Collaboration
+=============
 
 .. toctree::
    :maxdepth: 1

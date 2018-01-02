@@ -1,6 +1,6 @@
-==================
-MDM Feature Guides
-==================
+==========
+Governance
+==========
 
 .. toctree::
    :maxdepth: 1
