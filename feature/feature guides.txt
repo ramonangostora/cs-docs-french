@@ -1,12 +1,12 @@
-==============
-Feature guides
-==============
+====================
+Feature Guides Index
+====================
 
 The feature guide is a collection of all the features available within the Contentsphere application. these include features covering master data management, product information Management
 marketing content hub and the partner engagement platform.
 
-
-.. image:: _images/line-png-32.png
+.. image:: ../_images/line-png-32.png
+   :alt: Contentsphere
 
 Master Data Management Features
 -------------------------------
