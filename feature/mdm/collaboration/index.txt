@@ -4,5 +4,3 @@ MDM Feature Guides
 
 .. toctree::
    :maxdepth: 1
-
-   
