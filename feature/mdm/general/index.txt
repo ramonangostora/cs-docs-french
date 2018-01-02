@@ -10,3 +10,4 @@ MDM Guide for General Features
    simpleexcelbasedexport/index
    selectandcompare/index
    collectionsandbookmarks/index
+   timelineandhistory/index

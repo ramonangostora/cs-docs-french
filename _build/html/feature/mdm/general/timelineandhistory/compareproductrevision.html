@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CORE 68: Collection Hierarchy &#8212; Contentsphere  documentation</title>
+    <title>CORE 78: Compare Product Revision &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../../../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="CORE E-12: Timeline and History" href="../timelineandhistory/index.html" />
-    <link rel="prev" title="CORE 67: Manage Products across Collections" href="manageproducts.html" />
+    <link rel="next" title="MDM Feature Guides" href="../../governance/index.html" />
+    <link rel="prev" title="CORE 56: Compare Product Revisions" href="compareproductrevisions.html" />
 
 
 
@@ -107,20 +107,21 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="manageproducts.html" title="CORE 67: Manage Products across Collections">previous</a>
+    &laquo; <a href="compareproductrevisions.html" title="CORE 56: Compare Product Revisions">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="../timelineandhistory/index.html" title="CORE E-12: Timeline and History">next</a> &raquo;</div> -->
+    <a href="../../governance/index.html" title="MDM Feature Guides">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
         <div class="yui-b">
-          <div class="yui-g" id="feature-mdm-general-collectionsandbookmarks-collectionhierarchy">
+          <div class="yui-g" id="feature-mdm-general-timelineandhistory-compareproductrevision">
             
-  <div class="section" id="s-core-68-collection-hierarchy">
-<span id="core-68-collection-hierarchy"></span><h1>CORE 68: Collection Hierarchy<a class="headerlink" href="#core-68-collection-hierarchy" title="Permalink to this headline">¶</a></h1>
-<p>Collection Hierarchy is a feature that allows users to view their collections within a structured hierarchy of collections.</p>
+  <div class="section" id="s-core-78-compare-product-revision">
+<span id="core-78-compare-product-revision"></span><h1>CORE 78: Compare Product Revision<a class="headerlink" href="#core-78-compare-product-revision" title="Permalink to this headline">¶</a></h1>
+<p>The Compare Product Revision feature allows the selection and comparison of different versions of the same product.
+It also allows merging of specific values from previous versions into the latest version.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -132,32 +133,34 @@
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
 <td><ul class="first last simple">
-<li>As a user, I want to organize and view my collections within a structured hierarchy of collections.</li>
+<li>As a user, I want to select and compare different versions of the same product and merge specific values from the previous revision
+into the latest revision.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>The Collection Hierarchy creates levels in the hierarchy for the products.</li>
-<li>The products can be moved or copied between these levels.</li>
+<li>This feature allows a user to compare versions of a product/article.</li>
+<li>This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.</li>
+<li>This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
+comparison between each offering’s features and characteristics.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
-<li>Collection that contains products</li>
+<li><em>Product</em>  created with different versions.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">Hierarchies in collection helps to categorically structure the products or group of products.</p>
-</li>
-<li><p class="first">The collection can contain any number of products and can be moved or copied between the levels of hierarchies.</p>
+<li><p class="first">A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>A collection of furniture products having hierarchy level based on product type such as office and home furniture, chairs, tables, and others.</p>
+<div><p>For a Red Bull product, a short description is initially provided and then later, some additional changes are done (which are not required).
+In the timeline, a user can compare these two versions and merge the appropriate values for the description.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -165,48 +168,52 @@
 </tr>
 </tbody>
 </table>
-<div class="section" id="s-how-to-do-collection-hierarchy">
-<span id="how-to-do-collection-hierarchy"></span><h2>How to do: Collection Hierarchy<a class="headerlink" href="#how-to-do-collection-hierarchy" title="Permalink to this headline">¶</a></h2>
-<p>This How To guide provides instructions on how to organize and view the collections within a structured hierarchy of collections.
-To do this, follow these steps:</p>
+<div class="section" id="s-how-to-do-compare-product-revision">
+<span id="how-to-do-compare-product-revision"></span><h2>How to do: Compare Product Revision<a class="headerlink" href="#how-to-do-compare-product-revision" title="Permalink to this headline">¶</a></h2>
+<p>To do this feature, follow these steps:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select a collection and click <strong>Organize</strong>.</li>
+<li>Select a product and click on the <strong>Timeline Tab</strong>.</li>
 </ol>
-<img alt="../../../../_images/colhier_clickorganize.png" src="../../../../_images/colhier_clickorganize.png" />
+<img alt="../../../../_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG" src="../../../../_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
-</div>
-<div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>On the collections page, click <strong>Add New Collection</strong> and enter the name of the new collection.</li>
+<li>View the revision timeline.</li>
 </ol>
-<img alt="../../../../_images/colhier_addnewcollection.png" src="../../../../_images/colhier_addnewcollection.png" />
+<img alt="../../../../_images/timelineandhistory_mergeviewtherevisiontimeline.PNG" src="../../../../_images/timelineandhistory_mergeviewtherevisiontimeline.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
-</div>
-<img alt="../../../../_images/colhier_entername.png" src="../../../../_images/colhier_entername.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Repeat the previous step to create a hierarchy of the product, accordingly.</li>
+<li>Select the latest version and any of the former version. Then, click on the <strong>Compare</strong> button.</li>
 </ol>
-<img alt="../../../../_images/colhier_added1.png" src="../../../../_images/colhier_added1.png" />
+<img alt="../../../../_images/timelineandhistory_mergeselectthelatestversionandformerversion.PNG" src="../../../../_images/timelineandhistory_mergeselectthelatestversionandformerversion.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the data of the older version in the <strong>Compare</strong> view and then click the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG" src="../../../../_images/timelineandhistory_mergeselectthedataoftheolderversioninthecompare.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the timeline. The latest version in the timeline will be updated accordingly with the merged data.</li>
+</ol>
+<img alt="../../../../_images/timelineandhistory_mergeviewthetimeline.PNG" src="../../../../_images/timelineandhistory_mergeviewthetimeline.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<img alt="../../../../_images/colhier_added2.png" src="../../../../_images/colhier_added2.png" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
+<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
 </div>
 </div>
 
@@ -223,8 +230,8 @@ To do this, follow these steps:</p>
         <div class="sphinxsidebarwrapper">
   <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">CORE 68: Collection Hierarchy</a><ul>
-<li><a class="reference internal" href="#how-to-do-collection-hierarchy">How to do: Collection Hierarchy</a></li>
+<li><a class="reference internal" href="#">CORE 78: Compare Product Revision</a><ul>
+<li><a class="reference internal" href="#how-to-do-compare-product-revision">How to do: Compare Product Revision</a></li>
 </ul>
 </li>
 </ul>
@@ -232,10 +239,10 @@ To do this, follow these steps:</p>
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="manageproducts.html">CORE 67: Manage Products across Collections</a></li>
+      <li>Prev: <a href="compareproductrevisions.html">CORE 56: Compare Product Revisions</a></li>
     
     
-      <li>Next: <a href="../timelineandhistory/index.html">CORE E-12: Timeline and History</a></li>
+      <li>Next: <a href="../../governance/index.html">MDM Feature Guides</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -249,9 +256,9 @@ To do this, follow these steps:</p>
         
           <ul><li><a href="../index.html">&lt;no title&gt;</a>
         
-          <ul><li><a href="index.html">CORE E-2: Collections and Bookmarks</a>
+          <ul><li><a href="index.html">CORE E-12: Timeline and History</a>
         
-        <ul><li>CORE 68: Collection Hierarchy</li></ul>
+        <ul><li>CORE 78: Compare Product Revision</li></ul>
         </li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
@@ -259,7 +266,7 @@ To do this, follow these steps:</p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../../../_sources/feature/mdm/general/collectionsandbookmarks/collectionhierarchy.txt"
+      <li><a href="../../../../_sources/feature/mdm/general/timelineandhistory/compareproductrevision.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -285,11 +292,11 @@ To do this, follow these steps:</p>
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="manageproducts.html" title="CORE 67: Manage Products across Collections">previous</a>
+    &laquo; <a href="compareproductrevisions.html" title="CORE 56: Compare Product Revisions">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="../timelineandhistory/index.html" title="CORE E-12: Timeline and History">next</a> &raquo;</div>
+    <a href="../../governance/index.html" title="MDM Feature Guides">next</a> &raquo;</div>
     </div>
   </div>
 
