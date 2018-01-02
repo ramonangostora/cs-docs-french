@@ -11,3 +11,4 @@ MDM Guide for General Features
    selectandcompare/index
    collectionsandbookmarks/index
    timelineandhistory/index
+   cloning/index
