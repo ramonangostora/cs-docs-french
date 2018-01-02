@@ -75,6 +75,3 @@ To do a Parametric Search, follow these steps:
 
 .. image:: /feature/mdm/_images/notemultiplecriteria.PNG
 |
-
-.. image:: /feature/_images/line-png-32.png
-   :alt: Contentsphere line
