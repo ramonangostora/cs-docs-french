@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>ADMIN 13: Define Relationships &#8212; Contentsphere  documentation</title>
+    <title>ADMIN E-9: Data Model - Relationships &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../../../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="ADMIN E-9: Data Model - Relationships" href="datamodelrelationships.html" />
-    <link rel="prev" title="ADMIN 12: Define Article Links" href="definearticlelinks.html" />
+    <link rel="next" title="MDM Feature Guides" href="../../collaboration/index.html" />
+    <link rel="prev" title="ADMIN 13: Define Relationships" href="definerelationships.html" />
 
 
 
@@ -107,20 +107,20 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="definearticlelinks.html" title="ADMIN 12: Define Article Links">previous</a>
+    &laquo; <a href="definerelationships.html" title="ADMIN 13: Define Relationships">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="datamodelrelationships.html" title="ADMIN E-9: Data Model - Relationships">next</a> &raquo;</div> -->
+    <a href="../../collaboration/index.html" title="MDM Feature Guides">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
         <div class="yui-b">
-          <div class="yui-g" id="feature-mdm-administration-datamodelrelationships-definerelationships">
+          <div class="yui-g" id="feature-mdm-administration-datamodelrelationships-datamodelrelationships">
             
-  <div class="section" id="s-admin-13-define-relationships">
-<span id="admin-13-define-relationships"></span><h1>ADMIN 13: Define Relationships<a class="headerlink" href="#admin-13-define-relationships" title="Permalink to this headline">¶</a></h1>
-<p>The Define Relationships feature provides the functionality to set up relationships between entities.</p>
+  <div class="section" id="s-admin-e-9-data-model-relationships">
+<span id="admin-e-9-data-model-relationships"></span><h1>ADMIN E-9: Data Model - Relationships<a class="headerlink" href="#admin-e-9-data-model-relationships" title="Permalink to this headline">¶</a></h1>
+<p>The Data Model Relationships feature provides information on the various relationships that can be set up in the system.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -132,115 +132,60 @@
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
 <td><ul class="first last simple">
-<li>As an administrator, I want to set up relationships between <em>Entities</em> (e.g. <em>Article to Market</em>).</li>
+<li>As an administrator, I want to set up relationships between a <em>Product</em> and an <em>Asset</em> as bi-directional relationship.</li>
+<li>As an administrator, I want to set up relationships between <em>Articles</em> as bi-directional relationship.</li>
+<li>As an administrator, I want to set up relationships between <em>Entities</em>.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
-<td><ul class="first last simple">
-<li>This feature can link two objects/entities in the system. An example of such link is the relationship of an <em>Article</em> to a <em>Market</em>
-or <em>Market</em> to a <em>Promotion</em>.</li>
+<td><ul class="first last">
+<li><p class="first">This feature provides the functionality that allows the linking of a product to its details. This will also allow the linking of additional information about
+the images associated with the products, markets, etc.</p>
+</li>
+<li><p class="first">This feature provides the functionality that creates relationships that will relate <em>Products</em> to the <em>Markets, Suppliers, Images, Videos, etc</em>.</p>
+</li>
+<li><p class="first">This feature provides the functionality that creates relationships that can be bi-directional - in which the product can be related to the
+image/market/supplier and the product will be visible in the image/market/supplier modules.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>A product is linked to a particular supplier. In the supplier module, the supplier can view all the products that he had supplied.</p>
+</div></blockquote>
+</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
-<li><em>Article-to-Market relationship.</em></li>
-<li><em>Article-to-Supplier relationship.</em></li>
-<li><em>Market-to-Promotion relationship.</em></li>
+<li><em>Products</em>, <em>Assets</em>, <em>Articles</em>, <em>Entities</em> to apply the relationships.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
-<td><ul class="first last simple">
-<li>The Define Relationships will allow an administrator to link an article or a product to its target market, which is the location or a group of
-consumers that article/product is intended for.</li>
+<td><ul class="first last">
+<li><p class="first">Define Article Links will be able to link rich content to the products like adding multiple images, videos, PDFs, or even the market
+that the products are available in.</p>
+</li>
+<li><p class="first">Define Article Links will be able to create relationships that show the way two or more entities are connected or the state of being connected.</p>
+</li>
+<li><p class="first">Define Article Links will be able to create bi-directional relationships. This means that the linking of products to different modules can be seen
+if you enter into the module entities.</p>
+</li>
+<li><p class="first">Define Article Links will be able to create relationships that can be used to <em>cross-sell</em> products. An administrator can define a
+relationship between two products that will prompt the system to suggest the linked products if a customer buys the other product.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>In a product-to-product relationship, a link is created between a movie product and a soundtrack product. Once done,
+if a user buys a movie, the system will be able to offer the soundtrack of that movie to the user, as well.</p>
+</div></blockquote>
+</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<div class="section" id="s-how-to-do-define-relationships">
-<span id="how-to-do-define-relationships"></span><h2>How to do: Define Relationships<a class="headerlink" href="#how-to-do-define-relationships" title="Permalink to this headline">¶</a></h2>
-<p>To do this feature, follow these steps:</p>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Click on the <strong>Settings</strong> button.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_clickonsettings.PNG" src="../../../../_images/definerelationships_clickonsettings.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Go to the <em>Relationship Configuration</em> tab.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_gototherelationshipsconfiguration.PNG" src="../../../../_images/definerelationships_gototherelationshipsconfiguration.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Create a new relationship by clicking the ‘+’ icon.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_createanewrelationship.PNG" src="../../../../_images/definerelationships_createanewrelationship.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<img alt="../../../../_images/definerelationships_createanewrelationship2.PNG" src="../../../../_images/definerelationships_createanewrelationship2.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Provide the name for the relationship and then, select the two desired entity classes to be linked (in <em>Side1 and Side2</em>) using the drop-down list.
-In the example shown, a relationship is created for <em>Article</em> and the <em>Region</em> articles.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_providethenameoftherelationship.PNG" src="../../../../_images/definerelationships_providethenameoftherelationship.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Provide the information for the <em>Label</em> and then, select the <em>Cardinality</em> of the bi-directional relationship. In cardinality, choose either <em>Many</em> or <em>One</em> depending on the relationship.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_providethelabelandcardinality.PNG" src="../../../../_images/definerelationships_providethelabelandcardinality.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Tick on the <strong>checkboxes</strong> for the elements to be editable. Select either one or both sides.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_tickonthecheckboxes.PNG" src="../../../../_images/definerelationships_tickonthecheckboxes.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Once done, click on the <strong>Save</strong> button.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_clickonthesavebutton.PNG" src="../../../../_images/definerelationships_clickonthesavebutton.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Once saved, view that the relationship is applied and ready.</li>
-</ol>
-<img alt="../../../../_images/definerelationships_oncesavedviewtherelationship.PNG" src="../../../../_images/definerelationships_oncesavedviewtherelationship.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p><em>Note: The Class and Cardinality will not be editable once the relationship is saved.</em></p>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="Contentsphere line" src="../../../../_images/line-png-32.PNG" />
-</div>
 </div>
 
 
@@ -254,21 +199,13 @@ In the example shown, a relationship is created for <em>Article</em> and the <em
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="../../../../contents.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">ADMIN 13: Define Relationships</a><ul>
-<li><a class="reference internal" href="#how-to-do-define-relationships">How to do: Define Relationships</a></li>
-</ul>
-</li>
-</ul>
-
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="definearticlelinks.html">ADMIN 12: Define Article Links</a></li>
+      <li>Prev: <a href="definerelationships.html">ADMIN 13: Define Relationships</a></li>
     
     
-      <li>Next: <a href="datamodelrelationships.html">ADMIN E-9: Data Model - Relationships</a></li>
+      <li>Next: <a href="../../collaboration/index.html">MDM Feature Guides</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -284,7 +221,7 @@ In the example shown, a relationship is created for <em>Article</em> and the <em
         
           <ul><li><a href="index.html">ADMIN E-9: Data Model - Relationships</a>
         
-        <ul><li>ADMIN 13: Define Relationships</li></ul>
+        <ul><li>ADMIN E-9: Data Model - Relationships</li></ul>
         </li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
@@ -292,7 +229,7 @@ In the example shown, a relationship is created for <em>Article</em> and the <em
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../../../_sources/feature/mdm/administration/datamodelrelationships/definerelationships.txt"
+      <li><a href="../../../../_sources/feature/mdm/administration/datamodelrelationships/datamodelrelationships.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -318,11 +255,11 @@ In the example shown, a relationship is created for <em>Article</em> and the <em
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="definearticlelinks.html" title="ADMIN 12: Define Article Links">previous</a>
+    &laquo; <a href="definerelationships.html" title="ADMIN 13: Define Relationships">previous</a>
      |
     <a href="../../../index.html" title="Feature Guides" accesskey="U">up</a>
    |
-    <a href="datamodelrelationships.html" title="ADMIN E-9: Data Model - Relationships">next</a> &raquo;</div>
+    <a href="../../collaboration/index.html" title="MDM Feature Guides">next</a> &raquo;</div>
     </div>
   </div>
 

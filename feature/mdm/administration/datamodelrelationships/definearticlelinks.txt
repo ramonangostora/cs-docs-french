@@ -8,7 +8,7 @@ The relationship between article-to-article or product-to-product is bi-directio
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As an administrator, I want to set up relationships between articles (bi-directional relationships).
+**User Story:**         * As an administrator, I want to set up relationships between *Articles* (bi-directional relationships).
 
 **Description:**        * This feature allows the linking of a product to other different products (e.g. *Related Products, others,* etc).
                           The related products will be visible in the product relationship side. The same product is visible in the relationship tab of the related products, too.
@@ -80,7 +80,15 @@ To do this feature, follow these steps:
 
 .. image:: /feature/mdm/_images/definearticlelinks_oncesavedviewtherelationship.PNG
 |
+|
+
+#. Add the articles for both classes in the *Relationships* tab.
+
+.. image:: /feature/mdm/_images/definearticlelinks_addthearticlesintherelationshipstab.PNG
+|
+.. image:: /feature/mdm/_images/definearticlelinks_addthearticlesintherelationshipstab2.PNG
+|
 
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

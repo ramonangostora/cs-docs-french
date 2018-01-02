@@ -7,16 +7,17 @@ The Define Relationships feature provides the functionality to set up relationsh
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As an administrator, I want to set up relationships between entities (e.g. *Article-to-Market*).
+**User Story:**         * As an administrator, I want to set up relationships between *Entities* (e.g. *Article to Market*).
 
-**Description:**        * This feature can link two objects/entities in the system. An example of such link is the linking of an *Article* to a *Market*
+**Description:**        * This feature can link two objects/entities in the system. An example of such link is the relationship of an *Article* to a *Market*
                           or *Market* to a *Promotion*.
 
 **Prerequisite:**       * *Article-to-Market relationship.*
                         * *Article-to-Supplier relationship.*
                         * *Market-to-Promotion relationship.*
 
-**Application:**        * The Define Relationships will allow
+**Application:**        * The Define Relationships will allow an administrator to link an article or a product to its target market, which is the location or a group of
+                          consumers that article/product is intended for.
 
 =================       ===============================================================================================================================================================
 
@@ -27,58 +28,61 @@ To do this feature, follow these steps:
 
 |
 
-#. Step.
+#. Click on the **Settings** button.
 
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_clickonsettings.PNG
 |
 |
 
-#. Step.
+#. Go to the *Relationship Configuration* tab.
 
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_gototherelationshipsconfiguration.PNG
 |
 |
 
-#. Step.
+#. Create a new relationship by clicking the '+' icon.
 
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_createanewrelationship.PNG
+|
+|
+.. image:: /feature/mdm/_images/definerelationships_createanewrelationship2.PNG
 |
 |
 
-#. Step.
+#. Provide the name for the relationship and then, select the two desired entity classes to be linked (in *Side1 and Side2*) using the drop-down list.
+   In the example shown, a relationship is created for *Article* and the *Region* articles.
 
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_providethenameoftherelationship.PNG
 |
 |
 
-#. Step
+#. Provide the information for the *Label* and then, select the *Cardinality* of the bi-directional relationship. In cardinality, choose either *Many* or *One* depending on the relationship.
 
-
-  #. Substep
-
-  .. image:: /feature/mdm/_images/image.PNG
-  |
-  |
-
-  #. SSubstep
-
-  .. image:: /feature/mdm/_images/image.PNG
-  |
-  |
-
-|
-
-#. Step.
-
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_providethelabelandcardinality.PNG
 |
 |
 
-#. Step.
+#. Tick on the **checkboxes** for the elements to be editable. Select either one or both sides.
 
-.. image:: /feature/mdm/_images/image.PNG
+.. image:: /feature/mdm/_images/definerelationships_tickonthecheckboxes.PNG
+|
+|
+
+#. Once done, click on the **Save** button.
+
+.. image:: /feature/mdm/_images/definerelationships_clickonthesavebutton.PNG
+|
+|
+
+#. Once saved, view that the relationship is applied and ready.
+
+.. image:: /feature/mdm/_images/definerelationships_oncesavedviewtherelationship.PNG
+|
+
+*Note: The Class and Cardinality will not be editable once the relationship is saved.*
+
 |
 
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line
