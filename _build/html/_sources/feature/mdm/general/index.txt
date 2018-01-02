@@ -7,3 +7,4 @@ MDM Guide for General Features
    multiclassification/index
    searchandexplore/index
    multitaxonomyassignment/index
+   simpleexcelbasedexport/index
