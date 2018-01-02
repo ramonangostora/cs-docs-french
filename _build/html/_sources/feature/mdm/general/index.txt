@@ -8,3 +8,4 @@ MDM Guide for General Features
    searchandexplore/index
    multitaxonomyassignment/index
    simpleexcelbasedexport/index
+   selectandcompare/index
