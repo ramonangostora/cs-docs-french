@@ -1,6 +1,6 @@
-==================
-MDM Feature Guides
-==================
+========
+Products
+========
 
 .. toctree::
    :maxdepth: 1
