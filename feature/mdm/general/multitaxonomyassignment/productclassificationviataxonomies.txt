@@ -78,5 +78,5 @@ To classify a product to multiple taxonomies, follow these steps:
 .. image:: /feature/mdm/_images/prodclassification_viewtheresults.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

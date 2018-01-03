@@ -1,0 +1,124 @@
+================================
+DAGOV 2: Must/Should Attributes
+================================
+The Must/Should Attributes are part of the data governance feature that will determine the mandatory characteristic of a data field.
+
+
+=================       ===============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to be alerted if any *Must/Should* attributes (data fields) are not filled out so that I can effectively complete the product definition.
+                        * As an administrator, I would like to set *Must/Should/Can* conditions in the data fields.
+
+**Description:**        * This feature provides the functionality to set and classify fields into three categories: *Must, Should, and Can*.
+                            * **Must:** is a mandatory field.
+                            * **Should:** is a mandatory field but can be skipped. Skipping this field will cause a *"warning"*.
+                            * **Can:** is an optional field that can be skipped.
+                        * This feature defines that *Must* fields are mandatory fields. Must fields are also called *compulsory* fields.
+                        * This feature defines that *Should* and *Can* fields are optional fields. An optional field is the opposite of a mandatory field.
+                          Optional fields are also called *voluntary* fields. The system saves the changes on a page even if these fields are not populated.
+                        * This feature allows the system to show a warning message if a *Must* field is left empty. The system saves any changes done on the page as well.
+                        * This feature allows the setting of *Is Mandatory (Must, Should, Can)*, which is a flag that can be raised at a class level for each attribute and tag.
+
+**Prerequisite:**       * *Must / Should / Can* type to be selected for the attributes under the mandatory field section in the class configuration.
+
+**Application:**        * The system will be able to communicate to a user the type of fields present on the page to prevent errors and minimize workload.
+                        * The system will be able to show that a field is mandatory that will prevent validation errors upon submission.
+                        * The system will be able to show that a field is optional that will allow a user to get through the process faster.
+                        * *Example:*
+
+                             An administrator has to create a new user.  While filling out the form fields like *Username, Password, Emails*, a notification message will show
+                             if those fields are left blank since these are mandatory fields and are required to be completed. Whereas, fields like *Gender, First Name, etc.*
+                             can be set as optional fields, thus, be left blank.
+
+=================       ===============================================================================================================================================================
+
+
+How to do: Must/Should Attributes
+==================================
+To do this data governance feature, follow these steps:
+
+|
+
+#. On the home page, click on the **Settings** button.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_clickonsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_gototheattributeconfigurationsection.PNG
+|
+|
+
+#. Click on the '+' icon to create a new attribute. Create 3 new attributes.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_clicktheicontocreatenewattribute.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_clicktheicontocreatenewattribute2.PNG
+|
+|
+
+#. Go to the *Property Collection Configuration* and create a property collection.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration2.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration3.PNG
+|
+|
+
+#. Add the 3 new attributes to the newly created property collection.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_addthe3newattributes.PNG
+|
+|
+
+#. Go to the *Class Configuration* and create a **Default** type class.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration2.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration3.PNG
+|
+|
+
+#. Add the property collection to that type class.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_addthepropertycollectionstothattypeclass2.PNG
+|
+|
+
+#. Assign a mandatory condition to the attributes. Save the changes.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_assignamandatorycondition.PNG
+|
+|
+
+#. Click on the **All** tab and go to PIM.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_clickonthealltab.PNG
+|
+.. image:: /feature/mdm/_images/mustshouldattributes_clickonthealltab2.PNG
+|
+|
+
+#. Hover over the '+' icon and wait for the menu to appear. In that menu, go to the class created (e.g. *Class_1*).
+
+.. image:: /feature/mdm/_images/mustshouldattributes_hoverovertheicon.PNG
+|
+|
+
+#. View the set conditions in runtime. If the fields are set to be *Must* or *Should* and are left blank, a violation notification will appear.
+
+.. image:: /feature/mdm/_images/mustshouldattributes_viewinruntime.PNG
+|
+
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
+   :alt: Contentsphere line

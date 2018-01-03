@@ -53,5 +53,5 @@ To do a Multi-faceted Search, follow these steps:
 |
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

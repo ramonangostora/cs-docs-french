@@ -63,5 +63,5 @@ To assign a single object to multiple different taxonomies or to multiple nodes 
 .. image:: /feature/mdm/_images/multitaxonomy_selectanodefromthedropdownlist3.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

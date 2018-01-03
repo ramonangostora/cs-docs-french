@@ -65,5 +65,5 @@ To do a Group By, follow these steps:
 .. image:: /feature/mdm/_images/group_by_06.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line
