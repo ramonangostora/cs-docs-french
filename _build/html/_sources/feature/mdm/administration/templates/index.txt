@@ -1,0 +1,8 @@
+==================================================
+ADMIN E-17: Users and Permissions - View Templates
+==================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageviewtemplates
