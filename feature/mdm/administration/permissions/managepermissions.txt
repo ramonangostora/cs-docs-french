@@ -1,0 +1,81 @@
+============================
+ADMIN 17: Manage Permissions
+============================
+
+
+Manage Permissions is a feature that allows an administrator to manage detailed access permission to a role on classes
+so that the role can create and manage the correct products.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As an administrator, I want to set up different view templates so that I can control the information presented to each role.
+
+**Description:**        * By managing permissions for different roles, the system can prevent certain roles from making unnecessary changes.
+                        * This feature provides restriction for certain user when it comes to viewing, editing or deleting the products.
+
+**Prerequisite:**       * To give permission to particular roles in the configuration section
+
+**Application:**        * Hiding a particular class or taxonomy from a role
+                        * *Example:*
+
+                            When a user is not given the permission to delete products, then that user will not have the feature to delete products.
+=================       =============================================================================================================================================================
+
+
+
+
+
+How to do: Manage Permissions
+=============================
+
+This How To guide provides instructions on how to manage permissions.
+To do this, follow these steps:
+
+|
+
+|
+
+#. Go to the home page and click on **Settings**.
+
+.. image:: /feature/mdm/_images/permissions_settings.png
+
+|
+
+|
+
+#. Click on **Permissions Configuration**.
+
+.. image:: /feature/mdm/_images/permissions_config.png
+
+|
+
+|
+
+#. A list of all roles will appear. That will show the permission with regards to Class, Taxonomy, Tasks, and Contexts.
+
+.. image:: /feature/mdm/_images/permissions_listofroles1.png
+
+|
+
+.. image:: /feature/mdm/_images/permissions_listofroles2.png
+
+|
+
+#. Set the permissions for the user to Create, Update, and Delete.
+
+.. image:: /feature/mdm/_images/permissions_create.png
+
+|
+
+.. image:: /feature/mdm/_images/permissions_update.png
+
+|
+
+.. image:: /feature/mdm/_images/permissions_delete.png
+
+|
+#. This feature allows for assigning detailed permission. In this case, the role "Accountable" has the following rights. 
+
+.. image:: /feature/mdm/_images/permissions_accountable.png
