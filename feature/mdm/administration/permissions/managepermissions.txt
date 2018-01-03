@@ -10,10 +10,10 @@ so that the role can create and manage the correct products.
 =================       =============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As an administrator, I want to set up different view templates so that I can control the information presented to each role.
+**User Story:**         * As an administrator, I want to manage detailed access permission to a role on classes
 
 **Description:**        * By managing permissions for different roles, the system can prevent certain roles from making unnecessary changes.
-                        * This feature provides restriction for certain user when it comes to viewing, editing or deleting the products.
+                        * This feature provides restriction for certain users when it comes to viewing, editing or deleting the products.
 
 **Prerequisite:**       * To give permission to particular roles in the configuration section
 
@@ -76,6 +76,10 @@ To do this, follow these steps:
 .. image:: /feature/mdm/_images/permissions_delete.png
 
 |
-#. This feature allows for assigning detailed permission. In this case, the role "Accountable" has the following rights. 
+#. This feature allows for assigning detailed permission. In this case, the role "Accountable" has the following rights.
 
 .. image:: /feature/mdm/_images/permissions_accountable.png
+
+|
+
+.. image:: /feature/mdm/_images/line-png-32.png
