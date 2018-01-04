@@ -120,7 +120,7 @@
             
   <div class="section" id="s-dagov-6-data-quality-rule">
 <span id="dagov-6-data-quality-rule"></span><h1>DAGOV 6: Data Quality Rule<a class="headerlink" href="#dagov-6-data-quality-rule" title="Permalink to this headline">¶</a></h1>
-<p>The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.</p>
+<p>The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -132,37 +132,45 @@
 </tr>
 <tr class="row-even"><td><strong>User Story:</strong></td>
 <td><ul class="first last simple">
-<li>As a user, .</li>
+<li>As a user, I want to be alerted in case any data quality violations occur while I am saving an <em>Article</em> so that I can effectively
+conform to data quality standards for the product.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>This feature can change the values of multiple attributes/tags for multiple products in a single operation.</li>
-<li>This feature can be used on similar or dissimilar types of products.</li>
-<li>This feature allows multiple attributes/tags to be edited in a single operation.</li>
-<li>This feature allows multiple attributes/tags to be changed and applied to products.</li>
+<li>This feature allows an administrator to create rules to ensure that data quality is maintained in the system.</li>
+<li>This feature allows the data quality rules to be customized.</li>
+<li><dl class="first docutils">
+<dt><em>This feature has two main types for the rules: Rule Violation and Normalization</em>.</dt>
+<dd><ul class="first last">
+<li><strong>Rule Violation:</strong> alerts a user about a violated rule with an error message.</li>
+<li><strong>Normalization:</strong> reduces data redundancy and improves the data integrity.</li>
+</ul>
+</dd>
+</dl>
+</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Prerequisite:</strong></td>
 <td><ul class="first last simple">
-<li><em>Products</em> to apply the bulk editing.</li>
+<li><em>Articles/Products</em> where data quality must be achieved.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">Bulk Edit is used to support a variety of actions, such as: <em>Editing, Labeling, Changing States, Moving, or Deleting</em>.</p>
+<li><p class="first">Data Quality Rule restricts the entry of unacceptable data in the system.</p>
 </li>
-<li><p class="first">Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.</p>
+<li><p class="first">Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.</p>
 </li>
-<li><p class="first">Bulk Edit provides the functionality to change and set a variety of product attributes like <em>Price, Compare at Price, Weight, Tags,</em> and more.</p>
+<li><p class="first">Data Quality Rule customizes the rules for the specific data conditions.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>A food company changed the tagline or description of their products. The company can select their products in the system and change the
-description using bulk edit. The feature will also apply the description change to all of their products.</p>
+<div><p>An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. <em>Bomb, Suicide, Shit, etc</em>).
+In an attribute value (e.g. <em>Description</em>), a rule can be customized to fulfill this condition that will prompt a notification message if not followed.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -170,83 +178,114 @@ description using bulk edit. The feature will also apply the description change 
 </tr>
 </tbody>
 </table>
-<div class="section" id="s-how-to-do-bulk-edit">
-<span id="how-to-do-bulk-edit"></span><h2>How to do: Bulk Edit<a class="headerlink" href="#how-to-do-bulk-edit" title="Permalink to this headline">¶</a></h2>
-<p>To do mass editing, follow these steps:</p>
+<div class="section" id="s-how-to-do-data-quality-rule">
+<span id="how-to-do-data-quality-rule"></span><h2>How to do: Data Quality Rule<a class="headerlink" href="#how-to-do-data-quality-rule" title="Permalink to this headline">¶</a></h2>
+<p>To do this Data Governance feature, follow these steps:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Step.</li>
+<li>Go to <em>Settings</em>.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_gotosettings.PNG" src="../../../_images/dataqualityrules_gotosettings.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Step.</li>
+<li>Go to the <em>Rule Configuration</em> section.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_gototheruleconfiguration.PNG" src="../../../_images/dataqualityrules_gototheruleconfiguration.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Step.</li>
+<li>Click on the <strong>Create</strong> button to create a new rule.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_clickonthecreatebutton.PNG" src="../../../_images/dataqualityrules_clickonthecreatebutton.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Step.</li>
+<li>Provide a name for the rule and click on the <em>Attributes, Tags, and Roles</em> where the data quality rules will be applied.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_providethenamefortherule.PNG" src="../../../_images/dataqualityrules_providethenamefortherule.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Step</li>
+<li>Refer to the steps below for a data quality rule applied to an attribute:</li>
 </ol>
 <blockquote>
 <div><ol class="arabic simple">
-<li>Substep</li>
+<li>Select the attribute (in Cause) and then, add the warning (in Effect). Save all the changes.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_providethenamefortherule2.PNG" src="../../../_images/dataqualityrules_providethenamefortherule2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../_images/dataqualityrules_providethenamefortherule3.PNG" src="../../../_images/dataqualityrules_providethenamefortherule3.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../_images/dataqualityrules_providethenamefortherule4.PNG" src="../../../_images/dataqualityrules_providethenamefortherule4.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>SSubstep</li>
+<li>Go to <em>Class Configuration</em>.</li>
 </ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
+<img alt="../../../_images/dataqualityrules_gotoclassconfiguration.PNG" src="../../../_images/dataqualityrules_gotoclassconfiguration.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>In the rules section, the list of rules will appear. Select the rule that needs to be applied.</li>
+</ol>
+<img alt="../../../_images/dataqualityrules_intherulessection.PNG" src="../../../_images/dataqualityrules_intherulessection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to the <em>Home screen</em>.</li>
+</ol>
+<img alt="../../../_images/dataqualityrules_gotohomescreen.PNG" src="../../../_images/dataqualityrules_gotohomescreen.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to PIM.</li>
+</ol>
+<img alt="../../../_images/dataqualityrules_gotoPIM.PNG" src="../../../_images/dataqualityrules_gotoPIM.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Hover over the ‘+’ icon and select the class.</li>
+</ol>
+<img alt="../../../_images/dataqualityrules_hoverovertheiconandselecttheclass.PNG" src="../../../_images/dataqualityrules_hoverovertheiconandselecttheclass.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will show a warning for the violated rule.
+When you click on the warning message, the applied rule notification will appear.</li>
+</ol>
+<img alt="../../../_images/dataqualityrules_asindicatedintherule.PNG" src="../../../_images/dataqualityrules_asindicatedintherule.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 </div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Step.</li>
-</ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Step.</li>
-</ol>
-<img alt="feature/mdm/_images/image.PNG" src="feature/mdm/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
 <img alt="Contentsphere line" src="../../../_images/line-png-32.PNG" />
 </div>
 </div>
@@ -265,7 +304,7 @@ description using bulk edit. The feature will also apply the description change 
   <h3><a href="../../../contents.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">DAGOV 6: Data Quality Rule</a><ul>
-<li><a class="reference internal" href="#how-to-do-bulk-edit">How to do: Bulk Edit</a></li>
+<li><a class="reference internal" href="#how-to-do-data-quality-rule">How to do: Data Quality Rule</a></li>
 </ul>
 </li>
 </ul>
@@ -315,7 +354,7 @@ description using bulk edit. The feature will also apply the description change 
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Jan 03, 2018</p>
+                <p class="topless">Jan 04, 2018</p>
             </div>
           </div>
         

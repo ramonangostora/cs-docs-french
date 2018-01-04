@@ -10,7 +10,7 @@ The Must/Should Attributes are part of the data governance feature that will det
 **User Story:**         * As a user, I want to be alerted if any *Must/Should* attributes (data fields) are not filled out so that I can effectively complete the product definition.
                         * As an administrator, I would like to set *Must/Should/Can* conditions in the data fields.
 
-**Description:**        * This feature provides the functionality to set and classify fields into three categories: *Must, Should, and Can*.
+**Description:**        * *This feature provides the functionality to set and classify fields into three categories: Must, Should, and Can*.
                             * **Must:** is a mandatory field.
                             * **Should:** is a mandatory field but can be skipped. Skipping this field will cause a *"warning"*.
                             * **Can:** is an optional field that can be skipped.
