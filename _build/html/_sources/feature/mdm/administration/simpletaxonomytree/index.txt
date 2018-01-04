@@ -1,0 +1,8 @@
+============================================
+CORE E-23: Taxonomies - Simple Taxonomy Tree
+============================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managetaxonomy
