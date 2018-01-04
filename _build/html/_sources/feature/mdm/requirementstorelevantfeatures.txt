@@ -1,0 +1,248 @@
+=========================
+Requirements to Features
+=========================
+
+
+Classification / Hierarchies
+===============================
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to define multiple categories in a hierarchical structure.
+     - Feature Example
+
+   * - Ability to classify product into multiple hierarchy levels.
+     - *
+
+   * - Ability to associate a product with more than one category.
+     - *
+
+   * - Ability to reclassify product into new or additional categories.
+     - *
+
+   * - Ability for categories to inherit attributes from top-level categories.
+     - *
+
+   * - Ability to link product for the purposes of bundling, upselling, or cross-selling.
+     - *
+
+   * - Ability to link product for the purposes of bundling, upselling, or cross-selling.
+     - *
+
+   * - Ability to support multiple hierarchies.
+     - *
+
+|
+
+Product Attributes
+=====================
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to support product information version control and rollback capabilities.
+     - *
+
+   * - Ability to define/delete/modify product attributes without IT involvement.
+     - *
+
+   * - Ability to define common attributes across multiple categories.
+     - *
+
+   * - Ability to support complex multi-value attributes.
+     - *
+
+   * - Ability to support language and culture localization.
+     - *
+
+   * - Ability to maintain product variants by size/color.
+     - *
+
+|
+
+Publishing / Syndication
+===========================
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to support time-based publishing and expiration of content.
+     - *
+
+   * - Ability to export and syndicate product data to multiple sources in a near real-time basis.
+     - *
+
+   * - Ability to export changes-only to multiple sources.
+     - *
+
+   * - Ability to provide accelerators/connectors for vendor syndication networks.
+     - *
+
+|
+
+Digital Asset Management
+===========================
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to support multiple types of unstructured digital assets (images, video, audio, animation, documents).
+     - *
+
+   * - Ability to manage images in low and high resolution.
+     - *
+
+   * - Ability to manage metadata.
+     - *
+
+   * - Ability to associate multiple digital assets with related products.
+     - *
+
+|
+
+Product Management
+=====================
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to bulk manage product attributes and content.
+     - *
+
+   * - Ability to bulk copy selected product data (hierarchy, attributes, etc) from a master product.
+     - *
+
+   * - Ability to define product content and attributes by channel (web, mobile, in-store showroom, store, customer service, etc).
+     - *
+
+|
+
+Workflow
+===========
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to set up workflow that will allow proofing and approval of product catalog changes before deploying to specific environments.
+     - *
+
+   * - Ability to define workflow that has both human and system steps.
+     - *
+
+   * - Ability to configure data management to the product attribute and user/role level.
+     - *
+
+   * - Ability for the system to provide delegation or reassignment of work between authorized users.
+     - *
+
+   * - Ability for the system to generate pre-defined alerts.
+     - *
+
+|
+
+Portals
+==========
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability for system to offer integrated vendor onboarding to allow vendors to manage content.
+     - *
+
+   * - Ability for vendors to bulk upload product information.
+     - *
+
+   * - Ability for system to review vendor product content for completion/accuracy based on defined business rules by product category/type.
+     - *
+
+   * - Ability for system to offer portal for internal access to PIM content.
+     - *
+
+|
+
+Integration
+==============
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to provide an open API to all components to accommodate flexible application integration.
+     - *
+
+   * - Ability to provide integration agents for access to legacy systems.
+     - *
+
+|
+
+Auditing
+===========
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to maintain revisions and history tracking serving as an audit trail of previous versions of data.
+     - *
+
+|
+
+Security
+===========
+
+.. list-table::
+   :widths: 50 40
+   :header-rows: 1
+
+   * - Requirement(s):
+     - Relevant Feature(s):
+
+   * - Ability to define access profiles with various roles and responsibilities.
+     - *
+
+   * - Ability to restrict system access by user group or role.
+     - *
+
+   * - Ability to support single sign-on.
+     - *
+
+   * - Ability to support full-text search of content, metadata, and attributes.
+     - *
+
+   * - Ability to search by predefined search parameters.
+     - *
