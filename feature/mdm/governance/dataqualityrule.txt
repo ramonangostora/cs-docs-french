@@ -1,89 +1,113 @@
 ===========================
 DAGOV 6: Data Quality Rule
 ===========================
-The Data Quality Rule feature provides the functionality to
+The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.
 
 
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 
-**User Story:**         * As a user, .
+**User Story:**         * As a user, I want to be alerted in case any data quality violations occur while I am saving an *Article* so that I can effectively
+                          conform to data quality standards for the product.
 
-**Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
-                        * This feature can be used on similar or dissimilar types of products.
-                        * This feature allows multiple attributes/tags to be edited in a single operation.
-                        * This feature allows multiple attributes/tags to be changed and applied to products.
+**Description:**        * This feature allows an administrator to create rules to ensure that data quality exists in the system.
+                        * This feature allows the data quality rules to be customizable.
+                        * This feature has two main types for the rules: *Rule Violation and Normalization*.
+                            * **Rule Violation:** alerts a user about a violated rule with an error message.
+                            * **Normalization:** reduces data redundancy and improves the data integrity.
 
-**Prerequisite:**       * *Products* to apply the bulk editing.
+**Prerequisite:**       * *Articles/Products* where data quality must be achieved.
 
-**Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
-                        * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
-                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
+**Application:**        * Data Quality Rule restricts the entry of unacceptable data in the system.
+                        * Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.
+                        * Data Quality Rule customizes the rules for the specific data conditions.
                         * *Example:*
 
-                            A food company changed the tagline or description of their products. The company can select their products in the system and change the
-                            description using bulk edit. The feature will also apply the description change to all of their products.
+                            An administrator doesn't want to see blacklisted words or for these words to be added in the product information pages (e.g. *Bomb, Suicide, Shit, etc*).
+                            In an attribute value (e.g. *Description*), a rule can be customized to fulfill this criteria that will prompt a notification message.
 
 =================       ===============================================================================================================================================================
 
 
-How to do: Bulk Edit
-=====================
-To do mass editing, follow these steps:
+How to do: Data Quality Rule
+=============================
+To do this Data Governance feature, follow these steps:
 
 |
 
-#. Step.
+#. Go to *Settings*.
+
+.. image:: /feature/mdm/_images/dataqualityrules_gotosettings.PNG
+|
+|
+
+#. Go to the *Rule Configuration* section.
+
+.. image:: /feature/mdm/_images/dataqualityrules_gototheruleconfiguration.PNG
+|
+|
+
+#. Click on the **Create** button to create a new rule.
 
 .. image:: /feature/mdm/_images/image.PNG
 |
 |
 
-#. Step.
+#. Click on the *Attributes, Tags, and Roles* where the data quality rules will be applied.
 
 .. image:: /feature/mdm/_images/image.PNG
 |
 |
 
-#. Step.
-
-.. image:: /feature/mdm/_images/image.PNG
-|
-|
-
-#. Step.
-
-.. image:: /feature/mdm/_images/image.PNG
-|
-|
-
-#. Step
+#. Refer to the steps below for a data quality rule applied to an attribute:
 
 
-  #. Substep
+  #. Select the attribute (in Cause) and then, add the warning (in Effect).
+
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  |
+
+  #. Go to *Class Configuration*.
 
   .. image:: /feature/mdm/_images/image.PNG
   |
   |
 
-  #. SSubstep
+  #. In the rules section, the list of rules will appear. Select the rule that needs to be applied.
 
   .. image:: /feature/mdm/_images/image.PNG
   |
   |
 
-|
+  #. Go to the *Home screen*.
 
-#. Step.
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  |
 
-.. image:: /feature/mdm/_images/image.PNG
-|
-|
+  #. Go to PIM.
 
-#. Step.
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  |
 
-.. image:: /feature/mdm/_images/image.PNG
-|
+  #. Hover over the '+' icon and select the class.
+
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  |
+
+  #. As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will show a warning for the violated rule.
+     When you click on the warning message, the applied rule notification will appear.
+
+  .. image:: /feature/mdm/_images/image.PNG
+  |
+  |
 
 
 .. image:: /feature/mdm/_images/line-png-32.PNG
