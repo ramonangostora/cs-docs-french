@@ -14,7 +14,7 @@ Classification / Hierarchies
      - Relevant Feature(s):
 
    * - Ability to define multiple categories in a hierarchical structure.
-     - :doc:`Parametric Search </feature/mdm/general/searchandexplore/parametricsearch>`
+     - Feature Example
 
    * - Ability to classify product into multiple hierarchy levels.
      - *
