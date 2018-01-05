@@ -24,14 +24,14 @@ The Data Quality Rule feature provides the functionality to create and set rules
                         * *Example:*
 
                             An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. *Bomb, Suicide, Shit, etc*).
-                            In an attribute value (e.g. *Description*), a rule can be customized to fulfill this condition that will prompt a notification message if not followed.
+                            In an attribute value (e.g. *Description*), a rule can be customized to achieve this condition that will prompt a notification message if not followed.
 
 =================       ===============================================================================================================================================================
 
 
 How to do: Data Quality Rule
 =============================
-To do this Data Governance feature, follow these steps:
+To do this data governance feature, follow these steps:
 
 |
 
@@ -102,7 +102,7 @@ To do this Data Governance feature, follow these steps:
   |
   |
 
-  #. As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will show a warning for the violated rule.
+  #. As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will be highlighted for the violated rule.
      When you click on the warning message, the applied rule notification will appear.
 
   .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG
