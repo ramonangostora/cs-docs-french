@@ -1,0 +1,13 @@
+=============================
+CORE E-1: Search and Explore
+=============================
+
+.. toctree::
+   :maxdepth: 1
+
+   parametricsearch
+   facetedsearch
+   searchwithintaxonomy
+   groupby
+   sortby
+   fulltextsearch

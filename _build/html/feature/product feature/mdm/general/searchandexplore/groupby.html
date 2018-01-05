@@ -1,0 +1,316 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CORE 63: Group By &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="CORE 64: Sort By" href="sortby.html" />
+    <link rel="prev" title="CORE 30: Search within Taxonomy" href="searchwithintaxonomy.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <div>
+        <img src="_static/logoweb.png" class="cs-logo">
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="searchwithintaxonomy.html" title="CORE 30: Search within Taxonomy">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="sortby.html" title="CORE 64: Sort By">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product feature-mdm-general-searchandexplore-groupby">
+            
+  <div class="section" id="s-core-63-group-by">
+<span id="core-63-group-by"></span><h1>CORE 63: Group By<a class="headerlink" href="#core-63-group-by" title="Permalink to this headline">¶</a></h1>
+<p>The Group By feature allows a user to view a group of objects in the system by specifying an attribute.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>One or more attributes: As a user, I want to view objects in the system grouped according to a specific selection of attributes.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li><em>Group By</em>  to make groups according to <em>Tags</em> and <em>Attributes</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).</p>
+</li>
+<li><p class="first">The feature allows a user to specify the sequence of grouping attributes.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>If a user wants to view a group of products that is related to <strong>Female section</strong>, the <em>Group By</em>  feature may be used.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-group-by">
+<span id="how-to-do-group-by"></span><h2>How to do: Group By<a class="headerlink" href="#how-to-do-group-by" title="Permalink to this headline">¶</a></h2>
+<p>To do a Group By, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the <strong>Group By</strong> button found on the upper right corner of the screen.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_01.PNG" src="feature/mdm/_images/group_by_01.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the “+” icon to add the properties of a grouping. A list of all the filterable properties will be shown.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_02.PNG" src="feature/mdm/_images/group_by_02.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the property/properties to be used. A list of values will be displayed along with the number of products.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_03.PNG" src="feature/mdm/_images/group_by_03.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="feature/mdm/_images/group_by_03b.PNG" src="feature/mdm/_images/group_by_03b.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the products that are displayed after selecting a value.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_04.PNG" src="feature/mdm/_images/group_by_04.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>To add another level for the grouping, click the “+” icon.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_05.PNG" src="feature/mdm/_images/group_by_05.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Similarly, on the list that will appear, select the appropriate property. Select a subtag to have a more refined grouping.</li>
+</ol>
+<img alt="feature/mdm/_images/group_by_06.PNG" src="feature/mdm/_images/group_by_06.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">CORE 63: Group By</a><ul>
+<li><a class="reference internal" href="#how-to-do-group-by">How to do: Group By</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="searchwithintaxonomy.html">CORE 30: Search within Taxonomy</a></li>
+    
+    
+      <li>Next: <a href="sortby.html">CORE 64: Sort By</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">&lt;no title&gt;</a>
+        
+          <ul><li><a href="index.html">CORE E-1: Search and Explore</a>
+        
+        <ul><li>CORE 63: Group By</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../../_sources/feature/product feature/mdm/general/searchandexplore/groupby.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Jan 05, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="searchwithintaxonomy.html" title="CORE 30: Search within Taxonomy">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="sortby.html" title="CORE 64: Sort By">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

@@ -6,6 +6,6 @@ Feature Guides
    :maxdepth: 1
 
    product feature/index
-   requirement feature/index
    roadmap feature/index
    deprecation
+   requirement feature/index

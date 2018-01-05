@@ -1,0 +1,428 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CORE 53: Public or Private Bookmarks and Collections &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="CORE 67: Manage Products across Collections" href="manageproducts.html" />
+    <link rel="prev" title="CORE E-52: Search and Store Bookmarks" href="searchandstore.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <div>
+        <img src="_static/logoweb.png" class="cs-logo">
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="searchandstore.html" title="CORE E-52: Search and Store Bookmarks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="manageproducts.html" title="CORE 67: Manage Products across Collections">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product feature-mdm-general-collectionsandbookmarks-bookmarkcollections">
+            
+  <div class="section" id="s-core-53-public-or-private-bookmarks-and-collections">
+<span id="core-53-public-or-private-bookmarks-and-collections"></span><h1>CORE 53: Public or Private Bookmarks and Collections<a class="headerlink" href="#core-53-public-or-private-bookmarks-and-collections" title="Permalink to this headline">¶</a></h1>
+<p>The Public or Private Bookmarks and Collections feature provides general users the ability to set a bookmark as a public or private bookmark.</p>
+<table class="docutils">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>As a user, I want to define a bookmark or collection as either Private or Public.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Private bookmarks are visible only to the user who created those bookmarks, whereas public bookmarks are visible to all users of the system.</li>
+<li>A locked icon indicates that the bookmark is a private bookmark.</li>
+<li>An unlocked icon indicates that the bookmark is a public bookmark.</li>
+<li>To change a bookmark into a private bookmark, user needs to set the bookmark status into a locked icon.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li>User must create a bookmark.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">A bookmark can be a private or a public bookmark.</p>
+</li>
+<li><p class="first">A private bookmark will only be seen by the user who created the bookmark, and not the other users.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Suppose the marketing team of a company has created a bookmark for a trial, so they make the bookmark as a private bookmark because they don’t want to show their bookmark to the other users of the system.
+On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-public-or-private-bookmarks-and-collections">
+<span id="how-to-do-public-or-private-bookmarks-and-collections"></span><h2>How to do: Public or Private Bookmarks and Collections<a class="headerlink" href="#how-to-do-public-or-private-bookmarks-and-collections" title="Permalink to this headline">¶</a></h2>
+<p>This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting grants access to all users while a private setting grants access only to specific users.
+To do this, follow these steps:</p>
+<div class="section" id="s-bookmarks-setting-a-public-bookmark">
+<span id="bookmarks-setting-a-public-bookmark"></span><h3>Bookmarks: Setting a Public Bookmark<a class="headerlink" href="#bookmarks-setting-a-public-bookmark" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in as admin.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_admin.png" src="feature/mdm/_images/bookmarksncollections_admin.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the Bookmark icon and go to the desired bookmark.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>The default setting of a bookmark is <em>Public</em>. Keep this setting to make a public bookmark.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_publicbookmark.png" src="feature/mdm/_images/bookmarksncollections_publicbookmark.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once done, the bookmark can be viewed by all users.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_publicuser.png" src="feature/mdm/_images/bookmarksncollections_publicuser.png" />
+<p><em>As seen on the image above, the bookmark can be viewed by the Seller.</em></p>
+<img alt="feature/mdm/_images/line-png-32.png" src="feature/mdm/_images/line-png-32.png" />
+</div>
+<div class="section" id="s-bookmarks-setting-a-private-bookmark">
+<span id="bookmarks-setting-a-private-bookmark"></span><h3>Bookmarks: Setting a Private Bookmark<a class="headerlink" href="#bookmarks-setting-a-private-bookmark" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in as admin.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_admin.png" src="feature/mdm/_images/bookmarksncollections_admin.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the Bookmark icon and go to the desired bookmark.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Set the bookmark to <em>Private</em>.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_privatebookmark.png" src="feature/mdm/_images/bookmarksncollections_privatebookmark.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once done, only certain users can view the bookmark.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_privateuser.png" src="feature/mdm/_images/bookmarksncollections_privateuser.png" />
+<p><em>As seen on the image above, the bookmark cannot be viewed by the seller as it is restricted to the admin.</em></p>
+<img alt="feature/mdm/_images/line-png-32.png" src="feature/mdm/_images/line-png-32.png" />
+</div>
+<div class="section" id="s-collections-setting-a-public-collection">
+<span id="collections-setting-a-public-collection"></span><h3>Collections: Setting a Public Collection<a class="headerlink" href="#collections-setting-a-public-collection" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>To start creating a collection, select the products or assets that will be included in the collection.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_selectproducts.png" src="feature/mdm/_images/bookmarksncollections_selectproducts.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the pin icon on the right side of the search bar to create the collection.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_createcollection.png" src="feature/mdm/_images/bookmarksncollections_createcollection.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter the name of the collection and click <strong>Create</strong>.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_entername.png" src="feature/mdm/_images/bookmarksncollections_entername.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once created, search for the collection as you would a bookmark.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once found, check that the default setting is <em>Public</em>. Keep this setting for a public collection.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_publiccollection.png" src="feature/mdm/_images/bookmarksncollections_publiccollection.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once done, the collection can be viewed by all users.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_publiccollectionview.png" src="feature/mdm/_images/bookmarksncollections_publiccollectionview.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="feature/mdm/_images/line-png-32.png" src="feature/mdm/_images/line-png-32.png" />
+</div>
+<div class="section" id="s-collections-setting-a-private-collection">
+<span id="collections-setting-a-private-collection"></span><h3>Collections: Setting a Private Collection<a class="headerlink" href="#collections-setting-a-private-collection" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>To set a collection to private, search for the collection.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once searched, click on the lock icon to change the setting to <em>Private</em>.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_privatecollection.png" src="feature/mdm/_images/bookmarksncollections_privatecollection.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once done, only certain users can view the collection.</li>
+</ol>
+<img alt="feature/mdm/_images/bookmarksncollections_privatecollectionview.png" src="feature/mdm/_images/bookmarksncollections_privatecollectionview.png" />
+<p><em>As seen on the images above, the collection cannot be viewed by the seller as it is restricted to the admin.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="feature/mdm/_images/line-png-32.png" src="feature/mdm/_images/line-png-32.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">CORE 53: Public or Private Bookmarks and Collections</a><ul>
+<li><a class="reference internal" href="#how-to-do-public-or-private-bookmarks-and-collections">How to do: Public or Private Bookmarks and Collections</a><ul>
+<li><a class="reference internal" href="#bookmarks-setting-a-public-bookmark">Bookmarks: Setting a Public Bookmark</a></li>
+<li><a class="reference internal" href="#bookmarks-setting-a-private-bookmark">Bookmarks: Setting a Private Bookmark</a></li>
+<li><a class="reference internal" href="#collections-setting-a-public-collection">Collections: Setting a Public Collection</a></li>
+<li><a class="reference internal" href="#collections-setting-a-private-collection">Collections: Setting a Private Collection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="searchandstore.html">CORE E-52: Search and Store Bookmarks</a></li>
+    
+    
+      <li>Next: <a href="manageproducts.html">CORE 67: Manage Products across Collections</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">&lt;no title&gt;</a>
+        
+          <ul><li><a href="index.html">CORE E-2: Collections and Bookmarks</a>
+        
+        <ul><li>CORE 53: Public or Private Bookmarks and Collections</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../../_sources/feature/product feature/mdm/general/collectionsandbookmarks/bookmarkcollections.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Jan 05, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="searchandstore.html" title="CORE E-52: Search and Store Bookmarks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="manageproducts.html" title="CORE 67: Manage Products across Collections">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>
