@@ -10,7 +10,7 @@ Classification / Hierarchies
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to define multiple categories in a hierarchical structure.
@@ -46,7 +46,7 @@ Product Attributes
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to support product information version control and rollback capabilities.
@@ -76,7 +76,7 @@ Publishing / Syndication
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to support time-based publishing and expiration of content.
@@ -100,7 +100,7 @@ Digital Asset Management
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to support multiple types of unstructured digital assets (images, video, audio, animation, documents).
@@ -124,7 +124,7 @@ Product Management
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to bulk manage product attributes and content.
@@ -145,7 +145,7 @@ Workflow
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to set up workflow that will allow proofing and approval of product catalog changes before deploying to specific environments.
@@ -172,7 +172,7 @@ Portals
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability for system to offer integrated vendor onboarding to allow vendors to manage content.
@@ -196,7 +196,7 @@ Integration
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to provide an open API to all components to accommodate flexible application integration.
@@ -214,7 +214,7 @@ Auditing
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to maintain revisions and history tracking serving as an audit trail of previous versions of data.
@@ -229,7 +229,7 @@ Security
    :widths: 50 40
    :header-rows: 1
 
-   * - Requirement(s):
+   * - Requirement:
      - Relevant Feature(s):
 
    * - Ability to define access profiles with various roles and responsibilities.
