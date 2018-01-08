@@ -62,7 +62,7 @@ To do this, follow these steps:
 
 #. Click on the "+" icon to create a new taxonomy.
 
-.. image:: /feature/mdm/_images//managetaxonomy_newtaxonomy.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_newtaxonomy.PNG
 
 |
 
@@ -70,14 +70,14 @@ To do this, follow these steps:
 
 #. Fill the data and click **Save**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_filldata.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_filldata.PNG
 
 |
 
 |
 #. To make hierarchy, click on the taxonomy then click on **Create**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_makehierarchy.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_makehierarchy.PNG
 
 |
 
