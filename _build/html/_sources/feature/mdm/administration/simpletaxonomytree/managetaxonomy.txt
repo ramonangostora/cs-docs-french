@@ -14,7 +14,7 @@ Manage Taxonomy is a feature that allows the user to add taxonomies so as to cla
 
 **Description:**        * Taxonomy allows for classifying different objects.
                         * This feature deals on how to map an object to different concepts and terms to a consistent structure.
-                        * Taxonomies can also represent related concepts that can be used to connect a product to various levels of branches of a taxonomy.
+                        * Taxonomies can also represent related concepts that can be used to connect a product to various levels of taxonomy branches.
 
 **Prerequisite:**       * Selecting a parent node to get all nodes associated to that particular parent node
 
@@ -24,10 +24,10 @@ Manage Taxonomy is a feature that allows the user to add taxonomies so as to cla
                         * *Example:*
 
                             An electronics retailer sells all kinds of electronics and he wants to classify his products.
-                            So the mobile phones that he sells will have a taxonomy "electronics" and under electronics, he can create
-                            a number of levels to classify his mobile phones under electronics. So here the mobile phone will fall under smart phones
-                            or handsets, further having a  branch as touchscreen or keypad, and then another branch for the OS and so on.
-                            Similarly, various taxonomies can be applied to his electronicsa for smooth categorization.
+                            The mobile phones that he sells will have a taxonomy "electronics" and under electronics, he can create
+                            a number of levels for classification. Here, mobile phones will fall under smart phones
+                            or handsets, further having a branch as touchscreen or keypad, and then another branch for the OS and so on.
+                            Similarly, various taxonomies can be applied to his electronics for smooth categorization.
 =================       =============================================================================================================================================================
 
 
@@ -46,7 +46,7 @@ To do this, follow these steps:
 
 #. Go to the Home screen and click on **Settings**.
 
-.. image:: /feature/mdm/_images/managetaxonomy_settings.png
+.. image:: /feature/mdm/_images/managetaxonomy_settings.PNG
 
 |
 
@@ -54,7 +54,7 @@ To do this, follow these steps:
 
 #. Click on **Taxonomy Configuration**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_taxonomyconfig.png
+.. image:: /feature/mdm/_images//managetaxonomy_taxonomyconfig.PNG
 
 |
 
@@ -62,7 +62,7 @@ To do this, follow these steps:
 
 #. Click on the "+" icon to create a new taxonomy.
 
-.. image:: /feature/mdm/_images//managetaxonomy_newtaxonomy.png
+.. image:: /feature/mdm/_images//managetaxonomy_newtaxonomy.PNG
 
 |
 
@@ -70,14 +70,14 @@ To do this, follow these steps:
 
 #. Fill the data and click **Save**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_filldata.png
+.. image:: /feature/mdm/_images//managetaxonomy_filldata.PNG
 
 |
 
 |
 #. To make hierarchy, click on the taxonomy then click on **Create**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_makehierarchy.png
+.. image:: /feature/mdm/_images//managetaxonomy_makehierarchy.PNG
 
 |
 
@@ -85,31 +85,31 @@ To do this, follow these steps:
 
 #. Click on "+" to add property collection and click **Apply**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection1.png
+.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection1.PNG
 
 |
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection2.png
+.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection2.PNG
 
 |
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection3.png
+.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection3.PNG
 
 |
 
 #. Go to the Home screen, hover on the "+" icon, and select the product.
 
-.. image:: /feature/mdm/_images/managetaxonomy_selectproduct1.png
+.. image:: /feature/mdm/_images/managetaxonomy_selectproduct1.PNG
 
 |
 
-.. image:: /feature/mdm/_images/managetaxonomy_selectproduct2.png
+.. image:: /feature/mdm/_images/managetaxonomy_selectproduct2.PNG
 
 |
 
 #. Enter the data and click on **Add Taxonomy**.
 
-.. image:: /feature/mdm/_images/managetaxonomy_addtaxonomy.png
+.. image:: /feature/mdm/_images/managetaxonomy_addtaxonomy.PNG
 
 |
 
@@ -117,15 +117,15 @@ To do this, follow these steps:
 
 #. For additional classification, click on **Classify further**.
 
-.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther.png
+.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther.PNG
 
 |
 
-.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther2.png
+.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther2.PNG
 
 |
 
-.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther3.png
+.. image:: /feature/mdm/_images/managetaxonomy_classifyfurther3.PNG
 
 |
 
