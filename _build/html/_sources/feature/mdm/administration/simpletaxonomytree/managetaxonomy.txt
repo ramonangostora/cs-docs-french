@@ -54,7 +54,7 @@ To do this, follow these steps:
 
 #. Click on **Taxonomy Configuration**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_taxonomyconfig.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_taxonomyconfig.PNG
 
 |
 
@@ -85,15 +85,15 @@ To do this, follow these steps:
 
 #. Click on "+" to add property collection and click **Apply**.
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection1.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection1.PNG
 
 |
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection2.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection2.PNG
 
 |
 
-.. image:: /feature/mdm/_images//managetaxonomy_addpropertycollection3.PNG
+.. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection3.PNG
 
 |
 
