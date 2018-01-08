@@ -35,7 +35,7 @@ Manage Taxonomy is a feature that allows the user to add taxonomies so as to cla
 
 
 How to do: Simple Taxonomy Tree
-===============================
+================================
 
 This How To guide provides instructions on how to create a simple taxonomy tree.
 To do this, follow these steps:
