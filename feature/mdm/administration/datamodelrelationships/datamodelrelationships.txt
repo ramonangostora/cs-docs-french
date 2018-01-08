@@ -14,7 +14,7 @@ The Data Model Relationships feature provides information on the various relatio
 **Description:**        * This feature provides the functionality that allows the linking of a product to its details. This will also allow the linking of additional information about
                           the images associated with the products, markets, etc.
                         * This feature provides the functionality that creates relationships that will relate *Products* to the *Markets, Suppliers, Images, Videos, etc*.
-                        * This feature provides the functionality that creates relationships that can be bi-directional - in which the product can be related to the
+                        * This feature provides the functionality that creates relationships that can be bi-directional in which the product can be related to the
                           image/market/supplier and the product will be visible in the image/market/supplier modules.
                         * *Example:*
 
