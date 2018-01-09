@@ -56,21 +56,21 @@ To do this, follow these steps:
 
 #. Click **Organize**.
 
-.. image:: /feature/mdm/_images/manageprod_clickorganize.PNG
+.. image:: /feature/_images/mdmimages/manageprod_clickorganize.PNG
 |
 
 |
 
 #. Click **Add New Collection**.
 
-.. image:: /feature/mdm/_images/manageprod_addnewcollection.PNG
+.. image:: /feature/_images/mdmimages/manageprod_addnewcollection.PNG
 
 
 |
 
 #. Enter the name for the collection.
 
-.. image:: /feature/mdm/_images/manageprod_entername.PNG
+.. image:: /feature/_images/mdmimages/manageprod_entername.PNG
 
 |
 

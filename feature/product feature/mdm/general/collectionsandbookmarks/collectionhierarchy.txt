@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 #. Select a collection and click **Organize**.
 
-.. image:: /feature/feature/_images/mdmimages/colhier_clickorganize.PNG
+.. image:: /feature/_images/mdmimages/colhier_clickorganize.PNG
 
 |
 
@@ -48,7 +48,7 @@ To do this, follow these steps:
 
 #. On the collections page, click **Add New Collection** and enter the name of the new collection.
 
-.. image:: /feature/mdm/_images/colhier_addnewcollection.PNG
+.. image:: /feature/_images/mdmimages/colhier_addnewcollection.PNG
 
 |
 
@@ -64,5 +64,8 @@ To do this, follow these steps:
 
 |
 
-.. image:: /feature/mdm/_images/colhier_added2.PNG
+.. image:: /feature/_images/mdmimages/colhier_added2.PNG
 |
+
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

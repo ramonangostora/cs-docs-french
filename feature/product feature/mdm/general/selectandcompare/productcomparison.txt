@@ -45,7 +45,7 @@ To do this, follow these steps:
 
 #. Select two or more products to be compared.
 
-.. image:: /feature/mdm/_images/productcomparison_selectproducts.png
+.. image:: /feature/_images/mdmimages/productcomparison_selectproducts.png
 
 |
 
@@ -53,7 +53,7 @@ To do this, follow these steps:
 
 #. Click the Comparison View icon found at the top of the products.
 
-.. image:: /feature/mdm/_images/productcomparison_selecticon.png
+.. image:: /feature/_images/mdmimages/productcomparison_selecticon.PNG
 
 |
 
@@ -61,8 +61,10 @@ To do this, follow these steps:
 
 #. Comparison View enables the user to compare the data of two products.
 
-.. image:: /feature/mdm/_images/productcomparison_comparisonview.png
+.. image:: /feature/_images/mdmimages/productcomparison_comparisonview.PNG
 
 |
 
    The indicators for comparing are shown at the right side. The red icon indicates *less than*, the green icon with "=" indicates *equal to*, and the green icon with up arrow indicates *greater than*.
+  .. image:: /feature/_images/mdmimages/line-png-32.png
+      :alt: Contentsphere line

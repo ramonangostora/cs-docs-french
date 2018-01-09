@@ -141,3 +141,5 @@ To do this, follow these steps:
 .. image:: /feature/_images/targetandchannel_checkoutput.PNG
 
 |
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

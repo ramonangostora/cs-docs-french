@@ -47,7 +47,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: feature/_images/mdmimages/bookmarksncollections_admin.PNG
+.. image:: /feature/_images/mdmimages/bookmarksncollections_admin.PNG
 
 |
 
@@ -111,7 +111,7 @@ Collections: Setting a Public Collection
 
 #. To start creating a collection, select the products or assets that will be included in the collection.
 
-.. image:: feature/_images/mdmimages/bookmarksncollections_selectproducts.PNG
+.. image:: /feature/_images/mdmimages/bookmarksncollections_selectproducts.PNG
 
 |
 
@@ -123,7 +123,7 @@ Collections: Setting a Public Collection
 
 #. Enter the name of the collection and click **Create**.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_entername.PNG
+.. image:: /feature/_images/mdmimages/bookmarksncollections_entername.PNG
 
 |
 
@@ -135,7 +135,7 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_publiccollection.PNG
+.. image:: /feature/_images/mdmimages/bookmarksncollections_publiccollection.PNG
 |
 |
 
@@ -144,7 +144,7 @@ Collections: Setting a Public Collection
 .. image:: /feature/_images/mdmimages/bookmarksncollections_publiccollectionview.PNG
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.png
 
 
 Collections: Setting a Private Collection

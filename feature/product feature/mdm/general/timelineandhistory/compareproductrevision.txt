@@ -35,7 +35,7 @@ To do this feature, follow these steps:
 
 #. Select a product and click on the **Timeline Tab**.
 
-.. image:: /feature/mdm/_images/timelineandhistory_mergeselectaproductandclicktimeline.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_mergeselectaproductandclicktimeline.PNG
 |
 |
 

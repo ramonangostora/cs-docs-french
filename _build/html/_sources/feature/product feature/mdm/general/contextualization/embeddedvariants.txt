@@ -50,7 +50,7 @@ To do this, follow these steps:
 
 #. Fill in the appropriate data and add images for the product and its variants.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_filldata.PNG
+.. image:: /feature/_images/embeddedvariants_filldata.PNG
 
 |
 
@@ -58,7 +58,7 @@ To do this, follow these steps:
 
 #. Click on the context icon found next to the home icon.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_clickcontexticon.PNG
+.. image:: /feature/_images/embeddedvariants_clickcontexticon.PNG
 
 |
 
@@ -74,7 +74,7 @@ To do this, follow these steps:
 
 #. Select the appropriate tags, select the name of the variant, and click **Save**.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_selecttag.PNG
+.. image:: /feature/_images/embeddedvariants_selecttag.PNG
 
 |
 
@@ -82,7 +82,7 @@ To do this, follow these steps:
 
 #. Fill in the data for the variant.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_filldataforvariant.PNG
+.. image:: /feature/_images/embeddedvariants_filldataforvariant.PNG
 
 |
 
@@ -90,7 +90,7 @@ To do this, follow these steps:
 
 #. Click on the Camera icon to add the image.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_clickcamera.PNG
+.. image:: /feature/_images/embeddedvariants_clickcamera.PNG
 
 |
 
@@ -98,7 +98,7 @@ To do this, follow these steps:
 
 #. Select the image from the asset selection of the parent products and click **OK**.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_selectimage.PNG
+.. image:: /feature/_images/embeddedvariants_selectimage.PNG
 
 |
 
@@ -110,7 +110,7 @@ To do this, follow these steps:
 
 #. Click on the Back icon at the top left corner.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_clickbackicon.PNG
+.. image:: /feature/_images/embeddedvariants_clickbackicon.PNG
 
 |
 
@@ -118,6 +118,6 @@ To do this, follow these steps:
 
 #. The variant looks similar to the image below. Take note that users can create several embedded variants.
 
-.. image:: /feature/_images/mdmimages/embeddedvariants_checkoutput.PNG
+.. image:: /feature/_images/embeddedvariants_checkoutput.PNG
 
 |

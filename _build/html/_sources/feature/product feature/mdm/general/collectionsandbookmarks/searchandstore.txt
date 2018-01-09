@@ -128,4 +128,6 @@ Searching for a bookmark
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

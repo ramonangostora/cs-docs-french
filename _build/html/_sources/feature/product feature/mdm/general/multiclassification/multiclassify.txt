@@ -97,3 +97,5 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/multiclassify_switchtemplate3.PNG
 
 |
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line
