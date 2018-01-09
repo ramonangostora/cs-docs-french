@@ -1,8 +1,8 @@
 ===============
-Getting started
+Getting Started
 ===============
 
-read this material to quickly get up and running.
+Read this material to quickly get up and running.
 
 .. toctree::
    :maxdepth: 1
