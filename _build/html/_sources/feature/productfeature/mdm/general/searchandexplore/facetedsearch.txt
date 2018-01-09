@@ -1,0 +1,58 @@
+====================
+Multi-faceted Search
+====================
+
+The Faceted Search feature allows a user to have a multi-faceted search support functionality in addition to the multi-criteria search for refined search results.
+
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to be able to search for products or assets using the multi-criteria search with a multi-faceted search support functionality to refine the results.
+
+**Description:**        * In addition to multi-criteria search, the solution will feature multi-faceted search support functionality to refine results.
+                        * A user can refine the results through filters or taxonomy.
+                        * A user can use sort filters that are used to arrange the products in ascending or descending order.
+
+**Prerequisite:**       * *Taxonomy*  to select taxonomy criteria.
+                        * *Application Filter*  to choose the filterable tags.
+                        * *Sort by*  to sort the product in ascending or descending order.
+
+**Application:**        * Using either of the ways, a user will land to the desired searched product.
+                        * A user can use the sorting functionality to sort the products in ascending or descending order.
+
+=================       =============================================================================================================================================================
+
+
+How to do: Multi-faceted Search
+================================
+To do a Multi-faceted Search, follow these steps:
+
+|
+
+#. On the search bar, select a taxonomy (e.g. *Products*).
+
+.. image:: /feature/mdm/_images/fs01.PNG
+|
+|
+
+#. Apply filter(s) such as *Gender*.
+
+.. image:: /feature/mdm/_images/fs02.PNG
+|
+|
+
+#. Sort the selling price. An example of sorting in descending order is shown below.
+
+.. image:: /feature/mdm/_images/fs03.PNG
+|
+|
+
+#. Perform a final search on the results based on the above criteria.
+
+.. image:: /feature/mdm/_images/mfsearch_results.PNG
+|
+|
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

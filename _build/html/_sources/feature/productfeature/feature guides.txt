@@ -1,0 +1,368 @@
+====================
+Feature Guides Index
+====================
+
+The feature guide is a collection of all the features available within the Contentsphere application. these include features covering master data management, product information Management
+marketing content hub and the partner engagement platform.
+
+.. image:: ../_images/line-png-32.png
+   :alt: Contentsphere
+
+Master Data Management Features
+-------------------------------
+
+  * :doc:`Manage Buyer Catalog </mdm/manage buyer catalog>` As a buyer I want to manage my own catalog of products in the master catalog
+    so that I can manage the products from partners that I am associated with.
+
+  * :doc:`Manage Virtual Catalog </feature/index>` As a buyer I want to create multiple collections & bookmarks
+    so as to effectively manage different selections of products in my catalog.
+
+  * :doc:`Create Tasks for Partners </feature/index>` As a data steward I want to create tasks for Partners
+    so that they can correct data quality issues and improve their product definitions.
+
+  * :doc:`Communicate with Partners </feature/index>` As a data steward I want to communicate with Partners
+    over the Platform so that they can I can help them improve their product definitions.
+
+  * :doc:`Remedy Quality Issues </feature/index>` As a data steward, I want to edit records with incorrect
+    or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system.
+
+  * :doc:`KPI Based DQ Reports </feature/index>` As a data steward, I want to see KPI based Data Quality Reports,
+    so that I can assess the level of quality and take corrective actions.
+
+  * :doc:`Monitor Data Quality </feature/index>` As a user I want to monitor the quality of the data in my catalog
+    so that I can better define my products and take corrective actions.
+
+  * :doc:`Standardize Product </feature/index>` Definitions As a data steward I want to be standardize product definitions
+    via standardization rules to improve consistency of product definitions.
+
+  * :doc:`Check & Filter </feature/index>` Incomplete Products As a data steward, I want to view all the products with
+    flagged with must / should data completion violations, so that I can take corrective actions.
+
+  * :doc:`Check & Erroneous Products </feature/index>` As a data steward, I want to view all the products
+    with flagged with errors and warnings, so that I can take corrective actions.
+
+  * :doc:`Single Supplier View </feature/index>` As a buyer I want to be able to explore products
+    per supplier so that I can better manage products from a particular supplier.
+
+  * :doc:`Multiple Supplier View </feature/index>` As a buyer I want to be able to explore products across
+    multiple suppliers so that I can have an overview of products across a selection of suppliers.
+
+  * :doc:`End Points & Mappings </feature/index>`
+
+  * :doc:`Validation, Normalisation & Transformation Rules </feature/index>`
+
+  * :doc:`Standard Import Interfaces & Formats </feature/index>`
+
+  * :doc:`Relations/Links Import </feature/index>`
+
+  * :doc:`Workflows </feature/index>`
+
+  * :doc:`Manual/Automated Imports </feature/index>`
+
+  * :doc:`Manage Product Definitions Across Partners </feature/index>`` As a data steward I want to see all products
+    in the Master Catalog so that I can have a consolidated view of product definitions Partners.
+
+  * :doc:`Manage Product Definitions Across Systems </feature/index>`` As a data steward I want to see all products
+    in the Master Catalog so that I can have a consolidated view of product definitions across Systems.
+
+  * :doc:`Improve Product Classifications </feature/index>`` As a data steward I want to manually classify products
+    further into their taxonomies so as to improve their definition.
+
+  * :doc:`Classify in Bulk </feature/index>`` As a data steward I want to select a set of products and classify
+    them so that I can classify multiple products in one go.
+
+  * :doc:`Golden Record </feature/index>`` As a data steward I want to be able to manage golden record of a
+    product with definitions consolidated from across partners & systems.
+
+  * :doc:`Manage Products in Master Catalog </feature/index>`` As a data steward I want to add
+    additional information to the products so that I can complete their definition.
+
+  * :doc:`Search & Filter Products in Master Catalog </feature/index>`` As a data steward I want to search
+    and filter products by their classifications & properties.
+
+  * :doc:`Mantaining the Onboarding Pool </feature/index>`
+
+  * :doc:`Data Governance & Remediation </feature/index>`
+
+  * :doc:`Maintaining the Off boarding Pool </feature/index>`
+
+  * :doc:`Setup Supplier Profile </feature/index>`
+
+  * :doc:`Users & Permissions </feature/index>`
+
+  * :doc:`Data Quality Levels </feature/index>`
+
+  * :doc:`Preferences </feature/index>`
+
+  * :doc:`Supplier Catalog </feature/index>`
+
+  * :doc:`Classification & Enrichment </feature/index>`
+
+  * :doc:`Combine/Split Articles </feature/index>`
+
+  * :doc:`Governance & Collaboration Dashboard </feature/index>`
+
+  *  :doc:`Multilingual UI </feature/index>`: As an administrator, I want to provide the translations for the menu items in the UI so that the UI can be used in multiple languages.
+  *  :doc:`Managing Multi–Media Links </feature/index>`
+  *  :doc:`Manage different types of attributes </feature/index>` As an administrator I want to setup attributes of type like Text, Number, Price, Date & Time.
+  *  :doc:`Manage different types of measurement attributes </feature/index>` As an administrator I want to setup several types of measurement attributes like Volume, Weight, etc
+  *  :doc:`Manage Calculated Attributes </feature/index>` As an administrator I want to setup calculated attributes that are calculated defined by a formula based on other attributes
+  *  :doc:`Manage Concatenated Attributes </feature/index>` As an administrator I want to setup concatenated text based attributes pointing other attributes (e.g. long description = name & Attribute 1 & Attribute 2 & Price)
+  *  :doc:`Manage LOVs </feature/index>` As an administrator I want to setup LOVs as Tags
+  *  :doc:`Manage Affinities </feature/index>` As an administrator I want to setup Affinity Based Tags
+  *  :doc:`Manage Masters </feature/index>` As an administrator I want to setup Masters like Region, Color, Material, Brands as Tags
+  *  :doc:`Manage Media Links </feature/index>` As an administrator I want to setup relationships between a Product & an Asset as a bi-directional relationship
+  *  :doc:`Define Article Links </feature/index>` As an administrator I want to setup relationships between Articles as a bi-directional relationship
+  *  :doc:`Define Relationships </feature/index>` As an administrator I want to setup relationships between entities
+  *  :doc:`Manage Taxonomy </feature/index>` As an administrator I want to add Taxonomies so that I can classify products into them
+  *  :doc:`Manage Hierarchy via Relationship </feature/index>` As an administrator I want to setup relationships as links so that users can visualize the connections between articles
+  *  :doc:`Managing Tag Hierarchies </feature/index>` As an administrator I want to be able to setup tag based hierarchy such that each master tag is one level so that I can mix and match tags to build simple hierarchies
+  *  :doc:`Manage Permissions </feature/index>` As an administrator I want to manage detail access permission to a Role on Classes so that the Role can create and manage the right products.
+  *  :doc:`Manage Role Access to Classes & Taxonomies </feature/index>` As an administrator I want to restrict a Role's access to Classes & Taxonomy Levels so that the users can work directly with the articles they are responsible for users can work directly with the articles they are responsible for
+  *  :doc:`Multilingual Data Model </feature/index>` As an administrator, I want to provide the translations for the various data model items like attributes, tags, classes etc so that system can be used in multiple languages.
+  *  :doc:`Manage View Templates </feature/index> As an administrator, I want to setup different view templates so that I can control the information presented to each role.
+  *  :doc:`Dependent Attributes </feature/index>` As an administrator I want to setup dependent attributes such that they can introduce additional attributes that should be filled in
+  *  :doc:`Manage Master Taxonomies </feature/index>` As an administrator I want to setup Master Taxonomies that are based on Masters so that each level of the taxonomy is represented by a Master Tag Group
+  *  :doc:`Manage Master Taxonomies </feature/index>` As an administrator I want to setup Master Taxonomies that are based on Masters with complete class backed configurations so that all classification features like properties & relationships can be setup for these taxonomies
+  *  :doc:`Import Attributes </feature/index>` As an administrator I want to import attribute definitions so that I can create multiple attributes in one go
+  *  :doc:`Export Attributes </feature/index>` As an administrator I want to exports attribute definitions so that I can check them offline
+  *  :doc:`Export Tags </feature/index>` As an administrator I want to exports tag definitions so that I can check them offline
+  *  :doc:`Import Tags </feature/index>` As an administrator I want to import Tag definitions so that I can create multiple Tags in one go
+  *  :doc:`Import Taxonomy </feature/index>` As an administrator I want to import basic Taxonomy nodes (without class information) so that I can create multiple taxonomy nodes in one go
+  *  :doc:`Export Taxonomy </feature/index>` As an administrator I want to exports basic Taxonomy nodes (without class information) so that I can check them offline
+  *  :doc:`Archive Articles </feature/index>` As a user I can archive the complete article such that it is no longer available in the PIM
+  *  :doc:`Restore from Archive </feature/index>` As an administrator I should be able to restore article from the Archive so that I can make them available for use again
+
+  *  :doc:`Tasks & Annotations </feature/index>`
+  *  :doc:`Enrichment & Governance Workflows </feature/index>`
+  *  :doc:`Task Dashboard </feature/index>`
+  *  :doc:`Tasks in Workflows </feature/index>`
+  *  :doc:`Data Governance Dashboard </feature/index>`
+  *  :doc:`Workflow Dashboard </feature/index>`
+  *  :doc:`Public / Private Tasks </feature/index>`
+  *  :doc:`RACI - VS Tasks </feature/index>`
+
+  *  :doc:`Setup Partner Administrator </feature/index>` As an super administrator/configurator I want to create Partner Administrator on the platform so that the administrator can manage the platform.
+  *  :doc:`Create Partner Profile </feature/index>` As an administrator I want to manage Partner in the platform so that the partner can interact with the system.
+  *  :doc:`Upload Basic Partner Profiles` As an administrator I want to create Partner in the platform via a data load so that the I can multiple partners in one go on the platform.
+  *  :doc:`Setup Partner Catalog </feature/index>` As an administrator I want to setup Partner's Catalog access so that the Partner can work in his own workspace.
+  *  :doc:`Manage Partner Access To Taxonomies </feature/index>` As an administrator I want to manage taxonomies available to a partners so that the partner can use the required taxonomies.
+  *  :doc:`Manage Partner Access To Classes </feature/index>` As an administrator I want to manage classes available to a partners so that the partner can use the required classes.
+  *  :doc:`Manage Partner Access To Endpoints </feature/index>` As an administrator I want to manage End Points available to a partners so that the partner can use the required End Points for data exchange.
+  *  :doc:`Manage Data Governance for Partner </feature/index>` As an administrator I want to manage Data Governance rules for a partner so that I can ensure quality dataflow from the partner.
+  *  :doc:`Manage Role Access to Catalog </feature/index>` As an administrator I want to manage access to Partner Catalog for a Role so that I can restrict unauthorized access to the Partner's workspace.
+  *  :doc:`Manage Access to Endpoints </feature/index>` As an administrator I want to manage End Points available to a Partner Role so that the Role can use the required End Points for data exchange.
+  *  :doc:`Mange Users </feature/index> </feature/index>` As an administrator I want to manage platform users profile so that they get mapped to the right roles and get access on the platform.
+  *  :doc:`User Registration Notification </feature/index>` As platform I want to notify the partner/user of they being registered in the system so that they can access the platform.
+  *  :doc:`User Self Registration </feature/index>` As an user I want to register myself on the platform so that I can access the platform.
+  *  :doc:`Activate / Deactivate Users </feature/index>` As an administrator I want to allow access to the platform only to the active partner/role/user so that I can manage platform access.
+  *  :doc:`Activate / Deactivate Partners </feature/index>` As an administrator I want to allow access to the platform only to the active partner so that I can manage platform access.
+  *  :doc:`Manage System Profile </feature/index>` As an administrator I want to manage System on the platform so that systems can be used for data integration.
+  *  :doc:`Manage Endpoints for a System </feature/index>` As an administrator I want to manage Endpoints in a System so that correct Endpoints are available to be used via a System.
+  *  :doc:`Manage Inbound Endpoint </feature/index>` As an administrator I want to manage inbound Endpoints on the platform so that the Endpoint can be can be used for for ingesting data.
+  *  :doc:`Manage Inbound Process </feature/index>` As an administrator I want to manage In Bound process so that data correctly evaluated and transformed to the required format.
+  *  :doc:`Manage Outbound Endpoint </feature/index>` As an administrator I want to manage Outbound Endpoints on the platform so that the Endpoint can be can be used for for exporting data.
+  *  :doc:`Manage Outbound Process </feature/index>` As an administrator I want to manage Outbound process so that data correctly evaluated and transformed to the required format before exporting.
+  *  :doc:`Manage Roles </feature/index>` As an administrator I want to manage roles in the system associated with the Partner so that I can manage access to platform effectively.
+  *  :doc:`File Upload Based Endpoint Connector </feature/index>` As an administrator I want to manage file based end point connector so that partners can be exchanged via manual upload & download of files
+  *  :doc:`Manage Attributes & Tag Mappings </feature/index>` As an administrator I want to manage end point mappings so that right data is captured from the data source.
+  *  :doc:`Manage Class & Taxonomy Mappings </feature/index>` As an administrator I want to manage end point mappings for Classes & Taxonomies so that right classifications is captured from the data source.
+  *  :doc:`Manage GS1 Mappings </feature/index>`
+  *  :doc:`Simple Flat File Import </feature/index>` As an administrator I want to manage file based end point so that data can be imported data in flat file format (Excel/CSV)
+  *  :doc:`Standard Nested Format Import </feature/index>` As an administrator I want to manage file based end point connector so that data can be imported in Standard Nested file format
+  *  :doc:`Custom ETL Import </feature/index>` As an administrator I want to manage Custom ETL based end points so that data can be imported via a Custom ETL Process
+  *  :doc:`Simple Flat File Export </feature/index>` As an administrator I want to manage file based end point so that data can be exported in flat file format (Excel/CSV)
+  *  :doc:`Custom ETL Export </feature/index>` As an administrator I want to manage Custom ETL based end points so that data can be exported via a Custom ETL Process
+  *  :doc:`Message Based Endpoint Connector </feature/index>` As an administrator I want to manage file based end point connector so that data can be exchanges via JMS based Message Bus
+  *  :doc:`Standard Nested Format Export </feature/index>` As an administrator I want to manage file based end point connector so that data can be exported in Standard Nested file format
+  *  :doc:`Virtual Catalogs </feature/index>`
+  *  :doc:`Buyer Catalog </feature/index>`
+  *  :doc:`Supplier Catalog </feature/index>`
+  *  :doc:`Manage Displays </feature/index>` As a user I want to club different products to create Displays for retail so that I can create clubbed offerings of individual articles in various quantities for markets / stores
+  *  :doc:`Manage Virtual Catalogs </feature/index>` As a user I want to create multiple collections & bookmarks so as to effectively manage different selections of products in my catalog
+  *  :doc:`Manage Individual Articles </feature/index>` As a user I want to define certain articles as individual articles so that I can define articles that are singular in nature and do not contain any other articles
+  *  :doc:`Manage PIDs </feature/index>` As a user I want to define certain articles as PIDs articles so that I can define articles that are aggregations of other individual articles
+  *  :doc:`Manage Data Transfer </feature/index>` As a user I want to define inheritance of properties from PIDs to their constituent articles so that I can manage their common information in one place and it gets applied to all contained articles
+  *  :doc:`Manage Units for Individual Articles </feature/index>` As a user I want to maintain the various quantity units within the Individual Articles so that I can manage various quantity units that an Individual Article is available in
+  *  :doc:`Manage Sales & Order Units </feature/index>` As a user I want to tag the various quantity units as sales or order units so that I can define which units are available for the end consumers and which units are shipped to the markets
+  *  :doc:`Manage Gift Sets / Baskets </feature/index>` As a user I want to club different products to create bundles so that I can create clubbed offerings of individual products
+  *  :doc:`Manage Prepacks </feature/index>` As a user I want to club different products to create Prepacks so that I can create clubbed offerings of individual products in various quantities that can be ordered by stores
+  *  :doc:`Manage Product Keys </feature/index>` As a user I want to setup certain attributes as Products keys so that they can be checked for uniqueness
+  *  :doc:`Manage Supplier Records </feature/index>` As a user I want to manage supplier records with their identifiers in the Units to trace back the Product to the Supplier
+
+
+.. image:: ../_images/line-png-32.png
+   :alt: Contentsphere
+
+Product Information Management
+------------------------------
+
+  *  :doc:`Images: .psd, .eps, .jpg, .png, .ai </feature/index>`
+  *  :doc:`Seasonal/Mood Motives </feature/index>`
+  *  :doc:`IPTC </feature/index>`
+  *  :doc:`Bulk Import of Assets </feature/index>`
+  *  :doc:`Rule Based` Hashcode & Metadata </feature/index>`
+  *  :doc:`License Validity </feature/index>`
+  *  :doc:`PDF </feature/index>`
+  *  :doc:`Archive Assets </feature/index>`
+  *  :doc:`Cropping, Scaling & Resizing </feature/index>`
+  *  :doc:`Videos: .wmv, .mpeg, .avi, .mov </feature/index>`
+  *  :doc:`Perspective & Resolution Variants </feature/index>`
+  *  :doc:`EXIF </feature/index>`
+  *  :doc:`Bulk Export of Assets </feature/index>`
+  *  :doc:`Copyright Check </feature/index>`
+  *  :doc:`PPT </feature/index>`
+  *  :doc:`Restore from Archive </feature/index>`
+  *  :doc:`Retouching </feature/index>`
+  *  :doc:`Document </feature/index>`
+  *  :doc:`Documents: .docx, pptx, .pdf, .indd </feature/index>`
+  *  :doc:`DOC </feature/index>`
+  *  :doc:`Purging Rules </feature/index>`
+  *  :doc:`Motives </feature/index>`
+  *  :doc:`INDD </feature/index>`
+  *  :doc:`External (Linked to external Sources) </feature/index>`
+
+  *  :doc:`Product Data Lifecycle Management </feature/index>` : As a user, I want to update a product's status so that I can manage a product across its lifecycle.
+  *  :doc:`Must / Should Attributes </feature/index>` As a user I want to be alerted in case any must / should attributes are not filled so that I can effectively complete the product definition
+  *  :doc:`Quality Reports </feature/index>`
+  *  :doc:`Export Reports </feature/index>`
+  *  :doc:`Management Of Dashboards </feature/index>`
+  *  :doc:`Data Quality Rule </feature/index>` As a user I want to be alerted in case any data quality violations occur while I am saving an Article so that I can effectively conform to data quality standards for the product
+  *  :doc:`Monitor Data Quality </feature/index>` As a user I want to monitor the quality of the data in my catalog so that I can better define my products and take corrective actions
+  *  :doc:`Standardize Product Definitions </feature/index>` As an administrator I want to standardize product definitions via standardization rules to improve consistency of product definitions
+  *  :doc:`Remedy Quality Issues </feature/index>` As a user, I want to edit records with incorrect or non-conforming quality or incomplete data so that I can improve the quality profile of the product
+  *  :doc:`Taxonomy Mapping / Classification Rules </feature/index>` As an administrator I want to manage taxonomy mappings so that I can keep the taxonomies in sync with each other
+  *  :doc:`Matching Rules </feature/index>` As an administrator I want to setup matching rules to consolidate multiple supplier records for the same article based on matching rules
+  *  :doc:`Merging Rules </feature/index>` As an administrator I want to setup Merging rules so as to facilitate best of content merging
+  *  :doc:`KPI Based DQ Reports </feature/index>` As an administrator I want to setup KPI based Data Quality reports and link them to the roles so that designated users will be able to take corrective actions
+  *  :doc:`Drill Down for KPI Reports </feature/index>` As an administrator I want to setup drill down criteria for DQ reports so that responsible users can explore the Quality issues
+  *  :doc:`KPI based Completeness Rules </feature/index>` As an administrator I want to setup KPI based Completeness Rules to assess the Completeness of an Article
+  *  :doc:`KPI based Conformity Rules </feature/index>` As an administrator I want to setup KPI based Conformity Rules to assess the conformance of an Article to the acceptable standards
+  *  :doc:`Improve Product Classifications </feature/index>` As a user I want to manually classify products further into their taxonomies so as to improve their definition
+
+  *  :doc:`PIDs & SKU </feature/index>`
+  *  :doc:`Combining SKUs into PIDs </feature/index>`
+  *  :doc:`Time Based Prices </feature/index>`
+  *  :doc:`Standard Listing Status </feature/index>`
+  *  :doc:`Bundles, Sets, Collection </feature/index>`
+  *  :doc:`Combining Products into Bundles, Sets & Collections </feature/index>`
+  *  :doc:`Target Based Price Differentiation </feature/index>`
+  *  :doc:`Multiple Channel Status </feature/index>`
+  *  :doc:`Product Units </feature/index>`
+  *  :doc:`Splitting PIDs into SKUs </feature/index>`
+  *  :doc:`Price Types` Buy/Sell </feature/index>`
+  *  :doc:`Buy Side / Sell Side Articles </feature/index>`
+  *  :doc:`Combine / Split Buy Side Articles into Sell Side Articles </feature/index>`
+  *  :doc:`Promotional Prices (Discounts) </feature/index>`
+  *  :doc:`Multiple Buying & Selling Prices </feature/index>`
+
+  *  :doc:`Import / Export Data via Endpoints </feature/index>` As a user I want to have a Data Integration dashboard for my workspace so that I can import / export data via the endpoints
+  *  :doc:`Monitor Imports </feature/index>` As a user, I want to view summary for every import so that I can take corrective action if required
+  *  :doc:`Correct imported records </feature/index>` As a user, I want to edit records with incorrect or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system
+  *  :doc:`Monitor Exports </feature/index>` As a user, I want to view summary for every export so that I can take corrective action if required
+  *  :doc:`Managing Texts </feature/index>`
+  *  :doc:`Managing Editorial Content </feature/index>`
+  *  :doc:`Linking Texts to Articles, Campaigns, Promotions </feature/index>`
+  *  :doc:`Linking Products, Texts & Assets into an Editorial Content </feature/index>`
+  *  :doc:`Contextualized Editorial Content </feature/index>`
+  *  :doc:`Contextualized Texts </feature/index>`
+  *  :doc:`Translated Texts </feature/index>`
+  *  :doc:`Translated Editorial Content </feature/index>`
+  *  :doc:`Designing the Editorial in a Composer </feature/index>`
+  *  :doc:`Create Publication Templates </feature/index>`
+
+
+.. image:: _images/line-png-32.png
+   :alt: Contentspher log in screen
+
+Marketing Content Hub
+---------------------
+
+  *  :doc:`Promotions & Sub Promotions</feature/index>`
+  *  :doc:`Validity & Repitition </feature/index>`
+  *  :doc:`Targeting & Content </feature/index>`
+  *  :doc:`Promotional Versions of Content </feature/index>`
+  *  :doc:`Planning Overview </feature/index>`
+  *  :doc:`Promotion Planner </feature/index>`
+  *  :doc:`Campaigns & Sub Campaigns </feature/index>`
+  *  :doc:`Content </feature/index>`
+
+
+.. image:: ../_images/line-png-32.png
+   :alt: Contentsphere
+
+Partner Engagement Platform
+---------------------------
+
+  *  :doc:`Endpoints, Filters & Mappings </feature/index>`
+  *  :doc:`Channel Profile </feature/index>`
+  *  :doc:`Mantaining Catalog </feature/index>`
+  *  :doc:`Validation, Normalization & Transformation Rules </feature/index>`
+  *  :doc:`Users & Permissions </feature/index>`
+  *  :doc:`Classification & Enrichment </feature/index>`
+  *  :doc:`Standard Export Interfaces & Formats </feature/index>`
+  *  :doc:`Data Quality Levels </feature/index>`
+  *  :doc:`Data Remediation </feature/index>`
+  *  :doc:`Relations/Links Export </feature/index>`
+  *  :doc:`Preferences </feature/index>`
+  *  :doc:`Combine/Split Articles </feature/index>`
+  *  :doc:`Manual/Automated Exports </feature/index>`
+  *  :doc:`Governance & Collaboration Dashboard </feature/index>`
+  *  :doc:`Workflows </feature/index>`
+  *  :doc:`Assign "Property Collection" to Collections </feature/index>`: As a user, I want to further define a Collection by adding property collections to a collection.
+  *  :doc:`End Points & Mappings </feature/index>`
+  *  :doc:`Validation, Normalisation & Transformation Rules </feature/index>`
+  *  :doc:`Setup Supplier Profile </feature/index>`
+  *  :doc:`Supplier Catalog </feature/index>`
+  *  :doc:`Mantaining the Onboarding Pool </feature/index>`
+  *  :doc:`Users & Permissions </feature/index>`
+  *  :doc:`Classification & Enrichment </feature/index>`
+  *  :doc:`Standard Import Interfaces & Formats </feature/index>`
+  *  :doc:`Data Quality Levels </feature/index>`
+  *  :doc:`Data Governance & Remediation </feature/index>`
+  *  :doc:`Relations/Links Import </feature/index>`
+  *  :doc:`Maintaining the Off boarding Pool </feature/index>`
+  *  :doc:`Preferences </feature/index>`
+  *  :doc:`Combine/Split Articles </feature/index>`
+  *  :doc:`Governance & Collaboration Dashboard </feature/index>`
+  *  :doc:`Workflows </feature/index>`
+  *  :doc:`Manual/Automated Imports </feature/index>`
+  *  :doc:`Manage Product Definitions Across Systems </feature/index>` As a data steward I want to see all products in the Master Catalog so that I can have a consolidated view of product definitions across Systems
+  *  :doc:`Manage Products in Master Catalog </feature/index>` As a data steward I want to add additional information to the products so that I can complete their definition
+  *  :doc:`Search & Filter Products in Master Catalog </feature/index>` As a data steward I want to search and filter products by their classifications & properties
+  *  :doc:`Monitor Data Quality </feature/index>` As a user I want to monitor the quality of the data in my catalog so that I can better define my products and take corrective actions
+  *  :doc:`Remedy Quality Issues </feature/index>` As a data steward, I want to edit records with incorrect or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system
+  *  :doc:`Check & Filter Incomplete Products </feature/index>` As a data steward, I want to view all the products with flagged with must / should data completion violations, so that I can take corrective actions
+  *  :doc:`Check & Erroneous Products </feature/index>` As a data steward, I want to view all the products with flagged with errors and warnings, so that I can take corrective actions
+  *  :doc:`Manage Product Definitions Across Partners </feature/index>` As a data steward I want to see all products in the Master Catalog so that I can have a consolidated view of product definitions Partners
+  *  :doc:`Golden Record </feature/index>` As a data steward I want to be able to manage golden record of a product with definitions consolidated from across partners & systems
+  *  :doc:`Create Tasks for Partners </feature/index>` As a data steward I want to create tasks for Partners so that they can correct data quality issues and improve their product definitions
+  *  :doc:`Communicate with Partners </feature/index>` As a data steward I want to communicate with Partners over the Platform so that they can I can help them improve their product definitions
+  *  :doc:`Standardize Product Definitions </feature/index>` As a data steward I want to be standardize product definitions via standardization rules to improve consistency of product definitions
+  *  :doc:`Improve Product Classifications </feature/index>` As a data steward I want to manually classify products further into their taxonomies so as to improve their definition
+  *  :doc:`Classify in Bulk </feature/index>` As a data steward I want to select a set of products and classify them so that I can classify multiple products in one go
+  *  :doc:`Manage Buyer Catalog </feature/index>` As a buyer I want to manage my own catalog of products in the master catalog so that I can manage the products from partners that I am associated with
+  *  :doc:`Manage Virtual Catalog </feature/index>` As a buyer I want to create multiple collections & bookmarks  so as to effectively manage different selections of products in my catalog
+  *  :doc:`Single Supplier View </feature/index>` As a buyer I want to be able to explore products per supplier so that I can better manage products from a particular supplier
+  *  :doc:`Multiple Supplier View </feature/index>` As a buyer I want to be able to explore products across multiple suppliers so that I can have an overview of products across a selection of suppliers
+  *  :doc:`KPI Based DQ Reports </feature/index>` As a data steward, I want to see KPI based Data Quality Reports, so that I can assess the level of quality and take corrective actions
+  *  :doc:`Dynamic Mapping during Import (via File upload) </feature/index>` As a supplier I want the ability to dynamically define source to target mapping for data uploads so that I can load data from non-standard data sources. (Excel sheets,csv files)
+  *  :doc:`Manually Creating Products </feature/index>` As a user I want the ability to manage Products in my Catalog so that I manually manage product and product information before moving it in the PIM
+  *  :doc:`Manage Digital Assets </feature/index>` As an user I want the ability to manage Digital Assets so that I have rich product information
+  *  :doc:`Import / Export Data via Endpoints </feature/index>` As a user I want to have a Data Integration dashboard for my workspace so that I can import / export data via the endpoints
+  *  :doc:`Monitor Imports</feature/index>` As a user, I want to view summary for every upload so that I can take corrective action of required
+  *  :doc:`Check Outbound Endpoints </feature/index>` As a user, I want to view download links for my exports so that I can download the exported files
+  *  :doc:`Check Inbound Endpoints </feature/index>` As a user, for every end point,  I want to view product records with incorrect or non-conforming quality or incomplete data to that I can take corrective action.
+  *  :doc:`Correct imported records </feature/index>` As a user, I want to edit records with incorrect or non-conforming quality or incomplete data and reprocess them so that I can pass right quality data in the system
+  *  :doc:`Monitor Data Quality </feature/index>` As a user I want to monitor the quality of the data in my catalog so that I can better define my products and take corrective actions
+  *  :doc:`Manage Virtual Catalogs </feature/index>` As a user I want to create several virtual catalogs / collections so that I can group my products
+  *  :doc:`Monitor Exports </feature/index>` As a user, I want to view summary for every export so that I can take corrective action if required
+  *  :doc:`20 Virtual Products => From Buyer to Supplier </feature/index>`
+  *  :doc:`Single Article </feature/index>`
+  *  :doc:`Empty Sheet for a category (sample) </feature/index>`
+  *  :doc:`Create Loadsheets out of ERP data for definition </feature/index>`
+  *  :doc:`Put all Categories in one sheet for Common Attributes </feature/index>`
+
+
+.. image:: ../_images/line-png-32.png
+   :alt: Contentsphere

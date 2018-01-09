@@ -5,7 +5,7 @@ Feature Guides
 .. toctree::
    :maxdepth: 1
 
-   product feature/index
-   roadmap feature/index
+   productfeature/index
+   roadmapfeature/index
    deprecation
-   requirement feature/index
+   requirementfeature/index

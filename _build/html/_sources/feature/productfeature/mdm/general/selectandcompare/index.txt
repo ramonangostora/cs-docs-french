@@ -1,0 +1,8 @@
+==================
+Select and Compare
+==================
+
+.. toctree::
+   :maxdepth: 1
+
+   productcomparison

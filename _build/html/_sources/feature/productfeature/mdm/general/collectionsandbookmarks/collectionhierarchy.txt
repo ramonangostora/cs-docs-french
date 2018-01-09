@@ -1,0 +1,68 @@
+====================
+Collection Hierarchy
+====================
+
+
+
+
+Collection Hierarchy is a feature that allows users to view their collections within a structured hierarchy of collections.
+
+=================       =============================================================================================================================================================
+**Version:**            1.0
+
+**User Story:**         * As a user, I want to organize and view my collections within a structured hierarchy of collections.
+
+**Description:**        * The Collection Hierarchy creates levels in the hierarchy for the products.
+                        * The products can be moved or copied between these levels.
+
+**Prerequisite:**       * Collection that contains products
+
+**Application:**        * Hierarchies in collection helps to categorically structure the products or group of products.
+                        * The collection can contain any number of products and can be moved or copied between the levels of hierarchies.
+                        * *Example:*
+
+                            A collection of furniture products having hierarchy level based on product type such as office and home furniture, chairs, tables, and others.
+
+=================       =============================================================================================================================================================
+
+
+
+
+
+
+How to do: Collection Hierarchy
+===============================
+
+This How To guide provides instructions on how to organize and view the collections within a structured hierarchy of collections.
+To do this, follow these steps:
+
+|
+
+#. Select a collection and click **Organize**.
+
+.. image:: /feature/mdm/_images/colhier_clickorganize.png
+
+|
+
+|
+
+#. On the collections page, click **Add New Collection** and enter the name of the new collection.
+
+.. image:: /feature/mdm/_images/colhier_addnewcollection.png
+
+|
+
+.. image:: /feature/mdm/_images/colhier_entername.png
+
+|
+
+|
+
+#. Repeat the previous step to create a hierarchy of the product, accordingly.
+
+.. image:: /feature/mdm/_images/colhier_added1.png
+
+|
+
+.. image:: /feature/mdm/_images/colhier_added2.png
+|

@@ -4,7 +4,6 @@ Compare Product Revisions
 
 The Compare Product Revisions feature allows a user to compare different versions of the same product.
 
-
 =================       ===============================================================================================================================================================
 **Version:**            1.0
 

@@ -2,10 +2,7 @@
 Product Comparison
 ==================
 
-
 The Product Comparison feature allows users to compare products and their properties.
-
-
 
 =================       =============================================================================================================================================================
 **Version:**            1.0
