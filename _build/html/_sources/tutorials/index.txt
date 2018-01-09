@@ -1,6 +1,6 @@
-===============
-Getting Started
-===============
+=========
+Tutorials
+=========
 
 Read this material to quickly get up and running.
 
@@ -17,4 +17,3 @@ Read this material to quickly get up and running.
    tutorial06
    advtutorial01
    advtutorial02
-   

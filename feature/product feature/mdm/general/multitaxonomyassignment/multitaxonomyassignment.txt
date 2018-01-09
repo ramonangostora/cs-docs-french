@@ -1,6 +1,7 @@
-==================================
-CORE 3: Multi-taxonomy Assignment
-==================================
+=========================
+Multi-taxonomy Assignment
+=========================
+
 The Multi-taxonomy Assignment feature provides general users the capability to assign an object to various taxonomies or to multiple nodes within the same taxonomy.
 
 

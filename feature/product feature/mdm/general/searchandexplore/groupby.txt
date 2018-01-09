@@ -1,6 +1,7 @@
-==================
-CORE 63: Group By
-==================
+========
+Group By
+========
+
 The Group By feature allows a user to view a group of objects in the system by specifying an attribute.
 
 

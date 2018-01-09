@@ -1,6 +1,6 @@
-====================================
-CORE E-3: Multi-taxonomy Assignment
-====================================
+=========================
+Multi-taxonomy Assignment
+=========================
 
 .. toctree::
    :maxdepth: 1

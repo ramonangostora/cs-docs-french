@@ -1,6 +1,7 @@
-===============================================
-CORE 60: Product Classification via Taxonomies
-===============================================
+=====================================
+Product Classification via Taxonomies
+=====================================
+
 The Product Classification via Taxonomies feature provides the functionality to associate a product to multiple taxonomies.
 
 

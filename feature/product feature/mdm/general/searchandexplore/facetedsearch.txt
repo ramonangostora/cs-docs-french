@@ -1,6 +1,7 @@
-==============================
-CORE 16: Multi-faceted Search
-==============================
+====================
+Multi-faceted Search
+====================
+
 The Faceted Search feature allows a user to have a multi-faceted search support functionality in addition to the multi-criteria search for refined search results.
 
 

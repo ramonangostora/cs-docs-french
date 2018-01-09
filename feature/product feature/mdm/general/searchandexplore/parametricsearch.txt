@@ -1,6 +1,7 @@
-==========================
-CORE 1: Parametric Search
-==========================
+=================
+Parametric Search
+=================
+
 The Parametric Search feature provides general users the ability to search for products or assets using various data fields
 so that the users can narrow down items using the specified criteria.
 

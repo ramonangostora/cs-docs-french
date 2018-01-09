@@ -1,9 +1,6 @@
-=============================================
-MDM 11: Target and Channel Contextualization
-=============================================
-
-
-
+====================================
+Target and Channel Contextualization
+====================================
 
 Target and Channel Contextualization is a feature that allows users to have attributes that can have multiple values which vary based on context.
 

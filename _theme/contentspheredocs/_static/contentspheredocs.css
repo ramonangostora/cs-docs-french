@@ -78,6 +78,9 @@ div.nav { margin: 0; font-size: 11px; text-align: right; color: #00004C;}
 	display: flex;
 	justify-content: space-between;
 }
+li.toctree-l1 {
+	font-size: 110%;
+}
 ul.nav-ul {
 	list-style-type: none;
   margin: 0;

@@ -1,4 +1,5 @@
-==============================
-CORE 5: Setting up Affinities
-==============================
-This page is intentionally left blank. To be revised.
+=====================
+Setting up Affinities
+=====================
+
+Coming soon.

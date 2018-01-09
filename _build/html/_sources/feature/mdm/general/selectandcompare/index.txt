@@ -1,8 +1,0 @@
-==============================
-CORE E-27: Select and Compare
-==============================
-
-.. toctree::
-   :maxdepth: 1
-
-   productcomparison

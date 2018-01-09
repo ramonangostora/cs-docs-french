@@ -1,6 +1,7 @@
-========================
-MDM 6: Full-text Search
-========================
+================
+Full-text Search
+================
+
 The Full-text Search feature gives a user the capability to search for a product or asset directly by using matching criteria.
 
 

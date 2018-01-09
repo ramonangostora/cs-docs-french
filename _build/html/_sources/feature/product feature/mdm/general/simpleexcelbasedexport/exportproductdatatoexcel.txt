@@ -1,6 +1,7 @@
-======================================
-CORE 50: Export Product Data to Excel
-======================================
+============================
+Export Product Data to Excel
+============================
+
 The Export Product Data to Excel feature provides the functionality to select and export product information to an Excel file.
 
 

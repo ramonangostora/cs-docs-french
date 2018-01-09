@@ -1,8 +1,0 @@
-==============================
-CORE E-20: Multiclassification
-==============================
-
-.. toctree::
-   :maxdepth: 1
-
-   multiclassify

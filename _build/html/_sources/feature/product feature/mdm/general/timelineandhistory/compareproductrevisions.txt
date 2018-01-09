@@ -1,6 +1,7 @@
-===================================
-CORE 56: Compare Product Revisions
-===================================
+=========================
+Compare Product Revisions
+=========================
+
 The Compare Product Revisions feature allows a user to compare different versions of the same product.
 
 

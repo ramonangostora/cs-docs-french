@@ -1,6 +1,7 @@
-================================
-CORE 30: Search within Taxonomy
-================================
+======================
+Search within Taxonomy
+======================
+
 The Search within Taxonomy feature allows a user to search (for an article or a product) or to navigate within the system.
 
 

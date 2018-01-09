@@ -1,6 +1,7 @@
-=================
-CORE 64: Sort By
-=================
+=======
+Sort By
+=======
+
 The Sort By feature allows a user to view products and assets in the system according to a specific attribute sort order.
 
 

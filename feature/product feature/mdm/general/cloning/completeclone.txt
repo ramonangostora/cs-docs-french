@@ -1,6 +1,6 @@
-===================================
-CORE 72: Creating a Complete Clone
-===================================
+=========================
+Creating a Complete Clone
+=========================
 
 
 Creating a Complete Clone is a feature that allows users to create complete clones or duplicates of the product.

@@ -1,8 +1,0 @@
-===============================
-ADMIN E-3: Property Collections
-===============================
-
-.. toctree::
-   :maxdepth: 1
-
-   propertycollections
