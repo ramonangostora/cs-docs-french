@@ -84,5 +84,5 @@ To do this feature, follow these steps:
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/line-png-32.PNG
    :alt: Contentsphere line
