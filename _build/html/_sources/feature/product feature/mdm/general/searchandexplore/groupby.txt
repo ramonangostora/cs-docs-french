@@ -30,7 +30,7 @@ To do a Group By, follow these steps:
 
 #. Click the **Group By** button found on the upper right corner of the screen.
 
-.. image:: /feature/mdm/_images/group_by_01.PNG
+.. image:: /feature/_images/mdmimages/group_by_01.PNG
 |
 |
 

@@ -42,30 +42,30 @@ To do this, follow these steps:
 
 #. Click on the product. On the top right section, the Create Clone option is shown.
 
-.. image:: /feature/mdm/_images/partialclone_clickproduct.png
+.. image::/feature/_images/mdmimages/partialclone_clickproduct.PNG
 
 |
 
 #. Click **Create Clone**. A list of all categories related to *Attributes*, *Tags* and *Relationships* will appear.
 
-.. image:: /feature/mdm/_images/partialclone_clickcreateclone.png
+.. image:: /feature/_images/mdmimages/partialclone_clickcreateclone.PNG
 
 |
 
 #. Click on any category and click on the features that are to be copied to the new product.
 
-.. image:: /feature/mdm/_images/partialclone_clickcategory.png
+.. image:: /feature/_images/mdmimages/partialclone_clickcategory.PNG
 
 |
 
 #. Click **Clone**.
 
-.. image:: /feature/mdm/_images/partialclone_clickclone.png
+.. image:: /feature/_images/mdmimages/partialclone_clickclone.PNG
 
 |
 
 #. Your clone product is ready.
 
-.. image:: /feature/mdm/_images/partialclone_cloneready.png
+.. image:: /feature/_images/mdmimages/partialclone_cloneready.PNG
 
 |

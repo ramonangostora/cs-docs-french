@@ -39,13 +39,13 @@ To do a Full-text Search, follow these steps:
 
 #. View the search results that are displayed based on the attributes.  These attributes should have been defined as searchable.
 
-.. figure:: /feature/mdm/_images/fulltext_search_03.PNG
+.. figure:: /feature/_images/mdmimages/fulltext_search_03.PNG
 |
 
 *Note: The products that contain the keywords (in this example, "Red" and "Bull") were searched for and displayed. The search results will display: the bag tagged as 'Red' and the energy drink named 'Red Bull'.*
 
-.. figure:: /feature/mdm/_images/fulltext_search_04.PNG
+.. figure:: /feature/_images/mdmimages/fulltext_search_04.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

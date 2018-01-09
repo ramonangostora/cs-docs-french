@@ -47,7 +47,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_admin.png
+.. image:: feature/_images/mdmimages/bookmarksncollections_admin.PNG
 
 |
 
@@ -59,7 +59,7 @@ Bookmarks: Setting a Public Bookmark
 
 #. The default setting of a bookmark is *Public*. Keep this setting to make a public bookmark.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_publicbookmark.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_publicbookmark.PNG
 
 |
 
@@ -67,10 +67,10 @@ Bookmarks: Setting a Public Bookmark
 
 #. Once done, the bookmark can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_publicuser.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_publicuser.PNG
 *As seen on the image above, the bookmark can be viewed by the Seller.*
 
-.. image:: /feature/mdm/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
 
 
 Bookmarks: Setting a Private Bookmark
@@ -80,7 +80,7 @@ Bookmarks: Setting a Private Bookmark
 
 #. Log in as admin.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_admin.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_admin.PNG
 
 |
 
@@ -90,7 +90,7 @@ Bookmarks: Setting a Private Bookmark
 
 #. Set the bookmark to *Private*.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_privatebookmark.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_privatebookmark.PNG
 
 |
 
@@ -98,10 +98,10 @@ Bookmarks: Setting a Private Bookmark
 
 #. Once done, only certain users can view the bookmark.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_privateuser.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_privateuser.PNG
 *As seen on the image above, the bookmark cannot be viewed by the seller as it is restricted to the admin.*
 
-.. image:: /feature/mdm/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
 
 
 Collections: Setting a Public Collection
@@ -111,19 +111,19 @@ Collections: Setting a Public Collection
 
 #. To start creating a collection, select the products or assets that will be included in the collection.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_selectproducts.png
+.. image:: feature/_images/mdmimages/bookmarksncollections_selectproducts.PNG
 
 |
 
 #. Click on the pin icon on the right side of the search bar to create the collection.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_createcollection.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_createcollection.PNG
 
 |
 
 #. Enter the name of the collection and click **Create**.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_entername.png
+.. image:: /feature/mdm/_images/bookmarksncollections_entername.PNG
 
 |
 
@@ -135,13 +135,13 @@ Collections: Setting a Public Collection
 
 #. Once found, check that the default setting is *Public*. Keep this setting for a public collection.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_publiccollection.png
+.. image:: /feature/mdm/_images/bookmarksncollections_publiccollection.PNG
 |
 |
 
 #. Once done, the collection can be viewed by all users.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_publiccollectionview.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_publiccollectionview.PNG
 |
 
 .. image:: /feature/mdm/_images/line-png-32.png
@@ -158,7 +158,7 @@ Collections: Setting a Private Collection
 
 #. Once searched, click on the lock icon to change the setting to *Private*.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_privatecollection.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_privatecollection.PNG
 
 |
 
@@ -166,11 +166,11 @@ Collections: Setting a Private Collection
 
 #. Once done, only certain users can view the collection.
 
-.. image:: /feature/mdm/_images/bookmarksncollections_privatecollectionview.png
+.. image:: /feature/_images/mdmimages/bookmarksncollections_privatecollectionview.PNG
 
 
 *As seen on the images above, the collection cannot be viewed by the seller as it is restricted to the admin.*
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+.. image:: /feature/_images/line-png-32.PNG
