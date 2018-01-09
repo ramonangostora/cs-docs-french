@@ -1,6 +1,6 @@
-======================================
-MDM Guide for Administration Features
-======================================
+================
+Administration
+================
 
 .. toctree::
    :maxdepth: 1

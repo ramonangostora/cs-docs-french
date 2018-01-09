@@ -1,27 +1,24 @@
-===============================
-ADMIN 12: Define Article Links
-===============================
+=====================
+Define Article Links
+=====================
 The Define Article Links feature provides the functionality to set up relationships between articles.
-The relationship between article-to-article or product-to-product is bi-directional.
+This linking between article-to-article or product-to-product is bi-directional.
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
+====================      ===============================================================================================================================================================
+**Description:**          * This feature allows the linking of a product to other different products (e.g. *Related Products, others,* etc).
+                            The related products will be visible in the product relationship side. The product is visible in the relationship tab of the related products, too.
 
-**User Story:**         * As an administrator, I want to set up relationships between *Articles* (bi-directional relationships).
+**Related Topic:**        * *Manage Media Links*
+                          * *Define Relationships*
 
-**Description:**        * This feature allows the linking of a product to other different products (e.g. *Related Products, others,* etc).
-                          The related products will be visible in the product relationship side. The same product is visible in the relationship tab of the related products, too.
+**Application:**          * Define Article Links will allow a product to be linked to similar products in the system.
+                            By setting relationships between products, an administrator can set *Related Products* for a product.
+                          * *Example:*
 
-**Prerequisite:**       * *Products* to apply the relationships.
+                             An electronic product can be linked to its accessories that have also been added in the system by using this feature.
 
-**Application:**        * Define Article Links will allow a product to be linked to other similar products in the system. By setting relationships
-                          between products, an administrator can set the *Related Products* of one product.
-                        * *Example:*
-
-                            An electronic product, by using the feature, is linked to its accessories that have also been added in the system.
-
-=================       ===============================================================================================================================================================
+====================      ===============================================================================================================================================================
 
 
 How to do: Define Article Links
@@ -51,14 +48,14 @@ To do this feature, follow these steps:
 |
 |
 
-#. Provide the name for the relationship and then, select the two desired entity classes to be linked (in *Side1 and Side2*) using the drop-down list.
-   In the example shown, a relationship is created for *Electronics* and the *Accessories* articles.
+#. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
+   In the example shown, a relationship is created for an *Electronics* product and one of its *Accessories*.
 
 .. image:: /feature/mdm/_images/definearticlelinks_providethenamefortherelationship.PNG
 |
 |
 
-#. Provide the information for the *Label* and then, select the *Cardinality* of the bi-directional relationship. In cardinality, choose either *Many* or *One* depending on the relationship.
+#. Provide the information for the *Label* and then, select the *Cardinality* of the relationship. In cardinality, choose either *Many* or *One.*
 
 .. image:: /feature/mdm/_images/definearticlelinks_providethelabelandcardinality.PNG
 |

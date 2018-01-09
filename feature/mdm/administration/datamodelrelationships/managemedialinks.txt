@@ -1,22 +1,21 @@
-=============================
-ADMIN 11: Manage Media Links
-=============================
-The Manage Media Links feature provides the functionality to set up a relationship between a product and an asset.
+===================
+Manage Media Links
+===================
+The Manage Media Links feature provides the functionality to set up a relationship (or linking) between a product and an asset.
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
+====================      ===============================================================================================================================================================
+**Description:**          * This feature allows the linking of products to various assets like *Images, Videos, PDFs,* and other relevant files.
+                            The images if linked to a product will be visible in the product thumbnail and in the relationship tab.
+                            In the image relationship tab, the product to which that image is linked to would be visible too.
 
-**User Story:**         * As an administrator, I want to set up relationships between a *Product* and an *Asset* as a bi-directional relationship.
+**Related Topic:**        * *Define Article Links*
+                          * *Define Relationships*
 
-**Description:**        * This feature allows the linking of products to different assets like *Images, Videos, PDFs,* etc. The images will be visible in the product thumbnail
-                          and in the relationship tab. In the image relationship tab, the product that an image is linked to would be visible too.
+**Application:**          * Manage Media Links can be used to link a product to its media assets. An example would be an article that is linked to its video files
+                            that will provide additional information regarding the article.
 
-**Prerequisite:**       * *Product-to-asset relationship.*
-
-**Application:**        * Manage Media Links is used to link a product to its media assets. An example would be an article that is linked to its video files.
-
-=================       ===============================================================================================================================================================
+====================      ===============================================================================================================================================================
 
 
 How to do: Manage Media Links
@@ -47,14 +46,14 @@ To do this feature, follow these steps:
 |
 |
 
-#. Provide the name for the relationship and then, select the two desired entity classes to be linked (in *Side1 and Side2*) using the drop-down list.
+#. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
    In the example shown, a relationship is created for an *Article* and its *Video* files.
 
 .. image:: /feature/mdm/_images/managemedialinks_providethename.PNG
 |
 |
 
-#. Provide the information for the *Label* and then, select the *Cardinality* of the bi-directional relationship. In cardinality, choose either *Many* or *One* depending on the relationship.
+#. Provide the information for the *Label* and then, select the *Cardinality* of the relationship. In cardinality, choose either *Many* or *One.*
 
 .. image:: /feature/mdm/_images/managemedialinks_providetheinfoforlabel.PNG
 |

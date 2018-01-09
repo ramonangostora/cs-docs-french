@@ -1,25 +1,20 @@
-===============================
-ADMIN 13: Define Relationships
-===============================
+=====================
+Define Relationships
+=====================
 The Define Relationships feature provides the functionality to set up relationships between entities.
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
+====================      ===============================================================================================================================================================
+**Description:**          * This feature links two objects or entities in the system. An example of this linking is the relationship set for an *Article* to its target *Market*
+                            or a *Market* to an active *Promotion*.
 
-**User Story:**         * As an administrator, I want to set up relationships between *Entities* (e.g. *Article to Market*).
+**Related Topic:**        * *Manage Media Links*
+                          * *Define Article Links*
 
-**Description:**        * This feature can link two objects/entities in the system. An example of such link is the relationship of an *Article* to a *Market*
-                          or *Market* to a *Promotion*.
+**Application:**          * The Define Relationships will allow an administrator to link an article or a product to its target market, which can be a location or a group of
+                            consumers that article/product is intended for.
 
-**Prerequisite:**       * *Article-to-Market relationship.*
-                        * *Article-to-Supplier relationship.*
-                        * *Market-to-Promotion relationship.*
-
-**Application:**        * The Define Relationships will allow an administrator to link an article or a product to its target market, which is the location or a group of
-                          consumers that article/product is intended for.
-
-=================       ===============================================================================================================================================================
+====================      ===============================================================================================================================================================
 
 
 How to do: Define Relationships
@@ -49,14 +44,14 @@ To do this feature, follow these steps:
 |
 |
 
-#. Provide the name for the relationship and then, select the two desired entity classes to be linked (in *Side1 and Side2*) using the drop-down list.
+#. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
    In the example shown, a relationship is created for *Article* and the *Region* articles.
 
 .. image:: /feature/mdm/_images/definerelationships_providethenameoftherelationship.PNG
 |
 |
 
-#. Provide the information for the *Label* and then, select the *Cardinality* of the bi-directional relationship. In cardinality, choose either *Many* or *One* depending on the relationship.
+#. Provide the information for the *Label* and then, select the *Cardinality* of the relationship. In cardinality, choose either *Many* or *One.*
 
 .. image:: /feature/mdm/_images/definerelationships_providethelabelandcardinality.PNG
 |
