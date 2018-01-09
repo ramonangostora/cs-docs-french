@@ -1,15 +1,10 @@
-================================
-DAGOV 2: Must/Should Attributes
-================================
-The Must/Should Attributes are part of the data governance feature that will determine the mandatory characteristic of a data field.
+=======================
+Must/Should Attributes
+=======================
+The Must/Should Attributes are part of the data governance feature that determine the mandatory characteristic of a data field.  It checks if data are provided
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to be alerted if any *Must/Should* attributes (data fields) are not filled out so that I can effectively complete the product definition.
-                        * As an administrator, I would like to set *Must/Should/Can* conditions in the data fields.
-
+===================     ===============================================================================================================================================================
 **Description:**        * *This feature provides the functionality to set and classify fields into three categories: Must, Should, and Can*.
                             * **Must:** is a mandatory field.
                             * **Should:** is a mandatory field but can be skipped. Skipping this field will cause a *"warning"*.
@@ -20,7 +15,7 @@ The Must/Should Attributes are part of the data governance feature that will det
                         * This feature allows the system to show a warning message if a *Must* field is left empty. The system saves any changes done on the page as well.
                         * This feature allows the setting of *Is Mandatory (Must, Should, Can)*, which is a flag that can be raised at a class level for each attribute and tag.
 
-**Prerequisite:**       * *Must / Should / Can* type to be selected for the attributes under the mandatory field section in the class configuration.
+**Related Topic:**       * *Must / Should / Can* type to be selected for the attributes under the mandatory field section in the class configuration.
 
 **Application:**        * The system will be able to communicate to a user the type of fields present on the page to prevent errors and minimize workload.
                         * The system will be able to show that a field is mandatory that will prevent validation errors upon submission.
@@ -31,7 +26,7 @@ The Must/Should Attributes are part of the data governance feature that will det
                              if those fields are left blank since these are mandatory fields and are required to be completed. Whereas, fields like *Gender, First Name, etc.*
                              can be set as optional fields, thus, be left blank.
 
-=================       ===============================================================================================================================================================
+===================     ===============================================================================================================================================================
 
 
 How to do: Must/Should Attributes

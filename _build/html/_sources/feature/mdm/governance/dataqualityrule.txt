@@ -1,22 +1,18 @@
-===========================
-DAGOV 6: Data Quality Rule
-===========================
+==================
+Data Quality Rule
+==================
 The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.
+As a user, I want to be alerted in case any data quality violations occur while I am saving an *Article* so that I can effectively conform to data quality standards for the product.
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to be alerted in case any data quality violations occur while I am saving an *Article* so that I can effectively
-                          conform to data quality standards for the product.
-
+===================     ===============================================================================================================================================================
 **Description:**        * This feature allows an administrator to create rules to ensure that data quality is maintained in the system.
                         * This feature allows the data quality rules to be customized.
                         * *This feature has two main types for the rules: Rule Violation and Normalization*.
                             * **Rule Violation:** alerts a user about a violated rule with an error message.
                             * **Normalization:** reduces data redundancy and improves the data integrity.
 
-**Prerequisite:**       * *Articles/Products* where data quality must be achieved.
+**Related Topic:**       * *Articles/Products* where data quality must be achieved.
 
 **Application:**        * Data Quality Rule restricts the entry of unacceptable data in the system.
                         * Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.
@@ -26,7 +22,7 @@ The Data Quality Rule feature provides the functionality to create and set rules
                             An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. *Bomb, Suicide, Shit, etc*).
                             In an attribute value (e.g. *Description*), a rule can be customized to achieve this condition that will prompt a notification message if not followed.
 
-=================       ===============================================================================================================================================================
+===================     ===============================================================================================================================================================
 
 
 How to do: Data Quality Rule
