@@ -3,7 +3,7 @@ Manage Taxonomy
 ===============
 
 
-Manage Taxonomy lets you add taxonomies so as to classify products into them.
+Manage Taxonomy lets you add taxonomies to easily classify the products.
 
 
 ====================    =============================================================================================================================================================
