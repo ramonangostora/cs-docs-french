@@ -1,30 +1,24 @@
 =======================
 Must/Should Attributes
 =======================
-The Must/Should Attributes are part of the data governance feature that determine the mandatory characteristic of a data field.  It checks if data are provided
+The Must/Should Attributes are part of the data governance feature that allows an administrator to set a mandatory field,
+which means that a user will be required to provide data for that field.
 
 
 ===================     ===============================================================================================================================================================
-**Description:**        * *This feature provides the functionality to set and classify fields into three categories: Must, Should, and Can*.
-                            * **Must:** is a mandatory field.
-                            * **Should:** is a mandatory field but can be skipped. Skipping this field will cause a *"warning"*.
-                            * **Can:** is an optional field that can be skipped.
-                        * This feature defines that *Must* fields are mandatory fields. Must fields are also called *compulsory* fields.
-                        * This feature defines that *Should* and *Can* fields are optional fields. An optional field is the opposite of a mandatory field.
-                          Optional fields are also called *voluntary* fields. The system saves the changes on a page even if these fields are not populated.
-                        * This feature allows the system to show a warning message if a *Must* field is left empty. The system saves any changes done on the page as well.
-                        * This feature allows the setting of *Is Mandatory (Must, Should, Can)*, which is a flag that can be raised at a class level for each attribute and tag.
+**Description:**        * This feature provides the functionality to set and classify fields to be either *Mandatory* or *Optional*.
+                        * This feature allows the system to show a warning message if a *Mandatory* field is left empty. The system still saves any changes done on the page.
 
-**Related Topic:**       * *Must / Should / Can* type to be selected for the attributes under the mandatory field section in the class configuration.
+**Related Topic:**      * *Data Quality Rule*
 
-**Application:**        * The system will be able to communicate to a user the type of fields present on the page to prevent errors and minimize workload.
-                        * The system will be able to show that a field is mandatory that will prevent validation errors upon submission.
-                        * The system will be able to show that a field is optional that will allow a user to get through the process faster.
+**Application:**        * The feature informs the type of fields present on the page to prevent errors and minimize workload.
+                        * The feature shows that a field is mandatory and will prevent validation errors upon submission.
+                        * The feature shows that a field is optional and will allow a user to get through the process faster.
                         * *Example:*
 
-                             An administrator has to create a new user.  While filling out the form fields like *Username, Password, Emails*, a notification message will show
-                             if those fields are left blank since these are mandatory fields and are required to be completed. Whereas, fields like *Gender, First Name, etc.*
-                             can be set as optional fields, thus, be left blank.
+                             An administrator has to create a new user.  While filling out details on the form like *Username, Password, Emails*, a notification message will show
+                             if those fields are left empty since these are mandatory and are required to be completed. Whereas, fields like *Gender, First Name, etc.*
+                             are optional fields and can be left blank.
 
 ===================     ===============================================================================================================================================================
 
@@ -65,13 +59,13 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Add the 3 new attributes to the newly created property collection.
+#. Add the 3 new attributes to the newly created property collection (e.g. *Property_Collection_1*).
 
 .. image:: /feature/mdm/_images/mustshouldattributes_addthe3newattributes.PNG
 |
 |
 
-#. Go to the *Class Configuration* and create a **Default** type class.
+#. Go to *Class Configuration* and create a **Default** type class.
 
 .. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration.PNG
 |
@@ -81,7 +75,7 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Add the property collection to that type class.
+#. Add the property collection to that class.
 
 .. image:: /feature/mdm/_images/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG
 |
@@ -89,7 +83,7 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Assign a mandatory condition to the attributes. Save the changes.
+#. Assign a mandatory condition to the attributes by ticking on the checkbox. Save the changes.
 
 .. image:: /feature/mdm/_images/mustshouldattributes_assignamandatorycondition.PNG
 |
@@ -103,13 +97,13 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Hover over the '+' icon and wait for the menu to appear. In that menu, go to the class created (e.g. *Class_1*).
+#. Hover over the '+' icon and wait for the menu to appear. In the menu, go to the class created (e.g. *Class_1*).
 
 .. image:: /feature/mdm/_images/mustshouldattributes_hoverovertheicon.PNG
 |
 |
 
-#. View the set conditions in runtime. If the fields are set to be *Must* or *Should* and are left blank, a violation notification will appear.
+#. View the set conditions in runtime. If a field is set to be *Mandatory* and is left blank, a violation notification will appear.
 
 .. image:: /feature/mdm/_images/mustshouldattributes_viewinruntime.PNG
 |

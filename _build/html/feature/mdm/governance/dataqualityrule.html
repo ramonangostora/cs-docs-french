@@ -120,8 +120,7 @@
             
   <div class="section" id="s-data-quality-rule">
 <span id="data-quality-rule"></span><h1>Data Quality Rule<a class="headerlink" href="#data-quality-rule" title="Permalink to this headline">¶</a></h1>
-<p>The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.
-As a user, I want to be alerted in case any data quality violations occur while I am saving an <em>Article</em> so that I can effectively conform to data quality standards for the product.</p>
+<p>The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.</p>
 <table class="docutils">
 <colgroup>
 <col width="11%" />
@@ -129,24 +128,23 @@ As a user, I want to be alerted in case any data quality violations occur while 
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td><strong>Description:</strong></td>
-<td><ul class="first last simple">
-<li>This feature allows an administrator to create rules to ensure that data quality is maintained in the system.</li>
-<li>This feature allows the data quality rules to be customized.</li>
-<li><dl class="first docutils">
-<dt><em>This feature has two main types for the rules: Rule Violation and Normalization</em>.</dt>
-<dd><ul class="first last">
-<li><strong>Rule Violation:</strong> alerts a user about a violated rule with an error message.</li>
-<li><strong>Normalization:</strong> reduces data redundancy and improves the data integrity.</li>
-</ul>
-</dd>
-</dl>
+<td><ul class="first last">
+<li><p class="first">This feature allows an administrator to create rules to ensure that data quality is maintained in the system.</p>
+</li>
+<li><p class="first">This feature allows the data quality rules to be customized.</p>
+</li>
+<li><p class="first">This feature has two main types of rule: <em>Rule Violation and Normalization</em>.</p>
+<blockquote>
+<div><p><strong>Rule Violation:</strong> alerts a user about a violated rule with an error message.
+<strong>Normalization:</strong> reduces data redundancy and improves the data integrity.</p>
+</div></blockquote>
 </li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Related Topic:</strong></td>
 <td><ul class="first last simple">
-<li><em>Articles/Products</em> where data quality must be achieved.</li>
+<li><em>Must/Should Attributes</em></li>
 </ul>
 </td>
 </tr>
@@ -156,12 +154,12 @@ As a user, I want to be alerted in case any data quality violations occur while 
 </li>
 <li><p class="first">Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.</p>
 </li>
-<li><p class="first">Data Quality Rule customizes the rules for the specific data conditions.</p>
+<li><p class="first">Data Quality Rule customizes the rules for specific data conditions.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
 <div><p>An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. <em>Bomb, Suicide, Shit, etc</em>).
-In an attribute value (e.g. <em>Description</em>), a rule can be customized to achieve this condition that will prompt a notification message if not followed.</p>
+In an attribute value (e.g. <em>Description</em>), a rule can be customized that will prompt a notification message if it’s not followed.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -200,7 +198,7 @@ In an attribute value (e.g. <em>Description</em>), a rule can be customized to a
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Provide a name for the rule and click on the <em>Attributes, Tags, and Roles</em> where the data quality rules will be applied.</li>
+<li>Provide a name for the rule and click on the <em>Attributes, Tags, and Roles</em> where the data quality rule will be applied.</li>
 </ol>
 <img alt="../../../_images/dataqualityrules_providethenamefortherule.PNG" src="../../../_images/dataqualityrules_providethenamefortherule.PNG" />
 <div class="line-block">
@@ -208,7 +206,7 @@ In an attribute value (e.g. <em>Description</em>), a rule can be customized to a
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Refer to the steps below for a data quality rule applied to an attribute:</li>
+<li>Refer to the steps below for a data quality rule example applied to an attribute:</li>
 </ol>
 <blockquote>
 <div><ol class="arabic simple">
@@ -236,7 +234,7 @@ In an attribute value (e.g. <em>Description</em>), a rule can be customized to a
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>In the rules section, the list of rules will appear. Select the rule that needs to be applied.</li>
+<li>In the rules section, the list of rules will appear. Select the rule that will be applied.</li>
 </ol>
 <img alt="../../../_images/dataqualityrules_intherulessection.PNG" src="../../../_images/dataqualityrules_intherulessection.PNG" />
 <div class="line-block">
@@ -268,7 +266,7 @@ In an attribute value (e.g. <em>Description</em>), a rule can be customized to a
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will be highlighted for the violated rule.
+<li>As indicated in the rule, the field cannot be left empty. In runtime, if it’s blank, it will be highlighted for rule violation.
 When you click on the warning message, the applied rule notification will appear.</li>
 </ol>
 <img alt="../../../_images/dataqualityrules_asindicatedintherule.PNG" src="../../../_images/dataqualityrules_asindicatedintherule.PNG" />
@@ -345,7 +343,7 @@ When you click on the warning message, the applied rule notification will appear
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Jan 09, 2018</p>
+                <p class="topless">Jan 10, 2018</p>
             </div>
           </div>
         

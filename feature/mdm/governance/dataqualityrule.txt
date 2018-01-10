@@ -2,25 +2,25 @@
 Data Quality Rule
 ==================
 The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.
-As a user, I want to be alerted in case any data quality violations occur while I am saving an *Article* so that I can effectively conform to data quality standards for the product.
 
 
 ===================     ===============================================================================================================================================================
 **Description:**        * This feature allows an administrator to create rules to ensure that data quality is maintained in the system.
                         * This feature allows the data quality rules to be customized.
-                        * *This feature has two main types for the rules: Rule Violation and Normalization*.
-                            * **Rule Violation:** alerts a user about a violated rule with an error message.
-                            * **Normalization:** reduces data redundancy and improves the data integrity.
+                        * This feature has two main types of rule: *Rule Violation and Normalization*.
 
-**Related Topic:**       * *Articles/Products* where data quality must be achieved.
+                           **Rule Violation:** alerts a user about a violated rule with an error message.
+                           **Normalization:** reduces data redundancy and improves the data integrity.
+
+**Related Topic:**       * *Must/Should Attributes*
 
 **Application:**        * Data Quality Rule restricts the entry of unacceptable data in the system.
                         * Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.
-                        * Data Quality Rule customizes the rules for the specific data conditions.
+                        * Data Quality Rule customizes the rules for specific data conditions.
                         * *Example:*
 
                             An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. *Bomb, Suicide, Shit, etc*).
-                            In an attribute value (e.g. *Description*), a rule can be customized to achieve this condition that will prompt a notification message if not followed.
+                            In an attribute value (e.g. *Description*), a rule can be customized that will prompt a notification message if it's not followed.
 
 ===================     ===============================================================================================================================================================
 
@@ -49,14 +49,13 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Provide a name for the rule and click on the *Attributes, Tags, and Roles* where the data quality rules will be applied.
+#. Provide a name for the rule and click on the *Attributes, Tags, and Roles* where the data quality rule will be applied.
 
 .. image:: /feature/mdm/_images/dataqualityrules_providethenamefortherule.PNG
 |
 |
 
-#. Refer to the steps below for a data quality rule applied to an attribute:
-
+#. Refer to the steps below for a data quality rule example applied to an attribute:
 
   #. Select the attribute (in Cause) and then, add the warning (in Effect). Save all the changes.
 
@@ -74,7 +73,7 @@ To do this data governance feature, follow these steps:
   |
   |
 
-  #. In the rules section, the list of rules will appear. Select the rule that needs to be applied.
+  #. In the rules section, the list of rules will appear. Select the rule that will be applied.
 
   .. image:: /feature/mdm/_images/dataqualityrules_intherulessection.PNG
   |
@@ -98,7 +97,7 @@ To do this data governance feature, follow these steps:
   |
   |
 
-  #. As indicated in the rule created, the field cannot be left empty. In runtime, if left blank, it will be highlighted for the violated rule.
+  #. As indicated in the rule, the field cannot be left empty. In runtime, if it's blank, it will be highlighted for rule violation.
      When you click on the warning message, the applied rule notification will appear.
 
   .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG

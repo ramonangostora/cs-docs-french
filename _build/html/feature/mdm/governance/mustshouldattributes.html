@@ -120,7 +120,8 @@
             
   <div class="section" id="s-must-should-attributes">
 <span id="must-should-attributes"></span><h1>Must/Should Attributes<a class="headerlink" href="#must-should-attributes" title="Permalink to this headline">¶</a></h1>
-<p>The Must/Should Attributes are part of the data governance feature that determine the mandatory characteristic of a data field.  It checks if data are provided</p>
+<p>The Must/Should Attributes are part of the data governance feature that allows an administrator to set a mandatory field,
+which means that a user will be required to provide data for that field.</p>
 <table class="docutils">
 <colgroup>
 <col width="11%" />
@@ -129,43 +130,30 @@
 <tbody valign="top">
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li><dl class="first docutils">
-<dt><em>This feature provides the functionality to set and classify fields into three categories: Must, Should, and Can</em>.</dt>
-<dd><ul class="first last">
-<li><strong>Must:</strong> is a mandatory field.</li>
-<li><strong>Should:</strong> is a mandatory field but can be skipped. Skipping this field will cause a <em>“warning”</em>.</li>
-<li><strong>Can:</strong> is an optional field that can be skipped.</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li>This feature defines that <em>Must</em> fields are mandatory fields. Must fields are also called <em>compulsory</em> fields.</li>
-<li>This feature defines that <em>Should</em> and <em>Can</em> fields are optional fields. An optional field is the opposite of a mandatory field.
-Optional fields are also called <em>voluntary</em> fields. The system saves the changes on a page even if these fields are not populated.</li>
-<li>This feature allows the system to show a warning message if a <em>Must</em> field is left empty. The system saves any changes done on the page as well.</li>
-<li>This feature allows the setting of <em>Is Mandatory (Must, Should, Can)</em>, which is a flag that can be raised at a class level for each attribute and tag.</li>
+<li>This feature provides the functionality to set and classify fields to be either <em>Mandatory</em> or <em>Optional</em>.</li>
+<li>This feature allows the system to show a warning message if a <em>Mandatory</em> field is left empty. The system still saves any changes done on the page.</li>
 </ul>
 </td>
 </tr>
 <tr class="row-even"><td><strong>Related Topic:</strong></td>
 <td><ul class="first last simple">
-<li><em>Must / Should / Can</em> type to be selected for the attributes under the mandatory field section in the class configuration.</li>
+<li><em>Data Quality Rule</em></li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">The system will be able to communicate to a user the type of fields present on the page to prevent errors and minimize workload.</p>
+<li><p class="first">The feature informs the type of fields present on the page to prevent errors and minimize workload.</p>
 </li>
-<li><p class="first">The system will be able to show that a field is mandatory that will prevent validation errors upon submission.</p>
+<li><p class="first">The feature shows that a field is mandatory and will prevent validation errors upon submission.</p>
 </li>
-<li><p class="first">The system will be able to show that a field is optional that will allow a user to get through the process faster.</p>
+<li><p class="first">The feature shows that a field is optional and will allow a user to get through the process faster.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>An administrator has to create a new user.  While filling out the form fields like <em>Username, Password, Emails</em>, a notification message will show
-if those fields are left blank since these are mandatory fields and are required to be completed. Whereas, fields like <em>Gender, First Name, etc.</em>
-can be set as optional fields, thus, be left blank.</p>
+<div><p>An administrator has to create a new user.  While filling out details on the form like <em>Username, Password, Emails</em>, a notification message will show
+if those fields are left empty since these are mandatory and are required to be completed. Whereas, fields like <em>Gender, First Name, etc.</em>
+are optional fields and can be left blank.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -224,7 +212,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Add the 3 new attributes to the newly created property collection.</li>
+<li>Add the 3 new attributes to the newly created property collection (e.g. <em>Property_Collection_1</em>).</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_addthe3newattributes.PNG" src="../../../_images/mustshouldattributes_addthe3newattributes.PNG" />
 <div class="line-block">
@@ -232,7 +220,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Go to the <em>Class Configuration</em> and create a <strong>Default</strong> type class.</li>
+<li>Go to <em>Class Configuration</em> and create a <strong>Default</strong> type class.</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_gotoclassconfiguration.PNG" src="../../../_images/mustshouldattributes_gotoclassconfiguration.PNG" />
 <div class="line-block">
@@ -248,7 +236,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Add the property collection to that type class.</li>
+<li>Add the property collection to that class.</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG" src="../../../_images/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG" />
 <div class="line-block">
@@ -260,7 +248,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Assign a mandatory condition to the attributes. Save the changes.</li>
+<li>Assign a mandatory condition to the attributes by ticking on the checkbox. Save the changes.</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_assignamandatorycondition.PNG" src="../../../_images/mustshouldattributes_assignamandatorycondition.PNG" />
 <div class="line-block">
@@ -280,7 +268,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Hover over the ‘+’ icon and wait for the menu to appear. In that menu, go to the class created (e.g. <em>Class_1</em>).</li>
+<li>Hover over the ‘+’ icon and wait for the menu to appear. In the menu, go to the class created (e.g. <em>Class_1</em>).</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_hoverovertheicon.PNG" src="../../../_images/mustshouldattributes_hoverovertheicon.PNG" />
 <div class="line-block">
@@ -288,7 +276,7 @@ can be set as optional fields, thus, be left blank.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>View the set conditions in runtime. If the fields are set to be <em>Must</em> or <em>Should</em> and are left blank, a violation notification will appear.</li>
+<li>View the set conditions in runtime. If a field is set to be <em>Mandatory</em> and is left blank, a violation notification will appear.</li>
 </ol>
 <img alt="../../../_images/mustshouldattributes_viewinruntime.PNG" src="../../../_images/mustshouldattributes_viewinruntime.PNG" />
 <div class="line-block">
@@ -362,7 +350,7 @@ can be set as optional fields, thus, be left blank.</p>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Jan 09, 2018</p>
+                <p class="topless">Jan 10, 2018</p>
             </div>
           </div>
         
