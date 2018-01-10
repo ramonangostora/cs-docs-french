@@ -95,13 +95,10 @@ To do this data governance feature, follow these steps:
 
   .. image:: /feature/mdm/_images/dataqualityrules_hoverovertheiconandselecttheclass.PNG
   |
-  |
-
-  #. As indicated in the rule, the field cannot be left empty. In runtime, if it's blank, it will be highlighted for rule violation.
-     When you click on the warning message, the applied rule notification will appear.
-
   .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG
-  |
+
+  *Note: As indicated in the rule, the field cannot be left empty. In runtime, if it's blank, it will be highlighted for rule violation. When you click on the warning message, the applied rule notification will appear.*
+
   |
 
 
