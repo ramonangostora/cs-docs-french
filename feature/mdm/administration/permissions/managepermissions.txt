@@ -31,7 +31,7 @@ Choose who gets to do what or not, and here's how to do it.
 
 |
 
-#. On the home page, click the gear icon to go to **Settings**.
+#. On the home page, click the Gear icon to go to **Settings**.
 
 .. image:: /feature/mdm/_images/permissions_settings.png
 
