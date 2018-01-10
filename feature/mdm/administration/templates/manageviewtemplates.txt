@@ -12,8 +12,7 @@ Manage View Templates lets you set up view templates that are customized to diff
                         * Show the custom template to the authorized users.
                         * Hide certain modules within the product. Even portions of property collections can be hidden from certain users.
 
-**Related Topic:**      * Creating a custom template
-                        * Giving permissions to the intended user
+**Related Topic:**      * *Manage Permissions*
 
 **Application:**        * Limit the access of a user to certain information.
                         * Hide sensitive information.
@@ -146,3 +145,4 @@ Easily manage who gets to see what, and here's how to do it.
 |
 
 .. image:: /feature/mdm/_images/line-png-32.png
+   :alt: Contentsphere line
