@@ -32,27 +32,27 @@ To do a Multi-faceted Search, follow these steps:
 
 #. On the search bar, select a taxonomy (e.g. *Products*).
 
-.. image:: /feature/mdm/_images/fs01.PNG
+.. image:: /feature/_images/mdmimages/fs01.PNG
 |
 |
 
 #. Apply filter(s) such as *Gender*.
 
-.. image:: /feature/mdm/_images/fs02.PNG
+.. image:: /feature/_images/mdmimages/fs02.PNG
 |
 |
 
 #. Sort the selling price. An example of sorting in descending order is shown below.
 
-.. image:: /feature/mdm/_images/fs03.PNG
+.. image:: /feature/_images/mdmimages/fs03.PNG
 |
 |
 
 #. Perform a final search on the results based on the above criteria.
 
-.. image:: /feature/mdm/_images/mfsearch_results.PNG
+.. image:: /feature/_images/mdmimages/mfsearch_results.PNG
 |
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.png
    :alt: Contentsphere line

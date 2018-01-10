@@ -1,9 +1,0 @@
-==================
-PEP Feature Guides
-==================
-
-.. toctree::
-   :maxdepth: 1
-
-   onboarding
-   offboarding

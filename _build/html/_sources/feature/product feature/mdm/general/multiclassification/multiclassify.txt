@@ -41,12 +41,12 @@ To do this, follow these steps:
 
 #. Click on the "+" icon then create a name.
 
-.. image:: /feature/mdm/_images/multiclassify_clickplusicon.png
+.. image:: /feature/_images/mdmimages/multiclassify_clickplusicon.PNG
 
 |
 
 |
-.. image:: /feature/mdm/_images/multiclassify_addname.png
+.. image:: /feature/_images/mdmimages/multiclassify_addname.PNG
 
 |
 
@@ -54,7 +54,7 @@ To do this, follow these steps:
 
 #. To add a Non-Nature class or Attribution class, click **Add Class**.
 
-.. image:: /feature/mdm/_images/multiclassify_addnonnature.png
+.. image:: /feature/_images/mdmimages/multiclassify_addnonnature.PNG
 
 |
 
@@ -62,23 +62,23 @@ To do this, follow these steps:
 
 #. Add a class from the drop-down list.
 
-.. image:: /feature/mdm/_images/multiclassify_addclass.png
+.. image:: /feature/_images/mdmimages/multiclassify_addclass.PNG
 
 |
 
-.. image:: /feature/mdm/_images/multiclassify_addclass2.png
+.. image:: /feature/_images/mdmimages/multiclassify_addclass2.PNG
 
 |
 
 #. To add another attribution class, click **Add Class** again.
 
-.. image:: /feature/mdm/_images/multiclassify_addclassagain.png
+.. image:: /feature/_images/mdmimages/multiclassify_addclassagain.PNG
 
 |
 
 |
 
-.. image:: /feature/mdm/_images/multiclassify_addclassagain2.png
+.. image:: /feature/_images/mdmimages/multiclassify_addclassagain2.PNG
 
 |
 
@@ -86,14 +86,16 @@ To do this, follow these steps:
 
 #. To switch templates from nature class to non-nature class, click on the drop-down list and select an option, for example *Beverages*.
 
-.. image:: /feature/mdm/_images/multiclassify_switchtemplate.png
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate.PNG
 
 |
 
-.. image:: /feature/mdm/_images/multiclassify_switchtemplate2.png
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate2.PNG
 
 |
 
-.. image:: /feature/mdm/_images/multiclassify_switchtemplate3.png
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate3.PNG
 
 |
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

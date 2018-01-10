@@ -33,44 +33,44 @@ To do this feature, follow these steps:
 
 #. Click on any product and go to the **Timeline Tab**.
 
-.. image:: /feature/mdm/_images/timelineandhistory_clickonanyproduct.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_clickonanyproduct.PNG
 |
 |
 
 #. View the revision timeline.
 
-.. image:: /feature/mdm/_images/timelineandhistory_viewtherevisiontimeline.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_viewtherevisiontimeline.PNG
 |
 |
 
 #. Check the revision history by hovering over the version of interest and by clicking on the icon below the version number.
 
-.. image:: /feature/mdm/_images/timelineandhistory_checktherevisionhistory.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_checktherevisionhistory.PNG
 |
 |
 
 #. Select the versions to be compared by clicking on the check marks on the right.
 
-.. image:: /feature/mdm/_images/timelineandhistory_selecttheversionstobecompared.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_selecttheversionstobecompared.PNG
 |
 |
 
 #. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the product versions and rows for the attributes.
 
-.. image:: /feature/mdm/_images/timelineandhistory_clickthecomparebutton.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_clickthecomparebutton.PNG
 |
 |
 
 #. View the comparison table that shows the attribute changes in the selected versions.
 
-.. image:: /feature/mdm/_images/timelineandhistory_viewthecomparisontable.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_viewthecomparisontable.PNG
 |
 |
 
 *Note: A user may also compare the selected versions with the latest version.*
 
-.. image:: /feature/mdm/_images/timelineandhistory_comparetheselectedversionswithlatest.PNG
+.. image:: /feature/_images/mdmimages/timelineandhistory_comparetheselectedversionswithlatest.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.png
    :alt: Contentsphere line

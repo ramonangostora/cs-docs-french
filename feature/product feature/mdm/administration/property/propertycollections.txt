@@ -39,7 +39,7 @@ To do this, follow these steps:
 
 #. Go to Settings.
 
-.. image:: /feature/mdm/_images/propertycollection_gotosettings.png
+.. image:: /feature/_images/mdmimages/propertycollection_gotosettings.PNG
 
 |
 
@@ -47,7 +47,7 @@ To do this, follow these steps:
 
 #. Click on **Property Collection Configuration**.
 
-.. image:: /feature/mdm/_images/propertycollection_config.png
+.. image:: /feature/_images/mdmimages/propertycollection_config.PNG
 
 |
 
@@ -55,7 +55,7 @@ To do this, follow these steps:
 
 #. Click on the "+" icon to create a property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_create.png
+.. image:: /feature/_images/mdmimages/propertycollection_create.PNG
 
 |
 
@@ -63,7 +63,7 @@ To do this, follow these steps:
 
 #. Enter the name for the property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_name.png
+.. image:: /feature/_images/mdmimages/propertycollection_name.PNG
 
 |
 
@@ -71,7 +71,7 @@ To do this, follow these steps:
 
 #. Increase or decrease the number of rows and columns to accommodate the attributes and tags into the property collection,
 
-.. image:: /feature/mdm/_images/propertycollection_rows.png
+.. image:: /feature/_images/mdmimages/propertycollection_rows.PNG
 
 |
 
@@ -79,7 +79,7 @@ To do this, follow these steps:
 
 #. Add the attributes, tags and roles to the property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_canbeadded.png
+.. image:: /feature/_images/mdmimages/propertycollection_canbeadded.PNG
 
 |
 
@@ -87,7 +87,7 @@ To do this, follow these steps:
 
 #. Drag and drop the attributes and tags into the empty rows and columns.
 
-.. image:: /feature/mdm/_images/propertycollection_dragdrop.png
+.. image:: /feature/_images/mdmimages/propertycollection_dragdrop.PNG
 
 |
 
@@ -95,7 +95,7 @@ To do this, follow these steps:
 
 #. Click on **Class Configuration**.
 
-.. image:: /feature/mdm/_images/propertycollection_addtoclass.png
+.. image:: /feature/_images/mdmimages/propertycollection_addtoclass.PNG
 
 |
 
@@ -103,7 +103,7 @@ To do this, follow these steps:
 
 #. Click the "+" icon in the class to add the property collection.
 
-.. image:: /feature/mdm/_images/propertycollection_addtoclass2.png
+.. image:: /feature/_images/mdmimages/propertycollection_addtoclass2.PNG
 
 |
 
@@ -111,4 +111,4 @@ To do this, follow these steps:
 
 #. The property collection is now ready.
 
-.. image:: /feature/mdm/_images/propertycollection_propcoll.png
+.. image:: /feature/_images/mdmimages/propertycollection_propcoll.PNG

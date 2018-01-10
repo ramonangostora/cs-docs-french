@@ -46,13 +46,13 @@ Storing a bookmark
 
 #. Go to PIM and click **Advanced Filters**.
 
-.. image:: /feature/mdm/_images/searchnstore_gotopim.png
+.. image:: /feature/_images/mdmimages/searchnstore_gotopim.PNG
 
 |
 
 #. Select the desired filters and click **Apply**.
 
-.. image:: /feature/mdm/_images/searchnstore_selectfilter.png
+.. image:: /feature/_images/mdmimages/searchnstore_selectfilter.PNG
 
 |
 
@@ -60,7 +60,7 @@ Storing a bookmark
 
 #. Click the Bookmark icon.
 
-.. image:: /feature/mdm/_images/searchnstore_clickbookmarks.png
+.. image:: /feature/_images/mdmimages/searchnstore_clickbookmarks.PNG
 
 |
 
@@ -68,7 +68,7 @@ Storing a bookmark
 
 #. Enter the name of the bookmark and click **Create**.
 
-.. image:: /feature/mdm/_images/searchnstore_entername.png
+.. image:: /feature/_images/mdmimages/searchnstore_entername.PNG
 
 |
 
@@ -76,7 +76,7 @@ Storing a bookmark
 
 #. Bookmark has been added successfully.
 
-.. image:: /feature/mdm/_images/searchnstore_addedsuccessfully.png
+.. image:: /feature/_images/mdmimages/searchnstore_addedsuccessfully.PNG
 
 |
 
@@ -90,7 +90,7 @@ Searching for a bookmark
 
 #. Go to PIM.
 
-.. image:: /feature/mdm/_images/searchnstore_gotopim2.png
+.. image:: /feature/_images/mdmimages/searchnstore_gotopim2.PNG
 
 |
 
@@ -98,7 +98,7 @@ Searching for a bookmark
 
 #. On the search bar, click the Bookmark icon.
 
-.. image:: /feature/mdm/_images/searchnstore_searchbar.png
+.. image:: /feature/_images/mdmimages/searchnstore_searchbar.PNG
 
 |
 
@@ -106,7 +106,7 @@ Searching for a bookmark
 
 #. Search for and click the bookmark.
 
-.. image:: /feature/mdm/_images/searchnstore_searchbookmark.png
+.. image:: /feature/_images/mdmimages/searchnstore_searchbookmark.PNG
 
 |
 
@@ -114,7 +114,7 @@ Searching for a bookmark
 
 #. Click **Open**.
 
-.. image:: /feature/mdm/_images/searchnstore_clickopen.png
+.. image:: /feature/_images/mdmimages/searchnstore_clickopen.PNG
 
 |
 
@@ -122,10 +122,12 @@ Searching for a bookmark
 
 #. The bookmark is displayed.
 
-.. image:: /feature/mdm/_images/searchnstore_bookmarkopened.png
+.. image:: /feature/_images/mdmimages/searchnstore_bookmarkopened.PNG
 
 *Note: The bookmark page will be updated automatically in case there are new products that satisfy the criteria.*
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

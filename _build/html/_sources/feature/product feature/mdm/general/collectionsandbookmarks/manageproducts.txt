@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 #. Go to PIM.
 
-.. image:: /feature/mdm/_images/manageprod_gotopim.png
+.. image:: /feature/_images/mdmimages/manageprod_gotopim.PNG
 
 |
 
@@ -48,7 +48,7 @@ To do this, follow these steps:
 
 #. Search for and click the collection.
 
-.. image:: /feature/mdm/_images/manageprod_clickcollection.png
+.. image:: /feature/_images/mdmimages/manageprod_clickcollection.PNG
 
 |
 
@@ -56,37 +56,37 @@ To do this, follow these steps:
 
 #. Click **Organize**.
 
-.. image:: /feature/mdm/_images/manageprod_clickorganize.png
+.. image:: /feature/_images/mdmimages/manageprod_clickorganize.PNG
 |
 
 |
 
 #. Click **Add New Collection**.
 
-.. image:: /feature/mdm/_images/manageprod_addnewcollection.png
+.. image:: /feature/_images/mdmimages/manageprod_addnewcollection.PNG
 
 
 |
 
 #. Enter the name for the collection.
 
-.. image:: /feature/mdm/_images/manageprod_entername.png
+.. image:: /feature/_images/mdmimages/manageprod_entername.PNG
 
 |
 
 #. Select the product and click the Copy icon.
 
-.. image:: /feature/mdm/_images/manageprod_copy.png
+.. image:: /feature/_images/mdmimages/manageprod_copy.PNG
 |
 
 #. Go to the desired path and click the Paste icon.
 
-.. image:: /feature/mdm/_images/manageprod_paste.png
+.. image:: /feature/_images/mdmimages/manageprod_paste.PNG
 
 |
 
 #. The product is added successfully.
 
-.. image:: /feature/mdm/_images/manageprod_addedsuccessfully.png
+.. image:: /feature/_images/mdmimages/manageprod_addedsuccessfully.PNG
 
 |

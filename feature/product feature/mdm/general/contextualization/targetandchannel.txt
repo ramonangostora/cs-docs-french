@@ -39,7 +39,7 @@ To do this, follow these steps:
 
 #. Go to *Settings* tab.
 
-.. image:: /feature/_images/targetandchannel_gotosettings.png
+.. image:: /feature/_images/targetandchannel_gotosettings.PNG
 
 |
 
@@ -47,7 +47,7 @@ To do this, follow these steps:
 
 #. Select *Context Configuration*.
 
-.. image:: /feature/_images/targetandchannel_selectcontextconfiguration.png
+.. image:: /feature/_images/targetandchannel_selectcontextconfiguration.PNG
 
 |
 
@@ -55,7 +55,7 @@ To do this, follow these steps:
 
 #. Create new context.
 
-.. image:: /feature/_images/targetandchannel_createnewcontext.png
+.. image:: /feature/_images/targetandchannel_createnewcontext.PNG
 
 |
 
@@ -63,7 +63,7 @@ To do this, follow these steps:
 
 #. Fill in the name and select *Attribute Context* as the feature type.
 
-.. image:: /feature/_images/targetandchannel_fillname.png
+.. image:: /feature/_images/targetandchannel_fillname.PNG
 
 |
 
@@ -71,7 +71,7 @@ To do this, follow these steps:
 
 #. Select tag group to be added in the context and click **Save**.
 
-.. image:: /feature/_images/targetandchannel_selecttaggroup.png
+.. image:: /feature/_images/targetandchannel_selecttaggroup.PNG
 
 |
 
@@ -79,7 +79,7 @@ To do this, follow these steps:
 
 #. In the class configuration, select the class.
 
-.. image:: /feature/_images/targetandchannel_selectclass.png
+.. image:: /feature/_images/targetandchannel_selectclass.PNG
 
 |
 
@@ -87,7 +87,7 @@ To do this, follow these steps:
 
 #. Select the desired attribute then select the context from the drop-down list.
 
-.. image:: /feature/_images/targetandchannel_selectdesiredattribute.png
+.. image:: /feature/_images/targetandchannel_selectdesiredattribute.PNG
 
 |
 
@@ -95,7 +95,7 @@ To do this, follow these steps:
 
 #. Click **Save** and go to *Runtime*.
 
-.. image:: /feature/_images/targetandchannel_clicksave.png
+.. image:: /feature/_images/targetandchannel_clicksave.PNG
 
 |
 
@@ -103,7 +103,7 @@ To do this, follow these steps:
 
 #. Select the product.
 
-.. image:: /feature/_images/targetandchannel_selectproduct.png
+.. image:: /feature/_images/targetandchannel_selectproduct.PNG
 
 |
 
@@ -111,7 +111,7 @@ To do this, follow these steps:
 
 #. Click on the attirbute with variations.
 
-.. image:: /feature/_images/targetandchannel_clickattribute.png
+.. image:: /feature/_images/targetandchannel_clickattribute.PNG
 
 |
 
@@ -119,7 +119,7 @@ To do this, follow these steps:
 
 #. Create Attribute Variant for list price.
 
-.. image:: /feature/_images/targetandchannel_createattributevariant.png
+.. image:: /feature/_images/targetandchannel_createattributevariant.PNG
 
 |
 
@@ -127,7 +127,7 @@ To do this, follow these steps:
 
 #. Select the tag group, enter the value for the attribute, and click **Save**.
 
-.. image:: /feature/_images/targetandchannel_selecttagandentervalue.png
+.. image:: /feature/_images/targetandchannel_selecttagandentervalue.PNG
 
 |
 
@@ -135,6 +135,8 @@ To do this, follow these steps:
 
 #. It should display something like the image below.
 
-.. image:: /feature/_images/targetandchannel_checkoutput.png
+.. image:: /feature/_images/targetandchannel_checkoutput.PNG
 
 |
+.. image:: /feature/_images/mdmimages/line-png-32.png
+   :alt: Contentsphere line

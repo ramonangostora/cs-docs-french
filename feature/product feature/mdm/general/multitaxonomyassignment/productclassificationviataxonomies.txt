@@ -40,44 +40,44 @@ To classify a product to multiple taxonomies, follow these steps:
 
 #. Select a parent taxonomy from the drop-down menu (e.g. *Products*).
 
-.. image:: /feature/mdm/_images/prodclassification_selectaparenttaxonomy.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_selectaparenttaxonomy.PNG
 |
-.. image:: /feature/mdm/_images/prodclassification_selectaparenttaxonomy2.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_selectaparenttaxonomy2.PNG
 |
 |
 
 #. To further classify the product, click on **Classify Further** button.
 
-.. image:: /feature/mdm/_images/prodclassification_furtherclassify.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_furtherclassify.PNG
 |
 |
 
 #. Select a node from the list. Classify further until the desired taxonomy is achieved (e.g. *Food > Beverages > Sports and Energy Drinks*).
 
-.. image:: /feature/mdm/_images/prodclassification_selectanode.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_selectanode.PNG
 |
-.. image:: /feature/mdm/_images/prodclassification_selectanode2.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_selectanode2.PNG
 |
-.. image:: /feature/mdm/_images/prodclassification_selectanode3.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_selectanode3.PNG
 |
 |
 
 #. Go to PIM and click on the **Choose Taxonomies** button.
 
-.. image:: /feature/mdm/_images/prodclassification_gotopimandclickchoosetaxonomies.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_gotopimandclickchoosetaxonomies.PNG
 |
 |
 
 #. Choose the *Products* taxonomy, followed by the *Food* node and then the *Beverages* node. Click the **Apply** button.
 
-.. image:: /feature/mdm/_images/prodclassification_choosetheproductstaxonomy.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_choosetheproductstaxonomy.PNG
 |
 |
 
 #. View the results that contain the products belonging to the selected taxonomies.
 
-.. image:: /feature/mdm/_images/prodclassification_viewtheresults.PNG
+.. image:: /feature/_images/mdmimages/prodclassification_viewtheresults.PNG
 |
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.png
    :alt: Contentsphere line

@@ -5,4 +5,4 @@ Products
 .. toctree::
    :maxdepth: 1
 
-   
+   producttypesfixedbundle

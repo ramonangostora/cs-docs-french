@@ -1,6 +1,0 @@
-=============
-Collaboration
-=============
-
-.. toctree::
-   :maxdepth: 1
