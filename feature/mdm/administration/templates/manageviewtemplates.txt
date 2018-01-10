@@ -1,51 +1,40 @@
-===============================
-ADMIN 20: Manage View Templates
-===============================
+=====================
+Manage View Templates
+=====================
 
 
-Manage View Templates is a feature that allows an administrator to set up different view templates
-so as to control the information presented to each role.
+Manage View Templates lets you set up view templates that are customized to different users.
 
 
+===================     =============================================================================================================================================================
+**Description:**        * Easily customize the templates and hide certain portions as necessary.
+                        * Create templates as per user's requirements.
+                        * Show the custom template to the authorized users.
+                        * Hide certain modules within the product. Even portions of property collections can be hidden from certain users.
 
-=================       =============================================================================================================================================================
-**Version:**            1.0
+**Related Topic:**      * Creating a custom template
+                        * Giving permissions to the intended user
 
-**User Story:**         * As an administrator, I want to set up different view templates so that I can control the information presented to each role.
-
-**Description:**        * Templates can be customized and certain portions of the templates can be hidden.
-                        * Templates can be created and customized based on the user's requirements.
-                        * The custom template can be shown to the user who holds the permissions for the templates.
-                        * Certain modules within the product can be hidden to the user.
-                          Even property collections and portions of property collections can be hidden to particular users.
-
-**Prerequisite:**       * Creating a custom template
-                        * Giving permissions to user that should see the template
-
-**Application:**        * Restricting portions of information to particular role
-                        * Hiding vital content from ar role
+**Application:**        * Limit the access of a user to certain information.
+                        * Hide sensitive information.
                         * *Example:*
 
-                            A marketing team does not want the supplier to see the promotions.
-                            So they can manage this template by hiding the information
-                            or creating a customized template that only shows particular information and assign it to a role.
-=================       =============================================================================================================================================================
+                            Let's say the marketing team does not want to show the promotions to a supplier.
+                            So what they can do is to create a customized template that does not show promotions and assign it to a role for the supplier to use.
+===================     =============================================================================================================================================================
 
 
 
+How to do: Manage View Templates
+================================
 
-
-How to do: Property Collections
-===============================
-
-This How To guide provides instructions on how to group attributes and tags into one collection.
-To do this, follow these steps:
+Easily manage who gets to see what, and here's how to do it.
 
 |
 
 |
 
-#. Go to Settings.
+#. Click the Gear icon to go to **Settings**.
 
 .. image:: /feature/mdm/_images/viewtemplates_settings.png
 
@@ -53,7 +42,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on **Template Configuration**.
+#. Click the **Template Configuration** icon.
 
 .. image:: /feature/mdm/_images/viewtemplates_templateconfig.png
 
@@ -61,11 +50,7 @@ To do this, follow these steps:
 
 |
 
-#. The list on the left section shows all the default templates created by the Classes in the system
-
-|
-
-#. Click on the "+" icon to create a new template.
+#. Click the "+" icon to create a new template. The left pane shows the default templates.
 
 .. image:: /feature/mdm/_images/viewtemplates_create.png
 
@@ -73,7 +58,7 @@ To do this, follow these steps:
 
 |
 
-#. Enter the name for the new template.
+#. Enter the name for the template.
 
 .. image:: /feature/mdm/_images/viewtemplates_entername.png
 |
@@ -88,7 +73,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on the "+" icon to display a list of all property collections.
+#. Click the "+" icon to display a list of all property collections.
 
 .. image:: /feature/mdm/_images/viewtemplates_viewpropcoll.png
 
@@ -104,7 +89,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on **Permissions Configuration** and select a role to which the template is to be assigned.
+#. Click the **Permissions Configuration** icon and select a role to which the template is to be assigned.
 
 .. image:: /feature/mdm/_images/viewtemplates_permission.png
 
@@ -120,7 +105,7 @@ To do this, follow these steps:
 
 |
 
-#. Add the template in the class for the role and user. Click **Apply** then click on **Template**.
+#. Add the template in the class and click **Apply**. On the top right, click **Templates**.
 
 .. image:: /feature/mdm/_images/viewtemplates_clickapply.png
 
@@ -128,7 +113,7 @@ To do this, follow these steps:
 
 |
 
-#. Select the template. Detailed information of the property collection and other tabs are shown on the left.
+#. Select the template.
 
 .. image:: /feature/mdm/_images/viewtemplates_selectclass.png
 
@@ -136,7 +121,7 @@ To do this, follow these steps:
 
 |
 
-#. To toggle the visibility of the property, click on the Eye icon. To edit the rights for the property, click the Pencil icon.
+#. To toggle the visibility of the property, click the Eye icon. To edit the rights for the property, click the Pencil icon.
 
 .. image:: /feature/mdm/_images/viewtemplates_edit.png
 
@@ -144,7 +129,7 @@ To do this, follow these steps:
 
 |
 
-#. Based on the details, select the properties to be non-editable (for example, *PID*) and hidden (for example, *Taxonomy*)
+#. Select the properties to be non-editable (for example, *PID*) and hidden (for example, *Taxonomy*)
 
 |
 
@@ -154,7 +139,7 @@ To do this, follow these steps:
 
 |
 
-#. The image below shows the final view of the template where the taxonomy is hidden and the Pricing section is not editable.
+#. The image below shows the template where the Taxonomy is hidden and the Pricing section is not editable.
 
 .. image:: /feature/mdm/_images/viewtemplates_final.png
 
