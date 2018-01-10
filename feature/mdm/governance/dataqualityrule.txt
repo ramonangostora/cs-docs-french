@@ -1,12 +1,12 @@
 ==================
 Data Quality Rule
 ==================
-The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the data quality.
+The Data Quality Rule feature provides the functionality to create and set rules in the system to ensure the quality of data.
 
 
 ===================     ===============================================================================================================================================================
 **Description:**        * This feature allows an administrator to create rules to ensure that data quality is maintained in the system.
-                        * This feature allows the data quality rules to be customized.
+                        * This feature allows data quality rules to be customized.
                         * This feature has two main types of rule: *Rule Violation and Normalization*.
 
                            **Rule Violation:** alerts a user about a violated rule with an error message.
@@ -20,7 +20,8 @@ The Data Quality Rule feature provides the functionality to create and set rules
                         * *Example:*
 
                             An administrator does not want to see blacklisted words (or for these words to be added) in the product information pages (e.g. *Bomb, Suicide, Shit, etc*).
-                            In an attribute value (e.g. *Description*), a rule can be customized that will prompt a notification message if it's not followed.
+                            In an attribute value (e.g. *Description*), a rule can be customized that will show a notification message
+                            if blacklisted words are added in the description field of a product.
 
 ===================     ===============================================================================================================================================================
 
@@ -97,7 +98,7 @@ To do this data governance feature, follow these steps:
   |
   .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG
 
-  *Note: As indicated in the rule, the field cannot be left empty. In runtime, if it's blank, it will be highlighted for rule violation. When you click on the warning message, the applied rule notification will appear.*
+  *Note: As indicated in the rule, the field cannot be empty. In runtime, if it's blank, it will be highlighted for rule violation. When you click on the warning message, the applied rule notification will appear.*
 
   |
 
