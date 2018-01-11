@@ -69,6 +69,7 @@ Creating a simple taxonomy tree is a breeze, and here's how to do it.
 |
 
 |
+
 #. To make a hierarchy, click on the taxonomy then click **Create**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_makehierarchy.png
