@@ -1,0 +1,61 @@
+==========
+Test Page
+==========
+Test page for adding tabs on the pages.
+
+=================       ===============================================================================================================================================================
+**Description:**        * Test page for the tabs. This will create tabs that can separate two entries on a page.
+
+**Application:**        * Test
+                        * *Example:*
+
+                            This can create tabs to separate *Old How-to* to the *New How-to*.
+
+=================       ===============================================================================================================================================================
+
+
+Fruits
+=======
+
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red.
+
+   .. tab:: Pears
+
+      Pears are green.
+
+   .. tab:: Oranges
+
+      Oranges are orange.
+
+
+
+Luminaries
+===========
+
+.. tabs::
+
+  .. tab:: Sun
+
+     The sun is a star.
+
+  .. tab:: Moon
+
+     The moon is not a star.
+
+
+|
+|
+
+
+Old Pic vs  New Pic
+|pic1|  vs  |pic2|
+
+.. |pic1| image:: /feature/_images/mdmimages/fs01.PNG
+   :width: 100%
+
+.. |pic2| image:: /feature/_images/mdmimages/fs02.PNG
+   :width: 100%

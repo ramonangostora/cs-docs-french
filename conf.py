@@ -44,6 +44,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "ticket_role",
     "cve_role",
+    "sphinx_tabs.tabs",
 ]
 
 # Spelling check needs an additional module that is not installed by default.

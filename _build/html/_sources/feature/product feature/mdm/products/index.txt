@@ -5,4 +5,5 @@ Products
 .. toctree::
    :maxdepth: 1
 
-   producttypesfixedbundle
+   producttypestmanagedisplays
+   testpage

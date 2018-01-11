@@ -20,7 +20,7 @@ ALLSPHINXOPTS   = -n -d $(BUILDDIR)/doctrees -D language=$(LANGUAGEOPT) $(PAPERO
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
-.PHONY: help clean html htmlview dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
+.PHONY: help clean html htmlview dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext dist install test clean docs
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -160,3 +160,26 @@ spelling:
 	@echo
 	@echo "Check finished. Wrong words can be found in " \
 		"$(BUILDDIR)/spelling/output.txt."
+
+dist:
+  python setup.py sdist
+
+install:
+	pip install -r requirements.txt
+	pip uninstall -y sphinx-tabs
+	python setup.py install
+
+test:
+	rm -rf out
+	pip install pep8 pylint
+	pep8 sphinx_tabs/tabs.py
+	pylint --rcfile=pylint.cfg sphinx_tabs/tabs.py
+	test/run.sh
+
+docs:
+	rm -rf docs
+	sphinx-build -E -n -W example docs
+	echo "" > docs/.nojekyll
+
+clean:
+	rm -rf build dist test-output *.egg-info

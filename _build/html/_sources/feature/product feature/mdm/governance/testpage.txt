@@ -1,0 +1,47 @@
+==========
+Test Page
+==========
+Test page for adding tabs on the pages.
+
+=================       ===============================================================================================================================================================
+**Description:**        * Test
+
+**Application:**        * The simple Excel-based export makes a record of data that is saved as an Excel file.
+                        * *Example:*
+
+                            A user has a department/workgroup that uses Microsoft Excel to work on data.
+                            The user can directly export data from the platform to an Excel file that the department/workgroup can easily use.
+
+=================       ===============================================================================================================================================================
+
+
+Fruits
+=======
+
+.. tabs::
+
+   .. tab:: Apples
+
+      Apples are green, or sometimes red.
+
+   .. tab:: Pears
+
+      Pears are green.
+
+   .. tab:: Oranges
+
+      Oranges are orange.
+
+
+Luminaries
+===========
+
+.. tabs::
+
+  .. tab:: Sun
+
+     The sun is a star.
+
+  .. tab:: Moon
+
+     The moon is not a star.
