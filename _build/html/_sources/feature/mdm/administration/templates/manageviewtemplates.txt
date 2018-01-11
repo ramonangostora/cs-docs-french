@@ -41,7 +41,7 @@ Easily manage who gets to see what, and here's how to do it.
 
 |
 
-#. Click the **Template Configuration** icon.
+#. Click the **Template Configuration** button.
 
 .. image:: /feature/mdm/_images/viewtemplates_templateconfig.png
 
@@ -88,7 +88,7 @@ Easily manage who gets to see what, and here's how to do it.
 
 |
 
-#. Click the **Permissions Configuration** icon and select a role to which the template is to be assigned.
+#. Click the **Permissions Configuration** button and select a role to which the template is to be assigned.
 
 .. image:: /feature/mdm/_images/viewtemplates_permission.png
 
