@@ -46,7 +46,7 @@ Creating a simple taxonomy tree is a breeze, and here's how to do it.
 
 |
 
-#. Click the **Taxonomy Configuration** icon.
+#. Click the **Taxonomy Configuration** button.
 
 .. image:: /feature/mdm/_images/managetaxonomy_taxonomyconfig.png
 
