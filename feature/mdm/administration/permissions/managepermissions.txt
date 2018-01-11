@@ -39,7 +39,7 @@ Choose who gets to do what or not, and here's how to do it.
 
 |
 
-#. Click the **Permissions Configuration** icon.
+#. Click the **Permissions Configuration** button.
 
 .. image:: /feature/mdm/_images/permissions_config.png
 
