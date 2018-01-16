@@ -1,0 +1,8 @@
+==================================
+Product Types - Individual Article
+==================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageindividualarticles

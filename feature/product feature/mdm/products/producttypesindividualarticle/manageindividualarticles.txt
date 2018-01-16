@@ -1,0 +1,67 @@
+==========================
+Manage Individual Articles
+==========================
+
+
+Manage Individual Articles lets you set up view templates that are customized to different users.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * Easily customize the templates and hide certain portions as necessary.
+                        * Create templates as per user's requirements.
+                        * Show the custom template to the authorized users.
+                        * Hide certain modules within the product. Even portions of property collections can be hidden from certain users.
+
+**Related Topic:**      * *Manage Permissions*
+
+**Application:**        * Limit the access of a user to certain information.
+                        * Hide sensitive information.
+                        * *Example:*
+
+                            Let's say the marketing team does not want to show the promotions to a supplier.
+                            So what they can do is to create a customized template that does not show promotions and assign it to a role for the supplier to use.
+===================     =============================================================================================================================================================
+
+
+
+How to do: Manage View Templates
+================================
+
+Easily manage who gets to see what, and here's how to do it.
+
+|
+
+|
+
+#. Click the Gear icon to go to **Settings**.
+
+.. image:: /feature/mdm/_images/viewtemplates_settings.png
+
+|
+
+|
+
+#. Click the **Template Configuration** button.
+
+.. image:: /feature/mdm/_images/viewtemplates_templateconfig.png
+
+|
+
+|
+
+#. Click the "+" icon to create a new template. The left pane shows the default templates.
+
+.. image:: /feature/mdm/_images/viewtemplates_create.png
+
+|
+
+|
+
+#. Enter the name for the template.
+
+.. image:: /feature/mdm/_images/viewtemplates_entername.png
+|
+
+|
+
+#. Click the Eye icon to make the tab visible or hidden. In the image below, the
