@@ -3,65 +3,123 @@ Manage Individual Articles
 ==========================
 
 
-Manage Individual Articles lets you set up view templates that are customized to different users.
+Manage Individual Articles lets you define certain articles as individual articles.
 
 
 ===================     =============================================================================================================================================================
-**Description:**        * Easily customize the templates and hide certain portions as necessary.
-                        * Create templates as per user's requirements.
-                        * Show the custom template to the authorized users.
-                        * Hide certain modules within the product. Even portions of property collections can be hidden from certain users.
+**Description:**        * Single article can be any single item of any category.
+                        * Single articles are singular in nature and do not contain any other articles.
 
-**Related Topic:**      * *Manage Permissions*
+**Related Topic:**      * *Manage Units for Individual Articles*
 
-**Application:**        * Limit the access of a user to certain information.
-                        * Hide sensitive information.
+**Application:**        * Create a single article in the system to represent a single item.
                         * *Example:*
 
-                            Let's say the marketing team does not want to show the promotions to a supplier.
-                            So what they can do is to create a customized template that does not show promotions and assign it to a role for the supplier to use.
+                            Let's say a retailer wants to add a new orange flavor of Red Bull to his list.
+                            To do that, he needs to create this item as a single article.
 ===================     =============================================================================================================================================================
 
 
 
-How to do: Manage View Templates
-================================
+How to do: Manage Individual Articles
+=====================================
 
-Easily manage who gets to see what, and here's how to do it.
+Managing individual articles is easy, and here's how to do it.
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_gotopim.png
 
 |
 
 |
 
-#. Click the Gear icon to go to **Settings**.
+#. Hover on the "+" icon.
 
-.. image:: /feature/mdm/_images/viewtemplates_settings.png
-
-|
-
-|
-
-#. Click the **Template Configuration** button.
-
-.. image:: /feature/mdm/_images/viewtemplates_templateconfig.png
+.. image:: /feature/_images/mdmimages/manageindividualarticles_hover.png
 
 |
 
 |
 
-#. Click the "+" icon to create a new template. The left pane shows the default templates.
+#. Select **Single Article**.
 
-.. image:: /feature/mdm/_images/viewtemplates_create.png
+.. image:: /feature/_images/mdmimages/manageindividualarticles_selectsinglearticle.png
+
+|
+
+|
+
+#. Enter the name for the single article and provide relevant information.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_enterthename.png
 
 |
 
 |
 
-#. Enter the name for the template.
+#. Click the **Relationships** button.
 
-.. image:: /feature/mdm/_images/viewtemplates_entername.png
+.. image:: /feature/_images/mdmimages/manageindividualarticles_relationships.png
+
 |
 
 |
 
-#. Click the Eye icon to make the tab visible or hidden. In the image below, the
+#. Click the "+" icon.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_plusicon.png
+
+|
+
+|
+
+#. Select the image and click the **Add All** button (or drag and drop the image to the right side).
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_selectimage.png
+
+|
+
+|
+
+#. Click the **Back** button to check that the image is added to the product.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_clickback.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_clickback2.png
+
+|
+
+|
+
+#. Follow the above steps to add markets.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market2.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market3.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market4.png
+
+|
+
+|
+
+#. Check your single article.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_yoursinglearticle.png
+
+|
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
