@@ -68,7 +68,7 @@ Managing individual articles is easy, and here's how to do it.
 
 |
 
-#. Click the "+" icon.
+#. Click the "+" icon under Images.
 
 .. image:: /feature/_images/mdmimages/manageindividualarticles_plusicon.png
 
@@ -96,7 +96,7 @@ Managing individual articles is easy, and here's how to do it.
 
 |
 
-#. Follow the above steps to add markets.
+#. Add markets. The steps are the same as with adding images except that you click the "+" icon under Markets.
 
 .. image:: /feature/_images/mdmimages/manageindividualarticles_market.png
 
