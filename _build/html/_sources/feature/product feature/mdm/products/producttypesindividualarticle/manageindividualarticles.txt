@@ -3,7 +3,7 @@ Manage Individual Articles
 ==========================
 
 
-Manage Individual Articles lets you define certain articles as individual articles.
+Manage Individual Articles lets you define certain articles as single articles.
 
 
 ===================     =============================================================================================================================================================
