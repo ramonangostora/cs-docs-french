@@ -52,7 +52,7 @@ To do this, follow these steps:
 
 #.  Click  **Add products**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.png
+.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.PNG
 |
 |
 
