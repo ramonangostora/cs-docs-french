@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 #. Click **Loose Bundle**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickloose.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_clickloose1.png
 |
 |
 
@@ -52,7 +52,7 @@ To do this, follow these steps:
 
 #.  Click  **Add products**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.png
 |
 |
 
