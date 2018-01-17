@@ -1,0 +1,100 @@
+===============
+Manage Displays
+===============
+The Manage Displays feature allows the user to sell multiple quantity products.
+
+=================== =================================================================================================================================================================
+**Description:**    *  This feature allows the retailer to manage a bundle of single articles and sell them in multiple quantities.
+
+
+**Related Topic:**  * *Manage Media Links*
+
+
+**Application:**    * This feature brings single articles together in multiple quantities and sells them.
+                    * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities and can sell them at an offered price.
+                    * *Example:*
+
+                        A retail company held a stock clearance sale event. With this, a retailer adds a single item in multiple quantities and sells them at a given price.
+
+=================== =================================================================================================================================================================
+
+
+How to do: Manage Displays
+=============================
+To do this, follow these steps:
+
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/managedisplays_gotopim.PNG
+|
+|
+
+#. Hover on  '+' icon.
+
+.. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
+|
+|
+
+#. Click **Loose Bundle**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_clickloose.PNG
+|
+|
+
+#. Enter the  necessary information.
+
+.. image:: /feature/_images/mdmimages/managedisplays_enterinformation.PNG
+|
+|
+
+#.  Click  **Add products**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.PNG
+|
+|
+
+#.   Click the green button to add the required products (button turns to blue when selected), and click  **Add All**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_selectandaddall.PNG
+|
+|
+
+#.    To add more products, click **Return**, and repeat the previous steps.
+
+.. image:: /feature/_images/mdmimages/managedisplays_addedsuccesfullyandreturn.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/managedisplays_returned.PNG
+|
+|
+
+#.   To add an image, click  **Relationships** tab.
+
+.. image:: /feature/_images/mdmimages/managedisplays_gotorel.PNG
+|
+|
+
+#.   Hover over the '+' button and click  **Add Entity**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
+|
+|
+
+#.   Hover over the '+' sign and click **Image**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_hoverimage.png
+|
+|
+
+#.   To view the added image, click **Relationships** tab.
+
+.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess.png
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
