@@ -4,7 +4,7 @@ Manage Displays
 The Manage Displays feature allows the user to sell multiple quantity products.
 
 =================== =================================================================================================================================================================
-**Description:**    *  This feature allows the retailer to manage a bundle of single articles and sell them in multiple quantities.
+**Description:**    *  This feature allows the retailer to manage a bundle of single articles and sells them in multiple quantities.
 
 
 **Related Topic:**  * *Manage Media Links*
@@ -32,7 +32,7 @@ To do this, follow these steps:
 |
 |
 
-#. Hover on  '+' icon.
+#. Hover on  the '+' icon.
 
 .. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
 |
@@ -77,7 +77,7 @@ To do this, follow these steps:
 |
 |
 
-#.   Hover over the '+' button and click  **Add Entity**.
+#.   Hover over on the '+' icon and click  **Add Entity**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
 
@@ -85,7 +85,7 @@ To do this, follow these steps:
 |
 
 
-#.   Hover over on the '+' and click  **Image**.
+#.   Hover over on the '+' icon and click  **Image**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_hoverimage.PNG
 
