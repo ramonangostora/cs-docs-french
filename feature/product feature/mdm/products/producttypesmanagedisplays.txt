@@ -65,10 +65,9 @@ To do this, follow these steps:
 #.    To add more products, click **Return**, and repeat the previous steps.
 
 .. image:: /feature/_images/mdmimages/managedisplays_addedsuccesfullyandreturn.PNG
-|
-|
 
-.. image:: /feature/_images/mdmimages/managedisplays_returned.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_imageadded.PNG
+
 |
 |
 
@@ -81,18 +80,33 @@ To do this, follow these steps:
 #.   Hover over the '+' button and click  **Add Entity**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
+
 |
 |
 
-#.   Hover over the '+' sign and click **Image**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_hoverimage.png
+#.   Hover over on the '+' and click  **Image**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_hoverimage.PNG
+
+
+
+.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess1.PNG
+
+|
+|
+#.   Click **Add Image** again.
+
+.. image:: /feature/_images/mdmimages/managedisplays_imageagain.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess2.PNG
+
 |
 |
 
-#.   To view the added image, click **Relationships** tab.
+#.   View bundle on the top section of General tab.
 
-.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess.png
+.. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
+
 |
 |
 
