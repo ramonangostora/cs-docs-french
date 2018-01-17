@@ -103,7 +103,7 @@ To do this, follow these steps:
 |
 |
 
-#.   View bundle on the top section of General tab.
+#.   View bundle on the top section of the page.
 
 .. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
 
