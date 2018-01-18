@@ -7,9 +7,10 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 
 
 ====================    =============================================================================================================================================================
-**Description:**        * Classify different objects using taxonomies.
-                        * Easily map an object to various concepts.
-                        * Taxonomies can represent related concepts to different levels of taxonomy branches.
+**Description:**        * Classification of different objects is made possible by managing taxonomies.
+                        * This feature is about mapping an object to various concepts.
+                        * Taxonomies can represent related concepts that can be used to connect a product
+                          to different levels of taxonomy branches.
 
 **Related Topic:**      * *Multi-Taxonomy Assignment*
                         * *Product Classification via Taxonomies*
@@ -32,9 +33,7 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 How to do: Simple Taxonomy Tree
 ================================
 
-Creating a simple taxonomy tree is a breeze, and here's how to do it.
-
-|
+With a simple taxonomy tree, you get a simple classification that works. Here's how to do it.
 
 |
 
@@ -92,7 +91,7 @@ Creating a simple taxonomy tree is a breeze, and here's how to do it.
 
 |
 
-#. Go to the Home screen, hover on the "+" icon, and select the product.
+#. Go to PIM, hover on the "+" icon, and select the product.
 
 .. image:: /feature/mdm/_images/managetaxonomy_selectproduct1.png
 
