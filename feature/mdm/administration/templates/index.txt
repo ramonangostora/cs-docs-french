@@ -1,0 +1,8 @@
+======================================
+Users and Permissions - View Templates
+======================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageviewtemplates
