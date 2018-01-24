@@ -9,3 +9,4 @@ Administration
    property/index
    templates/index
    permissions/index
+   simpletaxonomytree/index
