@@ -72,5 +72,10 @@ To do this feature, follow these steps:
 .. image:: /feature/_images/mdmimages/timelineandhistory_comparetheselectedversionswithlatest.PNG
 |
 
+<<<<<<< HEAD:feature/product feature/mdm/general/timelineandhistory/compareproductrevisions.txt
 .. image:: /feature/_images/mdmimages/line-png-32.png
+=======
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
+>>>>>>> b605e4e36ef72da1794b225d53fa7af753ecf88c:feature/mdm/general/timelineandhistory/compareproductrevisions.txt
    :alt: Contentsphere line

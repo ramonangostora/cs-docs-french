@@ -23,7 +23,7 @@ so that the users can narrow down items using the specified criteria.
 
                             Number attribute can have conditions such as *range, greater than, less than*, etc.
 
-                            Text attibute can have conditions such as *starts with, ends with, contains*, etc.
+                            Text attribute can have conditions such as *starts with, ends with, contains*, etc.
 
 =================       =============================================================================================================================================================
 
@@ -76,3 +76,7 @@ To do a Parametric Search, follow these steps:
 
 .. image:: /feature/_images/mdmimages/notemultiplecriteria.PNG
 |
+
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
+   :alt: Contentsphere line
