@@ -6,3 +6,5 @@ Administration
    :maxdepth: 1
 
    datamodelrelationships/index
+   property/index
+   templates/index
