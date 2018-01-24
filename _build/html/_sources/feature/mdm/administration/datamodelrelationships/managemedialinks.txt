@@ -1,0 +1,81 @@
+===================
+Manage Media Links
+===================
+The Manage Media Links feature provides the functionality to set up a relationship (or linking) between a product and an asset.
+
+
+====================      ===============================================================================================================================================================
+**Description:**          * This feature allows the linking of products to various assets like *Images, Videos, PDFs,* and other relevant files.
+                            The images if linked to a product will be visible in the product thumbnail and in the relationship tab.
+                            In the image relationship tab, the product to which that image is linked to would be visible too.
+
+**Related Topic:**        * *Define Article Links*
+                          * *Define Relationships*
+
+**Application:**          * Manage Media Links can be used to link a product to its media assets. An example would be an article that is linked to its video files
+                            that will provide additional information regarding the article.
+
+====================      ===============================================================================================================================================================
+
+
+How to do: Manage Media Links
+==============================
+
+To do this feature, follow these steps:
+
+|
+
+#. Click on the **Settings** button.
+
+.. image:: /feature/mdm/_images/managemedialinks_clickonsettings.PNG
+|
+|
+
+#. Go to the *Relationship Configuration* tab.
+
+.. image:: /feature/mdm/_images/managemedialinks_gototherelationshipsconfiguration.PNG
+|
+|
+
+#. Create a new relationship by clicking the '+' icon.
+
+.. image:: /feature/mdm/_images/managemedialinks_createanewrelationship.PNG
+|
+|
+.. image:: /feature/mdm/_images/managemedialinks_createanewrelationship2.PNG
+|
+|
+
+#. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
+   In the example shown, a relationship is created for an *Article* and its *Video* files.
+
+.. image:: /feature/mdm/_images/managemedialinks_providethename.PNG
+|
+|
+
+#. Provide the information for the *Label* and then, select the *Cardinality* of the relationship. In cardinality, choose either *Many* or *One.*
+
+.. image:: /feature/mdm/_images/managemedialinks_providetheinfoforlabel.PNG
+|
+|
+
+#. Tick on the **checkboxes** for the elements to be editable. Select either one or both sides.
+
+.. image:: /feature/mdm/_images/managemedialinks_tickonthecheckboxes.PNG
+|
+|
+
+#. Once done, click on the **Save** button.
+
+.. image:: /feature/mdm/_images/managemedialinks_clickonsavebutton.PNG
+|
+|
+
+#. Once saved, view that the relationship is applied and ready.
+
+.. image:: /feature/mdm/_images/managemedialinks_oncesavedviewthattherelationshipisapplied.PNG
+|
+
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
+   :alt: Contentsphere line
