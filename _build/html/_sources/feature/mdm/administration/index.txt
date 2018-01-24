@@ -8,3 +8,4 @@ Administration
    datamodelrelationships/index
    property/index
    templates/index
+   permissions/index
