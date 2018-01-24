@@ -1,8 +1,10 @@
-==========
+===========
 Governance
-==========
+===========
 
 .. toctree::
    :maxdepth: 1
 
-   
+   mustshouldattributes
+   dataqualityrule
+  
