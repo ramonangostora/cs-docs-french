@@ -1,20 +1,17 @@
-=====================
-CORE E-26: Bulk Edit
-=====================
+==========
+Bulk Edit
+==========
 The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.
 
 
-=================       ===============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I can change the values of multiple attributes/tags for multiple products in a single operation.
-
+===================     ===============================================================================================================================================================
 **Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
                         * This feature can be used on similar or dissimilar types of products.
                         * This feature allows multiple attributes/tags to be edited in a single operation.
                         * This feature allows multiple attributes/tags to be changed and applied to products.
 
-**Prerequisite:**       * *Products* to apply the bulk editing.
+**Related Topic:**      * *Search within Taxonomy*
+                        * *Group By*
 
 **Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
                         * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
@@ -24,7 +21,7 @@ The Bulk Edit feature allows a user to change the values of multiple attributes/
                             A food company changed the tagline or description of their products. The company can select their products in the system and change the
                             description using bulk edit. The feature will also apply the description change to all of their products.
 
-=================       ===============================================================================================================================================================
+===================     ===============================================================================================================================================================
 
 
 How to do: Bulk Edit
@@ -83,5 +80,5 @@ To do mass editing, follow these steps:
 |
 
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line
