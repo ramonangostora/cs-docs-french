@@ -6,14 +6,14 @@ The Compare Product Revision feature allows the selection and comparison of diff
 It also allows merging of specific values from previous versions into the latest version.
 
 
-=================       ===============================================================================================================================================================
+===================     ===============================================================================================================================================================
 
 **Description:**        * This feature allows a user to compare versions of a product/article.
                         * This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.
                         * This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
                           comparison between each offering's features and characteristics.
 
-**Prerequisite:**       * *Product*  created with different versions.
+**Related topics:**       * *Product*  created with different versions.
 
 **Application:**        * A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.
                         * *Example:*
@@ -21,7 +21,7 @@ It also allows merging of specific values from previous versions into the latest
                             For a Red Bull product, a short description is initially provided and then later, some additional changes are done (which are not required).
                             In the timeline, a user can compare these two versions and merge the appropriate values for the description.
 
-=================       ===============================================================================================================================================================
+===================     ===============================================================================================================================================================
 
 
 How to do: Compare Product Revisions

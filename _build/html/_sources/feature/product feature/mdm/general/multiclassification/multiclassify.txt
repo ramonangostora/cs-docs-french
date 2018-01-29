@@ -7,17 +7,14 @@ The Multi-classify Objects feature provides general users the ability to add att
 
 
 
-=================       =============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to add attribution classes to the product in addition to the single Nature Class.
+===================     =============================================================================================================================================================
 
 **Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
                           Attribution classes contain detailed descriptive properties for the product.
                         * The user is able to define the product further by adding properties based on different attribution classes.
 
 
-**Prerequisite:**       * Attribution classes with attributes and tags
+**Related topics:**       * Attribution classes with attributes and tags
 
 **Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products. The nature class would only have general properties.
                         * The attribution class would define the product more in detail.
@@ -25,7 +22,7 @@ The Multi-classify Objects feature provides general users the ability to add att
 
                             For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
                             As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
-=================       =============================================================================================================================================================
+===================     =============================================================================================================================================================
 
 
 

@@ -6,3 +6,8 @@ Administration
    :maxdepth: 1
 
    property/index
+   datamodelrelationships/index
+   property/index
+   templates/index
+   permissions/index
+   simpletaxonomytree/index

@@ -1,6 +1,6 @@
-==============================
-MDM Guide for General Features
-==============================
+=======
+General
+=======
 
 .. toctree::
    :maxdepth: 1
@@ -14,3 +14,4 @@ MDM Guide for General Features
    collectionsandbookmarks/index
    timelineandhistory/index
    cloning/index
+   masseditingbulkapply/index
