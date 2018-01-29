@@ -79,9 +79,5 @@ To classify a product to multiple taxonomies, follow these steps:
 .. image:: /feature/_images/mdmimages/prodclassification_viewtheresults.PNG
 |
 
-<<<<<<< HEAD:feature/product feature/mdm/general/multitaxonomyassignment/productclassificationviataxonomies.txt
 .. image:: /feature/_images/mdmimages/line-png-32.png
-=======
-.. image:: /feature/mdm/_images/line-png-32.PNG
->>>>>>> b605e4e36ef72da1794b225d53fa7af753ecf88c:feature/mdm/general/multitaxonomyassignment/productclassificationviataxonomies.txt
    :alt: Contentsphere line

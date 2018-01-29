@@ -47,10 +47,5 @@ To export product data to an Excel file, follow these steps:
 
 |
 
-<<<<<<< HEAD:feature/product feature/mdm/general/simpleexcelbasedexport/exportproductdatatoexcel.txt
 .. image:: /feature/_images/mdmimages/line-png-32.png
-=======
-
-.. image:: /feature/mdm/_images/line-png-32.PNG
->>>>>>> b605e4e36ef72da1794b225d53fa7af753ecf88c:_build/html/_sources/feature/mdm/general/simpleexcelbasedexport/exportproductdatatoexcel.txt
    :alt: Contentsphere line
