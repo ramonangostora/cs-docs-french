@@ -1,0 +1,8 @@
+===========================
+Mass Editing - Bulk Apply
+===========================
+
+.. toctree::
+   :maxdepth: 1
+
+   bulkedit
