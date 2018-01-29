@@ -6,4 +6,3 @@ Timeline and History
    :maxdepth: 1
 
    compareproductrevisions
-   compareproductrevision
