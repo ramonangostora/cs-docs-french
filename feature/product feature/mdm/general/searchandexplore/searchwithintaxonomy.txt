@@ -24,7 +24,7 @@ The Search within Taxonomy feature allows a user to search (for an article or a 
 
 How to do: Search within Taxonomy
 ==================================
-To do a Search within Taxonomy, follow these steps:
+To do a search within taxonomy, follow these steps:
 
 |
 

@@ -26,7 +26,7 @@ so that the users can narrow down items using the specified criteria.
 
 How to do: Parametric Search
 =============================
-To do a Parametric Search, follow these steps:
+To do a parametric search, follow these steps:
 
 |
 

@@ -20,7 +20,7 @@ The Sort By feature allows a user to view products and assets in the system acco
 
 How to do: Sort By
 ==================================
-To do a Sort By, follow these steps:
+To do a sort by, follow these steps:
 
 |
 

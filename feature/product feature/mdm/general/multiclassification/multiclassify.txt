@@ -11,11 +11,13 @@ The Multi-classify Objects feature provides general users the ability to add att
 
 **Related Topic:**     * Attribution classes with attributes and tags
 
-**Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products. The nature class would only have general properties.
+**Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
+                          The nature class would only have general properties.
                         * The attribution class would define the product more in detail.
                         * *Example:*
 
-                            For an energy drink, the nature class *Single Article* would just contain generic properties for the product, whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
+                            For an energy drink, the nature class *Single Article* would just contain generic properties for the product,
+                            whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
                             As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
 ===================     =============================================================================================================================================================
 
@@ -36,7 +38,7 @@ To do this, follow these steps:
 |
 |
 
-#. To add a Non-Nature class or Attribution class, click **Add Class**.
+#. To add a *Non-Nature* class or *Attribution* class, click **Add Class**.
 
 .. image:: /feature/_images/mdmimages/multiclassify_addnonnature.PNG
 |

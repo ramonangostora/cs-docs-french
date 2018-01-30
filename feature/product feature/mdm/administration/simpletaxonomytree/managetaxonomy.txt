@@ -13,7 +13,6 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 **Related Topic:**      * *Multi-Taxonomy Assignment*
                         * *Product Classification via Taxonomies*
 
-
 **Application:**        * Multi-classify objects.
                         * Drive information through the applied taxonomy.
                         * Give the object a hierarchy to show all related contents.
@@ -34,7 +33,7 @@ With a simple taxonomy tree, you get a simple classification that works. Here's 
 
 |
 
-#. Go to the Home screen and click the Gear icon to go to **Settings**.
+#. Click the **Gear** icon to go to **Settings**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_settings.png
 |

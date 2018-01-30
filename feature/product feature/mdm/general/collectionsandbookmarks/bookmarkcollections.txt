@@ -1,7 +1,7 @@
 ===========================================
 Public or Private Bookmarks and Collections
 ===========================================
-Public or Private Bookmarks and Collections lets you define whether bookmarks and collections are visible to all or only to certain users.
+Public or Private Bookmarks and Collections feature lets you define whether bookmarks and collections are visible to all or only to certain users.
 
 
 ====================    =============================================================================================================================================================
@@ -89,6 +89,8 @@ Bookmarks: Setting a Private Bookmark
 
 *As seen on the image above, the bookmark cannot be viewed by the seller as it is restricted to the admin.*
 
+|
+
 .. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line
 
@@ -131,7 +133,6 @@ Collections: Setting a Public Collection
 #. Once done, the collection can be viewed by all users.
 
 .. image:: /feature/_images/mdmimages/bookmarksncollections_publiccollectionview.PNG
-|
 |
 
 .. image:: /feature/mdm/_images/line-png-32.PNG

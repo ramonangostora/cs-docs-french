@@ -80,7 +80,7 @@ To do this, follow these steps:
 
 |
 
-#. Click on the Back icon at the top left corner.
+#. Click on the **Back** button at the top left corner.
 
 .. image:: /feature/_images/mdmimages/embeddedvariants_clickbackicon.PNG
 |

@@ -2,7 +2,7 @@
 Define Article Links
 =====================
 The Define Article Links feature provides the functionality to set up relationships between articles.
-This linking between article-to-article or product-to-product is bi-directional.
+The linking between article-to-article or product-to-product is bi-directional.
 
 
 ====================      ===============================================================================================================================================================
@@ -39,7 +39,7 @@ To do this feature, follow these steps:
 |
 |
 
-#. Create a new relationship by clicking the '+' icon.
+#. Create a new relationship by clicking the "+" icon.
 
 .. image:: /feature/mdm/_images/definearticlelinks_createanewrelationship.PNG
 |

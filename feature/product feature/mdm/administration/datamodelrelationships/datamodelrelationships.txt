@@ -1,7 +1,7 @@
 ===========================
 Data Model - Relationships
 ===========================
-The Data Model Relationships feature provides information on the various relationships that can be set up in the system between the products, assets, articles, and entities added in the system.
+The Data Model Relationships feature provides information on the various relationships that can be set up between products, assets, articles, and entities.
 
 
 ====================      ===============================================================================================================================================================
