@@ -15,7 +15,7 @@ Product Comparison lets you select and compare products.
                           This is where Product Comparison can help the user in making the right decision when it comes to selecting products.
                         * *Example:*
 
-                            A user wants to buy a sofa. He narrows down his search to the sofas that cost more than $600.
+                            A user wants to buy a sofa. He narrows down his search to sofas that cost more than $600.
                             He then uses Product Comparison to compare the sofas that match the search criteria.
 ==================     =============================================================================================================================================================
 

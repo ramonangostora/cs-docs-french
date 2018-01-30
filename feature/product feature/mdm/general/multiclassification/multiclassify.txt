@@ -9,7 +9,7 @@ The Multi-classify Objects feature provides general users the ability to add att
                           Attribution classes contain detailed descriptive properties for the product.
                         * The user is able to define the product further by adding properties based on different attribution classes.
 
-**Related Topic:**     * Attribution classes with attributes and tags
+**Related Topic:**      * Attribution classes with attributes and tags
 
 **Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
                           The nature class would only have general properties.

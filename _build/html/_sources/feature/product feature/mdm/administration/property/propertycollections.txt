@@ -1,20 +1,20 @@
 =====================
 Property Collections
 =====================
-Property Collection feature allows an administrator to group the attributes and tags under one area.
+This feature allows an administrator to group the attributes and tags under one area.
 
 
 ===================     =============================================================================================================================================================
-
-**Description:**        * A property collection is a table that groups the attributes, tags, and roles in one section to be added to a class.
+**Description:**        * A property collection is a table that groups the attributes, tags, and roles in one section that will be added to a class.
 
 **Related Topic:**      * Attributes and tags created
 
-**Application:**        * A property collection can hold attributes and tags for similar type of information or content.
+**Application:**        * A property collection can hold attributes and tags for similar types of information or content.
                         * *Example:*
 
                             For the property collection "General Information", the attributes (name, PID, SKU, GTIN, Description)
                             and tags (Brands) are brought under one property collection.
+
 ===================     =============================================================================================================================================================
 
 
@@ -26,7 +26,7 @@ To do this, follow these steps:
 
 |
 
-#. Go to Settings.
+#. Go to *Settings*.
 
 .. image:: /feature/_images/mdmimages/propertycollection_gotosettings.PNG
 |
@@ -44,7 +44,7 @@ To do this, follow these steps:
 |
 |
 
-#. Enter the name for the property collection.
+#. Enter the name of the property collection.
 
 .. image:: /feature/_images/mdmimages/propertycollection_name.PNG
 |
