@@ -6,6 +6,5 @@ Contextualization - Attributes and Embedded Objects
    :maxdepth: 1
 
 
-
    embeddedvariants
    targetandchannel

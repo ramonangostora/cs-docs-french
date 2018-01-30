@@ -1,33 +1,22 @@
 ====================
 Collection Hierarchy
 ====================
+Collection Hierarchy lets you organize and view your collections within a structured hierarchy.
 
 
+====================    =============================================================================================================================================================
+**Description:**        * Collection Hierarchy creates levels in the hierarchy for the products.
+                        * Products can be copied or moved between these levels.
 
+**Related Topic:**      * *Public or Private Bookmarks and Collections*
+                        * *Manage Products across Collections*
 
-Collection Hierarchy is a feature that allows users to view their collections within a structured hierarchy of collections.
-
-=================       =============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to organize and view my collections within a structured hierarchy of collections.
-
-**Description:**        * The Collection Hierarchy creates levels in the hierarchy for the products.
-                        * The products can be moved or copied between these levels.
-
-**Prerequisite:**       * Collection that contains products
-
-**Application:**        * Hierarchies in collection helps to categorically structure the products or group of products.
-                        * The collection can contain any number of products and can be moved or copied between the levels of hierarchies.
+**Application:**        * Categorically structure the products in a product group.
+                        * A collection can contain any number of products, and these products can be copied or moved between the levels of hierarchies.
                         * *Example:*
 
-                            A collection of furniture products having hierarchy level based on product type such as office and home furniture, chairs, tables, and others.
-
-=================       =============================================================================================================================================================
-
-
-
-
+                            A collection of furniture products can have hierarchy level based on product type such as office and home furniture, chairs, tables and others.
+====================    =============================================================================================================================================================
 
 
 How to do: Collection Hierarchy
@@ -41,31 +30,24 @@ To do this, follow these steps:
 #. Select a collection and click **Organize**.
 
 .. image:: /feature/_images/mdmimages/colhier_clickorganize.PNG
-
 |
-
 |
 
 #. On the collections page, click **Add New Collection** and enter the name of the new collection.
 
 .. image:: /feature/_images/mdmimages/colhier_addnewcollection.PNG
-
 |
-
 .. image:: /feature/_images/mdmimages/colhier_entername.PNG
-
 |
-
 |
 
 #. Repeat the previous step to create a hierarchy of the product, accordingly.
 
 .. image:: /feature/_images/mdmimages/colhier_added1.PNG
-
 |
-
 .. image:: /feature/_images/mdmimages/colhier_added2.PNG
 |
 
-.. image:: /feature/_images/mdmimages/line-png-32.png
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

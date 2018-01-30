@@ -1,8 +1,6 @@
-==================
+===================
 Manage Permissions
-==================
-
-
+===================
 Manage Permissions lets you define what the user can do or not.
 
 
@@ -19,9 +17,6 @@ Manage Permissions lets you define what the user can do or not.
 ===================     =============================================================================================================================================================
 
 
-
-
-
 How to do: Manage Permissions
 =============================
 
@@ -29,53 +24,40 @@ Choose who gets to do what or not, and here's how to do it.
 
 |
 
-|
-
 #. On the home page, click the Gear icon to go to **Settings**.
 
 .. image:: /feature/mdm/_images/permissions_settings.png
-
 |
-
 |
 
 #. Click the **Permissions Configuration** button.
 
 .. image:: /feature/mdm/_images/permissions_config.png
-
 |
-
 |
 
 #. On the left pane, select a role.
 
 .. image:: /feature/mdm/_images/permissions_listofroles1.png
-
 |
-
 .. image:: /feature/mdm/_images/permissions_listofroles2.png
-
+|
 |
 
 #. Select a class and set the permission for Create, Read, Update, and Delete. Do the same for taxonomy. A green circle indicates that the function is enabled for that item.
 
 .. image:: /feature/mdm/_images/permissions_create.png
-
 |
-
 .. image:: /feature/mdm/_images/permissions_update.png
-
 |
-
 .. image:: /feature/mdm/_images/permissions_delete.png
-
+|
 |
 
 #. The image below is an example that shows the role "Accountable" has been assigned the following rights.
 
 .. image:: /feature/mdm/_images/permissions_accountable.png
-
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

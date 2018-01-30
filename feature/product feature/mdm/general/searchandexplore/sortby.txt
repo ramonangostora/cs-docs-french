@@ -1,14 +1,13 @@
 =======
 Sort By
 =======
-
 The Sort By feature allows a user to view products and assets in the system according to a specific attribute sort order.
 
-===================     =============================================================================================================================================================
 
+===================     =============================================================================================================================================================
 **Description:**        * The Sort By feature allows the use of filters to sort products in ascending or descending order.
 
-**Related topics:**       * *Sort By Filter*  to arrange the products in ascending or descending order.
+**Related Topic:**      * *Group By*
 
 **Application:**        * A user can sort the products in the desired order, either ascending or descending.
                         * The feature gives the ease to search for a product by arranging it by the user's desired order.
@@ -56,5 +55,6 @@ To do a Sort By, follow these steps:
   .. image:: /feature/_images/mdmimages/sort_by_05.PNG
   |
 
-.. image:: /feature/_images/mdmimages/line-png-32.png
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

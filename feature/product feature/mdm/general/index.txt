@@ -5,13 +5,13 @@ General
 .. toctree::
    :maxdepth: 1
 
-   contextualization/index
-   multiclassification/index
    searchandexplore/index
-   multitaxonomyassignment/index
-   simpleexcelbasedexport/index
-   selectandcompare/index
    collectionsandbookmarks/index
+   multitaxonomyassignment/index
+   contextualization/index
    timelineandhistory/index
    cloning/index
+   simpleexcelbasedexport/index
+   multiclassification/index
    masseditingbulkapply/index
+   selectandcompare/index

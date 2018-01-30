@@ -41,7 +41,7 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Click on the '+' icon to create a new attribute. Create 3 new attributes.
+#. Click on the "+" icon to create a new attribute. Create 3 new attributes.
 
 .. image:: /feature/mdm/_images/mustshouldattributes_clicktheicontocreatenewattribute.PNG
 |
@@ -97,7 +97,7 @@ To do this data governance feature, follow these steps:
 |
 |
 
-#. Hover over the '+' icon and wait for the menu to appear. In the menu, go to the class created (e.g. *Class_1*).
+#. Hover over the "+" icon and wait for the menu to appear. In the menu, go to the class created (e.g. *Class_1*).
 
 .. image:: /feature/mdm/_images/mustshouldattributes_hoverovertheicon.PNG
 |
