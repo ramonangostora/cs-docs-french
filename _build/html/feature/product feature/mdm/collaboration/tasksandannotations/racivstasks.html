@@ -1,0 +1,363 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>RACI-VS Tasks &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="General" href="../../general/index.html" />
+    <link rel="prev" title="Public/Private Tasks" href="publicprivatetasks.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="publicprivatetasks.html" title="Public/Private Tasks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../../general/index.html" title="General">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product feature-mdm-collaboration-tasksandannotations-racivstasks">
+            
+  <div class="section" id="s-raci-vs-tasks">
+<span id="raci-vs-tasks"></span><h1>RACI-VS Tasks<a class="headerlink" href="#raci-vs-tasks" title="Permalink to this headline">¶</a></h1>
+<p>The RACI-VS Tasks is a feature that allows users to create a task and assign roles that will check each stage of the task until it is completed and signed off.</p>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature allows users to create tasks and assign the checking of the task to users using different roles.</li>
+<li>The role assigned to a user can be one of the following: <em>Responsible, Accountable, Consulted, Informed, Verifier, and Sign off</em>.
+These roles have different levels of rights and permissions in the system.
+The life cycle of a task also depends on the decision of the user assigned to a specific role.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related Topic:</strong></td>
+<td><ul class="first last simple">
+<li><em>Tasks and Annotations</em></li>
+<li><em>Task Dashboard</em></li>
+<li><em>Public/Private Tasks</em></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last simple">
+<li>The review and approval of tasks can be assigned to the roles (roles may then be assigned to users).
+Each role will have its set of rights and permissions in the system.
+The task flow explains the various stages of a task starting from <em>Planned</em> (initial status) until <em>Signed off</em>.
+It also shows the different roles in charge of validation before the task is endorsed to the next step.
+Refer to the <em>Task Flow</em> image in the <em>How to do</em> section.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-raci-vs-tasks">
+<span id="how-to-do-raci-vs-tasks"></span><h2>How to do: RACI-VS Tasks<a class="headerlink" href="#how-to-do-raci-vs-tasks" title="Permalink to this headline">¶</a></h2>
+<p>To do this feature, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>PIM</em> and select a product.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_gotoPIM.PNG" src="../../../../../_images/racivstasks_gotoPIM.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Tasks</strong> tab to create a new task.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_clickonthetasktab.PNG" src="../../../../../_images/racivstasks_clickonthetasktab.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the <em>Content Level</em> task.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_clickonthecontentleveltask.PNG" src="../../../../../_images/racivstasks_clickonthecontentleveltask.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on <strong>Add New Task</strong> button to create a new task.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_clickontheaddnewtaskbutton.PNG" src="../../../../../_images/racivstasks_clickontheaddnewtaskbutton.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter the name of the new task then click on the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_enterthenameofthenewtask.PNG" src="../../../../../_images/racivstasks_enterthenameofthenewtask.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the users for the roles in the tasks then click on the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_selecttheusers.PNG" src="../../../../../_images/racivstasks_selecttheusers.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/racivstasks_selecttheusers2.PNG" src="../../../../../_images/racivstasks_selecttheusers2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note: The task flow (including the roles involved) is shown below:</em></p>
+<img alt="../../../../../_images/racivstasks_taskprocessflow.PNG" src="../../../../../_images/racivstasks_taskprocessflow.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><ol class="arabic simple">
+<li>The user who created the task, by default, is the <strong>Accountable</strong> user. The <strong>Accountable</strong> user can change the task from <em>Planned</em> to the <em>Ready</em> state.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_plannedtoready.PNG" src="../../../../../_images/racivstasks_plannedtoready.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once in the <em>Ready</em> state, the <strong>Responsible</strong> user acknowledges the task and sets it to either <em>Declined</em> or <em>In Progress</em>.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_oncethereadystate.PNG" src="../../../../../_images/racivstasks_oncethereadystate.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>When the task is completed by the <strong>Accountable</strong> user, the <strong>Responsible</strong> user acknowledges and sets the status to <em>Done</em>.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_whenthetaskiscompleted.PNG" src="../../../../../_images/racivstasks_whenthetaskiscompleted.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once the status is <em>Done</em>, the <strong>Verifier</strong> checks the completion of the task and can set the status back to <em>In Progress</em>. If there are no changes, the <strong>Verifier</strong> endorses it to <em>Verified</em> status.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_oncethestatusisdone.PNG" src="../../../../../_images/racivstasks_oncethestatusisdone.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>If the <strong>Verifier</strong> sets it back to <em>In Progress</em>, the <strong>Accountable</strong> user will have to ensure the completion of the task again so that the <strong>Responsible</strong> user can set it to <em>Done</em> and then, the <strong>Verifier</strong> will validate. If the status is set to <em>Verified</em>, move to the next step.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_iftheverifiersetsitback.PNG" src="../../../../../_images/racivstasks_iftheverifiersetsitback.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once <em>Verified</em>, the <strong>Sign-off</strong> user can set it back to <em>In Progress</em> wherein the cycle will restart. If everything is good, the <strong>Sign-off</strong> user can set it to <em>Signed off</em>.</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_onceverified.PNG" src="../../../../../_images/racivstasks_onceverified.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>If <em>Signed off</em>, the final status will look like the image shown below:</li>
+</ol>
+<img alt="../../../../../_images/racivstasks_thefinalsignoff.PNG" src="../../../../../_images/racivstasks_thefinalsignoff.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-321.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">RACI-VS Tasks</a><ul>
+<li><a class="reference internal" href="#how-to-do-raci-vs-tasks">How to do: RACI-VS Tasks</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="publicprivatetasks.html">Public/Private Tasks</a></li>
+    
+    
+      <li>Next: <a href="../../general/index.html">General</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">Collaboration</a>
+        
+          <ul><li><a href="index.html">Tasks and Annotations</a>
+        
+        <ul><li>RACI-VS Tasks</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Jan 31, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="publicprivatetasks.html" title="Public/Private Tasks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../../general/index.html" title="General">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

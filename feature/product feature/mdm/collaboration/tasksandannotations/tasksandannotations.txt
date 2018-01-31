@@ -1,0 +1,75 @@
+======================
+Tasks and Annotations
+======================
+The Tasks and Annotations feature allows users to add tasks in the system.  It also allows comments or notes to be added to the tasks.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * Tasks are action events created for an article that are intended for a user. In the system, the tasks contain a description of what action should be done.
+                        * The Tasks feature has a comment section where users can put comments or questions regarding the task.
+                        * The Tasks feature also helps a user schedule different actions in the system.
+
+**Related Topic:**      * *Task Dashboard*
+                        * *Public/Private Tasks*
+                        * *RACI-VS Tasks*
+
+**Application:**        * Tasks are created for action events related to articles or assets in the system.  These tasks can be for any event dedicated to any user.
+                        * Tasks allow comments or notes from other users that will give more information on the action needed.
+                        * *Example:*
+
+                            A task is created to change the image of an article. The task is called **Change Asset for Article**.
+                            The task can have a note from a different user saying *"Image resolution should be 720p"*.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Tasks and Annotations
+=================================
+To create tasks or add comments to the tasks, follow these steps:
+
+|
+
+#. Go to *PIM* and select a product.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_gotoPIM.PNG
+|
+|
+
+#. Click on the **Tasks** tab to create a new task.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_clickonthetasktab.PNG
+|
+|
+
+#. Select the *Content Level* task.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_clickonthecontentleveltask.PNG
+|
+|
+
+#. Click on **Add New Task** button to create a new task.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_clickontheaddnewtaskbutton.PNG
+|
+.. image:: /feature/_images/mdmimages/tasksandannotations_clickontheaddnewtaskbutton2.PNG
+|
+|
+
+#. Enter the name of the new task then click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_enterthenameofthenewtask.PNG
+|
+|
+
+#. Add the *Description*, *Comments*, and other details to the task created then click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/tasksandannotations_editthedescriptionandaddcomments.PNG
+|
+.. image:: /feature/_images/mdmimages/tasksandannotations_editthedescriptionandaddcomments2.PNG
+|
+.. image:: /feature/_images/mdmimages/tasksandannotations_editthedescriptionandaddcomments3.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
