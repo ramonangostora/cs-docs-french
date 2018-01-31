@@ -1,14 +1,14 @@
 ========
 Group By
 ========
-
 The Group By feature allows a user to view a group of objects in the system by specifying an attribute.
+
 
 ===================     =============================================================================================================================================================
 
 **Description:**        * The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
 
-**Related topics:**       * *Group By*  to make groups according to *Tags* and *Attributes*.
+**Related Topic:**      * *Group By*  to make groups according to *Tags* and *Attributes*.
 
 **Application:**        * The feature provides a user the functionality to view a grouping of products with the desired sequence of attributes and tags (filterable).
                         * The feature allows a user to specify the sequence of grouping attributes.
@@ -21,7 +21,7 @@ The Group By feature allows a user to view a group of objects in the system by s
 
 How to do: Group By
 ====================
-To do a Group By, follow these steps:
+To do a group by, follow these steps:
 
 |
 

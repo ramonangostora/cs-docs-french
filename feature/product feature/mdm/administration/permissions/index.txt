@@ -1,6 +1,6 @@
-==============================================
-Users and Permissions: Class Level CRUD Rights
-==============================================
+================================================
+Users and Permissions - Class Level CRUD Rights
+================================================
 
 .. toctree::
    :maxdepth: 1

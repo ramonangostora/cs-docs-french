@@ -1,23 +1,19 @@
 =================
 Parametric Search
 =================
-
 The Parametric Search feature provides general users the ability to search for products or assets using various data fields
 so that the users can narrow down items using the specified criteria.
 
 
-=================       =============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to search for products or assets using various/detailed criteria so that I can narrow down
-                          items using the fine criteria.
-
-**Description:**        * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
+===================     =============================================================================================================================================================
+**Description:**        * This feature allows searching for products or assets using various/detailed criteria that can narrow down items using the fine criteria.
+                        * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
                         * A user can put the conditions for the filter values.
 
-**Prerequisite:**       * *Advanced Filter*  to set the values in *Tags*, *Attributes*, and *Roles*.
+**Related Topic:**      * *Search within Taxonomy*
+                        * *Multi-faceted Search*
 
-**Application:**        * A user can use the advanced filter for the conditional search.
+**Application:**        * A user can use the advanced filter for conditional search.
                         * A user can use specific detailed search to narrow down items with the help of the fine criteria.
                         * *Examples:*
 
@@ -25,12 +21,12 @@ so that the users can narrow down items using the specified criteria.
 
                             Text attribute can have conditions such as *starts with, ends with, contains*, etc.
 
-=================       =============================================================================================================================================================
+===================     =============================================================================================================================================================
 
 
 How to do: Parametric Search
 =============================
-To do a Parametric Search, follow these steps:
+To do a parametric search, follow these steps:
 
 |
 

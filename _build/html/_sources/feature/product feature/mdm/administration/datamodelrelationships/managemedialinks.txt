@@ -37,7 +37,7 @@ To do this feature, follow these steps:
 |
 |
 
-#. Create a new relationship by clicking the '+' icon.
+#. Create a new relationship by clicking the "+" icon.
 
 .. image:: /feature/mdm/_images/managemedialinks_createanewrelationship.PNG
 |

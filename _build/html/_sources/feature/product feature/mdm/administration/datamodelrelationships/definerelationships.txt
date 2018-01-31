@@ -35,7 +35,7 @@ To do this feature, follow these steps:
 |
 |
 
-#. Create a new relationship by clicking the '+' icon.
+#. Create a new relationship by clicking the "+" icon.
 
 .. image:: /feature/mdm/_images/definerelationships_createanewrelationship.PNG
 |
@@ -44,7 +44,7 @@ To do this feature, follow these steps:
 |
 |
 
-#. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
+#. Provide a name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
    In the example shown, a relationship is created for *Article* and the *Region* articles.
 
 .. image:: /feature/mdm/_images/definerelationships_providethenameoftherelationship.PNG

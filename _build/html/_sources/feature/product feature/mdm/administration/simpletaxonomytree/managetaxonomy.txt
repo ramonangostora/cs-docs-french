@@ -1,8 +1,6 @@
 ===============
 Manage Taxonomy
 ===============
-
-
 Manage Taxonomy lets you add taxonomies to easily classify the products.
 
 
@@ -14,7 +12,6 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 
 **Related Topic:**      * *Multi-Taxonomy Assignment*
                         * *Product Classification via Taxonomies*
-
 
 **Application:**        * Multi-classify objects.
                         * Drive information through the applied taxonomy.
@@ -29,7 +26,6 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 ====================    =============================================================================================================================================================
 
 
-
 How to do: Simple Taxonomy Tree
 ================================
 
@@ -37,91 +33,69 @@ With a simple taxonomy tree, you get a simple classification that works. Here's 
 
 |
 
-#. Go to the Home screen and click the Gear icon to go to **Settings**.
+#. Click the **Gear** icon to go to **Settings**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_settings.png
-
 |
-
 |
 
 #. Click the **Taxonomy Configuration** button.
 
 .. image:: /feature/mdm/_images/managetaxonomy_taxonomyconfig.png
-
 |
-
 |
 
 #. Click on the "+" icon to create a new taxonomy.
 
 .. image:: /feature/mdm/_images/managetaxonomy_newtaxonomy.png
-
 |
-
 |
 
 #. Enter the necessary data and click **Save**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_filldata.png
-
 |
-
 |
 
 #. To make a hierarchy, click on the taxonomy then click **Create**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_makehierarchy.png
-
 |
-
 |
 
 #. Click the "+" icon to add property collection and click **Apply**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection1.png
-
 |
-
 .. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection2.png
-
 |
-
 .. image:: /feature/mdm/_images/managetaxonomy_addpropertycollection3.png
-
+|
 |
 
-#. Go to PIM, hover on the "+" icon, and select the product.
+#. Go to PIM. Hover on the "+" icon and select the product.
 
 .. image:: /feature/mdm/_images/managetaxonomy_selectproduct1.png
-
 |
-
 .. image:: /feature/mdm/_images/managetaxonomy_selectproduct2.png
-
+|
 |
 
 #. Enter the necessary data and click **Add Taxonomy**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_addtaxonomy.png
-
 |
-
 |
 
 #. For additional classification, click **Classify further**.
 
 .. image:: /feature/mdm/_images/managetaxonomy_classifyfurther.png
-
 |
-
 .. image:: /feature/mdm/_images/managetaxonomy_classifyfurther2.png
-
 |
-
 .. image:: /feature/mdm/_images/managetaxonomy_classifyfurther3.png
-
 |
 
-.. image:: /feature/mdm/_images/line-png-32.png
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

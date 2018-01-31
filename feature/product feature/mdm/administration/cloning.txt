@@ -1,6 +1,0 @@
-====================
-Manage Buyer Catalog
-====================
-
-.. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere log in screen

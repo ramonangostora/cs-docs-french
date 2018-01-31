@@ -7,8 +7,7 @@ Administration
 
    property/index
    datamodelrelationships/index
-   property/index
-   templates/index
    permissions/index
+   templates/index
    simpletaxonomytree/index
    datamodelattributemanagement/index

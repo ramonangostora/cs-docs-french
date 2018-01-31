@@ -1,33 +1,23 @@
 ==================
 Product Comparison
 ==================
+Product Comparison lets you select and compare products.
 
-The Product Comparison feature allows users to compare products and their properties.
 
-=================       =============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to compare products so that I can compare their properties.
-
-**Description:**        * The product comparison view is a feature that compares two or more products.
-                        * This feature gives an overview of the similarities and differences of comparable products.
+==================     =============================================================================================================================================================
+**Description:**        * This feature gives an overview of the similarities and differences of comparable products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
-                          It allows for easy comparison between the features and characteristics of each product.
-                        * This feature also compares the products along with their relationships.
+                        * Products are compared not only based on their attributes but also on their relationships.
 
-**Prerequisite:**       * Selecting the products to compare
-                        * Clearly differentiated products or services
+**Related Topic:**      * *Parametric Search*
 
-**Application:**        * When people have to choose among many alternatives, it is hard to compare the pros and cons of each alternative.
-                          This is where comparison plays a big role.
+**Application:**        * With a number of viable products, it is important to consider the pros and cons of each product.
+                          This is where Product Comparison can help the user in making the right decision when it comes to selecting products.
                         * *Example:*
 
-                            A user wants to buy a sofa so he uses filter to narrow down his search to the sofas that cost more than $600.
-                            Having a list of sofas that match the criteria, the user can use the comparison view feature to compare two or more sofas along with their properties.
-=================       =============================================================================================================================================================
-
-
-
+                            A user wants to buy a sofa. He narrows down his search to sofas that cost more than $600.
+                            He then uses Product Comparison to compare the sofas that match the search criteria.
+==================     =============================================================================================================================================================
 
 
 How to do: Product Comparison
@@ -38,30 +28,27 @@ To do this, follow these steps:
 
 |
 
-|
-
 #. Select two or more products to be compared.
 
-.. image:: /feature/_images/mdmimages/productcomparison_selectproducts.png
-
+.. image:: /feature/_images/mdmimages/productcomparison_selectproducts.PNG
+|
 |
 
-|
-
-#. Click the Comparison View icon found at the top of the products.
+#. Click the **Comparison View** button found at the top of the products.
 
 .. image:: /feature/_images/mdmimages/productcomparison_selecticon.PNG
-
 |
-
 |
 
 #. Comparison View enables the user to compare the data of two products.
 
 .. image:: /feature/_images/mdmimages/productcomparison_comparisonview.PNG
+|
+
+*Note:  The indicators for comparing are shown at the right side. The red icon indicates "less than", the green icon with "=" indicates "equal to", and the green icon with up arrow indicates "greater than".*
 
 |
 
-   The indicators for comparing are shown at the right side. The red icon indicates *less than*, the green icon with "=" indicates *equal to*, and the green icon with up arrow indicates *greater than*.
-  .. image:: /feature/_images/mdmimages/line-png-32.png
-      :alt: Contentsphere line
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -12,7 +12,7 @@ The Data Quality Rule feature provides the functionality to create and set rules
                            **Rule Violation:** alerts a user about a violated rule with an error message.
                            **Normalization:** reduces data redundancy and improves the data integrity.
 
-**Related Topic:**       * *Must/Should Attributes*
+**Related Topic:**      * *Must/Should Attributes*
 
 **Application:**        * Data Quality Rule restricts the entry of unacceptable data in the system.
                         * Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.
@@ -92,16 +92,16 @@ To do this data governance feature, follow these steps:
   |
   |
 
-  #. Hover over the '+' icon and select the class.
+  #. Hover over the "+" icon and select the class.
 
   .. image:: /feature/mdm/_images/dataqualityrules_hoverovertheiconandselecttheclass.PNG
   |
   .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG
+  |
 
   *Note: As indicated in the rule, the field cannot be empty. In runtime, if it's blank, it will be highlighted for rule violation. When you click on the warning message, the applied rule notification will appear.*
 
-  |
-
+|
 
 .. image:: /feature/mdm/_images/line-png-32.PNG
    :alt: Contentsphere line

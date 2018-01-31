@@ -1,34 +1,24 @@
-==========================
+===========================
 Search and Store Bookmarks
-==========================
+===========================
+Search and Store Bookmarks lets you search for products using various criteria to easily identify items of interest.
 
 
+====================    =============================================================================================================================================================
+**Description:**        * Searches can be saved and viewed later to see the newly added products that satisfy the search criteria.
+                        * Bookmarks allow saving of favorite products as part of a watchlist, enabling users to view and compare products.
+                        * Collections include the products added by the user. The products in a collection stay the same unless a user adds or removes products.
 
+**Related Topic:**      * *Public and Private Bookmarks and Collections*
 
-Search and Store Bookmarks is a feature that allows users to search for products using various criteria so that users can easily identify the items that they want to work on.
-
-=================       =============================================================================================================================================================
-**Version:**            1.0
-
-**User Story:**         * As a user, I want to search for products or assets using various criteria so that I easily identify the items that I want to work on
-
-**Description:**        * The user can save his search and visit it later to see newly added products that satisfy the search criteria.
-                        * Bookmarks allow users to save their favorite products as part of a watchlist, enabling them to save their favorite products so that they can easily find such products for comparison or for later view. Matching products are automatically incluced.
-                        * Collection includes the products added by the user. A collection always contains the same products unless the user removes them or add other products.
-
-**Prerequisite:**       * Selecting products to be added to your bookmarks
-
-**Application:**        * Users can easily find their favorite products by bookmarking them.
-                        * A bookmark is auto-updated with products matching the criteria.
+**Application:**        * Easily find favorite products by bookmarking them.
+                        * Never miss out on applicable products as bookmarks are auto-updated.
                         * *Example:*
 
                             A retailer deals with a mixture of washing machines and creates a bookmark named 'fully automated' to group only the fully automated washing machines.
-                            If the user wants to see the fully automated washing machines, they search for the keyword 'fully automated' in the bookmark search bar.
+                            If the user wants to see the fully automated washing machines, he searches for the keyword 'fully automated' in the bookmark search bar.
                             Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.
-
-=================       =============================================================================================================================================================
-
-
+====================    =============================================================================================================================================================
 
 
 How to do: Search and Store Bookmarks
@@ -37,9 +27,9 @@ How to do: Search and Store Bookmarks
 This **How To** guide provides instructions on how to search for products or assets using various criteria.
 It also provides details on how to save the search results and how to visit these results at a later time. To do this, follow these steps:
 
+|
 
-
-Storing a bookmark
+Storing a Bookmark
 ------------------
 
 |
@@ -47,43 +37,35 @@ Storing a bookmark
 #. Go to PIM and click **Advanced Filters**.
 
 .. image:: /feature/_images/mdmimages/searchnstore_gotopim.PNG
-
+|
 |
 
 #. Select the desired filters and click **Apply**.
 
 .. image:: /feature/_images/mdmimages/searchnstore_selectfilter.PNG
-
+|
 |
 
-|
-
-#. Click the Bookmark icon.
+#. Click the **Bookmark** icon.
 
 .. image:: /feature/_images/mdmimages/searchnstore_clickbookmarks.PNG
-
 |
-
 |
 
 #. Enter the name of the bookmark and click **Create**.
 
 .. image:: /feature/_images/mdmimages/searchnstore_entername.PNG
-
 |
-
 |
 
 #. Bookmark has been added successfully.
 
 .. image:: /feature/_images/mdmimages/searchnstore_addedsuccessfully.PNG
-
+|
 |
 
-|
 
-
-Searching for a bookmark
+Searching for a Bookmark
 ------------------------
 
 |
@@ -91,43 +73,36 @@ Searching for a bookmark
 #. Go to PIM.
 
 .. image:: /feature/_images/mdmimages/searchnstore_gotopim2.PNG
-
+|
 |
 
-|
-
-#. On the search bar, click the Bookmark icon.
+#. On the search bar, click the **Bookmark** icon.
 
 .. image:: /feature/_images/mdmimages/searchnstore_searchbar.PNG
-
 |
-
 |
 
 #. Search for and click the bookmark.
 
 .. image:: /feature/_images/mdmimages/searchnstore_searchbookmark.PNG
-
 |
-
 |
 
 #. Click **Open**.
 
 .. image:: /feature/_images/mdmimages/searchnstore_clickopen.PNG
-
 |
-
 |
 
 #. The bookmark is displayed.
 
 .. image:: /feature/_images/mdmimages/searchnstore_bookmarkopened.PNG
+|
 
 *Note: The bookmark page will be updated automatically in case there are new products that satisfy the criteria.*
 
 |
 
 
-.. image:: /feature/_images/mdmimages/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
