@@ -6,3 +6,4 @@ Products
    :maxdepth: 1
 
    producttypesmanagedisplays
+   producttypesindividualarticle/index

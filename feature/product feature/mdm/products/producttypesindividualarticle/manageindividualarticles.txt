@@ -1,0 +1,123 @@
+==========================
+Manage Individual Articles
+==========================
+
+Manage Individual Articles enables you to manage a product at the level of a Single Article. Any attribute, relationship or classification can be managed at the level of an individual Single Article.
+
+===================  =================================================================================================================================================================
+
+**Description:**     * A Single Article is the basic unit in Contentsphere for a product without variants.
+                     * Contentsphere allows you to create, edit and delete individual products.
+
+**Related topics:**  * *Manage Units for individual articles*
+
+**Application:**     * Create a Single Article in the system to represent a single item.
+                     * *Example:*
+
+                        Let's say a retailer wants to add a new flavor of Red Bull to their stock.
+                        To do that, they needs to create this product as a Single Article.
+
+===================  =================================================================================================================================================================
+
+How to do: Manage Individual Articles
+=====================================
+
+Managing an individual Single Article is easy, and here's how to do it.
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_gotopim.png
+
+|
+
+|
+
+#. Hover on the "+" icon.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_hover.png
+
+|
+
+|
+
+#. Select **Single Article**.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_selectsinglearticle.png
+
+|
+
+|
+
+#. Enter the name for the Single Article and provide relevant information.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_enterthename.png
+
+|
+
+|
+
+#. Click the **Relationships** button.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_relationships.png
+
+|
+
+|
+
+#. Click the "+" icon under Images.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_plusicon.png
+
+|
+
+|
+
+#. Select the image and click the **Add All** button (or drag and drop the image to the right side).
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_selectimage.png
+
+|
+
+|
+
+#. Click the **Back** button to check that the image is added to the product.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_clickback.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_clickback2.png
+
+|
+
+|
+
+#. Add markets. The steps are the same as with adding images except that you click the "+" icon under Market.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market2.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market3.png
+
+|
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_market4.png
+
+|
+
+|
+
+#. Check your Single Article.
+
+.. image:: /feature/_images/mdmimages/manageindividualarticles_yoursinglearticle.png
+
+|
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
