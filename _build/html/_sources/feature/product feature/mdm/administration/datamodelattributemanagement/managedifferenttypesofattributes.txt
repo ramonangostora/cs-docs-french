@@ -1,0 +1,136 @@
+====================================
+Manage Different Types of Attributes
+====================================
+
+The Manage Different Types of Attributes is a feature that allows an administrator to manage and set up attributes in the system.
+
+
+===================     ===============================================================================================================================================================
+
+**Description:**        * This feature can create and manage different types of attributes (properties) for various data. This will restrict
+                          the attribute to the selected type only.
+
+**Related topics:**     * *Types of Attribute*  to be selected in the configuration.
+
+**Application:**        * The feature will allow an administrator to set up the attributes in the system that will help other users
+                          put relevant information to the product data fields.
+                        * *Example:*
+
+                            An administrator sets up a *Date* type attribute for a data field. If a general user adds an information to that field, a calendar will pop up
+                            and the user can select a date value using the calendar.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Manage Different Types of Attributes
+================================================
+To do this admin feature, follow the steps below:
+
+|
+
+#. Go to *Settings*.
+
+.. image:: /feature/mdm/_images/managemeasurementsvolume_gotoconfigsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+|
+|
+
+#. Click the '+' icon to create an attribute.
+
+.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clicktheicon.PNG
+|
+|
+
+#. **For a particular attribute type, refer to its respective section below:**
+
+|
+
+**Type: Text**
+
+  #. Enter the attribute name and select the type as *Text*.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typetext1.PNG
+  |
+  |
+
+  #. View the text attribute in runtime.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typetext2.PNG
+  |
+  |
+
+|
+
+**Type: Number**
+
+  #. In the configuration, enter the attribute name and select the type as *Number*.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typenumber1.PNG
+  |
+  |
+
+  #. View the number attribute in runtime.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typenumber2.PNG
+  |
+  |
+
+|
+
+**Type: Price**
+
+  #. In the configuration, enter the attribute name and select *Currency* in the type field.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice1.PNG
+  |
+  |
+
+  #. Select the desired currency value for the default unit.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice2.PNG
+  |
+  |
+
+  #. Set the precision.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice3.PNG
+  |
+  |
+
+  #. Provide the default value.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice4.PNG
+  |
+  |
+
+  #. View the price attribute in runtime.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice5.PNG
+  |
+  |
+
+|
+
+**Type: Date**
+
+  #. In the configuration, enter the attribute name and select *Date* in the type field.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typedate1.PNG
+  |
+  |
+
+  #. Set also the values for *Default Value, Placeholder, and Description*, if available.
+
+  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typedate1b.PNG.PNG
+  |
+  |
+
+
+
+.. image:: /feature/_images/line-png-32.png
+   :alt: Contentsphere line

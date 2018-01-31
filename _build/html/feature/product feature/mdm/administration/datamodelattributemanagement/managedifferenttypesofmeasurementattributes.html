@@ -1,0 +1,1004 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manage Different Types of Measurement Attributes &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Manage Calculated Attributes" href="managecalculatedattributes.html" />
+    <link rel="prev" title="Manage Different Types of Attributes" href="managedifferenttypesofattributes.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="managedifferenttypesofattributes.html" title="Manage Different Types of Attributes">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="managecalculatedattributes.html" title="Manage Calculated Attributes">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product feature-mdm-administration-datamodelattributemanagement-managedifferenttypesofmeasurementattributes">
+            
+  <div class="section" id="s-manage-different-types-of-measurement-attributes">
+<span id="manage-different-types-of-measurement-attributes"></span><h1>Manage Different Types of Measurement Attributes<a class="headerlink" href="#manage-different-types-of-measurement-attributes" title="Permalink to this headline">¶</a></h1>
+<p>The table below shows the different types of measurement attributes that can be managed in the system:</p>
+<div class="section" id="s-attributes-measurement-type">
+<span id="attributes-measurement-type"></span><h2>Attributes: Measurement Type<a class="headerlink" href="#attributes-measurement-type" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils">
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Measurement Type:</th>
+<th class="head">Default Unit(s):</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Length</td>
+<td><ul class="first last simple">
+<li>km</li>
+<li>m</li>
+<li>dm</li>
+<li>cm</li>
+<li>mm</li>
+<li>um</li>
+<li>nm</li>
+<li>mi</li>
+<li>yd</li>
+<li>ft</li>
+<li>in</li>
+<li>nmi</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Current</td>
+<td><ul class="first last simple">
+<li>A</li>
+<li>mA</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Potential</td>
+<td><ul class="first last simple">
+<li>V</li>
+<li>mV</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Frequency</td>
+<td><ul class="first last simple">
+<li>Hz</li>
+<li>kHz</li>
+<li>MHz</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Time</td>
+<td><ul class="first last simple">
+<li>ns</li>
+<li>us</li>
+<li>ms</li>
+<li>sec</li>
+<li>min</li>
+<li>hr</li>
+<li>days</li>
+<li>weeks</li>
+<li>years</li>
+<li>decades</li>
+<li>centuries</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Temperature</td>
+<td><ul class="first last simple">
+<li>tempC</li>
+<li>tempF</li>
+<li>tempK</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Area</td>
+<td><ul class="first last simple">
+<li>km2</li>
+<li>m2</li>
+<li>mi2</li>
+<li>yd2</li>
+<li>sqft</li>
+<li>in2</li>
+<li>hectare</li>
+<li>acre</li>
+<li>cm2</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Currency</td>
+<td><ul class="first last simple">
+<li>AUD</li>
+<li>BGN</li>
+<li>BRL</li>
+<li>CAD</li>
+<li>CHF</li>
+<li>CNY</li>
+<li>CZK</li>
+<li>DKK</li>
+<li>GBP</li>
+<li>HKD</li>
+<li>HRK</li>
+<li>HUF</li>
+<li>IDR</li>
+<li>ILS</li>
+<li>INR</li>
+<li>JPY</li>
+<li>KRW</li>
+<li>MXN</li>
+<li>MYR</li>
+<li>NOK</li>
+<li>NZD</li>
+<li>PHP</li>
+<li>PLN</li>
+<li>RON</li>
+<li>RUB</li>
+<li>SEK</li>
+<li>SGD</li>
+<li>THB</li>
+<li>TRY</li>
+<li>ZAR</li>
+<li>EUR</li>
+<li>USD</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Digital Storage</td>
+<td><ul class="first last simple">
+<li>b</li>
+<li>kb</li>
+<li>Kib</li>
+<li>Mb</li>
+<li>Mib</li>
+<li>Gb</li>
+<li>Gib</li>
+<li>Tb</li>
+<li>Tib</li>
+<li>Pb</li>
+<li>Pib</li>
+<li>B</li>
+<li>kB</li>
+<li>KiB</li>
+<li>MB</li>
+<li>MiB</li>
+<li>GB</li>
+<li>GiB</li>
+<li>TB</li>
+<li>TiB</li>
+<li>PB</li>
+<li>PiB</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Mass</td>
+<td><ul class="first last simple">
+<li>tonne</li>
+<li>kg</li>
+<li>g</li>
+<li>mg</li>
+<li>ug</li>
+<li>ton</li>
+<li>stone</li>
+<li>lbs</li>
+<li>oz</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Energy</td>
+<td><ul class="first last simple">
+<li>J</li>
+<li>kJ</li>
+<li>Cal</li>
+<li>Wh</li>
+<li>kWh</li>
+<li>BTU</li>
+<li>therm</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Plane Angle</td>
+<td><ul class="first last simple">
+<li>deg</li>
+<li>gon</li>
+<li>mrad</li>
+<li>rad</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Pressure</td>
+<td><ul class="first last simple">
+<li>Pa</li>
+<li>atm</li>
+<li>bar</li>
+<li>psi</li>
+<li>torr</li>
+<li>kPa</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Volume</td>
+<td><ul class="first last simple">
+<li>gal</li>
+<li>qt</li>
+<li>pt</li>
+<li>cu</li>
+<li>floz</li>
+<li>tbsp</li>
+<li>tsp</li>
+<li>m3</li>
+<li>L</li>
+<li>ml</li>
+<li>ft3</li>
+<li>in3</li>
+<li>cm3</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Speed</td>
+<td><ul class="first last simple">
+<li>mph</li>
+<li>fps</li>
+<li>kph</li>
+<li>m/s</li>
+<li>knot</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Power</td>
+<td><ul class="first last simple">
+<li>W</li>
+<li>hp</li>
+<li>kW</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Luminosity</td>
+<td><ul class="first last simple">
+<li>cd</li>
+<li>mcd</li>
+<li>lm</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Radiation</td>
+<td><ul class="first last simple">
+<li>Gy</li>
+<li>R</li>
+<li>Sv</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Illuminance</td>
+<td><ul class="first last simple">
+<li>lux</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Force</td>
+<td><ul class="first last simple">
+<li>N</li>
+<li>dyn</li>
+<li>lbf</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Acceleration</td>
+<td><ul class="first last simple">
+<li>gee</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Capacitance</td>
+<td><ul class="first last simple">
+<li>F</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Viscosity</td>
+<td><ul class="first last simple">
+<li>P</li>
+<li>St</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Inductance</td>
+<td><ul class="first last simple">
+<li>H</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Resistance</td>
+<td><ul class="first last simple">
+<li>ohm</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Magnetism</td>
+<td><ul class="first last simple">
+<li>T</li>
+<li>G</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Charge</td>
+<td><ul class="first last simple">
+<li>C</li>
+<li>Ah</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Conductance</td>
+<td><ul class="first last simple">
+<li>S</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Substance</td>
+<td><ul class="first last simple">
+<li>mol</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Weight per Area</td>
+<td><ul class="first last simple">
+<li>kg/m2</li>
+<li>gm/m2</li>
+<li>lb/yd2</li>
+<li>lb/ft2</li>
+<li>lb/in2</li>
+<li>oz/in2</li>
+<li>oz/ft2</li>
+<li>tn/mi2</li>
+<li>tn/ac1</li>
+<li>t/km2</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Proportion</td>
+<td><ul class="first last simple">
+<li>%</li>
+<li>x/y</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Thermal Insulation</td>
+<td><ul class="first last simple">
+<li>m2K/W</li>
+<li>hr-ft2-F/BTU</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Heating Rate</td>
+<td><ul class="first last simple">
+<li>°C/sec</li>
+<li>°C/min</li>
+<li>°C/hr</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Density</td>
+<td><ul class="first last simple">
+<li>kg/m3</li>
+<li>kg/cm3</li>
+<li>g/m3</li>
+<li>g/cm3</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Weight Per Time</td>
+<td><ul class="first last simple">
+<li>gm/sec</li>
+<li>gm/min</li>
+<li>gm/hr</li>
+<li>gm/day</li>
+<li>kg/sec</li>
+<li>kg/min</li>
+<li>kg/hour</li>
+<li>kg/day</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Volume Flow Rate</td>
+<td><ul class="first last simple">
+<li>m3/sec</li>
+<li>m3/min</li>
+<li>m3/hr</li>
+<li>L/sec</li>
+<li>L/min</li>
+<li>L/hr</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Area Per Volume</td>
+<td><ul class="first last simple">
+<li>cm2/mL</li>
+<li>cm2/L</li>
+<li>m2/mL</li>
+<li>m2/L</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Rotation Frequency</td>
+<td><ul class="first last simple">
+<li>rev/sec</li>
+<li>rev/min</li>
+<li>rev/hr</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Price</td>
+<td><ul class="first last simple">
+<li>AUD</li>
+<li>BGN</li>
+<li>BRL</li>
+<li>CAD</li>
+<li>CHF</li>
+<li>CNY</li>
+<li>CZK</li>
+<li>DKK</li>
+<li>GBP</li>
+<li>HKD</li>
+<li>HRK</li>
+<li>HUF</li>
+<li>IDR</li>
+<li>ILS</li>
+<li>INR</li>
+<li>JPY</li>
+<li>KRW</li>
+<li>MXN</li>
+<li>MYR</li>
+<li>NOK</li>
+<li>NZD</li>
+<li>PHP</li>
+<li>PLN</li>
+<li>RON</li>
+<li>RUB</li>
+<li>SEK</li>
+<li>SGD</li>
+<li>THB</li>
+<li>TRY</li>
+<li>ZAR</li>
+<li>EUR</li>
+<li>USD</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="s-measurement-type-volume">
+<span id="measurement-type-volume"></span><h2>Measurement Type: Volume<a class="headerlink" href="#measurement-type-volume" title="Permalink to this headline">¶</a></h2>
+<p>This feature example allows an administrator to set an attribute as <em>Volume</em>.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>As an administrator, I want to set an attribute as <em>Volume</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature allows the setting of an attribute type as <em>Volume</em>.</li>
+<li>This feature makes an attribute type as <em>Volume</em> and applies the appropriate default units to be associated with the volume.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li><em>Volume</em> type attribute.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Volume measurement type can set the volume of a liquid product (e.g. <em>Beverages</em>) and also set its corresponding unit.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>An administrator can set an attribute of a Red Bull product to volume so that a user can easily enter the volume of the product and select
+a unit (from a drop-down list).</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-measurement-type-volume">
+<span id="how-to-do-measurement-type-volume"></span><h3>How to do: Measurement Type: Volume<a class="headerlink" href="#how-to-do-measurement-type-volume" title="Permalink to this headline">¶</a></h3>
+<p>To set an attribute as a volume, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Settings</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" src="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to the <em>Attribute Configuration</em> section.</li>
+</ol>
+<img alt="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" src="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the ‘+’ icon to create an attribute.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" src="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select <em>Volume</em> under the type field.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_selectvolumeunderthemeasurementtype.PNG" src="../../../../../_images/managemeasurementsvolume_selectvolumeunderthemeasurementtype.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the appropriate unit for the volume attribute (e.g. <em>Pint, Quart, Cup, and more</em>).</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_selecttheappropriateunit.PNG" src="../../../../../_images/managemeasurementsvolume_selecttheappropriateunit.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Set the <em>Precision</em> and the <em>Default Value</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_setprecisionanddefaultvalue.PNG.PNG" src="../../../../../_images/managemeasurementsvolume_setprecisionanddefaultvalue.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Save</strong> button to save the settings.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_clickonthesavebutton.PNG.PNG" src="../../../../../_images/managemeasurementsvolume_clickonthesavebutton.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
+</div>
+</div>
+<div class="section" id="s-measurement-type-weight">
+<span id="measurement-type-weight"></span><h2>Measurement Type: Weight<a class="headerlink" href="#measurement-type-weight" title="Permalink to this headline">¶</a></h2>
+<p>This feature example allows an administrator to set an attribute as <em>Weight</em>.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>As an administrator, I want to set an attribute as <em>Weight</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature allows the setting of an attribute type as <em>Weight</em>.</li>
+<li>This feature makes an attribute type as <em>Weight</em> and applies the appropriate default units to be associated with the weight (e.g. <em>Grams, Kg, etc.</em>).</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li><em>Weight</em> type attribute.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Weight measurement type can set how heavy a product is or the weight of a product (e.g. <em>Beverages</em>) and also set its corresponding unit.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>An administrator can set an attribute of a Red Bull product to weight so that a user can easily enter how heavy that product is and then, select
+the correct unit from a drop-down list.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-measurement-type-weight">
+<span id="how-to-do-measurement-type-weight"></span><h3>How to do: Measurement Type: Weight<a class="headerlink" href="#how-to-do-measurement-type-weight" title="Permalink to this headline">¶</a></h3>
+<p>To set an attribute as a weight, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Settings</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" src="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to the <em>Attribute Configuration</em> section.</li>
+</ol>
+<img alt="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" src="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the ‘+’ icon to create an attribute.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" src="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select <em>Mass</em> under the type field.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsweight_selectmassunderthemeasurementtype.PNG" src="../../../../../_images/managemeasurementsweight_selectmassunderthemeasurementtype.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the appropriate unit for mass (e.g. <em>Gram, Kilogram, Tonne, and more</em>).</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsweight_selecttheappropriateunitformass.PNG" src="../../../../../_images/managemeasurementsweight_selecttheappropriateunitformass.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Set the <em>Precision</em> and the <em>Default Value</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsweight_setprecisionanddefaultvalue.PNG.PNG" src="../../../../../_images/managemeasurementsweight_setprecisionanddefaultvalue.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Save</strong> button to save the settings.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsweight_clickonthesavebutton.PNG.PNG" src="../../../../../_images/managemeasurementsweight_clickonthesavebutton.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
+</div>
+</div>
+<div class="section" id="s-measurement-type-temperature">
+<span id="measurement-type-temperature"></span><h2>Measurement Type: Temperature<a class="headerlink" href="#measurement-type-temperature" title="Permalink to this headline">¶</a></h2>
+<p>This feature example allows an administrator to set an attribute as <em>Temperature</em>.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>1.0</td>
+</tr>
+<tr class="row-even"><td><strong>User Story:</strong></td>
+<td><ul class="first last simple">
+<li>As an administrator, I want to set an attribute as <em>Temperature</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature allows the setting of an attribute type as <em>Temperature</em>.</li>
+<li>This feature makes an attribute type as <em>Temperature</em> and applies the appropriate default units to be associated with the temperature
+(e.g. <em>Celsius, Fahrenheit, etc</em>).</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Prerequisite:</strong></td>
+<td><ul class="first last simple">
+<li><em>Temperature</em> type attribute.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Temperature attribute type can set how hot or cold a product is (e.g. <em>Beverages</em>) and also set its corresponding unit.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>An administrator can set an attribute of a Red Bull product to temperature so that a user can set the temperature of the product and also select
+its correct unit (from a drop-down list).</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-measurement-type-temperature">
+<span id="how-to-do-measurement-type-temperature"></span><h3>How to do: Measurement Type: Temperature<a class="headerlink" href="#how-to-do-measurement-type-temperature" title="Permalink to this headline">¶</a></h3>
+<p>To set an attribute as a temperature, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Settings</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" src="../../../../../_images/managemeasurementsvolume_gotoconfigsettings.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to the <em>Attribute Configuration</em> section.</li>
+</ol>
+<img alt="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" src="../../../../../_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the ‘+’ icon to create an attribute.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" src="../../../../../_images/managemeasurementsvolume_clicktheicontocreateanattribute.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select <em>Temperature</em> under the type field.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementstemperature_selecttemperature.PNG" src="../../../../../_images/managemeasurementstemperature_selecttemperature.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the appropriate unit for temperature (e.g. <em>Celsius, Fahrenheit, Kelvin</em>).</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementstemperature_selectappropriateunit.PNG" src="../../../../../_images/managemeasurementstemperature_selectappropriateunit.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Set the <em>Precision</em> and the <em>Default Value</em>.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementstemperature_setprecisionanddefaultvalue.PNG.PNG" src="../../../../../_images/managemeasurementstemperature_setprecisionanddefaultvalue.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Save</strong> button to save the settings.</li>
+</ol>
+<img alt="../../../../../_images/managemeasurementstemperature_clickonthesavebutton.PNG.PNG" src="../../../../../_images/managemeasurementstemperature_clickonthesavebutton.PNG.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="feature/_images/line-png-32.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manage Different Types of Measurement Attributes</a><ul>
+<li><a class="reference internal" href="#attributes-measurement-type">Attributes: Measurement Type</a></li>
+<li><a class="reference internal" href="#measurement-type-volume">Measurement Type: Volume</a><ul>
+<li><a class="reference internal" href="#how-to-do-measurement-type-volume">How to do: Measurement Type: Volume</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#measurement-type-weight">Measurement Type: Weight</a><ul>
+<li><a class="reference internal" href="#how-to-do-measurement-type-weight">How to do: Measurement Type: Weight</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#measurement-type-temperature">Measurement Type: Temperature</a><ul>
+<li><a class="reference internal" href="#how-to-do-measurement-type-temperature">How to do: Measurement Type: Temperature</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="managedifferenttypesofattributes.html">Manage Different Types of Attributes</a></li>
+    
+    
+      <li>Next: <a href="managecalculatedattributes.html">Manage Calculated Attributes</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">Administration</a>
+        
+          <ul><li><a href="index.html">Data Model - Attribute Management</a>
+        
+        <ul><li>Manage Different Types of Measurement Attributes</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Jan 31, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="managedifferenttypesofattributes.html" title="Manage Different Types of Attributes">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="managecalculatedattributes.html" title="Manage Calculated Attributes">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

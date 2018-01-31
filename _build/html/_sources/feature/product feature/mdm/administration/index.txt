@@ -11,3 +11,4 @@ Administration
    templates/index
    permissions/index
    simpletaxonomytree/index
+   datamodelattributemanagement/index
