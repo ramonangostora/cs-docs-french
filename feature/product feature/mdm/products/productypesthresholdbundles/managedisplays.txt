@@ -32,7 +32,7 @@ To do this, follow these steps:
 |
 |
 
-#. Hover on  the '+' icon.
+#. Hover over the "+" icon.
 
 .. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
 |
@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 #. Click **Loose Bundle**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickloose1.png
+.. image:: /feature/_images/mdmimages/managedisplays_clickloose1.PNG
 |
 |
 
@@ -65,9 +65,8 @@ To do this, follow these steps:
 #.    To add more products, click **Return**, and repeat the previous steps.
 
 .. image:: /feature/_images/mdmimages/managedisplays_addedsuccesfullyandreturn.PNG
-
+|
 .. image:: /feature/_images/mdmimages/managedisplays_imageadded.PNG
-
 |
 |
 
@@ -77,36 +76,32 @@ To do this, follow these steps:
 |
 |
 
-#.   Hover over on the '+' icon and click  **Add Entity**.
+#.   Hover over on the "+" icon and click  **Add Entity**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
-
 |
 |
 
 
-#.   Hover over on the '+' icon and click  **Image**.
+#.   Hover over on the "+" icon and click  **Image**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_hoverimage.PNG
-
-
-
+|
 .. image:: /feature/_images/mdmimages/managedisplays_imagesuccess1.PNG
+|
+|
 
-|
-|
 #.   Click **Add Image** again.
 
 .. image:: /feature/_images/mdmimages/managedisplays_imageagain.PNG
+|
 .. image:: /feature/_images/mdmimages/managedisplays_imagesuccess2.PNG
-
 |
 |
 
 #.   View bundle on the top section of the page.
 
 .. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
-
 |
 |
 

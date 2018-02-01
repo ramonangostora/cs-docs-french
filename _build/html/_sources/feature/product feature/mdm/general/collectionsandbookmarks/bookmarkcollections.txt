@@ -58,7 +58,7 @@ Bookmarks: Setting a Public Bookmark
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
 
 |
@@ -91,7 +91,7 @@ Bookmarks: Setting a Private Bookmark
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
 
 |
@@ -135,7 +135,7 @@ Collections: Setting a Public Collection
 .. image:: /feature/_images/mdmimages/bookmarksncollections_publiccollectionview.PNG
 |
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
 
 |

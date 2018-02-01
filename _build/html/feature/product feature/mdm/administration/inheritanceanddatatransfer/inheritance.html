@@ -1,0 +1,325 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Inheritance via Taxonomy &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Taxonomies - Simple Taxonomy Tree" href="../simpletaxonomytree/index.html" />
+    <link rel="prev" title="Linking Objects" href="linkingobjects.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="linkingobjects.html" title="Linking Objects">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../simpletaxonomytree/index.html" title="Taxonomies - Simple Taxonomy Tree">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product feature-mdm-administration-inheritanceanddatatransfer-inheritance">
+            
+  <div class="section" id="s-inheritance-via-taxonomy">
+<span id="inheritance-via-taxonomy"></span><h1>Inheritance via Taxonomy<a class="headerlink" href="#inheritance-via-taxonomy" title="Permalink to this headline">¶</a></h1>
+<p>Inheritance via Taxonomy lets you define the attributes to be inherited from a taxonomy.</p>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Inheritance defines a taxonomy, arranging the concepts from generalized to specialized.</li>
+<li>User can set the editable attributes and those that are inherited from the taxonomy.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><em>Linking Objects</em></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Let’s take for instance the energy drink “Red Bull”. It falls under Food &amp; Beverages &gt; Beverages &gt; Energy Drinks.
+It is common for Beverages to have the properties such as ingredients and important notice so it is important
+for Energy Drinks to inherit such properties.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-inheritance-via-taxonomy">
+<span id="how-to-do-inheritance-via-taxonomy"></span><h2>How to do: Inheritance via Taxonomy<a class="headerlink" href="#how-to-do-inheritance-via-taxonomy" title="Permalink to this headline">¶</a></h2>
+<p>Inheriting a subset of attributes from a taxonomy is easy, and here’s how to do it.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>On the home page, click the Gear icon to go to <strong>Settings</strong>.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_gotohomepage.PNG" src="../../../../../_images/inheritance_gotohomepage.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the <strong>Taxonomy Configuration</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_taxonomyconfig.PNG" src="../../../../../_images/inheritance_taxonomyconfig.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create a new taxonomy.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_clickcreate.PNG" src="../../../../../_images/inheritance_clickcreate.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter a name for the taxonomy then add property collection</li>
+</ol>
+<img alt="../../../../../_images/inheritance_nametaxonomy.PNG" src="../../../../../_images/inheritance_nametaxonomy.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/inheritance_nametaxonomy2.PNG" src="../../../../../_images/inheritance_nametaxonomy2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the type of coupling, enter the default value, and click <strong>Save</strong>.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_fillcoupling.PNG" src="../../../../../_images/inheritance_fillcoupling.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to PIM, hover on the “+” icon, and select your product.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_selectproduct.PNG" src="../../../../../_images/inheritance_selectproduct.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click <strong>Add Taxonomy</strong>.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_selectaddtaxonomy.PNG" src="../../../../../_images/inheritance_selectaddtaxonomy.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/inheritance_selectaddtaxonomy2.PNG" src="../../../../../_images/inheritance_selectaddtaxonomy2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Attributes under “Dynamic Coupling” are not editable as these values are inherited.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_dynamic.PNG" src="../../../../../_images/inheritance_dynamic.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Attributes under “Tight Coupling” can be updated.</li>
+</ol>
+<img alt="../../../../../_images/inheritance_tight.PNG" src="../../../../../_images/inheritance_tight.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Inheritance via Taxonomy</a><ul>
+<li><a class="reference internal" href="#how-to-do-inheritance-via-taxonomy">How to do: Inheritance via Taxonomy</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="linkingobjects.html">Linking Objects</a></li>
+    
+    
+      <li>Next: <a href="../simpletaxonomytree/index.html">Taxonomies - Simple Taxonomy Tree</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">Administration</a>
+        
+          <ul><li><a href="index.html">Taxonomies - Inheritance and Data Transfer</a>
+        
+        <ul><li>Inheritance via Taxonomy</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Feb 01, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="linkingobjects.html" title="Linking Objects">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../simpletaxonomytree/index.html" title="Taxonomies - Simple Taxonomy Tree">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

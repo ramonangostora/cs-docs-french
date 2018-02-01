@@ -508,5 +508,6 @@ To set an attribute as a temperature, follow these steps:
 |
 |
 
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

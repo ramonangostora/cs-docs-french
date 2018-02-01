@@ -33,7 +33,7 @@ With a simple taxonomy tree, you get a simple classification that works. Here's 
 
 |
 
-#. Click the **Gear** icon to go to **Settings**.
+#. Click the **Gear** icon to go to *Settings*.
 
 .. image:: /feature/_images/mdmimages/managetaxonomy_settings.PNG
 |

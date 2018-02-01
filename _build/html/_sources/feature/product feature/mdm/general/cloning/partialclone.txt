@@ -9,8 +9,8 @@ Creating a Partial Clone is a feature that allows users to create partial clones
                         * Creating a partial clone allows to selectively clone the values that need to be cloned.
                         * New data can be added, and additional changes can be pushed to the cloned product.
 
-**Related topics:**     * Articles with relevant data
-                        * Selecting properties to be cloned such as tags, attributes and relationships
+**Related topics:**     * *Articles* with relevant data
+                        * *Selecting properties to be cloned such as tags, attributes and relationships*
 
 **Application:**        * A partial clone only allows to clone product values that are selected beforehand.
                         * Relationships to be copied should also be selected beforehand.

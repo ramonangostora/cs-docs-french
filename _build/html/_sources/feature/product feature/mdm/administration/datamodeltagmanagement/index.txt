@@ -1,0 +1,10 @@
+===========================
+Data Model - Tag Management
+===========================
+
+.. toctree::
+   :maxdepth: 1
+
+   managelovs
+   manageaffinities
+   

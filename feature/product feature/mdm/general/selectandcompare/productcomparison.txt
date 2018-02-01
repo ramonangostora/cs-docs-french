@@ -4,7 +4,7 @@ Product Comparison
 Product Comparison lets you select and compare products.
 
 
-==================     =============================================================================================================================================================
+===================    =============================================================================================================================================================
 **Description:**        * This feature gives an overview of the similarities and differences of comparable products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
                         * Products are compared not only based on their attributes but also on their relationships.
@@ -17,7 +17,7 @@ Product Comparison lets you select and compare products.
 
                             A user wants to buy a sofa. He narrows down his search to sofas that cost more than $600.
                             He then uses Product Comparison to compare the sofas that match the search criteria.
-==================     =============================================================================================================================================================
+===================    =============================================================================================================================================================
 
 
 How to do: Product Comparison

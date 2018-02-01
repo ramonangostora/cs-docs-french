@@ -9,7 +9,7 @@ The Multi-classify Objects feature provides general users the ability to add att
                           Attribution classes contain detailed descriptive properties for the product.
                         * The user is able to define the product further by adding properties based on different attribution classes.
 
-**Related topics:**     * Attribution classes with attributes and tags
+**Related topics:**     * *Attribution classes with attributes and tags*
 
 **Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
                           The nature class would only have general properties.
@@ -58,16 +58,14 @@ To do this, follow these steps:
 
 .. image:: /feature/_images/mdmimages/multiclassify_dropdownlist.PNG
 |
-
 .. image:: /feature/_images/mdmimages/multiclassify_selected.PNG
+|
 |
 
 #. To add another attribution class, click **Add Class** and select from the list.
 
 .. image:: /feature/_images/mdmimages/multiclassify_addclassagain.PNG
 |
-|
-
 .. image:: /feature/_images/mdmimages/multiclassify_addclassagain2.PNG
 |
 |
@@ -76,13 +74,10 @@ To do this, follow these steps:
 
 .. image:: /feature/_images/mdmimages/multiclassify_switchtemplate.PNG
 |
-
 .. image:: /feature/_images/mdmimages/multiclassify_switchtemplate2.PNG
 |
-
 .. image:: /feature/_images/mdmimages/multiclassify_switchtemplate3.PNG
 |
-
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
