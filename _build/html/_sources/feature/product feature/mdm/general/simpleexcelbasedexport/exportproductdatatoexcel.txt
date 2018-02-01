@@ -8,7 +8,7 @@ The Export Product Data to Excel feature provides the functionality to select an
 **Description:**        * This feature allows the export of data from PIM/MAM to a Microsoft Excel spreadsheet.
                         * This feature allows (1) the export of all the products and images or (2) the export of selected items to an Excel sheet.
 
-**Related Topic:**      * *Products, Articles, or Images*  to be exported.
+**Related topics:**      * *Products, Articles, or Images*  to be exported.
 
 **Application:**        * The simple Excel-based export makes a record of data that is saved as an Excel file.
                         * *Example:*

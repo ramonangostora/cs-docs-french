@@ -1,16 +1,14 @@
 ============================
 Manage Calculated Attributes
 ============================
-
 The Manage Calculated Attributes is a feature that allows attributes to be calculated by using a formula that take values from other attributes.
 
 
 ===================     ===============================================================================================================================================================
-
 **Description:**        * This feature allows attributes to be calculated. A calculated attribute is a read-only field whose value is based on a specified formula that take values
                           from other defined attributes.
 
-**Related topics:**     * Only a *Number* type of attribute is accepted for calculations.
+**Related topics:**     * *Manage Different Types of Attributes*
 
 **Application:**        * The feature will allow an administrator to set up calculations that will result to a new attribute using the values from other defined attributes.
                         * *Example:*
@@ -30,46 +28,46 @@ To do this admin feature, follow the steps below:
 
 #. Go to *Settings*.
 
-.. image:: /feature/mdm/_images/managecalculatedattributes_gotoconfigsettings.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_gotoconfigsettings.PNG
 |
 |
 
 #. Go to the *Attribute Configuration* section.
 
-.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
 |
 |
 
-#. Click the '+' icon to create an attribute.
+#. Click the "+" icon to create an attribute.
 
-.. image:: /feature/mdm/_images/managecalculatedattributes_clicktheicontocreateanattribute.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_clicktheicontocreateanattribute.PNG
 |
 |
 
 #. Set the type to *Calculated* attribute.
 
-.. image:: /feature/mdm/_images/managecalculatedattributes_createacalculatedtypeattribute.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_createacalculatedtypeattribute.PNG
 |
 |
 
 #. Enter a formula in the *Calculated Formula* section. Click on the field and a pop-up window will appear.
 
-.. image:: /feature/mdm/_images/managecalculatedattributes_enteraformula.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_enteraformula.PNG
 |
 |
 
 #. Define the formula by selecting the *Attributes* **(A)**, *Operators* and *Values* **(V)**, shown respectively.
 
-.. image:: /feature/mdm/_images/managecalculatedattributes_definetheformula.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_definetheformula.PNG
 |
-.. image:: /feature/mdm/_images/managecalculatedattributes_definetheformula2.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_definetheformula2.PNG
 |
-.. image:: /feature/mdm/_images/managecalculatedattributes_definetheformula3.PNG
+.. image:: /feature/_images/mdmimages/managecalculatedattributes_definetheformula3.PNG
 |
 
 
 *Note: The attribute will be calculated and auto-populated once the variables (other attributes) used in the formula have been provided with values.*
 
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

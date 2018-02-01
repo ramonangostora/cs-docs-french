@@ -5,5 +5,8 @@ Products
 .. toctree::
    :maxdepth: 1
 
-   producttypesmanagedisplays
+   unitsandsku/index
    producttypesindividualarticle/index
+   producttypespid/index
+   productypesthresholdbundles/index
+   producttypesfixedbundle/index

@@ -7,7 +7,7 @@ This feature allows an administrator to group the attributes and tags under one 
 ===================     =============================================================================================================================================================
 **Description:**        * A property collection is a table that groups the attributes, tags, and roles in one section that will be added to a class.
 
-**Related Topic:**      * Attributes and tags created
+**Related topics:**      * Attributes and tags created
 
 **Application:**        * A property collection can hold attributes and tags for similar types of information or content.
                         * *Example:*
@@ -86,5 +86,5 @@ To do this, follow these steps:
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

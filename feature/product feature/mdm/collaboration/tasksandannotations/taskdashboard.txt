@@ -8,7 +8,7 @@ The Task Dashboard is where the created tasks can be viewed by the users. The ta
 **Description:**        * This feature provides the capability to view and edit tasks per category.
                         * This feature can restrict access to tasks depending on the permission level given to a user.
 
-**Related Topic:**      * *Tasks and Annotations*
+**Related topics:**     * *Tasks and Annotations*
                         * *Public/Private Tasks*
                         * *RACI-VS Tasks*
 

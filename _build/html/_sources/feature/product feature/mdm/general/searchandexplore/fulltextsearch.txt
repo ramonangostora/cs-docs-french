@@ -8,10 +8,9 @@ The Full-text Search feature gives a user the capability to search for a product
 **Description:**        * This feature is used to to search for products or assets in the system using a full-text search.
                           The search feature will return all objects that match the search criteria.
 
-**Related Topic:**      * *Attribute Management*
+**Related topics:**     * *Attribute Management*
                         * *Parametric Search*
                         * *Multi-faceted Search*
-
 
 **Application:**        * A user can use the full-text search to search for a single product.
                         * *Example:*

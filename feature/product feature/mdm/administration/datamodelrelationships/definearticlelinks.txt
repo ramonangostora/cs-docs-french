@@ -9,7 +9,7 @@ The linking between article-to-article or product-to-product is bi-directional.
 **Description:**          * This feature allows the linking of a product to other different products (e.g. *Related Products, others,* etc).
                             The related products will be visible in the product relationship side. The product is visible in the relationship tab of the related products, too.
 
-**Related Topic:**        * *Manage Media Links*
+**Related topics:**       * *Manage Media Links*
                           * *Define Relationships*
 
 **Application:**          * Define Article Links will allow a product to be linked to similar products in the system.
@@ -29,63 +29,64 @@ To do this feature, follow these steps:
 
 #. Click on the **Settings** button.
 
-.. image:: /feature/mdm/_images/definearticlelinks_clickonsettings.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_clickonsettings.PNG
 |
 |
 
 #. Go to the *Relationship Configuration* tab.
 
-.. image:: /feature/mdm/_images/definearticlelinks_gototherelationshipsconfiguration.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_gototherelationshipsconfiguration.PNG
 |
 |
 
 #. Create a new relationship by clicking the "+" icon.
 
-.. image:: /feature/mdm/_images/definearticlelinks_createanewrelationship.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_createanewrelationship.PNG
 |
 |
-.. image:: /feature/mdm/_images/definearticlelinks_createanewrelationship2.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_createanewrelationship2.PNG
 |
 |
 
 #. Provide the name for the relationship and then, select the two desired entity classes to be linked in *Side1 and Side2* using the drop-down lists.
    In the example shown, a relationship is created for an *Electronics* product and one of its *Accessories*.
 
-.. image:: /feature/mdm/_images/definearticlelinks_providethenamefortherelationship.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_providethenamefortherelationship.PNG
 |
 |
 
 #. Provide the information for the *Label* and then, select the *Cardinality* of the relationship. In cardinality, choose either *Many* or *One.*
 
-.. image:: /feature/mdm/_images/definearticlelinks_providethelabelandcardinality.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_providethelabelandcardinality.PNG
 |
 |
 
 #. Tick on the **checkboxes** for the elements to be editable. Select either one or both sides.
 
-.. image:: /feature/mdm/_images/definearticlelinks_tickonthecheckboxes.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_tickonthecheckboxes.PNG
 |
 |
 
 #. Once done, click on the **Save** button.
 
-.. image:: /feature/mdm/_images/definearticlelinks_clickonthesavebutton.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_clickonthesavebutton.PNG
 |
 |
 
 #. Once saved, view that the relationship is applied and ready.
 
-.. image:: /feature/mdm/_images/definearticlelinks_oncesavedviewtherelationship.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_oncesavedviewtherelationship.PNG
 |
 |
 
 #. Add the articles for both classes in the *Relationships* tab.
 
-.. image:: /feature/mdm/_images/definearticlelinks_addthearticlesintherelationshipstab.PNG
+.. image:: /feature/_images/mdmimages/definearticlelinks_addthearticlesintherelationshipstab.PNG
 |
-.. image:: /feature/mdm/_images/definearticlelinks_addthearticlesintherelationshipstab2.PNG
+|
+.. image:: /feature/_images/mdmimages/definearticlelinks_addthearticlesintherelationshipstab2.PNG
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

@@ -1,0 +1,143 @@
+============================
+Manage Sales and Order Units
+============================
+
+
+Manage Sales and Order Units lets you tag various quantity units as sales or order units.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * **Base unit** is the smallest measurement unit that cannot be divided further or the item itself in its single quantity.
+                          (Example: *a single can of Red Bull)*
+                        * **Sales unit** is any item that is sellable to the customer. (Example: *a single can of Red Bull, a pack of 24 Red Bull cans, and minced meat*)
+                        * **Order unit** can be tagged to products that are in large quantity. These items are usually not intended to be sold to an end customer.
+                          These units are usually tagged to products a retailer orders from the wholesaler or manufacturer.
+                          (Example: *a box or 30 beer bottles, a large box of vegetables)*
+                        * Some products can be classified as sales unit and order unit.
+
+**Related Topic:**      * *Manage Individual Articles*
+
+**Application:**        * Use these tags to distinguish whether an article is a sales unit or an order unit.
+                        * A base unit is tagged to the single item. A base unit article is usually tagged as a sales unit.
+                          (Example: *For a carton of Red Bull cans, the base unit is a single Red Bull can)*
+                        * *Example:*
+
+                            Retailer orders in bulk and sells the pieces to the customer so it is important to keep track whether an item is a sales unit, base unit, or order unit.
+===================     =============================================================================================================================================================
+
+
+
+How to do: Manage Sales and Order Units
+=======================================
+
+Keeping track of items as sales units and order units is easy, and here's how to do it.
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/salesandorder_gotopim.png
+
+|
+
+|
+
+#. Select a product and click **Unit**.
+
+.. image:: /feature/_images/mdmimages/salesandorder_selectproduct.png
+
+|
+
+|
+
+#. Click **Create**.
+
+.. image:: /feature/_images/mdmimages/salesandorder_create.png
+
+|
+
+|
+
+#. For the base unit, use ST as measurement unit. ST is the smallest measurement unit that cannot be divided further. ST can be a base unit or a sales unit.
+
+.. image:: /feature/_images/mdmimages/salesandorder_usest.png
+|
+
+|
+
+#. Enter the details of the EAN. Use *IE* for Internal Supplier.
+
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails.png
+
+|
+
+|
+
+Sales and Order Unit
+--------------------
+
+|
+
+#. Click **Create**.
+
+.. image:: /feature/_images/mdmimages/salesandorder_create2.png
+
+|
+
+|
+
+#. The amount of KOA unit is 9, which can be used as the sales and order unit.
+
+.. image:: /feature/_images/mdmimages/salesandorder_koa.png
+
+|
+
+|
+
+#. Enter the details of the EAN.
+
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails1.png
+
+|
+
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails1a.png
+
+|
+
+#. Use *HE* to refer to External Supplier.
+
+.. image:: /feature/_images/mdmimages/salesandorder_externalsupplier.png
+
+|
+
+|
+
+Order Unit (Bulk Order)
+--------------------
+
+|
+
+#. Click **Create**.
+
+.. image:: /feature/_images/mdmimages/salesandorder_create3.png
+
+|
+
+|
+
+#. The amount of KOB unit is 40, which can be used as the order unit.
+
+.. image:: /feature/_images/mdmimages/salesandorder_kob.png
+
+|
+
+|
+
+#. Enter the details of the EAN.
+
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails2.png
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

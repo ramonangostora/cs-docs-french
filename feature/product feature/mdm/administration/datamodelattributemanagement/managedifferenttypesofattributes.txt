@@ -1,12 +1,10 @@
 ====================================
 Manage Different Types of Attributes
 ====================================
-
 The Manage Different Types of Attributes is a feature that allows an administrator to manage and set up attributes in the system.
 
 
 ===================     ===============================================================================================================================================================
-
 **Description:**        * This feature can create and manage different types of attributes (properties) for various data. This will restrict
                           the attribute to the selected type only.
 
@@ -30,19 +28,19 @@ To do this admin feature, follow the steps below:
 
 #. Go to *Settings*.
 
-.. image:: /feature/mdm/_images/managemeasurementsvolume_gotoconfigsettings.PNG
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_gotoconfigsettings.PNG
 |
 |
 
 #. Go to the *Attribute Configuration* section.
 
-.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
 |
 |
 
-#. Click the '+' icon to create an attribute.
+#. Click the "+" icon to create an attribute.
 
-.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clicktheicon.PNG
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clicktheicon.PNG
 |
 |
 
@@ -54,13 +52,13 @@ To do this admin feature, follow the steps below:
 
   #. Enter the attribute name and select the type as *Text*.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typetext1.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typetext1.PNG
   |
   |
 
   #. View the text attribute in runtime.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typetext2.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typetext2.PNG
   |
   |
 
@@ -70,13 +68,13 @@ To do this admin feature, follow the steps below:
 
   #. In the configuration, enter the attribute name and select the type as *Number*.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typenumber1.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typenumber1.PNG
   |
   |
 
   #. View the number attribute in runtime.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typenumber2.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typenumber2.PNG
   |
   |
 
@@ -86,31 +84,31 @@ To do this admin feature, follow the steps below:
 
   #. In the configuration, enter the attribute name and select *Currency* in the type field.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice1.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typeprice1.PNG
   |
   |
 
   #. Select the desired currency value for the default unit.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice2.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typeprice2.PNG
   |
   |
 
   #. Set the precision.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice3.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typeprice3.PNG
   |
   |
 
   #. Provide the default value.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice4.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typeprice4.PNG
   |
   |
 
   #. View the price attribute in runtime.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typeprice5.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typeprice5.PNG
   |
   |
 
@@ -120,17 +118,16 @@ To do this admin feature, follow the steps below:
 
   #. In the configuration, enter the attribute name and select *Date* in the type field.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typedate1.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typedate1.PNG
   |
   |
 
   #. Set also the values for *Default Value, Placeholder, and Description*, if available.
 
-  .. image:: /feature/mdm/_images/managedifferenttypesofattributes_typedate1b.PNG.PNG
+  .. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_typedate1b.PNG.PNG
   |
   |
 
 
-
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

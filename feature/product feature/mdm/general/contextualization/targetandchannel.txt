@@ -9,7 +9,7 @@ Target and Channel Contextualization is a feature that allows users to have attr
                         * This feature is particularly useful for values that are dependent on a context or tag.
                         * The value can be based on two or more contexts.
 
-**Related Topic:**      * *Embedded Variants within Context*
+**Related topics:**     * *Embedded Variants within Context*
                         * *Context configuration*
 
 **Application:**        * Set up multi-value attributes based on a context or tag.

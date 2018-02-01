@@ -9,7 +9,7 @@ which means that a user will be required to provide data for that specific field
 **Description:**        * This feature provides the functionality to set and classify fields to be either *Mandatory* or *Optional*.
                         * This feature allows the system to show a warning message if a mandatory field is left blank. The system still saves any changes done on the page.
 
-**Related Topic:**      * *Data Quality Rule*
+**Related topics:**     * *Data Quality Rule*
 
 **Application:**        * The feature prompts the types of field present on the page to prevent errors and minimize workload.
                         * The feature shows that a field is mandatory and will prevent validation errors upon submission.
@@ -31,83 +31,83 @@ To do this data governance feature, follow these steps:
 
 #. On the home page, click on the **Settings** button.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_clickonsettings.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonsettings.PNG
 |
 |
 
 #. Go to the *Attribute Configuration* section.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_gototheattributeconfigurationsection.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gototheattributeconfigurationsection.PNG
 |
 |
 
 #. Click on the "+" icon to create a new attribute. Create 3 new attributes.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_clicktheicontocreatenewattribute.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clicktheicontocreatenewattribute.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_clicktheicontocreatenewattribute2.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clicktheicontocreatenewattribute2.PNG
 |
 |
 
 #. Go to the *Property Collection Configuration* and create a property collection.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration2.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration2.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_gotothepropertyconfiguration3.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration3.PNG
 |
 |
 
 #. Add the 3 new attributes to the newly created property collection (e.g. *Property_Collection_1*).
 
-.. image:: /feature/mdm/_images/mustshouldattributes_addthe3newattributes.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthe3newattributes.PNG
 |
 |
 
 #. Go to *Class Configuration* and create a **Default** type class.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration2.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration2.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_gotoclassconfiguration3.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration3.PNG
 |
 |
 
 #. Add the property collection to that class.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_addthepropertycollectionstothattypeclass2.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthepropertycollectionstothattypeclass2.PNG
 |
 |
 
 #. Assign a mandatory condition to the attributes by ticking on the checkbox. Save the changes.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_assignamandatorycondition.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_assignamandatorycondition.PNG
 |
 |
 
 #. Click on the **All** tab and go to PIM.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_clickonthealltab.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonthealltab.PNG
 |
-.. image:: /feature/mdm/_images/mustshouldattributes_clickonthealltab2.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonthealltab2.PNG
 |
 |
 
 #. Hover over the "+" icon and wait for the menu to appear. In the menu, go to the class created (e.g. *Class_1*).
 
-.. image:: /feature/mdm/_images/mustshouldattributes_hoverovertheicon.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_hoverovertheicon.PNG
 |
 |
 
 #. View the set conditions in runtime. If a field is set to be *Mandatory* and is left blank, a violation notification will appear.
 
-.. image:: /feature/mdm/_images/mustshouldattributes_viewinruntime.PNG
+.. image:: /feature/_images/mdmimages/mustshouldattributes_viewinruntime.PNG
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

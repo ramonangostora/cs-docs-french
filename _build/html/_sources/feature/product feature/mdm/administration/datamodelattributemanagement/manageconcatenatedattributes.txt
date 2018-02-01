@@ -1,13 +1,14 @@
 ==============================
 Manage Concatenated Attributes
 ==============================
-
 The Manage Concatenated Attributes is a feature that has the functionality to set up concatenated text-based attributes.
 
 
 ===================     ===============================================================================================================================================================
-                        
 **Description:**        * This feature is used to concatenate two or more attributes to form one new attribute.
+                        * *Example:*
+
+                            **Long Description = Name + Attribute1 + Attribute2 + Price**
 
 **Related topics:**     * *Concatenation Formula*  to be used in the attribute configuration section.
 
@@ -16,9 +17,6 @@ The Manage Concatenated Attributes is a feature that has the functionality to se
 
                             An administrator sets up a new concatenated attribute, named *New Description* that will be a result of
                             combining the long and short descriptions of a product.
-                        * *Example:*
-
-                            **Long Description = Name + Attribute1 + Attribute2 + Price**
 
 ===================     ===============================================================================================================================================================
 
@@ -31,47 +29,47 @@ To do this admin feature, follow the steps below:
 
 #. Go to *Settings*.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_gotoconfigsettings.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_gotoconfigsettings.PNG
 |
 |
 
 #. Go to the *Attribute Configuration* section.
 
-.. image:: /feature/mdm/_images/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
 |
 |
 
-#. Click the '+' icon to create an attribute.
+#. Click the "+" icon to create an attribute.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_clicktheicontocreateanattribute.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_clicktheicontocreateanattribute.PNG
 |
 |
 
 #. Name the new attribute and choose *Concatenated*  from the selection.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_namethenewattribute.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_namethenewattribute.PNG
 |
 |
 
 #. Scroll right and go to the *Concatenation Formula* section.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_scrollrightandgotoconcatenationformulasection.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_scrollrightandgotoconcatenationformulasection.PNG
 |
 |
 
 #. Select the attributes to be concatenated in the formula by (1) clicking on *Attribute* on the pop-up window and then (2) selecting the attributes that will be used.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_selecttheattributestobeconcatenated.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_selecttheattributestobeconcatenated.PNG
 |
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_selecttheattributestobeconcatenated2.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_selecttheattributestobeconcatenated2.PNG
 |
 |
 
 #. Provide the values for the attributes that have been used in the previous step (e.g. *long description and short description*). Check that the new concatenated attribute will be automatically populated.
 
-.. image:: /feature/mdm/_images/manageconcatenatedattributes_providethevalues.PNG
+.. image:: /feature/_images/mdmimages/manageconcatenatedattributes_providethevalues.PNG
 |
 
 
-.. image:: /feature/_images/line-png-32.png
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

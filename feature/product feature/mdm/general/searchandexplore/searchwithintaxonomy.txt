@@ -10,7 +10,7 @@ The Search within Taxonomy feature allows a user to search (for an article or a 
                         * This feature provides a user a hierarchy of objects in the Taxonomy that can be used
                           for navigation.
 
-**Related Topic:**      * *Parametric Search*
+**Related topics:**     * *Parametric Search*
                         * *Multi-faceted Search*
                         * *Group By*
 

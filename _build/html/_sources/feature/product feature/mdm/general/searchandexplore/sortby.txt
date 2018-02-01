@@ -7,7 +7,7 @@ The Sort By feature allows a user to view products and assets in the system acco
 ===================     =============================================================================================================================================================
 **Description:**        * The Sort By feature allows the use of filters to sort products in ascending or descending order.
 
-**Related Topic:**      * *Group By*
+**Related topics:**     * *Group By*
 
 **Application:**        * A user can sort the products in the desired order, either ascending or descending.
                         * The feature gives the ease to search for a product by arranging it by the user's desired order.

@@ -9,7 +9,7 @@ The Tasks and Annotations feature allows users to add tasks in the system.  It a
                         * The Tasks feature has a comment section where users can put comments or questions regarding the task.
                         * The Tasks feature also helps a user schedule different actions in the system.
 
-**Related Topic:**      * *Task Dashboard*
+**Related topics:**     * *Task Dashboard*
                         * *Public/Private Tasks*
                         * *RACI-VS Tasks*
 

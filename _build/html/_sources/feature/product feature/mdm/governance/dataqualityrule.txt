@@ -12,7 +12,7 @@ The Data Quality Rule feature provides the functionality to create and set rules
                            **Rule Violation:** alerts a user about a violated rule with an error message.
                            **Normalization:** reduces data redundancy and improves the data integrity.
 
-**Related Topic:**      * *Must/Should Attributes*
+**Related topics:**     * *Must/Should Attributes*
 
 **Application:**        * Data Quality Rule restricts the entry of unacceptable data in the system.
                         * Data Quality Rule reduces the effort in identifying data quality issues in many common information domains.
@@ -34,25 +34,25 @@ To do this data governance feature, follow these steps:
 
 #. Go to *Settings*.
 
-.. image:: /feature/mdm/_images/dataqualityrules_gotosettings.PNG
+.. image:: /feature/_images/mdmimages/dataqualityrules_gotosettings.PNG
 |
 |
 
 #. Go to the *Rule Configuration* section.
 
-.. image:: /feature/mdm/_images/dataqualityrules_gototheruleconfiguration.PNG
+.. image:: /feature/_images/mdmimages/dataqualityrules_gototheruleconfiguration.PNG
 |
 |
 
 #. Click on the **Create** button to create a new rule.
 
-.. image:: /feature/mdm/_images/dataqualityrules_clickonthecreatebutton.PNG
+.. image:: /feature/_images/mdmimages/dataqualityrules_clickonthecreatebutton.PNG
 |
 |
 
 #. Provide a name for the rule and click on the *Attributes, Tags, and Roles* where the data quality rule will be applied.
 
-.. image:: /feature/mdm/_images/dataqualityrules_providethenamefortherule.PNG
+.. image:: /feature/_images/mdmimages/dataqualityrules_providethenamefortherule.PNG
 |
 |
 
@@ -60,48 +60,48 @@ To do this data governance feature, follow these steps:
 
   #. Select the attribute (in Cause) and then, add the warning (in Effect). Save all the changes.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_providethenamefortherule2.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_providethenamefortherule2.PNG
   |
-  .. image:: /feature/mdm/_images/dataqualityrules_providethenamefortherule3.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_providethenamefortherule3.PNG
   |
-  .. image:: /feature/mdm/_images/dataqualityrules_providethenamefortherule4.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_providethenamefortherule4.PNG
   |
   |
 
   #. Go to *Class Configuration*.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_gotoclassconfiguration.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_gotoclassconfiguration.PNG
   |
   |
 
   #. In the rules section, the list of rules will appear. Select the rule that will be applied.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_intherulessection.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_intherulessection.PNG
   |
   |
 
   #. Go to the *Home screen*.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_gotohomescreen.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_gotohomescreen.PNG
   |
   |
 
   #. Go to PIM.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_gotoPIM.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_gotoPIM.PNG
   |
   |
 
   #. Hover over the "+" icon and select the class.
 
-  .. image:: /feature/mdm/_images/dataqualityrules_hoverovertheiconandselecttheclass.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_hoverovertheiconandselecttheclass.PNG
   |
-  .. image:: /feature/mdm/_images/dataqualityrules_asindicatedintherule.PNG
+  .. image:: /feature/_images/mdmimages/dataqualityrules_asindicatedintherule.PNG
   |
 
   *Note: As indicated in the rule, the field cannot be empty. In runtime, if it's blank, it will be highlighted for rule violation. When you click on the warning message, the applied rule notification will appear.*
 
 |
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

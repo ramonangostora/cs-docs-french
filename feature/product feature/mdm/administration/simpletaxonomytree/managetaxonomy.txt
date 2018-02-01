@@ -10,7 +10,7 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
                         * Taxonomies can represent related concepts that can be used to connect a product
                           to different levels of taxonomy branches.
 
-**Related Topic:**      * *Multi-Taxonomy Assignment*
+**Related topics:**      * *Multi-Taxonomy Assignment*
                         * *Product Classification via Taxonomies*
 
 **Application:**        * Multi-classify objects.

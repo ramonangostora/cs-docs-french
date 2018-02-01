@@ -9,7 +9,7 @@ Public or Private Bookmarks and Collections feature lets you define whether book
                         * Only the user who set a bookmark as private can access that bookmark.
                         * A locked icon indicates that a bookmark is a private one.
 
-**Related Topic:**      * *Search and Store Bookmarks*
+**Related topics:**     * *Search and Store Bookmarks*
 
 **Application:**        * Use a private bookmark for securing access to a personal product watchlist.
                         * Share your product watchlist by using a public bookmark.

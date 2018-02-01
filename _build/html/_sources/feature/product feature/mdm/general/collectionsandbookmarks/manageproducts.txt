@@ -9,7 +9,7 @@ Manage Products across Collections lets you copy or move products between collec
                         * Collections can have their own hierarchy and the products in the collection can belong to these hierarchies.
                         * With the use of collections, a group of products can be classified easily.
 
-**Related Topic:**      * *Public and Private Bookmarks and Collections*
+**Related topics:**     * *Public and Private Bookmarks and Collections*
                         * *Collection Hierarchy*
 
 **Application:**        * Collections make it easy to group relevant products and place them in hierarchies.

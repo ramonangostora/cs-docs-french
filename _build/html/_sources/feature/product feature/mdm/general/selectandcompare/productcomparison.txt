@@ -9,7 +9,7 @@ Product Comparison lets you select and compare products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
                         * Products are compared not only based on their attributes but also on their relationships.
 
-**Related Topic:**      * *Parametric Search*
+**Related topics:**     * *Parametric Search*
 
 **Application:**        * With a number of viable products, it is important to consider the pros and cons of each product.
                           This is where Product Comparison can help the user in making the right decision when it comes to selecting products.

@@ -10,7 +10,7 @@ so that the users can narrow down items using the specified criteria.
                         * The search is expressed in terms of values of the *Tags*, *Attributes*, and *Roles* in the products/articles.
                         * A user can put the conditions for the filter values.
 
-**Related Topic:**      * *Search within Taxonomy*
+**Related topics:**     * *Search within Taxonomy*
                         * *Multi-faceted Search*
 
 **Application:**        * A user can use the advanced filter for conditional search.

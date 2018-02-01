@@ -17,7 +17,7 @@ The Data Model Relationships feature provides information on the various relatio
 
                              A product is linked to a particular supplier. In the supplier module, the supplier can view all the products that he had supplied.
 
-**Related Topic:**        * *Manage Media Links*
+**Related topics:**       * *Manage Media Links*
                           * *Define Article Links*
                           * *Define Relationships*
 

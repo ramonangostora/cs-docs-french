@@ -9,7 +9,7 @@ The Faceted Search feature allows a user to have a multi-faceted search support 
                         * A user can refine the results through filters or taxonomy.
                         * A user can use sort filters that are used to arrange the products in ascending or descending order.
 
-**Related Topic:**      * *Parametric Search*
+**Related topics:**     * *Parametric Search*
                         * *Search within Taxonomy*
 
 **Application:**        * Using either of the ways, a user will land to the desired searched product.

@@ -10,7 +10,7 @@ The Bulk Edit feature allows a user to change the values of multiple attributes/
                         * This feature allows multiple attributes/tags to be edited in a single operation.
                         * This feature allows multiple attributes/tags to be changed and applied to products.
 
-**Related Topic:**      * *Search within Taxonomy*
+**Related topics:**     * *Search within Taxonomy*
                         * *Group By*
 
 **Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
@@ -32,19 +32,19 @@ To do mass editing, follow these steps:
 
 #. Select the items to be edited by clicking on the thumbnail checkbox.
 
-.. image:: /feature/mdm/_images/bulkedit_selectitems.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_selectitems.PNG
 |
 |
 
 #. Click on the **Bulk Edit** button.
 
-.. image:: /feature/mdm/_images/bulkedit_clickonthebulkeditbutton.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_clickonthebulkeditbutton.PNG
 |
 |
 
 #. View the pop-up menu that will appear with a list of attributes and tags.
 
-.. image:: /feature/mdm/_images/bulkedit_viewthepopupmenu.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_viewthepopupmenu.PNG
 |
 |
 
@@ -53,32 +53,32 @@ To do mass editing, follow these steps:
 
   #. Selecting tags/attributes from the list:
 
-  .. image:: /feature/mdm/_images/bulkedit_selectingtags.PNG
+  .. image:: /feature/_images/mdmimages/bulkedit_selectingtags.PNG
   |
   |
 
   #. Searching for tags/attributes in the search bar:
 
-  .. image:: /feature/mdm/_images/bulkedit_searchingtags.PNG
+  .. image:: /feature/_images/mdmimages/bulkedit_searchingtags.PNG
   |
 
 |
 
 #. Click on the **Apply** button to do the bulk edit of the products.
 
-.. image:: /feature/mdm/_images/bulkedit_clickontheapplybutton.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_clickontheapplybutton.PNG
 |
-.. image:: /feature/mdm/_images/bulkedit_clickontheapplybutton2.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_clickontheapplybutton2.PNG
 |
 |
 
 #. View the applied changes of the bulk edit.
 
-.. image:: /feature/mdm/_images/bulkedit_viewappliedchange.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_viewappliedchange.PNG
 |
-.. image:: /feature/mdm/_images/bulkedit_viewappliedchange2.PNG
+.. image:: /feature/_images/mdmimages/bulkedit_viewappliedchange2.PNG
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

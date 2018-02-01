@@ -8,7 +8,7 @@ Collection Hierarchy lets you organize and view your collections within a struct
 **Description:**        * Collection Hierarchy creates levels in the hierarchy for the products.
                         * Products can be copied or moved between these levels.
 
-**Related Topic:**      * *Public or Private Bookmarks and Collections*
+**Related topics:**     * *Public or Private Bookmarks and Collections*
                         * *Manage Products across Collections*
 
 **Application:**        * Categorically structure the products in a product group.

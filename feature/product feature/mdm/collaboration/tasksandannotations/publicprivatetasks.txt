@@ -11,7 +11,7 @@ The Public/Private Tasks feature allows a user to set a task to either *Public (
                               A **Public** task is shared among users.
                               A **Private** task is only for the user who created that task (and other users granted with permission to access the task).
 
-**Related Topic:**      * *Tasks and Annotations*
+**Related topics:**     * *Tasks and Annotations*
                         * *Task Dashboard*
                         * *RACI-VS Tasks*
 

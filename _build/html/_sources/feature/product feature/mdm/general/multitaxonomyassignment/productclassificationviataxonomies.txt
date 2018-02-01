@@ -10,7 +10,7 @@ The Product Classification via Taxonomies feature provides the functionality to 
                         * Taxonomies are structured hierarchies which can be used to classify the products in the system.
                         * Products can have multiple taxonomies set by a user to have a more refined classification and easier search.
 
-**Related Topic:**      * *Multi-Taxonomy Assignment*
+**Related topics:**     * *Multi-Taxonomy Assignment*
 
 **Application:**        * This feature is used to easily classify, as well as, to search for a product with the help of taxonomy.
                         * *Example:*

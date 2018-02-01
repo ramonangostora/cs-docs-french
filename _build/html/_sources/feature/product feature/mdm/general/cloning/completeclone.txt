@@ -10,7 +10,7 @@ In a complete clone, all the values of the original product are cloned into the 
                         * All attributes and tag values of the parent product are copied to the clone.
                         * A complete cloned product even has the relationship of the parent product.
 
-**Related Topic:**      * *Creating a Partial Clone*
+**Related topics:**      * *Creating a Partial Clone*
 
 **Application:**        * Instantly create a duplicate or copy of a product.
                         * Save time and effort in adding the same values for a duplicate of the product.

@@ -1,0 +1,8 @@
+=============================
+Product Types - Fixed Bundle
+=============================
+
+.. toctree::
+   :maxdepth: 1
+
+   managegiftsetsbaskets
