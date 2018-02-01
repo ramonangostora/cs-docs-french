@@ -9,4 +9,4 @@ Products
    producttypesindividualarticle/index
    producttypespid/index
    productypesthresholdbundles/index
-   producttypesfixedbundle/index
+   producttypesfixedbundles/index

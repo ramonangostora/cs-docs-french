@@ -1,0 +1,64 @@
+===================
+Manage Permissions
+===================
+Manage Permissions lets you define what the user can or cannot do.
+
+
+====================    =============================================================================================================================================================
+**Description:**        * Simply assign the user to the role with the appropriate functions and say goodbye to unnecessary system changes.
+                        * Have full control as to who gets to view, edit, and delete the products in the system.
+
+**Related topics:**     * *Manage View Templates*
+
+**Application:**        * User can access only the permitted functions.
+                        * *Example:*
+
+                            Let's say you did not allow a certain user to delete products, then that user will not have the delete function.
+====================    =============================================================================================================================================================
+
+
+How to do: Manage Permissions
+=============================
+
+Choose who gets to do what or not, and here's how to do it.
+
+|
+
+#. On the home page, click the **Gear** icon to go to **Settings**.
+
+.. image:: /feature/_images/mdmimages/permissions_settings.PNG
+|
+|
+
+#. Click the **Permissions Configuration** button.
+
+.. image:: /feature/_images/mdmimages/permissions_config.PNG
+|
+|
+
+#. On the left pane, select a role.
+
+.. image:: /feature/_images/mdmimages/permissions_listofroles1.PNG
+|
+.. image:: /feature/_images/mdmimages/permissions_listofroles2.PNG
+|
+|
+
+#. Select a class and set the permission for *Create, Read, Update, and Delete*. Do the same for taxonomy. A green circle indicates that the function is enabled for that item.
+
+.. image:: /feature/_images/mdmimages/permissions_create.PNG
+|
+.. image:: /feature/_images/mdmimages/permissions_update.PNG
+|
+.. image:: /feature/_images/mdmimages/permissions_delete.PNG
+|
+|
+
+#. The image below is an example that shows the role "Accountable" has been assigned the following rights.
+
+.. image:: /feature/_images/mdmimages/permissions_accountable.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

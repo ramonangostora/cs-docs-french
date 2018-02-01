@@ -10,7 +10,7 @@ Manage PIDs lets you define articles that are a combination of other individual 
 **Description:**        * PID is a virtual product that groups a product line related to a brand.
                         * By managing PIDs, the related products of a seller or a brand can be grouped in one place.
 
-**Related Topic:**      * *Embedded Variants within Context*
+**Related topics:**     * *Embedded Variants within Context*
                         * *Manage Data Transfer*
 
 **Application:**        * Form a group of related products.
@@ -32,7 +32,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Go to PIM.
 
-.. image:: /feature/_images/mdmimages/managepids_gotopim.png
+.. image:: /feature/_images/mdmimages/managepids_gotopim.PNG
 
 |
 
@@ -40,7 +40,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Hover on the "+" icon.
 
-.. image:: /feature/_images/mdmimages/managepids_hover.png
+.. image:: /feature/_images/mdmimages/managepids_hover.PNG
 
 |
 
@@ -48,7 +48,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Select **Product**.
 
-.. image:: /feature/_images/mdmimages/managepids_selectproduct.png
+.. image:: /feature/_images/mdmimages/managepids_selectproduct.PNG
 
 |
 
@@ -60,7 +60,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Click the "+" icon to add the link variants.
 
-.. image:: /feature/_images/mdmimages/managepids_linkvariant.png
+.. image:: /feature/_images/mdmimages/managepids_linkvariant.PNG
 
 |
 
@@ -68,7 +68,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Select the variant and click the **Add all** button (or drag and drop the products to the right side).
 
-.. image:: /feature/_images/mdmimages/managepids_selectvariant.png
+.. image:: /feature/_images/mdmimages/managepids_selectvariant.PNG
 
 |
 
@@ -76,11 +76,11 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Click the **Back** button found on the right side then click the **Relationships** button.
 
-.. image:: /feature/_images/mdmimages/managepids_back.png
+.. image:: /feature/_images/mdmimages/managepids_back.PNG
 
 |
 
-.. image:: /feature/_images/mdmimages/managepids_relationships.png
+.. image:: /feature/_images/mdmimages/managepids_relationships.PNG
 
 |
 
@@ -88,7 +88,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Click the "+" icon under Images.
 
-.. image:: /feature/_images/mdmimages/managepids_addimage.png
+.. image:: /feature/_images/mdmimages/managepids_addimage.PNG
 
 |
 
@@ -96,7 +96,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Select the image and click **Add All** (or drag and drop the image to the right side).
 
-.. image:: /feature/_images/mdmimages/managepids_addimage2.png
+.. image:: /feature/_images/mdmimages/managepids_addimage2.PNG
 
 |
 
@@ -104,15 +104,15 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. Add Market to the Relationship. The steps are the same as with adding images except that you click the "+" icon under Market.
 
-.. image:: /feature/_images/mdmimages/managepids_market.png
+.. image:: /feature/_images/mdmimages/managepids_market.PNG
 
 |
 
-.. image:: /feature/_images/mdmimages/managepids_market2.png
+.. image:: /feature/_images/mdmimages/managepids_market2.PNG
 
 |
 
-.. image:: /feature/_images/mdmimages/managepids_market3.png
+.. image:: /feature/_images/mdmimages/managepids_market3.PNG
 
 |
 
@@ -120,7 +120,7 @@ Easily group related products by defining PIDs, and here's how to do it.
 
 #. See the final product.
 
-.. image:: /feature/_images/mdmimages/managepids_finalproduct.png
+.. image:: /feature/_images/mdmimages/managepids_finalproduct.PNG
 
 |
 

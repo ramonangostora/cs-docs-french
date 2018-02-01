@@ -57,5 +57,6 @@ To do this feature, follow these steps:
 .. image:: /feature/_images/mdmimages/timelineandhistory_mergeviewthetimeline.PNG
 |
 
+
 .. image:: /feature/_images/mdmimages/line-png-32.png
    :alt: Contentsphere line

@@ -15,7 +15,7 @@ Manage Sales and Order Units lets you tag various quantity units as sales or ord
                           (Example: *a box or 30 beer bottles, a large box of vegetables)*
                         * Some products can be classified as sales unit and order unit.
 
-**Related Topic:**      * *Manage Individual Articles*
+**Related topics:**     * *Manage Individual Articles*
 
 **Application:**        * Use these tags to distinguish whether an article is a sales unit or an order unit.
                         * A base unit is tagged to the single item. A base unit article is usually tagged as a sales unit.
@@ -36,41 +36,32 @@ Keeping track of items as sales units and order units is easy, and here's how to
 
 #. Go to PIM.
 
-.. image:: /feature/_images/mdmimages/salesandorder_gotopim.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_gotopim.PNG
 |
-
 |
 
 #. Select a product and click **Unit**.
 
-.. image:: /feature/_images/mdmimages/salesandorder_selectproduct.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_selectproduct.PNG
 |
-
 |
 
 #. Click **Create**.
 
-.. image:: /feature/_images/mdmimages/salesandorder_create.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_create.PNG
 |
-
 |
 
 #. For the base unit, use ST as measurement unit. ST is the smallest measurement unit that cannot be divided further. ST can be a base unit or a sales unit.
 
-.. image:: /feature/_images/mdmimages/salesandorder_usest.png
+.. image:: /feature/_images/mdmimages/salesandorder_usest.PNG
 |
-
 |
 
 #. Enter the details of the EAN. Use *IE* for Internal Supplier.
 
-.. image:: /feature/_images/mdmimages/salesandorder_eandetails.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails.PNG
 |
-
 |
 
 Sales and Order Unit
@@ -80,36 +71,27 @@ Sales and Order Unit
 
 #. Click **Create**.
 
-.. image:: /feature/_images/mdmimages/salesandorder_create2.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_create2.PNG
 |
-
 |
 
 #. The amount of KOA unit is 9, which can be used as the sales and order unit.
 
-.. image:: /feature/_images/mdmimages/salesandorder_koa.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_koa.PNG
 |
-
 |
 
 #. Enter the details of the EAN.
 
-.. image:: /feature/_images/mdmimages/salesandorder_eandetails1.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails1.PNG
 |
-
-.. image:: /feature/_images/mdmimages/salesandorder_eandetails1a.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails1a.PNG
 |
 
 #. Use *HE* to refer to External Supplier.
 
-.. image:: /feature/_images/mdmimages/salesandorder_externalsupplier.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_externalsupplier.PNG
 |
-
 |
 
 Order Unit (Bulk Order)
@@ -119,24 +101,19 @@ Order Unit (Bulk Order)
 
 #. Click **Create**.
 
-.. image:: /feature/_images/mdmimages/salesandorder_create3.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_create3.PNG
 |
-
 |
 
 #. The amount of KOB unit is 40, which can be used as the order unit.
 
-.. image:: /feature/_images/mdmimages/salesandorder_kob.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_kob.PNG
 |
-
 |
 
 #. Enter the details of the EAN.
 
-.. image:: /feature/_images/mdmimages/salesandorder_eandetails2.png
-
+.. image:: /feature/_images/mdmimages/salesandorder_eandetails2.PNG
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

@@ -46,5 +46,5 @@ To do a full-text search, follow these steps:
 |
 
 
-.. image:: /feature/mdm/_images/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

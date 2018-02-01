@@ -1,6 +1,6 @@
-===============
+================
 Manage Displays
-===============
+================
 
 The Manage Displays feature allows the user to sell multiple quantity products.
 

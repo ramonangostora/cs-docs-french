@@ -5,9 +5,9 @@ Administration
 .. toctree::
    :maxdepth: 1
 
-   property/index
-   datamodelrelationships/index
-   permissions/index
-   templates/index
-   simpletaxonomytree/index
    datamodelattributemanagement/index
+   datamodelpropertycollections/index
+   datamodelrelationships/index
+   usersandpermissionscrudrights/index
+   usersandpermissionsviewtemplates/index
+   simpletaxonomytree/index
