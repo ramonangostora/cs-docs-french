@@ -1,0 +1,121 @@
+=================
+Manage Affinities
+=================
+
+
+Manage Affinities lets you show the right products to the right persona.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * Criteria of relevancy must be established when presenting products since different personas can have different preferences or affinities.
+                        * Even products carry affinities like some products are suitable during winter while some are intended for summer.
+                        * Affinity-based tags allow you to show the products that correspond to a persona.
+
+**Related Topic:**      * *Manage LOVs*
+                        * *Property Collections*
+
+**Application:**        * Show the relevant products by applying affinity-based tags.
+===================     =============================================================================================================================================================
+
+
+
+
+
+How to do: Manage Affinities
+============================
+
+Showing the right products to the right persona is easy when you manage affinities. Here's how to do it.
+
+|
+
+#. Click the Gear icon to go to **Settings**.
+
+.. image:: /feature/_images/mdmimages/affinities_settings.PNG
+
+|
+
+|
+
+#. Check if the *Tag configuration* tab is displayed.
+
+.. image:: /feature/_images/mdmimages/affinities_tagsconfig.PNG
+
+|
+
+|
+
+#. Click on the "+" icon to create a new tag.
+
+.. image:: /feature/_images/mdmimages/affinities_create.PNG
+
+|
+
+|
+
+#. Create a tag type "Yes Neutral". (Example: Gender > Male / Female)
+
+.. image:: /feature/_images/mdmimages/affinities_gender.PNG
+
+|
+
+|
+
+#. Create a tag type "Yes Neutral No". (Example: Hobbies > Football / Baseball / Basketball)
+
+.. image:: /feature/_images/mdmimages/affinities_hobbies.PNG
+
+|
+
+|
+
+#. Create a tag type "Range". (Example: Weather > Summer / Winter / Spring)
+
+.. image:: /feature/_images/mdmimages/affinities_income.PNG
+
+|
+
+|
+
+#. Create a tag type "Ruler". (Example: Income > High / Medium / Low)
+
+
+.. image:: /feature/_images/mdmimages/affinities_weather.PNG
+
+|
+
+|
+
+#. Add the tags to the property collection.
+
+.. image:: /feature/_images/mdmimages/affinities_addtagstopropcoll.PNG
+
+|
+
+|
+
+#. Add the property collection to the class.
+
+.. image:: /feature/_images/mdmimages/affinities_addpropcolltoclass.PNG
+
+|
+
+|
+
+#. In Runtime, create an article of type "Single Article" and scroll to the property collection.
+
+.. image:: /feature/_images/mdmimages/affinities_singlearticle.PNG
+
+|
+
+|
+
+#. Check if the affinities tag is displayed.
+
+.. image:: /feature/_images/mdmimages/affinities_appearance.PNG
+
+|
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

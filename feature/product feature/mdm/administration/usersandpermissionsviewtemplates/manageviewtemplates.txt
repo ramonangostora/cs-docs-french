@@ -94,7 +94,7 @@ Easily manage who gets to see what, and here's how to do it.
 |
 |
 
-#. To toggle the visibility of the property, click the Eye icon. To edit the rights for the property, click the Pencil icon.
+#. To toggle the visibility of the property, click the **Eye** icon. To edit the rights for the property, click the **Pencil** icon.
 
 .. image:: /feature/_images/mdmimages/viewtemplates_edit.PNG
 |

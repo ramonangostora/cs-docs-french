@@ -1,0 +1,104 @@
+===========
+Manage LOVs
+===========
+
+
+Manage LOVs lets you create a property with many possible values.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * Classify your products by setting up LOVs as tags.
+                        * Unlike categories, there is no hierarchy in tags.
+
+**Related Topic:**      * *Manage Affinities*
+
+**Application:**        * Have a property where only one value applies to the product.
+                        * Multi-select the values that are applicable to the product.
+                        * Apply a boolean tag when the value is either true or false.
+===================     =============================================================================================================================================================
+
+
+
+
+
+How to do: Manage LOVs
+======================
+
+Easily classify your products by using LOVs as tags, and here's how to do it.
+
+|
+
+#. Click the Gear icon to go to **Settings**.
+
+.. image:: /feature/_images/mdmimages/managelovs_settings.PNG
+
+|
+
+|
+
+#. Check if the *Tag configuration* tab is displayed.
+
+.. image:: /feature/_images/mdmimages/managelovs_tagsconfig.PNG
+
+|
+
+|
+
+#. Click on the "+" icon to create a new tag (LOVs).
+
+.. image:: /feature/_images/mdmimages/managelovs_create.PNG
+
+|
+
+|
+
+#. Check if a new tag is created at the top of the list.
+
+.. image:: /feature/_images/mdmimages/managelovs_newtag.PNG
+
+|
+
+|
+
+#. Enter the name of the tag and select the type of tag from the drop-down list.
+
+.. image:: /feature/_images/mdmimages/managelovs_fillname.PNG
+
+|
+
+|
+
+#. Enter the other values such as *Description*, *Color*, and *Multiselect* then click **Save**.
+
+.. image:: /feature/_images/mdmimages/managelovs_save.PNG
+
+|
+
+|
+
+#. Click the **Create Tag Value** button found at the far right column.
+
+.. image:: /feature/_images/mdmimages/managelovs_addtagvalue.PNG
+
+|
+
+|
+
+#. Enter the label and click on the search tab then click **Save**.
+
+.. image:: /feature/_images/mdmimages/managelovs_newsubtag1.PNG
+
+|
+
+.. image:: /feature/_images/mdmimages/managelovs_newsubtag2.PNG
+
+|
+
+#. Repeat the above steps for other tag values.
+
+.. image:: /feature/_images/mdmimages/managelovs_repeat.PNG
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -1,0 +1,65 @@
+===============
+Linking Objects
+===============
+
+
+Linking Objects lets you properly classify your products by means of taxonomies
+
+
+===================     =============================================================================================================================================================
+**Description:**        * Classify objects through various sub-taxonomies to smoothly navigate the system and easily search for linked objects.
+                        * Apply multiple taxonomies to a product to show as to which branches the product falls under.
+
+**Related Topic:**      * *Inheritance via Taxonomy*
+
+**Application:**        * Link an object to a taxonomy for proper classification.
+                        * Taxonomy branches serve as classification of the parts.
+===================     =============================================================================================================================================================
+
+
+
+
+How to do: Linking Objects
+==========================
+
+Classify with ease by linking objects, and here's how to do it.
+
+|
+
+#. Go to PIM and hover on the "+" icon.
+
+.. image:: /feature/mdm/_images/linkingobjects_gotopim.PNG
+|
+
+|
+
+#. Select your product.
+
+.. image:: /feature/mdm/_images/linkingobjects_selectproduct.PNG
+
+|
+
+|
+
+#. Click **Add Taxonomy**.
+
+.. image:: /feature/mdm/_images/linkingobjects_addtaxonomy.PNG
+
+|
+
+|
+
+.. image:: /feature/mdm/_images/linkingobjects_addtaxonomy2.PNG
+|
+
+|
+
+#. Property collection is added via Taxonomy. You can link more products if necessary.
+
+.. image:: /feature/mdm/_images/linkingobjects_propertycollection.PNG
+
+|
+
+.. image:: /feature/mdm/_images/line-png-32.PNG
+
+|
