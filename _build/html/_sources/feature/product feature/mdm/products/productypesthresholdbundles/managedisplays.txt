@@ -38,9 +38,9 @@ To do this, follow these steps:
 |
 |
 
-#. Click **Loose Bundle**.
+#. Click on **Loose Bundle**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickloosebundle.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_clickloose.PNG
 |
 |
 
