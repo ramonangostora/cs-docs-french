@@ -1,0 +1,113 @@
+=======================
+Must/Should Attributes
+=======================
+The Must/Should Attributes will allow an administrator to set a mandatory field,
+which means that a user will be required to provide data for that specific field.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature provides the functionality to set and classify fields to be either *Mandatory* or *Optional*.
+                        * This feature allows the system to show a warning message if a mandatory field is left blank. The system still saves any changes done on the page.
+
+**Related topics:**     * *Data Quality Rule*
+
+**Application:**        * The feature prompts the types of field present on the page to prevent errors and minimize workload.
+                        * The feature shows that a field is mandatory and will prevent validation errors upon submission.
+                        * The feature shows that a field is optional and will allow a user to get through the process faster.
+                        * *Example:*
+
+                             An administrator has to create a new user.  While filling out details on the form like *Username, Password, Emails*, a notification message will show
+                             if those fields are left empty since these are mandatory and are required to be completed. Whereas, fields like *Gender, First Name, etc.*
+                             are optional fields and can be left blank.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Must/Should Attributes
+==================================
+To do this data governance feature, follow these steps:
+
+|
+
+#. On the home page, click on the **Settings** button.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gototheattributeconfigurationsection.PNG
+|
+|
+
+#. Click on the "+" icon to create a new attribute. Create 3 new attributes.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clicktheicontocreatenewattribute.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clicktheicontocreatenewattribute2.PNG
+|
+|
+
+#. Go to the *Property Collection Configuration* and create a property collection.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration2.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotothepropertyconfiguration3.PNG
+|
+|
+
+#. Add the 3 new attributes to the newly created property collection (e.g. *Property_Collection_1*).
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthe3newattributes.PNG
+|
+|
+
+#. Go to *Class Configuration* and create a **Default** type class.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration2.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_gotoclassconfiguration3.PNG
+|
+|
+
+#. Add the property collection to that class.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthepropertycollectionstothattypeclass.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_addthepropertycollectionstothattypeclass2.PNG
+|
+|
+
+#. Assign a mandatory condition to the attributes by ticking on the checkbox. Save the changes.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_assignamandatorycondition.PNG
+|
+|
+
+#. Click on the **All** tab and go to PIM.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonthealltab.PNG
+|
+.. image:: /feature/_images/mdmimages/mustshouldattributes_clickonthealltab2.PNG
+|
+|
+
+#. Hover over the "+" icon and wait for the menu to appear. In the menu, go to the class created (e.g. *Class_1*).
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_hoverovertheicon.PNG
+|
+|
+
+#. View the set conditions in runtime. If a field is set to be *Mandatory* and is left blank, a violation notification will appear.
+
+.. image:: /feature/_images/mdmimages/mustshouldattributes_viewinruntime.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

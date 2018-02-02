@@ -1,0 +1,352 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Target and Channel Contextualization &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Timeline and History" href="../timelineandhistory/index.html" />
+    <link rel="prev" title="Embedded Variants within Contexts" href="embeddedvariants.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="embeddedvariants.html" title="Embedded Variants within Contexts">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../timelineandhistory/index.html" title="Timeline and History">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product_feature-mdm-general-contextualization-targetandchannel">
+            
+  <div class="section" id="s-target-and-channel-contextualization">
+<span id="target-and-channel-contextualization"></span><h1>Target and Channel Contextualization<a class="headerlink" href="#target-and-channel-contextualization" title="Permalink to this headline">¶</a></h1>
+<p>Target and Channel Contextualization is a feature that allows users to have attributes that can have multiple values which vary based on context.</p>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Target and channel contextualization enables the user to setup values which are based on a context.</li>
+<li>This feature is particularly useful for values that are dependent on a context or tag.</li>
+<li>The value can be based on two or more contexts.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><em>Embedded Variants within Context</em></li>
+<li><em>Context configuration</em></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Set up multi-value attributes based on a context or tag.</p>
+</li>
+<li><p class="first"><em>Example</em></p>
+<blockquote>
+<div><p>A product has different prices depending on the regions it is being sold to. In this example, “Region” is the context that drives the price attribute.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-target-and-channel-contextualization">
+<span id="how-to-do-target-and-channel-contextualization"></span><h2>How to do: Target and Channel Contextualization<a class="headerlink" href="#how-to-do-target-and-channel-contextualization" title="Permalink to this headline">¶</a></h2>
+<p>This How To guide provides instructions on how to have attributes that can have multiple values which vary based on context.
+To do this, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Settings</em> tab.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_gotosettings.PNG" src="../../../../../_images/targetandchannel_gotosettings.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select <em>Context Configuration</em>.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selectcontextconfiguration.PNG" src="../../../../../_images/targetandchannel_selectcontextconfiguration.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Create new context.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_createnewcontext.PNG" src="../../../../../_images/targetandchannel_createnewcontext.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill in the name and select <em>Attribute Context</em> as the feature type.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_fillname.PNG" src="../../../../../_images/targetandchannel_fillname.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select tag group to be added in the context and click <strong>Save</strong>.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selecttaggroup.PNG" src="../../../../../_images/targetandchannel_selecttaggroup.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>In the class configuration, select the class.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selectclass.PNG" src="../../../../../_images/targetandchannel_selectclass.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the desired attribute then select the context from the drop-down list.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selectdesiredattribute.PNG" src="../../../../../_images/targetandchannel_selectdesiredattribute.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click <strong>Save</strong> and try the changes in runtime.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_clicksave.PNG" src="../../../../../_images/targetandchannel_clicksave.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the product.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selectproduct.PNG" src="../../../../../_images/targetandchannel_selectproduct.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the attribute with variations.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_clickattribute.PNG" src="../../../../../_images/targetandchannel_clickattribute.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Create Attribute Variant for list price.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_createattributevariant.PNG" src="../../../../../_images/targetandchannel_createattributevariant.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the tag group, enter the value for the attribute, and click <strong>Save</strong>.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_selecttagandentervalue.PNG" src="../../../../../_images/targetandchannel_selecttagandentervalue.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>The screen should display something like the image below.</li>
+</ol>
+<img alt="../../../../../_images/targetandchannel_checkoutput.PNG" src="../../../../../_images/targetandchannel_checkoutput.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Target and Channel Contextualization</a><ul>
+<li><a class="reference internal" href="#how-to-do-target-and-channel-contextualization">How to do: Target and Channel Contextualization</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="embeddedvariants.html">Embedded Variants within Contexts</a></li>
+    
+    
+      <li>Next: <a href="../timelineandhistory/index.html">Timeline and History</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">General</a>
+        
+          <ul><li><a href="index.html">Contextualization - Attributes and Embedded Objects</a>
+        
+        <ul><li>Target and Channel Contextualization</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Feb 02, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="embeddedvariants.html" title="Embedded Variants within Contexts">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../timelineandhistory/index.html" title="Timeline and History">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

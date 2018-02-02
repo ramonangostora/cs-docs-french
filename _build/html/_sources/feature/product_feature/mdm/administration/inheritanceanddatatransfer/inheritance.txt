@@ -1,0 +1,87 @@
+========================
+Inheritance via Taxonomy
+========================
+Inheritance via Taxonomy is a feature that allows an article or product to receive predefined attributes set for a taxonomy.
+
+
+====================    =============================================================================================================================================================
+**Description:**        * Inheritance defines a taxonomy, arranging the concepts from generalized to specialized.
+                        * User can set the editable attributes and those that are inherited from the taxonomy.
+
+**Related topics:**     * *Linking Objects*
+
+**Application:**        * *Example:*
+
+                            Let's take for instance the energy drink "Red Bull". It falls under Food & Beverages > Beverages > Energy Drinks.
+                            It is common for Beverages to have the properties such as ingredients and important notice so it is necessary
+                            for Energy Drinks to inherit such properties.
+====================    =============================================================================================================================================================
+
+
+How to do: Inheritance via Taxonomy
+===================================
+
+Inheriting a subset of attributes from a taxonomy is easy, and here's how to do it.
+
+|
+
+#. On the home page, click the Gear icon to go to **Settings**.
+
+.. image:: /feature/_images/mdmimages/inheritance_gotohomepage.PNG
+|
+|
+
+#. Click the **Taxonomy Configuration** button.
+
+.. image:: /feature/_images/mdmimages/inheritance_taxonomyconfig.PNG
+|
+|
+
+#. Click on the "+" icon to create a new taxonomy.
+
+.. image:: /feature/_images/mdmimages/inheritance_clickcreate.PNG
+|
+|
+
+#. Enter a name for the taxonomy then add property collection
+
+.. image:: /feature/_images/mdmimages/inheritance_nametaxonomy.PNG
+|
+.. image:: /feature/_images/mdmimages/inheritance_nametaxonomy2.PNG
+|
+|
+
+#. Select the type of coupling, enter the default value, and click **Save**.
+
+.. image:: /feature/_images/mdmimages/inheritance_fillcoupling.PNG
+|
+|
+
+#. Go to PIM, hover on the "+" icon, and select your product.
+
+.. image:: /feature/_images/mdmimages/inheritance_selectproduct.PNG
+|
+|
+
+#. Click **Add Taxonomy**.
+
+.. image:: /feature/_images/mdmimages/inheritance_selectaddtaxonomy.PNG
+|
+.. image:: /feature/_images/mdmimages/inheritance_selectaddtaxonomy2.PNG
+|
+|
+
+#. Attributes under "Dynamic Coupling" are not editable as these values are inherited.
+
+.. image:: /feature/_images/mdmimages/inheritance_dynamic.PNG
+|
+|
+
+#. Attributes under "Tight Coupling" can be updated.
+
+.. image:: /feature/_images/mdmimages/inheritance_tight.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -1,0 +1,8 @@
+===================
+Multiclassification
+===================
+
+.. toctree::
+   :maxdepth: 1
+
+   multiclassify

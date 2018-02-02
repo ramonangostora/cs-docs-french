@@ -1,0 +1,11 @@
+===========================
+Data Model - Relationships
+===========================
+
+.. toctree::
+   :maxdepth: 1
+
+   datamodelrelationships
+   managemedialinks
+   definearticlelinks
+   definerelationships

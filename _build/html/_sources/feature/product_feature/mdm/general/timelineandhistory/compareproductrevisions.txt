@@ -1,0 +1,73 @@
+=========================
+Compare Product Revisions
+=========================
+The Compare Product Revision feature allows the selection and comparison of different versions of the same product.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature allows a user to compare versions of a product/article.
+                        * This feature gives an overview of the similarities and differences of comparable versions and merge values from any previous version to the newer version.
+                        * This feature creates a comparison table that shows columns for the product versions and rows for the attributes.  This table allows quick and easy
+                          comparison between each offering's features and characteristics.
+
+**Related topics:**     * *Products*
+
+**Application:**        * A user can track all the changes that are made to a product/article. Based on values, a user can merge a value from a previous version to the newer one.
+                        * *Example:*
+
+                            A Red Bull product is created with no short description. Later on, the user adds a description to the product.  When he saves the product
+                            with the new description, a version is created. In the timeline, the user can compare these versions and track the changes.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Compare Product Revisions
+=====================================
+To do this feature, follow these steps:
+
+|
+
+#. Click on any product and go to the **Timeline Tab**.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_clickonanyproduct.PNG
+|
+|
+
+#. View the revision timeline.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_viewtherevisiontimeline.PNG
+|
+|
+
+#. Check the revision history by hovering over the version of interest and by clicking on the icon below the version number.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_checktherevisionhistory.PNG
+|
+|
+
+#. Select the versions to be compared by clicking on the check marks on the right.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_selecttheversionstobecompared.PNG
+|
+|
+
+#. Click the **Compare** button on the upper right corner of the screen. It will load a comparison table that has columns for the product versions and rows for the attributes.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_clickthecomparebutton.PNG
+|
+|
+
+#. View the comparison table that shows the attribute changes in the selected versions.
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_viewthecomparisontable.PNG
+|
+|
+
+*Note: A user may also compare the selected versions with the latest version.*
+
+.. image:: /feature/_images/mdmimages/timelineandhistory_comparetheselectedversionswithlatest.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

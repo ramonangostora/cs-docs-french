@@ -1,0 +1,84 @@
+======================
+Multi-classify Objects
+======================
+The Multi-classify Objects feature provides general users the ability to add attribution classes to the product in addition to the single Nature Class.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
+                          Attribution classes contain detailed descriptive properties for the product.
+                        * The user is able to define the product further by adding properties based on different attribution classes.
+
+**Related topics:**     * *Attribution classes with attributes and tags*
+
+**Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
+                          The nature class would only have general properties.
+                        * The attribution class would define the product more in detail.
+                        * *Example:*
+
+                            For an energy drink, the nature class *Single Article* would just contain generic properties for the product,
+                            whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
+                            As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
+===================     =============================================================================================================================================================
+
+
+How to do: Multi-classify Objects
+=================================
+
+This How To guide provides instructions on how to multi-classify objects.
+To do this, follow these steps:
+
+|
+
+#. Go to PIM and hover on the "+" icon.
+
+.. image:: /feature/_images/mdmimages/multiclassify_gotopim.PNG
+|
+|
+
+#. Click **Single Article**.
+
+.. image:: /feature/_images/mdmimages/multiclassify_singlearticle.PNG
+|
+|
+
+#. Enter the name of the single article.
+
+.. image:: /feature/_images/mdmimages/multiclassify_name.PNG
+|
+|
+
+#. To add a Non-Nature class or Attribution class, click **Add Class**.
+
+.. image:: /feature/_images/mdmimages/multiclassify_addclass.PNG
+|
+|
+
+#. Select a class from the drop-down list.
+
+.. image:: /feature/_images/mdmimages/multiclassify_dropdownlist.PNG
+|
+.. image:: /feature/_images/mdmimages/multiclassify_selected.PNG
+|
+|
+
+#. To add another attribution class, click **Add Class** and select from the list.
+
+.. image:: /feature/_images/mdmimages/multiclassify_addclassagain.PNG
+|
+.. image:: /feature/_images/mdmimages/multiclassify_addclassagain2.PNG
+|
+|
+
+#. To switch templates from nature class to non-nature class, click on the drop-down list and select an option, for example *Beverages*.
+
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate.PNG
+|
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate2.PNG
+|
+.. image:: /feature/_images/mdmimages/multiclassify_switchtemplate3.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

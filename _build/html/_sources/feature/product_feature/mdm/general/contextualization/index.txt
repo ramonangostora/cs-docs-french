@@ -1,0 +1,10 @@
+===================================================
+Contextualization - Attributes and Embedded Objects
+===================================================
+
+.. toctree::
+   :maxdepth: 1
+
+
+   embeddedvariants
+   targetandchannel

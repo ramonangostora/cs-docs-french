@@ -1,0 +1,47 @@
+============================
+Export Product Data to Excel
+============================
+The Export Product Data to Excel feature provides the functionality to select and export product information to an Excel file.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature allows the export of data from PIM/MAM to a Microsoft Excel spreadsheet.
+                        * This feature allows (1) the export of all the products and images or (2) the export of selected items to an Excel sheet.
+
+**Related topics:**      * *Products, Articles, or Images*  to be exported.
+
+**Application:**        * The simple Excel-based export makes a record of data that is saved as an Excel file.
+                        * *Example:*
+
+                            A user has a department/workgroup that uses Microsoft Excel to work on data.
+                            The user can directly export data from the platform to an Excel file that the department/workgroup can easily use.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Export Product Data to Excel
+========================================
+To export product data to an Excel file, follow these steps:
+
+|
+
+#. Select the products that will be exported.  A user can select an entire page by using the **Select All** button.
+
+.. image:: /feature/_images/mdmimages/simpleexcelbasedexport_selecttheproducts.PNG
+|
+.. image:: /feature/_images/mdmimages/simpleexcelbasedexport_selecttheproducts2.PNG
+|
+|
+
+#. Once the products are selected, click on the **Export to Excel** button.
+
+.. image:: /feature/_images/mdmimages/simpleexcelbasedexport_clicktheexporttoexcel.PNG
+|
+|
+
+#. Wait for the Excel file to be downloaded. The exported file will contain all the data of the selected products.
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -1,0 +1,9 @@
+=========================
+Multi-taxonomy Assignment
+=========================
+
+.. toctree::
+   :maxdepth: 1
+
+   multitaxonomyassignment
+   productclassificationviataxonomies

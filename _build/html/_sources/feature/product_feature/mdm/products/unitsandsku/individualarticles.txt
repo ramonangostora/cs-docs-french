@@ -1,0 +1,91 @@
+====================================
+Manage Units for Individual Articles
+====================================
+Manage Units for Individual Articles allows you to efficiently handle various quantity units of the individual articles.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * Individual articles can have different units of measure such as a carton, can, box, cassette, cartridge, pounds, and kilograms.
+                          Therefore, handling the products in various units of measure is necessary for both retailers and wholesalers.
+                        * Being able to track the units in a tabular form allows for a more efficient handling operation.
+
+**Related topics:**     * *Manage Sales and Order Units*
+
+**Application:**        * Enable the system to handle not only multiple units but also similar units with different meanings.
+                        * *Example:*
+
+                            Let's take for instance a can of the energy drink "Red Bull", which is made available in its base unit (1 can), a box of 30, a carton of 35 and so on.
+                            It is important for the retailer to have the capability to handle these units that are of different quantities.
+===================     =============================================================================================================================================================
+
+
+
+How to do: Manage Units for Individual Articles
+===============================================
+
+Easily manage the units for individual articles, and here's how to do it.
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/individualarticles_gotopim.PNG
+|
+|
+
+#. Select a product and click **Unit**.
+
+.. image:: /feature/_images/mdmimages/individualarticles_selectproduct.PNG
+|
+|
+
+#. Click **Create**.
+
+.. image:: /feature/_images/mdmimages/individualarticles_create.PNG
+|
+|
+
+#. Select the unit tag and enter a name for the unit.
+
+.. image:: /feature/_images/mdmimages/individualarticles_selectunittag.PNG
+|
+|
+
+#. Click **Save**.
+
+.. image:: /feature/_images/mdmimages/individualarticles_save.PNG
+|
+|
+
+#. To create another unit, click **Create** again.
+
+.. image:: /feature/_images/mdmimages/individualarticles_createagain.PNG
+|
+|
+
+#. Select the unit tag and enter a name for the unit.
+
+.. image:: /feature/_images/mdmimages/individualarticles_selectunittag2.PNG
+|
+|
+
+#. Click **Save**.
+
+.. image:: /feature/_images/mdmimages/individualarticles_save2.PNG
+|
+|
+
+#. Multiple units are created.
+
+.. image:: /feature/_images/mdmimages/individualarticles_multipleunits.PNG
+|
+|
+
+#. Click the Eye icon to edit the units.
+
+.. image:: /feature/_images/mdmimages/individualarticles_edit.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

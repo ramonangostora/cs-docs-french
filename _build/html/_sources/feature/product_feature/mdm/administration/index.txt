@@ -1,0 +1,16 @@
+==============
+Administration
+==============
+
+.. toctree::
+   :maxdepth: 1
+
+   datamodelattributemanagement/index
+   datamodeltagmanagement/index
+   datamodelpropertycollections/index
+   datamodelrelationships/index
+   hierarchy/index
+   usersandpermissionscrudrights/index
+   usersandpermissionsviewtemplates/index
+   inheritanceanddatatransfer/index
+   simpletaxonomytree/index

@@ -1,0 +1,8 @@
+==================================
+Taxonomies - Simple Taxonomy Tree
+==================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managetaxonomy

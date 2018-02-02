@@ -1,0 +1,64 @@
+========================
+Creating a Partial Clone
+========================
+Creating a Partial Clone is a feature that allows users to create partial clones in which only selected properties of the original product are cloned.
+
+
+===================     =============================================================================================================================================================
+**Description:**        * A partial clone of a product contains a subset of the features of the original product as defined by a filter.
+                        * Creating a partial clone allows to selectively clone the values that need to be cloned.
+                        * New data can be added, and additional changes can be pushed to the cloned product.
+
+**Related topics:**     * *Articles* with relevant data
+                        * *Selecting properties to be cloned such as tags, attributes and relationships*
+
+**Application:**        * A partial clone only allows to clone product values that are selected beforehand.
+                        * Relationships to be copied should also be selected beforehand.
+                        * A partial clone is created within a product.
+                        * *Example:*
+
+                            Suppose a product is to be duplicated without certain values and relationships.
+                            Since the copy may  have a different supplier, image, or market, we can create a partial clone wherein the relationships and attributes that are not to be copied can be left unchecked.
+===================     =============================================================================================================================================================
+
+
+How to do: Creating a Partial Clone
+===================================
+
+This How To guide provides instructions on how to create a partial clone.
+To do this, follow these steps:
+
+|
+
+#. Click on the product. On the top right section, the Create Clone option is shown.
+
+.. image:: /feature/_images/mdmimages/partialclone_clickproduct.PNG
+|
+|
+
+#. Click **Create Clone**. A list of all categories related to *Attributes*, *Tags* and *Relationships* will appear.
+
+.. image:: /feature/_images/mdmimages/partialclone_clickcreateclone.PNG
+|
+|
+
+#. Click on any category and click on the features that are to be copied to the new product.
+
+.. image:: /feature/_images/mdmimages/partialclone_clickcategory.PNG
+|
+|
+
+#. Click **Clone**.
+
+.. image:: /feature/_images/mdmimages/partialclone_clickclone.PNG
+|
+|
+
+#. Your clone product is ready.
+
+.. image:: /feature/_images/mdmimages/partialclone_cloneready.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -1,0 +1,86 @@
+=====================
+Public/Private Tasks
+=====================
+The Public/Private Tasks feature allows a user to set a task to either *Public (Shared)* or *Private*.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * Tasks are action events created within an article that are intended for a user. In the system, the tasks contain a description of what action should be done.
+                          This feature allows a user to set a task to either *Public or Private*:
+
+                              A **Public** task is shared among users.
+                              A **Private** task is only for the user who created that task (and other users granted with permission to access the task).
+
+**Related topics:**     * *Tasks and Annotations*
+                        * *Task Dashboard*
+                        * *RACI-VS Tasks*
+
+**Application:**        * An administrator can set a task to remind another user of an action that needs to be done on a particular day.
+                        * *Example:*
+
+                            An administrator can create a task for a user to create a new variant for a product. An administrator sets it to *Public Mode*.
+                            The user assigned to the task can check the things to be completed and their relevant dates using the calendar view.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Public/Private Tasks
+================================
+To set a task to either public or private, follow these steps:
+
+|
+
+#. Go to *PIM* and select a product.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_gotoPIM.PNG
+|
+|
+
+#. Click on the **Tasks** tab to create a new task.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_clickonthetasktab.PNG
+|
+|
+
+#. Select the *Content Level* task.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_clickonthecontentleveltask.PNG
+|
+|
+
+#. Click on **Add New Task** button to create a new task.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_clickontheaddnewtaskbutton.PNG
+|
+|
+
+#. Enter the name of the new task then click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_enterthenameofthenewtask.PNG
+|
+|
+
+#. Toggle between the **Public** or **Private Mode** using the lock icon.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_togglebetweenpublicorprivate.PNG
+|
+|
+
+#. Set the important dates for the task.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_setthedates.PNG
+|
+|
+
+#. Go to *PIM* and go to the *Calendar View* to check the task.
+
+.. image:: /feature/_images/mdmimages/publicprivatetasks_gotoPIMandcalendarview.PNG
+|
+
+*Note: If a task is set in Private Mode, other users will not have access to view that task (except for those who are given permission).*
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

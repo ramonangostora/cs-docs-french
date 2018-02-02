@@ -1,0 +1,351 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Search and Store Bookmarks &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Public or Private Bookmarks and Collections" href="bookmarkcollections.html" />
+    <link rel="prev" title="Collections and Bookmarks" href="index.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="index.html" title="Collections and Bookmarks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="bookmarkcollections.html" title="Public or Private Bookmarks and Collections">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product_feature-mdm-general-collectionsandbookmarks-searchandstore">
+            
+  <div class="section" id="s-search-and-store-bookmarks">
+<span id="search-and-store-bookmarks"></span><h1>Search and Store Bookmarks<a class="headerlink" href="#search-and-store-bookmarks" title="Permalink to this headline">¶</a></h1>
+<p>Search and Store Bookmarks lets you search for products using various criteria to easily identify items of interest.</p>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Searches can be saved and viewed later to see the newly added products that satisfy the search criteria.</li>
+<li>Bookmarks allow saving of favorite products as part of a watchlist, enabling users to view and compare products.</li>
+<li>Collections include the products added by the user. The products in a collection stay the same unless a user adds or removes products.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><em>Public and Private Bookmarks and Collections</em></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Easily find favorite products by bookmarking them.</p>
+</li>
+<li><p class="first">Never miss out on applicable products as bookmarks are auto-updated.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>A retailer deals with a mixture of washing machines and creates a bookmark named ‘fully automated’ to group only the fully automated washing machines.
+If the user wants to see the fully automated washing machines, he searches for the keyword ‘fully automated’ in the bookmark search bar.
+Whenever a fully automated washing machine is added to the system, it is automatically added to the bookmark.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-search-and-store-bookmarks">
+<span id="how-to-do-search-and-store-bookmarks"></span><h2>How to do: Search and Store Bookmarks<a class="headerlink" href="#how-to-do-search-and-store-bookmarks" title="Permalink to this headline">¶</a></h2>
+<p>This <strong>How To</strong> guide provides instructions on how to search for products or assets using various criteria.
+It also provides details on how to save the search results and how to visit these results at a later time. To do this, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="s-storing-a-bookmark">
+<span id="storing-a-bookmark"></span><h3>Storing a Bookmark<a class="headerlink" href="#storing-a-bookmark" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to PIM and click <strong>Advanced Filters</strong>.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_gotopim.PNG" src="../../../../../_images/searchnstore_gotopim.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the desired filters and click <strong>Apply</strong>.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_selectfilter.PNG" src="../../../../../_images/searchnstore_selectfilter.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the <strong>Bookmark</strong> icon.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_clickbookmarks.PNG" src="../../../../../_images/searchnstore_clickbookmarks.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter the name of the bookmark and click <strong>Create</strong>.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_entername.PNG" src="../../../../../_images/searchnstore_entername.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Bookmark has been added successfully.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_addedsuccessfully.PNG" src="../../../../../_images/searchnstore_addedsuccessfully.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="s-searching-for-a-bookmark">
+<span id="searching-for-a-bookmark"></span><h3>Searching for a Bookmark<a class="headerlink" href="#searching-for-a-bookmark" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to PIM.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_gotopim2.PNG" src="../../../../../_images/searchnstore_gotopim2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>On the search bar, click the <strong>Bookmark</strong> icon.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_searchbar.PNG" src="../../../../../_images/searchnstore_searchbar.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Search for and click the bookmark.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_searchbookmark.PNG" src="../../../../../_images/searchnstore_searchbookmark.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click <strong>Open</strong>.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_clickopen.PNG" src="../../../../../_images/searchnstore_clickopen.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>The bookmark is displayed.</li>
+</ol>
+<img alt="../../../../../_images/searchnstore_bookmarkopened.PNG" src="../../../../../_images/searchnstore_bookmarkopened.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><em>Note: The bookmark page will be updated automatically in case there are new products that satisfy the criteria.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Search and Store Bookmarks</a><ul>
+<li><a class="reference internal" href="#how-to-do-search-and-store-bookmarks">How to do: Search and Store Bookmarks</a><ul>
+<li><a class="reference internal" href="#storing-a-bookmark">Storing a Bookmark</a></li>
+<li><a class="reference internal" href="#searching-for-a-bookmark">Searching for a Bookmark</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="index.html">Collections and Bookmarks</a></li>
+    
+    
+      <li>Next: <a href="bookmarkcollections.html">Public or Private Bookmarks and Collections</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">General</a>
+        
+          <ul><li><a href="index.html">Collections and Bookmarks</a>
+        
+        <ul><li>Search and Store Bookmarks</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Feb 02, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="index.html" title="Collections and Bookmarks">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="bookmarkcollections.html" title="Public or Private Bookmarks and Collections">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

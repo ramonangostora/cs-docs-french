@@ -1,0 +1,72 @@
+=================================
+Manage Hierarchy via Relationship
+=================================
+Manage Hierarchy via Relationship lets you set up relationships as links so that users can see the connections between articles.
+
+
+====================    =============================================================================================================================================================
+**Description:**        * Based on the relationship between two entities, hierarchies can be set up for classifying related products.
+
+**Related topics:**     * *Product Classification via Taxonomies*
+
+**Application:**        * Easily classify based on the related articles.
+                        * Search as to which articles are related.
+                        * *Example:*
+
+                            A user wants to view all assets belonging to a particular product in the system.
+                            To do this, a hierarchy must be set up for that product.
+====================    =============================================================================================================================================================
+
+
+
+How to do: Manage Hierarchy via Relationship
+============================================
+
+Classification of related products is easy when you manage hierarchies. Here's how to do it.
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_gotopim.PNG
+
+|
+
+|
+
+#. Click **Choose Taxonomies** then click the **Create Relationship Hierarchy** button.
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_choosetaxonomies.PNG
+
+|
+
+|
+
+#. Enter the relationship information.
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_enterinfo.PNG
+
+|
+
+|
+
+#. Click **Add Class** and select the class.
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_addclass.PNG
+
+|
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_addclass2.PNG
+
+|
+
+|
+
+#. Once done adding the classes, click **Apply**.
+
+.. image:: /feature/_images/mdmimages/relationshiphierarchy_clickapply.PNG
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

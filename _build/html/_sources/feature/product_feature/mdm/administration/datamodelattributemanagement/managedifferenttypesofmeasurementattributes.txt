@@ -1,0 +1,513 @@
+================================================
+Manage Different Types of Measurement Attributes
+================================================
+
+The table below shows the different types of measurement attributes that can be managed in the system:
+
+Attributes: Measurement Type
+============================
+
+.. list-table::
+   :widths: 25 50
+   :header-rows: 1
+
+   * - Measurement Type:
+     - Default Unit(s):
+   * - Length
+     - * km
+       * m
+       * dm
+       * cm
+       * mm
+       * um
+       * nm
+       * mi
+       * yd
+       * ft
+       * in
+       * nmi
+   * - Current
+     - * A
+       * mA
+   * - Potential
+     - * V
+       * mV
+   * - Frequency
+     - * Hz
+       * kHz
+       * MHz
+   * - Time
+     - * ns
+       * us
+       * ms
+       * sec
+       * min
+       * hr
+       * days
+       * weeks
+       * years
+       * decades
+       * centuries
+   * - Temperature
+     - * tempC
+       * tempF
+       * tempK
+   * - Area
+     - * km2
+       * m2
+       * mi2
+       * yd2
+       * sqft
+       * in2
+       * hectare
+       * acre
+       * cm2
+   * - Currency
+     - * AUD
+       * BGN
+       * BRL
+       * CAD
+       * CHF
+       * CNY
+       * CZK
+       * DKK
+       * GBP
+       * HKD
+       * HRK
+       * HUF
+       * IDR
+       * ILS
+       * INR
+       * JPY
+       * KRW
+       * MXN
+       * MYR
+       * NOK
+       * NZD
+       * PHP
+       * PLN
+       * RON
+       * RUB
+       * SEK
+       * SGD
+       * THB
+       * TRY
+       * ZAR
+       * EUR
+       * USD
+   * - Digital Storage
+     - * b
+       * kb
+       * Kib
+       * Mb
+       * Mib
+       * Gb
+       * Gib
+       * Tb
+       * Tib
+       * Pb
+       * Pib
+       * B
+       * kB
+       * KiB
+       * MB
+       * MiB
+       * GB
+       * GiB
+       * TB
+       * TiB
+       * PB
+       * PiB
+   * - Mass
+     - * tonne
+       * kg
+       * g
+       * mg
+       * ug
+       * ton
+       * stone
+       * lbs
+       * oz
+   * - Energy
+     - * J
+       * kJ
+       * Cal
+       * Wh
+       * kWh
+       * BTU
+       * therm
+   * - Plane Angle
+     - * deg
+       * gon
+       * mrad
+       * rad
+   * - Pressure
+     - * Pa
+       * atm
+       * bar
+       * psi
+       * torr
+       * kPa
+   * - Volume
+     - * gal
+       * qt
+       * pt
+       * cu
+       * floz
+       * tbsp
+       * tsp
+       * m3
+       * L
+       * ml
+       * ft3
+       * in3
+       * cm3
+   * - Speed
+     - * mph
+       * fps
+       * kph
+       * m/s
+       * knot
+   * - Power
+     - * W
+       * hp
+       * kW
+   * - Luminosity
+     - * cd
+       * mcd
+       * lm
+   * - Radiation
+     - * Gy
+       * R
+       * Sv
+   * - Illuminance
+     - * lux
+   * - Force
+     - * N
+       * dyn
+       * lbf
+   * - Acceleration
+     - * gee
+   * - Capacitance
+     - * F
+   * - Viscosity
+     - * P
+       * St
+   * - Inductance
+     - * H
+   * - Resistance
+     - * ohm
+   * - Magnetism
+     - * T
+       * G
+   * - Charge
+     - * C
+       * Ah
+   * - Conductance
+     - * S
+   * - Substance
+     - * mol
+   * - Weight per Area
+     - * kg/m2
+       * gm/m2
+       * lb/yd2
+       * lb/ft2
+       * lb/in2
+       * oz/in2
+       * oz/ft2
+       * tn/mi2
+       * tn/ac1
+       * t/km2
+   * - Proportion
+     - * %
+       * x/y
+   * - Thermal Insulation
+     - * m2K/W
+       * hr-ft2-F/BTU
+   * - Heating Rate
+     - * °C/sec
+       * °C/min
+       * °C/hr
+   * - Density
+     - * kg/m3
+       * kg/cm3
+       * g/m3
+       * g/cm3
+   * - Weight Per Time
+     - * gm/sec
+       * gm/min
+       * gm/hr
+       * gm/day
+       * kg/sec
+       * kg/min
+       * kg/hour
+       * kg/day
+   * - Volume Flow Rate
+     - * m3/sec
+       * m3/min
+       * m3/hr
+       * L/sec
+       * L/min
+       * L/hr
+   * - Area Per Volume
+     - * cm2/mL
+       * cm2/L
+       * m2/mL
+       * m2/L
+   * - Rotation Frequency
+     - * rev/sec
+       * rev/min
+       * rev/hr
+   * - Price
+     - * AUD
+       * BGN
+       * BRL
+       * CAD
+       * CHF
+       * CNY
+       * CZK
+       * DKK
+       * GBP
+       * HKD
+       * HRK
+       * HUF
+       * IDR
+       * ILS
+       * INR
+       * JPY
+       * KRW
+       * MXN
+       * MYR
+       * NOK
+       * NZD
+       * PHP
+       * PLN
+       * RON
+       * RUB
+       * SEK
+       * SGD
+       * THB
+       * TRY
+       * ZAR
+       * EUR
+       * USD
+
+|
+
+
+
+Measurement Type: Volume
+=========================
+This feature example allows an administrator to set an attribute as *Volume*.
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature allows the setting of an attribute type as *Volume*.
+                        * This feature makes an attribute type as *Volume* and applies the appropriate default units to be associated with the volume.
+
+**Related topics:**     * *Volume* type attribute.
+
+**Application:**        * Volume measurement type can set the volume of a liquid product (e.g. *Beverages*) and also set its corresponding unit.
+                        * *Example:*
+
+                            An administrator can set an attribute of a Red Bull product to volume so that a user can easily enter the volume of the product and select
+                            a unit (from a drop-down list).
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Measurement Type: Volume
+------------------------------------
+To set an attribute as a volume, follow these steps:
+
+|
+
+#. Go to *Settings*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_gotoconfigsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+|
+|
+
+#. Click the "+" icon to create an attribute.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_clicktheicontocreateanattribute.PNG
+|
+|
+
+#. Select *Volume* under the type field.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_selectvolumeunderthemeasurementtype.PNG
+|
+|
+
+#. Select the appropriate unit for the volume attribute (e.g. *Pint, Quart, Cup, and more*).
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_selecttheappropriateunit.PNG
+|
+|
+
+#. Set the *Precision* and the *Default Value*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_setprecisionanddefaultvalue.PNG.PNG
+|
+|
+
+#. Click on the **Save** button to save the settings.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_clickonthesavebutton.PNG.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
+
+
+
+Measurement Type: Weight
+=========================
+This feature example allows an administrator to set an attribute as *Weight*.
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature allows the setting of an attribute type as *Weight*.
+                        * This feature makes an attribute type as *Weight* and applies the appropriate default units to be associated with the weight (e.g. *Grams, Kg, etc.*).
+
+**Related topics:**     * *Weight* type attribute.
+
+**Application:**        * Weight measurement type can set how heavy a product is or the weight of a product (e.g. *Beverages*) and also set its corresponding unit.
+                        * *Example:*
+
+                            An administrator can set an attribute of a Red Bull product to weight so that a user can easily enter how heavy that product is and then, select
+                            the correct unit from a drop-down list.
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Measurement Type: Weight
+------------------------------------
+To set an attribute as a weight, follow these steps:
+
+|
+
+#. Go to *Settings*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_gotoconfigsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+|
+|
+
+#. Click the "+" icon to create an attribute.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_clicktheicontocreateanattribute.PNG
+|
+|
+
+#. Select *Mass* under the type field.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsweight_selectmassunderthemeasurementtype.PNG
+|
+|
+
+#. Select the appropriate unit for mass (e.g. *Gram, Kilogram, Tonne, and more*).
+
+.. image:: /feature/_images/mdmimages/managemeasurementsweight_selecttheappropriateunitformass.PNG
+|
+|
+
+#. Set the *Precision* and the *Default Value*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsweight_setprecisionanddefaultvalue.PNG.PNG
+|
+|
+
+#. Click on the **Save** button to save the settings.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsweight_clickonthesavebutton.PNG.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+  :alt: Contentsphere line
+
+
+
+Measurement Type: Temperature
+==============================
+This feature example allows an administrator to set an attribute as *Temperature*.
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature allows the setting of an attribute type as *Temperature*.
+                        * This feature makes an attribute type as *Temperature* and applies the appropriate default units to be associated with the temperature
+                          (e.g. *Celsius, Fahrenheit, etc*).
+
+**Related topics:**     * *Temperature* type attribute.
+
+**Application:**        * Temperature attribute type can set how hot or cold a product is (e.g. *Beverages*) and also set its corresponding unit.
+                        * *Example:*
+
+                              An administrator can set an attribute of a Red Bull product to temperature so that a user can set the temperature of the product and also select
+                              its correct unit (from a drop-down list).
+
+===================     ===============================================================================================================================================================
+
+
+How to do: Measurement Type: Temperature
+-----------------------------------------
+To set an attribute as a temperature, follow these steps:
+
+|
+
+#. Go to *Settings*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_gotoconfigsettings.PNG
+|
+|
+
+#. Go to the *Attribute Configuration* section.
+
+.. image:: /feature/_images/mdmimages/managedifferenttypesofattributes_clickonattributeconfigurationsection.PNG
+|
+|
+
+#. Click the "+" icon to create an attribute.
+
+.. image:: /feature/_images/mdmimages/managemeasurementsvolume_clicktheicontocreateanattribute.PNG
+|
+|
+
+#. Select *Temperature* under the type field.
+
+.. image:: /feature/_images/mdmimages/managemeasurementstemperature_selecttemperature.PNG
+|
+|
+
+#. Select the appropriate unit for temperature (e.g. *Celsius, Fahrenheit, Kelvin*).
+
+.. image:: /feature/_images/mdmimages/managemeasurementstemperature_selectappropriateunit.PNG
+|
+|
+
+#. Set the *Precision* and the *Default Value*.
+
+.. image:: /feature/_images/mdmimages/managemeasurementstemperature_setprecisionanddefaultvalue.PNG.PNG
+|
+|
+
+#. Click on the **Save** button to save the settings.
+
+.. image:: /feature/_images/mdmimages/managemeasurementstemperature_clickonthesavebutton.PNG.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
