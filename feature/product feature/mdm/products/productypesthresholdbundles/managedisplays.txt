@@ -40,7 +40,7 @@ To do this, follow these steps:
 
 #. Click **Loose Bundle**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_clickloose1.PNG
+.. image:: /feature/_images/mdmimages/managedisplays_clickloosebundle.PNG
 |
 |
 

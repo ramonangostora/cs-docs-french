@@ -72,7 +72,7 @@ To do manage gift sets/ basket, follow these steps:
 
 #. To add an image, click **Relationships** tab.
 
-.. image:: /feature/_images/mdmimages/managegiftsets_clickrel.PNG
+.. image:: /feature/_images/mdmimages/managegiftsets_clickrelationships.PNG
 |
 |
 
