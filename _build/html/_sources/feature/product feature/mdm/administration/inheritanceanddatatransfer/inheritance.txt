@@ -1,7 +1,7 @@
 ========================
 Inheritance via Taxonomy
 ========================
-Inheritance via Taxonomy lets you define the attributes to be inherited from a taxonomy.
+Inheritance via Taxonomy is a feature that allows an article or product to receive predefined attributes set for a taxonomy.
 
 
 ====================    =============================================================================================================================================================
@@ -13,7 +13,7 @@ Inheritance via Taxonomy lets you define the attributes to be inherited from a t
 **Application:**        * *Example:*
 
                             Let's take for instance the energy drink "Red Bull". It falls under Food & Beverages > Beverages > Energy Drinks.
-                            It is common for Beverages to have the properties such as ingredients and important notice so it is important
+                            It is common for Beverages to have the properties such as ingredients and important notice so it is necessary
                             for Energy Drinks to inherit such properties.
 ====================    =============================================================================================================================================================
 

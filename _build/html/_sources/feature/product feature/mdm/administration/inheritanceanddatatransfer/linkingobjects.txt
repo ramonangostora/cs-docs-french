@@ -1,16 +1,15 @@
 ===============
 Linking Objects
 ===============
-
-
-Linking Objects lets you properly classify your products by means of taxonomies
+Linking Objects allows an administrator to link an object to multiple taxonomies.
 
 
 ====================    =============================================================================================================================================================
-**Description:**        * Classify objects through various sub-taxonomies to smoothly navigate the system and easily search for linked objects.
-                        * Apply multiple taxonomies to a product to show as to which branches the product falls under.
+**Description:**        * The feature allows the classification of objects to various sub-taxonomies for smooth navigation and easy searching of other linked objects.
+                        * It can apply multiple taxonomies to a product to show the categories the product falls under.
 
 **Related topics:**     * *Inheritance via Taxonomy*
+                        * *Multi-taxonomy Assignment*
 
 **Application:**        * Link an object to a taxonomy for proper classification.
                         * Taxonomy branches serve as classification of the parts.
