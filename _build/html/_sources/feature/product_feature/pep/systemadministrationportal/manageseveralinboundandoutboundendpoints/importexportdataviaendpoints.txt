@@ -1,0 +1,24 @@
+=================================
+Import/Export Data via Endpoints
+=================================
+The Import/Export Data via Endpoints is a feature that provides a *Data Integration* dashboard for a workspace so that data can be imported or exported using the endpoints.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * The dashboard provides an at-a-glance view of the key indicators in the process or system.
+                        * A dashboard for the *Import/Export Endpoints* will showcase all the information regarding the process in a summary.
+						              It will show key indicators for the products that are transferred through the process.
+
+**Related topics:**     * *Manage Endpoints for a System*
+						            * *Manage System Profile*
+						            * *Monitor Data Quality*
+
+**Application:**        * Based on the dashboard, a supplier or user can view any violation that occurred during the import (or export) process.
+						              The supplier/user can then take appropriate corrective measures and decisions.
+                        * *Example:*
+
+                            The *Import Endpoint* dashboard helps a *Fashion* supplier to import the fashion data into the system.
+							              The dashboard will show a summarized report, as well as, a detailed report for the products imported.
+							              The dashboard will also give a glimpse of erroneous or incomplete data that can be corrected  by the supplier.
+
+===================     =======================================================================================================================================================================

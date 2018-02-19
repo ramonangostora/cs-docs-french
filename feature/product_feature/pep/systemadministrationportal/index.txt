@@ -1,0 +1,10 @@
+=============================
+System Administration Portal
+=============================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageandrectifyerroneousdatarecords/index
+   monitorandcheckdata/index
+   manageseveralinboundandoutboundendpoints/index

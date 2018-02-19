@@ -1,0 +1,21 @@
+===========================
+Drill Down for KPI Reports
+===========================
+Drill Down for KPI Reports is a data governance feature that sets up drill down criteria for DQ (Data Quality) reports so that responsible users can explore the quality issues.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Different levels can be maintained for the dashboard to dive in the report and get more enhanced review of the report.
+                        * A user or supplier can have a detailed view of all the product drilled down in the report that allows a user to explore the quality issues.
+
+**Related topics:**     * *Taxonomy Management*
+                        * *Products*
+
+**Application:**        * This feature helps the user or supplier to have an in-depth DQ report for all the products available.
+                        * A user or supplier can narrow down on the products with quality issues. This can be based on a *Taxonomy* or a *Tag*.
+                        * *Example:*
+
+                            A KPI for a fashion taxonomy is created, it can be drilled down to a sub-level of the fashion taxonomy,
+                            and then again, there can be another drill down based on a *Color* tag, by which the user can have a detailed report and then explore all the KPI.
+
+===================     =======================================================================================================================================================================

@@ -1,0 +1,19 @@
+===============
+Manage Masters
+===============
+Manage Masters feature sets up **Master Tags** in the system like *Region, Color, Material, Brands*.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Master Tags allow users to make master tags and subtags in taxonomies which help in categorizing products.
+                        * The primary function of Manage Masters is that the tags can be reused in various sub-levels taxonomies.
+
+**Related topics:**     * *Tag Management Features*
+
+**Application:**        * Once a Master Tag is created, it can be used in multiple levels of hierarchy, several number of times, making it convenient for users.
+                        * *Example:*
+
+                            An organization sells multiple categories of product (i.e. *Furniture, Electronics, and Fashion & Clothing*).
+                            The user creates a *"Color" Master Tag*, which can be used in all the categories mentioned.
+
+===================     =======================================================================================================================================================================

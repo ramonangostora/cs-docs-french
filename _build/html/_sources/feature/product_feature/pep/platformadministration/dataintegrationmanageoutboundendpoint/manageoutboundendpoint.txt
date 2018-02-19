@@ -1,0 +1,20 @@
+=========================
+Manage Outbound Endpoint
+=========================
+Manage Outbound Endpoint is an admin feature that manages *Outbound Endpoints* on the *Partner Engagement Platform* so that the endpoint can be used for exporting data.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Outbound Endpoint allows users to make a data endpoint where the data would be transferred from the system to an Excel file.
+						            * In *Outbound Endpoint*, an endpoint can have only one process.
+
+**Related topics:**     * *Products*
+					             	* *Data Integration Process*
+
+**Application:**        * To create data endpoints, admin decides which process would be off-board.
+                        * *Example:*
+
+                            *Organization A* sells electronics. If a user from Organization A wants to transfer product data from the system to the sheet,
+							              the user can make an endpoint and selects that endpoint at the time of off-board.
+
+===================     =======================================================================================================================================================================

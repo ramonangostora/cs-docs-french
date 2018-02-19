@@ -1,0 +1,9 @@
+=================================================================
+Data Integration Dashboard - Monitor and Check Data per Endpoint
+=================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   monitorimports
+   monitorexports

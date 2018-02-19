@@ -1,0 +1,22 @@
+=====================
+Dependent Attributes
+=====================
+The Dependent Attributes is an admin feature that configures dependent attributes, which are attributes that introduce additional set of attributes that should be filled out
+because the attributes have logical relationship with each other.
+
+
+====================    =======================================================================================================================================================================
+**Description:**        * Dependent attributes are properties whose values are restricted by another attribute value.
+                        * Minor Taxonomies are used to build dependent attributes, by which various properties can be dependent on a particular property.
+
+**Related topics:**     * *Attribute Management*
+                        * *Property Collections*
+
+**Application:**        * An article/product may have a set of properties linked on a different tag group.
+                        * An admin can create various attributes and then by using the minor taxonomy have these attributes linked as dependent attributes.
+                        * *Example:*
+
+                            There are properties which are dependent on the type of material. Glass has different properties associated to it and steel has different properties, as well.
+                            The 'Material' will be set as a minor taxonomy and will be added in a property collection.
+
+====================    =======================================================================================================================================================================

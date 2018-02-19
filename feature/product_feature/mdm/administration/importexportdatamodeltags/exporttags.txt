@@ -1,0 +1,20 @@
+============
+Export Tags
+============
+The Export Tags is a feature that exports tag definitions so that they can be viewed and checked offline.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Tags are used to give various possible values to a product, categorizing it better.
+                        * This feature lets users have all the details of the tags in a single sheet. This sheet can also be used offline.
+                        * This feature exports the tag definitions in an Excel file.
+
+**Related topics:**     * *Tag Management*
+                        * *Import Tags*
+
+**Application:**        * When a user/supplier needs the information of the Tags in the system, The *Export Tags* feature will provide the list of all the tags in a sheet.
+                        * *Example:*
+
+                            When *Users A, B, or C* need a list of tags present in the system, they can view and save it externally by using *Export Tags* feature.
+
+===================     =======================================================================================================================================================================

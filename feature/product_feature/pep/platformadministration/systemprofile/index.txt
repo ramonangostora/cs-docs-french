@@ -1,0 +1,8 @@
+=======================================
+System Profile - Setup System Profile
+=======================================
+
+.. toctree::
+   :maxdepth: 1
+
+   setupsystemprofile

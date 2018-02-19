@@ -1,0 +1,9 @@
+============================
+Translations - Data Model
+============================
+
+.. toctree::
+   :maxdepth: 1
+
+   multilingualdatamodel
+   

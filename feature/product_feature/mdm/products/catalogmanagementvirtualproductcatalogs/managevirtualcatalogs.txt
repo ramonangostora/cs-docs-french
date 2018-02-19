@@ -1,0 +1,21 @@
+========================
+Manage Virtual Catalogs
+========================
+Manage Virtual Catalogs feature creates multiple collections and bookmarks to effectively manage different selections of products in the catalog.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * A Virtual Catalog is a collection of various items put together by a user (usually a retailer) to be used at a specific time or for a certain occasion.
+                        * These catalogs vary according to users and can be restricted in terms of who can view and edit them.
+
+**Related topics:**     * *Collections and Bookmarks*
+
+**Application:**        * A retailer uses a *Virtual Catalog* to create his own collection of products for special occasions.
+                        * Catalogs can be made user-specific.
+                        * *Example:*
+
+                            *Retailer A* with a *clothing franchise* creates a winter collection in a catalog and uses it when winter time arrives.
+
+                        * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
+
+===================     =======================================================================================================================================================================

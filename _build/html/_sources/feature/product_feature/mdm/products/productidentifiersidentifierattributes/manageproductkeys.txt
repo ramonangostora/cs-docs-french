@@ -1,0 +1,18 @@
+=====================
+Manage Product Keys
+=====================
+Manage Product Keys is a feature that sets up certain attributes as *Product Keys* so that they can be checked for uniqueness.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Products are created with unique values. These unique values are called *Product Keys*.
+                        * Product Keys define attributes to be a unique value. If non-unique values will be used, a violation would appear for the *Product or Article*.
+
+**Related topics:**     * *Manage Supplier Records*
+
+**Application:**        * A user can define certain attributes to be unique so that the products created by that class are also unique based on that attribute.
+                        * *Example:*
+
+                            Supplier A	wants the **GTIN value** of his products to be unique. This can be done by setting the attribute, GTIN, as a *Product Key or Identifier Attribute*.
+
+===================     =======================================================================================================================================================================

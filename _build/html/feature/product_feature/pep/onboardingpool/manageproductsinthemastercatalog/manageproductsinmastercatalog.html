@@ -1,0 +1,243 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manage Products in Master Catalog &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Master Catalog - Consolidate Products from across Systems" href="../consolidateproductsfromacrosssystems/index.html" />
+    <link rel="prev" title="Master Catalog - Consolidate Products from across Systems" href="index.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="index.html" title="Master Catalog - Consolidate Products from across Systems">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../consolidateproductsfromacrosssystems/index.html" title="Master Catalog - Consolidate Products from across Systems">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product_feature-pep-onboardingpool-manageproductsinthemastercatalog-manageproductsinmastercatalog">
+            
+  <div class="section" id="s-manage-products-in-master-catalog">
+<span id="manage-products-in-master-catalog"></span><h1>Manage Products in Master Catalog<a class="headerlink" href="#manage-products-in-master-catalog" title="Permalink to this headline">¶</a></h1>
+<p>The Manage Products in Master Catalog is a feature that allows a Data Steward to add information to the products so that the products have complete definition.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Master Catalog allows a Data Steward to manage all products at the time of on-boarding.</li>
+<li>The feature also allows a Data Steward to manage all the content and data of a product before transferring it to PIM.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><dl class="first docutils">
+<dt><em>On-boarding Features</em></dt>
+<dd><ul class="first last">
+<li><em>Users and Permissions Features</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">The Master Catalog feature can permit users to manage all of the product content.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><dl class="docutils">
+<dt>An organization has a Data Steward who manages all the products in the Master Catalog and there are <em>Suppliers A and B</em>, who sell furniture and fashion products.</dt>
+<dd><p class="first last">Data Steward gives permission for <em>Data Integration</em> to both suppliers.
+They proceeded with on-boarding of their products and transferring to the Master Catalog,
+where all the Products are verified and corrected by the Data Steward, if necessary.</p>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="index.html">Master Catalog - Consolidate Products from across Systems</a></li>
+    
+    
+      <li>Next: <a href="../consolidateproductsfromacrosssystems/index.html">Master Catalog - Consolidate Products from across Systems</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">PEP Feature Guides</a>
+        
+          <ul><li><a href="../index.html">On-boarding Pool</a>
+        
+          <ul><li><a href="index.html">Master Catalog - Consolidate Products from across Systems</a>
+        
+        <ul><li>Manage Products in Master Catalog</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Feb 19, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="index.html" title="Master Catalog - Consolidate Products from across Systems">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../consolidateproductsfromacrosssystems/index.html" title="Master Catalog - Consolidate Products from across Systems">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

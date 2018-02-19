@@ -1,0 +1,9 @@
+=====================
+Governance Dashboard
+=====================
+
+.. toctree::
+   :maxdepth: 1
+
+   kpibaseddqreports
+   drilldownforkpireports

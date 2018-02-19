@@ -1,0 +1,17 @@
+======================
+Remedy Quality Issues
+======================
+Remedy Quality Issues is a data governance feature that edits records with incorrect data or non-conforming quality. This improves the quality profile of a product.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * An administrator can improve *Accuracy* and *Quality of Data* by restricting the properties of *Attributes, Tags, and Classes* entered.
+
+**Related topics:**     * *Rules*
+
+**Application:**        * The feature can create *Data Quality Rules*.
+                        * *Example:*
+
+                             *Organization A* sells *Electronics* and each product has a unique GTIN.  An admin can set up a **rule** stating that the GTIN cannot exceed 14 digits.
+
+===================     =======================================================================================================================================================================

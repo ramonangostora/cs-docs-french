@@ -1,0 +1,8 @@
+========================
+Hierarchical Navigation
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageproductsacrosstaxonomies

@@ -1,0 +1,22 @@
+===========================
+Check & Erroneous Products
+===========================
+The Check and Erroneous Products is a feature that can be used by data stewards to view all the products, flagged with errors and warnings so corrective actions can be taken.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * In the *On-boarding Master Catalog*, a *Data Steward* can see Products transferred by a supplier.
+                        * This feature allows an admin to create and apply rules like KPI's for data accuracy in the master catalog.
+
+**Related topics:**     * *Rules and Violations*
+						            * *On-boarding Features*
+						            * *KPI-based Completeness Rules*
+
+**Application:**        * The feature can create an On-boarding Pool, where a Data Steward manages and corrects product data of a supplier.
+                        * *Example:*
+
+                            A data steward manages all the product of a supplier. The supplier transfers the products in the master catalog.
+							              Then, the data steward is able to make corrective actions on the data that are flagged with errors and warnings
+							              due to the rules that have been applied on master catalog that have not been met by the on-boarding data.
+
+===================     =======================================================================================================================================================================
