@@ -1,20 +1,18 @@
 =========
 Rollback
 =========
-The Rollback feature allows user to switch or to revert to a previous version of an object in the system.
+The Rollback feature allows user to switch (or to revert) to a previous version of a product in the system.
 
 
 ====================      ===============================================================================================================================================================
-**Description:**          * The Rollback feature allows you to  go back to any previous version of the article/product create a
-                            Bundle of products grouped for the purpose of displays in store.
-                            The images if linked to a product will be visible in the product thumbnail and in the relationship tab.
-                            In the image relationship tab, the product to which that image is linked to would be visible too.
+**Description:**          * The feature is used to revert to any former version of an article/product.
+                          * The rollback allows a user to go back to any version, if the user/supplier wishes to revert back to previous changes.
 
-**Related topics:**       * *Define Article Links*
-                          * *Define Relationships*
+**Related topics:**       * *Manage Virtual Catalogs*
+                          * *Product Classifications*
 
-**Application:**          * Manage Media Links can be used to link a product to its media assets. An example would be an article that is linked to its video files
-                            that will provide additional information regarding the article.
+**Application:**          * The Rollback feature is used to switch back to a desired version of a product.
+                            This feature is particularly helpful to revert to a previous version if there are any errors made in any property of the product.
                           * *Example:*
 
                               Supplier can add commercial text in the 'description' for Toblerone Chocolates during Holiday season.

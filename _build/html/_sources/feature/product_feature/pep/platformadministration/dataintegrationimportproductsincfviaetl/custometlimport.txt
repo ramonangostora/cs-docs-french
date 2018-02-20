@@ -11,7 +11,7 @@ Custom ETL (Extract-Transform-Load) Import is a feature that allows the manageme
                         * The JSON file is structured that it should contain: **Main Class ID, Product ID,** and all the **Property Collection-related class**.
 
 **Related topics:**     * *Custom ETL Export*
-						            * *Talend jobs*
+                        * *Talend jobs*
 
 **Application:**        * The feature allows a supplier to send any update about the product to the retailer through JMS.
                         * *Example:*

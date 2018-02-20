@@ -1,6 +1,6 @@
-==========================================================
-Master Catalog - Consolidate Products from across Systems
-==========================================================
+=======================================================
+Master Catalog - Manage Products in the Master Catalog
+=======================================================
 
 .. toctree::
    :maxdepth: 1

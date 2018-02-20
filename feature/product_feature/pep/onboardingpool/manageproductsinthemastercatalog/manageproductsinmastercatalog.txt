@@ -1,7 +1,7 @@
-==================================
-Manage Products in Master Catalog
-==================================
-The Manage Products in Master Catalog is a feature that allows a Data Steward to add information to the products so that the products have complete definition.
+======================================
+Manage Products in the Master Catalog
+======================================
+The Manage Products in the Master Catalog is a feature that allows a Data Steward to add information to the products so that the products have complete definitions.
 
 
 ===================     =======================================================================================================================================================================
@@ -9,14 +9,14 @@ The Manage Products in Master Catalog is a feature that allows a Data Steward to
                         * The feature also allows a Data Steward to manage all the content and data of a product before transferring it to PIM.
 
 **Related topics:**     * *On-boarding Features*
-						            * *Users and Permissions Features*
+                        * *Users and Permissions Features*
 
 **Application:**        * The Master Catalog feature can permit users to manage all of the product content.
                         * *Example:*
 
                             An organization has a Data Steward who manages all the products in the Master Catalog and there are *Suppliers A and B*, who sell furniture and fashion products.
-							              Data Steward gives permission for *Data Integration* to both suppliers.
-							              They proceeded with on-boarding of their products and transferring to the Master Catalog,
-							              where all the Products are verified and corrected by the Data Steward, if necessary.
+                            Data Steward gives permission for *Data Integration* to both suppliers.
+                            They proceeded with on-boarding of their products and transferring to the Master Catalog,
+                            where all the Products are verified and corrected by the Data Steward, if necessary.
 
 ===================     =======================================================================================================================================================================

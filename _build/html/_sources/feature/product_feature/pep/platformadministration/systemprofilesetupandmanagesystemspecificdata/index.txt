@@ -1,8 +1,8 @@
-===========================================================================
-System Profile - Setup & Manage System Specific Data Integration Endpoints
-===========================================================================
+=============================================================================
+System Profile - Setup and Manage System Specific Data Integration Endpoints
+=============================================================================
 
 .. toctree::
    :maxdepth: 1
 
-    manageendpointsforasystem
+   manageendpointsforasystem

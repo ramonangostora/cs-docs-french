@@ -1,0 +1,18 @@
+================
+Monitor Imports
+================
+The Monitor Imports feature provides an import summary for every import of product data that allows corrective action to be promptly done, if required.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * The user will get and view a summary of the reports for each completed import process.
+                        * The brief summary would have key indicators of the products being imported and the user can check the products for violations and correct them.
+
+**Related topics:**     * *Manage Endpoints for a System*
+                        * *Manage System Profile*
+                        * *Monitor Data Quality*
+
+**Application:**        * The user gets an overall summary of the *previous, recent, and/or total number* of uploaded files.
+                          It also provides information about the successful imports and violations.
+
+===================     =======================================================================================================================================================================
