@@ -13,11 +13,11 @@ Manage Products across Taxonomies is a feature that allows a user to copy or mov
                         * *Product Classification via Taxonomies*
 
 **Application:**        * A retailer can move his products through various levels of taxonomy so that each product can be easily identified and searched.
-                        * *Example*
+                        * *Example:*
 
             							Suppose a retailer has electronics and home furnishing products.
             							By using the Manage Products across Taxonomies feature, he can classify mobile phones, television sets, and laptops under the "Electronics" taxonomy.
             							On the other hand, he can classify the dining and bedroom-related products under the "Home Furnishing" taxonomy.
             							A more refined search is possible by classifying the products into sub-categories.
-                          
+
 ====================    =============================================================================================================================================================
