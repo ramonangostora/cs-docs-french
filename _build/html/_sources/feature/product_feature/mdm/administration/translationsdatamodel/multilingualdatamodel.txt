@@ -11,7 +11,7 @@ The Multilingual Data Model is a feature that provides translations for the vari
 **Related topics:**     * *Data Model Features*
                         * *Multilingual UI*
 
-**Application:**        * A user can have multiple language data models to show the products/article in various languages.
+**Application:**        * A user can have multiple language data models to show the products/articles in various languages.
                         * *Example:*
 
                             A retailer wants to let his supplier in France to access the system. By this feature, the supplier in France can log in with the French language
