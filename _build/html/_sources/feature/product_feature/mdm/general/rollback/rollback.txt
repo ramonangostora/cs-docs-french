@@ -1,7 +1,7 @@
 =========
 Rollback
 =========
-The Rollback feature allows user to switch (or to revert) to a previous version of a product in the system.
+The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
 
 
 ====================      ===============================================================================================================================================================
