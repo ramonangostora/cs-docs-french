@@ -7,15 +7,15 @@ so that the users can work directly with the articles they are intended to be re
 
 ===================     =======================================================================================================================================================================
 **Description:**        * This feature is particularly helpful in an organization that has various users like *Supplier(s)/Partner(s), Asset Manager, Data Stewards, Admin* etc.
-                        * This feature will allow the admin to restrict a user to access or view products in PIM.
+                        * This feature allows the admin to restrict a user to access or view products in PIM.
 
 **Related topics:**     * *Users and Permissions features*
 
-**Application:**        * Admin will have the functionality to restrict the rights of various organization roles (*Admin, Data Stewards, Multiple Suppliers, etc*)
+**Application:**        * Admin has the functionality to restrict the rights of various organization roles (*Admin, Data Stewards, Multiple Suppliers, etc*)
                           so that the roles can have access or view to their respective products in PIM.
                         * *Example:*
 
-                            *Retailer XYZ* have *supplier A* and *supplier B*. *Supplier A* provides furniture and *Supplier B* provides electronic goods.
+                            *Retailer XYZ* has *Supplier A* and *Supplier B*. *Supplier A* provides furniture and *Supplier B* provides electronic goods.
                             So, when restricted by admin, *Supplier A* will only see his products: **Furniture**.
                             Similarly, *Supplier B* will only be able to access his products: **Electronics**.
 

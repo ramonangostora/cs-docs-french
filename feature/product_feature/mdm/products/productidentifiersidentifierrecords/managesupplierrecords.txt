@@ -1,7 +1,7 @@
 ========================
 Manage Supplier Records
 ========================
-Manage Supplier Records is a feature that manages supplier records with their identifiers in the *Units* to trace back the *Product* to the *Supplier*.
+Manage Supplier Records is a feature that manages supplier records and their identifiers in the *Units* that allows the system to trace back the *Product* to the *Supplier*.
 
 
 ===================     =======================================================================================================================================================================

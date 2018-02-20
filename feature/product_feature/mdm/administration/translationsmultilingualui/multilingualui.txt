@@ -7,11 +7,11 @@ Multilingual UI (User Interface) is a feature that provides translations for the
 ===================     =======================================================================================================================================================================
 **Description:**        * The UI can be in various languages for example: *French, German, Spanish, etc.*
 
-**Related topics:**     * *Multilingual Data Models*
+**Related topics:**     * *Multilingual Data Model*
 
 **Application:**        * The system can have multiple language of the UI for different languages.
                         * *Example:*
 
-                            The admin wants the UI to be in French for a French user and when the admin selects the language as French, the UI of system will be translated to French.
+                            The admin wants the UI to be in *French* for a French user and when the admin selects that language, the UI of system will be translated to *French*.
 
 ===================     =======================================================================================================================================================================

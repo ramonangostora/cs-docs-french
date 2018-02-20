@@ -6,7 +6,7 @@ The Manage Product Definitions across Systems feature is a feature that allows a
 
 ===================     =======================================================================================================================================================================
 **Description:**        * Master Catalog allows a Data Steward to manage all products at the time of on-boarding.
-                        * The feature manages all the content of the product before transferring it to PIM and allows Data Steward to make changes to the product content.
+                        * The feature manages all the content of the product before transferring it to PIM and allows a Data Steward to make changes to the product content.
 
 **Related topics:**     * *On-boarding Features*
                         * *Users and Permissions Features*
@@ -15,7 +15,7 @@ The Manage Product Definitions across Systems feature is a feature that allows a
                         * *Example:*
 
                             A retailer, with 5 suppliers, creates a user, *Data Steward* who monitors the data quality of products that are on-boarded.
-                            The Data Steward allows the suppliers to import their products via *Data Integration* and once the data quality check is completed,
+                            The Data Steward allows the suppliers to import their products via *Data Integration* and once the data quality check is passed and completed,
                             the Data Steward will push the products to PIM. These products will now be visible in the Master Catalog.
 
 ===================     =======================================================================================================================================================================

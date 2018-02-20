@@ -5,8 +5,8 @@ Standardize Product Definitions is a data governance feature that standardizes t
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * Standardization and Normalization take into consideration various errors that may occur during data entry and introduce appropriate measures to correct it, already
-                          at that point. With this feature, the user is able to normalize different values entered for a particular value.
+**Description:**        * Standardization and Normalization take into consideration various errors that may occur during data entry and introduce appropriate measures to correct it.
+                          With this feature, the user is able to normalize different values entered for a particular value.
                         * A rule can be defined to normalize different values entered for the articles.
                         * Within multiple tags/attributes, there is an **'OR'** condition while for multiple tags/attributes, there is an **'AND'** condition.
 

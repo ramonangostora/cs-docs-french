@@ -12,7 +12,7 @@ The Export Tags is a feature that exports tag definitions so that they can be vi
 **Related topics:**     * *Tag Management*
                         * *Import Tags*
 
-**Application:**        * When a user/supplier needs the information of the Tags in the system, The *Export Tags* feature will provide the list of all the tags in a sheet.
+**Application:**        * When a user/supplier needs the information of the Tags in the system, The *Export Tags* feature will provide the list of all the tags in a downloadable sheet.
                         * *Example:*
 
                             When *Users A, B, or C* need a list of tags present in the system, they can view and save it externally by using *Export Tags* feature.

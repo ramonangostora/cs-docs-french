@@ -1,14 +1,14 @@
 =========================
 Correct Imported Records
 =========================
-Correct Imported Records is a feature that edits records with incorrect, non-conforming quality or incomplete data and reprocesses them so that the data can pass the data quality check of the system.
+Correct Imported Records is a feature that edits records with incorrect, non-conforming quality, or incomplete data and reprocess them so that the data can pass the quality check of the system.
 
 
 ===================     =======================================================================================================================================================================
 **Description:**        * *Red* violation is a major violation that requires rectifying of errors.
                         * *Orange* and *Yellow* violations are non-major violations but should also be rectified.
-                        * Note: Red violation for the product data means that the data cannot be transferred to the system.
-                          Whereas for Orange and Yellow violations, products can be transferred.
+                        * *Note: Red violation for the product data means that the data cannot be transferred into the system.
+                          Whereas for Orange and Yellow violations, product data can be transferred.*
 
 **Related topics:**     * *Rules and Violations*
 
@@ -17,6 +17,6 @@ Correct Imported Records is a feature that edits records with incorrect, non-con
                         * *Example:*
 
                             Supplier A on-boarded products. If the entered product properties are incomplete, then the *Catalog* will flag them with a *Red Violation*.
-                            The supplier will need to correct those records and only then, those records can be pushed to PIM. 
+                            The supplier will need to correct those records and only then, those records can be pushed to PIM.
 
 ===================     =======================================================================================================================================================================

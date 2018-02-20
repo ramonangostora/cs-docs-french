@@ -1,7 +1,7 @@
 ======================
 Remedy Quality Issues
 ======================
-Remedy Quality Issues is a data governance feature that edits records with incorrect data or non-conforming quality. This improves the quality profile of a product.
+Remedy Quality Issues is a data governance feature that edits records with incorrect data or data with non-conforming quality, which aims to improve the quality profile of a product.
 
 
 ===================     =======================================================================================================================================================================

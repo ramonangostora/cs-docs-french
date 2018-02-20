@@ -14,7 +14,7 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
                         * Catalogs can be made user-specific.
                         * *Example:*
 
-                            *Retailer A* with a *clothing franchise* creates a winter collection in a catalog and uses it when winter time arrives.
+                            *Retailer A* with a *clothing franchise* creates a winter collection in a catalog and uses this virtual catalog when winter arrives.
 
                         * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
 

@@ -1,5 +1,5 @@
 ========================================
-System Profile - Setup System Profile 1
+System Profile - Set up System Profile 1
 ========================================
 
 .. toctree::

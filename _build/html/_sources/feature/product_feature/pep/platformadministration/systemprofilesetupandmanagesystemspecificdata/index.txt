@@ -1,5 +1,5 @@
 =============================================================================
-System Profile - Setup and Manage System Specific Data Integration Endpoints
+System Profile - Set up and Manage System Specific Data Integration Endpoints
 =============================================================================
 
 .. toctree::

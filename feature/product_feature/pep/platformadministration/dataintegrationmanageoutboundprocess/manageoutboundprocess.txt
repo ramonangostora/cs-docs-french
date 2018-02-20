@@ -1,7 +1,7 @@
 ========================
 Manage Outbound Process
 ========================
-Manage Outbound Process is an admin feature that manages *Outbound Processes* so that data can be correctly evaluated and transformed to the required output format before exporting.
+Manage Outbound Process is an admin feature that manages *Outbound Processes* so that data can be evaluated correctly and be transformed to the required output format before exporting.
 
 
 ===================     =======================================================================================================================================================================

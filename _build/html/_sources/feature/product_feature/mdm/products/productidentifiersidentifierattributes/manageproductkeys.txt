@@ -1,12 +1,12 @@
 =====================
 Manage Product Keys
 =====================
-Manage Product Keys is a feature that sets up certain attributes as *Product Keys* so that they can be checked for uniqueness.
+Manage Product Keys is a feature that sets up certain attributes as *Product Keys* so that they can be checked for uniqueness and can be used as an identifier.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * Products are created with unique values. These unique values are called *Product Keys*.
-                        * Product Keys define attributes to be a unique value. If non-unique values will be used, a violation would appear for the *Product or Article*.
+**Description:**        * Products are created with unique values, which are called *Product Keys*.
+                        * Product Keys define attributes to be a unique value. If non-unique values will be used, a violation will appear for the *Product or Article*.
 
 **Related topics:**     * *Manage Supplier Records*
 

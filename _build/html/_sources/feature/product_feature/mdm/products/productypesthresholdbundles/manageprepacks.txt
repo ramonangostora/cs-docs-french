@@ -1,7 +1,7 @@
 ================
 Manage Prepacks
 ================
-Manage Prepacks is a feature that allows a user to club different products to create *Prepacks*, which are clubbed offerings of individual products in various quantities that can be ordered by stores.
+Manage Prepacks is a feature that allows a user to group together different products to create *Prepacks*, which are assembled offerings of individual products in various quantities that can be ordered by stores.
 
 
 ===================     =======================================================================================================================================================================
@@ -13,7 +13,7 @@ Manage Prepacks is a feature that allows a user to club different products to cr
                         * *Threshold Bundles*
 
 **Application:**        * A *Loose bundle* or *Combination of Products* may help retailers to increase the sales of products.
-                        * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities and can sell them at a discounted price.
+                        * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities or can sell the bundle at a discounted price.
                         * *Example:*
 
                             A *Retailer* puts together a prepack of *3 shampoos* for 80 bucks or a prepack of *shampoo, conditioner, and face wash* for 100 bucks.

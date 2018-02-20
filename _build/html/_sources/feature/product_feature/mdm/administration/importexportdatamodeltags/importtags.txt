@@ -15,6 +15,6 @@ The Import Tags is a feature that allows the import of tags so that multiple tag
 **Application:**        * This feature is useful to import huge amount of data in a short duration of time.
                         * *Example:*
 
-                            Supplier A wants to add a file of tags to his PIM system. He will write the tags in Excel (.xls format) and simply add it to the system with this feature.
+                            Supplier A wants to add a file of tags to his PIM system. He will write the tags in Excel (*.xls format*) and simply add it to the system with this feature.
 
 ===================     =======================================================================================================================================================================

@@ -6,7 +6,7 @@ Drill Down for KPI Reports is a data governance feature that sets up drill down 
 
 ===================     =======================================================================================================================================================================
 **Description:**        * Different levels can be maintained for the dashboard to dive in the report and get more enhanced review of the report.
-                        * A user or supplier can have a detailed view of all the product drilled down in the report that allows a user to explore the quality issues.
+                        * A user or supplier can have a detailed view of all the products drilled down in the report that allows a user to explore the quality issues.
 
 **Related topics:**     * *Taxonomy Management*
                         * *Products*

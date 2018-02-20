@@ -10,6 +10,7 @@ The Rollback feature allows user to switch (or to revert) to a previous version 
 
 **Related topics:**       * *Manage Virtual Catalogs*
                           * *Product Classifications*
+                          * *Timeline and History*
 
 **Application:**          * The Rollback feature is used to switch back to a desired version of a product.
                             This feature is particularly helpful to revert to a previous version if there are any errors made in any property of the product.

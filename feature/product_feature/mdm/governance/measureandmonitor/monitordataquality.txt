@@ -20,7 +20,7 @@ This feature better defines the products and takes corrective actions to maintai
 **Application:**        * Dashboards often provide at-a-glance views of KPIs *(Key Performance Indicators)* relevant to a particular objective or business process.
                         * These reports help a user understand the products in the system and if there are any errors in them.
                           Also, a user is presented a precise and accurate view of the data in system with respect to *Data Quality*.
-                        * A user can see all the set rules all-together in a single graph.
+                        * A user can see all the set rules together in a single graph.
                         * *Example:*
 
                             Supplier A has about 1000 products in the system and few of them have incomplete data.

@@ -14,7 +14,7 @@ The KPI-based Conformity Rules is a data governance feature that sets up *KPI-ba
                         * *Taxonomy Management*
                         * *Tags Management*
 
-**Application:**        * Data completeness is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.
+**Application:**        * **Data completeness** is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.
                         * *Example:*
 
                             An organization sells furniture products. They have attributes for *Length of the wood* and tags for *Color*.

@@ -5,10 +5,10 @@ Custom ETL (Extract-Transform-Load) Export is a feature that allows an admin to 
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * This feature is used for any modification of product and save product by the supplier side.
+**Description:**        * This feature is used for any modification of a product and also used to save product on the supplier side.
                         * This feature will provide JSON message of the modified product to any ERP system or any downstream system to update the other parties using the product.
                           The details will enter the retailer's system in *JSON format* and can be viewed in queue section with the destination queue name.
-                        * The queue will be used by a retailer to read or use the modified information about the product. This information (JSON content) is only visible to the retailer.
+                        * The queue will be used by a retailer to read or use the modified information about the product. This information (JSON content) is only visible to the target retailer.
 
 **Related topics:**     * *Custom ETL Import*
                         * *Talend jobs*

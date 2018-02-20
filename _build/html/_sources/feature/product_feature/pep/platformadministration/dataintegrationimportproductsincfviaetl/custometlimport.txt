@@ -1,12 +1,12 @@
 ==================
 Custom ETL Import
 ==================
-Custom ETL (Extract-Transform-Load) Import is a feature that allows the management of *Custom ETL-based Endpoints* so that data can be imported via a custom ETL process.
+Custom ETL (Extract-Transform-Load) Import is a feature that allows *Custom ETL-based Endpoints* to be managed so that data can be imported via a custom ETL process.
 
 
 ===================     =======================================================================================================================================================================
 **Description:**        * This feature is used to update or to create products by a supplier.
-                        * This import file feature is done through a **talend job**. Note that before the creation of an onboarding type process, it is needed to configure the talend job.
+                        * This import file feature is done through a **talend job**. Note that before the creation of an on-boarding type process, it is needed to configure the talend job.
                         * To update or create products, supplier sends the JSON file through *JMS (Java Message Services)* queue.  This queue is used by suppliers to view the order of on-boarding jobs.
                         * The JSON file is structured that it should contain: **Main Class ID, Product ID,** and all the **Property Collection-related class**.
 
