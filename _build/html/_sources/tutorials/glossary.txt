@@ -1,0 +1,278 @@
+========
+Glossary
+========
+
+A
+-
+
+administrator
+    *(user type, customer role),* A technical specialist who configures a software system.
+
+|
+
+B
+-
+
+bookmark
+    *(feature),* A self-updating bookmark that saves the results of a search.
+
+      *Example:* A retailer creates a bookmark named "fully automated" to group only the fully
+      automated washing machines. whenever a fully automated washing machine is added to the system, it is automatically added to the
+      bookmark.
+|
+
+
+Boolean property
+    *(property type),* A Boolean property allows selecting between two options.
+
+      *Example:*
+      Contains nuts: Yes/No
+
+|
+
+C
+-
+
+calculated property
+    *(property type),* A property which shows the result of a calculation of 2 or more numbers.
+
+      *Example:*
+      Volume
+
+|
+
+classes
+    *(concept),* A general classification of products
+
+      *Example:*
+      Article, File
+
+|
+
+collection
+    *(feature),* A fixed collection of objects relevant to the user.
+
+      *Example:*
+      A collection that consists of high-end smartphones
+|
+
+concatenated property
+    *(property type),* A combination of multiple text-based properties.
+
+      *Example:*
+      A Dimension Concatenated Property would combine the properties for Length, Width and Height into '10cm x 20cm x 2cm'
+
+|
+
+
+
+D
+-
+
+data governance
+    *(concept),* Data governance is an approach to managing a company's data assets.
+    It defines who is accountable for various aspects of an organization's data as well as including procedures which define how the data is used, structured and stored.
+    This includes data quality rules and KPIs through the Dashboard.
+
+      *Example:*
+
+|
+
+data model
+    *(configuration),* Data model defines the base data structure for products in your system.
+    This structure enables you to connect predefined classes or taxonomies with your products to classify them.
+    The data model defines products from the highest level of classification, down to individual attributes and properties.
+
+      *Example:*
+      A data model is made up of blueprints of different types of database objects like types of products.
+      You can use the Data Model to create a new product class in this case.
+
+|
+
+data steward
+    *(user type, customer role),* A data steward is a role within an organization responsible for utilizing an organization's data governance processes
+    to ensure suitablity of both the content and metadata.
+
+
+|
+
+Digital Asset Management (DAM)
+   *(domain type, tabbed heading),* Digital Asset Management (DAM) offers a solution for enterprises to store, organize, find and retrieve digital files.
+   Digital files in the DAM are linked to the PIM through relationships.
+
+     *Example:*
+     Volume
+
+|
+
+F
+-
+
+fixed bundle
+    *(product type),* A group of products where the quanitity of each product is fixed.
+
+      *Example:*
+      A Shaving Kit Pack which includes 3 blades and a shaving cream. As these are in the same packaging, the customer cannot add more blades for that item.
+
+|
+
+
+L
+-
+
+linked variant
+    *(product type),* A variant which belongs to a Product.
+
+      *Example:*
+      Regular, Sugarfree and Zero are some of the linked variants of energy drink "Red Bull".
+|
+
+loose bundle
+    *(property type),* A group of products where the quanitity of each product can be defined by the retailer.
+
+      *Example:*
+      Water Bottle Pack. Buy 10 or more for 15% off. Each item over 10 still receives the discount.
+
+|
+
+M
+-
+
+Marketing Content Management (MCM)
+    *(domain type),* Platform that supports promotions, campaigns, target markets, target channels, and customers.
+
+      *Example:*
+
+
+|
+
+Master Data Management (MDM)
+    *(domain type),* Master Data Management (MDM) is a system which wraps around the PIM ensuring quality, integrity and usability of its data.
+
+      *Example:* The functionality of an MDM supports aspects such as workflow rules, data quality, catalogue management, user security and data distribution.
+
+|
+
+measurement property
+    *(property type),* A measurement property uses a predefined measurement standard.
+
+      *Example:* Length: 10 metres
+
+|
+
+P
+-
+
+Partner Engagement Platform (PEP)
+    *(domain type),* A portal which allows a Contentspere customer's partners to engage with their system.
+    Deployed for supplier engagement, collaboration, product onboarding, simple PIM and product data onboarding, offboarding
+
+      *Example:* A supplier who uploads new products or a digital marketing agency which uploads promotional images
+
+
+|
+
+Product Information Management (PIM)
+    *(domain type, tabbed heading),* Product Information Management (PIM) facilitates the central management and maintenance of an enterprise's product data, content
+    or any related information.
+
+      *Example:*
+
+|
+
+Product Identifier (PID)
+    *(product data),* A Product Identifier (referred to as PID) is a number that helps identify a product.
+
+      *Example:* Red Bull
+
+|
+
+promotional collection
+    *(product type),* A group of products which are offered at a discounted price.
+
+      *Example:* Name of Product, Price, Description
+
+|
+
+property
+    *(class within data model),* A property is a field used to describe a product. It comes in several differerent types.
+
+      *Example:* Name of Product, Price, Description
+
+|
+
+
+property collection
+    *(property group),* A reusable group of properties which is common to particular types of products. A property collection belongs to a tab and a class.
+
+      *Example:* Mobile phone (class) technical specs information would be a collection of RAM, storage, display size.
+|
+
+R
+-
+
+relationships
+    *(configuration),* A way of linking entities together from different domains (e.g. PIM, MDM, DAM) as well as within the same domain.
+
+      *Example:* Products + supplier + image + target
+
+
+|
+
+Product Information Management (PIM)
+    *(domain type, tabbed heading),* Product Information Management (PIM) facilitates the central management and maintenance of an enterprise's product data, content
+    or any related information.
+
+      *Example:*
+
+|
+
+T
+-
+
+tabs
+    *(property group),* Tabs are used to categorize the properties shown on a product's page.
+
+      *Example:* A tab includes one or more property collections.
+
+
+|
+
+tags
+    *(concept),* Specific descriptors for products.
+
+      *Example:* Bottle size, Color
+
+
+|
+
+taxonomy
+    *(property group),* A taxonomy is a way of classifying an organization's products.
+
+      *Example:* A taxonomy can be thought of categorization of an organization's products.
+      A clothing store may set up a taxonomy which categories for gender > season > bodypart in a tree format.
+
+
+|
+
+U
+-
+
+user
+    *(user type, customer role),* Someone who logs into the Contentsphere system.
+
+
+|
+
+W
+-
+
+workflows
+    *(property group),* A sequence of processes that a piece of work progresses through until completion.
+    In Contentsphere, the piece of work is normally a product. The status of the product is also managed through the workflow such as Active, Published, and Inactive.
+
+      *Example:* A Data Steward adds a new product through the Onboarding Portal.
+      Before the product is published in the PIM it undergoes a sequence of processes including data validation and enrichment.
+
+
+|
