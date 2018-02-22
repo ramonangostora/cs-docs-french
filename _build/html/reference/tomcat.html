@@ -24,7 +24,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Configuration" href="configuration.html" />
-    <link rel="prev" title="Swift : Asset Storage" href="swift asset storage.html" />
+    <link rel="prev" title="Swift : Asset Storage" href="swiftassetstorage.html" />
 
 
 
@@ -105,7 +105,7 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="swift asset storage.html" title="Swift : Asset Storage">previous</a>
+    &laquo; <a href="swiftassetstorage.html" title="Swift : Asset Storage">previous</a>
      |
     <a href="index.html" title="Reference Guides" accesskey="U">up</a>
    |
@@ -118,51 +118,125 @@
             
   <div class="section" id="s-tomcat-webserver">
 <span id="tomcat-webserver"></span><h1>Tomcat : WebServer<a class="headerlink" href="#tomcat-webserver" title="Permalink to this headline">¶</a></h1>
-<p>Brief :-
-Tomcat can handle high number of incoming requests, efficiently using a combination of load balancing, multiple server “workers” to process the balanced load.
-Installation :-
-Setup and Configuration :-
-1.      Download Apache Tomcat (/opt/cs/tomcat)  <a class="reference external" href="http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz">http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz</a></p>
+<div class="section" id="s-brief">
+<span id="brief"></span><h2>Brief<a class="headerlink" href="#brief" title="Permalink to this headline">¶</a></h2>
+<p>Tomcat can handle high number of incoming requests, efficiently using a combination of load balancing multiple server “workers” to process the balanced load.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="s-installation">
+<span id="installation"></span><h3>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="s-setup-and-configuration">
+<span id="setup-and-configuration"></span><h2>Setup and Configuration<a class="headerlink" href="#setup-and-configuration" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><p class="first">Download Apache Tomcat (/opt/cs/tomcat).</p>
 <blockquote>
-<div>OR</div></blockquote>
-<p>Visit “<a class="reference external" href="https://tomcat.apache.org/download-90.cgi">https://tomcat.apache.org/download-90.cgi</a>” and download Version 9
-2.      Extract tar.gz
-1.      cd /opt/cs/tomcat
-2.      tar -zxvf apache-tomcat-9.0.0.M9.tar.gz
-3.      Change configuration:
-1.      You will find a block of code for  Connector port, Replace that code with the one mentioned below.
-1.      vim /opt/cs/tomcat/apache-tomcat-9.0.0.M9/conf/server.xml</p>
-<blockquote>
-<div>&lt;Connector port=”8080” maxHttpHeaderSize=”8192”
-maxThreads=”150” minSpareThreads=”25” maxSpareThreads=”75”
-enableLookups=”false” redirectPort=”8443” acceptCount=”100”
-connectionTimeout=”20000” disableUploadTimeout=”true”
-compression=”on”
-compressionMinSize=”2048”
-noCompressionUserAgents=”gozilla, traviata”
-compressableMimeType=”text/html,text/plain,text/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml,application/x-javascript,application/json”/&gt;</div></blockquote>
-<ol class="arabic simple" start="2">
-<li>Also Add IP. You will find this at the end of the file.</li>
+<div><p>Link:  <a class="reference external" href="http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz">http://mirror.fibergrid.in/apache/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz</a></p>
+</div></blockquote>
+</li>
 </ol>
-<p>2.      Create a file ‘bin/setenv.sh’ and specify the memory configuration
-1.      touch /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh
-2.      vim  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/setenv.sh and add the following line.
-1.      export JAVA_OPTS=”-Dfile.encoding=UTF-8 -Xms4216m -Xmx13312m”
-4.      Application Statup:
-1.      Stop Tomcat
-1.      /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/shutdown.shORfuser -k 8080/tcp
-Note: fuser is used just to kill the process if it is  running even after using ‘shutdown.sh’
-2.      Start Tomcat:
-1.      cd  /opt/cs/tomcat/apache-tomcat-9.0.0.M9/bin/
-2.      ./startup.sh
-5.      Remove/Add war:
-1.      Remove war:
-1.      cd /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
-2.      rm edeka.war
-3.      rm -r edeka
-2.      Add war:
-1.      cp &lt;Path of CS-Refactored&gt;/CS-Refactored/REST/build/libs/edeka.war /opt/cs/tomcat/apache-tomcat-9.0.0.M9/webapps/
-Note: Before copying edeka.war to webapps directory of tomcat, make sure you have built the war</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Alternatively, visit <a class="reference external" href="https://tomcat.apache.org/download-90.cgi">https://tomcat.apache.org/download-90.cgi</a> and download <strong>Version 9</strong>.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><p class="first">Extract tar.gz.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span>
+
+<span class="n">tar</span> <span class="o">-</span><span class="n">zxvf</span> <span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><p class="first">Change configuration:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">You will find a block of code for <em>Connector port</em>. Replace that code with the one mentioned below:</p>
+<blockquote>
+<div><p>vim /opt/cs/tomcat/apache-tomcat-9.0.0.M9/conf/server.xml</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">Connector</span> <span class="n">port</span><span class="o">=</span><span class="s2">&quot;8080&quot;</span> <span class="n">maxHttpHeaderSize</span><span class="o">=</span><span class="s2">&quot;8192&quot;</span>
+<span class="n">maxThreads</span><span class="o">=</span><span class="s2">&quot;150&quot;</span> <span class="n">minSpareThreads</span><span class="o">=</span><span class="s2">&quot;25&quot;</span> <span class="n">maxSpareThreads</span><span class="o">=</span><span class="s2">&quot;75&quot;</span>
+<span class="n">enableLookups</span><span class="o">=</span><span class="s2">&quot;false&quot;</span> <span class="n">redirectPort</span><span class="o">=</span><span class="s2">&quot;8443&quot;</span> <span class="n">acceptCount</span><span class="o">=</span><span class="s2">&quot;100&quot;</span>
+<span class="n">connectionTimeout</span><span class="o">=</span><span class="s2">&quot;20000&quot;</span> <span class="n">disableUploadTimeout</span><span class="o">=</span><span class="s2">&quot;true&quot;</span>
+<span class="n">compression</span><span class="o">=</span><span class="s2">&quot;on&quot;</span>
+<span class="n">compressionMinSize</span><span class="o">=</span><span class="s2">&quot;2048&quot;</span>
+<span class="n">noCompressionUserAgents</span><span class="o">=</span><span class="s2">&quot;gozilla, traviata&quot;</span>
+<span class="n">compressableMimeType</span><span class="o">=</span><span class="s2">&quot;text/html,text/plain,text/xml,application/xhtml+xml,text/css,application/javascript,image/svg+xml,application/x-javascript,application/json&quot;</span><span class="o">/&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Also add <strong>IP</strong>. You will find this at the end of the file.</p>
+</li>
+<li><p class="first">Create a file <em>bin/setenv.sh</em> and specify the memory configuration.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">touch</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">setenv</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">vim</span>  <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">setenv</span><span class="o">.</span><span class="n">sh</span>  <span class="ow">and</span> <span class="n">add</span> <span class="n">the</span> <span class="n">following</span> <span class="n">line</span><span class="p">:</span>
+<span class="n">export</span> <span class="n">JAVA_OPTS</span><span class="o">=</span><span class="s2">&quot;-Dfile.encoding=UTF-8 -Xms4216m -Xmx13312m&quot;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><p class="first">Start up the application.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Stop</span> <span class="n">Tomcat</span>
+    <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">shutdown</span><span class="o">.</span><span class="n">shORfuser</span> <span class="o">-</span><span class="n">k</span> <span class="mi">8080</span><span class="o">/</span><span class="n">tcp</span>
+
+<span class="n">Note</span><span class="p">:</span> <span class="n">fuser</span> <span class="ow">is</span> <span class="n">used</span> <span class="n">just</span> <span class="n">to</span> <span class="n">kill</span> <span class="n">the</span> <span class="n">process</span> <span class="k">if</span> <span class="n">it</span> <span class="ow">is</span>  <span class="n">running</span> <span class="n">even</span> <span class="n">after</span> <span class="n">using</span> <span class="s1">&#39;shutdown.sh&#39;</span><span class="o">.</span>
+
+<span class="n">Start</span> <span class="n">Tomcat</span>
+    <span class="n">cd</span>  <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span>
+
+    <span class="o">./</span><span class="n">startup</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><p class="first">Remove/Add war.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">Remove</span> <span class="n">war</span>
+  <span class="n">cd</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="n">webapps</span><span class="o">/</span>
+  <span class="n">rm</span> <span class="n">edeka</span><span class="o">.</span><span class="n">war</span>
+  <span class="n">rm</span> <span class="o">-</span><span class="n">r</span> <span class="n">edeka</span>
+
+<span class="n">Add</span> <span class="n">war</span>
+  <span class="n">cp</span> <span class="o">&lt;</span><span class="n">Path</span> <span class="n">of</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">&gt;/</span><span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">/</span><span class="n">REST</span><span class="o">/</span><span class="n">build</span><span class="o">/</span><span class="n">libs</span><span class="o">/</span><span class="n">edeka</span><span class="o">.</span><span class="n">war</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">tomcat</span><span class="o">/</span><span class="n">apache</span><span class="o">-</span><span class="n">tomcat</span><span class="o">-</span><span class="mf">9.0</span><span class="o">.</span><span class="mf">0.</span><span class="n">M9</span><span class="o">/</span><span class="n">webapps</span><span class="o">/</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><em>Note: Before copying edeka.war to webapps directory of tomcat, make sure you have built the war.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../_images/line-png-321.PNG" />
+</div>
 </div>
 
 
@@ -176,10 +250,22 @@ Note: Before copying edeka.war to webapps directory of tomcat, make sure you hav
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Tomcat : WebServer</a><ul>
+<li><a class="reference internal" href="#brief">Brief</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#setup-and-configuration">Setup and Configuration</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="swift asset storage.html">Swift : Asset Storage</a></li>
+      <li>Prev: <a href="swiftassetstorage.html">Swift : Asset Storage</a></li>
     
     
       <li>Next: <a href="configuration.html">Configuration</a></li>
@@ -210,7 +296,7 @@ Note: Before copying edeka.war to webapps directory of tomcat, make sure you hav
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Feb 02, 2018</p>
+                <p class="topless">Feb 22, 2018</p>
             </div>
           </div>
         
@@ -219,7 +305,7 @@ Note: Before copying edeka.war to webapps directory of tomcat, make sure you hav
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="swift asset storage.html" title="Swift : Asset Storage">previous</a>
+    &laquo; <a href="swiftassetstorage.html" title="Swift : Asset Storage">previous</a>
      |
     <a href="index.html" title="Reference Guides" accesskey="U">up</a>
    |

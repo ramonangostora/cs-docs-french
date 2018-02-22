@@ -1,0 +1,44 @@
+================
+Deploying to AWS
+================
+
+#. :doc:`Read Prerequisites First </reference/deploymentprerequisites>`
+
+|
+
+Users, Access, Folder Structure
+===============================
+
+*Note: Click the image to enlarge.*
+
+.. image:: _images/tableimage.PNG
+   :scale: 50%
+
+|
+
+
+Test Client
+===========
+
++----------------------------------+--------------------------------------------------+
+| Component                        | Value                                            |
++==================================+==================================================+
+| OS                               | Windows 7                                        |
++----------------------------------+--------------------------------------------------+
+| RAM                              | 8 GB Min                                         |
++----------------------------------+--------------------------------------------------+
+| Document Storage Folder With RWX | ~Desktop\ContentSphere                           |
++----------------------------------+--------------------------------------------------+
+| Applications With Admin Access   | * Java 8 : jdk-8u121-windows-x64.exe             |
+|                                  | * Putty : to access all VMs                      |
+|                                  | * Pscp client                                    |
+|                                  | * winscp                                         |
++----------------------------------+--------------------------------------------------+
+| Extra Applications For Testing   | * Remote Performance Monitoring Tool : VisualVM  |
+|                                  | * Load Test Tool : Jmeter                        |
+|                                  | * Sql Client to connect to Oracle                |
++----------------------------------+--------------------------------------------------+
+
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

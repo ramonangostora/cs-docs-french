@@ -1,13 +1,28 @@
-================
-Deploying to AWS
-================
+=====================
+Deploying on Premise
+=====================
 
 
-Infrastructure Requirements :
+Infrastructure Requirements
+===========================
+
+Details to be provided.
+
+
+Hardware and OS Requirements
 =============================
 
-Hardware and OS Requirements :
-==============================
++--------------+---------------------------------------------------------+
+| Component    |  Value                                                  |
++==============+=========================================================+
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox                   |
++--------------+---------------------------------------------------------+
+| OS           | Ubuntu Server 14.04 (preferred), SLES 11 SP3, CentOS 7  |
++--------------+---------------------------------------------------------+
+
+
+Prerequisites
+==============
 
 +--------------+---------------------------------------------------------+
 | Component    |  Value                                                  |
@@ -18,45 +33,38 @@ Hardware and OS Requirements :
 +--------------+---------------------------------------------------------+
 
 
-Pre-Requisites :-
-=================
-
-+--------------+---------------------------------------------------------+
-| Component    |  Value                                                  |
-+==============+=========================================================+
-| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox                   |
-+--------------+---------------------------------------------------------+
-| OS           | Ubuntu Server 14.04 (preferred), SLES 11 SP3, CentOS 7  |
-+--------------+---------------------------------------------------------+
-
-Users, Access, Folder Structure :-
-==================================
-
+Users, Access, Folder Structure
+================================
 
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
 | Component    |  Value             |                    |                 |                |             |
 +==============+====================+====================+=================+================+=============+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| Hypervisor   | VMware Esxi 6 (pref|erred), VirtualBox  |                 |                |             |
+| Hypervisor   | VMware Esxi 6 (preferred), VirtualBox   |                 |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
-| OS           | Ubuntu Server 14.04| (preferred), SLES 1|1 SP3, CentOS 7  |                |             |
+| OS           | Ubuntu Server 14.04| (preferred), SLES 11 SP3, CentOS 7   |                |             |
 +--------------+--------------------+--------------------+-----------------+----------------+-------------+
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line
