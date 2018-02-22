@@ -36,7 +36,7 @@ the basis for the context sensitive help and tooltips within the application.
 * :doc:`How to guides </how/index>` are recipes. They guide you through the steps involved in addressing key problems
   and use-cases. They are more advanced than tutorials and assume some knowledge of how **Contentsphere** works.
 
-* :doc:`Glossary </tutorials/glossary>` defines the terms found in Contentsphere.
+* :doc:`Glossary </glossary>` defines the terms found in Contentsphere.
 
 .. _new-to-contentsphere:
 

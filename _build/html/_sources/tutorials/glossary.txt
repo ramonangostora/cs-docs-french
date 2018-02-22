@@ -57,11 +57,14 @@ calculated property
         Volume
 
 classes
-    *(concept),* A general classification of products.
+    *(concept),* Classes define base configurations for products.
+    Each class that is given to a product allows that product to have a more precise definition.
+    There are multiple levels of classes that can be used in conjunction.
+
 
     * *Example:*
 
-        Article, File
+        Single Article, Product 
 
 collection
     *(feature)* A fixed collection of objects relevant to the user.
