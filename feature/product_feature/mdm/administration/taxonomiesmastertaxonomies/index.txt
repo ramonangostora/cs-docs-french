@@ -1,0 +1,8 @@
+===============================
+Taxonomies - Master Taxonomies
+===============================
+
+.. toctree::
+   :maxdepth: 1
+
+   managemastertaxonomies

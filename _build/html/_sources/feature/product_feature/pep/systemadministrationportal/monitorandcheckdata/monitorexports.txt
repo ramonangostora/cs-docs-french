@@ -1,0 +1,18 @@
+================
+Monitor Exports
+================
+The Monitor Exports feature provides an export summary for every export of product data that allows corrective action to be promptly done, if required.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * The user will get and view a summary of the reports for each completed export process.
+                        * The brief summary would have key indicators of the products being exported and the user can check the products for violations and correct them.
+
+**Related topics:**     * *Manage Endpoints for a System*
+                        * *Manage System Profile*
+                        * *Monitor Data Quality*
+
+**Application:**        * The user gets an overall summary of the *previous, recent, and/or total number* of exported files.
+                          It also provides information about the successful exports and violations.
+
+===================     =======================================================================================================================================================================

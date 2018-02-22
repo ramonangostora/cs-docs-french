@@ -1,0 +1,8 @@
+==============================================
+Catalog Management - Virtual Product Catalogs
+==============================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managevirtualcatalogs

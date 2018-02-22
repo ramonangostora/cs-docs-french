@@ -1,0 +1,40 @@
+========================
+Manage Supplier Records
+========================
+Manage Supplier Records is a feature that manages supplier records and their identifiers in the *Units* that allows the system to trace back the *Product* to the *Supplier*.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * The feature allows managing of the products received from various suppliers by adhering to a few standard *Standards/Units*.
+
+                        * **Standard Identifier:** Standard Identifier assigns a unique identifier to the *Products/Supplier*.
+
+							              **GTIN (Global Trade Item Number):** the GTIN is a globally unique 14-digit number used to identify *trade items, products, or services*.
+
+							              **SKU (Stock Keeping Unit):** is a product and service identification code for a store or product, often portrayed as a machine-readable bar code
+							              that helps track an item for inventory.
+
+							              **Supplier ID:** each supplier will get a unique ID to access the product for their specific use.
+
+							              **Supplier Name:** each supplier can be identified by its name.
+
+                        * **Unit:** Units are mentioned for the measurement of the products or their distinction. This is an important information for sale. Various measurement units used are *Box, Piece, etc*.
+
+							              **Unit is an Order Unit:** when the quantity of the product is high. It will come under the *is order unit* category. This unit is usually used by wholesaler or a big supplier. An example is a *crate*.
+
+							              **Unit is a Sales Unit:** when the quantity of the product is moderate. It will come under the *is sales unit* category.
+							              This unit is usually used by consumer or the supplier. An example is a *box*.
+
+							              **Unit is a Base Unit:** when the basic measurement of the product is one unit. An example is a *piece*.
+
+**Related topics:**     * *Manage Product Keys*
+
+**Application:**        * This feature is used to manage supplier records with their identifiers in 'units' to trace back the product to the supplier.
+                        * If a similar product is sold by various suppliers, the *Standard Identifiers* will help identify which product belongs to which supplier.
+                        * *Example:*
+
+                            If *Retailer A* receives a product, say, **Red Bull** from 3 suppliers, a *Standard Identifier* will help identify the source of the product.
+                            Similarly, when selling a product in bulk, units selected will help a user distinguish the product selling structure whether it is an
+                            *order unit, sales unit, or a base unit*.
+
+===================     =======================================================================================================================================================================

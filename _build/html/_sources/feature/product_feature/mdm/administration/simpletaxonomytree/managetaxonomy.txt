@@ -1,6 +1,6 @@
-===============
+================
 Manage Taxonomy
-===============
+================
 Manage Taxonomy lets you add taxonomies to easily classify the products.
 
 
@@ -20,7 +20,7 @@ Manage Taxonomy lets you add taxonomies to easily classify the products.
 
                             Take for instance an electronics retailer who sells all kinds of electronics and wants to classify his products.
                             The mobile phones that he sells will have a taxonomy "Electronics" and under electronics, he can create
-                            a number of levels for classification. Here, mobile phones will fall under smart phones
+                            a number of levels for further classification. Here, mobile phones will fall under smart phones
                             or handsets, further having a branch as touchscreen or keypad, and then another branch for the OS and so on.
                             As such, various taxonomies can be applied to his electronics for easy categorization.
 ====================    =============================================================================================================================================================

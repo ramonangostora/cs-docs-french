@@ -1,0 +1,234 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manage Role Access to Class and Taxonomies &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Users and Permissions - View Templates" href="../usersandpermissionsviewtemplates/index.html" />
+    <link rel="prev" title="Users and Permissions - Access Levels" href="index.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../../../../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../../../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../../../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../../../../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../../../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../../../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../../../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="index.html" title="Users and Permissions - Access Levels">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../usersandpermissionsviewtemplates/index.html" title="Users and Permissions - View Templates">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="feature-product_feature-mdm-administration-usersandpermissionsaccesslevels-manageroleaccesstoclassandtaxonomies">
+            
+  <div class="section" id="s-manage-role-access-to-class-and-taxonomies">
+<span id="manage-role-access-to-class-and-taxonomies"></span><h1>Manage Role Access to Class and Taxonomies<a class="headerlink" href="#manage-role-access-to-class-and-taxonomies" title="Permalink to this headline">¶</a></h1>
+<p>The Manage Role Access to Class and Taxonomies feature is an admin feature that restricts a role’s access to <em>Class and Taxonomy levels</em>
+so that the users can work directly with the articles they are intended to be responsible for.</p>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>This feature is particularly helpful in an organization that has various users like <em>Supplier(s)/Partner(s), Asset Manager, Data Stewards, Admin</em> etc.</li>
+<li>This feature allows the admin to restrict a user to access or view products in PIM.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><em>Users and Permissions features</em></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Admin has the functionality to restrict the rights of various organization roles (<em>Admin, Data Stewards, Multiple Suppliers, etc</em>)
+so that the roles can have access or view to their respective products in PIM.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p><em>Retailer XYZ</em> has <em>Supplier A</em> and <em>Supplier B</em>. <em>Supplier A</em> provides furniture and <em>Supplier B</em> provides electronic goods.
+So, when restricted by admin, <em>Supplier A</em> will only see his products: <strong>Furniture</strong>.
+Similarly, <em>Supplier B</em> will only be able to access his products: <strong>Electronics</strong>.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="index.html">Users and Permissions - Access Levels</a></li>
+    
+    
+      <li>Next: <a href="../usersandpermissionsviewtemplates/index.html">Users and Permissions - View Templates</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../../../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../../../../index.html">Feature Guides</a>
+        
+          <ul><li><a href="../../../index.html">Product Features</a>
+        
+          <ul><li><a href="../../index.html">MDM Feature Guides</a>
+        
+          <ul><li><a href="../index.html">Administration</a>
+        
+          <ul><li><a href="index.html">Users and Permissions - Access Levels</a>
+        
+        <ul><li>Manage Role Access to Class and Taxonomies</li></ul>
+        </li></ul></li></ul></li></ul></li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Feb 20, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="index.html" title="Users and Permissions - Access Levels">previous</a>
+     |
+    <a href="../../../../index.html" title="Feature Guides" accesskey="U">up</a>
+   |
+    <a href="../usersandpermissionsviewtemplates/index.html" title="Users and Permissions - View Templates">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

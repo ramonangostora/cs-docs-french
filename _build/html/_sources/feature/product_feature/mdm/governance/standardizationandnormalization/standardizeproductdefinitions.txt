@@ -1,0 +1,23 @@
+================================
+Standardize Product Definitions
+================================
+Standardize Product Definitions is a data governance feature that standardizes the product definitions, which results to improved consistency of product definitions in the system.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Standardization and Normalization take into consideration various errors that may occur during data entry and introduce appropriate measures to correct it.
+                          With this feature, the user is able to normalize different values entered for a particular value.
+                        * A rule can be defined to normalize different values entered for the articles.
+                        * Within multiple tags/attributes, there is an **'OR'** condition while for multiple tags/attributes, there is an **'AND'** condition.
+
+**Related topics:**     * *Products*
+                        * *Attribute Management*
+
+**Application:**        * Rules can be made to normalize or standardize a tag based on certain attributes for the product.
+                        * There can be certain attributes, whose values are based on the selection of tag or attribute contents.
+                        * *Example:*
+
+                            The attributes for *Contents* in any food product will contain the information about the ingredients.
+                            A tag needs to be normalized based on allergen information like *Contains Lactose* or *Contains Nuts*.
+
+===================     =======================================================================================================================================================================

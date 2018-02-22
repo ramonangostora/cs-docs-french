@@ -1,0 +1,8 @@
+===========================================
+Data Integration - Manage Outbound Process
+===========================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageoutboundprocess
