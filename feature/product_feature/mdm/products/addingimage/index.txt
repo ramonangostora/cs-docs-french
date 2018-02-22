@@ -1,0 +1,10 @@
+======================
+Add an Image to DAM
+======================
+
+
+.. toctree::
+   :maxdepth: 1
+
+   createnewproduct
+   addingimage
