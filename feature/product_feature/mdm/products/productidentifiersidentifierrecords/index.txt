@@ -1,0 +1,8 @@
+=========================================
+Product Identifiers - Identifier Records
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managesupplierrecords

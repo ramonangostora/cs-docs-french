@@ -1,0 +1,23 @@
+===========================
+KPI-based Conformity Rules
+===========================
+The KPI-based Conformity Rules is a data governance feature that sets up *KPI-based Conformity Rules* to assess the conformance of an *Article* to the acceptable standards.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * KPIs help to find the accuracy of the products on the basis of articles attributes taxonomy and tags.
+                        * KPIs check on the basis of 4 factors: *Completeness, Conformity, Uniqueness, Accuracy.*
+                        * KPIs also drill down on the basis of Taxonomy and Tags.
+                        * The KPI: **Conformity** checks the accuracy of data in the product.
+
+**Related topics:**     * *Attribute Management*
+                        * *Taxonomy Management*
+                        * *Tags Management*
+
+**Application:**        * **Data completeness** is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.
+                        * *Example:*
+
+                            An organization sells furniture products. They have attributes for *Length of the wood* and tags for *Color*.
+                            Then, the *Conformity Rule* helps users to check that the length should not be more than 400m.
+
+===================     =======================================================================================================================================================================

@@ -1,0 +1,23 @@
+=====================
+KPI-based DQ Reports
+=====================
+The KPI-based DQ Reports is a data governance feature wherein an administrator can set up *KPI-based Data Quality reports* and link these to certain roles so that the designated users will be able to take proper corrective actions.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Data Quality Reports or Dashboards can be generated for each user/role in the system that shows a brief overview of all the products.
+                        * These reports help a user understand the products in the system and show errors in the system (if there are any).
+                        * The Data Quality Report gives a role a summary of all the products in the system that enables a user to take proper corrective actions
+                          based on the rules applied to the products and the KPI dashboard.
+
+**Related topics:**     * *Users and Roles*
+                        * *Products*
+
+**Application:**        * The KPI Dashboard helps a user understand the products better and take actions on the products
+                          if they are below certain standards, which have been predefined by the rules set for those products.
+                        * *Example:*
+
+                            For a supplier of fashion products, a *Fashion KPI Report* would give an overview of all the fashion products based on a certain rule like completeness of GTIN.
+                            Corrective actions can be taken for products violating the rule.
+
+===================     =======================================================================================================================================================================

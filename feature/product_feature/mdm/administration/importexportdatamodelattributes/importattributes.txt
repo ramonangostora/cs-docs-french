@@ -1,0 +1,21 @@
+==================
+Import Attributes
+==================
+The Import Attributes is a feature that allows the import of attribute definitions so that multiple attributes can be created in one go.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * It allows the import of a document with list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
+                        * It also allows a user to import bulk attributes instead of creating them one by one manually.
+
+**Related topics:**     * *Manage Different Types of Attributes*
+                        * *Export Attributes*
+
+**Application:**        * The feature allows a user to import the attributes in bulk, thereby, saving a lot of time.
+                          It also reduces manual work of creating attribute one by one.
+                        * *Example:*
+
+                            *Supplier A* has *Products X, Y and Z* with 25 attributes each. Rather than inputting all these attributes one by one in the system,
+                            *Supplier A* can collate all information in one document and import it using this feature.
+
+===================     =======================================================================================================================================================================

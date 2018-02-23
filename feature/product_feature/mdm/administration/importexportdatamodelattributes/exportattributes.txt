@@ -1,0 +1,20 @@
+==================
+Export Attributes
+==================
+The Export Attributes is a feature that allows the export of attribute definitions so that they can be viewed and checked offline.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * The feature allows a user to export attributes in one click.
+
+**Related topics:**     * *Manage Different Types of Attributes*
+                        * *Import Attributes*
+
+**Application:**        * The *Export* feature will allow the user to export the list of attributes in one click.
+                          This exported document can also be sent and used by other users (*Suppliers or Partners*).
+                        * *Example:*
+
+                            *Supplier A* has *Products X, Y and Z* with 25 attributes each. *Supplier A* requests to check the attributes added to the system.
+                            The admin can export the requested data from the system and forward this list back to *Supplier A*.
+
+===================     =======================================================================================================================================================================

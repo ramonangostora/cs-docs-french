@@ -1,0 +1,45 @@
+==================
+Custom ETL Import
+==================
+Custom ETL (Extract-Transform-Load) Import is a feature that allows *Custom ETL-based Endpoints* to be managed so that data can be imported via a custom ETL process.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * This feature is used to update or to create products by a supplier.
+                        * This import file feature is done through a **talend job**. Note that before the creation of an on-boarding type process, it is needed to configure the talend job.
+                        * To update or create products, supplier sends the JSON file through *JMS (Java Message Services)* queue.  This queue is used by suppliers to view the order of on-boarding jobs.
+                        * The JSON file is structured that it should contain: **Main Class ID, Product ID,** and all the **Property Collection-related class**.
+
+**Related topics:**     * *Custom ETL Export*
+                        * *Talend jobs*
+
+**Application:**        * The feature allows a supplier to send any update about the product to the retailer through JMS.
+                        * *Example:*
+
+                            Supplier A wants to change the selling price of the beverage, *Red Bull*. He can do so by creating a JSON file and mentioning the updated price.
+
+                        * Sample JSON File Format ::
+
+                            JSON format has to be valid and can be validated on
+
+                            {
+                              "klassInstanceInfo": {
+                                "klassInstanceId": "xxxdfbc7-02dc-4736-b86c-5b44a73f7198",
+                                "klassTypeIds": [
+                                   "Sample_singlearticle"
+                                ]
+                                },
+                              "properties": {
+                                "attributes": {
+                                   "nameattribute": "Robbin_Sharma"
+                                   },
+                                "tags": {
+                                  "Gender": [
+                                     "Male"
+                                     "Female"
+                                  ]
+                                 }
+                            }
+
+
+===================     =======================================================================================================================================================================

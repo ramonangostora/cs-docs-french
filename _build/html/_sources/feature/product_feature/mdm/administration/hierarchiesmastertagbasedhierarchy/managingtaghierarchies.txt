@@ -1,0 +1,22 @@
+=========================
+Managing Tag Hierarchies
+=========================
+The Managing Tag Hierarchies is an admin feature that sets up tag-based hierarchy such that each master tag is one level. This can mix and match tags to build simple hierarchies.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Hierarchies is concerned with classification of different objects.
+                        * The system allows multiple levels of hierarchies.
+                        * Level 1 can be further classified by adding Level 2 or further classification of Level 2 can be done by adding extra levels under it.
+
+**Related topics:**     * *Tag Management Features*
+
+**Application:**        * Creation of hierarchy is same as that of *Master Taxonomy*.
+                          The only difference between the two is that one cannot add a *Property Collection* (collection of attributes and tags) in hierarchies.
+                        * Hierarchy is basically to differentiate a *Parent* and a *Child* node.
+                        * *Example:*
+
+                            If we create hierarchy of a Master Taxonomy, *Fashion* (Level 1), it can be further classified to a sublevel like *Shirts, Trousers, etc* (Level 2).
+                            A Shirt can then be further classified based on the material or pattern (Level 3).
+
+===================     =======================================================================================================================================================================

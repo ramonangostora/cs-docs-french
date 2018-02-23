@@ -1,0 +1,23 @@
+=============================
+KPI-based Completeness Rules
+=============================
+The KPI-based Completeness Rules is a data governance feature that sets up KPI-based Completeness Rules to assess the completeness of an *Article* or a *Product*.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * KPIs *(Key Performance Indicators)* demonstrate the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
+                        * KPIs check on the data accuracy measures: *Accuracy, Completeness, Conformity and Uniqueness*.
+                        * KPIs can be drilled down on the basis of *Taxonomy* and *Tags*.
+                        * The KPI: **Completeness,** as the name suggests, ensures that the product data are complete in all aspects.
+
+**Related topics:**     * *Attribute Management*
+                        * *Taxonomy Management*
+                        * *Tags Management*
+
+**Application:**        * **Data completeness** is one of the most important data quality measures.
+                        * *Example:*
+
+                            Supplier A with 100 fashion products sets up a rule stating that the *Name Attribute* can't be left blank.
+                            This rule will be applicable to all of 100 fashion products. If there are violations, they would be reflected in the graph.
+
+===================     =======================================================================================================================================================================

@@ -1,0 +1,8 @@
+======================
+Data Model - Masters
+======================
+
+.. toctree::
+   :maxdepth: 1
+
+   managemasters

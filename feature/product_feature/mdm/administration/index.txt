@@ -7,10 +7,19 @@ Administration
 
    datamodelattributemanagement/index
    datamodeltagmanagement/index
+   datamodeldependentattributes/index
    datamodelpropertycollections/index
    datamodelrelationships/index
+   datamodelmasters/index
+   importexportdatamodelattributes/index
+   importexportdatamodeltags/index
    hierarchy/index
+   hierarchiesmastertagbasedhierarchy/index
    usersandpermissionscrudrights/index
+   usersandpermissionsaccesslevels/index
    usersandpermissionsviewtemplates/index
    inheritanceanddatatransfer/index
    simpletaxonomytree/index
+   taxonomiesmastertaxonomies/index
+   translationsdatamodel/index
+   translationsmultilingualui/index
