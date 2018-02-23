@@ -1,0 +1,8 @@
+==================================
+Standardization and Normalization
+==================================
+
+.. toctree::
+   :maxdepth: 1
+
+   standardizeproductdefinitions

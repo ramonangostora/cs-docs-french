@@ -6,3 +6,4 @@ Product Types - Threshold Bundle
    :maxdepth: 1
 
    managedisplays
+   manageprepacks

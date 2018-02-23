@@ -1,0 +1,8 @@
+==========================================================
+Master Catalog - Consolidate Products across Systems
+==========================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageproductdefinitionsacrosssystems

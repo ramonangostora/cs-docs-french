@@ -1,0 +1,27 @@
+==========================
+Manage Master Taxonomies
+==========================
+The Manage Master Taxonomies is an admin feature that sets up Master Taxonomies that are based on Masters so that each level of taxonomy is represented by a Master Tag Group.
+
+
+====================    =======================================================================================================================================================================
+**Description:**        * Taxonomy is concerned with classification of various products.
+                          Taxonomies can also represent related concepts that can be used to connect a product to various level of branches of a taxonomy.
+                        * This feature is about how to map a product to different concepts and terms in order to maintain a consistent structure.
+
+**Related topics:**     * *Attributes/Tag Management*
+                        * *Property Collections*
+                        * *Embedded Classes*
+
+**Application:**        * This feature helps to multi-classify a product.
+                        * This feature drives information through the applied taxonomy.
+                        * This feature gives the product a hierarchy to show all the related concepts.
+                        * *Example:*
+
+                            An electronics retailer, who sells various electronics products, would like to further categorize them.
+                            The 'Mobile Phones' he sells may have a taxonomy 'Electronics' under which he will create a number of levels to classify his mobile phones.
+                            So, the mobile phone will fall under two categories - *Smart phones or Basic phones*.
+                            The smart phone category will further have branches - *Touch screen or Keypad* and so on.
+                            Similarly, various taxonomies can be applied to other electronics for easy categorization.
+
+====================    =======================================================================================================================================================================

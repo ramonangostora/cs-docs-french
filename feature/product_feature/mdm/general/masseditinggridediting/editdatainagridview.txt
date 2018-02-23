@@ -1,0 +1,23 @@
+=========================
+Edit Data in a Grid View
+=========================
+The feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation using the grid view.
+
+
+===================     ===============================================================================================================================================================
+**Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation using the grid view.
+                        * This feature can be used on similar or dissimilar types of products.
+                        * This feature allows multiple attributes/tags to be edited in a single operation.
+                        * This feature allows multiple attributes/tags to be changed and applied to products.
+
+**Related topics:**     * *Bulk Edit*
+
+**Application:**        * Edit Data in Grid View can support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
+                        * Edit Data in Grid View saves hours of manual work by editing selected products in grid in one go.
+                        * It also provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
+                        * *Example:*
+
+                            A mobile retailer wants to update pricing for 5 of his products. The retailer can simply select all products on a dashboard
+                            and click on **Grid Editable** to update the pricing.
+
+===================     ===============================================================================================================================================================

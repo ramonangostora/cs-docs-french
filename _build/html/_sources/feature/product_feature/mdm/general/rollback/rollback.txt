@@ -1,0 +1,22 @@
+=========
+Rollback
+=========
+The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
+
+
+====================      ===============================================================================================================================================================
+**Description:**          * The feature is used to revert to any former version of an article/product.
+                          * The rollback allows a user to go back to any version, if the user/supplier wishes to revert back to previous changes.
+
+**Related topics:**       * *Manage Virtual Catalogs*
+                          * *Product Classifications*
+                          * *Timeline and History*
+
+**Application:**          * The Rollback feature is used to switch back to a desired version of a product.
+                            This feature is particularly helpful to revert to a previous version if there are any errors made in any property of the product.
+                          * *Example:*
+
+                              Supplier can add commercial text in the 'description' for Toblerone Chocolates during Holiday season.
+                              Once the season is over, he can rollback to the  original description version.
+
+====================      ===============================================================================================================================================================

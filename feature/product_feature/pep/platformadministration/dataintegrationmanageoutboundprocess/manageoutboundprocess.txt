@@ -1,0 +1,19 @@
+========================
+Manage Outbound Process
+========================
+Manage Outbound Process is an admin feature that manages *Outbound Processes* so that data can be evaluated correctly and be transformed to the required output format before exporting.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * Outbound Process allows the transfer of system data into an Excel sheet.
+                        * An outbound process can be used to export multiple articles in one go.
+
+**Related topics:**     * *Products*
+                        * *Data Integration Process*
+
+**Application:**        * To export data from the system into an Excel sheet, admin uses an outbound process.
+                        * *Example:*
+
+                            *Organization A* sells electronics. If a user wants to transfer and export product data into a sheet, the user will make an outbound process with desired output.
+
+===================     =======================================================================================================================================================================

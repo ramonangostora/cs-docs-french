@@ -1,8 +1,0 @@
-=============
-Collaboration
-=============
-
-.. toctree::
-   :maxdepth: 1
-
-   tasksandannotations/index

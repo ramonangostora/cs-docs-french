@@ -1,0 +1,8 @@
+==========================================
+Hierarchies - Master Tag Based Hierarchy
+==========================================
+
+.. toctree::
+   :maxdepth: 1
+
+   managingtaghierarchies

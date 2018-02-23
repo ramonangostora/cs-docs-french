@@ -1,9 +1,0 @@
-====================
-Timeline and History
-====================
-
-.. toctree::
-   :maxdepth: 1
-
-   compareproductrevisions
-   compareproductrevision

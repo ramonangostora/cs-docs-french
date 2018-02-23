@@ -1,0 +1,15 @@
+========================
+Platform Administration
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   systemprofilesetupandmanagesystemspecificdata/index
+   systemprofilesetupsystemprofile/index
+   dataintegrationmanageoutboundendpoint/index
+   dataintegrationmanageoutboundprocess/index
+   dataintegrationexportproductsviassff/index
+   dataintegrationimportproductsincfviaetl/index
+   dataintegrationexportproductsincfviaetl/index
+   systemprofile/index

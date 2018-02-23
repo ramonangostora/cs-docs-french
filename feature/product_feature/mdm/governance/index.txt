@@ -5,6 +5,10 @@ Governance
 .. toctree::
    :maxdepth: 1
 
+   classificationandcategorization/index
    mustshouldattributes
    dataqualityrule
-  
+   measureandmonitor/index
+   standardizationandnormalization/index
+   dataremediation/index
+   governancedashboard/index

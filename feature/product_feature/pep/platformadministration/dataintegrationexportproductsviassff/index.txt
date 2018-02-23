@@ -1,0 +1,8 @@
+===================================================================================
+Data Integration - Export Products via Standard Simple Flat File-based DI Endpoint
+===================================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   simpleflatfileexport

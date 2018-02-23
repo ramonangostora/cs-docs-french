@@ -1,0 +1,17 @@
+==============================
+Manage Endpoints for a System
+==============================
+Manage Endpoints for a System is an admin feature that manages endpoints in a system used for on-boarding or off-boarding of products.
+
+
+====================    =======================================================================================================================================================================
+**Description:**        * This feature allows the managing of endpoints which are considered gateways of a *system, process, or mapping*.
+                          These gateways are used for the on-boarding or off-boarding of one or many products in and out of the system.
+
+**Related topics:**     * *Data Integration Process*
+                        * *Data Integration Mapping*
+
+**Application:**        * It helps a user to choose the gateway from the Data Integration window for importing or exporting files.
+                        * It gives a numerical conclusion for the different aspects that the endpoint has been used for in the data integration window.
+
+====================    =======================================================================================================================================================================

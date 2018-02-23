@@ -1,0 +1,24 @@
+======================
+Manage System Profile
+======================
+Manage System Profile is an admin feature that manages a *System (Organization Profile)* on the *Partner Engagement Platform* so that systems can be used for system integration.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * An administrator can create profiles for an organization that will contain the selected endpoints (both for on-board/off-board).
+                        * A *System* is a profile created for an organization.
+                        * These systems will be alloted to the organization that they have been set up for and can be customized for the organization's specific roles.
+
+**Related topics:**     * *Data Integration Process*
+                        * *Data Integration Mapping*
+                        * *Manage Endpoints for a System*
+
+**Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own on-board and off-board endpoints.
+                        * All these systems (along with the endpoints) can be allotted to the organization and can be further customized for the roles of that particular organization.
+                          With this, the admin can maintain exclusivity of endpoints for specific roles within the organization.
+                        * *Example:*
+
+                            The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints.
+                            Whereas, the ERP-concerned roles can only access the ERP endpoints.
+
+===================     =======================================================================================================================================================================

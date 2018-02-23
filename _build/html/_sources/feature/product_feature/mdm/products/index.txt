@@ -10,3 +10,6 @@ Products
    producttypespid/index
    productypesthresholdbundles/index
    producttypesfixedbundles/index
+   productidentifiersidentifierrecords/index
+   productidentifiersidentifierattributes/index
+   catalogmanagementvirtualproductcatalogs/index

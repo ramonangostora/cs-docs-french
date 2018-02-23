@@ -1,0 +1,23 @@
+================================
+Improve Product Classifications
+================================
+Improve Product Classifications is a data governance feature that manually classifies products and categorizes them to their appropriate taxonomies that improve their definition.
+
+
+===================     =======================================================================================================================================================================
+**Description:**        * This feature improves the definition of a product via classification. A user can set the *Rules* for the classes.
+                        * Taxonomy is not only for the products but also for the users. Each user has his own **correct** taxonomy to precisely classify a product.
+                        * Improving product classification enables smooth navigation and search of linked objects.
+                        * The feature also gives leverage to a user to set the taxonomy manually for all the products related to a particular "class type".
+
+**Related topics:**     * *Class Management*
+                        * *Taxonomy Management*
+                        * *Rules*
+
+**Application:**        * This feature is used to improve the classification of the product with the management of *Class* and *Taxonomy*.
+                        * *Example:*
+
+                            A *Supplier* wants his products of **Electronics Class** to get the **Mobile Phone Taxonomy**. He can set the *Rules of Cause* for the Electronics Class
+                            that will get the effect of adding the Mobile Phone Taxonomy.
+
+===================     =======================================================================================================================================================================

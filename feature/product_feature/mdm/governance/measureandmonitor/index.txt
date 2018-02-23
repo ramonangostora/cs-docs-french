@@ -1,0 +1,10 @@
+====================
+Measure and Monitor
+====================
+
+.. toctree::
+   :maxdepth: 1
+
+   monitordataquality
+   kpibasedcompletenessrules
+   kpibasedconformityrules

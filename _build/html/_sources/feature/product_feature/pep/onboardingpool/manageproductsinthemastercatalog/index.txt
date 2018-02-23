@@ -1,0 +1,8 @@
+=======================================================
+Master Catalog - Manage Products in the Master Catalog
+=======================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   manageproductsinmastercatalog
