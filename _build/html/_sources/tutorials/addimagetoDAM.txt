@@ -1,0 +1,53 @@
+=======================
+Add an Image to the DAM
+=======================
+
+
+
+How to do: Add an Image to the DAM
+==================================
+To do this, follow these steps:
+
+
+|
+
+#. Click **All**.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickall.PNG
+|
+|
+
+#. Click **DAM**.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickDAM.PNG
+|
+|
+
+#.  Hover on the "+".
+
+.. image:: /feature/_images/mdmimages/addingimage_hoverplus.PNG
+|
+|
+
+#.   Then, click "Image".
+
+.. image:: /feature/_images/mdmimages/addingimage_selimage.PNG
+|
+|
+
+#.    Click the cloud icon on the Preview section.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
+|
+|
+
+#.   Enter a name for the image, and click **SAVE**.
+
+.. image:: /feature/_images/mdmimages/addingimage_enternamesave.PNG
+|
+|
+
+7.	Available metadata will auto-complete but fields can be manually filled up as desired.
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

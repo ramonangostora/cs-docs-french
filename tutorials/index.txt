@@ -8,12 +8,6 @@ Read this material to quickly get up and running.
    :maxdepth: 1
 
    overview
-   install
-   tutorial01
-   tutorial02
-   tutorial03
-   tutorial04
-   tutorial05
-   tutorial06
-   advtutorial01
-   advtutorial02
+   addimagetoDAM
+   addnewuser
+   createnewproduct

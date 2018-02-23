@@ -13,25 +13,25 @@ To do this, follow these steps:
 
 #. Click **Settings**.
 
-.. image:: /feature/_images/mdmimages/addingusers_settings.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_clicksettings.PNG
 |
 |
 
 #. Click **Partner Admin**.
 
-.. image:: /feature/_images/mdmimages/addingusers_clickpartadmin.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_clickpartadmin.PNG
 |
 |
 
 #.  Click **Users** from the left sidebar.
 
-.. image:: /feature/_images/mdmimages/addingusers_clickusers.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_clickusers.PNG
 |
 |
 
 #.   Then, click "+".
 
-.. image:: /feature/_images/mdmimages/addingusers_clickplus.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
 |
 |
 
@@ -43,7 +43,7 @@ To do this, follow these steps:
 
 #.   Enter a name for the image... and click **SAVE**.
 
-.. image:: /feature/_images/mdmimages/addingusers_enternamesave.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_enternamesave.PNG
 |
 |
 
@@ -52,14 +52,14 @@ Icons for the user can also be added to the created user. To do this, follow the
 
       #.    Click add icon button.
 
-.. image:: /feature/_images/mdmimages/addingusers_clickaddicon.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
 |
 |
 
 
 #.    View the added icon.
 
-.. image:: /feature/_images/mdmimages/addingusers_iconadded.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
 |
 |
 

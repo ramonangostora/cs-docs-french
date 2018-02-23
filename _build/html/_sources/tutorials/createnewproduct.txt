@@ -1,0 +1,66 @@
+==================
+Create New Product
+==================
+
+How to do: Create New Products
+==============================
+To do this, follow these steps:
+
+
+|
+
+#. 1.	Click  ALL from top right.
+
+.. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
+|
+|
+
+#. Hover over the "+" icon...and select the desired product(in this demo, we select **Single Product**).
+
+.. image:: /feature/_images/mdmimages/createnewprod_clicksingleprod.PNG
+|
+|
+
+#. Enter the necessary information.Items with red asterisk are required to be filled up.
+
+.. image:: /feature/_images/mdmimages/createnewprod_completeattrib.PNG
+|
+|
+
+#. click **Add Taxonomy**.
+
+.. image:: /feature/_images/mdmimages/createnewprod_addtax.PNG
+|
+|
+
+#. Select the desired taxonomy ( In this example, we select **Appliances**).
+
+.. image:: /feature/_images/mdmimages/createnewprod_seltax.PNG
+|
+|
+
+#.  Click  **Relationships** tab to add an image on the product.
+
+.. image:: /feature/_images/mdmimages/createnewprod_clickrel.PNG
+|
+|
+
+#.   Click the select button to add the desired image (button turns to blue when selected), then click  **Add All**.
+
+.. image:: /feature/_images/mdmimages/createnewprod_addall.PNG
+|
+|
+#.  The selected image can also be dragged to the right pane to add.
+
+.. image:: /feature/_images/mdmimages/createnewprod_dragimage.PNG
+|
+|
+
+#.    To add more image, click **Return**, and repeat the previous steps.
+
+.. image:: /feature/_images/mdmimages/createnewprod_clickret.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

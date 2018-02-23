@@ -1,17 +1,17 @@
-==========================
-Add an Image to the DAM
-==========================
-abc
+=======================
+Set Up A Taxonomy
+=======================
 
 
-How to do: Add an Image to the DAM
-=============================
+
+How to do: Set Up a Taxonomy
+==================================
 To do this, follow these steps:
 
 
 |
 
-#. Click **All**.
+#. Click **Settings**.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickall.PNG
 |
@@ -23,35 +23,31 @@ To do this, follow these steps:
 |
 |
 
-#.  Hover on the "+" sign.
+#.  Hover on the "+".
 
 .. image:: /feature/_images/mdmimages/addingimage_hoverplus.PNG
 |
 |
 
-#.   Then, click **Image**.
+#.   Then, click "Image".
 
 .. image:: /feature/_images/mdmimages/addingimage_selimage.PNG
 |
 |
 
-#.    On the Preview section, click on the cloud button to upload an image from your computer.
+#.    Click the cloud icon on the Preview section.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
 |
 |
 
-#.   Enter a name for the image... and click **SAVE**.
+#.   Enter a name for the image, and click **SAVE**.
 
 .. image:: /feature/_images/mdmimages/addingimage_enternamesave.PNG
 |
 |
 
-7.	Once saved, the available metadata will auto-complete, but you can manually complete other desired meta data fields.
-
-.. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
-|
-|
+7.	Available metadata will auto-complete but fields can be manually filled up as desired.
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

@@ -1,8 +1,0 @@
-==================
-Create New Product
-==================
-
-.. toctree::
-   :maxdepth: 1
-
-   createnewproduct
