@@ -11,3 +11,4 @@ Read this material to quickly get up and running.
    addimagetoDAM
    addnewuser
    createnewproduct
+   settinguptaxonomy
