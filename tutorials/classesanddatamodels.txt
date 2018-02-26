@@ -1,0 +1,219 @@
+========================
+Classes and Data Models
+========================
+
+What is a Data Model?
+========================
+
+The Data Model defines the base data structure for products in a system.
+This structure enables you to connect predefined classes or taxonomies with your products to classify them.
+The Data Model defines products from the highest level of classification, down to the individual attributes and properties.
+
+
+**Example:**
+
+    A product, such as a *T-Shirt*, inherently has a Data Model that defines it. At the highest level, it is given a *Nature Class*, which could be *Product*.
+    This Product class allows the *T-Shirt* to have variants.  At this level, the *T-Shirt* describes the design but is not a sellable item.
+
+    The Data Model for your *T-Shirt* also has Non-Nature/Attribution classes such as *'Clothing'*.
+    The *Clothing* Attribution Class attaches properties such as fabric and color to the *T-Shirt* product.
+    The Taxonomy is used to add the *T-Shirt* product into the broader store classification or category system.
+
+
+.. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
+|
+|
+
+
+**Related Topics:**
+
+* *Creating a Single Article*
+* *Building a Taxonomy*
+* *How Classes work*
+
+|
+
+.. image:: /tutorials/_images/line-png-32.PNG
+   :alt: Contentsphere line
+
+
+How Classes work
+=================
+
+**What is a class?**
+
+Contentsphere uses two types of classes: *(1) Nature Class* and *(2) Non-nature/Attribution Class*.
+Classes define base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
+There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.
+
+The top level of class is *Nature Class*.  This sets up what type of product base to start with.  Nature Classes are customizable in the Settings or Administration.
+Below are several default *Nature Classes*:
+
+|
+
+**Default Nature Classes:**
+
+#. Single Article
+    * A standalone product which is a sellable item.
+    * *Example:*
+
+        Dog Bed (Male/Female color scheme).
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#. Product
+    * A placeholder for a group of common products.
+    * *Examples:*
+
+        Dog Bed.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+        Red Bull as the Product, which contains variants like *Regular, Sugarfree, and Zero*.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#. Loose Bundle
+    * A group of products where the quantity of each product can be defined by the retailer.
+    * *Example:*
+
+        Water Bottle Pack: Buy 10 or more for 15% off.  Each item over 10 can still receive the discount.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#. Fixed Bundle
+    * A group of products where the quantity of each product is fixed.
+    * *Example:*
+
+        A Shaving Kit Pack includes 3 blades and a shaving cream. As these are in the same packaging, the customer cannot add more blades for that pack purchase.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#. Set of Products
+    * Set of product recommendations like clothing pieces put on a mannequin in fashion stores.
+    * *Example:*
+
+        Hat, T-Shirt, Shorts, and Sandals for use on mannequins.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#. Promotional Collection
+    * A group of products which are offered at a discounted price.
+    * *Example:*
+
+        Buy 3 bags of Dog Food for the price of 2.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+**Attribution Classes**
+*(Also called Non-Nature Class)*
+
+
+Products, defined only by a *Nature Class* are not yet categorized in your PIM.  To give more specific categorization, you can add *Attribution Classes*.
+The added benefit or using one or many Attribution Classes is that they have their own properties that the product will inherit.
+For example, a mobile phone product can have a *'Mobile Attribution Class'* associated with it, which would include properties for *screen size, storage*, etc.
+Every mobile phone product in your system can be given this Attribution Class.  Other Attribution Classes can be added to the mobile phone example such as *Electronics or Computer*.
+
+Below are examples of Attribution Classes and potential properties that they may hold.  Each class is fully customizable through the *Settings* backend.
+
+
+**Example Attribution Classes with Properties**
+
+#. Electronics
+    * Voltage
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+#. Mobile (Cell phone)
+    * Screen size
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * Storage
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * Operating System
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * RAM
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+#. Food
+    * List of Nutritional Information
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * Contains nuts?
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * Contains pork?
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+    * Contains beef?
+
+|
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+**Related Topics:**
+
+* *Creating a Nature Class*
+* *Creating a Non-Nature/Attribution Class*
+* *Adding Classes to a Product*
+* *Data Model*
+
+|
+
+.. image:: /tutorials/_images/line-png-32.PNG
+   :alt: Contentsphere line
