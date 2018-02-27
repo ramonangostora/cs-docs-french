@@ -260,11 +260,11 @@ promotional collection
 
     * *Example:*
 
-        Name of Product, Price, Description
+        Buy 3 bags of dog food for the price of 2.
 
 
 property
-    *(class within data model)* A property is a field used to describe a product. It comes in several differerent types.
+    *(class within data model)* A property is a field used to describe a product. It comes in several different types.
 
     * *Example:*
 
@@ -277,7 +277,7 @@ property collection
 
     * *Example:*
 
-        Mobile phone (class) technical specs information would be a collection of RAM, storage, display size.
+        Mobile phone (class) technical specifications information would be a collection of RAM, storage, and display size.
 
 
 .. _Q:
@@ -330,11 +330,12 @@ tags
 
 taxonomy
     *(property group)* A taxonomy is a way of classifying an organization's products.
+    A taxonomy is used to add a Product into the broader classification system of a store.
 
     * *Example:*
 
         A taxonomy can be thought of categorization of an organization's products.
-        A clothing store may set up a taxonomy which categories for gender > season > bodypart in a tree format.
+        A clothing store may set up a taxonomy which categorizes for gender > season > bodypart in a tree format.
 
 .. _U:
 
