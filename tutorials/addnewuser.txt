@@ -1,7 +1,8 @@
 =============
 Add New Users
 =============
-
+The User section is used in managing different roles or profile within the system.
+Eventually, new users profile are necessary to add into the the System.
 
 
 How to do: Add New Users
@@ -29,37 +30,43 @@ To do this, follow these steps:
 |
 |
 
-#.   Then, click "+".
+#.   Then, click "+" to add an image.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
 |
 |
 
-#.    Enter data in the fields...and click **CREATE**.
+#.    Enter data in the fields.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
+|
+|
+#.then, click **CREATE**.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
 |
 |
 
-#.   Enter a name for the image... and click **SAVE**.
 
-.. image:: /feature/_images/mdmimages/addingnewusers_enternamesave.PNG
+#.   View the added users.
+
+
+.. image:: /feature/_images/mdmimages/\addingnewusers_addeduser.PNG
 |
 |
 
 Icons for the user can also be added to the created user. To do this, follow the steps below:
+
+      #.    Click add icon button, and select an image icon from your computer.
+
+      .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
+|
 |
 
-      #.    Click add icon button.
 
-.. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
-|
-|
+      #.    View the added icon.
 
-
-#.    View the added icon.
-
-.. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
+      .. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
 |
 |
 
