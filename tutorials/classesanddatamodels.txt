@@ -7,7 +7,7 @@ What is a Data Model?
 
 The Data Model defines the base data structure for products in a system.
 This structure enables you to connect predefined classes or taxonomies with your products to classify them.
-The Data Model defines products from the highest level of classification and down to the individual attributes and properties.
+The Data Model defines products from the highest level of classification down to the individual attributes and properties.
 
 
 **Example:**
@@ -17,19 +17,22 @@ The Data Model defines products from the highest level of classification and dow
 
     The Data Model for your *T-Shirt* also has Non-Nature/Attribution classes such as *'Clothing'*.
     The *Clothing* Attribution Class attaches properties such as fabric and color to the *T-Shirt* product.
-    The Taxonomy is used to add the *T-Shirt* product into the broader store classification or category system.
+    The Taxonomy is used to add the *T-Shirt* product into a broader store classification or category system.
 
 |
 .. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
 |
 |
+.. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt2.PNG
+|
+|
 
 
-**Related Topics:**
-
-* *Creating a Single Article*
-* *Building a Taxonomy*
-* *How Classes work*
+====================    =============================================
+**Related topics:**     * *Creating a Single Article*
+                        * *Building a Taxonomy*
+                        * *How Classes work*
+====================    =============================================
 
 |
 
@@ -40,21 +43,23 @@ The Data Model defines products from the highest level of classification and dow
 How Classes work
 =================
 
-**What is a class?**
+What is a class?
+----------------
 
-Contentsphere uses two types of classes: *(1) Nature Class* and *(2) Non-nature/Attribution Class*.
+Contentsphere uses two types of classes: *(1) Nature Class* and *(2) Non-Nature/Attribution Class*.
 Classes define the base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
 There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.
 
-The top level of class is *Nature Class*.  This sets up what type of product base to start with.  Nature Classes are customizable in the *Settings or Administration*.
-Below are several default *Nature Classes*:
+The top level of class is *Nature Class*.  This sets up the type of product base to start with.  Nature Classes are customizable in the *Settings or Administration*.
+Below are the several default class types:
 
 |
 
-**Default Nature Classes:**
+Default Nature Classes
+**********************
 
 #. Single Article
-    * A standalone product which is a sellable item.
+    * A stand-alone product which is a sellable item.
     * *Example:*
 
         Dog Bed (Male/Female color scheme).
@@ -126,7 +131,7 @@ Below are several default *Nature Classes*:
 
 
 #. Promotional Collection
-    * A group of products which are offered at a discounted price.
+    * A group of products which is offered at a discounted price.
     * *Example:*
 
         Buy 3 bags of Dog Food for the price of 2.
@@ -137,7 +142,8 @@ Below are several default *Nature Classes*:
 |
 
 
-**Attribution Classes**
+Attribution Classes
+********************
 *(Also called Non-Nature Class)*
 
 
@@ -149,81 +155,68 @@ Every mobile phone product in your system can be given this Attribution Class.  
 Below are examples of Attribution Classes and potential properties that they may hold.  Each class is fully customizable through the *Settings* backend.
 
 
-**Example Attribution Classes with Properties**
+Attribution Class examples with Properties
+*******************************************
 
 #. Electronics
     * Voltage
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    |
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclasselectronics.PNG
+    |
+    |
 
 #. Mobile (Cell phone)
     * Screen size
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG
+    |
+    |
 
-    * Storage
+    * Storage and RAM
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG
+    |
+    |
 
     * Operating System
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG
+    |
+    |
 
-    * RAM
+    * Camera
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG
+    |
+    |
 
 #. Food
     * List of Nutritional Information
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    |
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG
+    |
+    |
 
     * Contains nuts?
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
-
     * Contains pork?
-
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
 
     * Contains beef?
 
-|
-.. image:: /tutorials/_images/image.PNG
-|
-|
+    |
+    .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG
+    |
+    |
 
 
-**Related Topics:**
-
-* *Creating a Nature Class*
-* *Creating a Non-Nature/Attribution Class*
-* *Adding Classes to a Product*
-* *Data Model*
+====================    =============================================
+**Related topics:**     * *Creating a Nature Class*
+                        * *Creating a Non-Nature/Attribution Class*
+                        * *Adding Classes to a Product*
+                        * *Data Model*
+====================    =============================================
 
 |
 

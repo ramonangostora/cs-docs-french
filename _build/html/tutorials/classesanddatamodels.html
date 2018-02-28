@@ -122,14 +122,14 @@
 <span id="what-is-a-data-model"></span><h2>What is a Data Model?<a class="headerlink" href="#what-is-a-data-model" title="Permalink to this headline">¶</a></h2>
 <p>The Data Model defines the base data structure for products in a system.
 This structure enables you to connect predefined classes or taxonomies with your products to classify them.
-The Data Model defines products from the highest level of classification and down to the individual attributes and properties.</p>
+The Data Model defines products from the highest level of classification down to the individual attributes and properties.</p>
 <p><strong>Example:</strong></p>
 <blockquote>
 <div><p>A product, such as a <em>T-Shirt</em>, inherently has a Data Model that defines it. At the highest level, it is given a <em>Nature Class</em>, which could be <em>Product</em>.
 This Product class allows the <em>T-Shirt</em> to have variants.  At this level, the <em>T-Shirt</em> describes the design but is not a sellable item.</p>
 <p>The Data Model for your <em>T-Shirt</em> also has Non-Nature/Attribution classes such as <em>‘Clothing’</em>.
 The <em>Clothing</em> Attribution Class attaches properties such as fabric and color to the <em>T-Shirt</em> product.
-The Taxonomy is used to add the <em>T-Shirt</em> product into the broader store classification or category system.</p>
+The Taxonomy is used to add the <em>T-Shirt</em> product into a broader store classification or category system.</p>
 </div></blockquote>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -139,12 +139,27 @@ The Taxonomy is used to add the <em>T-Shirt</em> product into the broader store 
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<p><strong>Related Topics:</strong></p>
-<ul class="simple">
+<img alt="../_images/cs_classesanddatamodels_datamodeltshirt2.PNG" src="../_images/cs_classesanddatamodels_datamodeltshirt2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<table class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="69%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
 <li><em>Creating a Single Article</em></li>
 <li><em>Building a Taxonomy</em></li>
 <li><em>How Classes work</em></li>
 </ul>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -152,21 +167,23 @@ The Taxonomy is used to add the <em>T-Shirt</em> product into the broader store 
 </div>
 <div class="section" id="s-how-classes-work">
 <span id="how-classes-work"></span><h2>How Classes work<a class="headerlink" href="#how-classes-work" title="Permalink to this headline">¶</a></h2>
-<p><strong>What is a class?</strong></p>
-<p>Contentsphere uses two types of classes: <em>(1) Nature Class</em> and <em>(2) Non-nature/Attribution Class</em>.
+<div class="section" id="s-what-is-a-class">
+<span id="what-is-a-class"></span><h3>What is a class?<a class="headerlink" href="#what-is-a-class" title="Permalink to this headline">¶</a></h3>
+<p>Contentsphere uses two types of classes: <em>(1) Nature Class</em> and <em>(2) Non-Nature/Attribution Class</em>.
 Classes define the base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
 There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.</p>
-<p>The top level of class is <em>Nature Class</em>.  This sets up what type of product base to start with.  Nature Classes are customizable in the <em>Settings or Administration</em>.
-Below are several default <em>Nature Classes</em>:</p>
+<p>The top level of class is <em>Nature Class</em>.  This sets up the type of product base to start with.  Nature Classes are customizable in the <em>Settings or Administration</em>.
+Below are the several default class types:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p><strong>Default Nature Classes:</strong></p>
+<div class="section" id="s-default-nature-classes">
+<span id="default-nature-classes"></span><h4>Default Nature Classes<a class="headerlink" href="#default-nature-classes" title="Permalink to this headline">¶</a></h4>
 <ol class="arabic">
 <li><dl class="first docutils">
 <dt>Single Article</dt>
 <dd><ul class="first last">
-<li><p class="first">A standalone product which is a sellable item.</p>
+<li><p class="first">A stand-alone product which is a sellable item.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
@@ -307,7 +324,7 @@ Below are several default <em>Nature Classes</em>:</p>
 <li><dl class="first docutils">
 <dt>Promotional Collection</dt>
 <dd><ul class="first last">
-<li><p class="first">A group of products which are offered at a discounted price.</p>
+<li><p class="first">A group of products which is offered at a discounted price.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
@@ -326,157 +343,125 @@ Below are several default <em>Nature Classes</em>:</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p><strong>Attribution Classes</strong>
-<em>(Also called Non-Nature Class)</em></p>
+</div>
+<div class="section" id="s-attribution-classes">
+<span id="attribution-classes"></span><h4>Attribution Classes<a class="headerlink" href="#attribution-classes" title="Permalink to this headline">¶</a></h4>
+<p><em>(Also called Non-Nature Class)</em></p>
 <p>Products, defined only by a <em>Nature Class</em> are not yet categorized in your PIM.  To give a more specific categorization, you can add <em>Attribution Classes</em>.
 The added benefit for using one or many Attribution Classes is that they have their own properties that the product will inherit.
 For example, a mobile phone product can have a <em>‘Mobile Attribution Class’</em> associated with it, which would include properties for <em>screen size, storage</em>, etc.
 Every mobile phone product in your system can be given this Attribution Class.  Other Attribution Classes can be added to the mobile phone example such as <em>Electronics or Computer</em>.</p>
 <p>Below are examples of Attribution Classes and potential properties that they may hold.  Each class is fully customizable through the <em>Settings</em> backend.</p>
-<p><strong>Example Attribution Classes with Properties</strong></p>
-<ol class="arabic simple">
+</div>
+<div class="section" id="s-attribution-class-examples-with-properties">
+<span id="attribution-class-examples-with-properties"></span><h4>Attribution Class examples with Properties<a class="headerlink" href="#attribution-class-examples-with-properties" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
 <li><dl class="first docutils">
 <dt>Electronics</dt>
-<dd><ul class="first last">
+<dd><ul class="first simple">
 <li>Voltage</li>
 </ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclasselectronics.PNG" src="../_images/cs_classesanddatamodels_attributionclasselectronics.PNG" />
+<div class="last line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
 </dd>
 </dl>
 </li>
-</ol>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
 <li><dl class="first docutils">
 <dt>Mobile (Cell phone)</dt>
-<dd><ul class="first last">
+<dd><ul class="first simple">
 <li>Screen size</li>
 </ul>
-</dd>
-</dl>
-</li>
-</ol>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<blockquote>
-<div><ul class="simple">
-<li>Storage</li>
+<ul class="simple">
+<li>Storage and RAM</li>
 </ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<blockquote>
-<div><ul class="simple">
+<ul class="simple">
 <li>Operating System</li>
 </ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<blockquote>
-<div><ul class="simple">
-<li>RAM</li>
+<ul class="simple">
+<li>Camera</li>
 </ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG" />
+<div class="last line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<ol class="arabic simple">
+</dd>
+</dl>
+</li>
 <li><dl class="first docutils">
 <dt>Food</dt>
-<dd><ul class="first last">
+<dd><ul class="first simple">
 <li>List of Nutritional Information</li>
 </ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG" src="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li>Contains nuts?</li>
+<li>Contains pork?</li>
+<li>Contains beef?</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG" src="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG" />
+<div class="last line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
 </dd>
 </dl>
 </li>
 </ol>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><ul class="simple">
-<li>Contains nuts?</li>
-</ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><ul class="simple">
-<li>Contains pork?</li>
-</ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><ul class="simple">
-<li>Contains beef?</li>
-</ul>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<img alt="tutorials/_images/image.PNG" src="tutorials/_images/image.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<p><strong>Related Topics:</strong></p>
-<ul class="simple">
+<table class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="69%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
 <li><em>Creating a Nature Class</em></li>
 <li><em>Creating a Non-Nature/Attribution Class</em></li>
 <li><em>Adding Classes to a Product</em></li>
 <li><em>Data Model</em></li>
 </ul>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <img alt="Contentsphere line" src="../_images/line-png-322.PNG" />
+</div>
+</div>
 </div>
 </div>
 
@@ -495,7 +480,15 @@ Every mobile phone product in your system can be given this Attribution Class.  
   <ul>
 <li><a class="reference internal" href="#">Classes and Data Models</a><ul>
 <li><a class="reference internal" href="#what-is-a-data-model">What is a Data Model?</a></li>
-<li><a class="reference internal" href="#how-classes-work">How Classes work</a></li>
+<li><a class="reference internal" href="#how-classes-work">How Classes work</a><ul>
+<li><a class="reference internal" href="#what-is-a-class">What is a class?</a><ul>
+<li><a class="reference internal" href="#default-nature-classes">Default Nature Classes</a></li>
+<li><a class="reference internal" href="#attribution-classes">Attribution Classes</a></li>
+<li><a class="reference internal" href="#attribution-class-examples-with-properties">Attribution Class examples with Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -534,7 +527,7 @@ Every mobile phone product in your system can be given this Attribution Class.  
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Feb 27, 2018</p>
+                <p class="topless">Feb 28, 2018</p>
             </div>
           </div>
         
