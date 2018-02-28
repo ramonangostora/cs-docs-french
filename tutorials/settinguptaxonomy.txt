@@ -1,7 +1,7 @@
 =======================
 Set Up a Taxonomy
 =======================
-Taxonomy is product classification by organizing the content.
+Taxonomy is a product classification by organizing the content.
 
 How to do: Set Up a Taxonomy
 ==================================
@@ -43,9 +43,13 @@ To do this, follow these steps:
 |
 |
 
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetailscreate.PNG
+|
+|
+
 Icons can also be added to the Taxonomy.
 
-    #. Click a section under taxonomies (in this demo, we select **collarless shirt**).
+    #. Click a section under taxonomies (in this demo, we select **Tops**).
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickcollarless.PNG
 |
@@ -59,7 +63,7 @@ Icons can also be added to the Taxonomy.
 
   #.   View the selected icon.
 
-.. image:: /feature/_images/mdmimages/settinguptaxonomy_clickaddicon.PNG
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
 |
 |
 

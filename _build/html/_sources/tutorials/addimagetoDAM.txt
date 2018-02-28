@@ -1,7 +1,7 @@
 
 Add an Image to the DAM
 =======================
-Images can  Products with displayed images are more appealing to the users of the system, which be stored into DAM (Data Asset Management).
+Products with displayed images are more appealing to the users of the system, which be stored into DAM (Data Asset Management).
 To do this, follow these steps:
 
 
@@ -35,7 +35,7 @@ To do this, follow these steps:
 |
 |
 
-#.   The image appears on the Asset Information section. Enter a name for the image.
+#.   The image appears on the File Preview section, and enter a name for the image.
 
 .. image:: /feature/_images/mdmimages/addingimage_entername.PNG
 |

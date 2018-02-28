@@ -16,7 +16,13 @@ To do this, follow these steps:
 |
 |
 
-#. Hover over the "+" icon...and select the desired product(in this demo, we select **Single Product**).
+#. Hover over the "+" icon, and select the desired product(in this demo, we select **Single Product**).
+|
+|
+
+.. image:: /feature/_images/mdmimages/createnewprod_hoverplus.PNG
+|
+|
 
 .. image:: /feature/_images/mdmimages/createnewprod_clicksingleprod.PNG
 |
@@ -28,30 +34,52 @@ To do this, follow these steps:
 |
 |
 
-#. click **Add Taxonomy**.
+#. click **Add Taxonomy** to add taxonomy in the product.
 
 .. image:: /feature/_images/mdmimages/createnewprod_addtax.PNG
 |
 |
 
-#. Select the desired taxonomy ( In this example, we select **Appliances**).
+#. Taxonomy menu appears. Select the desired taxonomy ( In this example, we select **Tops**).
+
+.. image:: /feature/_images/mdmimages/createnewprod_taxmenu.PNG
+|
+|
 
 .. image:: /feature/_images/mdmimages/createnewprod_seltax.PNG
 |
 |
 
+#.  View the selected taxonomy.
+
+.. image:: /feature/_images/mdmimages/createnewprod_taxselected.PNG
+|
+|
+
 #.  Click  **Relationships** tab to add an image on the product.
+
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickrel.PNG
 |
 |
 
-#.   Click the select button to add the desired image (button turns to blue when selected), then click  **Add All**.
+#.  Click on  "+" to add an entity.
 
+
+.. image:: /feature/_images/mdmimages/createnewprod_caddentity.PNG
+|
+|
+
+#.   Click the select button to add the desired image (button turns to blue when selected), then click  **Add**.
+
+.. image:: /feature/_images/mdmimages/createnewprod_imageselect.PNG
+|
+|
 .. image:: /feature/_images/mdmimages/createnewprod_addall.PNG
 |
 |
-#.  The selected image can also be dragged to the right pane to add.
+
+#.  Drag the selected image to the right pane can also be performed to add the image.
 
 .. image:: /feature/_images/mdmimages/createnewprod_dragimage.PNG
 |

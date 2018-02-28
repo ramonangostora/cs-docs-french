@@ -41,12 +41,11 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
 |
 |
-#.then, click **CREATE**.
+#.  Then, click **CREATE**.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
 |
 |
-
 
 #.   View the added users.
 
