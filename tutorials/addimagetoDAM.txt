@@ -29,7 +29,7 @@ To do this, follow these steps:
 |
 |
 
-#.    Click the cloud icon on the Preview section, and select your desired image from your computer.
+#.    Click the cloud icon on the File Preview section, and select your desired image from your computer.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
 |
@@ -41,7 +41,7 @@ To do this, follow these steps:
 |
 |
 
-#. Then, click **SAVE**.
+#. Then, click **Save**.
 
 .. image:: /feature/_images/mdmimages/addingimage_enternamesave.PNG
 |
@@ -49,7 +49,7 @@ To do this, follow these steps:
 
 #.    Click **Metadata**.
 
-.. image:: /feature/_images/mdmimages/\addingimage_clickmeta.PNG
+.. image:: /feature/_images/mdmimages/addingimage_clickmeta.PNG
 |
 |
 

@@ -1,8 +1,7 @@
 =============
 Add New Users
 =============
-The User section is used in managing different roles or profile within the system.
-Eventually, new users profile are necessary to add into the the System.
+nage different roles or profiles within the system by adding new users.
 
 
 How to do: Add New Users
@@ -41,7 +40,7 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
 |
 |
-#.  Then, click **CREATE**.
+#.  Then, click **Create**.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
 |
@@ -50,13 +49,13 @@ To do this, follow these steps:
 #.   View the added users.
 
 
-.. image:: /feature/_images/mdmimages/\addingnewusers_addeduser.PNG
+.. image:: /feature/_images/mdmimages/addingnewusers_addeduser.PNG
 |
 |
 
 Icons for the user can also be added to the created user. To do this, follow the steps below:
 
-      #.    Click add icon button, and select an image icon from your computer.
+      #.    Click **add icon** , and select an image icon from your computer.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
 |

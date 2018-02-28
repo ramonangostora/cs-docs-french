@@ -10,15 +10,13 @@ To do this, follow these steps:
 
 |
 
-#. 1.	Click  ALL from top right.
+#. 1.	Click  All from top right.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
 |
 |
 
 #. Hover over the "+" icon, and select the desired product(in this demo, we select **Single Product**).
-|
-|
 
 .. image:: /feature/_images/mdmimages/createnewprod_hoverplus.PNG
 |
@@ -28,7 +26,7 @@ To do this, follow these steps:
 |
 |
 
-#. Enter the necessary information.Items with red asterisk are required to be filled up.
+#. Enter the necessary information. Items with red asterisk are required to be filled up.
 
 .. image:: /feature/_images/mdmimages/createnewprod_completeattrib.PNG
 |

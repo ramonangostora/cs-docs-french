@@ -31,13 +31,13 @@ To do this, follow these steps:
 |
 |
 
-#.    Use  the plus buttons to expand the taxonomy vertically or horizontally.
+#.    Use  the "+""" to expand the taxonomy vertically or horizontally.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
 |
 |
 
-#.   taxonomy window appears. Enter details for the new taxonomy, and click **CREATE**.
+#.   taxonomy window appears. Enter details for the new taxonomy, and click **Create**.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
 |
