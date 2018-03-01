@@ -1,7 +1,7 @@
 =============
 Add New Users
 =============
-nage different roles or profiles within the system by adding new users.
+Manage different roles or profiles within the system by adding new users.
 
 
 How to do: Add New Users
@@ -23,7 +23,7 @@ To do this, follow these steps:
 |
 |
 
-#.  Click **Users** from the left sidebar.
+#.  Click **Users** on the left sidebar.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickusers.PNG
 |
@@ -46,27 +46,27 @@ To do this, follow these steps:
 |
 |
 
-#.   View the added users.
+#.   View the added user.
 
 
 .. image:: /feature/_images/mdmimages/addingnewusers_addeduser.PNG
 |
 |
 
-Icons for the user can also be added to the created user. To do this, follow the steps below:
+Icon for the user can also be added. To do this, follow the steps below:
 
-      #.    Click **add icon** , and select an image icon from your computer.
+      #.    Click **Add Icon** and select an image icon from your computer.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
-|
-|
+      |
+      |
 
 
       #.    View the added icon.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
-|
-|
+      |
+      |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

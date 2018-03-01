@@ -1,7 +1,7 @@
 =======================
 Set Up a Taxonomy
 =======================
-Taxonomy is a product classification by organizing the content.
+Taxonomy is a product classification used to organize the content.
 
 How to do: Set Up a Taxonomy
 ==================================
@@ -31,19 +31,19 @@ To do this, follow these steps:
 |
 |
 
-#.    Use  the "+" to expand the taxonomy vertically or horizontally.
+#.    Use  the "+" to expand the taxonomy, vertically or horizontally.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
 |
 |
 
-#.   taxonomy window appears. Enter details for the new taxonomy, and click **Create**.
+#.   Taxonomy window appears. Enter details for the new taxonomy and click **Create**.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
 |
 |
 
-.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetailscreate.PNG
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
 |
 |
 
@@ -52,20 +52,20 @@ Icons can also be added to the Taxonomy.
     #. Click a section under taxonomies (in this demo, we select **Tops**).
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickcollarless.PNG
-|
-|
+    |
+    |
 
-    #.   Click upload icon, and select an image from your computer.
+    #.   Click upload icon and select an image from your computer.
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickaddicon.PNG
-|
-|
+    |
+    |
 
-  #.   View the selected icon.
+   #.   View the selected icon.
 
-.. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
-|
-|
+    .. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
+    |
+    |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

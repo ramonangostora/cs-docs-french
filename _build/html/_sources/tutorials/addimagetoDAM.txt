@@ -1,7 +1,7 @@
 
 Add an Image to the DAM
 =======================
-Products with displayed images are more appealing to the users of the system, which be stored into DAM (Data Asset Management).
+Products with displayed images are more appealing for the users to the system, which can be stored in DAM (Data Asset Management).
 To do this, follow these steps:
 
 
@@ -29,7 +29,7 @@ To do this, follow these steps:
 |
 |
 
-#.    Click the cloud icon on the File Preview section, and select your desired image from your computer.
+#.    Click the **Add Image** icon on the File Preview section, and select your desired image from your computer.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
 |
@@ -53,10 +53,11 @@ To do this, follow these steps:
 |
 |
 
-#.	The available metadata on the Meta Data section  will auto-complete but fields can be manually filled up as desired.
+#.	The available metadata on the Meta Data section  will auto-complete but fields can be manually filled out as desired.
 
 .. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
 
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

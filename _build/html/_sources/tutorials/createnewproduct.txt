@@ -16,7 +16,7 @@ To do this, follow these steps:
 |
 |
 
-#. Hover over the "+" icon, and select the desired product(in this demo, we select **Single Product**).
+#. Hover over the "+" icon and select the desired product (in this demo, we select **Single Product**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_hoverplus.PNG
 |
@@ -26,19 +26,19 @@ To do this, follow these steps:
 |
 |
 
-#. Enter the necessary information. Items with red asterisk are required to be filled up.
+#. Enter the necessary information. Items with red marks are required to be filled out.
 
 .. image:: /feature/_images/mdmimages/createnewprod_completeattrib.PNG
 |
 |
 
-#. Click **Add Taxonomy** to add taxonomy in the product.
+#. Click **Add Taxonomy** to add taxonomy to the product.
 
 .. image:: /feature/_images/mdmimages/createnewprod_addtax.PNG
 |
 |
 
-#. Taxonomy menu appears. Select the desired taxonomy ( In this demo, we select **Tops**).
+#. Taxonomy menu appears. Select the desired taxonomy (In this demo, we select **Tops**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxmenu.PNG
 |
@@ -54,7 +54,7 @@ To do this, follow these steps:
 |
 |
 
-#.  Click  **Relationships** tab to add an image on the product.
+#.  Click  **Relationships** tab to add an image to the product.
 
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickrel.PNG
@@ -68,7 +68,7 @@ To do this, follow these steps:
 |
 |
 
-#.   Click the select button to add the desired image (button turns to blue when selected), then click  **Add**.
+#.  Click the select button to add the desired image (button turns to blue when selected), then click  **Add**.
 
 .. image:: /feature/_images/mdmimages/createnewprod_imageselect.PNG
 |
@@ -83,7 +83,7 @@ To do this, follow these steps:
 |
 |
 
-#.    To add more image, click **Return**, and repeat the previous steps.
+#.  To add more image, click **Return**, and repeat the previous steps.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickret.PNG
 |
