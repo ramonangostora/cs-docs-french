@@ -10,7 +10,7 @@ To do this, follow these steps:
 
 |
 
-#. 1.	Click  **All** from the top right.
+#.	Click  **All** from the top right.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
 |
@@ -32,7 +32,7 @@ To do this, follow these steps:
 |
 |
 
-#. click **Add Taxonomy** to add taxonomy in the product.
+#. Click **Add Taxonomy** to add taxonomy in the product.
 
 .. image:: /feature/_images/mdmimages/createnewprod_addtax.PNG
 |
