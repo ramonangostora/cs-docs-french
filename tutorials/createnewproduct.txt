@@ -10,7 +10,7 @@ To do this, follow these steps:
 
 |
 
-#. 1.	Click  **All** from top right.
+#. 1.	Click  **All** from the top right.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
 |
@@ -38,7 +38,7 @@ To do this, follow these steps:
 |
 |
 
-#. Taxonomy menu appears. Select the desired taxonomy ( In this example, we select **Tops**).
+#. Taxonomy menu appears. Select the desired taxonomy ( In this demo, we select **Tops**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxmenu.PNG
 |
