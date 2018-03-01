@@ -38,7 +38,7 @@ To do this, follow these steps:
 |
 |
 
-#. Taxonomy menu appears. Select the desired taxonomy (In this demo, we select **Tops**).
+#. Taxonomy menu appears. Select the desired taxonomy (in this demo, we select **Tops**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxmenu.PNG
 |
