@@ -29,7 +29,7 @@ To do this, follow these steps:
 |
 |
 
-#.   Then, click "+" to add an image.
+#.   Then, click "+" to add a user.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
 |

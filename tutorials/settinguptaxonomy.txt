@@ -31,7 +31,7 @@ To do this, follow these steps:
 |
 |
 
-#.    Use  the "+""" to expand the taxonomy vertically or horizontally.
+#.    Use  the "+" to expand the taxonomy vertically or horizontally.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
 |
