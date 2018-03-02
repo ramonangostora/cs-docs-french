@@ -17,7 +17,7 @@ The Data Model defines products from the highest level of classification down to
 
     The Data Model for your *T-Shirt* also has Non-Nature/Attribution classes such as *'Clothing'*.
     The *Clothing* Attribution Class attaches properties such as fabric and color to the *T-Shirt* product.
-    The Taxonomy is used to add the *T-Shirt* product into a broader store classification or category system.
+    The Taxonomy is used to add the *T-Shirt* product into a broader store classification or a category system.
 
 |
 .. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
@@ -56,7 +56,7 @@ Below are the several default class types:
 |
 
 Default Nature Classes
-**********************
+***********************
 
 #. Single Article
     * A stand-alone product which is a sellable item.
@@ -144,11 +144,11 @@ Default Nature Classes
 
 Attribution Classes
 ********************
-*(Also called Non-Nature Class)*
+*(Also called Non-Nature Classes)*
 
 
 Products, defined only by a *Nature Class* are not yet categorized in your PIM.  To give a more specific categorization, you can add *Attribution Classes*.
-The added benefit for using one or many Attribution Classes is that they have their own properties that the product will inherit.
+The added benefit of using one or many Attribution Classes is that they have their own properties that the product will inherit.
 For example, a mobile phone product can have a *'Mobile Attribution Class'* associated with it, which would include properties for *screen size, storage*, etc.
 Every mobile phone product in your system can be given this Attribution Class.  Other Attribution Classes can be added to the mobile phone example such as *Electronics or Computer*.
 
