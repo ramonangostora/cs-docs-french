@@ -49,8 +49,12 @@ New to Contentsphere
 Are you new to Contentsphere? This is the place to start!:
 
 #. **Newbie**
-   :doc:`About the product <product/product lines>` |
+   :doc:`About the product <product/productlines>` |
    :doc:`Technical Deployment <reference/install>`
+
+#. **Concepts**
+   :doc:`What is a Data Model? <tutorials/whatisadatamodel>` |
+   :doc:`How Classes work <tutorials/howclasseswork>`
 
 #. **Tutorial**
    :doc:`Part 1: Uploading and managing data <tutorials/tutorial01>` |
