@@ -19,9 +19,9 @@ Key Elements
 
 
 #.  Enrich
-      Enhance and refine your product data: enrich your products and build data relationships to create product families, cross-selling opportunities, and parts lists.
+      Enhance and refine your product data - enrich your products and build data relationships to create product families, cross-selling opportunities, and parts lists.
 
-      Seamlessly integrate digital content including graphics, icons, videos, and more – for the most visually-compelling product presentations.
+      Seamlessly integrate digital content including graphics, icons, videos, and more for the most visually-compelling product presentations.
 
 
 #.  Collaborate and Approve

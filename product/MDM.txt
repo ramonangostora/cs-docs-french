@@ -1,7 +1,7 @@
 ======================
 Master Data Management
 ======================
-The **Master Data Management (MDM)** is a sophisticated data management solution that improves and automates your data quality assurance.
+The **Master Data Management (MDM)** is a sophisticated data management solution that improves and automates data quality assurance.
 It creates master records that enables you to have customer-ready marketing presentations for all of your sales and partner channels.
 Thanks to its complete, consistent, and context-optimized master data, you can secure a sustainable competitive advantage and ensure superior customer experience.
 
