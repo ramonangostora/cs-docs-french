@@ -1,47 +1,6 @@
-========================
-Classes and Data Models
-========================
-
-What is a Data Model?
-========================
-
-The Data Model defines the base data structure for products in a system.
-This structure enables you to connect predefined classes or taxonomies with your products to classify them.
-The Data Model defines products from the highest level of classification down to the individual attributes and properties.
-
-
-**Example:**
-
-    A product, such as a *T-Shirt*, inherently has a Data Model that defines it. At the highest level, it is given a *Nature Class*, which could be *Product*.
-    This Product class allows the *T-Shirt* to have variants.  At this level, the *T-Shirt* describes the design but is not a sellable item.
-
-    The Data Model for your *T-Shirt* also has Non-Nature/Attribution classes such as *'Clothing'*.
-    The *Clothing* Attribution Class attaches properties such as fabric and color to the *T-Shirt* product.
-    The Taxonomy is used to add the *T-Shirt* product into a broader store classification or a category system.
-
-|
-.. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
-|
-|
-.. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt2.PNG
-|
-|
-
-
-====================    =============================================
-**Related topics:**     * *Creating a Single Article*
-                        * *Building a Taxonomy*
-                        * *How Classes work*
-====================    =============================================
-
-|
-
-.. image:: /tutorials/_images/line-png-32.PNG
-   :alt: Contentsphere line
-
-
+================
 How Classes work
-=================
+================
 
 What is a class?
 ----------------
