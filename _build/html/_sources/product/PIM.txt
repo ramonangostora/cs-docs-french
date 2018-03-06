@@ -1,3 +1,112 @@
 ==============================
 Product Information Management
 ==============================
+The **Product Information Management (PIM)** brings together product information from multiple sources and lays the foundation for an amazing multichannel product communication.
+It is a PIM solution that allows you to meet growing customer demands, to speed time to market, and to drive better business results than ever before!
+And it easily conquers the increasing challenges of data quality management and marketing integration.
+
+
+.. image:: _images/pim.PNG
+|
+
+Key Elements
+=============
+
+#.  Collect
+      Save time by bringing data from multiple data pools, ERP systems, vendors & suppliers together with our automated data onboarding.
+
+      Resolve conflicting content for easy data cleansing and creation of golden records thanks to state-of-the-art Master Data Management features.
+
+
+#.  Enrich
+      Enhance and refine your product data - enrich your products and build data relationships to create product families, cross-selling opportunities, and parts lists.
+
+      Seamlessly integrate digital content including graphics, icons, videos, and more for the most visually-compelling product presentations.
+
+
+#.  Collaborate and Approve
+      Create easy-to-use workflows, task management, and intuitive interfaces.
+
+      Allow individuals across multiple teams to easily collaborate: contribute and approve product information as efficiently as possible – for faster time-to-market!
+
+
+#.  Publish
+      Automate publication across all of your marketing and sales channels.
+
+      Collaboration is also part of the process – giving you peace-of-mind that the same, up-to-date product content is released and published across all output channels. This includes e-commerce, marketplaces, catalogs, POS materials, and so much more!
+
+
+#.  Search and Find
+      Share access to product information and related assets with the ability to quickly search & find the desired data.
+
+      Make product content available at any time – for faster team collaboration and accurate communication. Add external partners with one click – eliminating the confusion of emails and attachments.
+
+|
+
+Key Benefits
+==============
+
+#.  *Launch products faster than ever.*
+
+#.  *Reduce returns significantly.*
+
+#.  *Boost margins considerably.*
+
+#.  *Increase revenue remarkably.*
+
+|
+
+Key Features and Modules
+==========================
+
+#.  Integrated Workflow Management
+      Seamlessly integrate users, workflows, and third party systems on a collaborative central platform.
+
+
+#.  Translation Management
+      Manage multiple languages for all output channels, centrally and highly automated.
+
+
+#.  Product Data Editing and Management
+      Reduce manual effort and ensure consistency thanks to powerful inheritance & data transfer.
+
+
+#.  Digital Asset Management
+      Seamlessly and consistently integrate all digital assets to the PIM.
+
+
+#.  Data Onboarding
+      Automate onboarding of data from ERP systems, suppliers, and data pools.
+
+
+#.  Data Quality
+      Ensure Data Quality by high-end functionalities for rule-based classification, matching, and linking.
+
+
+#.  Data Offboarding
+      Supply targeted, channel-optimized, consistent, and quality-assured product information.
+
+
+#.  Manage the Context
+      Profit from an open entity model for precise and contextual data modeling.
+
+
+#.  Powered by Elasticsearch
+      Gain usability from faceted search and filtering / bookmarks and collections.
+
+
+#.  Powered by Graph DB
+      Associate and relate data objects via a NoSQL database and allow simple and fast retrieval of complex hierarchical structures.
+
+
+#.  Product-to-Product Variants
+      Our best practice data model gives you out-of-the-box support for PID-SKU variants.
+
+
+#.  Real-time Data Delivery
+      Deliver product information for interactive channels in real-time.
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

@@ -70,9 +70,9 @@ Are you new to Contentsphere? This is the place to start!:
 
 Contentsphere Product Lines
 ===========================
-Learn about some other core functionalities of the Contentsphere product line:
+Learn about some other core functionalities of the :doc:`Contentsphere Product Lines <product/index>`:
 
 #. :doc:`Master Data Management <product/MDM>` with functionality supporting workflow rules, data quality, catalogue management, user security, data distribution
 #. :doc:`Product Information Management <product/PIM>` for product enrichment, digital assets, taxonomy management.
-#. :doc:`Marketing Content Management <product/MCH>` supports promotions, campaigns, target markets, target channels, customers
+#. :doc:`Marketing Content Management <product/MCM>` supports promotions, campaigns, target markets, target channels, customers
 #. :doc:`Partner Engagement Platform <product/PEP>` deployed for supplier engagement, collaboration, product onboarding, simple PIM and product data onboarding, offboarding.

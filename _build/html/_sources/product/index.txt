@@ -1,14 +1,14 @@
-==========================
-Product Lines and products
-==========================
+===========================
+Product Lines and Products
+===========================
 
-read this material to quickly get up and running.
+Read the following materials to quickly get you up and running on the Contentsphere products:
 
 .. toctree::
    :maxdepth: 1
 
-   product lines
+   productlines
    MDM
    PIM
-   MCH
+   MCM
    PEP

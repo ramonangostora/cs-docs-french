@@ -1,0 +1,91 @@
+=============================
+Marketing Content Management
+=============================
+The **Marketing Content Management (MCM)** orchestrates marketing and communication processes in a highly automated manner and with unrivaled flexibility.
+The Marketing Content Management solution is at the leading edge of marketing automation that provides contextual audience targeting and customized experiences across all campaign categories and sales channels.
+Built on a PIM and MDM foundation, product information intersects user behavior and motivates purchase decisions.
+
+
+.. image:: _images/mcm.PNG
+|
+
+Key Elements
+=============
+
+#.  Prepare
+      Create marketing-driven data collections such as bundles, sets, shop-the-look, and interactive promotions.
+
+      Use solution specific features including: built-in topic, tag, and situational functionalities to create sophisticated promotions with the most relevant content.
+
+
+#.  Plan
+      Collaborate and manage editorial calendars, content campaigns, and product advertising plans to drive and meet long-term marketing goals.
+
+      Organize marketing activities by arranging work, maintaining cadence, and keeping track of marketing campaigns with powerful filtering options – all within one screen.
+      Ideal for marketers working in a highly regulated environment.
+
+
+#.  Execute and Deliver
+      Create dynamic and user-responsive promotions for different target groups, locations, and campaign types.  Publish to print or deliver personalized interactions.
+
+      Build a meaningful promotional product experience for a given market segment by accessing marketing and physical articles all in one screen.
+      Ideal for e-commerce and physical stores wanting to influence customer engagement.
+
+
+#.  Measure and Monitor
+      Measure marketing product performance. Track and share marketing performance across all channels, execute A/B testing, report campaign, and promotion KPIs.
+
+      Configure different views for cross-functional team members to provide better visibility and enable fact and data driven decision making.
+
+
+#.  Improve
+      With this solution, continuously improve marketing campaigns by measuring interactions and creating meaningful associations between customers, contexts, locations, products, personal tastes, seasonality, and much more.
+
+      Use the buyer persona functionality within the solution to include market learnings about a given segment and improve targeting as a result.
+
+|
+
+Key Benefits
+=============
+
+#.  *Coordinate all content processes centrally.*
+
+#.  *Deliver the right products, with the right information, at the right time.*
+
+#.  *Provide a personalized product experience.*
+
+#.  *Deliver relevant marketing content, optimized by channel.*
+
+|
+
+Key Features and Modules
+=========================
+
+#.  Virtual Products
+      Create virtual products such as bundles, sets, shop-the-look, and recipes.
+
+#.  Dynamic Promotions
+      Achieve dynamic, rapidly-changing promotions for every context.
+
+#.  Hyperlocation
+      Use and apply options for hyperlocation and cluster-based (micro-) targeting.
+
+#.  Content Marketing
+      Topic-based content marketing triggered by events and marketing calendars.
+
+#.  Customized Communication
+      Personalized, tailor-made interactions and presentations based on persona features, situations, and channels.
+
+#.  Real-time
+      Real-time promotions, that take availability, supplier preference, and more into account.
+
+#.  Artificial Intelligence
+      Learning systems create associations and affinities between products and target markets/customers.
+
+#.  Publication Management
+      Whiteboard & Composer with variants management for high-automation print or page-based output.
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line
