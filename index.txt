@@ -48,8 +48,7 @@ Are you new to Contentsphere? This is the place to start!:
 
 #. **Newbie**
    :doc:`About the product <product/product lines>` |
-   :doc:`Overview <deploy/index>` |
-   :doc:`Technical Deployment <deploy/index>`
+   :doc:`Technical Deployment <reference/install>`
 
 #. **Tutorial**
    :doc:`Part 1: Uploading and managing data <tutorials/tutorial01>` |
@@ -73,5 +72,5 @@ Learn about some other core functionalities of the Contentsphere product line:
 
 #. :doc:`Master Data Management <product/MDM>` with functionality supporting workflow rules, data quality, catalogue management, user security, data distribution
 #. :doc:`Product Information Management <product/PIM>` for product enrichment, digital assets, taxonomy management.
-#. :doc:`Marketing Content Hub <product/MCH>` supports promotions, campaigns, target markets, target channels, customers
+#. :doc:`Marketing Content Management <product/MCH>` supports promotions, campaigns, target markets, target channels, customers
 #. :doc:`Partner Engagement Platform <product/PEP>` deployed for supplier engagement, collaboration, product onboarding, simple PIM and product data onboarding, offboarding.
