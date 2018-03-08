@@ -7,5 +7,6 @@ Read this material to quickly get up and running.
 .. toctree::
    :maxdepth: 1
 
+   exploretheui
    whatisadatamodel
    howclasseswork

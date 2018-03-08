@@ -50,6 +50,7 @@ Are you new to Contentsphere? This is the place to start!:
 
 #. **Newbie**
    :doc:`About the product <product/productlines>` |
+   :doc:`Explore the User Interface <tutorials/exploretheui>` |
    :doc:`Technical Deployment <reference/install>`
 
 #. **Concepts**
