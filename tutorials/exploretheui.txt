@@ -11,6 +11,3 @@ Use these screenshots to help guide you through Contentsphere's user interface:
 
 .. image:: _images/cs_ui2.jpg
    :alt: Contentsphere UI
-
-.. image:: _images/line-png-32.png
-   :alt: Contentsphere 
