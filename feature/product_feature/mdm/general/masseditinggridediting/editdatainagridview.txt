@@ -5,12 +5,14 @@ The feature allows a user to change the values of multiple attributes/tags for m
 
 
 ===================     ===============================================================================================================================================================
+**Key Term:**           * **Grid Edit:** is a data editing functionality wherein the product data are presented in grid.
+
 **Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation using the grid view.
                         * This feature can be used on similar or dissimilar types of products.
                         * This feature allows multiple attributes/tags to be edited in a single operation.
                         * This feature allows multiple attributes/tags to be changed and applied to products.
 
-**Related topics:**     * *Bulk Edit*
+**Related topics:**     * :doc:`Bulk Edit </feature/product_feature/mdm/general/masseditingbulkapply/bulkedit>`
 
 **Application:**        * Edit Data in Grid View can support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
                         * Edit Data in Grid View saves hours of manual work by editing selected products in grid in one go.
@@ -21,3 +23,69 @@ The feature allows a user to change the values of multiple attributes/tags for m
                             and click on **Grid Editable** to update the pricing.
 
 ===================     ===============================================================================================================================================================
+
+
+How to do: Edit Data in a Grid View
+====================================
+To do this editing feature, follow these steps:
+
+|
+
+#. Log in to **Contentsphere** and go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_logintocontentsphere.PNG
+|
+|
+
+#. Click on the **Data Model** tab.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_clickonthedatamodeltab.PNG
+|
+|
+
+#. Click on *Properties* on the left panel and search for the attribute or tag whose value needs to be updated.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_clickonproperties.PNG
+|
+|
+
+#. Scroll to the right and find the *Grid Editable* column.  Enable this option for the particular attribute or tag.
+   Repeat this step for the other attributes and tags that need to be updated.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_scrollrightandfind.PNG
+|
+|
+
+#. Click on the **Explore** button to reach PIM.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_clickontheexplore.PNG
+|
+|
+
+#. Select the products that need the modifications.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_clickonthegridedit.PNG
+|
+|
+
+#. Click on the **Grid Edit** button to perform the editing.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_clickonthegridedit2.PNG
+|
+|
+
+#. View the window that pops up. It lists the selected products with the attributes/tags that are to be edited.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_viewthewindow.PNG
+|
+|
+
+#. Make the necessary changes and click the **OK** button to save these changes.
+
+.. image:: /feature/_images/mdmimages/cs_editdataingridview_makethenecessaryadjustments.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
