@@ -1,0 +1,216 @@
+====================
+Oracle : MasterStore
+====================
+
+
+Set up Oracle by following the steps below:
+============================================
+
+#.	Reside the DB on the new Hardware.
+
+|
+
+#.	Set up the DB Server in their own network segment.
+
+|
+
+#.	Prepare 4 DB servers: 2 of the servers will be set up in one of two data centers (DC). The other 2 servers per data center will be set up as RAC and will be based on VPLEX Storage.
+
+|
+
+#.	Use one RAC implementation for the PROD while the other for the TEST environment.
+
+|
+
+#.	Set the RAC version to be *11.2.0.4*.
+
+|
+
+#.	Use all standard settings concerning *Linux User and Linux rights, ASM Drives, Storage Groups, Backup & Recovery concepts and processes for Oracle, network layout, naming conventions, file systems, UNIX version*, etc.
+
+|
+
+#.	Use DB with a Unicode charset. The name of the charset is **AL32UTF8**.
+
+|
+
+#.	Also, use Table partitioning and PL/SQL. Note that no special Oracle features are necessary.
+
+
+        *Standard Oracle* features are:
+
+        1.	Partitioning
+
+        |
+
+        2.	Real Application Clusters
+
+        |
+
+        3.	Automatic Storage Management
+
+        |
+
+        4.	OLAP
+
+        |
+
+        5.	Data Mining
+
+        |
+
+        6.	Real Application Testing
+
+        |
+
+#. Note that the Tablespace layout will be chosen by the DBAs. Use the default tablespaces for the DB users.
+
+|
+
+#. Ensure that CS Vision has three DB Schema:
+
+     * **Deployment User:** for software installation, software updates, and performance analysis by CS Vision; DB Objects are stored here.
+
+     * **Application User:** this User will be used by the application to connect to the DB. The application doesn’t use DDL statements and needs read access to the objects owned by the deployment user. The Application User doesn’t need tablespace of its own.
+
+     * **Support User:** is used from CS Vision to access the DB. He doesn’t use DDL Statements and read access to the Deployments User’s DB objects. The Support User doesn’t need tablespace of its own.
+
+|
+
+#. For the deployment of updates in the PROD environment, prepare all the things that DBAs need.
+   In the sense of a Change process, those are a summary of all DB objects that will be changed, all new DB objects, and the amount of data in change.
+   Based on this information, all necessary resources (especially tablespace) will be provided.
+
+|
+
+#. Check the duration of DB procedures that will be stored within DB tables by the application on behalf of performance measures. Every other DB monitoring is provided by the DBAs.
+
+|
+
+#. Verify that the 5 application server nodes in one DC will use (configurable) 50 permanent JDBC connections.
+   The connections will be established during the startup of the application.
+   In case of a DB restart, the application server will perform an automatic reconnect (automatic fail-over).
+   The behavior will be tested on the cluster after the PROD system is set up.
+
+|
+|
+
+Create various DB Objects in Oracle:
+=====================================
+
+The following will be discussed together with the Customer’s DBA team and is subject to change based on their existing standards and processes.
+
+
+Prerequisites
+--------------
+
+|
+
+#.	Install a new DB on its own Hardware.
+
+|
+
+#.	Run the DB Servers on their own network segment.
+
+|
+
+#.	Prepare  4 DB Servers: 2 in each data center as RAC, based on VPLEX Storage.
+
+|
+
+#.	Use one RAC implementation for the PROD while the other one for TEST environment in a different data center.
+
+|
+
+#.	Infrastructure will be according to existing (Customer) standards (i.e., *Linux User and Rights, ASM Drives and Diskdrive groups, Backup and Recovery concept and processes, network layout, naming conventions, file system, and Unix version)*.
+
+|
+
+#.	Use Table partitioning and PL/SQL procedures. Note that there would be some java-based stored procedures.
+
+|
+
+#.	Select the tablespace layout to be the DBAs without any restrictions. Default tablespaces of the DB-Users will be used.
+
+|
+
+#.	Verify that 5 application servers use about 50 JDBC connections against the DB. This is configurable. If the DB is restarted, the application servers perform automatically and reconnect against the DB (automatic fail-over). This behavior will be verified with cluster tests since CS doesn't have a RAC system to test this.
+
+|
+
+#.	Check that the execution times of DB procedures are logged in DB-Tables. This is used for performance measures from the application. Every other form of DB monitoring is supplied from the DBAs.
+
+|
+
+#.	Install standard Oracle; there will be no other Oracle specials necessary to be installed.
+
+
+        Standard Installation includes:
+
+        1.	Partitioning
+
+        |
+
+        2.	Real Application Clusters
+
+        |
+
+        3.	Automatic Storage Management
+
+        |
+
+        4.	OLAP
+
+        |
+
+        5.	Data Mining
+
+        |
+
+        6.	Real Application Testing
+
+
+|
+
+Schema
+-------
+The Schemas required will be the following:
+
+#. **Deployment User:** is used for installation and updates. This user will be the owner of the application schema and will perform the following actions:
+
+    #.	Software Installation: is for creating tables, procedures, indexes, views, functions, etc.
+
+    |
+
+    #.	Software Update: is for	altering existing objects, creating new objects, and some data updates.
+
+    |
+
+    #.	Performance Analysis
+
+    |
+
+    #.	Permissions: (1)	Connect to the database (create session) | (2) Alter session related parameters (alter session) | (3) Create objects (table, views, indexes, procedures and functions).
+
+
+#. **Application User:** is used by the *Application* to access the database. This user will have DML rights on the Deployment User’s schema and the Pentaho User’s schema and will not need any additional space.
+
+
+    Permissions:	(1) Connect to the database (create session) | (2) Alter session related parameters (alter session) | (3) Grant Object Level Permissions for tables and views (*Select, Insert, Update, Delete*) | (4) Grant Execute Permissions (*Procedures, Functions*).
+
+
+#. **Read-only (Support) User:** is used by the *Support* to access the database.  This user will have read access on the Deployment User’s schema and the Pentaho User’s schema in order to run some queries to check for issues in the data.
+
+
+    Permissions on Application Schema & Pentaho Schema: (1) Connect to the database (create session) | (2) Grant *Select* permissions on all Tables & Views.
+
+
+Note that the **Deployment User** is used to connect to the schema and run the SQL scripts to create various objects. Thereafter, the user will grant permissions on these objects to the application user.
+
+    CS will perform the following checks: (1) The tables and procedures have been created properly | (2) CS will run some select scripts to check if the updates have been successful.
+
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

@@ -1,9 +1,0 @@
-===================
-Product Types - PID
-===================
-
-.. toctree::
-   :maxdepth: 1
-
-   managepids
-   managedatatransfer

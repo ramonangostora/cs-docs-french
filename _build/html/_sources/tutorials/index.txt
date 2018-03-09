@@ -7,13 +7,6 @@ Read this material to quickly get up and running.
 .. toctree::
    :maxdepth: 1
 
-   overview
-   install
-   tutorial01
-   tutorial02
-   tutorial03
-   tutorial04
-   tutorial05
-   tutorial06
-   advtutorial01
-   advtutorial02
+   exploretheui
+   whatisadatamodel
+   howclasseswork

@@ -1,0 +1,132 @@
+==========
+Reference
+==========
+
+ElasticSearch: Search Store
+============================
+
+Brief
+-----
+
+The *ElasticSearch* search engine, in spite of being a secondary store is one of the main core components.
+It is used to perform all search operations and several get operations. *ElasticSearch* supports full-text, faceted, and semantic & phonetic searching.
+Additionally, it is also horizontally scalable, thereby, giving us a flexibility to increase the number of nodes in order to facilitate high volume searches.
+
+For *ElasticSearch* search store, fast SSD drives are recommended as they can bear lots of random *IOPS*, therefore avoiding performance bottlenecks.
+*ElasticSearch* is extremely memory intensive. In the latter, sorting and aggregations can both be memory hungry so enough heap space to accommodate this is important.
+Even when the heap is comparatively small, extra memory can be given to the OS file system cache. As many data structures used by Lucene (full-featured text search engine, which forms the crux of ElasticSearch) are disk-based formats, ElasticSearch leverages the OS cache to great effect.
+
+
+Installation
+=============
+
+
+Setup and Configuration
+========================
+
+#. Download elasticsearch-2.1.1 (at location, */opt/cs/elastic*).
+
+    https://download.elasticsearch.org/elasticsearch/reease/org/elasticsearch/distribution/tar/elasticsearch/2.1.1/elasticsearch-2.1.1.tar.gz
+
+|
+
+#. Extract *ElasticSearch*. ::
+
+    tar -zxvf elasticsearch-2.1.1.tar.gz
+
+|
+
+#. Change configuration. ::
+
+	  vim /opt/cs/elastic/elasticsearch-2.1.1/bin/elasticsearch
+
+|
+
+#. Specify **Memory** as following at the top of the file.  ::
+
+    export ES_HEAP_SIZE=10g
+
+    vim /opt/cs/elastic/elasticsearch-2.1.1/config/elasticsearch.yml
+
+|
+
+#. Specify **IP** as following by uncommenting the line and adding IP of the machine in front of it:  ::
+
+    network.host: <IP_OF_ELASTIC_SERVER>
+
+|
+
+#. Also add following dependencies:  ::
+
+     script.inline: true
+     script.indexed: true
+     script.engine.groovy.file.aggs: true
+     script.engine.groovy.file.mapping: true
+     script.engine.groovy.file.search: true
+     script.engine.groovy.file.update: true
+     script.engine.groovy.file.plugin: true
+     script.engine.groovy.indexed.aggs: true
+     script.engine.groovy.indexed.mapping: false
+     script.engine.groovy.indexed.search: true
+     script.engine.groovy.indexed.update: false
+     script.engine.groovy.indexed.plugin: false
+     script.engine.groovy.inline.aggs: true
+     script.engine.groovy.inline.mapping: false
+     script.engine.groovy.inline.search: false
+     script.engine.groovy.inline.update: false
+     script.engine.groovy.inline.plugin: false
+     http.cors.enabled: true
+     http.cors.allow-origin: "*"
+
+|
+
+#. Install plugins.  ::
+
+    cd /opt/cs/elastic/elasticsearch-2.1.1/bin/
+
+    ./plugin install file:<Path of CS-Refactored>CS-Refactored/ServerPlugins/elasticsearch/build/distributions/contentsphere-plugin-1.0.0-SNAPSHOT.zip
+
+|
+
+#. Start *ElasticSearch*.  ::
+
+   	./elasticsearch -d
+
+|
+
+#. Check whether the service is running or not.  ::
+
+    netstat -tulpn | grep 9200
+
+|
+
+#. Start/Stop/Update Commands:  ::
+
+    Stop Elastic
+      ssh elastic@ELASTIC_IP
+      fuser -k 9200/tcp
+
+    Start Elastic
+      ssh elastic@ELASTIC_IP
+      /opt/cs/elastic/elasticsearch-2.1.1/bin/elasticsearch -d
+
+|
+
+#. Remove plugins.  ::
+
+     cd /opt/cs/elastic/elasticsearch-2.1.1/bin/
+
+     ./plugin remove contentsphere-plugin
+
+|
+
+#. Add plugins.  ::
+
+     cd /opt/cs/elastic/elasticsearch-2.1.1/bin/
+
+     ./plugin install file:<Path of plugin file>/contentsphere-plugin-1.0.0-SNAPSHOT.zip
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

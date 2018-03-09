@@ -1,14 +1,93 @@
 ======================
 Master Data Management
 ======================
+The **Master Data Management (MDM)** is a sophisticated data management solution that improves and automates data quality assurance.
+It creates master records that enables you to have customer-ready marketing presentations for all of your sales and partner channels.
+Thanks to its complete, consistent, and context-optimized master data, you can secure a sustainable competitive advantage and ensure superior customer experience.
 
-#. The Contextual Multi-Domain MDM seamlessly combines the functionalities of PIM, DAM/MAM
-   and MDM systems as well as those of a publishing and editing system in one single solution.
-#. All data can be provided for publication on all channels and at all touch-points directly from
-   the Contextual Multi-Domain MDM: product information, master data, customer, supplier and location 
-   data, etc., marketing content, editorial content and media assets.
-#. All content can be displayed automatically in order to ensure an optimum presentation in the specific context.
-#. An integrated, powerful On-boarding Portal allows for the efficient integration of data from various
-   sources (suppliers, manufacturers, agencies, etc.).
-#. An integrated data quality check guarantees that, despite the maximum personalisation of messages
-   and product presentation, all information remains consistent at all times.
+.. image:: _images/mdm.PNG
+|
+
+Key Elements
+=============
+
+#.  Connect
+      Easily connect with diverse data sources and multiple ERPs.
+
+      Integrate partners of any size and sophistication, legacy and modern databases, or real-time inputs (*flat data, XML, JSON, proprietary web services*).
+
+#.  Onboard
+      Engage and collaborate with partners, suppliers, and channels.
+
+      Partners have a guided path for providing and editing information ensuring business data is accurate and up-to-date.
+
+#.  Validate
+      Create rules and automations to manage collaborations and data while ensuring data quality and completeness.
+
+      Annotate and rank products to guarantee they are appropriately placed or excluded from inventories and promotions.
+
+#.  Define
+      Perform completeness checks with automated detection of faulty data and data conflicts.
+
+      Apply best practices for *Master Data Management*, enabling data stewards to match, merge, and cleanse data to create golden records.
+      Route records back to suppliers and partners for collaborative conflict resolution.
+
+#.  Update
+      Continuously reconcile current and refreshed data to improve golden records.
+
+      Retain total control when selectively coupling or decoupling supplier and master catalogs.
+
+|
+
+Key Benefits
+=============
+
+#.  *Create golden records easily.*
+
+#.  *Ensure overall consistency effortlessly.*
+
+#.  *Integrate multiple data pools seamlessly.*
+
+#.  *Increase data quality remarkably.*
+
+|
+
+Key Features and Modules
+=========================
+
+#.  Data Onboarding
+      Automate onboarding of data from ERP systems, suppliers, and data pools.
+
+
+#.  Integrated Workflow Management
+      Engage your suppliers with an easy-to-use collaborative platform.
+
+
+#.  Data Quality
+      Ensure data security thanks to powerful data quality and cleansing rules.
+
+
+#.  Golden Records
+      Create perfect data records from conflicting sources.
+
+
+#.  Update Management & Version Control
+      Prevent deterioration of data quality by unsolicited supplier updates.
+
+
+#.  Supplier Onboarding
+      Design tailor-made endpoints for small (manual), medium (file upload), and large (connector-based) suppliers.
+
+
+#.  Data Control
+      Decouple/couple flexibly both supplier and master catalogs at the field level for maximum data control.
+
+
+#.  Rich Content Integration
+      Join digital assets and rich content from agencies, content aggregators, and freelancers.
+
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

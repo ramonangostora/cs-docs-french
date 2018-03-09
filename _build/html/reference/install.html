@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Installation Guides &#8212; Contentsphere  documentation</title>
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Deployment Planning" href="deployment planning.html" />
-    <link rel="prev" title="upgrading" href="upgrading.html" />
+    <link rel="next" title="Deployment Planning" href="deploymentplanning.html" />
+    <link rel="prev" title="Upgrading" href="upgrading.html" />
 
 
 
@@ -105,11 +105,11 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="upgrading.html" title="upgrading">previous</a>
+    &laquo; <a href="upgrading.html" title="Upgrading">previous</a>
      |
     <a href="index.html" title="Reference Guides" accesskey="U">up</a>
    |
-    <a href="deployment planning.html" title="Deployment Planning">next</a> &raquo;</div> -->
+    <a href="deploymentplanning.html" title="Deployment Planning">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
@@ -121,42 +121,54 @@
 <div class="section" id="s-quick-install-guide">
 <span id="quick-install-guide"></span><h2>Quick install guide<a class="headerlink" href="#quick-install-guide" title="Permalink to this headline">¶</a></h2>
 <p>Before you can use Contentsphere, you’ll need to get it installed. We have a
-<a class="reference internal" href="deployment planning.html"><span class="doc">Deployment Planning</span></a> that covers all the
-possibilities required in planning for carrying out a complete installation, including the
-deployment to a cloud or on premise.</p>
-<img alt="Contentspher log in screen" src="../_images/line-png-322.png" />
+<a class="reference internal" href="deploymentplanning.html"><span class="doc">Deployment Planning</span></a> reference that covers all the
+possibilities required in planning the carrying out a complete installation,
+including the deployment of the application to a cloud service or on premise.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../_images/line-png-322.PNG" />
 </div>
 <div class="section" id="s-install-prerequisites">
-<span id="install-prerequisites"></span><h2>Install Prerequisites<a class="headerlink" href="#install-prerequisites" title="Permalink to this headline">¶</a></h2>
-<p>Contentsphere requires a number of pre-requisites to be in place including an installed
-operating system and hypervisor. <a class="reference internal" href="deployment planning.html"><span class="doc">Deployment Planning</span></a> for details.
-Contentsphere has datbase dependencies …</p>
+<span id="install-prerequisites"></span><h2>Install prerequisites<a class="headerlink" href="#install-prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>Contentsphere requires a number of prerequisites to be in place including an installed
+operating system and hypervisor. Refer to <a class="reference internal" href="deploymentplanning.html"><span class="doc">Deployment Planning</span></a> for the details.
+Contentsphere has database dependencies and requires a database to be set up.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="s-set-up-a-database">
 <span id="set-up-a-database"></span><h2>Set up a database<a class="headerlink" href="#set-up-a-database" title="Permalink to this headline">¶</a></h2>
 <p>This step is only necessary if you’d like to work with a “large” database engine
-like PostgreSQL, MySQL, or Oracle. To install such a database, consult the
+like <em>PostgreSQL, MySQL, or Oracle</em>. To install such a database, consult this document,
 <span class="xref std std-ref">database installation information</span>.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="s-remove-any-old-versions-of-contentsphere">
 <span id="remove-any-old-versions-of-contentsphere"></span><h2>Remove any old versions of Contentsphere<a class="headerlink" href="#remove-any-old-versions-of-contentsphere" title="Permalink to this headline">¶</a></h2>
-<p>If you are upgrading your installation of Contentsphere from a previous version, you
-will need to <span class="xref std std-ref">uninstall the old Contentsphere version before installing the new
+<p>If you are upgrading your installation of Contentsphere from a previous version,
+you will need to <span class="xref std std-ref">uninstall the old Contentsphere version before installing the new
 version</span>.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="s-install-contentsphere">
 <span id="install-contentsphere"></span><h2>Install Contentsphere<a class="headerlink" href="#install-contentsphere" title="Permalink to this headline">¶</a></h2>
-<p>You’ve got three easy options to install Contentsphere:</p>
+<p>You have three easy options to install Contentsphere:</p>
 <ul class="simple">
-<li><span class="xref std std-ref">Install an official release</span>. This
-is the best approach for most users.</li>
+<li><span class="xref std std-ref">Install an official release</span>.
+This is the best approach for most users.</li>
 <li>Install a version of Contentsphere <span class="xref std std-ref">provided by your operating system
 distribution</span>.</li>
 <li><span class="xref std std-ref">Install the latest development version</span>. This option is for enthusiasts who want
-the latest-and-greatest features and aren’t afraid of running brand new code.
-You might encounter new bugs in the development version, but reporting them
-helps the development of Contentsphere. Also, releases of third-party packages are
-less likely to be compatible with the development version than with the
+the <em>latest and greatest</em> features and are not afraid of running a brand new code.
+You might encounter new bugs in the development version but reporting them
+will help the development team of Contentsphere. Also, releases of third-party packages
+are less likely to be compatible with the development version than with the
 latest stable release.</li>
 </ul>
 <div class="admonition-always-refer-to-the-documentation-that-corresponds-to-the-version-of-contentsphere-you-re-using admonition">
@@ -167,13 +179,23 @@ documentation marked <strong>new in development version</strong>. That phrase fl
 features that are only available in development versions of Contentsphere, and
 they likely won’t work with an official release.</p>
 </div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="s-verifying">
 <span id="verifying"></span><h2>Verifying<a class="headerlink" href="#verifying" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </div>
 <div class="section" id="s-that-s-it">
 <span id="that-s-it"></span><h2>That’s it!<a class="headerlink" href="#that-s-it" title="Permalink to this headline">¶</a></h2>
-<p>That’s it – you can now <span class="xref std std-doc">move onto the tutorial</span>.</p>
+<p>That’s it - you can now <span class="xref std std-doc">move onto the tutorial</span>.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../_images/line-png-322.PNG" />
 </div>
 </div>
 
@@ -192,7 +214,7 @@ they likely won’t work with an official release.</p>
   <ul>
 <li><a class="reference internal" href="#">Installation Guides</a><ul>
 <li><a class="reference internal" href="#quick-install-guide">Quick install guide</a></li>
-<li><a class="reference internal" href="#install-prerequisites">Install Prerequisites</a></li>
+<li><a class="reference internal" href="#install-prerequisites">Install prerequisites</a></li>
 <li><a class="reference internal" href="#set-up-a-database">Set up a database</a></li>
 <li><a class="reference internal" href="#remove-any-old-versions-of-contentsphere">Remove any old versions of Contentsphere</a></li>
 <li><a class="reference internal" href="#install-contentsphere">Install Contentsphere</a></li>
@@ -205,10 +227,10 @@ they likely won’t work with an official release.</p>
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="upgrading.html">upgrading</a></li>
+      <li>Prev: <a href="upgrading.html">Upgrading</a></li>
     
     
-      <li>Next: <a href="deployment planning.html">Deployment Planning</a></li>
+      <li>Next: <a href="deploymentplanning.html">Deployment Planning</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -236,7 +258,7 @@ they likely won’t work with an official release.</p>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Feb 19, 2018</p>
+                <p class="topless">Mar 06, 2018</p>
             </div>
           </div>
         
@@ -245,11 +267,11 @@ they likely won’t work with an official release.</p>
 
     <div id="ft">
       <div class="nav">
-    &laquo; <a href="upgrading.html" title="upgrading">previous</a>
+    &laquo; <a href="upgrading.html" title="Upgrading">previous</a>
      |
     <a href="index.html" title="Reference Guides" accesskey="U">up</a>
    |
-    <a href="deployment planning.html" title="Deployment Planning">next</a> &raquo;</div>
+    <a href="deploymentplanning.html" title="Deployment Planning">next</a> &raquo;</div>
     </div>
   </div>
 

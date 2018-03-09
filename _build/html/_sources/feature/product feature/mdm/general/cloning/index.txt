@@ -1,9 +1,0 @@
-=======
-Cloning
-=======
-
-.. toctree::
-   :maxdepth: 1
-
-   completeclone
-   partialclone

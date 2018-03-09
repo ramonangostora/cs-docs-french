@@ -1,0 +1,496 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>How Classes work &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Feature Guides" href="../feature/index.html" />
+    <link rel="prev" title="What is a Data Model?" href="whatisadatamodel.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../index.html">Home</a>  |
+      <a title="Table of contents" href="../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="whatisadatamodel.html" title="What is a Data Model?">previous</a>
+     |
+    <a href="index.html" title="Tutorials" accesskey="U">up</a>
+   |
+    <a href="../feature/index.html" title="Feature Guides">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="tutorials-howclasseswork">
+            
+  <div class="section" id="s-how-classes-work">
+<span id="how-classes-work"></span><h1>How Classes work<a class="headerlink" href="#how-classes-work" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="s-what-is-a-class">
+<span id="what-is-a-class"></span><h2>What is a class?<a class="headerlink" href="#what-is-a-class" title="Permalink to this headline">¶</a></h2>
+<p>Contentsphere uses two types of classes: <em>(1) Nature Class</em> and <em>(2) Non-Nature/Attribution Class</em>.
+Classes define the base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
+There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.</p>
+<p>The top level of class is <em>Nature Class</em>.  This sets up the type of product base to start with.  Nature Classes are customizable in the <em>Settings or Administration</em>.
+Below are the several default class types:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="s-default-nature-classes">
+<span id="default-nature-classes"></span><h3>Default Nature Classes<a class="headerlink" href="#default-nature-classes" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Single Article</dt>
+<dd><ul class="first last">
+<li><p class="first">A stand-alone product which is a sellable item.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Dog Bed (Male/Female color scheme).</p>
+<img alt="../_images/cs_classesanddatamodels_singlearticle.PNG" src="../_images/cs_classesanddatamodels_singlearticle.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Product</dt>
+<dd><ul class="first last">
+<li><p class="first">A placeholder for a group of common products.</p>
+</li>
+<li><p class="first"><em>Examples:</em></p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Dog Bed.</li>
+</ol>
+<img alt="../_images/cs_classesanddatamodels_product.PNG" src="../_images/cs_classesanddatamodels_product.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple" start="2">
+<li>Red Bull as the Product, which contains variants like <em>Regular, Sugarfree, and Zero</em>.</li>
+</ol>
+<img alt="../_images/cs_classesanddatamodels_product2.PNG" src="../_images/cs_classesanddatamodels_product2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_product3.PNG" src="../_images/cs_classesanddatamodels_product3.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Loose Bundle</dt>
+<dd><ul class="first last">
+<li><p class="first">A group of products where the quantity of each product can be defined by the retailer.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Water Bottle Pack: Buy 10 or more for 15% off.  Each item over 10 can still receive the discount.</p>
+<img alt="../_images/cs_classesanddatamodels_loosebundle.PNG" src="../_images/cs_classesanddatamodels_loosebundle.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_loosebundle2.PNG" src="../_images/cs_classesanddatamodels_loosebundle2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Fixed Bundle</dt>
+<dd><ul class="first last">
+<li><p class="first">A group of products where the quantity of each product is fixed.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>A Shaving Kit Pack includes 3 blades and a shaving cream. As these are in the same packaging, the customer cannot add more blades for that pack purchase.</p>
+<img alt="../_images/cs_classesanddatamodels_fixedbundle.PNG" src="../_images/cs_classesanddatamodels_fixedbundle.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_fixedbundle2.PNG" src="../_images/cs_classesanddatamodels_fixedbundle2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Set of Products</dt>
+<dd><ul class="first last">
+<li><p class="first">Set of product recommendations like clothing pieces put on a mannequin in fashion stores.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Hat, T-Shirt, Shorts, and Sandals for use on mannequins.</p>
+<img alt="../_images/cs_classesanddatamodels_setofproducts.PNG" src="../_images/cs_classesanddatamodels_setofproducts.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Promotional Collection</dt>
+<dd><ul class="first last">
+<li><p class="first">A group of products which is offered at a discounted price.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>Buy 3 bags of Dog Food for the price of 2.</p>
+<img alt="../_images/cs_classesanddatamodels_promotionalcollection.PNG" src="../_images/cs_classesanddatamodels_promotionalcollection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="s-attribution-classes">
+<span id="attribution-classes"></span><h3>Attribution Classes<a class="headerlink" href="#attribution-classes" title="Permalink to this headline">¶</a></h3>
+<p><em>(Also called Non-Nature Classes)</em></p>
+<p>Products, defined only by a <em>Nature Class</em> are not yet categorized in your PIM.  To give a more specific categorization, you can add <em>Attribution Classes</em>.
+The added benefit of using one or many Attribution Classes is that they have their own properties that the product will inherit.
+For example, a mobile phone product can have a <em>‘Mobile Attribution Class’</em> associated with it, which would include properties for <em>screen size, storage</em>, etc.
+Every mobile phone product in your system can be given this Attribution Class.  Other Attribution Classes can be added to the mobile phone example such as <em>Electronics or Computer</em>.</p>
+<p>Below are examples of Attribution Classes and potential properties that they may hold.  Each class is fully customizable through the <em>Settings</em> backend.</p>
+</div>
+<div class="section" id="s-attribution-class-examples-with-properties">
+<span id="attribution-class-examples-with-properties"></span><h3>Attribution Class examples with Properties<a class="headerlink" href="#attribution-class-examples-with-properties" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Electronics</dt>
+<dd><ul class="first simple">
+<li>Voltage</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclasselectronics.PNG" src="../_images/cs_classesanddatamodels_attributionclasselectronics.PNG" />
+<div class="last line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Mobile (Cell phone)</dt>
+<dd><ul class="first simple">
+<li>Screen size</li>
+</ul>
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li>Storage and RAM</li>
+</ul>
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li>Operating System</li>
+</ul>
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li>Camera</li>
+</ul>
+<img alt="../_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG" src="../_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG" />
+<div class="last line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Food</dt>
+<dd><ul class="first simple">
+<li>List of Nutritional Information</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG" src="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ul class="simple">
+<li>Contains nuts?</li>
+<li>Contains pork?</li>
+<li>Contains beef?</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG" src="../_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG" />
+<div class="last line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+<table class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="69%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><em>Creating a Nature Class</em></li>
+<li><em>Creating a Non-Nature/Attribution Class</em></li>
+<li><em>Adding Classes to a Product</em></li>
+<li><em>Data Model</em></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../_images/line-png-323.PNG" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">How Classes work</a><ul>
+<li><a class="reference internal" href="#what-is-a-class">What is a class?</a><ul>
+<li><a class="reference internal" href="#default-nature-classes">Default Nature Classes</a></li>
+<li><a class="reference internal" href="#attribution-classes">Attribution Classes</a></li>
+<li><a class="reference internal" href="#attribution-class-examples-with-properties">Attribution Class examples with Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="whatisadatamodel.html">What is a Data Model?</a></li>
+    
+    
+      <li>Next: <a href="../feature/index.html">Feature Guides</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="index.html">Tutorials</a>
+        
+        <ul><li>How Classes work</li></ul>
+        </li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Mar 06, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="whatisadatamodel.html" title="What is a Data Model?">previous</a>
+     |
+    <a href="index.html" title="Tutorials" accesskey="U">up</a>
+   |
+    <a href="../feature/index.html" title="Feature Guides">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

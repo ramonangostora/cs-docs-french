@@ -1,0 +1,22 @@
+======================
+Swift : Asset Storage
+======================
+
+The *Asset Store* provides a solution to store, maintain, and version the physical media files (viz; Images, InDesign documents, PDFs, etc).
+
+#. Asset Storage requires One Account.
+
+#. Asset Storage would need 5 Containers:
+
+
+    1.	Attachments
+    2.	Icons
+    3.	Images
+    4.	Documents
+    5.	Videos
+
+
+|
+
+.. image:: _images/line-png-32.PNG
+  :alt: Contentsphere line
