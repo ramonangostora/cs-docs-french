@@ -1,9 +1,0 @@
-==========================================
-Taxonomies - Inheritance and Data Transfer
-==========================================
-
-.. toctree::
-   :maxdepth: 1
-
-   linkingobjects
-   inheritance

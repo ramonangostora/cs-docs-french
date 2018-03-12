@@ -1,22 +1,22 @@
-================
+=================
 Reference Guides
-================
+=================
 
 .. toctree::
    :maxdepth: 1
 
    upgrading
    install
-   deployment planning
-   deployment prerequisites
-   deploy in aws
-   deploy in azure
-   deploy on premise
-   deploy in the cloud
+   deploymentplanning
+   deploymentprerequisites
+   deployinaws
+   deployinazure
+   deployonpremise
+   deployinthecloud
    security
-   elastic search
-   oracle masterstore
-   orient db
-   swift asset storage
+   elasticsearch
+   oraclemasterstore
+   orientdb
+   swiftassetstorage
    tomcat
    configuration

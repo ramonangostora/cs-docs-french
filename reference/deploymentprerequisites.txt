@@ -1,0 +1,69 @@
+========================
+Deployment Prerequisites
+========================
+The following prerequisites have been identified for a standard install:
+
+
+Hardware & Operating System
+============================
+
+====================      ===============================================================================================================================================================
+Component                 Value
+====================      ===============================================================================================================================================================
+**Hypervisor**            * `VMware Esxi 6 (preferred) <https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6>`_
+                          * `VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_
+
+**OS**                    * `Ubuntu Server 14.04 (preferred) <https://www.ubuntu.com/download/server>`_
+                          * `SUSE Linux Enterprise Server 11 Service Pack 3 <https://www.suse.com/download-linux/source-code/>`_
+                          * `CentOS 7 <https://www.centos.org/download/>`_
+
+====================      ===============================================================================================================================================================
+
+
+
+Software
+=========
+
+====================      ===============================================================================================================================================================
+Component                 Value
+====================      ===============================================================================================================================================================
+**Software**              * `Jdk 1.8+ <http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>`_
+                          * `ImageMagick 6.9+ <https://legacy.imagemagick.org/script/binary-releases.php>`_
+                          * `ffmpeg-3.2+ <https://www.ffmpeg.org/download.html>`_
+                          * `ExifTool-10.36 <https://somelink.com>`_
+                          * `ghostscript-9.20+ <https://www.ghostscript.com/Ghostscript_9.20.html>`_
+
+====================      ===============================================================================================================================================================
+
+
+
+Configuration
+==============
+
+====================      ===============================================================================================================================================================
+Component                 Value
+====================      ===============================================================================================================================================================
+**Ports**                 * 21, 22, ICMP, 80, 2480
+                          * 8080 (Tomcat) :doc:`Security Controls </reference/security>`
+                          * 9200 (Elastic Search) :doc:`Security Controls </reference/security>`
+                          * 2424 (orientdb)  :doc:`Security Controls </reference/security>`
+                          * 1521 (oracle) :doc:`Security Controls </reference/security>`
+                          * 443 (https) :doc:`Security Controls </reference/security>`
+                          * 6556 (monitoring) :doc:`Security Controls </reference/security>`
+
+====================      ===============================================================================================================================================================
+
+
+
+Installation
+=============
+
+#. :doc:`Install in AWS </reference/deployinaws>`
+#. :doc:`Install in Azure </reference/deployinazure>`
+#. :doc:`Install on Premise </reference/deployonpremise>`
+#. :doc:`Install in the Cloud </reference/deployinthecloud>`
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

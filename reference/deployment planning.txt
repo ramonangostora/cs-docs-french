@@ -1,6 +1,0 @@
-===================
-Deployment Planning
-===================
-
-
-`Link text <http://example.com/>`_

@@ -1,0 +1,298 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Deployment Prerequisites &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Deploying to AWS" href="deployinaws.html" />
+    <link rel="prev" title="Deployment Planning" href="deploymentplanning.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Documentation</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../index.html">Documentation</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../index.html">Home</a>  |
+      <a title="Table of contents" href="../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="deploymentplanning.html" title="Deployment Planning">previous</a>
+     |
+    <a href="index.html" title="Reference Guides" accesskey="U">up</a>
+   |
+    <a href="deployinaws.html" title="Deploying to AWS">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g" id="reference-deploymentprerequisites">
+            
+  <div class="section" id="s-deployment-prerequisites">
+<span id="deployment-prerequisites"></span><h1>Deployment Prerequisites<a class="headerlink" href="#deployment-prerequisites" title="Permalink to this headline">¶</a></h1>
+<p>The following prerequisites have been identified for a standard install:</p>
+<div class="section" id="s-hardware-operating-system">
+<span id="hardware-operating-system"></span><h2>Hardware &amp; Operating System<a class="headerlink" href="#hardware-operating-system" title="Permalink to this headline">¶</a></h2>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Component</th>
+<th class="head">Value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Hypervisor</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6">VMware Esxi 6 (preferred)</a></li>
+<li><a class="reference external" href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>OS</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="https://www.ubuntu.com/download/server">Ubuntu Server 14.04 (preferred)</a></li>
+<li><a class="reference external" href="https://www.suse.com/download-linux/source-code/">SUSE Linux Enterprise Server 11 Service Pack 3</a></li>
+<li><a class="reference external" href="https://www.centos.org/download/">CentOS 7</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="s-software">
+<span id="software"></span><h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h2>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Component</th>
+<th class="head">Value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Software</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference external" href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Jdk 1.8+</a></li>
+<li><a class="reference external" href="https://legacy.imagemagick.org/script/binary-releases.php">ImageMagick 6.9+</a></li>
+<li><a class="reference external" href="https://www.ffmpeg.org/download.html">ffmpeg-3.2+</a></li>
+<li><a class="reference external" href="https://somelink.com">ExifTool-10.36</a></li>
+<li><a class="reference external" href="https://www.ghostscript.com/Ghostscript_9.20.html">ghostscript-9.20+</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="s-configuration">
+<span id="configuration"></span><h2>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<table class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Component</th>
+<th class="head">Value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Ports</strong></td>
+<td><ul class="first last simple">
+<li>21, 22, ICMP, 80, 2480</li>
+<li>8080 (Tomcat) <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+<li>9200 (Elastic Search) <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+<li>2424 (orientdb)  <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+<li>1521 (oracle) <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+<li>443 (https) <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+<li>6556 (monitoring) <a class="reference internal" href="security.html"><span class="doc">Security Controls</span></a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="s-installation">
+<span id="installation"></span><h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><a class="reference internal" href="deployinaws.html"><span class="doc">Install in AWS</span></a></li>
+<li><a class="reference internal" href="deployinazure.html"><span class="doc">Install in Azure</span></a></li>
+<li><a class="reference internal" href="deployonpremise.html"><span class="doc">Install on Premise</span></a></li>
+<li><a class="reference internal" href="deployinthecloud.html"><span class="doc">Install in the Cloud</span></a></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../_images/line-png-322.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Deployment Prerequisites</a><ul>
+<li><a class="reference internal" href="#hardware-operating-system">Hardware &amp; Operating System</a></li>
+<li><a class="reference internal" href="#software">Software</a></li>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="deploymentplanning.html">Deployment Planning</a></li>
+    
+    
+      <li>Next: <a href="deployinaws.html">Deploying to AWS</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="index.html">Reference Guides</a>
+        
+        <ul><li>Deployment Prerequisites</li></ul>
+        </li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Mar 06, 2018</p>
+            </div>
+          </div>
+        
+      
+    </div>
+
+    <div id="ft">
+      <div class="nav">
+    &laquo; <a href="deploymentplanning.html" title="Deployment Planning">previous</a>
+     |
+    <a href="index.html" title="Reference Guides" accesskey="U">up</a>
+   |
+    <a href="deployinaws.html" title="Deploying to AWS">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

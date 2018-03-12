@@ -1,56 +1,66 @@
-===================
+====================
 Installation Guides
-===================
+====================
+
 
 Quick install guide
-===================
+====================
 
 Before you can use Contentsphere, you'll need to get it installed. We have a
-:doc:`Deployment Planning </reference/deployment planning>` that covers all the
-possibilities required in planning for carrying out a complete installation, including the
-deployment to a cloud or on premise.
+:doc:`Deployment Planning </reference/deploymentplanning>` reference that covers all the
+possibilities required in planning the carrying out a complete installation,
+including the deployment of the application to a cloud service or on premise.
 
-.. image:: _images/line-png-32.png
-   :alt: Contentspher log in screen
+|
 
-Install Prerequisites
-=====================
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line
 
-Contentsphere requires a number of pre-requisites to be in place including an installed
-operating system and hypervisor. :doc:`Deployment Planning </reference/deployment planning>` for details.
-Contentsphere has datbase dependencies ...
+
+Install prerequisites
+======================
+
+Contentsphere requires a number of prerequisites to be in place including an installed
+operating system and hypervisor. Refer to :doc:`Deployment Planning </reference/deploymentplanning>` for the details.
+Contentsphere has database dependencies and requires a database to be set up.
+
+|
 
 Set up a database
-=================
+==================
 
 This step is only necessary if you'd like to work with a "large" database engine
-like PostgreSQL, MySQL, or Oracle. To install such a database, consult the
+like *PostgreSQL, MySQL, or Oracle*. To install such a database, consult this document,
 :ref:`database installation information <database-installation>`.
 
-Remove any old versions of Contentsphere
-=================================
+|
 
-If you are upgrading your installation of Contentsphere from a previous version, you
-will need to :ref:`uninstall the old Contentsphere version before installing the new
+Remove any old versions of Contentsphere
+=========================================
+
+If you are upgrading your installation of Contentsphere from a previous version,
+you will need to :ref:`uninstall the old Contentsphere version before installing the new
 version <removing-old-versions-of-Contentsphere>`.
 
+|
+
 Install Contentsphere
-==============
+======================
 
-You've got three easy options to install Contentsphere:
+You have three easy options to install Contentsphere:
 
-* :ref:`Install an official release <installing-official-release>`. This
-  is the best approach for most users.
+* :ref:`Install an official release <installing-official-release>`.
+  This is the best approach for most users.
 
 * Install a version of Contentsphere :ref:`provided by your operating system
   distribution <installing-distribution-package>`.
 
 * :ref:`Install the latest development version
   <installing-development-version>`. This option is for enthusiasts who want
-  the latest-and-greatest features and aren't afraid of running brand new code.
-  You might encounter new bugs in the development version, but reporting them
-  helps the development of Contentsphere. Also, releases of third-party packages are
-  less likely to be compatible with the development version than with the
+  the *latest and greatest* features and are not afraid of running a brand new code.
+  You might encounter new bugs in the development version but reporting them
+  will help the development team of Contentsphere. Also, releases of third-party packages
+  are less likely to be compatible with the development version than with the
   latest stable release.
 
 .. admonition:: Always refer to the documentation that corresponds to the
@@ -61,11 +71,20 @@ You've got three easy options to install Contentsphere:
     features that are only available in development versions of Contentsphere, and
     they likely won't work with an official release.
 
+|
 
 Verifying
 =========
 
+|
+
+
 That's it!
 ==========
 
-That's it -- you can now :doc:`move onto the tutorial </intro/tutorial01>`.
+That's it - you can now :doc:`move onto the tutorial </intro/tutorial01>`.
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line

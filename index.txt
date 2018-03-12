@@ -36,6 +36,8 @@ the basis for the context sensitive help and tooltips within the application.
 * :doc:`How to guides </how/index>` are recipes. They guide you through the steps involved in addressing key problems
   and use-cases. They are more advanced than tutorials and assume some knowledge of how **Contentsphere** works.
 
+* :doc:`Glossary </glossary>` defines the terms found in Contentsphere.
+
 .. _new-to-contentsphere:
 
 .. image:: _images/line-png-32.png
@@ -47,9 +49,13 @@ New to Contentsphere
 Are you new to Contentsphere? This is the place to start!:
 
 #. **Newbie**
-   :doc:`About the product <product/product lines>` |
-   :doc:`Overview <deploy/index>` |
-   :doc:`Technical Deployment <deploy/index>`
+   :doc:`About the product <product/productlines>` |
+   :doc:`Explore the User Interface <tutorials/exploretheui>` |
+   :doc:`Technical Deployment <reference/install>`
+
+#. **Concepts**
+   :doc:`What is a Data Model? <tutorials/whatisadatamodel>` |
+   :doc:`How Classes work <tutorials/howclasseswork>`
 
 #. **Tutorial**
    :doc:`Part 1: Uploading and managing data <tutorials/tutorial01>` |
@@ -69,9 +75,9 @@ Are you new to Contentsphere? This is the place to start!:
 
 Contentsphere Product Lines
 ===========================
-Learn about some other core functionalities of the Contentsphere product line:
+Learn about some other core functionalities of the :doc:`Contentsphere Product Lines <product/index>`:
 
 #. :doc:`Master Data Management <product/MDM>` with functionality supporting workflow rules, data quality, catalogue management, user security, data distribution
 #. :doc:`Product Information Management <product/PIM>` for product enrichment, digital assets, taxonomy management.
-#. :doc:`Marketing Content Hub <product/MCH>` supports promotions, campaigns, target markets, target channels, customers
+#. :doc:`Marketing Content Management <product/MCM>` supports promotions, campaigns, target markets, target channels, customers
 #. :doc:`Partner Engagement Platform <product/PEP>` deployed for supplier engagement, collaboration, product onboarding, simple PIM and product data onboarding, offboarding.
