@@ -1,16 +1,20 @@
 =========
 Rollback
 =========
+
 The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
 
+===================  =================================================================================================================================================================
 
-====================      ===============================================================================================================================================================
+**Key Term:**             * The feature is used to revert to any former version of an article/product.
+                          * The rollback allows a user to go back to any version, if the user/supplier wishes to revert back to previous changes.
+
 **Description:**          * The feature is used to revert to any former version of an article/product.
                           * The rollback allows a user to go back to any version, if the user/supplier wishes to revert back to previous changes.
 
-**Related topics:**       * *Manage Virtual Catalogs*
-                          * *Product Classifications*
-                          * *Timeline and History*
+**Related topics:**       * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
+                          * :doc:`Product Classifications </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
+                          * :doc:`Compare Product Revisions </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
 
 **Application:**          * The Rollback feature is used to switch back to a desired version of a product.
                             This feature is particularly helpful to revert to a previous version if there are any errors made in any property of the product.
@@ -19,4 +23,55 @@ The Rollback feature allows a user to switch (or to revert) to a previous versio
                               Supplier can add commercial text in the 'description' for Toblerone Chocolates during Holiday season.
                               Once the season is over, he can rollback to the  original description version.
 
-====================      ===============================================================================================================================================================
+===================  =================================================================================================================================================================
+
+How to do: Rollback
+=============================
+To do this, follow these steps:
+
+#. Go to **PIM**.
+
+.. image:: /feature/_images/mdmimages/cs_rollback_gotopim.PNG
+|
+|
+
+#. Click to select the desired product for which you want to perform rollback operation (in this demo, we select "Grey Hat").
+
+.. image:: /feature/_images/mdmimages/cs_rollback_selecthat.PNG
+|
+|
+
+#. Update the value of any attribute or tag ( in this demo, we updated the Name to "Hat"), and click on **Save** button.
+
+.. image:: /feature/_images/mdmimages/cs_rollback_updatevalue.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_rollback_saveupdate.PNG
+|
+|
+
+#. Go to *Timeline* tab. The current version of the product would on be with the latest version number on the top.
+
+.. image:: /feature/_images/mdmimages/cs_rollback_clicktimeline.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_rollback_viewtimeline.PNG
+|
+|
+
+#.    The Timeline  contains all the versions of a product and  an icon to rollback to a specific version.
+
+.. image:: /feature/_images/mdmimages/cs_rollback_viewicon.PNG
+|
+|
+
+#.     Click on Version 4 **Rollback** icon. Since the current one is 5, you can click on any former version (in this demo former version is "4").
+
+.. image:: /feature/_images/mdmimages/cs_rollback_clickrollback.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
