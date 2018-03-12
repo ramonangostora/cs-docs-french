@@ -5,7 +5,7 @@ Manage Products across Taxonomies is a feature that allows a user to copy or mov
 
 
 ====================    =============================================================================================================================================================
-**Ket Term**            * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
+**Key Term**            * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
 
 **Description:**        * This feature is used when moving products across different taxonomies.
                         * A retailer can use this feature when classifying his products.
