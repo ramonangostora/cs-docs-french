@@ -106,7 +106,7 @@ To create a Master Taxonomy, follow these steps:
 
       .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
       |
-      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
+      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel2.PNG
       |
 
 
