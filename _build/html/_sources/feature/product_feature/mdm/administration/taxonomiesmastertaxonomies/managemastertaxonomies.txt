@@ -5,13 +5,15 @@ The Manage Master Taxonomies is an admin feature that sets up Master Taxonomies 
 
 
 ====================    =======================================================================================================================================================================
+**Key Term**            * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
+
 **Description:**        * Taxonomy is concerned with classification of various products.
                           Taxonomies can also represent related concepts that can be used to connect a product to various level of branches of a taxonomy.
                         * This feature is about how to map a product to different concepts and terms in order to maintain a consistent structure.
 
-**Related topics:**     * *Attributes/Tag Management*
-                        * *Property Collections*
-                        * *Embedded Classes*
+**Related topics:**     * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                        * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
 
 **Application:**        * This feature helps to multi-classify a product.
                         * This feature drives information through the applied taxonomy.
@@ -25,3 +27,93 @@ The Manage Master Taxonomies is an admin feature that sets up Master Taxonomies 
                             Similarly, various taxonomies can be applied to other electronics for easy categorization.
 
 ====================    =======================================================================================================================================================================
+
+
+How to do: Create a Master Taxonomy
+====================================
+To create a Master Taxonomy, follow these steps:
+
+|
+
+#. Log in to the application. Go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_administration.PNG
+|
+|
+
+#. Click on **Taxonomies** and select **Master Taxonomies**.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_clicktaxonomies.PNG
+|
+|
+
+#. Click on the "+" icon to create a Master Taxonomy.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_clickplusicon.PNG
+|
+|
+
+#. Enter the name and enable the slider to create a major taxonomy.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_entername.PNG
+|
+|
+
+#. Click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_create.PNG
+|
+|
+
+#. Click on the "+" sign in the *Section* tab to add a property collection.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_clickplussign.PNG
+|
+|
+
+#. Select the created taxonomy and add sub-levels to it to create a sub-taxonomy.
+
+.. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_selectcreatedtaxonomy.PNG
+|
+|
+
+
+#. To create sub-levels for a taxonomy, follow these steps.
+
+      |
+
+      * Select a taxonomy.
+
+      |
+
+      * Go to Add New Level and click the "+" sign.
+
+      |
+
+      * Enter the name in the search bar.
+
+      |
+
+      * If the name exists, it will pop in the search options. Otherwise, click on "Create <name>" to create a new one.
+
+      |
+
+      * Click on the "+" next to the parent taxonomy to add sub-taxonomies.
+
+      |
+
+      * Enter the name for the sub-taxonomy.
+
+      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
+      |
+      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
+      |
+
+
+#. Repeat the previous step if you want to add more levels to the existing sub-levels.
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
