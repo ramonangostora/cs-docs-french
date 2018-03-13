@@ -61,14 +61,14 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-#. Provide a name for the taxonomy. Also, disable the *Major Taxonomy* so that a *Minor Taxonomy* will be created. Click Create.
+#. Provide a name for the taxonomy. Also, disable the *Major Taxonomy* so that a *Minor Taxonomy* will be created. Click **Create**.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicon.PNG
 |
 |
 
 
-#. Click on the "+" icon to add any property collection, if required.
+#. Click on the "+" icon to add a property collection.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicontoaddpropertycollection.PNG
 |
@@ -77,7 +77,7 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-#. To add another level, click on the "+" icon.  A list of all the master tags will be shown, select or add more tags are required.
+#. To add another level, click on the "+" icon and a list of all the master tags will be shown. Select or add more tags.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_toaddanotherlevel.PNG
 |
@@ -95,14 +95,21 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-#. Once the taxonomy is created, the minor taxonomy can be added as a property collection.
-   In the Property Collection tab, search for the minor taxonomy and add it as a property.
+#. Once the taxonomy is created, the minor taxonomy can then be added as a property collection.
+   In the Property Collection tab, search for the minor taxonomy and add it as one of the properties.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated.PNG
 |
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated2.PNG
 |
+|
+
+
+*Note:  Once the minor taxonomy is added, view it runtime as a dependent attribute.*
+
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated3.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated4.PNG
 |
 |
 
