@@ -1,18 +1,23 @@
 =====================
 Dependent Attributes
 =====================
-The Dependent Attributes feature is an admin feature that configures dependent attributes, which are used to introduce additional set of attributes that should be filled out
+The Dependent Attributes feature is an admin feature that configures dependent attributes, which are used to introduce additional set of properties that should be filled out
 because of a logical relationship they have with each other.
 
 
 ====================    =======================================================================================================================================================================
-**Description:**        * Dependent attributes are properties whose values are restricted by another attribute value.
+**Key Term:**           * **Dependent Attributes:** these are attributes (or properties) whose values are restricted by another attribute value.
+
+**Description:**        * This feature sets up a Dependent Attribute that waits for another attribute to be completed before its own completion.
                         * Minor Taxonomies are used to build dependent attributes, by which various properties can be dependent on a particular property.
 
-**Related topics:**     * *Attribute Management*
-                        * *Property Collections*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
+                        * :doc:`Manage Different Types of Measurement Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofmeasurementattributes>`
+                        * :doc:`Manage Calculated Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managecalculatedattributes>`
+                        * :doc:`Manage Concatenated Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/manageconcatenatedattributes>`
+                        * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
 
-**Application:**        * An article/product may have a set of properties linked on a different tag group.
+**Application:**        * An article/product may have a set of properties linked to a different tag group.
                         * An admin can create various attributes and by using the minor taxonomy have these attributes linked as dependent attributes.
                         * *Example:*
 
@@ -20,3 +25,87 @@ because of a logical relationship they have with each other.
                             The 'Material' will be set as a minor taxonomy and will be added in a property collection.
 
 ====================    =======================================================================================================================================================================
+
+
+How to do: Dependent Attributes
+================================
+To configure a dependent attribute, follow the steps provided:
+
+|
+
+#. Log in to *Contentsphere* and click on the **Administration** button to go to the configuration panel.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_logintocontentsphere.PNG
+|
+|
+
+
+#. Create the attributes, tags, and property collection for the various dependent attributes.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_createattributestagspropertycollections.PNG
+|
+|
+
+
+#. Go to *Taxonomies* section and then, select *Master Taxonomies*.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_gototaxonomiessection.PNG
+|
+|
+
+
+#. Click on the "+" icon to create a new taxonomy.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_gototaxonomiessection2.PNG
+|
+|
+
+
+#. Provide a name for the taxonomy. Also, disable the *Major Taxonomy* so that a *Minor Taxonomy* will be created. Click Create.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicon.PNG
+|
+|
+
+
+#. Click on the "+" icon to add any property collection, if required.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicontoaddpropertycollection.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicontoaddpropertycollection2.PNG
+|
+|
+
+
+#. To add another level, click on the "+" icon.  A list of all the master tags will be shown, select or add more tags are required.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_toaddanotherlevel.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_toaddanotherlevel2.PNG
+|
+|
+
+
+#. Add more levels or property collections, as desired.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_addmorelevels.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_addmorelevels2.PNG
+|
+|
+
+
+#. Once the taxonomy is created, the minor taxonomy can be added as a property collection.
+   In the Property Collection tab, search for the minor taxonomy and add it as a property.
+
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated2.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated3.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
