@@ -8,7 +8,7 @@ because of a logical relationship they have with each other.
 ====================    =======================================================================================================================================================================
 **Key Term:**           * **Dependent Attributes:** these are attributes (or properties) whose values are restricted by another attribute value.
 
-**Description:**        * This feature sets up a Dependent Attribute that waits for another attribute to be completed before its own completion.
+**Description:**        * This feature sets up a Dependent Attribute that introduces other collections of attributes that add more definition to the product.
                         * Minor Taxonomies are used to build dependent attributes, by which various properties can be dependent on a particular property.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
@@ -18,7 +18,7 @@ because of a logical relationship they have with each other.
                         * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
 
 **Application:**        * An article/product may have a set of properties linked to a different tag group.
-                        * An admin can create various attributes and by using the minor taxonomy have these attributes linked as dependent attributes.
+                        * An admin can create various attributes and by using the minor taxonomy, have these attributes linked as dependent attributes.
                         * *Example:*
 
                             There are properties which are dependent on the type of material. Glass has different properties associated to it and steel has different properties, as well.
@@ -105,7 +105,7 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-*Note: Once the minor taxonomy is added, view it in runtime as a dependent attribute.*
+*Note: Once the minor taxonomy is added, view the dependent attributes in runtime.*
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated3.PNG
 |
