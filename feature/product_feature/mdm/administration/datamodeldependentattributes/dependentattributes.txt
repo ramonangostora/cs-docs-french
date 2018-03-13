@@ -61,7 +61,7 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-#. Provide a name for the taxonomy. Also, disable the *Major Taxonomy* so that a *Minor Taxonomy* will be created. Click **Create**.
+#. Provide a name for the taxonomy. Also, disable the *Major Taxonomy* so that a *Minor Taxonomy* will be created. Click on the **Create** button.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_clickontheicon.PNG
 |
@@ -96,7 +96,7 @@ To configure a dependent attribute, follow the steps provided:
 
 
 #. Once the taxonomy is created, the minor taxonomy can then be added as a property collection.
-   In the Property Collection tab, search for the minor taxonomy and add it as one of the properties.
+   In the *Property Collections* tab, search for the minor taxonomy and add it as one of the properties.
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated.PNG
 |
@@ -105,7 +105,7 @@ To configure a dependent attribute, follow the steps provided:
 |
 
 
-*Note:  Once the minor taxonomy is added, view it runtime as a dependent attribute.*
+*Note: Once the minor taxonomy is added, view it in runtime as a dependent attribute.*
 
 .. image:: /feature/_images/mdmimages/cs_dependentattributes_oncethetaxonomyiscreated3.PNG
 |
