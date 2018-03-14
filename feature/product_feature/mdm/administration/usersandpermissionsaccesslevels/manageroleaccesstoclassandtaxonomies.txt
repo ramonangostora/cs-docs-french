@@ -37,7 +37,7 @@ To restrict role to class and taxonomy, follow these steps:
 
 #. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
 
-.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_gotopim.PNG
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickadministration.PNG
 |
 |
 
@@ -47,22 +47,25 @@ To restrict role to class and taxonomy, follow these steps:
 
       * Go to *Partner Administration* tab.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_gotopartneradmin.PNG
       |
 
       * Click on **Users** then click on the "+" icon on the right side of the window.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickusers.PNG
       |
 
-      * Enter the login details and click on the **Create** button.
-
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplus.PNG
       |
 
-      * View the created user.
+      * Enter the login details.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_enterlogindetails.PNG
+      |
+
+      * Click on the **Create** button and a user is created.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_cliukreate.PNG
       |
 
 #. Create Partners (Organization).
@@ -71,17 +74,17 @@ To restrict role to class and taxonomy, follow these steps:
 
       * Click on **Partners** then click on the "+" icon on the right side of the window.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickpartners.PNG
       |
 
       * Enter the name and click on the **Create** button.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_entername.PNG
       |
 
       * View the created organization.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_viewcreatedorganization.PNG
       |
 
 
@@ -89,19 +92,24 @@ To restrict role to class and taxonomy, follow these steps:
 
       |
 
-      * Click on the **Roles** tab then click on the "+" icon on the right side of the window.
+      * Click on the **Roles** tab
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickroles.PNG
       |
 
       * Click on the "+" sign just below the *Roles* tab to assign roles.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplussign.PNG
+      |
+
+      * Enter the name and select the role type then click on the **Create** button.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selectroletype.PNG
       |
 
       * Select the target class that you want the user to have access to.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selecttargetclass.PNG
       |
 
       * Select the taxonomy to further categorize the products.
