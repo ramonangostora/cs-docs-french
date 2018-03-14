@@ -11,9 +11,9 @@ The Manage Master Taxonomies is an admin feature that sets up Master Taxonomies 
                           Taxonomies can also represent related concepts that can be used to connect a product to various level of branches of a taxonomy.
                         * This feature is about how to map a product to different concepts and terms in order to maintain a consistent structure.
 
-**Related topics:**     * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
-                        * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
-                        * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
+**Related topics:**     * :doc:`Multi-Taxonomy Assignment </feature/product_feature/mdm/general/multitaxonomyassignment/multitaxonomyassignment>`
+                        * :doc:`Product Classification via Taxonomies </feature/product_feature/mdm/general/multitaxonomyassignment/productclassificationviataxonomies>`
+                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
 
 **Application:**        * This feature helps to multi-classify a product.
                         * This feature drives information through the applied taxonomy.
@@ -47,7 +47,7 @@ To create a Master Taxonomy, follow these steps:
 |
 |
 
-#. Click on the "+" icon to create a Master Taxonomy.
+#. Click on the "+" icon to create a new Master Taxonomy.
 
 .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_clickplusicon.PNG
 |
@@ -86,7 +86,7 @@ To create a Master Taxonomy, follow these steps:
 
       |
 
-      * Go to Add New Level and click the "+" sign.
+      * Click on **Add New Level**.
 
       |
 
@@ -94,7 +94,7 @@ To create a Master Taxonomy, follow these steps:
 
       |
 
-      * If the name exists, it will pop in the search options. Otherwise, click on "Create <name>" to create a new one.
+      * If the name exists, it will appear in the search results. Otherwise, click on "Create <name>" to create a new one.
 
       |
 
@@ -106,11 +106,11 @@ To create a Master Taxonomy, follow these steps:
 
       .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
       |
-      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel.PNG
+      .. image:: /feature/_images/mdmimages/cs_managemastertaxonomies_createsublevel2.PNG
       |
 
 
-#. Repeat the previous step if you want to add more levels to the existing sub-levels.
+#. Repeat the previous step if you want to add more levels to the existing sub-taxonomies.
 
 |
 
