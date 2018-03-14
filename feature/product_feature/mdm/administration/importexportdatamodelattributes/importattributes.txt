@@ -5,10 +5,12 @@ The Import Attributes is a feature that allows the import of attribute definitio
 
 
 ===================     =======================================================================================================================================================================
+**Key Term:**           * **Import:** is an action done to bring in attribute data into the Contentsphere platform.
+
 **Description:**        * It allows the import of a document with list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
                         * It also allows a user to import bulk attributes instead of creating them one by one manually.
 
-**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes/index>`
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
                         * :doc:`Export Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/exportattributes>`
 
 **Application:**        * The feature allows a user to import the attributes in bulk, thereby, saving a lot of time.
