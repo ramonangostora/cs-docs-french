@@ -6,10 +6,10 @@ because of a logical relationship they have with each other.
 
 
 ====================    =======================================================================================================================================================================
-**Key Term:**           * **Dependent Attributes:** these are attributes (or properties) whose values are restricted by another attribute value.
+**Key Term:**           * **Dependent Attributes:** these are attributes (or properties) whose values are related to another attribute value.
 
-**Description:**        * This feature sets up a Dependent Attribute that introduces other collections of attributes that add more definition to the product.
-                        * Minor Taxonomies are used to build dependent attributes, by which various properties can be dependent on a particular property.
+**Description:**        * This feature sets up a Dependent Attribute that introduces other collections of attributes that add more definition to a product.
+                        * Minor Taxonomies are used to build dependent attributes wherein various properties will be dependent on a particular property.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
                         * :doc:`Manage Different Types of Measurement Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofmeasurementattributes>`
@@ -18,10 +18,10 @@ because of a logical relationship they have with each other.
                         * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
 
 **Application:**        * An article/product may have a set of properties linked to a different tag group.
-                        * An admin can create various attributes and by using the minor taxonomy, have these attributes linked as dependent attributes.
+                        * An admin can create various attributes and by using the minor taxonomy, may have these attributes linked as dependent attributes.
                         * *Example:*
 
-                            There are properties which are dependent on the type of material. Glass has different properties associated to it and steel has different properties, as well.
+                            There are properties which are dependent on the type of material. Glass has different properties associated with it and steel has different properties, as well.
                             The 'Material' will be set as a minor taxonomy and will be added in a property collection.
 
 ====================    =======================================================================================================================================================================

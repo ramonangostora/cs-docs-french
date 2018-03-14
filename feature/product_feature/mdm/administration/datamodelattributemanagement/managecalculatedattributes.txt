@@ -1,16 +1,16 @@
-============================
+=============================
 Manage Calculated Attributes
-============================
-The Manage Calculated Attributes is a feature that allows attributes to be calculated by using a formula that take values from other attributes.
+=============================
+The Manage Calculated Attributes is a feature that allows attributes to be calculated by using a formula that takes values from other attributes.
 
 
 ===================     ===============================================================================================================================================================
-**Description:**        * This feature allows attributes to be calculated. A calculated attribute is a read-only field whose value is based on a specified formula that take values
+**Description:**        * This feature allows attributes to be calculated. A calculated attribute is a read-only field whose value is based on a specified formula that takes values
                           from other defined attributes.
 
-**Related topics:**     * *Manage Different Types of Attributes*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
 
-**Application:**        * The feature will allow an administrator to set up calculations that will result to a new attribute using the values from other defined attributes.
+**Application:**        * The feature will allow an administrator to set up calculations that will result in a new attribute using the values from other defined attributes.
                         * *Example:*
 
                             An administrator sets up an attribute that will calculate the total number of bottles given that a user only defines the number of boxes.
