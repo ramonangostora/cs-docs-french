@@ -1,11 +1,11 @@
 ============================
 Manage Calculated Attributes
 ============================
-The Manage Calculated Attributes is a feature that allows attributes to be calculated by using a formula that take values from other attributes.
+The Manage Calculated Attributes is a feature that allows attributes to be calculated by using a formula that takes values from other attributes.
 
 
 ===================     ===============================================================================================================================================================
-**Description:**        * This feature allows attributes to be calculated. A calculated attribute is a read-only field whose value is based on a specified formula that take values
+**Description:**        * This feature allows attributes to be calculated. A calculated attribute is a read-only field whose value is based on a specified formula that takes values
                           from other defined attributes.
 
 **Related topics:**     * *Manage Different Types of Attributes*

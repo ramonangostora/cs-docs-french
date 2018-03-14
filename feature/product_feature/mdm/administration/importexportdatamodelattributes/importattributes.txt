@@ -8,8 +8,8 @@ The Import Attributes is a feature that allows the import of attribute definitio
 **Description:**        * It allows the import of a document with list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
                         * It also allows a user to import bulk attributes instead of creating them one by one manually.
 
-**Related topics:**     * *Manage Different Types of Attributes*
-                        * *Export Attributes*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes/index>`
+                        * :doc:`Export Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/exportattributes>`
 
 **Application:**        * The feature allows a user to import the attributes in bulk, thereby, saving a lot of time.
                           It also reduces manual work of creating attribute one by one.
@@ -19,3 +19,55 @@ The Import Attributes is a feature that allows the import of attribute definitio
                             *Supplier A* can collate all information in one document and import it using this feature.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Import Attributes
+================================
+To import attributes, follow the steps provided below:
+
+|
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -7,8 +7,8 @@ The Export Attributes is a feature that allows the export of attribute definitio
 ===================     =======================================================================================================================================================================
 **Description:**        * The feature allows a user to export attributes in one click.
 
-**Related topics:**     * *Manage Different Types of Attributes*
-                        * *Import Attributes*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes/index>`
+                        * :doc:`Import Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/importattributes>`
 
 **Application:**        * The *Export* feature will allow the user to export the list of attributes in one click.
                           This exported document can also be sent and used by other users (*Suppliers or Partners*).
@@ -18,3 +18,55 @@ The Export Attributes is a feature that allows the export of attribute definitio
                             The admin can export the requested data from the system and forward this list back to *Supplier A*.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Export Attributes
+================================
+To export attributes, follow the steps provided below:
+
+|
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
