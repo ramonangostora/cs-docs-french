@@ -5,8 +5,6 @@ The Export Attributes is a feature that allows exporting of attribute definition
 
 
 ===================     =======================================================================================================================================================================
-**Key Term:**           * **Export:** is an action done to get data out of the Contentsphere platform.
-
 **Description:**        * This feature allows a user to export all (or selected) attributes in one click.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
@@ -67,7 +65,7 @@ To export attributes, follow the steps provided below:
 |
 
 
-#. Once completed, access the file and view the downloaded attribute data.
+#. Once downloaded, access the file and view the attribute data.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_oncecompletedaccessthefile.PNG
 |

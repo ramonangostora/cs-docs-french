@@ -1,26 +1,24 @@
 ==================
 Import Attributes
 ==================
-The Import Attributes is a feature that allows the import of attribute definitions so that multiple attributes can be created in one go.
+The Import Attributes is a feature that allows importing of attribute definitions and data so that multiple attributes can be added in the system in one go.
 
 
-===================     =======================================================================================================================================================================
-**Key Term:**           * **Import:** is an action done to bring in attribute data into the Contentsphere platform.
-
-**Description:**        * It allows the import of a document with list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
-                        * It also allows a user to import bulk attributes instead of creating them one by one manually.
+===================     =========================================================================================================================================================================
+**Description:**        * It allows the import of a document with a list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
+                        * It also allows a user to import attributes in bulk instead of creating them one by one, manually.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
                         * :doc:`Export Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/exportattributes>`
 
 **Application:**        * The feature allows a user to import the attributes in bulk, thereby, saving a lot of time.
-                          It also reduces manual work of creating attribute one by one.
+                          It also reduces manual work because a user does not have to create one attribute at a time.
                         * *Example:*
 
                             *Supplier A* has *Products X, Y and Z* with 25 attributes each. Rather than inputting all these attributes one by one in the system,
                             *Supplier A* can collate all information in one document and import it using this feature.
 
-===================     =======================================================================================================================================================================
+===================     =========================================================================================================================================================================
 
 
 How to do: Import Attributes
@@ -29,45 +27,36 @@ To import attributes, follow the steps provided below:
 
 |
 
-#. Step.
+#. Log in to Contentsphere and click on the **Administration** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_logintocontentsphere.PNG
 |
 |
 
 
-#. Step.
+#. Click on the **Data Model** tab and go to *Properties*.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_clickonthedatamodel.PNG
 |
 |
 
 
-#. Step.
+#. Go to any attribute type (like *Date*) and click on the **Import all Attributes** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotoanyattributeandclickonimport.PNG
 |
 |
 
 
-#. Step.
+#. Select the file from your device.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_selectthefile.PNG
 |
 |
 
 
-#. Step.
+#. Wait for the import to finish.  Once done, the added attributes can be viewed in the system.
 
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
-
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
 |
 
 
