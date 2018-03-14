@@ -3,15 +3,104 @@ Multilingual UI
 ================
 Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI so that the UI can be used in multiple languages.
 
+===================  =============================================================================================================================================================
 
-===================     =======================================================================================================================================================================
-**Description:**        * The UI can be in various languages for example: *French, German, Spanish, etc.*
+**Description:**        * The admin can set up the data model like attributes, tags, classes, etc. in various languages so that it can be understood by users in multiple countries or regions.
+                        * It is important for a retailer to have different language data models and products/articles.
 
-**Related topics:**     * *Multilingual Data Model*
+**Related topics:**     * *Data Model Features*
+                        * *Multilingual UI*
 
-**Application:**        * The system can have multiple language of the UI for different languages.
+**Application:**        * A user can have multiple language data models to show the products/articles in various languages.
                         * *Example:*
 
-                            The admin wants the UI to be in *French* for a French user and when the admin selects that language, the UI of system will be translated to *French*.
+                            A retailer wants to let his supplier in France to access the system. By this feature, the supplier in France can log in with the French language
+                            and be able to check all the product and website information in French. Even the data model items like *Short Description* will be displayed in French:
+                            *Brève Description*.
+===================  ==============================================================================================================================================================
+How to do: Manage Multilingual UI
+=============================
+To do this, follow these steps:
 
-===================     =======================================================================================================================================================================
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/managedisplays_gotopim.PNG
+|
+|
+
+#. Hover over the "+" icon.
+
+.. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
+|
+|
+
+#. Click on **Loose Bundle**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_clickloose.PNG
+|
+|
+
+#. Enter the  necessary information.
+
+.. image:: /feature/_images/mdmimages/managedisplays_enterinformation.PNG
+|
+|
+
+#.  Click  **Add products**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.PNG
+|
+|
+
+#.   Click the green button to add the required products (button turns to blue when selected), and click  **Add All**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_selectandaddall.PNG
+|
+|
+
+#.    To add more products, click **Return**, and repeat the previous steps.
+
+.. image:: /feature/_images/mdmimages/managedisplays_addedsuccesfullyandreturn.PNG
+|
+.. image:: /feature/_images/mdmimages/managedisplays_imageadded.PNG
+|
+|
+
+#.   To add an image, click  **Relationships** tab.
+
+.. image:: /feature/_images/mdmimages/managedisplays_gotorel.PNG
+|
+|
+
+#.   Hover over on the "+" icon and click  **Add Entity**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
+|
+|
+
+
+#.   Hover over on the "+" icon and click  **Image**.
+
+.. image:: /feature/_images/mdmimages/managedisplays_hoverimage.PNG
+|
+.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess1.PNG
+|
+|
+
+#.   Click **Add Image** again.
+
+.. image:: /feature/_images/mdmimages/managedisplays_imageagain.PNG
+|
+.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess2.PNG
+|
+|
+
+#.   View bundle on the top section of the page.
+
+.. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
