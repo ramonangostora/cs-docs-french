@@ -5,7 +5,7 @@ The Export Attributes is a feature that allows exporting of attribute definition
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * This feature allows a user to export all (or selected) attributes in one click.
+**Description:**        * This feature allows a user to export all attributes in one click.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
                         * :doc:`Import Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/importattributes>`
@@ -15,7 +15,7 @@ The Export Attributes is a feature that allows exporting of attribute definition
                         * *Example:*
 
                             *Supplier A* has *Products X, Y, and Z* with 25 attributes each. *Supplier A* requests to check particular attributes used on these products.
-                            The admin can export the requested data from the system and will forward the exported list to *Supplier A*.
+                            The admin can export all the attribute data from the system and will forward the exported list to *Supplier A*.
 
 ===================     =======================================================================================================================================================================
 
