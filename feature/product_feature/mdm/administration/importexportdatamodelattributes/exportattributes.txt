@@ -40,18 +40,14 @@ To export attributes, follow the steps provided below:
 |
 
 
-#. Go to any attribute type (like *Date*) and select all the attributes by clicking on the button found on the upper left corner of the *Date* window.
+#. Go to any attribute type (like *Date*).
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotodateandselect.PNG
 |
-.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotodateandselect2.PNG
-|
-.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotodateandselect3.PNG
-|
 |
 
 
-#. Once selected, click on the **Export all Attributes** button. This will export all the attributes that are in the system.
+#. Click on the **Export all Attributes** button. This will export all the attributes that are in the system.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_onceselectedclickonthexportall.PNG
 |
