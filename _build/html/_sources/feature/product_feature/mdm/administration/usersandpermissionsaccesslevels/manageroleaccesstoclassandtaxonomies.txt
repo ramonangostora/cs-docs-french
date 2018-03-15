@@ -13,8 +13,8 @@ so that the users can work directly with the articles they are intended to be re
                         * This feature allows the admin to restrict a user to access or view products in PIM.
 
 **Related topics:**     * :doc:`Manage Permissions </feature/product_feature/mdm/administration/usersandpermissionscrudrights/managepermissions>`
-                        * :doc:`Manage View Templates </feature/product_feature/mdm/administration/usersandpermissionsviewtemplates/manageviewtemplates`
-                        * :doc:`Multi-classify Objects </feature/product_feature/mdm/general/multiclassifcation/multiclassify>`
+                        * :doc:`Manage View Templates </feature/product_feature/mdm/administration/usersandpermissionsviewtemplates/manageviewtemplates>`
+                        * :doc:`Multi-classify Objects </feature/product_feature/mdm/general/multiclassification/multiclassify>`
 
 **Application:**        * Admin has the functionality to restrict the rights of various organization roles (*Admin, Data Stewards, Multiple Suppliers, etc*)
                           so that the roles can have access or view to their respective products in PIM.
@@ -43,29 +43,34 @@ To restrict role to class and taxonomy, follow these steps:
 
 #. Create a user.
 
-      |
+
 
       * Go to *Partner Administration* tab.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_gotopartneradmin.PNG
+      |
       |
 
       * Click on **Users** then click on the "+" icon on the right side of the window.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickusers.PNG
       |
+      |
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplus.PNG
+      |
       |
 
       * Enter the login details.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_enterlogindetails.PNG
       |
+      |
 
       * Click on the **Create** button and a user is created.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_cliukreate.PNG
+      |
       |
 
 #. Create Partners (Organization).
@@ -76,15 +81,18 @@ To restrict role to class and taxonomy, follow these steps:
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickpartners.PNG
       |
+      |
 
       * Enter the name and click on the **Create** button.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_entername.PNG
       |
+      |
 
       * View the created organization.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_viewcreatedorganization.PNG
+      |
       |
 
 
@@ -96,36 +104,43 @@ To restrict role to class and taxonomy, follow these steps:
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickroles.PNG
       |
+      |
 
       * Click on the "+" sign just below the *Roles* tab to assign roles.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplussign.PNG
+      |
       |
 
       * Enter the name and select the role type then click on the **Create** button.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selectroletype.PNG
       |
+      |
 
       * Select the target class that you want the user to have access to.
 
       .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selecttargetclass.PNG
       |
+      |
 
       * Select the taxonomy to further categorize the products.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selecttaxonomy.PNG
+      |
       |
 
-      *Note: If no class or taxonomy is selected, the user has access to all the classes and taxonomies.
+      Note: If no class or taxonomy is selected, the user has access to all the classes and taxonomies.
 
-      .. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
-      |
+|
 
 
 #. Log in as the user to view the products assigned to you.
 
-.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_choosetaxonomies.PNG
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_loginasuser.PNG
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_loginasuser2.PNG
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
