@@ -18,3 +18,45 @@ The Import Tags is a feature that allows the import of tags so that multiple tag
                             Supplier A wants to add a file of tags to his PIM system. He will write the tags in Excel (*.xls format*) and simply add it to the system with this feature.
 
 ===================     =======================================================================================================================================================================
+
+
+
+
+How to do: Import Tags
+======================
+To import tags, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clickadministration.PNG
+|
+|
+
+#. Click on **Properties**.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clickproperties.PNG
+|
+|
+
+#. Click on **LOV** then click on **Import all tagss**.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clicklov.PNG
+|
+|
+
+#. Select the file to be imported.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_selectfile.PNG
+|
+|
+
+#. View the imported tags in their respective sections.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_viewimportedtags.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
