@@ -1,22 +1,103 @@
-=========================
-Managing Tag Hierarchies
-=========================
-The Managing Tag Hierarchies is an admin feature that sets up tag-based hierarchy such that each master tag is one level. This can mix and match tags to build simple hierarchies.
+=======================
+Manage Tag Hierarchies
+=======================
+The Manage Tag Hierarchies is an admin feature that sets up tag-based hierarchies wherein each master tag is considered as one level.
+This feature can mix and match tags to build simple hierarchies.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * Hierarchies is concerned with classification of different objects.
-                        * The system allows multiple levels of hierarchies.
-                        * Level 1 can be further classified by adding Level 2 or further classification of Level 2 can be done by adding extra levels under it.
+**Key Term:**           * **Tag:** is a property that is used to describe a product (like *bottle size or color*).
 
-**Related topics:**     * *Tag Management Features*
+**Description:**        * Hierarchy is concerned with the classification of different objects.
+                        * The system allows multiple levels of hierarchies:
+                          *Level 1* can be further classified by adding *Level 2* and further classification of *Level 2* can be done by adding extra levels under it.
 
-**Application:**        * Creation of hierarchy is same as that of *Master Taxonomy*.
+**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+
+**Application:**        * Creation of hierarchy is the same as creating a *Master Taxonomy*.
                           The only difference between the two is that one cannot add a *Property Collection* (collection of attributes and tags) in hierarchies.
-                        * Hierarchy is basically to differentiate a *Parent* and a *Child* node.
+                        * Hierarchy basically differentiates a *Parent* from a *Child* node.
                         * *Example:*
 
-                            If we create hierarchy of a Master Taxonomy, *Fashion* (Level 1), it can be further classified to a sublevel like *Shirts, Trousers, etc* (Level 2).
-                            A Shirt can then be further classified based on the material or pattern (Level 3).
+                            If we create a hierarchy of a Master Taxonomy, *Fashion* (Level 1), it can be further classified to a sublevel like *Shirts, Trousers, etc* (Level 2).
+                            A Shirt can then be further classified based on the *Material or Pattern* (Level 3).
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Manage Tag Hierarchies
+==================================
+To manage the tag hierarchies, follow this set of instructions:
+
+|
+|
+
+#. Log in and go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Go to the *Data Model* tab and then to *Taxonomies*.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Under *Taxonomies*, click on **Hierarchies**.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Click on the "+" icon to create a new **Master Taxonomy**.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Fill out the required details. Also, slide the button to the right to enable the Master Taxonomy option.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+*Note: A Major Taxonomy has been created.  Further classification can now be done by adding sublevels under it.*
+
+|
+|
+
+
+#. To add sub-taxonomies, click on the newly created Master Taxonomy and wait for the column on the right to be active. Once active, click on the **Add New Level** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Type the name of the sub-taxonomy and then, click on the **Create 'name'** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+*Note:  The sub-taxonomy has been added and the major taxonomy had been further classified.*
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
