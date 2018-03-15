@@ -41,7 +41,7 @@ To import tags, follow these steps:
 |
 |
 
-#. Click on **LOV** then click on **Import all tagss**.
+#. Click on **LOV** then click on **Import all tags**.
 
 .. image:: /feature/_images/mdmimages/cs_importtags_clicklov.PNG
 |

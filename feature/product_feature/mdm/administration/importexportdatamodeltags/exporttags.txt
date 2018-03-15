@@ -42,7 +42,7 @@ To export tags, follow these steps:
 |
 |
 
-#. Click on **LOV** then click on **Export all tagss**.
+#. Click on **LOV** then click on **Export all tags**.
 
 .. image:: /feature/_images/mdmimages/cs_exporttags_clicklov.PNG
 |
