@@ -25,7 +25,7 @@ How to do: Manage Multilingual UI
 To do this, follow these steps:
 
 |
-#. Go to **Settings**.
+#. Go to **Administration**.
 
 .. image:: /feature/_images/mdmimages/cs_multilingualui_gotosettings.PNG
 |
