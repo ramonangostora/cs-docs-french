@@ -51,7 +51,7 @@ To do this, follow these steps:
 
 #.  Logout  and login again.
 
-.. image:: /feature/_images/mdmimages/cs_multilingualui_logout.PNG
+.. image:: /feature\_images\mdmimages\cs_multilingualui_logout.PNG
 |
 |
 
