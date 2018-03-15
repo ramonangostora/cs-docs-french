@@ -75,7 +75,7 @@ To restrict role to class and taxonomy, follow these steps:
 
 #. Create Partners (Organization).
 
-      |
+
 
       * Click on **Partners** then click on the "+" icon on the right side of the window.
 
@@ -98,7 +98,7 @@ To restrict role to class and taxonomy, follow these steps:
 
 #. Add roles to the users in the organization.
 
-      |
+
 
       * Click on the **Roles** tab
 
