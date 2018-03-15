@@ -1,105 +1,67 @@
 ================
 Multilingual UI
 ================
-Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI so that the UI can be used in multiple languages.
+Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI, so that it can be used in multiple languages.
 
-===================  =============================================================================================================================================================
 
-**Description:**        * The admin can set up the data model like attributes, tags, classes, etc. in various languages so that it can be understood by users in multiple countries or regions.
+===================  ==========================================================================================================================================================================
+
+**Description:**        * The admin can set up the data model like *attributes, tags, classes*, etc. in various languages, so that it can be understood by users in multiple countries or regions.
                         * It is important for a retailer to have different language data models and products/articles.
 
-**Related topics:**     * *Data Model Features*
-                        * *Multilingual UI*
+**Related topics:**     * :doc:`Multilingual Data Model </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
 
 **Application:**        * A user can have multiple language data models to show the products/articles in various languages.
                         * *Example:*
 
-                            A retailer wants to let his supplier in France to access the system. By this feature, the supplier in France can log in with the French language
-                            and be able to check all the product and website information in French. Even the data model items like *Short Description* will be displayed in French:
+                            A retailer wants to let his supplier in France to access the system. Using this feature, the supplier in France can log in with the French language
+                            and check all the product and website information in French. Even the data model items like *Short Description* will be displayed in French:
                             *Brève Description*.
 
-===================  ==============================================================================================================================================================
+===================  ==========================================================================================================================================================================
+
 How to do: Manage Multilingual UI
-=============================
+=================================
 To do this, follow these steps:
 
+|
+#. Go to **Settings**.
 
-#. Go to PIM.
-
-.. image:: /feature/_images/mdmimages/managedisplays_gotopim.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_gotosettings.PNG
 |
 |
 
-#. Hover over the "+" icon.
+#. Click *Translations* tab.
 
-.. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
-|
-|
-
-#. Click on **Loose Bundle**.
-
-.. image:: /feature/_images/mdmimages/managedisplays_clickloose.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_clicktrans.PNG
 |
 |
 
-#. Enter the  necessary information.
+#. Click  **Application Labels**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_enterinformation.PNG
-|
-|
-
-#.  Click  **Add products**.
-
-.. image:: /feature/_images/mdmimages/managedisplays_clickaddproducts.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_selapplabel.PNG
 |
 |
 
-#.   Click the green button to add the required products (button turns to blue when selected), and click  **Add All**.
+#. Based on the language required, enter the translations for the desired label (in this demo, we selected "Acceleration").
 
-.. image:: /feature/_images/mdmimages/managedisplays_selectandaddall.PNG
-|
-|
-
-#.    To add more products, click **Return**, and repeat the previous steps.
-
-.. image:: /feature/_images/mdmimages/managedisplays_addedsuccesfullyandreturn.PNG
-|
-.. image:: /feature/_images/mdmimages/managedisplays_imageadded.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_entertrans.PNG
 |
 |
 
-#.   To add an image, click  **Relationships** tab.
+#.  Logout  and login again.
 
-.. image:: /feature/_images/mdmimages/managedisplays_gotorel.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_logout.PNG
 |
 |
 
-#.   Hover over on the "+" icon and click  **Add Entity**.
-
-.. image:: /feature/_images/mdmimages/managedisplays_addentity.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_logout2.PNG
 |
 |
 
+#.   On the login page, select your desired language from the flyout  on the lower right corner of the screen.
 
-#.   Hover over on the "+" icon and click  **Image**.
-
-.. image:: /feature/_images/mdmimages/managedisplays_hoverimage.PNG
-|
-.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess1.PNG
-|
-|
-
-#.   Click **Add Image** again.
-
-.. image:: /feature/_images/mdmimages/managedisplays_imageagain.PNG
-|
-.. image:: /feature/_images/mdmimages/managedisplays_imagesuccess2.PNG
-|
-|
-
-#.   View bundle on the top section of the page.
-
-.. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
+.. image:: /feature/_images/mdmimages/cs_multilingualui_login.PNG
 |
 |
 
