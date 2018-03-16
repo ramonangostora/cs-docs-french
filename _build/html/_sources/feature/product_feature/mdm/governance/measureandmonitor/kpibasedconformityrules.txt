@@ -10,9 +10,10 @@ The KPI-based Conformity Rules is a data governance feature that sets up *KPI-ba
                         * KPIs also drill down on the basis of Taxonomy and Tags.
                         * The KPI: **Conformity** checks the accuracy of data in the product.
 
-**Related topics:**     * *Attribute Management*
-                        * *Taxonomy Management*
-                        * *Tags Management*
+**Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
+                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
 **Application:**        * **Data completeness** is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.
                         * *Example:*
@@ -21,3 +22,90 @@ The KPI-based Conformity Rules is a data governance feature that sets up *KPI-ba
                             Then, the *Conformity Rule* helps users to check that the length should not be more than 400m.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: KPI-based Conformity Rules
+======================================
+To do this feature, follow these steps:
+
+|
+
+#. Log in and go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_login.PNG
+|
+|
+
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickondatagovernance.PNG
+|
+|
+
+
+#. Click on **KPIs**.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonkpis.PNG
+|
+|
+
+
+#. Click on the "+" icon to create a new KPI.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickontheicontocreatenewkpi.PNG
+|
+|
+
+
+#. Fill out the name and click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthename.PNG
+|
+|
+
+
+#. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_oncethekpiiscreated.PNG
+|
+|
+
+
+#. Select a *Class* and *Taxonomy* for which the KPI is designed to be used.  Click the **Apply** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. In the sublevels, add *Tags* or *Taxonomies*, in which the KPI is to be categorized into.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Click on the **Conformity** tab and click on the "+" icon to create a new rule.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Provide the details for the *Label, Attributes, and Tags* to which the user would want to apply the rule. Select the rules according to the requirements.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Click the **Save** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

@@ -2,24 +2,25 @@
 Monitor Data Quality
 =====================
 The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog.
-This feature better defines the products and takes corrective actions to maintain quality.
+This feature better defines the products and takes corrective actions to maintain good quality.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * All the set rules regarding *Accuracy, Completeness, Conformity and Uniqueness* are monitored here.
+**Description:**        * All set rules regarding *Accuracy, Completeness, Conformity and Uniqueness* are monitored here.
                         * The *Dashboard* and *Graphical View* display the results as per data in the system.
                         * The result shows a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These are displayed in percentage format.
                         * The users/suppliers can have a detailed view of all the products in a report that also explores the quality issues.
 
-**Related topics:**     * *Tags Management*
-                        * *Attributes Management*
-                        * *Taxonomy Management*
-                        * *Rules*
-                        * *KPI Dashboards*
+**Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
+                        * :doc:`KPI-based Completeness Rules </feature/product_feature/mdm/governance/measureandmonitor/kpibasedcompletenessrules>`
+                        * :doc:`KPI-based Conformity Rules </feature/product_feature/mdm/governance/measureandmonitor/kpibasedconformityrules>`
+                        * :doc:`Governance Dashboard </feature/product_feature/mdm/governance/governancedashboard/index>`
 
 **Application:**        * Dashboards often provide at-a-glance views of KPIs *(Key Performance Indicators)* relevant to a particular objective or business process.
                         * These reports help a user understand the products in the system and if there are any errors in them.
-                          Also, a user is presented a precise and accurate view of the data in system with respect to *Data Quality*.
+                          Also, a user is presented a precise and accurate view of the data in the system with respect to *Data Quality*.
                         * A user can see all the set rules together in a single graph.
                         * *Example:*
 
@@ -27,3 +28,97 @@ This feature better defines the products and takes corrective actions to maintai
                             The supplier will be able to track the same with a help of graphs on the *Dashboard* and can properly take corrective actions.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Monitor Data Quality
+================================
+To monitor data quality, follow these steps:
+
+|
+
+#. Log in and go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_login.PNG
+|
+|
+
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickondatagovernance.PNG
+|
+|
+
+
+#. Click on **KPIs**.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonkpis.PNG
+|
+|
+
+
+#. Click on the "+" icon to create a new KPI.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickontheicontocreatenewkpi.PNG
+|
+|
+
+
+#. Fill out the name and click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthename.PNG
+|
+|
+
+
+#. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_oncethekpiiscreated.PNG
+|
+|
+
+
+#. On the *KPI Details* page, select a *Class* and *Taxonomy* for which the KPI is designed to be used.  Click the **Apply** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. In the sublevels, add *Tags* or *Taxonomies*, in which the KPI is to be categorized into.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Fill out the details of the rules and click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Click on the **Explore** button and then go to *Dashboard*.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. A new dashboard for the KPI will be created.  Click on the graph and drill down the KPI with the added taxonomy and tag.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+Note: A breadcrumb will be displayed on the top and by selecting it, the user can move in between the levels.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

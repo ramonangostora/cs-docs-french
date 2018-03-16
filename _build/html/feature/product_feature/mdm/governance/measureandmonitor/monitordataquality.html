@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Monitor Data Quality &#8212; Contentsphere  documentation</title>
@@ -119,7 +119,7 @@
   <div class="section" id="s-monitor-data-quality">
 <span id="monitor-data-quality"></span><h1>Monitor Data Quality<a class="headerlink" href="#monitor-data-quality" title="Permalink to this headline">¶</a></h1>
 <p>The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog.
-This feature better defines the products and takes corrective actions to maintain quality.</p>
+This feature better defines the products and takes corrective actions to maintain good quality.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -128,7 +128,7 @@ This feature better defines the products and takes corrective actions to maintai
 <tbody valign="top">
 <tr class="row-odd"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li>All the set rules regarding <em>Accuracy, Completeness, Conformity and Uniqueness</em> are monitored here.</li>
+<li>All set rules regarding <em>Accuracy, Completeness, Conformity and Uniqueness</em> are monitored here.</li>
 <li>The <em>Dashboard</em> and <em>Graphical View</em> display the results as per data in the system.</li>
 <li>The result shows a combination of all the Data Quality measures: <em>Accuracy, Completeness, Conformity and Uniqueness</em>. These are displayed in percentage format.</li>
 <li>The users/suppliers can have a detailed view of all the products in a report that also explores the quality issues.</li>
@@ -137,11 +137,12 @@ This feature better defines the products and takes corrective actions to maintai
 </tr>
 <tr class="row-even"><td><strong>Related topics:</strong></td>
 <td><ul class="first last simple">
-<li><em>Tags Management</em></li>
-<li><em>Attributes Management</em></li>
-<li><em>Taxonomy Management</em></li>
-<li><em>Rules</em></li>
-<li><em>KPI Dashboards</em></li>
+<li><a class="reference internal" href="../../administration/datamodeltagmanagement/index.html"><span class="doc">Tag Management features</span></a></li>
+<li><a class="reference internal" href="../../administration/datamodelattributemanagement/index.html"><span class="doc">Attribute Management features</span></a></li>
+<li><a class="reference internal" href="../../administration/simpletaxonomytree/managetaxonomy.html"><span class="doc">Manage Taxonomy</span></a></li>
+<li><a class="reference internal" href="kpibasedcompletenessrules.html"><span class="doc">KPI-based Completeness Rules</span></a></li>
+<li><a class="reference internal" href="kpibasedconformityrules.html"><span class="doc">KPI-based Conformity Rules</span></a></li>
+<li><a class="reference internal" href="../governancedashboard/index.html"><span class="doc">Governance Dashboard</span></a></li>
 </ul>
 </td>
 </tr>
@@ -150,7 +151,7 @@ This feature better defines the products and takes corrective actions to maintai
 <li><p class="first">Dashboards often provide at-a-glance views of KPIs <em>(Key Performance Indicators)</em> relevant to a particular objective or business process.</p>
 </li>
 <li><p class="first">These reports help a user understand the products in the system and if there are any errors in them.
-Also, a user is presented a precise and accurate view of the data in system with respect to <em>Data Quality</em>.</p>
+Also, a user is presented a precise and accurate view of the data in the system with respect to <em>Data Quality</em>.</p>
 </li>
 <li><p class="first">A user can see all the set rules together in a single graph.</p>
 </li>
@@ -165,6 +166,108 @@ The supplier will be able to track the same with a help of graphs on the <em>Das
 </tr>
 </tbody>
 </table>
+<div class="section" id="s-how-to-do-monitor-data-quality">
+<span id="how-to-do-monitor-data-quality"></span><h2>How to do: Monitor Data Quality<a class="headerlink" href="#how-to-do-monitor-data-quality" title="Permalink to this headline">¶</a></h2>
+<p>To monitor data quality, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in and go to <em>Administration</em>.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_login.PNG" src="../../../../../_images/cs_monitordataquality_login.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Data Governance</strong> tab.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickondatagovernance.PNG" src="../../../../../_images/cs_monitordataquality_clickondatagovernance.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on <strong>KPIs</strong>.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickonkpis.PNG" src="../../../../../_images/cs_monitordataquality_clickonkpis.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create a new KPI.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickontheicontocreatenewkpi.PNG" src="../../../../../_images/cs_monitordataquality_clickontheicontocreatenewkpi.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill out the name and click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_filloutthename.PNG" src="../../../../../_images/cs_monitordataquality_filloutthename.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once the KPI is created, the new KPI will be shown on the list. Click on the <strong>Edit</strong> button on the right.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_oncethekpiiscreated.PNG" src="../../../../../_images/cs_monitordataquality_oncethekpiiscreated.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>On the <em>KPI Details</em> page, select a <em>Class</em> and <em>Taxonomy</em> for which the KPI is designed to be used.  Click the <strong>Apply</strong> button.</li>
+</ol>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>In the sublevels, add <em>Tags</em> or <em>Taxonomies</em>, in which the KPI is to be categorized into.</li>
+</ol>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill out the details of the rules and click on the <strong>Save</strong> button.</li>
+</ol>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Explore</strong> button and then go to <em>Dashboard</em>.</li>
+</ol>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>A new dashboard for the KPI will be created.  Click on the graph and drill down the KPI with the added taxonomy and tag.</li>
+</ol>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p>Note: A breadcrumb will be displayed on the top and by selecting it, the user can move in between the levels.</p>
+<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
 </div>
 
 
@@ -178,6 +281,14 @@ The supplier will be able to track the same with a help of graphs on the <em>Das
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Monitor Data Quality</a><ul>
+<li><a class="reference internal" href="#how-to-do-monitor-data-quality">How to do: Monitor Data Quality</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>Browse</h3>
   <ul>
     
@@ -220,7 +331,7 @@ The supplier will be able to track the same with a help of graphs on the <em>Das
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Mar 06, 2018</p>
+                <p class="topless">Mar 16, 2018</p>
             </div>
           </div>
         
