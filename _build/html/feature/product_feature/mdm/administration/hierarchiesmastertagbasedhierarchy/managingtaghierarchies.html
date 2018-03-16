@@ -119,7 +119,7 @@
   <div class="section" id="s-manage-tag-hierarchies">
 <span id="manage-tag-hierarchies"></span><h1>Manage Tag Hierarchies<a class="headerlink" href="#manage-tag-hierarchies" title="Permalink to this headline">¶</a></h1>
 <p>The Manage Tag Hierarchies is an admin feature that sets up tag-based hierarchies wherein each master tag is considered as one level.
-This feature can mix and match tags to build simple hierarchies.</p>
+This feature allows mixing and matching of tags to build simple hierarchies.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -136,7 +136,7 @@ This feature can mix and match tags to build simple hierarchies.</p>
 <td><ul class="first last simple">
 <li>Hierarchy is concerned with the classification of different objects.</li>
 <li>The system allows multiple levels of hierarchies:
-<em>Level 1</em> can be further classified by adding <em>Level 2</em> and further classification of <em>Level 2</em> can be done by adding extra levels under it.</li>
+<em>Level 1</em> can be further classified by adding <em>Level 2</em> and further classification of <em>Level 2</em> can be done by adding more levels under it.</li>
 </ul>
 </td>
 </tr>
@@ -149,14 +149,15 @@ This feature can mix and match tags to build simple hierarchies.</p>
 <tr class="row-even"><td><strong>Application:</strong></td>
 <td><ul class="first last">
 <li><p class="first">Creation of hierarchy is the same as creating a <em>Master Taxonomy</em>.
-The only difference between the two is that one cannot add a <em>Property Collection</em> (collection of attributes and tags) in hierarchies.</p>
+The only difference between the two is that one cannot add a <em>Property Collection</em> (collection of attributes and tags) in hierarchies.
+Adding a <em>Property Collection</em> is only done in <em>Master Taxonomy</em>.</p>
 </li>
 <li><p class="first">Hierarchy basically differentiates a <em>Parent</em> from a <em>Child</em> node.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>If we create a hierarchy of a Master Taxonomy, <em>Fashion</em> (Level 1), it can be further classified to a sublevel like <em>Shirts, Trousers, etc</em> (Level 2).
-A Shirt can then be further classified based on the <em>Material or Pattern</em> (Level 3).</p>
+<div><p>If we create a hierarchy for <em>Fashion</em> (Level 1), it can be further classified using a sublevel like <em>Shirts, Trousers, etc</em> (Level 2).
+A <em>Shirt</em> can then be further classified based on its <em>Material or Pattern</em> (Level 3).</p>
 </div></blockquote>
 </li>
 </ul>
@@ -166,15 +167,14 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
 </table>
 <div class="section" id="s-how-to-do-manage-tag-hierarchies">
 <span id="how-to-do-manage-tag-hierarchies"></span><h2>How to do: Manage Tag Hierarchies<a class="headerlink" href="#how-to-do-manage-tag-hierarchies" title="Permalink to this headline">¶</a></h2>
-<p>To manage the tag hierarchies, follow this set of instructions:</p>
+<p>To manage/create tag hierarchies, follow this set of instructions:</p>
 <div class="line-block">
-<div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
 <li>Log in and go to <em>Administration</em>.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_login.PNG" src="../../../../../_images/cs_managetaghierarchies_login.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -182,7 +182,7 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
 <ol class="arabic simple">
 <li>Go to the <em>Data Model</em> tab and then to <em>Taxonomies</em>.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_gotothedatamodel.PNG" src="../../../../../_images/cs_managetaghierarchies_gotothedatamodel.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -190,7 +190,7 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
 <ol class="arabic simple">
 <li>Under <em>Taxonomies</em>, click on <strong>Hierarchies</strong>.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_undertaxonomies.PNG" src="../../../../../_images/cs_managetaghierarchies_undertaxonomies.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -198,15 +198,15 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
 <ol class="arabic simple">
 <li>Click on the “+” icon to create a new <strong>Master Taxonomy</strong>.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_clickontheicon.PNG" src="../../../../../_images/cs_managetaghierarchies_clickontheicon.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Fill out the required details. Also, slide the button to the right to enable the Master Taxonomy option.</li>
+<li>Fill out the required details. Also, slide the button to the right to enable the <em>Master Taxonomy</em> option.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails.PNG" src="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -214,33 +214,46 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
 <ol class="arabic simple">
 <li>Click on the <strong>Create</strong> button.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails2.PNG" src="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails2.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<p><em>Note: A Major Taxonomy has been created.  Further classification can now be done by adding sublevels under it.</em></p>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>To add sub-taxonomies, click on the newly created Master Taxonomy and wait for the column on the right to be active. Once active, click on the <strong>Add New Level</strong> button.</li>
-</ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<p><em>Note: A Major Taxonomy has been created.  Further classification can now be done by adding sublevels.</em></p>
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Type the name of the sub-taxonomy and then, click on the <strong>Create ‘name’</strong> button.</li>
+<li>To add sub-taxonomies, click on the newly created Master Taxonomy and click on the <strong>Add New Level</strong> button found on the next column.</li>
 </ol>
-<img alt="feature/_images/mdmimages/image.PNG" src="feature/_images/mdmimages/image.PNG" />
+<img alt="../../../../../_images/cs_managetaghierarchies_toaddsubtaxonomies.PNG" src="../../../../../_images/cs_managetaghierarchies_toaddsubtaxonomies.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<p><em>Note:  The sub-taxonomy has been added and the major taxonomy had been further classified.</em></p>
+<ol class="arabic simple">
+<li>Type the name of the sub-taxonomy and then, click on the <strong>Create ‘name’</strong> button.
+Check the details on the pop-up window and click on the <strong>Create</strong> button to continue.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG" src="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy2.PNG" src="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Add more levels to the hierarchy, as desired.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_addmorelevels.PNG" src="../../../../../_images/cs_managetaghierarchies_addmorelevels.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note:  The sub-taxonomies have been added and can be used to tag and describe products.</em></p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -309,7 +322,7 @@ A Shirt can then be further classified based on the <em>Material or Pattern</em>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Mar 15, 2018</p>
+                <p class="topless">Mar 16, 2018</p>
             </div>
           </div>
         
