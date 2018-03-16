@@ -53,14 +53,14 @@ To manage/create tag hierarchies, follow this set of instructions:
 |
 
 
-#. Click on the "+" icon to create a new **Master Taxonomy**.
+#. Click on the "+" icon to create a new **Master Hierarchy**.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_clickontheicon.PNG
 |
 |
 
 
-#. Fill out the required details. Also, slide the button to the right to enable the *Master Taxonomy* option.
+#. Fill out the required details. Also, slide the button to the right to enable the *Major Taxonomy* option.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_fillouttherequireddetails.PNG
 |
@@ -74,20 +74,20 @@ To manage/create tag hierarchies, follow this set of instructions:
 |
 
 
-*Note: A Major Taxonomy has been created.  Further classification can now be done by adding sublevels.*
+*Note: A Master Hierarchy/Tag has been created.  Further classification can now be done by adding sublevels.*
 
 |
 |
 
 
-#. To add sub-taxonomies, click on the newly created Master Taxonomy and click on the **Add New Level** button found on the next column.
+#. To add sub-taxonomies, click on the newly created Master Hierarchy and click on the **Add New Level** button found on the next column.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_toaddsubtaxonomies.PNG
 |
 |
 
 
-#. Type the name of the sub-taxonomy and then, click on the **Create 'name'** button.
+#. Type the name of the sublevel and then, click on the **Create 'name'** button.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG
 |
@@ -101,14 +101,14 @@ To manage/create tag hierarchies, follow this set of instructions:
 |
 
 
-#. Add more levels to the hierarchy, as desired.
+#. Add more sublevels to the hierarchy, as desired.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_addmorelevels.PNG
 |
 |
 
 
-*Note:  The sub-taxonomies have been added and can be used to tag and describe products.*
+*Note:  The sublevels have been added and the new hierarchy can be used to tag and describe products.*
 
 |
 
