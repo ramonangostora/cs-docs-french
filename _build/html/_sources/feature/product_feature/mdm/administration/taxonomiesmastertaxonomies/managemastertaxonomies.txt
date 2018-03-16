@@ -22,8 +22,8 @@ The Manage Master Taxonomies is an admin feature that sets up Master Taxonomies 
 
                             An electronics retailer, who sells various electronics products, would like to further categorize them.
                             The 'Mobile Phones' he sells may have a taxonomy 'Electronics' under which he will create a number of levels to classify his mobile phones.
-                            So, the mobile phone will fall under two categories - *Smart phones or Basic phones*.
-                            The smart phone category will further have branches - *Touch screen or Keypad* and so on.
+                            So, the mobile phone will fall under two categories - *Smartphones or Basic phones*.
+                            The smartphones category will further have branches - *Touchscreen or Keypad* and so on.
                             Similarly, various taxonomies can be applied to other electronics for easy categorization.
 
 ====================    =======================================================================================================================================================================
