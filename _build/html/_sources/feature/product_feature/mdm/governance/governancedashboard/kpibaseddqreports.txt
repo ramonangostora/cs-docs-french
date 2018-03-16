@@ -1,7 +1,7 @@
 =====================
 KPI-based DQ Reports
 =====================
-The KPI-based DQ Reports is a data governance feature wherein an administrator can set up *KPI-based Data Quality reports* and link these to certain roles so that the designated users will be able to take proper corrective actions.
+The KPI-based DQ Reports is a data governance feature that allows an administrator set up *KPI-based Data Quality reports* and link it to specific roles which enables the designated users  to take proper corrective actions.
 
 
 ===================     =======================================================================================================================================================================
@@ -10,8 +10,8 @@ The KPI-based DQ Reports is a data governance feature wherein an administrator c
                         * The Data Quality Report gives a role a summary of all the products in the system that enables a user to take proper corrective actions
                           based on the rules applied to the products and the KPI dashboard.
 
-**Related topics:**     * *Users and Roles*
-                        * *Products*
+**Related topics:**
+                        * :doc:`Products </reference/index>`
 
 **Application:**        * The KPI Dashboard helps a user understand the products better and take actions on the products
                           if they are below certain standards, which have been predefined by the rules set for those products.
@@ -51,7 +51,7 @@ To do this, follow these steps:
 |
 
 
-#.   Fill the name and code(optional) and click on 'Create' to create the KPI.
+  #.   Fill the name and code(optional) and click on **CREATE** to create the KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
