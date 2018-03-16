@@ -14,7 +14,7 @@ This feature allows mixing and matching of tags to build simple hierarchies.
 
 **Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
 
-**Application:**        * Creation of hierarchy is the same as creating a *Master Taxonomy*.
+**Application:**        * Creating a hierarchy is the same as creating a *Master Taxonomy*.
                           The only difference between the two is that one cannot add a *Property Collection* (collection of attributes and tags) in hierarchies.
                           Adding a *Property Collection* is only done in *Master Taxonomy*.
                         * Hierarchy basically differentiates a *Parent* from a *Child* node.
@@ -88,10 +88,14 @@ To manage/create tag hierarchies, follow this set of instructions:
 
 
 #. Type the name of the sub-taxonomy and then, click on the **Create 'name'** button.
-   Check the details on the pop-up window and click on the **Create** button to continue.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG
 |
+|
+
+
+#. Check the details on the pop-up window and click on the **Create** button to continue.
+
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_typethenameofthesubtaxonomy2.PNG
 |
 |
