@@ -1,24 +1,23 @@
 ================
 Multilingual UI
 ================
-Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI, so that it can be used in multiple languages.
+Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI so that the UI can be used in multiple languages.
 
 
-===================  ==========================================================================================================================================================================
+===================  ============================================================================================================================================================================
 
-**Description:**        * The admin can set up the data model like *attributes, tags, classes*, etc. in various languages, so that it can be understood by users in multiple countries or regions.
+**Description:**        * The UI can be in various languages, for example, *French, German, Spanish*, etc.
+                        * The admin can set up the data model like *attributes, tags, classes*, etc. in various languages so that it can be understood by users in multiple countries or regions.
                         * It is important for a retailer to have different language data models and products/articles.
 
 **Related topics:**     * :doc:`Multilingual Data Model </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
 
-**Application:**        * A user can have multiple language data models to show the products/articles in various languages.
+**Application:**        * The system can have multiple languages of the UI for different languages.
                         * *Example:*
 
-                            A retailer wants to let his supplier in France to access the system. Using this feature, the supplier in France can log in with the French language
-                            and check all the product and website information in French. Even the data model items like *Short Description* will be displayed in French:
-                            *Brève Description*.
+                            The admin wants the UI to be in French for a French user, and when the admin selects that language, the UI of the system will be translated into French.
 
-===================  ==========================================================================================================================================================================
+===================  ============================================================================================================================================================================
 
 How to do: Manage Multilingual UI
 =================================
