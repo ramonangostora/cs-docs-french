@@ -21,3 +21,69 @@ Standardize Product Definitions is a data governance feature that standardizes t
                             A tag needs to be normalized based on allergen information like *Contains Lactose* or *Contains Nuts*.
 
 ===================     =======================================================================================================================================================================
+
+
+
+How to do: Standardize Product Definitions
+===========================================
+To standardize product definitions, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on **Rules** then click on the “+” icon to create a rule.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clicklov.PNG
+|
+|
+
+#. Enter the name and select **Standardization and Normalization** as rule type then click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Select the *Partners,* *Endpoints,* and *Physical Catalogs* to which the rule is to be applied.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clicklov.PNG
+|
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on **Properties**.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on **Rules** then click on the “+” icon to create a rule.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clicklov.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
