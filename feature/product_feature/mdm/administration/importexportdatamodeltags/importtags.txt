@@ -11,7 +11,7 @@ The Import Tags is a feature that allows the import of tags so that multiple tag
 
 **Related topics:**     * :doc:`Manage LOVs </feature/product_feature/mdm/administration/datamodeltagmanagement/managelovs>`
                         * :doc:`Manage Affinities </feature/product_feature/mdm/administration/datamodeltagmanagement/manageaffinities>`
-                        * :doc:`Import Tags </feature/product_feature/mdm/administration/importexportdatamodeltags/importtags>`
+                        * :doc:`Export Tags </feature/product_feature/mdm/administration/importexportdatamodeltags/exporttags>`
 
 **Application:**        * This feature is useful to import huge amount of data in a short duration of time.
                         * *Example:*
