@@ -17,7 +17,7 @@ This feature allows mixing and matching of tags to build simple hierarchies.
 **Application:**        * Creating a hierarchy is the same as creating a *Master Taxonomy*.
                           The only difference between the two is that one cannot add a *Property Collection* (collection of attributes and tags) in hierarchies.
                           Adding a *Property Collection* is only done in *Master Taxonomy*.
-                        * Hierarchy basically differentiates a *Parent* from a *Child* node.
+                        * Hierarchy is created to differentiate a *Parent* from a *Child* node.
                         * *Example:*
 
                             If we create a hierarchy for *Fashion* (Level 1), it can be further classified using a sublevel like *Shirts, Trousers, etc* (Level 2).
@@ -80,7 +80,7 @@ To manage/create tag hierarchies, follow this set of instructions:
 |
 
 
-#. To add sub-taxonomies, click on the newly created Master Hierarchy and click on the **Add New Level** button found on the next column.
+#. To add a sublevel, click on the newly created Master Hierarchy and click on the **Add New Level** button found on the next column.
 
 .. image:: /feature/_images/mdmimages/cs_managetaghierarchies_toaddsubtaxonomies.PNG
 |
