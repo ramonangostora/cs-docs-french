@@ -17,11 +17,11 @@ The KPI-based Conformity Rules is a data governance feature that sets up rules t
                         * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
                         * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data conformity** is one of the most important data quality and accuracy checking characteristics. It is a very important factor for KPIs.
+**Application:**        * **Data Conformity** is one of the most important data quality and accuracy checking characteristics. It is a very important factor for KPIs.
                         * *Example:*
 
                             An organization sells furniture products. They have attributes for *Length of the wood* and tags for *Color*.
-                            Then, the *Conformity Rule* helps users to check that the length should not be more than 400m.
+                            Then, the *Conformity Rule* helps users to check that the length should not be more than 400m (40000cm).
 
 ===================     =======================================================================================================================================================================
 
@@ -62,30 +62,30 @@ To do this feature, follow these steps:
 
 #. Fill out the name and click on the **Create** button.
 
-.. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthename.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibasedconformity_filloutthename.PNG
 |
 |
 
 
 #. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
 
-.. image:: /feature/_images/mdmimages/cs_monitordataquality_oncethekpiiscreated.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibasedconformity_oncethekpiiscreated.PNG
 |
 |
 
 
 #. On the *KPI Details* page, select a *Class* and *Taxonomy*, which will use the KPI.  Click the **Apply** button.
 
-.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibasedconformity_selectclassandtaxonomy.PNG
 |
-.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy2.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibasedconformity_selectclassandtaxonomy2.PNG
 |
 |
 
 
 #. For the Drill down levels, add *Tags* or *Taxonomies*, where the KPI is to be categorized into.
 
-.. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibasedconformity_forthedrilldownlevels.PNG
 |
 |
 
