@@ -5,10 +5,10 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * A Virtual Catalog is a collection of various items put together by a user (usually a retailer) to be used at a specific time or for a certain occasion.
+**Description:**        * A *Virtual Catalog* is a collection of various items put together by a user (usually a retailer) to be used at a specific time or for a certain occasion.
                         * These catalogs vary according to users and can be restricted in terms of who can view and edit them.
 
-**Related topics:**     * *Collections and Bookmarks*
+**Related topics:**     * :doc:`Collections and Bookmarks </feature/product_feature/mdm/general/collectionsandbookmarks/index>`
 
 **Application:**        * A retailer uses a *Virtual Catalog* to create his own collection of products for special occasions.
                         * Catalogs can be made user-specific.
@@ -19,3 +19,84 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
                         * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Manage Virtual Catalogs
+===================================
+To do this feature, follow these steps:
+
+|
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
