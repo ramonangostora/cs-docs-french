@@ -1,7 +1,7 @@
 =====================
 KPI-based DQ Reports
 =====================
-The KPI-based DQ Reports is a data governance feature that allows an administrator set up *KPI-based Data Quality reports* and link it to specific roles which enables the designated users  to take proper corrective actions.
+The KPI-based DQ Reports is a data governance feature that allows an administrator set up a *KPI-based Data Quality reports* and link it to specific roles, which enables the designated users  to take proper corrective actions.
 
 
 ===================     =======================================================================================================================================================================
@@ -11,10 +11,10 @@ The KPI-based DQ Reports is a data governance feature that allows an administrat
                           based on the rules applied to the products and the KPI dashboard.
 
 **Related topics:**
-                        * :doc:`Products </reference/index>`
+                        * :doc:`Drill Down for KPI Reports </feature/product_feature/mdm/governance/governancedashboard/drilldownforkpireports>`
 
-**Application:**        * The KPI Dashboard helps a user understand the products better and take actions on the products
-                          if they are below certain standards, which have been predefined by the rules set for those products.
+**Application:**        * The KPI Dashboard helps a user better understand the products and take actions on it if they do not meet the set standard,
+                          which have been predefined by the rules set for those products.
                         * *Example:*
 
                             For a supplier of fashion products, a *Fashion KPI Report* would give an overview of all the fashion products based on a certain rule like completeness of GTIN.
@@ -38,7 +38,7 @@ To do this, follow these steps:
 |
 |
 
-#.  Click   **KPIs** on the leftside in the Data *Governance* tab.
+#.  Click   **KPIs** .
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickkpi.PNG
 |
@@ -50,65 +50,66 @@ To do this, follow these steps:
 |
 |
 
-
-  #.   Fill the name and code(optional) and click on **CREATE** to create the KPI.
+#.   Enter a name and code(optional). Then, click  **CREATE** to create the KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
 |
 
-
-#.      Once the KPI is created, it will appear in the list of KPI, click on the 'Edit' icon at the extreme right in the list of KPI.
-
+#.      Once the KPI is created, it will appear in the list of KPI, click  the **Edit** icon.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickedit.PNG
 |
 |
 
-#.      Select the Class and Taxonomy for which KPI is designed.
+#.      Click the **Class** and **Taxonomy** KPI-designed section.
 
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
 |
 |
 
-#.      Select the 'Completeness' tab on the top and add rule for completeness. Select the attributes and Tags that are to be said to be complete.
+#.      Click the *Completeness* tab on the top and add rule for completeness. Then, select the attributes and Tags.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selcomp.PNG
 |
 |
 
-#.      Click on the 'Conformity' tab on the top and add a rule for conformity. Select the attributes/tags and select the operation and condition for conformity.
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_compadrulb.PNG
+|
+|
+
+#.      Click **Apply**. Then, click **SAVE** to save the changes.
+
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_compadrulc.PNG
+|
+|
+
+#.      Repeat the similars teps for *Conformity*, *Uniqueness* and  *Accuracy* tab. Click to select the attributes and tags.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selconform.PNG
 |
 |
 
-#.     Follow similar steps for Accuracy and  Uniqueness. Click on the 'Save' button to save the KPI.
+#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is presen ( in this  demo, we selected "Fashionista".
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selconform.PNG
-|
-|
-
-#.      To assign the KPI to a role: Select the Partner Admin tab and then select the Organization to which the role is present.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selpartad.PNG
 |
 |
 
-#.       In the role assign the KPI which was created. ( If no KPI is selected the role will have permission to all the KPI present).
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selfash.PNG
+|
+|
+
+#.       Click *Roles* tab and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_asskpi.PNG
 |
 |
 
-#.        Logout from the system then login with the user belonging to the role, to view the KPI for that role.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
-|
-|
-
-#.        Logout from the system then login with the user belonging to the role, to view the KPI for that role.
+#.        Logout from the system and  login with the user belonging to the role, to view the KPI for that role.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
 |

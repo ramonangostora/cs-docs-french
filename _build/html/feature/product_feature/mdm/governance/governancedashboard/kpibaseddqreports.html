@@ -118,7 +118,7 @@
             
   <div class="section" id="s-kpi-based-dq-reports">
 <span id="kpi-based-dq-reports"></span><h1>KPI-based DQ Reports<a class="headerlink" href="#kpi-based-dq-reports" title="Permalink to this headline">¶</a></h1>
-<p>The KPI-based DQ Reports is a data governance feature that allows an administrator set up <em>KPI-based Data Quality reports</em> and link it to specific roles which enables the designated users  to take proper corrective actions.</p>
+<p>The KPI-based DQ Reports is a data governance feature that allows an administrator set up a <em>KPI-based Data Quality reports</em> and link it to specific roles, which enables the designated users  to take proper corrective actions.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
@@ -136,14 +136,14 @@ based on the rules applied to the products and the KPI dashboard.</li>
 </tr>
 <tr class="row-even"><td><strong>Related topics:</strong></td>
 <td><ul class="first last simple">
-<li><a class="reference internal" href="../../../../../reference/index.html"><span class="doc">Products</span></a></li>
+<li><a class="reference internal" href="drilldownforkpireports.html"><span class="doc">Drill Down for KPI Reports</span></a></li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">The KPI Dashboard helps a user understand the products better and take actions on the products
-if they are below certain standards, which have been predefined by the rules set for those products.</p>
+<li><p class="first">The KPI Dashboard helps a user better understand the products and take actions on it if they do not meet the set standard,
+which have been predefined by the rules set for those products.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
@@ -176,7 +176,7 @@ Corrective actions can be taken for products violating the rule.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click   <strong>KPIs</strong> on the leftside in the Data <em>Governance</em> tab.</li>
+<li>Click   <strong>KPIs</strong> .</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_clickkpi.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickkpi.PNG" />
 <div class="line-block">
@@ -191,18 +191,16 @@ Corrective actions can be taken for products violating the rule.</p>
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
-<blockquote>
-<div><ol class="arabic simple">
-<li>Fill the name and code(optional) and click on <strong>CREATE</strong> to create the KPI.</li>
+<ol class="arabic simple">
+<li>Enter a name and code(optional). Then, click  <strong>CREATE</strong> to create the KPI.</li>
 </ol>
-</div></blockquote>
 <img alt="../../../../../_images/cs_kpibaseddqreports_enterdetails.PNG" src="../../../../../_images/cs_kpibaseddqreports_enterdetails.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Once the KPI is created, it will appear in the list of KPI, click on the ‘Edit’ icon at the extreme right in the list of KPI.</li>
+<li>Once the KPI is created, it will appear in the list of KPI, click  the <strong>Edit</strong> icon.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_clickedit.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickedit.PNG" />
 <div class="line-block">
@@ -210,7 +208,7 @@ Corrective actions can be taken for products violating the rule.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select the Class and Taxonomy for which KPI is designed.</li>
+<li>Click the <strong>Class</strong> and <strong>Taxonomy</strong> KPI-designed section.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_selclass.PNG" src="../../../../../_images/cs_kpibaseddqreports_selclass.PNG" />
 <div class="line-block">
@@ -218,15 +216,28 @@ Corrective actions can be taken for products violating the rule.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select the ‘Completeness’ tab on the top and add rule for completeness. Select the attributes and Tags that are to be said to be complete.</li>
+<li>Click the <em>Completeness</em> tab on the top and add rule for completeness. Then, select the attributes and Tags.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_selcomp.PNG" src="../../../../../_images/cs_kpibaseddqreports_selcomp.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
+<img alt="../../../../../_images/cs_kpibaseddqreports_compadrulb.PNG" src="../../../../../_images/cs_kpibaseddqreports_compadrulb.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
 <ol class="arabic simple">
-<li>Click on the ‘Conformity’ tab on the top and add a rule for conformity. Select the attributes/tags and select the operation and condition for conformity.</li>
+<li>Click <strong>Apply</strong>. Then, click <strong>SAVE</strong> to save the changes.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibaseddqreports_compadrulc.PNG" src="../../../../../_images/cs_kpibaseddqreports_compadrulc.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Repeat the similars teps for <em>Conformity</em>, <em>Uniqueness</em> and  <em>Accuracy</em> tab. Click to select the attributes and tags.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_selconform.PNG" src="../../../../../_images/cs_kpibaseddqreports_selconform.PNG" />
 <div class="line-block">
@@ -234,23 +245,20 @@ Corrective actions can be taken for products violating the rule.</p>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Follow similar steps for Accuracy and  Uniqueness. Click on the ‘Save’ button to save the KPI.</li>
-</ol>
-<img alt="../../../../../_images/cs_kpibaseddqreports_selconform.PNG" src="../../../../../_images/cs_kpibaseddqreports_selconform.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>To assign the KPI to a role: Select the Partner Admin tab and then select the Organization to which the role is present.</li>
+<li>To assign the KPI to a role, click  <em>Partner Administration</em> tab and  select the Organization where the role is presen ( in this  demo, we selected “Fashionista”.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_selpartad.PNG" src="../../../../../_images/cs_kpibaseddqreports_selpartad.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
+<img alt="../../../../../_images/cs_kpibaseddqreports_selfash.PNG" src="../../../../../_images/cs_kpibaseddqreports_selfash.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
 <ol class="arabic simple">
-<li>In the role assign the KPI which was created. ( If no KPI is selected the role will have permission to all the KPI present).</li>
+<li>Click <strong>Roles</strong> and select a role ( in this demo, we selected ” Garment Supplier”). Then, select a  KPI and click <strong>APPLY</strong>.</li>
 </ol>
 <img alt="../../../../../_images/cs_kpibaseddqreports_asskpi.PNG" src="../../../../../_images/cs_kpibaseddqreports_asskpi.PNG" />
 <div class="line-block">
@@ -343,7 +351,7 @@ Corrective actions can be taken for products violating the rule.</p>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Mar 16, 2018</p>
+                <p class="topless">Mar 19, 2018</p>
             </div>
           </div>
         
