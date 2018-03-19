@@ -8,7 +8,8 @@ Manage Product Keys is a feature that sets up certain attributes as *Product Key
 **Description:**        * Products are created with unique values, which are called *Product Keys*.
                         * Product Keys define attributes to be a unique value. If non-unique values will be used, a violation will appear for the *Product or Article*.
 
-**Related topics:**     * *Manage Supplier Records*
+**Related topics:**     * :doc:`Manage Supplier Records </feature/product_feature/mdm/products/productidentifiersidentifierrecords/managesupplierrecords>`
+                        * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
 
 **Application:**        * A user can define certain attributes to be unique so that the products created by that class are also unique based on that attribute.
                         * *Example:*
@@ -16,3 +17,81 @@ Manage Product Keys is a feature that sets up certain attributes as *Product Key
                             Supplier A	wants the **GTIN value** of his products to be unique. This can be done by setting the attribute, GTIN, as a *Product Key or Identifier Attribute*.
 
 ===================     =======================================================================================================================================================================
+
+
+
+
+How to do: Manage Product Keys
+===============================
+To manage product keys, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickadministration.PNG
+|
+|
+
+#. Go to the **Data Model** tab and under *Classes*, click on **Article**.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_gotodatamodel.PNG
+|
+|
+
+#. Click on **Product Types** then click on **Single Article**.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickproducttypes.PNG
+|
+|
+
+#. Click on the "+" icon to add property collection.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusicon.PNG
+|
+|
+
+#. Select the property collection and click on the **Apply** button.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_selectpropertycollection.PNG
+|
+|
+
+#. Click the **Down** icon beside the property collection and select the attribute to be used as product key.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickdownicon.PNG
+|
+|
+
+#. Click on the **Explore** button and create a product from the class "Single Article".
+
+|
+|
+
+#. Edit the product and enter value in the attribute that was selected as product key..
+
+|
+|
+
+#. Click on any blank area outside to show the **Save** button then click on the **Save** button.
+
+|
+|
+
+#. Go back to PIM and create another product of the same class.
+
+|
+|
+
+#. Edit the same attribute with the same value as with the previous product
+
+|
+|
+
+#. Click on the "Save" button and violation for uniqueness will appear.
+
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
