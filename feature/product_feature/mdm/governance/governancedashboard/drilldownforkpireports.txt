@@ -3,8 +3,7 @@ Drill Down for KPI Reports
 ===========================
 Drill Down for KPI Reports is a data governance feature that sets up drill down criteria for DQ (Data Quality) reports so that responsible users can explore the quality issues.
 
-
-===================     =======================================================================================================================================================================
+===================     ========================================================================================================================================================
 **Description:**        * Different levels can be maintained for the dashboard to dive in the report and get more enhanced review of the report.
                         * A user or supplier can have a detailed view of all the products drilled down in the report that allows a user to explore the quality issues.
 
@@ -18,4 +17,107 @@ Drill Down for KPI Reports is a data governance feature that sets up drill down 
                             A KPI for a fashion taxonomy is created, it can be drilled down to a sub-level of the fashion taxonomy,
                             and then again, there can be another drill down based on a *Color* tag, by which the user can have a detailed report and then explore all the KPI.
 
-===================     =======================================================================================================================================================================
+===================     ===========================================================================================================================================================
+
+How to do: Drill Down for KPI Reports
+=====================================
+To do this, follow these steps:
+
+#. Click  **Administration** icon.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_gotoadmin.PNG
+|
+|
+
+#. Click the *Data Governance* tab from the top.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdatagov.PNG
+|
+|
+
+#.  Click   **KPIs**.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickkpi.PNG
+|
+|
+
+#. Click the **+** icon at the top right to create a new KPI.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickplus.PNG
+|
+|
+
+#.   Enter a name and code(optional). Then, click  **CREATE** to create the KPI.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_enterdetails.PNG
+|
+|
+
+#.      Once the KPI is created, it will appear in the list of KPI, click  the **Edit** icon.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickedit.PNG
+|
+|
+
+#.      On the *KPI Information* tab, click to select **Class**. then, **Taxonomy**.
+
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selclass.PNG
+|
+|
+
+#.      Click the *Completeness* tab. Then, click to select **attributes** and **Tags**.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selcomp.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selcompb.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_compadrulb.PNG
+|
+|
+
+#.      Click **Apply**.  Click **SAVE** to save the changes.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_compadrulc.PNG
+|
+|
+
+#.      Repeat the similars teps for *Conformity*, *Uniqueness* and  *Accuracy* tab. Click to select the attributes and tags.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selconform.PNG
+|
+|
+
+#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is present ( in this  demo, we selected "Fashionista").
+
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selpartad.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selfash.PNG
+|
+|
+
+#.       Click *Roles* tab and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_asskpi.PNG
+|
+|
+
+
+#.        Logout from the system and  login with the user belonging to the role, to view the KPI for that role.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_logout.PNG
+|
+|
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_viewkpi.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
