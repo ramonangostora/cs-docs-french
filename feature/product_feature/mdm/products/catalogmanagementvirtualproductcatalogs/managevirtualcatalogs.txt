@@ -6,7 +6,7 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
 
 ===================     =======================================================================================================================================================================
 **Description:**        * A *Virtual Catalog* is a collection of various items put together by a user (usually a retailer) to be used at a specific time or for a certain occasion.
-                        * These catalogs vary according to users and can be restricted in terms of who can view and edit them.
+                        * The catalogs vary according to users and access to these catalogs can be restricted in terms of who can view and edit them.
 
 **Related topics:**     * :doc:`Collections and Bookmarks </feature/product_feature/mdm/general/collectionsandbookmarks/index>`
 
@@ -14,7 +14,7 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
                         * Catalogs can be made user-specific.
                         * *Example:*
 
-                            *Retailer A* with a *clothing franchise* creates a winter collection in a catalog and uses this virtual catalog when winter arrives.
+                            *Retailer A* with a *clothing franchise* creates a winter collection and uses this virtual catalog when winter arrives.
 
                         * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
 
@@ -27,73 +27,89 @@ To do this feature, follow these steps:
 
 |
 
-#. Step.
+#. Log in and go to *Administration*.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_login.PNG
 |
 |
 
 
-#. Step.
+#. Click the **Data Model** tab and go to *Classes*.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_gotodatamodel.PNG
 |
 |
 
 
-#. Step.
+#. Under *Classes*, go to the *Virtual Catalog*.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_underclassesgotovirtualcatalog.PNG
 |
 |
 
 
-#. Step.
+#. Click on the **Virtual Catalog** in the first column and click on the "+" icon to create a new catalog in the second column.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_clickonthevirtualcatalog.PNG
 |
 |
 
 
-#. Step.
+#. Fill out all the details like the *Name, Nature Type, and Type*. It is optional to provide a detail for the *Code* field. Click on the **Create** button once done.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_fillouthedetails.PNG
 |
 |
 
 
-#. Step.
+#. Add a *Property Collection* by clicking the "+" icon in *Section*. Select and then click the **Apply** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_addapropertycollection.PNG
 |
 |
 
 
+#. Click the **Explore** button and then go to the *Virtual Catalog*.
 
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_clicktheexplorebutton.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_clicktheexplorebutton2.PNG
 |
 |
 
 
-#. Step.
+#. Hover over the "+" icon to see the Collection class that was made.  Click on the class.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_hoverovertheicon.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_hoverovertheicon2.PNG
 |
 |
 
 
-#. Step.
+#. Go to the *Overview* tab and then click the **+ Add Product(s)** button under the *Products* section.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_gotooverview.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_gotooverview2.PNG
 |
 |
 
 
-#. Step.
+#. Create a collection by adding products (or selecting them from existing products). Choose the products and click the **Add** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_createacollection.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_createacollection2.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_createacollection3.PNG
+|
+|
+
+
+#. View and check the virtual product catalog.
+
+.. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_viewandcheck.PNG
 |
 |
 
