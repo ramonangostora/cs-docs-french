@@ -2,14 +2,14 @@
 Monitor Data Quality
 =====================
 The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog.
-This feature better defines the products and takes corrective actions to maintain good quality.
+This feature helps define the products better and takes corrective actions to maintain good quality of data.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * All set rules regarding *Accuracy, Completeness, Conformity and Uniqueness* are monitored here.
+**Description:**        * All set rules regarding *Accuracy, Completeness, Conformity, and Uniqueness* are monitored using this feature.
                         * The *Dashboard* and *Graphical View* display the results as per data in the system.
                         * The result shows a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These are displayed in percentage format.
-                        * The users/suppliers can have a detailed view of all the products in a report that also explores the quality issues.
+                        * The users/suppliers can have a detailed view of all the products in a report that explores the quality issues.
 
 **Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
                         * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
@@ -80,44 +80,43 @@ To monitor data quality, follow these steps:
 
 #. On the *KPI Details* page, select a *Class* and *Taxonomy* for which the KPI is designed to be used.  Click the **Apply** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy2.PNG
 |
 |
 
 
-#. In the sublevels, add *Tags* or *Taxonomies*, in which the KPI is to be categorized into.
+#. For the drill down levels, add *Tags* or *Taxonomies*, in which the KPI is to be categorized into.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
 |
 |
 
 
-#. Fill out the details of the rules and click on the **Save** button.
+#. Fill out the details of the rules and and once done, click on the **OK** button.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthedetailsoftherules.PNG
 |
 |
 
 
 #. Click on the **Explore** button and then go to *Dashboard*.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonexploreandthendashboard.PNG
 |
 |
 
 
 #. A new dashboard for the KPI will be created.  Click on the graph and drill down the KPI with the added taxonomy and tag.
 
-.. image:: /feature/_images/mdmimages/image.PNG
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_anewdashboard.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_anewdashboard2.PNG
 |
 |
 
 
-Note: A breadcrumb will be displayed on the top and by selecting it, the user can move in between the levels.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
