@@ -1,23 +1,23 @@
 ===========================
 KPI-based Conformity Rules
 ===========================
-The KPI-based Conformity Rules is a data governance feature that sets up rules to assess the conformance of an *Article* or a *Product* to the acceptable standards in relation to a KPI.
+The KPI-based Conformity Rules is a data governance feature that sets up rules to assess the conformance of an *Article* or a *Product* to the acceptable standards.
 
 
 ===================     =======================================================================================================================================================================
 **Key Term:**           * **Key Performance Indicator (KPI):** is a measurement used to determine the quality of product data added into the system in relation to a set standard.
 
-**Description:**        * KPIs help to find the accuracy of the products on the basis of articles attributes taxonomy and tags.
-                        * KPIs check the following 4 factors: *Completeness, Conformity, Uniqueness, Accuracy.*
+**Description:**        * KPIs help to find the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
+                        * KPIs check the following 4 factors: *Completeness, Conformity, Uniqueness, and Accuracy.*
                         * KPIs also drill down on the basis of Taxonomy and Tags.
-                        * The KPI: **Conformity** checks the accuracy of data in the product.
+                        * The KPI: **Conformity** checks the accuracy of data in the product and also inspects the data compliance with respect to the standards.
 
 **Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
                         * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
                         * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
                         * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data completeness** is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.
+**Application:**        * **Data conformity** is one of the most important data quality and accuracy checking characteristics. It is a very important factor for KPIs.
                         * *Example:*
 
                             An organization sells furniture products. They have attributes for *Length of the wood* and tags for *Color*.
@@ -74,7 +74,7 @@ To do this feature, follow these steps:
 |
 
 
-#. On the *KPI Details* page, select a *Class* and *Taxonomy* for which the KPI is to be used.  Click the **Apply** button.
+#. On the *KPI Details* page, select a *Class* and *Taxonomy*, which will use the KPI.  Click the **Apply** button.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
 |
@@ -83,21 +83,21 @@ To do this feature, follow these steps:
 |
 
 
-#. For the drill down levels, add *Tags* or *Taxonomies*, wherein the KPI is to be categorized into.
+#. For the Drill down levels, add *Tags* or *Taxonomies*, where the KPI is to be categorized into.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
 |
 |
 
 
-#. Click on the **Conformity** tab and click on the "+" icon to create a new rule.
+#. Click on the **Conformity** tab and click on the **+ Add Rule** button to create a new rule.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_clickontheconformity.PNG
 |
 |
 
 
-#. Provide the details for the *Label, Attributes, and Tags* to which the user would want to apply the rule. Select the rules according to the requirements.
+#. Provide the details for the *Label, Attributes, and Tags* to which the rule will be applied. Select the rules according to the requirements and standards.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_providethedetails.PNG
 |
@@ -112,8 +112,9 @@ To do this feature, follow these steps:
 |
 |
 
-*Note: A notification will confirm that the rule is created. Click OK to continue.*
+*Note: A notification will confirm that the rule and the KPI have been created. Click OK to continue.*
 
+|
 |
 
 
