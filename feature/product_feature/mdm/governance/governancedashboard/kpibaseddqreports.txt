@@ -32,19 +32,19 @@ To do this, follow these steps:
 |
 |
 
-#. Click on the *Data Governance* tab from the tab at the top.
+#. Click the *Data Governance* tab from the top.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickgov.PNG
 |
 |
 
-#.  Click   **KPIs** .
+#.  Click   **KPIs**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickkpi.PNG
 |
 |
 
-#. Click the '+' icon at the top right to create a new KPI.
+#. Click the **+** icon at the top right to create a new KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
@@ -62,16 +62,20 @@ To do this, follow these steps:
 |
 |
 
-#.      Click the **Class** and **Taxonomy** KPI-designed section.
+#.      On the *KPI Information* tab, click to select **Class**. then, **Taxonomy**.
 
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
 |
 |
 
-#.      Click the *Completeness* tab on the top and add rule for completeness. Then, select the attributes and Tags.
+#.      Click the *Completeness* tab. Then, click to select **attributes** and **Tags**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selcomp.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selcompb.PNG
 |
 |
 
@@ -79,7 +83,7 @@ To do this, follow these steps:
 |
 |
 
-#.      Click **Apply**. Then, click **SAVE** to save the changes.
+#.      Click **Apply**.  Click **SAVE** to save the changes.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_compadrulc.PNG
 |
@@ -91,7 +95,7 @@ To do this, follow these steps:
 |
 |
 
-#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is presen ( in this  demo, we selected "Fashionista".
+#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is present ( in this  demo, we selected "Fashionista").
 
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selpartad.PNG
