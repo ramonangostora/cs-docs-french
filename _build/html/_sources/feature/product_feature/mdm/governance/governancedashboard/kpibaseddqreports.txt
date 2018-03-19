@@ -102,19 +102,14 @@ To do this, follow these steps:
 |
 |
 
-#.       Click **Roles** and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
+#.       Click *Roles* tab and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_asskpi.PNG
 |
 |
 
-#.        Logout from the system then login with the user belonging to the role, to view the KPI for that role.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
-|
-|
-
-#.        Logout from the system then login with the user belonging to the role, to view the KPI for that role.
+#.        Logout from the system and  login with the user belonging to the role, to view the KPI for that role.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
 |
