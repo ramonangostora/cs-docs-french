@@ -20,7 +20,7 @@ This feature helps define the products better and takes corrective actions to ma
 
 **Application:**        * Dashboards often provide at-a-glance views of KPIs *(Key Performance Indicators)* relevant to a particular objective or business process.
                         * These reports help a user understand the products in the system and if there are any errors in them.
-                          Also, a user is presented a precise and accurate view of the data in the system with respect to *Data Quality*.
+                          Also, a user is presented with a precise and accurate view of the data in the system with respect to *Data Quality*.
                         * A user can see all the set rules together in a single graph.
                         * *Example:*
 
@@ -78,7 +78,7 @@ To monitor data quality, follow these steps:
 |
 
 
-#. On the *KPI Details* page, select a *Class* and *Taxonomy* for which the KPI is designed to be used.  Click the **Apply** button.
+#. On the *KPI Details* page, select a *Class* and *Taxonomy* for which the KPI is to be used.  Click the **Apply** button.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
 |
@@ -87,28 +87,28 @@ To monitor data quality, follow these steps:
 |
 
 
-#. For the drill down levels, add *Tags* or *Taxonomies*, in which the KPI is to be categorized into.
+#. For the drill down levels, add *Tags* or *Taxonomies*, wherein the KPI is to be categorized into.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
 |
 |
 
 
-#. Fill out the details of the rules and and once done, click on the **OK** button.
+#. Provide the details of the rules and once done, click on the **OK** button.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthedetailsoftherules.PNG
 |
 |
 
 
-#. Click on the **Explore** button and then go to *Dashboard*.
+#. Click on the **Explore** button and then go to the *Dashboard*.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonexploreandthendashboard.PNG
 |
 |
 
 
-#. A new dashboard for the KPI will be created.  Click on the graph and drill down the KPI with the added taxonomy and tag.
+#. A new dashboard for the KPI will be created.  Click on the graph and drill down on the details of the KPI using the added taxonomy and tag.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_anewdashboard.PNG
 |
