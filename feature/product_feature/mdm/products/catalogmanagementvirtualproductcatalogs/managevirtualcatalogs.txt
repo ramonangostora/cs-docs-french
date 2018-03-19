@@ -1,7 +1,7 @@
 ========================
 Manage Virtual Catalogs
 ========================
-Manage Virtual Catalogs feature creates multiple collections and bookmarks to effectively manage different selections of products in the catalog.
+The Manage Virtual Catalogs feature creates multiple collections and bookmarks to effectively manage different selections of products in the catalog.
 
 
 ===================     =======================================================================================================================================================================
@@ -14,7 +14,7 @@ Manage Virtual Catalogs feature creates multiple collections and bookmarks to ef
                         * Catalogs can be made user-specific.
                         * *Example:*
 
-                            *Retailer A* with a *clothing franchise* creates a winter collection and uses this virtual catalog when winter arrives.
+                            *Retailer A* with a *clothing franchise* creates a winter collection and uses this virtual catalog when the winter season arrives.
 
                         * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
 
@@ -48,21 +48,21 @@ To do this feature, follow these steps:
 |
 
 
-#. Click on the **Virtual Catalog** in the first column and click on the "+" icon to create a new catalog in the second column.
+#. Click on the **Virtual Catalog** in the first column and click on the "+" icon in the second column to create a new catalog.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_clickonthevirtualcatalog.PNG
 |
 |
 
 
-#. Fill out all the details like the *Name, Nature Type, and Type*. It is optional to provide a detail for the *Code* field. Click on the **Create** button once done.
+#. Fill out all the details like *Name, Nature Type, and Type*. It is optional to provide a detail for the *Code* field. Click on the **Create** button once done.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_fillouthedetails.PNG
 |
 |
 
 
-#. Add a *Property Collection* by clicking the "+" icon in *Section*. Select and then click the **Apply** button.
+#. Add a *Property Collection* by clicking the "+" icon in *Section*. Select a *Property Collection* and then click the **Apply** button.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_addapropertycollection.PNG
 |
@@ -78,7 +78,7 @@ To do this feature, follow these steps:
 |
 
 
-#. Hover over the "+" icon to see the Collection class that was made.  Click on the class.
+#. Hover over the "+" icon to see the *Collection* class that was created.  Click on the class.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_hoverovertheicon.PNG
 |
@@ -96,7 +96,7 @@ To do this feature, follow these steps:
 |
 
 
-#. Create a collection by adding products (or selecting them from existing products). Choose the products and click the **Add** button.
+#. Create a collection by adding products (or selecting them from existing products). Choose the products to be added in the collection and click the **Add** button.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_createacollection.PNG
 |
