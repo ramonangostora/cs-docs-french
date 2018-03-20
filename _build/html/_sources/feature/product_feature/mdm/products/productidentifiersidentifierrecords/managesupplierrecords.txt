@@ -27,7 +27,7 @@ Manage Supplier Records is a feature that manages supplier records and their ide
 
 							              **Unit is a Base Unit:** when the basic measurement of the product is one unit. An example is a *piece*.
 
-**Related topics:**     * *Manage Product Keys*
+**Related topics:**     * :doc:`Manage Product Keys </feature/product_feature/mdm/products/productidentifiersidentifierrecords/managesupplierrecords>`
 
 **Application:**        * This feature is used to manage supplier records with their identifiers in 'units' to trace back the product to the supplier.
                         * If a similar product is sold by various suppliers, the *Standard Identifiers* will help identify which product belongs to which supplier.
@@ -38,3 +38,65 @@ Manage Supplier Records is a feature that manages supplier records and their ide
                             *order unit, sales unit, or a base unit*.
 
 ===================     =======================================================================================================================================================================
+
+
+
+
+How to do: Manage Product Keys
+===============================
+To manage product keys, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickadministration.PNG
+|
+|
+
+#. Go to the **Data Model** tab and under *Classes*, click on **Supplier**.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_gotodatamodel.PNG
+|
+|
+
+#. Click on "+" button.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusbutton.PNG
+|
+|
+
+#. Enter the name and enable the nature class then click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_entername.PNG
+|
+|
+
+#. Click on the **Explore** button.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickexplore.PNG
+|
+|
+
+#. Click on **Supplier**.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clicksupplier.PNG
+|
+|
+
+#. Hover on the "+" icon to add supplier class.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus1.PNG
+
+
+|
+
+#. Enter the information about the supplier.
+
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_enterinformation.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
