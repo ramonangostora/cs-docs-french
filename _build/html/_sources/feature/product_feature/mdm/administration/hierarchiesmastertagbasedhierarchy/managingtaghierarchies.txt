@@ -21,7 +21,7 @@ This feature allows mixing and matching of tags to build simple hierarchies.
                         * *Example:*
 
                             If we create a hierarchy for *Fashion* (Level 1), it can be further classified using a sublevel like *Shirts, Trousers, etc* (Level 2).
-                            A *Shirt* can then be further classified based on its *material or pattern* (Level 3).
+                            A *Shirt* can then be further classified based on its *Material or Pattern* (Level 3).
 
 ===================     =======================================================================================================================================================================
 
