@@ -1,123 +1,95 @@
-===========================
+=========================
 Drill Down for KPI Reports
-===========================
+=========================
 Drill Down for KPI Reports is a data governance feature that sets up drill down criteria for DQ (Data Quality) reports so that responsible users can explore the quality issues.
 
-===================     ========================================================================================================================================================
+===================     =======================================================================================================================================================================
 **Description:**        * Different levels can be maintained for the dashboard to dive in the report and get more enhanced review of the report.
                         * A user or supplier can have a detailed view of all the products drilled down in the report that allows a user to explore the quality issues.
 
-**Related topics:**     * *Taxonomy Management*
-                        * *Products*
-
+**Related topics:**
+                        * :doc:`Monitor Data Quality</feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
+                        * :doc:`KPI-based DQ Reports </feature/product_feature/mdm/governance/governancedashboard/kpibaseddqreports>`
 **Application:**        * This feature helps the user or supplier to have an in-depth DQ report for all the products available.
                         * A user or supplier can narrow down on the products with quality issues. This can be based on a *Taxonomy* or a *Tag*.
                         * *Example:*
 
-                            A KPI for a fashion taxonomy is created, it can be drilled down to a sub-level of the fashion taxonomy,
-                            and then again, there can be another drill down based on a *Color* tag, by which the user can have a detailed report and then explore all the KPI.
+                            A KPI for a fashion taxonomy is created, it can be drilled down to a sub-level of the fashion taxonomy,and then again,
+                            there can be another drill down based on a *Color tag*, by which the user can have a detailed report and then explore all the KPI.
 
-===================     ===========================================================================================================================================================
+===================     =======================================================================================================================================================================
 
-How to do: Drill Down for KPI Reports
-=====================================
+How to do: KPI Based DQ Reports
+===============================
 To do this, follow these steps:
 
-#. Click  **Administration** icon.
+#. Click   **Administration** icon.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_gotoadmin.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_gotoadmin.PNG
 |
 |
 
-#. Click the *Data Governance* tab from the top.
+#. Click  *Data Governance* tab from the top.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdatagov.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickgov.PNG
 |
 |
 
 #.  Click   **KPIs**.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickkpi.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickkpi.PNG
 |
 |
 
 #. Click the **+** icon at the top right to create a new KPI.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickplus.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
 |
 
 #.   Enter a name and code(optional). Then, click  **CREATE** to create the KPI.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_enterdetails.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
 |
 
-#.      Once the KPI is created, it will appear in the list of KPI, click  the **Edit** icon.
+#.      Once the KPI is created, it appears in the list of KPI, click  the **Edit** icon.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickedit.PNG
-|
-|
-
-#.      On the *KPI Information* tab, click to select **Class**. then, **Taxonomy**.
-
-
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selclass.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickedit.PNG
 |
 |
 
-#.      Click the *Completeness* tab. Then, click to select **attributes** and **Tags**.
+#.      On the *KPI Information* tab, click to select a **Class** and **Taxonomy**.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selcomp.PNG
-|
-|
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selcompb.PNG
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
 |
 |
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_compadrulb.PNG
+#.     Add the tags or taxonomies in the selected KPI drill down levels.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_addtaxtag.PNG
 |
 |
 
-#.      Click **Apply**.  Click **SAVE** to save the changes.
+#.     Click **SAVE** to save the changes.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_compadrulc.PNG
-|
-|
-
-#.      Repeat the similars teps for *Conformity*, *Uniqueness* and  *Accuracy* tab. Click to select the attributes and tags.
-
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selconform.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clicksave.PNG
 |
 |
 
-#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is present ( in this  demo, we selected "Fashionista").
+#.     Click **Explore** to go back to the dashboard.
 
-
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selpartad.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdash.PNG
 |
 |
+#.     The dashboard is created, it drills down in the KPI click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selfash.PNG
-|
-|
 
-#.       Click *Roles* tab and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
-
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_asskpi.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_cviewkpi.PNG
 |
 |
 
-
-#.        Logout from the system and  login with the user belonging to the role, to view the KPI for that role.
-
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_logout.PNG
-|
-|
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_viewkpi.PNG
-|
-|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

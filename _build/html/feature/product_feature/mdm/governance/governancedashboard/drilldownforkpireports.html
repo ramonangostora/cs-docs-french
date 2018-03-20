@@ -119,21 +119,58 @@
   <div class="section" id="s-drill-down-for-kpi-reports">
 <span id="drill-down-for-kpi-reports"></span><h1>Drill Down for KPI Reports<a class="headerlink" href="#drill-down-for-kpi-reports" title="Permalink to this headline">¶</a></h1>
 <p>Drill Down for KPI Reports is a data governance feature that sets up drill down criteria for DQ (Data Quality) reports so that responsible users can explore the quality issues.</p>
-<div class="section" id="s-how-to-do-drill-down-for-kpi-reports">
-<span id="how-to-do-drill-down-for-kpi-reports"></span><h2>How to do: Drill Down for KPI Reports<a class="headerlink" href="#how-to-do-drill-down-for-kpi-reports" title="Permalink to this headline">¶</a></h2>
+<table class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Different levels can be maintained for the dashboard to dive in the report and get more enhanced review of the report.</li>
+<li>A user or supplier can have a detailed view of all the products drilled down in the report that allows a user to explore the quality issues.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../measureandmonitor/monitordataquality.html"><span class="doc">Monitor Data Quality</span></a></li>
+<li><a class="reference internal" href="kpibaseddqreports.html"><span class="doc">KPI-based DQ Reports</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">This feature helps the user or supplier to have an in-depth DQ report for all the products available.</p>
+</li>
+<li><p class="first">A user or supplier can narrow down on the products with quality issues. This can be based on a <em>Taxonomy</em> or a <em>Tag</em>.</p>
+</li>
+<li><p class="first"><em>Example:</em></p>
+<blockquote>
+<div><p>A KPI for a fashion taxonomy is created, it can be drilled down to a sub-level of the fashion taxonomy,and then again,
+there can be another drill down based on a <em>Color tag</em>, by which the user can have a detailed report and then explore all the KPI.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="s-how-to-do-kpi-based-dq-reports">
+<span id="how-to-do-kpi-based-dq-reports"></span><h2>How to do: KPI Based DQ Reports<a class="headerlink" href="#how-to-do-kpi-based-dq-reports" title="Permalink to this headline">¶</a></h2>
 <p>To do this, follow these steps:</p>
 <ol class="arabic simple">
-<li>Click  <strong>Administration</strong> icon.</li>
+<li>Click   <strong>Administration</strong> icon.</li>
 </ol>
-<img alt="../../../../../_images/cs_drilldownforkpireports_gotoadmin.PNG" src="../../../../../_images/cs_drilldownforkpireports_gotoadmin.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_gotoadmin.PNG" src="../../../../../_images/cs_kpibaseddqreports_gotoadmin.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click the <em>Data Governance</em> tab from the top.</li>
+<li>Click  <em>Data Governance</em> tab from the top.</li>
 </ol>
-<img alt="../../../../../_images/cs_drilldownforkpireports_clickdatagov.PNG" src="../../../../../_images/cs_drilldownforkpireports_clickdatagov.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_clickgov.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickgov.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -141,7 +178,7 @@
 <ol class="arabic simple">
 <li>Click   <strong>KPIs</strong>.</li>
 </ol>
-<img alt="../../../../../_images/cs_drilldownforkpireports_clickkpi.PNG" src="../../../../../_images/cs_drilldownforkpireports_clickkpi.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_clickkpi.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickkpi.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -149,7 +186,7 @@
 <ol class="arabic simple">
 <li>Click the <strong>+</strong> icon at the top right to create a new KPI.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_clickplus.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_clickplus.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_clickplus.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickplus.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -157,91 +194,55 @@
 <ol class="arabic simple">
 <li>Enter a name and code(optional). Then, click  <strong>CREATE</strong> to create the KPI.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_enterdetails.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_enterdetails.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_enterdetails.PNG" src="../../../../../_images/cs_kpibaseddqreports_enterdetails.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Once the KPI is created, it will appear in the list of KPI, click  the <strong>Edit</strong> icon.</li>
+<li>Once the KPI is created, it appears in the list of KPI, click  the <strong>Edit</strong> icon.</li>
 </ol>
-<img alt="../../../../../_images/cs_drilldownforkpireports_clickedit.PNG" src="../../../../../_images/cs_drilldownforkpireports_clickedit.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_clickedit.PNG" src="../../../../../_images/cs_kpibaseddqreports_clickedit.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>On the <em>KPI Information</em> tab, click to select <strong>Class</strong>. then, <strong>Taxonomy</strong>.</li>
+<li>On the <em>KPI Information</em> tab, click to select a <strong>Class</strong> and <strong>Taxonomy</strong>.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selclass.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selclass.PNG" />
+<img alt="../../../../../_images/cs_kpibaseddqreports_selclass.PNG" src="../../../../../_images/cs_kpibaseddqreports_selclass.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click the <em>Completeness</em> tab. Then, click to select <strong>attributes</strong> and <strong>Tags</strong>.</li>
+<li>Add the tags or taxonomies in the selected KPI drill down levels.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selcomp.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selcomp.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selcompb.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selcompb.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_compadrulb.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_compadrulb.PNG" />
+<img alt="../../../../../_images/cs_drilldownforkpireports_addtaxtag.PNG" src="../../../../../_images/cs_drilldownforkpireports_addtaxtag.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click <strong>Apply</strong>.  Click <strong>SAVE</strong> to save the changes.</li>
+<li>Click <strong>SAVE</strong> to save the changes.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_compadrulc.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_compadrulc.PNG" />
+<img alt="../../../../../_images/cs_drilldownforkpireports_clicksave.PNG" src="../../../../../_images/cs_drilldownforkpireports_clicksave.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Repeat the similars teps for <em>Conformity</em>, <em>Uniqueness</em> and  <em>Accuracy</em> tab. Click to select the attributes and tags.</li>
+<li>Click <strong>Explore</strong> to go back to the dashboard.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selconform.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selconform.PNG" />
+<img alt="../../../../../_images/cs_drilldownforkpireports_clickdash.PNG" src="../../../../../_images/cs_drilldownforkpireports_clickdash.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>To assign the KPI to a role, click  <em>Partner Administration</em> tab and  select the Organization where the role is present ( in this  demo, we selected “Fashionista”).</li>
+<li>The dashboard is created, it drills down in the KPI click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.</li>
 </ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selpartad.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selpartad.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_selfash.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_selfash.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Click <em>Roles</em> tab and select a role ( in this demo, we selected ” Garment Supplier”). Then, select a  KPI and click <strong>APPLY</strong>.</li>
-</ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_asskpi.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_asskpi.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<ol class="arabic simple">
-<li>Logout from the system and  login with the user belonging to the role, to view the KPI for that role.</li>
-</ol>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_logout.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_logout.PNG" />
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><br /></div>
-</div>
-<img alt="feature/_images/mdmimages/cs_drilldownforkpireports_viewkpi.PNG" src="feature/_images/mdmimages/cs_drilldownforkpireports_viewkpi.PNG" />
+<img alt="../../../../../_images/cs_drilldownforkpireports_cviewkpi.PNG" src="../../../../../_images/cs_drilldownforkpireports_cviewkpi.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
@@ -264,7 +265,7 @@
   <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Drill Down for KPI Reports</a><ul>
-<li><a class="reference internal" href="#how-to-do-drill-down-for-kpi-reports">How to do: Drill Down for KPI Reports</a></li>
+<li><a class="reference internal" href="#how-to-do-kpi-based-dq-reports">How to do: KPI Based DQ Reports</a></li>
 </ul>
 </li>
 </ul>
@@ -311,7 +312,7 @@
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Mar 19, 2018</p>
+                <p class="topless">Mar 20, 2018</p>
             </div>
           </div>
         
