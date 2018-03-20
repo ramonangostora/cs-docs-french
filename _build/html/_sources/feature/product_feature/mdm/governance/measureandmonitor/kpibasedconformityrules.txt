@@ -12,8 +12,8 @@ The KPI-based Conformity Rules is a data governance feature that sets up rules t
                         * KPIs drill down on the basis of *Taxonomy* and *Tags*.
                         * The KPI: **Conformity** checks the accuracy of data in the product and also inspects the data compliance with respect to the standards.
 
-**Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
-                        * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
                         * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
                         * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 

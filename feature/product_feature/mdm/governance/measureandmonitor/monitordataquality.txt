@@ -11,8 +11,8 @@ This feature helps define the products better and takes corrective actions to ma
                         * The results show a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These measures are displayed in percentage format.
                         * The users/suppliers can have a detailed view of all the products in a report that explores the quality issues.
 
-**Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
-                        * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
                         * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
                         * :doc:`KPI-based Completeness Rules </feature/product_feature/mdm/governance/measureandmonitor/kpibasedcompletenessrules>`
                         * :doc:`KPI-based Conformity Rules </feature/product_feature/mdm/governance/measureandmonitor/kpibasedconformityrules>`
