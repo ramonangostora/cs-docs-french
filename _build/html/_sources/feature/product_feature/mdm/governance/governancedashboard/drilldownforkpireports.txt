@@ -41,25 +41,25 @@ To do this, follow these steps:
 |
 |
 
-#. Click the ''**+**' icon at the top right to create a new KPI.
+#. Click the '**+**' icon at the top right to create a new KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
 |
 
-#.   Enter a name and code(optional). Then, click  **CREATE** to create the KPI.
+#.   Enter a name and code(optional). Then, click  **CREATE** to continue.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
 |
 
-#.      Once the KPI is created, it appears in the list of KPI, click  the **Edit** icon.
+#.      Once the KPI is created, it appears in the list of KPI. Click the **Edit** icon.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickedit.PNG
 |
 |
 
-#.      On the *KPI Information* tab, click to select a **Class** and **Taxonomy**.
+#.      On the *KPI Information* tab, click to select **Class** and **Taxonomy**.
 
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
@@ -83,7 +83,7 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdash.PNG
 |
 |
-#.     View the  is created dashboard. It drills down in the KPI, click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.
+#.     View the  created dashboard. It drills down in the KPI, click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.
 
 
 .. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_cviewkpi.PNG
