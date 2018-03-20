@@ -1,7 +1,7 @@
 ==================
 Import Attributes
 ==================
-The Import Attributes is a feature that allows importing of attribute definitions and data so that multiple attributes can be added in the system in one go.
+The Import Attributes is a feature that allows importing of attribute definitions and data so that multiple attributes can be created in one go.
 
 
 ===================     =========================================================================================================================================================================
