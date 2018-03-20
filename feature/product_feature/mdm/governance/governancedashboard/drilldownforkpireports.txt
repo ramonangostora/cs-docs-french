@@ -41,7 +41,7 @@ To do this, follow these steps:
 |
 |
 
-#. Click the **+** icon at the top right to create a new KPI.
+#. Click the ''**+**' icon at the top right to create a new KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
@@ -83,7 +83,7 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdash.PNG
 |
 |
-#.     The dashboard is created, it drills down in the KPI click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.
+#.     View the  is created dashboard. It drills down in the KPI, click on the graph bar and the KPI is drilled down with the appropriate taxonomy and tag.
 
 
 .. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_cviewkpi.PNG
