@@ -17,7 +17,7 @@ The KPI-based Completeness Rules is a data governance feature that sets up rules
                         * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
                         * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data Completeness** is one of the most important data quality measures.  It is one of the most important factors for KPI's.
+**Application:**        * **Data Completeness** is one of the most important data quality measures.  It is one of the most important factors for KPIs.
                         * *Example:*
 
                             Supplier A with 100 fashion products sets up a rule stating that the *Name Attribute* can't be left blank.
