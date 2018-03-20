@@ -10,7 +10,7 @@ The KPI-based Completeness Rules is a data governance feature that sets up rules
 **Description:**        * KPIs demonstrate the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
                         * KPIs check the following data accuracy measures: *Accuracy, Completeness, Conformity and Uniqueness*.
                         * KPIs can be drilled down on the basis of *Taxonomy* and *Tags*.
-                        * The KPI: **Completeness,** as the name suggests, ensures that the product data are complete in all aspects.
+                        * The KPI: **Completeness**, as the name suggests, ensures that the product data are complete in all aspects.
 
 **Related topics:**     * :doc:`Tag Management features </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
                         * :doc:`Attribute Management features </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`

@@ -2,7 +2,7 @@
 Monitor Data Quality
 =====================
 The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog.
-This feature helps define the products better and takes corrective actions to maintain good quality of data.
+This feature helps define the products better and takes corrective actions to maintain a good quality of data.
 
 
 ===================     =======================================================================================================================================================================
