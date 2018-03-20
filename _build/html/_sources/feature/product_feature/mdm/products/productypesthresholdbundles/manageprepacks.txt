@@ -20,3 +20,12 @@ Manage Prepacks is a feature that allows a user to group together different prod
                             These products can be sold either as a combo or individual items.
 
 ===================     =======================================================================================================================================================================
+
+How to do: Manage Prepacks
+==========================
+To do this, follow these steps:
+
+#. Click  **Administration** icon.
+
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_gotoadmin.PNG
+|
