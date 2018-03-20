@@ -8,7 +8,7 @@ This feature better defines the products and takes corrective actions to maintai
 ===================     =======================================================================================================================================================================
 **Description:**        * All the set rules regarding *Accuracy, Completeness, Conformity and Uniqueness* are monitored here.
                         * The *Dashboard* and *Graphical View* display the results as per data in the system.
-                        * The result shows a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These are displayed in percentage format.
+                        * The result shows a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These are displayed in a percentage format.
                         * The users/suppliers can have a detailed view of all the products in a report that also explores the quality issues.
 
 **Related topics:**     * *Tags Management*
