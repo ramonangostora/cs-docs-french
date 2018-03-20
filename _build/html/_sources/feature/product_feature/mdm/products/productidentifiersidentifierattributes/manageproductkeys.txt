@@ -45,7 +45,7 @@ To manage product keys, follow these steps:
 |
 |
 
-#. Click on the "+" icon to add property collection.
+#. In the *Section* bar, click on the "+" icon to add property collection.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusicon.PNG
 |
@@ -63,34 +63,45 @@ To manage product keys, follow these steps:
 |
 |
 
-#. Click on the **Explore** button and create a product from the class "Single Article".
+#. Click on the **Explore** button and go to *PIM*, then create a product from the class "Single Article".
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickexplore.PNG
 |
 |
 
-#. Edit the product and enter value in the attribute that was selected as product key..
+#. Edit the product and enter value in the attribute that was selected as product key.
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_editproduct.PNG
 |
 |
 
 #. Click on any blank area outside to show the **Save** button then click on the **Save** button.
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickblankarea.PNG
 |
 |
 
-#. Go back to PIM and create another product of the same class.
+#. Go back to *PIM* and create another product of the same class.
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_gobacktopim.PNG
 |
 |
 
 #. Edit the same attribute with the same value as with the previous product
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_editsameattribute1.PNG
 |
 |
 
 #. Click on the "Save" button and violation for uniqueness will appear.
 
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clicksave.PNG
 |
+.. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clicksave2.PNG
+|
+
+#. Enter a unique value in the attribute for that product to resolve the violation.
+
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
