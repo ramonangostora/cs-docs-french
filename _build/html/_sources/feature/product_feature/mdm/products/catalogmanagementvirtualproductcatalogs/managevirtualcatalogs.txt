@@ -16,7 +16,7 @@ The Manage Virtual Catalogs feature creates multiple collections and bookmarks t
 
                             *Retailer A* with a *clothing franchise* creates a winter collection and uses this virtual catalog when the winter season arrives.
 
-                        * *Note: The collection created is not in* **PIM** *but in the entity,* **Virtual Catalog**.
+                        * *Note: The collection created is not in PIM but in the entity, Virtual Catalog*.
 
 ===================     =======================================================================================================================================================================
 
@@ -41,7 +41,7 @@ To do this feature, follow these steps:
 |
 
 
-#. Under *Classes*, go to the *Virtual Catalog*.
+#. Under *Classes*, go to *Virtual Catalog*.
 
 .. image:: /feature/_images/mdmimages/cs_managevirtualcatalog_underclassesgotovirtualcatalog.PNG
 |
