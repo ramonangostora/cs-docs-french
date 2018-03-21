@@ -1,7 +1,7 @@
 ========================
 Manage Supplier Records
 ========================
-Manage Supplier Records is a feature that manages supplier records and their identifiers in the *Units* that allows the system to trace back the *Product* to the *Supplier*.
+Manage Supplier Records is a feature that manages supplier records and their identifiers in the *Units* that allow the system to trace back the *Product* to the *Supplier*.
 
 
 ===================     =======================================================================================================================================================================
@@ -18,12 +18,12 @@ Manage Supplier Records is a feature that manages supplier records and their ide
 
 							              **Supplier Name:** each supplier can be identified by its name.
 
-                        * **Unit:** Units are mentioned for the measurement of the products or their distinction. This is an important information for sale. Various measurement units used are *Box, Piece, etc*.
+                        * **Unit:** Units are mentioned for the measurement of the products or their distinction. This is an important information for sales. Various measurement units used are *Box, Piece, etc*.
 
-							              **Unit is an Order Unit:** when the quantity of the product is high. It will come under the *is order unit* category. This unit is usually used by wholesaler or a big supplier. An example is a *crate*.
+							              **Unit is an Order Unit:** when the quantity of the product is high. It will come under the *is order unit* category. This unit is typically used by wholesaler or a big supplier. An example is a *crate*.
 
 							              **Unit is a Sales Unit:** when the quantity of the product is moderate. It will come under the *is sales unit* category.
-							              This unit is usually used by consumer or the supplier. An example is a *box*.
+							              This unit is typically used by the consumer or the supplier. An example is a *box*.
 
 							              **Unit is a Base Unit:** when the basic measurement of the product is one unit. An example is a *piece*.
 
@@ -42,9 +42,9 @@ Manage Supplier Records is a feature that manages supplier records and their ide
 
 
 
-How to do: Manage Product Keys
-===============================
-To manage product keys, follow these steps:
+How to do: Manage Supplier Records
+===================================
+To manage supplier records, follow these steps:
 
 |
 
