@@ -49,13 +49,13 @@ To do this, follow these steps:
 
 #.   Enter a name and code(optional). Then, click  **CREATE** to continue.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_createkpi.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_entername.PNG
 |
 |
 
 #.      Once the KPI is created, it appears in the list of KPI. Click the **Edit** icon.
 
-.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickedit.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_edit.PNG
 |
 |
 
