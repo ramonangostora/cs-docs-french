@@ -129,23 +129,11 @@ To do this, follow these steps:
 |
 |
 
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprod3.PNG
-|
-|
-
 #.   After adding products, click on the **Add Product**  icon.
 
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprod.PNG
 |
 |
-
-#.   :After adding products, click on the **Back** icon.
-
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickback.PNG
-|
-|
-
-#.   you can add image and edit the name by clicking on  *Relationship* tab.
 
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_viewrel.PNG
 |
