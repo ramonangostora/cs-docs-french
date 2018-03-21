@@ -10,7 +10,7 @@ This feature allows mixing and matching of tags to build simple hierarchies.
 
 **Description:**        * Hierarchy is concerned with the classification of different objects.
                         * The system allows multiple levels of hierarchies:
-                          *Level 1* can be further classified by adding *Level 2* and further classification of *Level 2* can be done by adding more levels.
+                          *Level 1* can be further classified by adding *Level 2* and further classification of *Level 2* can also be done by creating additional sublevels.
 
 **Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
 
