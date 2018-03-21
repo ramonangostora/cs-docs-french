@@ -1,14 +1,14 @@
 =====================
 Monitor Data Quality
 =====================
-The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog.
-This feature better defines the products and takes corrective actions to maintain quality.
+The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog. This feature better defines the products and takes corrective actions to maintain quality.
+
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * All the set rules regarding *Accuracy, Completeness, Conformity and Uniqueness* are monitored here.
-                        * The *Dashboard* and *Graphical View* display the results as per data in the system.
-                        * The result shows a combination of all the Data Quality measures: *Accuracy, Completeness, Conformity and Uniqueness*. These are displayed in percentage format.
+**Description:**        * All the set rules regarding Accuracy, Completeness, Conformity and Uniqueness are monitored here.
+                        * The Dashboard and Graphical View display the results as per data in the system.
+                        * The result shows a combination of all the Data Quality measures: Accuracy, Completeness, Conformity and Uniqueness. These are displayed in a percentage format.
                         * The users/suppliers can have a detailed view of all the products in a report that also explores the quality issues.
 
 **Related topics:**     * *Tags Management*
@@ -17,13 +17,14 @@ This feature better defines the products and takes corrective actions to maintai
                         * *Rules*
                         * *KPI Dashboards*
 
-**Application:**        * Dashboards often provide at-a-glance views of KPIs *(Key Performance Indicators)* relevant to a particular objective or business process.
+**Application:**        * Dashboards often provide at-a-glance views of KPIs (Key Performance Indicators) relevant to a particular objective or business process.
                         * These reports help a user understand the products in the system and if there are any errors in them.
-                          Also, a user is presented a precise and accurate view of the data in system with respect to *Data Quality*.
-                        * A user can see all the set rules together in a single graph.
+                          Also, a user has presented a precise and accurate view of the data in the system with respect to Data Quality.
+                        .
+                        *  A user can see all the set rules together in a single graph.
                         * *Example:*
 
                             Supplier A has about 1000 products in the system and few of them have incomplete data.
-                            The supplier will be able to track the same with a help of graphs on the *Dashboard* and can properly take corrective actions.
+                            The supplier will be able to track the same with the help of graphs on the Dashboard and can properly take corrective actions.
 
 ===================     =======================================================================================================================================================================
