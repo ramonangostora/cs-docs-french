@@ -3,8 +3,6 @@ Monitor Data Quality
 =====================
 The Monitor Data Quality is a data governance feature that monitors the quality of the data in the catalog. This feature better defines the products and takes corrective actions to maintain quality.
 
-
-
 ===================     =======================================================================================================================================================================
 **Description:**        * All the set rules regarding Accuracy, Completeness, Conformity and Uniqueness are monitored here.
                         * The Dashboard and Graphical View display the results as per data in the system.
@@ -20,8 +18,7 @@ The Monitor Data Quality is a data governance feature that monitors the quality 
 **Application:**        * Dashboards often provide at-a-glance views of KPIs (Key Performance Indicators) relevant to a particular objective or business process.
                         * These reports help a user understand the products in the system and if there are any errors in them.
                           Also, a user has presented a precise and accurate view of the data in the system with respect to Data Quality.
-                        .
-                        *  A user can see all the set rules together in a single graph.
+                        * A user can see all the set rules together in a single graph.
                         * *Example:*
 
                             Supplier A has about 1000 products in the system and few of them have incomplete data.
