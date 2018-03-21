@@ -9,7 +9,7 @@ Drill Down for KPI Reports is a data governance feature that sets up drill down 
 
 **Related topics:**
                         * :doc:`Monitor Data Quality</feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
-                        * :doc:`KPI-based DQ Reports </feature/product_feature/mdm/governance/governancedashboard/kpibaseddqreports>`
+                        * :doc:`KPI-based DQ Reports </feature/product_feature/mdm/governance/governancedashboard/drilldownforkpireports>`
 **Application:**        * This feature helps the user or supplier to have an in-depth DQ report for all the products available.
                         * A user or supplier can narrow down on the products with quality issues. This can be based on a *Taxonomy* or a *Tag*.
                         * *Example:*
@@ -19,50 +19,50 @@ Drill Down for KPI Reports is a data governance feature that sets up drill down 
 
 ===================     =======================================================================================================================================================================
 
-How to do: KPI Based DQ Reports
-===============================
+How to do: Drill Down for KPI Reports
+======================================
 To do this, follow these steps:
 
 #. Click   **Administration** icon.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_gotoadmin.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_gotoadmin.PNG
 |
 |
 
 #. Click  *Data Governance* tab from the top.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickgov.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickdatagov.PNG
 |
 |
 
 #.  Click   **KPIs**.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickkpi.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickkpi.PNG
 |
 |
 
 #. Click the '**+**' icon at the top right to create a new KPI.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickplus.PNG
 |
 |
 
 #.   Enter a name and code(optional). Then, click  **CREATE** to continue.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_createkpi.PNG
 |
 |
 
 #.      Once the KPI is created, it appears in the list of KPI. Click the **Edit** icon.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickedit.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_clickedit.PNG
 |
 |
 
 #.      On the *KPI Information* tab, click to select **Class** and **Taxonomy**.
 
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
+.. image:: /feature/_images/mdmimages/cs_drilldownforkpireports_selclassandtax.PNG
 |
 |
 
