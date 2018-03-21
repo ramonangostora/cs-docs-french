@@ -15,7 +15,7 @@ Collection Hierarchy lets you organize and view your collections within a struct
                         * A collection can contain any number of products, and these products can be copied or moved between the levels of hierarchies.
                         * *Example:*
 
-                            A collection of furniture products can have hierarchy level based on product types such as *Office and Home furniture, Chairs, Tables* and others.
+                            A collection of furniture products can have hierarchy levels based on product types such as *Office and Home furniture, Chairs, Tables* and others.
 
 ====================    =============================================================================================================================================================
 

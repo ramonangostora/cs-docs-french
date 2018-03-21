@@ -18,9 +18,9 @@ Public or Private Bookmarks and Collections feature lets you define whether book
                         * Share your product watchlist by using a public bookmark.
                         * *Example:*
 
-                            Suppose the marketing team of a company has created a bookmark for a trial, so they made the bookmark as a private bookmark
+                            Suppose the marketing team of a company has created a bookmark for a trial - they can make the bookmark as a *Private bookmark*
                             because they don't want to show their bookmark to the other users of the system.
-                            On the other hand, if they want to share the bookmark with other users, they can set the bookmark as a public bookmark.
+                            On the other hand, if they want to share the bookmark with other users, they can set the bookmark as a *Public bookmark*.
 
 ====================    =============================================================================================================================================================
 
