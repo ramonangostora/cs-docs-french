@@ -13,7 +13,7 @@ Manage System Profile is an admin feature that manages a *System (Organization P
                         * :doc:`Manage Outbound Process </feature/product_feature/pep/platformadministration/dataintegrationmanageoutboundprocess/manageoutboundprocess>`
 
 
-**Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own on-board and off-board endpoints.
+**Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own inboard and outboard endpoints.
                         * All these systems (along with the endpoints) can be allotted to the organization and can be further customized for the roles of that particular organization.
                           With this, the admin can maintain exclusivity of endpoints for specific roles within the organization.
                         * *Example:*
@@ -26,7 +26,7 @@ Manage System Profile is an admin feature that manages a *System (Organization P
 
 
 How to do: Set up System Profile
-===============================
+=================================
 To set up system profile, follow these steps:
 
 |
@@ -61,7 +61,7 @@ To set up system profile, follow these steps:
 |
 |
 
-#. In the *Systems* section, click the "+" icon to add systems to the organization.
+#. In the *Systems* section, click on the "+" icon to add systems to the organization.
 
 .. image:: /feature/_images/mdmimages/cs_managesystemprofile_clicksystemplus.PNG
 |
@@ -73,7 +73,7 @@ To set up system profile, follow these steps:
 |
 |
 
-#. Select the endpoints that need to be used.
+#. Select the endpoints to be used in the system.
 
 .. image:: /feature/_images/mdmimages/cs_managesystemprofile_selectendpoints.PNG
 |
