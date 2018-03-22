@@ -135,6 +135,7 @@ To do this, follow these steps:
 |
 |
 
+#.   Images can also be asdded in the **Relationship** tab.
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_viewrel.PNG
 |
 |
