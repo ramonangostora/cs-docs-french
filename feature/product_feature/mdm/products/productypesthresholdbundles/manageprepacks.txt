@@ -82,7 +82,7 @@ To do this, follow these steps:
 |
 |
 
-#.   In the Relationship section, select the class by clicking on Other Side (say - *'article'*). The type of class you choose here  will decide what kind of products you can add to threshold bundles.
+#.   In the Relationship section, select the class by clicking on Other Side (in thios demo, we selected   *'article'*). The type of class you choose here  will decide what kind of products you can add to threshold bundles.
 
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_clickexplore.PNG
 |
@@ -109,11 +109,11 @@ To do this, follow these steps:
 
 #.   Click on *Overview* tab to find a sub-tab Bundle Section.
 
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickoverviewaddprod.PNG
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickoverviewaddprodb.PNG
 |
 |
 
-#.   Click **+**  icon, which will take you to another window, where list of products you made are visible.
+#.   Click **+**  icon, which opens up to another window, where list of products you made are visible.
 
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_clickoverviewaddprod.PNG
 |
@@ -125,19 +125,21 @@ To do this, follow these steps:
 |
 |
 
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprod2.PNG
+#.   After selecting products, click on the **Add Product**  icon.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprodb.PNG
 |
 |
 
-#.   After adding products, click on the **Add Product**  icon.
-
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprod.PNG
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprodc.PNG
 |
 |
 
-#.   Images can also be asdded in the **Relationship** tab.
-.. image:: /feature/_images/mdmimages/cs_manageprepacks_viewrel.PNG
+#.   Click **Back** to add more products. Images can also be added in the **Relationship** tab.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickrelationship.PNG
 |
 |
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
