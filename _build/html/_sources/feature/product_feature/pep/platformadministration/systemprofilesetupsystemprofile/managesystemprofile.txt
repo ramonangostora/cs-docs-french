@@ -33,49 +33,49 @@ To set up system profile, follow these steps:
 
 #. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_clickadministration.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickadministration.PNG
 |
 |
 
 #. Click on the **Partner Administration** tab.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_clickpartneradmin.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickpartneradmin.PNG
 |
 |
 
 #. Click on **Partners**.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_clickpartners.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickpartners.PNG
 |
 |
 
 #. Click on the "+" button to create an organization (or select an existing one).
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_clickplusbutton.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickplusbutton.PNG
 |
 |
 
 #. Enter the name and click on the **Create** button.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_entername.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_entername.PNG
 |
 |
 
 #. In the *Systems* section, click on the "+" icon to add systems to the organization.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_clicksystemplus.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clicksystemplus.PNG
 |
 |
 
 #. Select the system to be added and click on the **Apply** button.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_selectsystem.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_selectsystem.PNG
 |
 |
 
 #. Select the endpoints to be used in the system.
 
-.. image:: /feature/_images/mdmimages/cs_managesystemprofile_selectendpoints.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_selectendpoints.PNG
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
