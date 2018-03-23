@@ -18,8 +18,8 @@ Manage System Profile is an admin feature that manages a *System (Organization P
                           With this, the admin can maintain the exclusivity of endpoints for specific roles within the organization.
                         * *Example:*
 
-                            The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints.
-                            Whereas, the ERP-concerned roles can only access the ERP endpoints.
+                            The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints,
+                            whereas the ERP-concerned roles can only access the ERP endpoints.
 
 ===================     =======================================================================================================================================================================
 
