@@ -15,7 +15,7 @@ Manage System Profile is an admin feature that manages a *System (Organization P
 
 **Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own inbound and outbound endpoints.
                         * All these systems (along with the endpoints) can be allotted to the organization and can be further customized for the roles of that particular organization.
-                          With this, the admin can maintain exclusivity of endpoints for specific roles within the organization.
+                          With this, the admin can maintain the exclusivity of endpoints for specific roles within the organization.
                         * *Example:*
 
                             The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints.
@@ -31,7 +31,7 @@ To set up system profile, follow these steps:
 
 |
 
-#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+#. Log in and go to *Administration*.
 
 .. image:: /feature/_images/pepimages/cs_managesystemprofile_clickadministration.PNG
 |
