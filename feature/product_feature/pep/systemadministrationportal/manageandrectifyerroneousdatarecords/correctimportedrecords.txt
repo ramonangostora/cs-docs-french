@@ -20,3 +20,17 @@ Correct Imported Records is a feature that edits records with incorrect, non-con
                             The supplier will need to correct those records and only then, those records can be pushed to PIM.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: How to create correct imported records
+=================================================
+To do this, follow these steps:
+
+
+|
+
+#. Go to PIM.
+
+.. image:: /feature/_images/mdmimages/managedisplays_gotopim.PNG
+|
+|

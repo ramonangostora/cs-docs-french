@@ -2,22 +2,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>OrientDB : Graph Store &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
@@ -74,8 +66,7 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head>
-  <body>
+  </head><body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -145,7 +136,7 @@ In order to significantly boost the performance of fetching linked data, we use 
 </div>
 <ol class="arabic">
 <li><p class="first">Extract tar.gz.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span>
 
 <span class="n">tar</span> <span class="o">-</span><span class="n">zxvf</span> <span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mf">16.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
 </pre></div>
@@ -157,7 +148,7 @@ In order to significantly boost the performance of fetching linked data, we use 
 </div>
 <ol class="arabic">
 <li><p class="first">Specify path and user in orientdb.sh (orientdb-community-2.1.16/bin).</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span>
 
 <span class="n">Add</span> <span class="n">the</span> <span class="n">following</span> <span class="p">:</span>
  <span class="n">ORIENTDB_DIR</span><span class="o">=/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span>
@@ -171,7 +162,7 @@ In order to significantly boost the performance of fetching linked data, we use 
 </div>
 <ol class="arabic">
 <li><p class="first">Change configurations.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>vim orientdb-community-2.1.16/bin/orientdb.sh
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>vim orientdb-community-2.1.16/bin/orientdb.sh
 
 Add the following line in start() function (and comment the previous line which looks similar to the one below. This is done so that password will not be asked while starting the service).
 
@@ -189,7 +180,7 @@ Add the following line in stop() function (and comment the previous line which l
 </div>
 <ol class="arabic">
 <li><p class="first">Specify Memory.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">server</span><span class="o">.</span><span class="n">sh</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">server</span><span class="o">.</span><span class="n">sh</span>
 
 <span class="n">Search</span> <span class="k">for</span> <span class="s2">&quot;ORIENTDB_OPTS_MEMORY=&quot;</span><span class="o">-</span><span class="n">Xms512m</span> <span class="o">-</span><span class="n">Xmx512m</span><span class="s2">&quot;&quot;</span><span class="o">.</span>
 
@@ -204,7 +195,7 @@ Add the following line in stop() function (and comment the previous line which l
 <ol class="arabic">
 <li><p class="first">Replace  orientdb-server-config.xml and cp OrientDB.jar.</p>
 <p><em>Note: Replace orientdb-server-config.xml with the one modified by  our developers.</em></p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">&lt;</span><span class="n">path</span> <span class="n">of</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span> <span class="o">&gt;/</span><span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">/</span><span class="n">ServerPlugins</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">main</span><span class="o">/</span><span class="n">resources</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">server</span><span class="o">-</span><span class="n">config</span><span class="o">.</span><span class="n">xml</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">&lt;</span><span class="n">path</span> <span class="n">of</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span> <span class="o">&gt;/</span><span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">/</span><span class="n">ServerPlugins</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">main</span><span class="o">/</span><span class="n">resources</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">server</span><span class="o">-</span><span class="n">config</span><span class="o">.</span><span class="n">xml</span>
 
 <span class="n">PATH</span> <span class="n">To</span> <span class="n">Copy</span> <span class="p">:</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="n">config</span><span class="o">/</span>
 </pre></div>
@@ -216,7 +207,7 @@ Add the following line in stop() function (and comment the previous line which l
 </div>
 <ol class="arabic">
 <li><p class="first">Add plugins.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">&lt;</span><span class="n">path</span> <span class="n">of</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span> <span class="o">&gt;/</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">/</span><span class="n">ServerPlugins</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">/</span><span class="n">build</span><span class="o">/</span><span class="n">libs</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">.</span><span class="n">jar</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">&lt;</span><span class="n">path</span> <span class="n">of</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span> <span class="o">&gt;/</span> <span class="n">CS</span><span class="o">-</span><span class="n">Refactored</span><span class="o">/</span><span class="n">ServerPlugins</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">/</span><span class="n">build</span><span class="o">/</span><span class="n">libs</span><span class="o">/</span><span class="n">OrientDB</span><span class="o">.</span><span class="n">jar</span>
 
 <span class="n">PATH</span> <span class="n">To</span> <span class="n">Copy</span> <span class="p">:</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="n">lib</span>
 </pre></div>
@@ -231,7 +222,7 @@ Add the following line in stop() function (and comment the previous line which l
 <span id="verification"></span><h2>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Verify If Plugin (<em>OrientDB.jar</em>) and xml file (<em>orientdb-server-config.xml</em>) are present in their respective locations.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="n">lib</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="n">lib</span>
 
 <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="n">config</span><span class="o">.</span>
 </pre></div>
@@ -246,7 +237,7 @@ Add the following line in stop() function (and comment the previous line which l
 <span id="application-startup"></span><h2>Application Startup<a class="headerlink" href="#application-startup" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Start Orientdb.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">start</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">start</span>
 </pre></div>
 </div>
 </li>
@@ -256,7 +247,7 @@ Add the following line in stop() function (and comment the previous line which l
 </div>
 <ol class="arabic">
 <li><p class="first">Check whether the service is running or not.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">netstat</span> <span class="o">-</span><span class="n">tulpn</span> <span class="o">|</span> <span class="n">grep</span> <span class="mi">2480</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">netstat</span> <span class="o">-</span><span class="n">tulpn</span> <span class="o">|</span> <span class="n">grep</span> <span class="mi">2480</span>
 </pre></div>
 </div>
 </li>
@@ -269,7 +260,7 @@ Add the following line in stop() function (and comment the previous line which l
 <span id="commands"></span><h2>Commands<a class="headerlink" href="#commands" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p class="first">Stop OrientDB.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">stop</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">stop</span>
 
 <span class="c1"># fuser is used just to kill the process if it is running even after using &#39;orientdb.sh stop&#39;</span>
 
@@ -283,7 +274,7 @@ Add the following line in stop() function (and comment the previous line which l
 </div>
 <ol class="arabic">
 <li><p class="first">Start OrientDB.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">start</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">cs</span><span class="o">/</span><span class="n">orientdb</span><span class="o">/</span><span class="n">orientdb</span><span class="o">-</span><span class="n">community</span><span class="o">-</span><span class="mf">2.1</span><span class="o">.</span><span class="mi">16</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">orientdb</span><span class="o">.</span><span class="n">sh</span> <span class="n">start</span>
 </pre></div>
 </div>
 </li>
@@ -293,7 +284,7 @@ Add the following line in stop() function (and comment the previous line which l
 </div>
 <ol class="arabic">
 <li><p class="first">Check if application is running.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">netstat</span> <span class="o">-</span><span class="n">tulpn</span> <span class="o">|</span> <span class="n">grep</span> <span class="mi">2480</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">netstat</span> <span class="o">-</span><span class="n">tulpn</span> <span class="o">|</span> <span class="n">grep</span> <span class="mi">2480</span>
 
 <span class="n">ps</span> <span class="o">-</span><span class="n">ef</span> <span class="o">|</span> <span class="n">grep</span> <span class="n">orientdb</span>
 </pre></div>
@@ -333,41 +324,28 @@ Add the following line in stop() function (and comment the previous line which l
 </li>
 </ul>
 
-  <h3>Browse</h3>
-  <ul>
-    
-      <li>Prev: <a href="oraclemasterstore.html">Oracle : MasterStore</a></li>
-    
-    
-      <li>Next: <a href="swiftassetstorage.html">Swift : Asset Storage</a></li>
-    
-  </ul>
-  <h3>You are here:</h3>
-  <ul>
-      <li>
-        <a href="../index.html">Contentsphere  documentation</a>
-        
-          <ul><li><a href="index.html">Reference Guides</a>
-        
-        <ul><li>OrientDB : Graph Store</li></ul>
-        </li></ul>
-      </li>
-  </ul>
-
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="oraclemasterstore.html"
+                        title="previous chapter">Oracle : MasterStore</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="swiftassetstorage.html"
+                        title="next chapter">Swift : Asset Storage</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Mar 06, 2018</p>
+                <p class="topless">Mar 27, 2018</p>
             </div>
           </div>
         
