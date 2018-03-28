@@ -68,5 +68,11 @@ To do this, follow these steps:
 |
 |
 
+#. Click on the **Transfer to PIM** option. The products get transferred to PIM. 
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clicktransfertopim.PNG
+|
+|
+
 .. image:: /feature/_images/pepimages/line-png-32.PNG
    :alt: Contentsphere line
