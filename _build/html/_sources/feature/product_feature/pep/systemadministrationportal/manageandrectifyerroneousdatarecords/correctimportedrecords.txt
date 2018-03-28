@@ -29,8 +29,44 @@ To do this, follow these steps:
 
 |
 
-#. Go to PIM.
+#. Log in and go to the **Dashboard**.
 
-.. image:: /feature/_images/mdmimages/managedisplays_gotopim.PNG
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickdash.PNG
 |
 |
+
+#. Click *Data Integration* tab and select an endpoint.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickdash2.PNG
+|
+|
+
+#. Click **Files** and select a file to import ( in this demo, we selected the first "Documentation onboard sheet.xlsx")
+   and click **Import** icon.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickfile.PNG
+|
+|
+
+#. Check the status of the file, click **Workflow Status**.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickstatus.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickimportedfile.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_selectfileandimport2.PNG
+|
+|
+
+#. Click **Catalog**. The Catalog includes the products that are visible with violations.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_viewviolations.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/line-png-32.PNG
+   :alt: Contentsphere line
