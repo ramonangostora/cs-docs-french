@@ -33,7 +33,7 @@ To set up system profile, follow these steps:
 
 #. Log in and go to *Administration*.
 
-.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickadministration.PNG
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_gotoadmin.PNG
 |
 |
 
