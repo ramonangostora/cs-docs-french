@@ -5,19 +5,54 @@ The Check and Erroneous Products is a feature that can be used by Data Stewards 
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * In the *On-boarding Master Catalog*, a *Data Steward* can see Products transferred by a supplier.
+**Description:**        * In the *Onboarding Master Catalog*, a Data Steward can see Products transferred by a supplier.
                         * This feature allows an admin to create and apply rules like KPIs for data accuracy in the master catalog.
 
-**Related topics:**     * *Rules and Violations*
-                        * *On-boarding Features*
-                        * *KPI-based Completeness Rules*
+**Related topics:**     * :doc:`Manage Products in the Master Catalog </feature/product_feature/pep/onboardingpool/manageproductsinthemastercatalog/manageproductsinmastercatalog>`
+                        * :doc:`anage Product Definitions across Systems </feature/product_feature/pep/onboardingpool/consolidateproductsfromacrosssystems/manageproductdefinitionsacrosssystems>`
+                        *  * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * The feature can create an **On-boarding Pool**, where a *Data Steward* manages and corrects product data of a supplier.
+**Application:**        * The feature can create an **Onboarding Pool**, where a *Data Steward* manages and corrects product data of a supplier.
                         * *Example:*
 
-                            A data steward manages all the product of a supplier. The supplier transfers the products in the master catalog.
-                            Then, the data steward is able to make corrective actions on the data that are flagged with errors and warnings
-                            due to the rules that have been applied in the master catalog.
-                            The feature will show the conditions that have not been met by the on-boarding data.
+                             A data steward manages all the product of a supplier. The supplier transfers the products in the master catalog.
+                             Then, the data steward can make corrective actions on the data that are flagged with errors and warnings due to
+                             the rules that have been applied in the master catalog. The feature will show the conditions that have not been
+                             met by the Onboarding data.
 
 ===================     =======================================================================================================================================================================
+
+
+How To: How to add rules in supplier products by Data Steward
+==============================================================
+To do this, follow these steps:
+
+#. Login to ContentSphere and click **Dashboard** to explore the products.
+
+.. image:: /feature/_images/pepimages/cs_checkanderroneousproducts_clickdashboard.PNG
+
+|
+|
+
+#. Click **Catalog**
+
+.. image:: /feature/_images/pepimages/cs_checkanderroneousproducts_gotocatalog.PNG
+
+|
+|
+
+#.  Select a product (in this demo, we selected "Chino Shorts" product). The Data Steward displays supplier products in the catalog.
+
+.. image:: /feature/_images/pepimages/cs_checkanderroneousproducts_selectproduct.PNG
+|
+|
+
+#. Data Steward also verifies the content and properties of the product and takes corrective actions.
+
+.. image:: /feature/_images/pepimages/cs_checkanderroneousproducts_opendatasteward.PNG
+
+|
+|
+
+.. image:: /feature/_images/pepimages/line-png-32.PNG
+   :alt: Contentsphere line

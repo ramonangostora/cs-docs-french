@@ -10,7 +10,7 @@ Correct Imported Records is a feature that edits records with incorrect, non-con
                         * *Note: Red violation for the product data means that the data cannot be transferred into the system.
                           Whereas for Orange and Yellow violations, product data can be transferred.*
 
-**Related topics:**     * *Rules and Violations*
+**Related topics:**     * :doc:`Monitor Imports </feature/product_feature/pep/systemadministrationportal/monitorandcheckdata/monitorimports>`
 
 **Application:**        * One can correct the data quality through violations.
                         * The feature ensures that the mandatory fields are not left empty.
@@ -20,3 +20,59 @@ Correct Imported Records is a feature that edits records with incorrect, non-con
                             The supplier will need to correct those records and only then, those records can be pushed to PIM.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: How to create correct imported records
+=================================================
+To do this, follow these steps:
+
+
+|
+
+#. Log in and go to the **Dashboard**.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickdash.PNG
+|
+|
+
+#. Click *Data Integration* tab and select an endpoint.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickdash2.PNG
+|
+|
+
+#. Click **Files** and select a file to import ( in this demo, we selected the first "Documentation onboard sheet.xlsx")
+   and click **Import** icon.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickfile.PNG
+|
+|
+
+#. Check the status of the file, click **Workflow Status**.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickstatus.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clickimportedfile.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_selectfileandimport2.PNG
+|
+|
+
+#. Click **Catalog**. The Catalog includes the products that are visible with violations.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_viewviolations.PNG
+|
+|
+
+#. Click on the **Transfer to PIM** option. The products get transferred to PIM.
+
+.. image:: /feature/_images/pepimages/cs_correctimportedrecords_clicktransfertopim.PNG
+|
+|
+
+.. image:: /feature/_images/pepimages/line-png-32.PNG
+   :alt: Contentsphere line
