@@ -1,23 +1,23 @@
-===========================================
+==========================================
 Manage Role Access to Class and Taxonomies
-===========================================
-The Manage Role Access to Class and Taxonomies feature is an admin feature that restricts a role's access to *Class and Taxonomy levels*
-so that the users can work directly with the articles they are intended to be responsible for.
+==========================================
+
+This is an administration feature that restricts a user's access to *Class and Taxonomy levels*. The feature ensures that the user works directly with the articles they are intended to be responsible for. 
 
 
 ===================     =======================================================================================================================================================================
-**Key Term**            * **Class**: a class defines the base configuration for products.
+**Key Terms:**          * **Class**: a class defines the base configuration for products.
                         * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
 
-**Description:**        * This feature is particularly helpful in an organization that has various users like *Supplier(s)/Partner(s), Asset Manager, Data Stewards, Admin* etc.
-                        * This feature allows the admin to restrict a user to access or view products in PIM.
+**Description:**        * Restrict access to particular levels of class and taxonomy to a particular role.
+                        * Role access can be configured within the organization as well as for partners.
+                        * Use the adminstration section to configure access.
 
 **Related topics:**     * :doc:`Manage Permissions </feature/product_feature/mdm/administration/usersandpermissionscrudrights/managepermissions>`
                         * :doc:`Manage View Templates </feature/product_feature/mdm/administration/usersandpermissionsviewtemplates/manageviewtemplates>`
                         * :doc:`Multi-classify Objects </feature/product_feature/mdm/general/multiclassification/multiclassify>`
 
-**Application:**        * Admin has the functionality to restrict the rights of various organization roles (*Admin, Data Stewards, Multiple Suppliers, etc*)
-                          so that the roles can have access or view to their respective products in PIM.
+**Application:**        * The admin has the ability to restrict the rights of various roles within the organization and its partners so that they only have access to areas under their responsibility.
                         * *Example:*
 
                             *Retailer XYZ* has *Supplier A* and *Supplier B*. *Supplier A* provides furniture and *Supplier B* provides electronic goods.
@@ -26,12 +26,10 @@ so that the users can work directly with the articles they are intended to be re
 
 ===================     =======================================================================================================================================================================
 
+How to: Restrict a Role's Access to Class and Taxonomy
+======================================================
 
-
-
-How to do: Restrict Role to Class and Taxonomy
-===============================================
-To restrict role to class and taxonomy, follow these steps:
+To restrict a role's access to class and taxonomy, follow these steps:
 
 |
 
