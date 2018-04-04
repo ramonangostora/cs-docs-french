@@ -2,11 +2,27 @@
 Tutorials
 =========
 
-Read this material to quickly get up and running.
+New to Contentsphere
+====================
 
-.. toctree::
-   :maxdepth: 1
+Learn the basics to get up and running quickly
 
-   exploretheui
-   whatisadatamodel
-   howclasseswork
+1. :doc:`About the Product <../product/productlines>`
+
+2. :doc:`Explore the UI <exploretheui>`
+
+3. :doc:`Add an Image to the DAM <addimagetoDAM>`
+
+4. :doc:`Add a New User <addnewuser>`
+
+5. :doc:`Create a New Product <createnewproduct>`
+
+6. :doc:`Set up a Taxonomy <settinguptaxonomy>`
+
+Concepts
+========
+
+Understand core concepts
+
+* :doc:`What is a Data Model? <whatisadatamodel>`
+* :doc:`How Classes Work <howclasseswork>`

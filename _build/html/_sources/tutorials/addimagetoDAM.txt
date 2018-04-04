@@ -1,0 +1,63 @@
+
+Add an Image to the DAM
+=======================
+Products with displayed images are more appealing for the users to the system, which can be stored in DAM (Data Asset Management).
+To do this, follow these steps:
+
+
+#. Click **All**.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickall.PNG
+|
+|
+
+#. Click **DAM**.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickDAM.PNG
+|
+|
+
+#.  Hover on the "+".
+
+.. image:: /feature/_images/mdmimages/addingimage_hoverplus.PNG
+|
+|
+
+#.   Then, click **Image**.
+
+.. image:: /feature/_images/mdmimages/addingimage_selimage.PNG
+|
+|
+
+#.    Click the **Add Image** icon on the File Preview section, and select your desired image from your computer.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
+|
+|
+
+#.   The image appears on the File Preview section, and enter a name for the image.
+
+.. image:: /feature/_images/mdmimages/addingimage_entername.PNG
+|
+|
+
+#. Then, click **Save**.
+
+.. image:: /feature/_images/mdmimages/addingimage_enternamesave.PNG
+|
+|
+
+#.    Click **Metadata**.
+
+.. image:: /feature/_images/mdmimages/addingimage_clickmeta.PNG
+|
+|
+
+#.	The available metadata on the Meta Data section  will auto-complete but fields can be manually filled out as desired.
+
+.. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

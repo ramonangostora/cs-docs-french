@@ -1,0 +1,71 @@
+=======================
+Set Up a Taxonomy
+=======================
+Taxonomy is a product classification used to organize the content.
+
+How to do: Set Up a Taxonomy
+==================================
+To do this, follow these steps:
+
+#. Click **Settings**.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_clicksettings.PNG
+|
+|
+
+#. Click **Data Model** tab.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_clickdatamodel.PNG
+|
+|
+
+#.  Click   **Taxonomies** to expand.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_expandtaxonomy.PNG
+|
+|
+
+#.   Then, click **Master Taxonomy**.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_clickmastertaxonomy.PNG
+|
+|
+
+#.    Use  the "+" to expand the taxonomy, vertically or horizontally.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
+|
+|
+
+#.   Taxonomy window appears. Enter details for the new taxonomy and click **Create**.
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
+|
+|
+
+Icons can also be added to the Taxonomy.
+
+    #. Click a section under taxonomies (in this demo, we select **Tops**).
+
+    .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickcollarless.PNG
+    |
+    |
+
+    #.   Click upload icon and select an image from your computer.
+
+    .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickaddicon.PNG
+    |
+    |
+
+   #.   View the selected icon.
+
+    .. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
+    |
+    |
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
