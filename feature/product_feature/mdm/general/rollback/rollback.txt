@@ -6,8 +6,6 @@ The Rollback feature allows a user to switch (or to revert) to a previous versio
 
 ===================  =================================================================================================================================================================
 
-**Key Term:**             * The feature is used to revert to any former version of an article/product.
-
 **Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
 
 **Related topics:**       * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
