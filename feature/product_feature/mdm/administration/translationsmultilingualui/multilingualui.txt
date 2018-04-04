@@ -4,14 +4,65 @@ Multilingual UI
 Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI so that the UI can be used in multiple languages.
 
 
-===================     =======================================================================================================================================================================
-**Description:**        * The UI can be in various languages for example: *French, German, Spanish, etc.*
+===================  ============================================================================================================================================================================
 
-**Related topics:**     * *Multilingual Data Model*
+**Description:**        * The UI can be in various languages, for example, *French, German, Spanish*, etc.
+                        * The admin can set up the data model like *attributes, tags, classes*, etc. in various languages so that it can be understood by users in multiple countries or regions.
+                        * It is important for a retailer to have different language data models and products/articles.
 
-**Application:**        * The system can have multiple language of the UI for different languages.
+**Related topics:**     * :doc:`Multilingual Data Model </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
+
+**Application:**        * The system can have multiple languages of the UI for different languages.
                         * *Example:*
 
-                            The admin wants the UI to be in *French* for a French user and when the admin selects that language, the UI of system will be translated to *French*.
+                            The admin wants the UI to be in French for a French user, and when the admin selects that language, the UI of the system will be translated into French.
 
-===================     =======================================================================================================================================================================
+===================  ============================================================================================================================================================================
+
+How to do: Manage Multilingual UI
+=================================
+To do this, follow these steps:
+
+|
+#. Go to **Administration**.
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_gotosettings.PNG
+|
+|
+
+#. Click *Translations* tab.
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_clicktrans.PNG
+|
+|
+
+#. Click  **Application Labels**.
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_selapplabel.PNG
+|
+|
+
+#. Based on the language required, enter the translations for the desired label (in this demo, we selected "Acceleration").
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_entertrans.PNG
+|
+|
+
+#.  Logout  and login again.
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_logoutb.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_logout2.PNG
+|
+|
+
+#.   On the login page, select your desired language from the flyout  on the lower right corner of the screen.
+
+.. image:: /feature/_images/mdmimages/cs_multilingualui_login.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
