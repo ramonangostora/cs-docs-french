@@ -6,10 +6,15 @@ so that the users can work directly with the articles they are intended to be re
 
 
 ===================     =======================================================================================================================================================================
+**Key Term**            * **Class**: a class defines the base configuration for products.
+                        * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
+
 **Description:**        * This feature is particularly helpful in an organization that has various users like *Supplier(s)/Partner(s), Asset Manager, Data Stewards, Admin* etc.
                         * This feature allows the admin to restrict a user to access or view products in PIM.
 
-**Related topics:**     * *Users and Permissions features*
+**Related topics:**     * :doc:`Manage Permissions </feature/product_feature/mdm/administration/usersandpermissionscrudrights/managepermissions>`
+                        * :doc:`Manage View Templates </feature/product_feature/mdm/administration/usersandpermissionsviewtemplates/manageviewtemplates>`
+                        * :doc:`Multi-classify Objects </feature/product_feature/mdm/general/multiclassification/multiclassify>`
 
 **Application:**        * Admin has the functionality to restrict the rights of various organization roles (*Admin, Data Stewards, Multiple Suppliers, etc*)
                           so that the roles can have access or view to their respective products in PIM.
@@ -20,3 +25,123 @@ so that the users can work directly with the articles they are intended to be re
                             Similarly, *Supplier B* will only be able to access his products: **Electronics**.
 
 ===================     =======================================================================================================================================================================
+
+
+
+
+How to do: Restrict Role to Class and Taxonomy
+===============================================
+To restrict role to class and taxonomy, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickadministration.PNG
+|
+|
+
+#. Create a user.
+
+
+
+      * Go to *Partner Administration* tab.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_gotopartneradmin.PNG
+      |
+      |
+
+      * Click on **Users** then click on the "+" icon on the right side of the window.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickusers.PNG
+      |
+      |
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplus.PNG
+      |
+      |
+
+      * Enter the login details.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_enterlogindetails.PNG
+      |
+      |
+
+      * Click on the **Create** button and a user is created.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_cliukreate.PNG
+      |
+      |
+
+#. Create Partners (Organization).
+
+
+
+      * Click on **Partners** then click on the "+" icon on the right side of the window.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickpartners.PNG
+      |
+      |
+
+      * Enter the name and click on the **Create** button.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_entername.PNG
+      |
+      |
+
+      * View the created organization.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_viewcreatedorganization.PNG
+      |
+      |
+
+
+#. Add roles to the users in the organization.
+
+
+
+      * Click on the **Roles** tab
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickroles.PNG
+      |
+      |
+
+      * Click on the "+" sign just below the *Roles* tab to assign roles.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_clickplussign.PNG
+      |
+      |
+
+      * Enter the name and select the role type then click on the **Create** button.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selectroletype.PNG
+      |
+      |
+
+      * Select the target class that you want the user to have access to.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selecttargetclass.PNG
+      |
+      |
+
+      * Select the taxonomy to further categorize the products.
+
+      .. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_selecttaxonomy.PNG
+      |
+      |
+
+      Note: If no class or taxonomy is selected, the user has access to all the classes and taxonomies.
+
+|
+
+
+#. Log in as the user to view the products assigned to you.
+
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_loginasuser.PNG
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageroleaccesstoclassandtaxonomies_loginasuser2.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
