@@ -1,22 +1,104 @@
 =========
 Rollback
 =========
+
 The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
 
+===================  =================================================================================================================================================================
 
-====================      ===============================================================================================================================================================
-**Description:**          * The feature is used to revert to any former version of an article/product.
-                          * The rollback allows a user to go back to any version, if the user/supplier wishes to revert back to previous changes.
+**Key Term:**             * The feature is used to revert to any former version of an article/product.
 
-**Related topics:**       * *Manage Virtual Catalogs*
-                          * *Product Classifications*
-                          * *Timeline and History*
+**Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
+
+**Related topics:**       * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
+                          * :doc:`Product Classifications </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
+                          * :doc:`Compare Product Revisions </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
 
 **Application:**          * The Rollback feature is used to switch back to a desired version of a product.
-                            This feature is particularly helpful to revert to a previous version if there are any errors made in any property of the product.
+                          * This is an enhancement to the basic ‘Rollback’ feature, it allows the user add or remove any
+                            product relationship/context and return it back to the previous version.
                           * *Example:*
 
                               Supplier can add commercial text in the 'description' for Toblerone Chocolates during Holiday season.
                               Once the season is over, he can rollback to the  original description version.
 
-====================      ===============================================================================================================================================================
+===================  =================================================================================================================================================================
+
+How to do: Rollback
+=============================
+To do this, follow these steps:
+
+#. Go to **PIM**.
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clickpim.PNG
+|
+|
+
+#. Click to select the desired product for which you want to perform rollback operation (in this demo, we select 'Orange bone toy').
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_selectproduct.PNG
+|
+|
+
+#. Click on the *Relationships* tab.
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
+|
+|
+
+#. In this demo, we will replace the image and roollback to the previous image.
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_replaceimage.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_replaceimage2.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_replaceimage3.PNG
+|
+|
+#. Click on **SAVE** TO save to save the changes on the product.
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clicksave.PNG
+|
+|
+
+#. Go to *Relationship* tab.
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
+|
+|
+
+
+#.  Go to the *Timeline* tab. The current version of the product would be with the latest version number on the top.
+
+  .. image:: /feature/_images/mdmimages/cs_rollbackb_clicktimeline.PNG
+  |
+  |
+
+  .. image:: /feature/_images/mdmimages/cs_rollbackb_timeline.PNG
+  |
+  |
+
+#.  Click on the version before we replaced the image (in this demo, we selected 'version 0 27th March, 2018').
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_selectversion.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clickrollback.PNG
+|
+|
+
+#.    Once the rollback has been confirmed, Relationship Tab opens, and the relationship is restored.View the image (now rereverted to the old version).
+
+.. image:: /feature/_images/mdmimages/cs_rollbackb_viewimage.PNG
+|
+|
+
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
