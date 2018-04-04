@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Managing Tag Hierarchies &#8212; Contentsphere  documentation</title>
+    <title>Manage Tag Hierarchies &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../../../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -116,40 +116,48 @@
         <div class="yui-b">
           <div class="yui-g" id="feature-product_feature-mdm-administration-hierarchiesmastertagbasedhierarchy-managingtaghierarchies">
             
-  <div class="section" id="s-managing-tag-hierarchies">
-<span id="managing-tag-hierarchies"></span><h1>Managing Tag Hierarchies<a class="headerlink" href="#managing-tag-hierarchies" title="Permalink to this headline">¶</a></h1>
-<p>The Managing Tag Hierarchies is an admin feature that sets up tag-based hierarchy such that each master tag is one level. This can mix and match tags to build simple hierarchies.</p>
+  <div class="section" id="s-manage-tag-hierarchies">
+<span id="manage-tag-hierarchies"></span><h1>Manage Tag Hierarchies<a class="headerlink" href="#manage-tag-hierarchies" title="Permalink to this headline">¶</a></h1>
+<p>The Manage Tag Hierarchies is an admin feature that sets up tag-based hierarchies wherein each master tag is considered as one level.
+This feature allows mixing and matching of tags to build simple hierarchies.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><strong>Description:</strong></td>
+<tr class="row-odd"><td><strong>Key Term:</strong></td>
 <td><ul class="first last simple">
-<li>Hierarchies is concerned with classification of different objects.</li>
-<li>The system allows multiple levels of hierarchies.</li>
-<li>Level 1 can be further classified by adding Level 2 or further classification of Level 2 can be done by adding extra levels under it.</li>
+<li><strong>Tag:</strong> is a property that is used to describe a product (like <em>bottle size or color</em>).</li>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td><strong>Related topics:</strong></td>
+<tr class="row-even"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li><em>Tag Management Features</em></li>
+<li>Hierarchy is concerned with the classification of different objects.</li>
+<li>The system allows multiple levels of hierarchies:
+<em>Level 1</em> can be further classified by adding <em>Level 2</em> and further classification of <em>Level 2</em> can be done by adding more levels to it.</li>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><strong>Application:</strong></td>
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../datamodeltagmanagement/index.html"><span class="doc">Tag Management</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">Creation of hierarchy is same as that of <em>Master Taxonomy</em>.
-The only difference between the two is that one cannot add a <em>Property Collection</em> (collection of attributes and tags) in hierarchies.</p>
+<li><p class="first">Creating a hierarchy is the same as creating a <em>Master Taxonomy</em>.
+The only difference between the two is that one cannot add a <em>Property Collection</em> (collection of attributes and tags) in hierarchies.
+Adding a <em>Property Collection</em> is only done in <em>Master Taxonomy</em>.</p>
 </li>
-<li><p class="first">Hierarchy is basically to differentiate a <em>Parent</em> and a <em>Child</em> node.</p>
+<li><p class="first">Hierarchy is created to differentiate a <em>Parent</em> from a <em>Child</em> node.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>If we create hierarchy of a Master Taxonomy, <em>Fashion</em> (Level 1), it can be further classified to a sublevel like <em>Shirts, Trousers, etc</em> (Level 2).
-A Shirt can then be further classified based on the material or pattern (Level 3).</p>
+<div><p>If we create a hierarchy for <em>Fashion</em> (Level 1), it can be further classified using a sublevel like <em>Shirts, Trousers, etc</em> (Level 2).
+A <em>Shirt</em> can then be further classified based on its <em>Material or Pattern</em> (Level 3).</p>
 </div></blockquote>
 </li>
 </ul>
@@ -157,6 +165,103 @@ A Shirt can then be further classified based on the material or pattern (Level 3
 </tr>
 </tbody>
 </table>
+<div class="section" id="s-how-to-do-manage-tag-hierarchies">
+<span id="how-to-do-manage-tag-hierarchies"></span><h2>How to do: Manage Tag Hierarchies<a class="headerlink" href="#how-to-do-manage-tag-hierarchies" title="Permalink to this headline">¶</a></h2>
+<p>To manage/create tag hierarchies, follow this set of instructions:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in and go to <em>Administration</em>.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_login.PNG" src="../../../../../_images/cs_managetaghierarchies_login.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to the <em>Data Model</em> tab and then to <em>Taxonomies</em>.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_gotothedatamodel.PNG" src="../../../../../_images/cs_managetaghierarchies_gotothedatamodel.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Under <em>Taxonomies</em>, click on <strong>Hierarchies</strong>.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_undertaxonomies.PNG" src="../../../../../_images/cs_managetaghierarchies_undertaxonomies.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create a new <strong>Master Hierarchy</strong>.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_clickontheicon.PNG" src="../../../../../_images/cs_managetaghierarchies_clickontheicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill out the required details. Also, slide the button to the right to enable the <em>Major Taxonomy</em> option.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails.PNG" src="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails2.PNG" src="../../../../../_images/cs_managetaghierarchies_fillouttherequireddetails2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note: A Master Hierarchy/Tag has been created.  Further classification can now be done by adding sublevels.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>To add a sublevel, click on the newly created Master Hierarchy and click on the <strong>Add New Level</strong> button found on the next column.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_toaddsubtaxonomies.PNG" src="../../../../../_images/cs_managetaghierarchies_toaddsubtaxonomies.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Type the name of the sublevel and then, click on the <strong>Create ‘name’</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG" src="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Check the details on the pop-up window and click on the <strong>Create</strong> button to continue.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy2.PNG" src="../../../../../_images/cs_managetaghierarchies_typethenameofthesubtaxonomy2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Add more sublevels to the hierarchy, as desired.</li>
+</ol>
+<img alt="../../../../../_images/cs_managetaghierarchies_addmorelevels.PNG" src="../../../../../_images/cs_managetaghierarchies_addmorelevels.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note:  The sublevels have been added and the new hierarchy can be used to tag and describe products.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
 </div>
 
 
@@ -170,6 +275,14 @@ A Shirt can then be further classified based on the material or pattern (Level 3
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manage Tag Hierarchies</a><ul>
+<li><a class="reference internal" href="#how-to-do-manage-tag-hierarchies">How to do: Manage Tag Hierarchies</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>Browse</h3>
   <ul>
     
@@ -194,7 +307,7 @@ A Shirt can then be further classified based on the material or pattern (Level 3
         
           <ul><li><a href="index.html">Hierarchies - Master Tag Based Hierarchy</a>
         
-        <ul><li>Managing Tag Hierarchies</li></ul>
+        <ul><li>Manage Tag Hierarchies</li></ul>
         </li></ul></li></ul></li></ul></li></ul></li></ul>
       </li>
   </ul>
