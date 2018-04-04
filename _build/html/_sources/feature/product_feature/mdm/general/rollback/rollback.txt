@@ -30,7 +30,7 @@ To do this, follow these steps:
 
 #. Go to **PIM**.
 
-.. image:: /feature/_images/mdmimages/cs_rollbackb_gotoPIM.PNG
+.. image:: /feature/_images/mdmimages/cs_rollbackb_gotopimb.PNG
 |
 |
 
