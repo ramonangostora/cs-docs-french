@@ -5,12 +5,14 @@ Manage Products across Taxonomies is a feature that allows a user to copy or mov
 
 
 ====================    =============================================================================================================================================================
+**Key Term**            * **Taxonomy**: a taxonomy is a scheme of classification used for an organization’s products.
+
 **Description:**        * This feature is used when moving products across different taxonomies.
                         * A retailer can use this feature when classifying his products.
 
-**Related topics:**     * *Search within Taxonomy*
-                        * *Multi-Taxonomy Assignment*
-                        * *Product Classification via Taxonomies*
+**Related topics:**     * :doc:`Search within Taxonomy </feature/product_feature/mdm/general/searchandexplore/searchwithintaxonomy>`
+                        * :doc:`Multi-Taxonomy Assignment </feature/product_feature/mdm/general/multitaxonomyassignment/multitaxonomyassignment>`
+                        * :doc:`Product Classification via Taxonomies </feature/product_feature/mdm/general/multitaxonomyassignment/productclassificationviataxonomies>`
 
 **Application:**        * A retailer can move his products through various levels of taxonomy so that each product can be easily identified and searched.
                         * *Example:*
@@ -21,3 +23,66 @@ Manage Products across Taxonomies is a feature that allows a user to copy or mov
             							A more refined search is possible by classifying the products into sub-categories.
 
 ====================    =============================================================================================================================================================
+
+
+How to do: Manage Products across Taxonomies
+============================================
+To manage products across taxonomies, follow these steps:
+
+|
+
+#. Log in to the application. Go to *PIM*.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_gotopim.PNG
+|
+|
+
+#. Click on the **Choose Taxonomies** drop-down list.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_choosetaxonomies.PNG
+|
+|
+
+#. Click on the **Organize** button at the bottom of the drop-down window.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_organize.PNG
+|
+|
+
+#. View the list of existing taxonomies on the left pane and the products on the right.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_viewlist.PNG
+|
+|
+
+#. Navigate the taxonomy hierarchy to which the desired product belongs.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_navigatetaxonomy.PNG
+|
+|
+
+#. Click the checkbox of a product to select it.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_clickcheckbox.PNG
+|
+|
+
+#. Click the **Copy** icon.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_clickcopy.PNG
+|
+|
+
+#. Navigate to the taxonomy where you want to paste the product and click the **Paste** icon.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_clickpaste.PNG
+|
+|
+
+#. View the product added to the selected taxonomy.
+
+.. image:: /feature/_images/mdmimages/cs_hierarchicalnavigation_viewaddedproduct.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
