@@ -1,13 +1,15 @@
 ======================
 Remedy Quality Issues
 ======================
-Remedy Quality Issues is a data governance feature that edits records with incorrect data or data with non-conforming quality, which aims to improve the quality profile of a product.
+Remedy Quality Issues is a data governance feature that edits records with incorrect data or data with non-conforming quality so as to improve the quality profile of a product.
 
 
 ===================     =======================================================================================================================================================================
 **Description:**        * An administrator can improve *Accuracy* and *Quality of Data* by restricting the properties of *Attributes, Tags, and Classes* entered.
 
-**Related topics:**     * *Rules*
+**Related topics:**     * :doc:`Data Quality Rule </feature/product_feature/mdm/governance/dataqualityrule>`
+                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
+                        * :doc:`Standardize Product Definitions </feature/product_feature/mdm/governance/standardizationandnormalization/standardizeproductdefinitions>`
 
 **Application:**        * The feature can create *Data Quality Rules*.
                         * *Example:*
@@ -15,3 +17,78 @@ Remedy Quality Issues is a data governance feature that edits records with incor
                              *Organization A* sells *Electronics* and each product has a unique GTIN.  An admin can set up a **rule** stating that the GTIN cannot exceed 14 digits.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Create Rule Violation
+=================================
+To create a rule violation, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_clickadministration.PNG
+|
+|
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_clickdatagovernance.PNG
+|
+|
+
+#. Click on **Rules** then click on the “+” icon to create a rule.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_clickrules.PNG
+|
+|
+
+#. Enter the name and select **Violation** as rule type, then click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_entername.PNG
+|
+|
+
+#. Select the *Partners,* *Endpoints,* and *Physical Catalogs* to which the rule is to be applied.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selectpartners.PNG
+|
+|
+
+#. In the *Cause* section, select the attributes, tags, and classes to which the rule will be applied. Take note that leaving the configuration details empty will apply the rule to every attribute, tag, and class.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selectattribute.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selecttag.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selectclass.PNG
+|
+|
+
+#. After selecting the attribute, select the type of violation.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selectviolation.PNG
+|
+|
+
+
+#. In the *Effect* section, select the attribute to which the violation will be reflected.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_attributeeffect.PNG
+|
+|
+
+#. Select the color and enter the description to be shown whenever the violation occurs.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_selectcolor.PNG
+|
+|
+
+#. Click on the **Save** button.
+
+.. image:: /feature/_images/mdmimages/cs_dataremediation_clicksave.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
