@@ -2,7 +2,7 @@
 Rollback
 =========
 
- The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
+The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
 
 ===================  =================================================================================================================================================================
 
@@ -39,7 +39,6 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/cs_rollbackb_selectproduct.PNG
 |
 |
-
 
 #. Click on the *Relationships* tab.
 
@@ -93,7 +92,7 @@ To do this, follow these steps:
 |
 |
 
-#.    Once the rollback has been confirmed, Relationship Tab opens, and the relationship is restored.View the image (now replaced to the old version).
+#.    Once the rollback has been confirmed, Relationship Tab opens, and the relationship is restored.View the image (now rereverted to the old version).
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_viewimage.PNG
 |
