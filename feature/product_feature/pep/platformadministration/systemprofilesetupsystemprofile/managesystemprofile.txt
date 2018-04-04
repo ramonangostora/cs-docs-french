@@ -9,16 +9,74 @@ Manage System Profile is an admin feature that manages a *System (Organization P
                         * A *System* is a profile created for an organization.
                         * These systems will be alloted to the organization that they have been set up for and can be customized for the organization's specific roles.
 
-**Related topics:**     * *Data Integration Process*
-                        * *Data Integration Mapping*
-                        * *Manage Endpoints for a System*
+**Related topics:**     * :doc:`Manage Endpoints for a System </feature/product_feature/pep/platformadministration/systemprofilesetupandmanagesystemspecificdata/manageendpointsforasystem>`
+                        * :doc:`Manage Outbound Process </feature/product_feature/pep/platformadministration/dataintegrationmanageoutboundprocess/manageoutboundprocess>`
 
-**Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own on-board and off-board endpoints.
+
+**Application:**        * An organization can have multiple end-to-end systems like *CRM, ERP,* etc. These systems will have their own inbound and outbound endpoints.
                         * All these systems (along with the endpoints) can be allotted to the organization and can be further customized for the roles of that particular organization.
-                          With this, the admin can maintain exclusivity of endpoints for specific roles within the organization.
+                          With this, the admin can maintain the exclusivity of endpoints for specific roles within the organization.
                         * *Example:*
 
-                            The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints.
-                            Whereas, the ERP-concerned roles can only access the ERP endpoints.
+                            The CRM-concerned roles within the organization can only access the CRM inbound and outbound endpoints,
+                            whereas the ERP-concerned roles can only access the ERP endpoints.
 
 ===================     =======================================================================================================================================================================
+
+
+
+How to do: Set up System Profile
+=================================
+To set up system profile, follow these steps:
+
+|
+
+#. Log in and go to *Administration*.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_gotoadmin.PNG
+|
+|
+
+#. Click on the **Partner Administration** tab.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickpartneradmin.PNG
+|
+|
+
+#. Click on **Partners**.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickpartners.PNG
+|
+|
+
+#. Click on the "+" button to create an organization (or select an existing one).
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clickplusbutton.PNG
+|
+|
+
+#. Enter the name and click on the **Create** button.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_entername.PNG
+|
+|
+
+#. In the *Systems* section, click on the "+" icon to add systems to the organization.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_clicksystemplus.PNG
+|
+|
+
+#. Select the system to be added and click on the **Apply** button.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_selectsystem.PNG
+|
+|
+
+#. Select the endpoints to be used in the system.
+
+.. image:: /feature/_images/pepimages/cs_managesystemprofile_selectendpoints.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
