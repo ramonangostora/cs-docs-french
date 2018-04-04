@@ -1,7 +1,7 @@
 ============
 Import Tags
 ============
-The Import Tags is a feature that allows the import of tags so that multiple tags can be added in the system in one go.
+The Import Tags is a feature that allows the import of tags so that multiple tags can be added to the system in one go.
 
 
 ===================     =======================================================================================================================================================================
@@ -9,12 +9,55 @@ The Import Tags is a feature that allows the import of tags so that multiple tag
                         * This feature allows and helps user to upload a huge amount of data (tags) in one go.
                         * This feature imports the tag definitions using an Excel file.
 
-**Related topics:**     * *Tag Management*
-                        * *Export Tags*
+**Related topics:**     * :doc:`Manage LOVs </feature/product_feature/mdm/administration/datamodeltagmanagement/managelovs>`
+                        * :doc:`Manage Affinities </feature/product_feature/mdm/administration/datamodeltagmanagement/manageaffinities>`
+                        * :doc:`Export Tags </feature/product_feature/mdm/administration/importexportdatamodeltags/exporttags>`
 
-**Application:**        * This feature is useful to import huge amount of data in a short duration of time.
+**Application:**        * This feature is useful when trying to import a huge amount of data in a short duration of time.
                         * *Example:*
 
                             Supplier A wants to add a file of tags to his PIM system. He will write the tags in Excel (*.xls format*) and simply add it to the system with this feature.
 
 ===================     =======================================================================================================================================================================
+
+
+
+
+How to do: Import Tags
+======================
+To import tags, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clickadministration.PNG
+|
+|
+
+#. Click on **Properties**.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clickproperties.PNG
+|
+|
+
+#. Click on **LOV** then click on **Import all tags**.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_clicklov.PNG
+|
+|
+
+#. Select the file to be imported.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_selectfile.PNG
+|
+|
+
+#. View the imported tags in their respective sections.
+
+.. image:: /feature/_images/mdmimages/cs_importtags_viewimportedtags.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

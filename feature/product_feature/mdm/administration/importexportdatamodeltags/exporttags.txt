@@ -9,8 +9,9 @@ The Export Tags is a feature that exports tag definitions so that they can be vi
                         * This feature lets users have all the details of the tags in a single sheet. This sheet can also be used offline.
                         * This feature exports the tag definitions in an Excel file.
 
-**Related topics:**     * *Tag Management*
-                        * *Import Tags*
+**Related topics:**     * :doc:`Manage LOVs </feature/product_feature/mdm/administration/datamodeltagmanagement/managelovs>`
+                        * :doc:`Manage Affinities </feature/product_feature/mdm/administration/datamodeltagmanagement/manageaffinities>`
+                        * :doc:`Import Tags </feature/product_feature/mdm/administration/importexportdatamodeltags/importtags>`
 
 **Application:**        * When a user/supplier needs the information of the Tags in the system, The *Export Tags* feature will provide the list of all the tags in a downloadable sheet.
                         * *Example:*
@@ -18,3 +19,33 @@ The Export Tags is a feature that exports tag definitions so that they can be vi
                             When *Users A, B, or C* need a list of tags present in the system, they can view and save it externally by using *Export Tags* feature.
 
 ===================     =======================================================================================================================================================================
+
+
+
+How to do: Export Tags
+======================
+To export tags, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clickadministration.PNG
+|
+|
+
+#. Click on **Properties**.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clickproperties.PNG
+|
+|
+
+#. Click on **LOV** then click on **Export all tags**.
+
+.. image:: /feature/_images/mdmimages/cs_exporttags_clicklov.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
