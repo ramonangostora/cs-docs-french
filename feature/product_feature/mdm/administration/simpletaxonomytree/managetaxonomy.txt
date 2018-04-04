@@ -13,7 +13,7 @@ It is the primary way that we update taxonomies in the Contentsphere system.
                         * When the taxonomy is given a level vertically, it becomes more specific under that category.
                           For example, a taxonomy may have a *Fashion* category which may be made more specific with a *Pants* subcategory.
                         * When the taxonomy is given a level horizontally, it adds a new branch that products can be categorized into making the classification broader in scope.
-                          For example, a taxonomy with an existing *Fashion* category may also have a *Electronics* category on the same level as *Fashion*.
+                          For example, a taxonomy with an existing *Fashion* category may also have an *Electronics* category on the same level as *Fashion*.
                           This would reflect a retailer with many different product lines.
                         * Use the **plus (+)** buttons to add levels to your taxonomy, where required.
                         * A store’s taxonomy can be configured in many different ways.
