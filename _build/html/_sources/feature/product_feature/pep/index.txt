@@ -1,6 +1,6 @@
-==================
-PEP Feature Guides
-==================
+===============================
+Partner Engagement Portal (PEP)
+===============================
 
 .. toctree::
    :maxdepth: 1

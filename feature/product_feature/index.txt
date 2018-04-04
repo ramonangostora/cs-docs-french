@@ -1,12 +1,11 @@
-================
-Product Features
-================
+==============
+Feature Guides
+==============
+
+Our feature guides are designed to help you understand a particular feature and be able to implement it through an accompanying how-to guide. Navigate to your desired feature by product line:
 
 .. toctree::
    :maxdepth: 1
 
    mdm/index
-   pim/index
    pep/index
-   mch/index
-   feature guides

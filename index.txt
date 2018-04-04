@@ -1,23 +1,16 @@
-======================
-Contentsphere Handbook
-======================
-
-Everything you need to know about the **Contentsphere** Application suite and
-training materials and guides is provided in this suite of materials.
-
-.. image:: _images/line-png-32.png
-   :alt: Contentsphere log in screen
-
 Getting help
 ============
 
 .. image:: _images/valkyrie_screenshot_compressed.png
    :alt: Contentsphere log in screen
 
-Using the Handbook
-==================
+Using this resource
+===================
 
-To search through the documentation see :ref:`search`.
+The Help Center holds everything you need to know about the **Contentsphere** application suite in the form of
+training materials and guides.
+
+To search through the documentation see the :ref:`search` or use the search field in the navigation bar.
 
 The site is organised into four key areas which are referenced throughout the handbook. The Handbook is also
 the basis for the context sensitive help and tooltips within the application.
@@ -32,9 +25,6 @@ the basis for the context sensitive help and tooltips within the application.
 * :doc:`Reference guides </reference/index>` contain technical reference for implementation and support of the
   application other aspects of **Contentsphere’s** machinery. They describe how it works and how to use it but assume
   that you have a basic understanding of key concepts
-
-* :doc:`How to guides </how/index>` are recipes. They guide you through the steps involved in addressing key problems
-  and use-cases. They are more advanced than tutorials and assume some knowledge of how **Contentsphere** works.
 
 * :doc:`Glossary </glossary>` defines the terms found in Contentsphere.
 

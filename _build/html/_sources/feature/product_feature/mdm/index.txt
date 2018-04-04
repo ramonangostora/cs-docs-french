@@ -1,6 +1,6 @@
-==================
-MDM Feature Guides
-==================
+============================
+Master Data Management (MDM)
+============================
 
 .. toctree::
    :maxdepth: 1

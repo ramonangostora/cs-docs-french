@@ -1,11 +1,8 @@
-==============
-Feature Guides
-==============
+==================
+All Feature Guides
+==================
 
 .. toctree::
    :maxdepth: 1
 
    product_feature/index
-   roadmap_feature/index
-   deprecation
-   requirement_feature/index

@@ -3,7 +3,7 @@
 #index div.section dt { font-weight: normal; }
 
 #index #s-getting-help { float: right; width: 35em; background: #FFF; margin: 2em 0 2em 2em; }
-#index #s-getting-help h2 { margin: 0; display: none; }
+#index #s-getting-help h1 { margin: 0; display: none; }
 #index #s-getting-help img {
 	width: 100%;
 }
