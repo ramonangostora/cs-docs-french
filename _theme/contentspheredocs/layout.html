@@ -99,12 +99,23 @@
     <div id="bd">
       <div id="yui-main">
         <div class="yui-b">
+          {% if pagename != 'index' %}
+            <div class="breadcrumbs">
+              <a href="{{ pathto('index') }}">Home</a> /
+              {% for p in parents %}
+                <span><a href="{{ p.link }}">{{ p.title }}</a> /
+              {% endfor %}
+              <span>{{ title }}</span>
+              {% for p in parents %}</span>{% endfor %}
+            </div>
+          {% endif %}
           <div class="yui-g" id="{{ pagename|replace('/', '-') }}">
             {% block body %}{% endblock %}
           </div>
         </div>
       </div>
-      {% block sidebarwrapper %}
+      <!-- Sidebar -->
+      <!-- {% block sidebarwrapper %}
         {% if pagename != 'index' %}
           <div class="yui-b" id="sidebar">
             <div class="sidebar-padding">
@@ -116,10 +127,13 @@
             </div>
           </div>
         {% endif %}
-      {% endblock %}
+      {% endblock %} -->
     </div>
 
     <div id="ft">
+      {%- if last_updated %}
+        <p class="topless">Last updated: {{ last_updated }}</p>
+      {%- endif %}
       <div class="nav">{{ secondnav() }}</div>
     </div>
   </div>
