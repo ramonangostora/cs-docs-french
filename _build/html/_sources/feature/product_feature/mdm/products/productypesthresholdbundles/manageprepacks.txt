@@ -8,9 +8,7 @@ Manage Prepacks is a feature that allows a user to group together different prod
 **Description:**        * It is a collection of single articles (*similar or dissimilar*), tied or wrapped up together as one.
                         * This feature creates *Threshold Bundle*, which is also known as *Loose bundle*.
 
-**Related topics:**     * *Products*
-                        * *Property Collections*
-                        * *Threshold Bundles*
+**Related topics:**     *  :doc:`Manage Displays</feature/product_feature/mdm/products/productypesthresholdbundles/managedisplays>`
 
 **Application:**        * A *Loose bundle* or *Combination of Products* may help retailers to increase the sales of products.
                         * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities or can sell the bundle at a discounted price.
@@ -20,3 +18,128 @@ Manage Prepacks is a feature that allows a user to group together different prod
                             These products can be sold either as a combo or individual items.
 
 ===================     =======================================================================================================================================================================
+
+How to do: Manage Prepacks
+==========================
+To do this, follow these steps:
+
+#. Click  **Administration** icon.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_gotoadmin.PNG
+|
+|
+
+#.  Click Data *Model* tab.Then, click **Article**
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickdatamod.PNG
+|
+|
+
+
+#.  Click on the **‘+’** icon to create the type of product.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickplus.PNG
+|
+|
+
+#.  Fill in the required details and enable the tab for nature class type.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_enterdetails.PNG
+|
+|
+
+
+#.  click **Type** to select from the dropdown list and select **Threshold**. Click **CREATE** to continue.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clicktype.PNG
+|
+|
+
+#.  In the content window of the class, enable Default. Remember to mention Maximum Number of products you would like to add. Save the changes.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickdefaultopt.PNG
+|
+|
+
+
+#.  Similarly, there are various fields where you can add **Events, Embedded Classes** etc.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_similarfields.PNG
+|
+|
+
+#.  Add property collection in the Section tab by clicking on **‘+’** icon and click  **Apply**.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_addproperty.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_addproperty2.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_addproperty3.PNG
+|
+|
+
+#.   In the Relationship section, select the class by clicking on Other Side (in thios demo, we selected   *'article'*). The type of class you choose here  will decide what kind of products you can add to threshold bundles.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickexplore.PNG
+|
+|
+
+#.   Next, click on the Explore tab. Hover to the **‘+’** icon to see **‘Loose Bundle’** type of class that was created earlier.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickexplore.PNG
+|
+|
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickexplore2.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_viewfixed.PNG
+|
+|
+
+#.   Next, Click on the class **Loose Bundle**.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickloose.PNG
+|
+|
+
+#.   Click on *Overview* tab to find a sub-tab Bundle Section.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickoverviewaddprodb.PNG
+|
+|
+
+#.   Click **+**  icon, which opens up to another window, where list of products you made are visible.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickoverviewaddprod.PNG
+|
+|
+
+#.   Select the product by clicking on checkbox, and drag it to the right hand side of the space provided.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprod.PNG
+|
+|
+
+#.   After selecting products, click on the **Add Product**  icon.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprodb.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_fixedselectprodc.PNG
+|
+|
+
+#.   Click **Back** to add more products. Images can also be added in the **Relationship** tab.
+
+.. image:: /feature/_images/mdmimages/cs_manageprepacks_clickrelationship.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
