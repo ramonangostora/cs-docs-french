@@ -1,6 +1,6 @@
-===========================================
+============================================
 Public or Private Bookmarks and Collections
-===========================================
+============================================
 Public or Private Bookmarks and Collections feature lets you define whether bookmarks and collections are visible to all or only to certain users.
 
 
@@ -9,15 +9,18 @@ Public or Private Bookmarks and Collections feature lets you define whether book
                         * Only the user who set a bookmark as private can access that bookmark.
                         * A locked icon indicates that a bookmark is a private one.
 
-**Related topics:**     * *Search and Store Bookmarks*
+**Related topics:**     * :doc:`Search and Store Bookmarks </feature/product_feature/mdm/general/collectionsandbookmarks/searchandstore>`
+                        * :doc:`Manage Products across Collections </feature/product_feature/mdm/general/collectionsandbookmarks/manageproducts>`
+                        * :doc:`Collection Hierarchy </feature/product_feature/mdm/general/collectionsandbookmarks/collectionhierarchy>`
+                        * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
 
 **Application:**        * Use a private bookmark for securing access to a personal product watchlist.
                         * Share your product watchlist by using a public bookmark.
                         * *Example:*
 
-                            Suppose the marketing team of a company has created a bookmark for a trial, so they make the bookmark as a private bookmark
+                            Suppose the marketing team of a company has created a bookmark for a trial - they can make the bookmark as a *Private bookmark*
                             because they don't want to show their bookmark to the other users of the system.
-                            On the other hand, if they want to share the bookmark with other users, they keep the bookmark as a public bnookmark.
+                            On the other hand, if they want to share the bookmark with other users, they can set the bookmark as a *Public bookmark*.
 
 ====================    =============================================================================================================================================================
 
@@ -25,7 +28,7 @@ Public or Private Bookmarks and Collections feature lets you define whether book
 How to do: Public or Private Bookmarks and Collections
 ======================================================
 
-This How To guide provides instructions on how to define a bookmark (or collection) to either Public or Private. A public setting grants access to all users while a private setting grants access only to specific users.
+This How To guide provides instructions on how to define a bookmark (or collection) to either *Public or Private*.
 To do this, follow these steps:
 
 

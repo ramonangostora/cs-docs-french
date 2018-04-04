@@ -8,14 +8,15 @@ Collection Hierarchy lets you organize and view your collections within a struct
 **Description:**        * Collection Hierarchy creates levels in the hierarchy for the products.
                         * Products can be copied or moved between these levels.
 
-**Related topics:**     * *Public or Private Bookmarks and Collections*
-                        * *Manage Products across Collections*
+**Related topics:**     * :doc:`Public or Private Bookmarks and Collections </feature/product_feature/mdm/general/collectionsandbookmarks/bookmarkcollections>`
+                        * :doc:`Manage Products across Collections </feature/product_feature/mdm/general/collectionsandbookmarks/manageproducts>`
 
 **Application:**        * Categorically structure the products in a product group.
                         * A collection can contain any number of products, and these products can be copied or moved between the levels of hierarchies.
                         * *Example:*
 
-                            A collection of furniture products can have hierarchy level based on product type such as office and home furniture, chairs, tables and others.
+                            A collection of furniture products can have hierarchy levels based on product types such as *Office and Home furniture, Chairs, Tables* and others.
+
 ====================    =============================================================================================================================================================
 
 
@@ -33,6 +34,7 @@ To do this, follow these steps:
 |
 |
 
+
 #. On the collections page, click **Add New Collection** and enter the name of the new collection.
 
 .. image:: /feature/_images/mdmimages/colhier_addnewcollection.PNG
@@ -40,6 +42,7 @@ To do this, follow these steps:
 .. image:: /feature/_images/mdmimages/colhier_entername.PNG
 |
 |
+
 
 #. Repeat the previous step to create a hierarchy of the product, accordingly.
 
