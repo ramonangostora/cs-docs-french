@@ -10,8 +10,9 @@ Standardize Product Definitions is a data governance feature that standardizes t
                         * A rule can be defined to normalize different values entered for the articles.
                         * Within multiple tags/attributes, there is an **'OR'** condition while for multiple tags/attributes, there is an **'AND'** condition.
 
-**Related topics:**     * *Products*
-                        * *Attribute Management*
+**Related topics:**     * :doc:`Data Quality Rule </feature/product_feature/mdm/governance/dataqualityrule>`
+                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
+                        * :doc:`Remedy Quality Issues </feature/product_feature/mdm/governance/dataremediation/remedyqualityissues>`
 
 **Application:**        * Rules can be made to normalize or standardize a tag based on certain attributes for the product.
                         * There can be certain attributes, whose values are based on the selection of tag or attribute contents.
@@ -21,3 +22,84 @@ Standardize Product Definitions is a data governance feature that standardizes t
                             A tag needs to be normalized based on allergen information like *Contains Lactose* or *Contains Nuts*.
 
 ===================     =======================================================================================================================================================================
+
+
+
+How to do: Standardize Product Definitions
+===========================================
+To standardize product definitions, follow these steps:
+
+|
+
+#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickadministration.PNG
+|
+|
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickdatagovernance.PNG
+|
+|
+
+#. Click on **Rules** then click on the “+” icon to create a rule.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickrules.PNG
+|
+|
+
+#. Enter the name and select **Standardization and Normalization** as rule type then click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_entername.PNG
+|
+|
+
+#. Select the *Partners,* *Endpoints,* and *Physical Catalogs* to which the rule is to be applied.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_selectpartners.PNG
+|
+|
+
+#. In the *Cause* section, select the attributes and tags that violate the rule.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributecause.PNG
+|
+|
+
+#. Select the condition by which the rule is violated.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_condition.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_condition2.PNG
+
+|
+
+#. Select multiple conditions if necessary.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_multiplecondition.PNG
+|
+|
+
+#. Select the class to which the rule will be applied.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_selectclass.PNG
+|
+|
+
+#. In the *Effect* section, select the attributes and tags to be normalized.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributeeffect.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributeeffect2.PNG
+
+|
+
+#. Click on the **Save** button to save the rule for the selected attributes and tags. For classes and taxonomies, the rule gets saved upon selection.
+
+.. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clicksave.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
