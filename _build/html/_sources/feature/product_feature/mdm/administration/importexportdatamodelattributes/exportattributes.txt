@@ -1,21 +1,21 @@
 ==================
 Export Attributes
 ==================
-The Export Attributes is a feature that allows the export of attribute definitions so that they can be viewed and checked offline.
+The Export Attributes is a feature that allows exporting of attribute definitions and data so that they can be viewed and checked offline.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * The feature allows a user to export attributes in one click.
+**Description:**        * This feature allows a user to export all attributes in one click.
 
-**Related topics:**     * *Manage Different Types of Attributes*
-                        * *Import Attributes*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
+                        * :doc:`Import Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/importattributes>`
 
-**Application:**        * The *Export* feature will allow the user to export the list of attributes in one click.
-                          This exported document can also be sent and used by other users (*Suppliers or Partners*).
+**Application:**        * The *Export* feature will allow a user to export a list of attributes in one click.
+                          The exported list will be contained in a document that can be sent and used by other users (like *Suppliers or Partners*).
                         * *Example:*
 
-                            *Supplier A* has *Products X, Y and Z* with 25 attributes each. *Supplier A* requests to check the attributes added to the system.
-                            The admin can export the requested data from the system and forward this list back to *Supplier A*.
+                            *Supplier A* has *Products X, Y, and Z* with 25 attributes each. *Supplier A* requests to check particular attributes used on these products.
+                            The admin can export all the attribute data from the system and will forward the exported list to *Supplier A*.
 
 ===================     =======================================================================================================================================================================
 
@@ -26,44 +26,80 @@ To export attributes, follow the steps provided below:
 
 |
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Log in to Contentsphere and click on the **Administration** button.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_logintocontentsphere.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Click on the **Data Model** tab and go to *Properties*.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_clickonthedatamodel.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Go to any attribute type (like *Date*).
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotodateandselect.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Click on the **Export all Attributes** button. This will export all the attributes that are in the system.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_onceselectedclickonthexportall.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Wait for the download to be completed.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_waitforthedownloadtocomplete.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Once downloaded, access the file and view the attribute data.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_oncecompletedaccessthefile.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 

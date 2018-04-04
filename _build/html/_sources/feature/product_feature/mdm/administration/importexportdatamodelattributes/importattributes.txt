@@ -1,24 +1,28 @@
 ==================
 Import Attributes
 ==================
-The Import Attributes is a feature that allows the import of attribute definitions so that multiple attributes can be created in one go.
+The Import Attributes is a feature that allows importing of attribute definitions and data so that multiple attributes can be created in one go.
 
 
-===================     =======================================================================================================================================================================
-**Description:**        * It allows the import of a document with list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
-                        * It also allows a user to import bulk attributes instead of creating them one by one manually.
+===================     =========================================================================================================================================================================
+**Description:**        * It allows the import of a document with a list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
+                        * It also allows a user to import attributes in bulk instead of creating them one by one, manually.
 
-**Related topics:**     * *Manage Different Types of Attributes*
-                        * *Export Attributes*
+**Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
+                        * :doc:`Export Attributes </feature/product_feature/mdm/administration/importexportdatamodelattributes/exportattributes>`
 
 **Application:**        * The feature allows a user to import the attributes in bulk, thereby, saving a lot of time.
-                          It also reduces manual work of creating attribute one by one.
+                          It also reduces manual work because a user does not have to create one attribute at a time.
                         * *Example:*
 
                             *Supplier A* has *Products X, Y and Z* with 25 attributes each. Rather than inputting all these attributes one by one in the system,
                             *Supplier A* can collate all information in one document and import it using this feature.
 
+<<<<<<< HEAD
 ===================     =======================================================================================================================================================================
+=======
+===================     =========================================================================================================================================================================
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 
 
 How to do: Import Attributes
@@ -27,6 +31,59 @@ To import attributes, follow the steps provided below:
 
 |
 
+<<<<<<< HEAD
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Log in to Contentsphere and click on the **Administration** button.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_logintocontentsphere.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
+|
+|
+
+
+<<<<<<< HEAD
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Click on the **Data Model** tab and go to *Properties*.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_clickonthedatamodel.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
+|
+|
+
+
+<<<<<<< HEAD
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Go to any attribute type (like *Date*) and click on the **Import all Attributes** button.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotoanyattributeandclickonimport.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
+|
+|
+
+
+<<<<<<< HEAD
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+=======
+#. Select the file from your device.
+
+.. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_selectthefile.PNG
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
+|
+|
+
+
+<<<<<<< HEAD
 #. Step.
 
 .. image:: /feature/_images/mdmimages/image.PNG
@@ -38,34 +95,10 @@ To import attributes, follow the steps provided below:
 
 .. image:: /feature/_images/mdmimages/image.PNG
 |
-|
+=======
+#. Wait for the import to finish.  Once done, the added attributes can be viewed in the system.
 
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
-
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
-
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
-
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
+>>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 
 
