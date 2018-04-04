@@ -118,37 +118,46 @@
             
   <div class="section" id="s-dependent-attributes">
 <span id="dependent-attributes"></span><h1>Dependent Attributes<a class="headerlink" href="#dependent-attributes" title="Permalink to this headline">¶</a></h1>
-<p>The Dependent Attributes feature is an admin feature that configures dependent attributes, which are used to introduce additional set of attributes that should be filled out
+<p>The Dependent Attributes feature is an admin feature that configures dependent attributes, which are used to introduce additional set of properties that should be filled out
 because of a logical relationship they have with each other.</p>
 <table class="docutils">
 <colgroup>
-<col width="11%" />
-<col width="89%" />
+<col width="10%" />
+<col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><strong>Description:</strong></td>
+<tr class="row-odd"><td><strong>Key Term:</strong></td>
 <td><ul class="first last simple">
-<li>Dependent attributes are properties whose values are restricted by another attribute value.</li>
-<li>Minor Taxonomies are used to build dependent attributes, by which various properties can be dependent on a particular property.</li>
+<li><strong>Dependent Attributes:</strong> these are attributes (or properties) whose values are related to another attribute value.</li>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td><strong>Related topics:</strong></td>
+<tr class="row-even"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li><em>Attribute Management</em></li>
-<li><em>Property Collections</em></li>
+<li>This feature sets up a Dependent Attribute that introduces other collections of attributes that add more definition to a product.</li>
+<li>Minor Taxonomies are used to build dependent attributes wherein various properties will be dependent on a particular property.</li>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><strong>Application:</strong></td>
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../datamodelattributemanagement/managedifferenttypesofattributes.html"><span class="doc">Manage Different Types of Attributes</span></a></li>
+<li><a class="reference internal" href="../datamodelattributemanagement/managedifferenttypesofmeasurementattributes.html"><span class="doc">Manage Different Types of Measurement Attributes</span></a></li>
+<li><a class="reference internal" href="../datamodelattributemanagement/managecalculatedattributes.html"><span class="doc">Manage Calculated Attributes</span></a></li>
+<li><a class="reference internal" href="../datamodelattributemanagement/manageconcatenatedattributes.html"><span class="doc">Manage Concatenated Attributes</span></a></li>
+<li><a class="reference internal" href="../datamodelpropertycollections/propertycollections.html"><span class="doc">Property Collections</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first">An article/product may have a set of properties linked on a different tag group.</p>
+<li><p class="first">An article/product may have a set of properties linked to a different tag group.</p>
 </li>
-<li><p class="first">An admin can create various attributes and by using the minor taxonomy have these attributes linked as dependent attributes.</p>
+<li><p class="first">An admin can create various attributes and by using the minor taxonomy, may have these attributes linked as dependent attributes.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
-<div><p>There are properties which are dependent on the type of material. Glass has different properties associated to it and steel has different properties, as well.
+<div><p>There are properties which are dependent on the type of material. Glass has different properties associated with it and steel has different properties, as well.
 The ‘Material’ will be set as a minor taxonomy and will be added in a property collection.</p>
 </div></blockquote>
 </li>
@@ -157,6 +166,113 @@ The ‘Material’ will be set as a minor taxonomy and will be added in a proper
 </tr>
 </tbody>
 </table>
+<div class="section" id="s-how-to-do-dependent-attributes">
+<span id="how-to-do-dependent-attributes"></span><h2>How to do: Dependent Attributes<a class="headerlink" href="#how-to-do-dependent-attributes" title="Permalink to this headline">¶</a></h2>
+<p>To configure a dependent attribute, follow the steps provided:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in to <em>Contentsphere</em> and click on the <strong>Administration</strong> button to go to the configuration panel.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_logintocontentsphere.PNG" src="../../../../../_images/cs_dependentattributes_logintocontentsphere.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Create the attributes, tags, and property collection for the various dependent attributes.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_createattributestagspropertycollections.PNG" src="../../../../../_images/cs_dependentattributes_createattributestagspropertycollections.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Taxonomies</em> section and then, select <em>Master Taxonomies</em>.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_gototaxonomiessection.PNG" src="../../../../../_images/cs_dependentattributes_gototaxonomiessection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create a new taxonomy.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_gototaxonomiessection2.PNG" src="../../../../../_images/cs_dependentattributes_gototaxonomiessection2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Provide a name for the taxonomy. Also, disable the <em>Major Taxonomy</em> so that a <em>Minor Taxonomy</em> will be created. Click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_clickontheicon.PNG" src="../../../../../_images/cs_dependentattributes_clickontheicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to add a property collection.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_clickontheicontoaddpropertycollection.PNG" src="../../../../../_images/cs_dependentattributes_clickontheicontoaddpropertycollection.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_dependentattributes_clickontheicontoaddpropertycollection2.PNG" src="../../../../../_images/cs_dependentattributes_clickontheicontoaddpropertycollection2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>To add another level, click on the “+” icon and a list of all the master tags will be shown. Select or add more tags.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_toaddanotherlevel.PNG" src="../../../../../_images/cs_dependentattributes_toaddanotherlevel.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_dependentattributes_toaddanotherlevel2.PNG" src="../../../../../_images/cs_dependentattributes_toaddanotherlevel2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Add more levels or property collections, as desired.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_addmorelevels.PNG" src="../../../../../_images/cs_dependentattributes_addmorelevels.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_dependentattributes_addmorelevels2.PNG" src="../../../../../_images/cs_dependentattributes_addmorelevels2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once the taxonomy is created, the minor taxonomy can then be added as a property collection.
+In the <em>Property Collections</em> tab, search for the minor taxonomy and add it as one of the properties.</li>
+</ol>
+<img alt="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated.PNG" src="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated2.PNG" src="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note: Once the minor taxonomy is added, view the dependent attributes in runtime.</em></p>
+<img alt="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated3.PNG" src="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated3.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated4.PNG" src="../../../../../_images/cs_dependentattributes_oncethetaxonomyiscreated4.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
 </div>
 
 
@@ -170,6 +286,14 @@ The ‘Material’ will be set as a minor taxonomy and will be added in a proper
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Dependent Attributes</a><ul>
+<li><a class="reference internal" href="#how-to-do-dependent-attributes">How to do: Dependent Attributes</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>Browse</h3>
   <ul>
     

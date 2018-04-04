@@ -19,3 +19,55 @@ The Import Attributes is a feature that allows the import of attribute definitio
                             *Supplier A* can collate all information in one document and import it using this feature.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: Import Attributes
+================================
+To import attributes, follow the steps provided below:
+
+|
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+#. Step.
+
+.. image:: /feature/_images/mdmimages/image.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
