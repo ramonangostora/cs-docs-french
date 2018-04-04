@@ -1,7 +1,7 @@
 Getting help
 ============
 
-.. image:: _images/valkyrie_screenshot_compressed.png
+.. image:: _images/homescreenshot-compressed.png
    :alt: Contentsphere log in screen
 
 Using this resource
