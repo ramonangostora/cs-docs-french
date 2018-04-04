@@ -118,38 +118,45 @@
             
   <div class="section" id="s-kpi-based-conformity-rules">
 <span id="kpi-based-conformity-rules"></span><h1>KPI-based Conformity Rules<a class="headerlink" href="#kpi-based-conformity-rules" title="Permalink to this headline">¶</a></h1>
-<p>The KPI-based Conformity Rules is a data governance feature that sets up <em>KPI-based Conformity Rules</em> to assess the conformance of an <em>Article</em> to the acceptable standards.</p>
+<p>The KPI-based Conformity Rules is a data governance feature that sets up rules to assess the conformance of an <em>Article</em> or a <em>Product</em> to the acceptable standards.</p>
 <table class="docutils">
 <colgroup>
 <col width="10%" />
 <col width="90%" />
 </colgroup>
 <tbody valign="top">
-<tr class="row-odd"><td><strong>Description:</strong></td>
+<tr class="row-odd"><td><strong>Key Term:</strong></td>
 <td><ul class="first last simple">
-<li>KPIs help to find the accuracy of the products on the basis of articles attributes taxonomy and tags.</li>
-<li>KPIs check on the basis of 4 factors: <em>Completeness, Conformity, Uniqueness, Accuracy.</em></li>
-<li>KPIs also drill down on the basis of Taxonomy and Tags.</li>
-<li>The KPI: <strong>Conformity</strong> checks the accuracy of data in the product.</li>
+<li><strong>Key Performance Indicator (KPI):</strong> is a measurement used to determine the quality of product data added into the system in relation to a set standard.</li>
 </ul>
 </td>
 </tr>
-<tr class="row-even"><td><strong>Related topics:</strong></td>
+<tr class="row-even"><td><strong>Description:</strong></td>
 <td><ul class="first last simple">
-<li><em>Attribute Management</em></li>
-<li><em>Taxonomy Management</em></li>
-<li><em>Tags Management</em></li>
+<li>KPIs help to find the accuracy of the products on the basis of an article’s attributes, taxonomy, and tags.</li>
+<li>KPIs check the following 4 factors: <em>Completeness, Conformity, Uniqueness, and Accuracy.</em></li>
+<li>KPIs drill down on the basis of <em>Taxonomy</em> and <em>Tags</em>.</li>
+<li>The KPI: <strong>Conformity</strong> checks the accuracy of data in the product and also inspects the data compliance with respect to the standards.</li>
 </ul>
 </td>
 </tr>
-<tr class="row-odd"><td><strong>Application:</strong></td>
+<tr class="row-odd"><td><strong>Related topics:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../../administration/datamodeltagmanagement/index.html"><span class="doc">Tag Management</span></a></li>
+<li><a class="reference internal" href="../../administration/datamodelattributemanagement/index.html"><span class="doc">Attribute Management</span></a></li>
+<li><a class="reference internal" href="../../administration/simpletaxonomytree/managetaxonomy.html"><span class="doc">Manage Taxonomy</span></a></li>
+<li><a class="reference internal" href="monitordataquality.html"><span class="doc">Monitor Data Quality</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Application:</strong></td>
 <td><ul class="first last">
-<li><p class="first"><strong>Data completeness</strong> is one of the most important data quality and accuracy checking characteristics. It is the most important factor for KPIs.</p>
+<li><p class="first"><strong>Data Conformity</strong> is one of the most important data quality and accuracy checking characteristics. It is a very important factor for KPIs.</p>
 </li>
 <li><p class="first"><em>Example:</em></p>
 <blockquote>
 <div><p>An organization sells furniture products. They have attributes for <em>Length of the wood</em> and tags for <em>Color</em>.
-Then, the <em>Conformity Rule</em> helps users to check that the length should not be more than 400m.</p>
+Then, the <em>Conformity Rule</em> helps users to check that the length should not be more than 400m (40,000cm).</p>
 </div></blockquote>
 </li>
 </ul>
@@ -157,6 +164,115 @@ Then, the <em>Conformity Rule</em> helps users to check that the length should n
 </tr>
 </tbody>
 </table>
+<div class="section" id="s-how-to-do-kpi-based-conformity-rules">
+<span id="how-to-do-kpi-based-conformity-rules"></span><h2>How to do: KPI-based Conformity Rules<a class="headerlink" href="#how-to-do-kpi-based-conformity-rules" title="Permalink to this headline">¶</a></h2>
+<p>To do this feature, follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in and go to <em>Administration</em>.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_login.PNG" src="../../../../../_images/cs_monitordataquality_login.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Data Governance</strong> tab.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickondatagovernance.PNG" src="../../../../../_images/cs_monitordataquality_clickondatagovernance.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on <strong>KPIs</strong>.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickonkpis.PNG" src="../../../../../_images/cs_monitordataquality_clickonkpis.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create a new KPI.</li>
+</ol>
+<img alt="../../../../../_images/cs_monitordataquality_clickontheicontocreatenewkpi.PNG" src="../../../../../_images/cs_monitordataquality_clickontheicontocreatenewkpi.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Fill out the name and click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_filloutthename.PNG" src="../../../../../_images/cs_kpibasedconformity_filloutthename.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once the KPI is created, the new KPI will be shown on the list. Click on the <strong>Edit</strong> button on the right.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_oncethekpiiscreated.PNG" src="../../../../../_images/cs_kpibasedconformity_oncethekpiiscreated.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>On the <em>KPI Details</em> page, select a <em>Class</em> and <em>Taxonomy</em>, which will use the KPI.  Click the <strong>Apply</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_selectclassandtaxonomy.PNG" src="../../../../../_images/cs_kpibasedconformity_selectclassandtaxonomy.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_kpibasedconformity_selectclassandtaxonomy2.PNG" src="../../../../../_images/cs_kpibasedconformity_selectclassandtaxonomy2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>For the Drill down levels, add <em>Tags</em> or <em>Taxonomies</em>, where the KPI is to be categorized into.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_forthedrilldownlevels.PNG" src="../../../../../_images/cs_kpibasedconformity_forthedrilldownlevels.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Conformity</strong> tab and click on the <strong>+ Add Rule</strong> button to create a new rule.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_clickontheconformity.PNG" src="../../../../../_images/cs_kpibasedconformity_clickontheconformity.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Provide the details for the <em>Label, Attributes, and Tags</em> to which the rule will be applied. Select the rules according to the requirements and standards.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_providethedetails.PNG" src="../../../../../_images/cs_kpibasedconformity_providethedetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="../../../../../_images/cs_kpibasedconformity_providethedetails2.PNG" src="../../../../../_images/cs_kpibasedconformity_providethedetails2.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../../../../_images/cs_kpibasedconformity_clickthesave.PNG" src="../../../../../_images/cs_kpibasedconformity_clickthesave.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<p><em>Note: A notification will confirm that the rule and the KPI have been created. Click OK to continue.</em></p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../../../../_images/line-png-32.PNG" />
+</div>
 </div>
 
 
@@ -170,6 +286,14 @@ Then, the <em>Conformity Rule</em> helps users to check that the length should n
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">KPI-based Conformity Rules</a><ul>
+<li><a class="reference internal" href="#how-to-do-kpi-based-conformity-rules">How to do: KPI-based Conformity Rules</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>Browse</h3>
   <ul>
     

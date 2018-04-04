@@ -1,23 +1,122 @@
 =============================
 KPI-based Completeness Rules
 =============================
-The KPI-based Completeness Rules is a data governance feature that sets up KPI-based Completeness Rules to assess the completeness of an *Article* or a *Product*.
+The KPI-based Completeness Rules is a data governance feature that sets up rules to assess the completeness of an *Article* or a *Product* with respect to a KPI.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * KPIs *(Key Performance Indicators)* demonstrate the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
-                        * KPIs check on the data accuracy measures: *Accuracy, Completeness, Conformity and Uniqueness*.
+**Key Term:**           * **Key Performance Indicator (KPI):** is a measurement used to determine the quality of product data added into the system in relation to a set standard.
+
+**Description:**        * KPIs demonstrate the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
+                        * KPIs check the following data accuracy measures: *Accuracy, Completeness, Conformity and Uniqueness*.
                         * KPIs can be drilled down on the basis of *Taxonomy* and *Tags*.
-                        * The KPI: **Completeness,** as the name suggests, ensures that the product data are complete in all aspects.
+                        * The KPI: **Completeness**, as the name suggests, ensures that the product data are complete in all aspects.
 
-**Related topics:**     * *Attribute Management*
-                        * *Taxonomy Management*
-                        * *Tags Management*
+**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                        * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
+                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data completeness** is one of the most important data quality measures.
+**Application:**        * **Data Completeness** is one of the most important data quality measures.  It is one of the most important factors for KPIs.
                         * *Example:*
 
                             Supplier A with 100 fashion products sets up a rule stating that the *Name Attribute* can't be left blank.
                             This rule will be applicable to all of 100 fashion products. If there are violations, they would be reflected in the graph.
 
 ===================     =======================================================================================================================================================================
+
+
+How to do: KPI-based Completeness Rules
+========================================
+To do this feature, follow these steps:
+
+|
+
+#. Log in and go to *Administration*.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_login.PNG
+|
+|
+
+
+#. Click on the **Data Governance** tab.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickondatagovernance.PNG
+|
+|
+
+
+#. Click on **KPIs**.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonkpis.PNG
+|
+|
+
+
+#. Click on the "+" icon to create a new KPI.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_clickontheicontocreatenewkpi.PNG
+|
+|
+
+
+#. Fill out the name and click on the **Create** button.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthename.PNG
+|
+|
+
+
+#. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_oncethekpiiscreated.PNG
+|
+|
+
+
+#. On the *KPI Details* page, select a *Class* and *Taxonomy*, which will use the KPI.  Click the **Apply** button.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy2.PNG
+|
+|
+
+
+#. For the Drill down levels, add *Tags* or *Taxonomies*, where the KPI is to be categorized into.
+
+.. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
+|
+|
+
+
+#. Click on the **Completeness** tab and click on the **+ Add Rule** button to create a new rule.
+
+.. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_clickoncompleteness.PNG
+|
+|
+
+
+#. Provide the details for the *Label, Attributes, and Tags* to which the rule will be applied.
+
+.. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_providethedetails.PNG
+|
+.. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_providethedetails2.PNG
+|
+|
+
+
+#. Click the **Save** button.
+
+.. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_clickthesavebutton.PNG
+|
+|
+
+*Note: A notification will confirm that the rule and the KPI have been created. Click OK to continue.*
+
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
