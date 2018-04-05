@@ -1,26 +1,27 @@
 ==================
 Product Comparison
 ==================
-Product Comparison lets you select and compare products.
+
+Product Comparison lets the user select and compare products within the PIM.
 
 
 ===================    =============================================================================================================================================================
-**Description:**        * This feature gives an overview of the similarities and differences of comparable products.
+**Description:**        * This feature provides a side-by-side comparison view of two or more products.
                         * The comparison table uses columns for the products or services, and rows for the attributes.
                         * Products are compared not only based on their attributes but also on their relationships.
+                        * It is accessible from the main PIM catalog by selecting several products and clicking the compare button.
 
 **Related topics:**     * *Parametric Search*
 
-**Application:**        * With a number of viable products, it is important to consider the pros and cons of each product.
-                          This is where Product Comparison can help the user in making the right decision when it comes to selecting products.
+**Application:**        * This feature is helpful when deciding which product to use for a promotion or comparing similar products for data quality.
                         * *Example:*
 
-                            A user wants to buy a sofa. He narrows down his search to sofas that cost more than $600.
-                            He then uses Product Comparison to compare the sofas that match the search criteria.
+                            A user wants to start a promotion based on a shoe. The user can use the Product Comparison feature to help decide which product to select from a shortlist.
+
 ===================    =============================================================================================================================================================
 
 
-How to do: Product Comparison
+How to: Product Comparison
 =============================
 
 This How To guide provides instructions on how to compare products.
