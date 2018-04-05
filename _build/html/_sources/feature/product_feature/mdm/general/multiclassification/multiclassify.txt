@@ -16,6 +16,7 @@ The Multi-classify Objects feature provides users the ability to add multiple cl
 
 **Related topics:**     * *Attribution classes with attributes and tags*
 						* *Property Collections*
+						* How Classes Work
 
 **Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
                           The nature class would only have general properties.

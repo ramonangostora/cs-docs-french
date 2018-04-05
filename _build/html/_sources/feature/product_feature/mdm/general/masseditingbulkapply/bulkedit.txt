@@ -1,20 +1,21 @@
 ==========
 Bulk Edit
 ==========
+
 The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.
 
-
 ===================     ===============================================================================================================================================================
-**Description:**        * This feature can change the values of multiple attributes/tags for multiple products in a single operation.
-                        * This feature can be used on similar or dissimilar types of products.
-                        * This feature allows multiple attributes/tags to be edited in a single operation.
-                        * This feature allows multiple attributes/tags to be changed and applied to products.
+**Description:**        * Bulk Edit can change the values of multiple attributes/tags for multiple products in a single operation.
+                        * Bulk Edit can be used on similar or dissimilar types of products.
+                        * Bulk Edit allows multiple attributes/tags to be edited in a single operation.
+                        * Bulk Edit allows multiple attributes/tags to be changed and applied to products.
+                        * Bulk Edit is accessed from the PIM main catalog view page.
 
 **Related topics:**     * *Search within Taxonomy*
                         * *Group By*
 
 **Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
-                        * Bulk Edit saves hours of manual work by editing products in a batch instead of one product at a time.
+                        * Bulk Edit saves the user from manual work by editing products in a batch instead of one product at a time.
                         * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
                         * *Example:*
 
@@ -24,7 +25,7 @@ The Bulk Edit feature allows a user to change the values of multiple attributes/
 ===================     ===============================================================================================================================================================
 
 
-How to do: Bulk Edit
+How to: Bulk Edit
 =====================
 To do mass editing, follow these steps:
 
