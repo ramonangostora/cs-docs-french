@@ -1,16 +1,16 @@
-===========================
-Data Model - Relationships
-===========================
-The Data Model Relationships feature provides information on the various relationships that can be set up between products, assets, articles, and entities.
+=============
+Relationships
+=============
 
+The Relationships feature enables the user to set up relationships or links between products, assets, articles, and entities.
 
 ====================      ===============================================================================================================================================================
-**Description:**          * An administrator can set up relationships between a *Product* and an *Asset.*
-                          * An administrator can set up relationships between *Articles.*
-                          * An administrator can set up relationships between *Entities.*
+**Description:**          * A user can set up relationships between a *Product* and an *Asset.*
+                          * A user can set up relationships between *Articles.*
+                          * A user can set up relationships between *Entities.*
                           * This feature provides the functionality that allows the linking of a product to its supporting details and assets like a product to its marketing images.
                             This also allows the linking of additional information about the images associated with the products, markets, etc.
-                          * This feature provides the functionality that creates relationships that will relate *Products* to the *Markets, Suppliers, Images, Videos, etc*.
+                          * This feature provides the functionality that creates relationships which will relate *Products* to the *Markets, Suppliers, Images, Videos, etc*.
                           * This feature provides the functionality that creates relationships that can be bi-directional in which the product can be related to the
                             image/market/supplier and the product will be visible in the image/market/supplier modules.
                           * *Example:*
