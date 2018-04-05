@@ -11,9 +11,9 @@ Learn the basics to get up and running quickly
 
 2. :doc:`Explore the UI <exploretheui>`
 
-3. :doc:`Add an Image to the DAM <addimagetoDAM>`
+3. :doc:`Add a New User <addnewuser>`
 
-4. :doc:`Add a New User <addnewuser>`
+4. :doc:`Add an Image to the DAM <addimagetoDAM>`
 
 5. :doc:`Create a New Product <createnewproduct>`
 

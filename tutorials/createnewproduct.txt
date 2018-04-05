@@ -1,5 +1,5 @@
 ==================
-Create New Product
+Create a New Product
 ==================
 The system allows effective management of products in the system. Products can be created, deleted, and edited.
 

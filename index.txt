@@ -43,22 +43,13 @@ Are you new to Contentsphere? This is the place to start!:
    :doc:`Explore the User Interface <tutorials/exploretheui>` |
    :doc:`Technical Deployment <reference/install>`
 
-#. **Concepts**
-   :doc:`What is a Data Model? <tutorials/whatisadatamodel>` |
-   :doc:`How Classes work <tutorials/howclasseswork>`
-
 #. **Tutorial**
-   :doc:`Part 1: Uploading and managing data <tutorials/tutorial01>` |
-   :doc:`Part 2: Setting up users, roles and authorizations <tutorials/tutorial01>` |
-   :doc:`Part 3: Building a taxonomy <tutorials/tutorial01>` |
-   :doc:`Part 4: Configuration of attributes and tags <tutorials/tutorial01>` |
-   :doc:`Part 5: Testing <tutorials/tutorial01>` |
-   :doc:`Part 6: Cloud <tutorials/tutorial01>` |
-   :doc:`Part 7: Customizing the admin site <tutorials/tutorial01>`
-
-#. **Advanced Tutorials**
-   :doc:`Integrating application and systems <tutorials/advtutorial01>` |
-   :doc:`Working with complex datasets <tutorials/advtutorial02>`
+   :doc:`Part 1: About the product <product/productlines>` |
+   :doc:`Part 2: Explore the User Interface <tutorials/exploretheui>` |
+   :doc:`Part 3: Add a New User <tutorials/addnewuser>` |
+   :doc:`Part 4: Add an Image to the DAM <tutorials/addimagetoDAM>` |
+   :doc:`Part 5: Create a New Product <tutorials/createnewproduct>` |
+   :doc:`Part 6: Set up a Taxonomy <tutorials/settinguptaxonomy>`
 
 .. image:: _images/line-png-32.png
   :alt: Contentsphere log in screen
