@@ -2,10 +2,11 @@
 Multilingual UI
 ===============
 
-Multilingual UI (User Interface) is a feature that provides translations for the menu items in the UI so that it can be used in multiple languages.
-
+Multilingual UI is a feature that provides translation capability for UI menu items so that it can be used in multiple languages.
 
 ===================  ============================================================================================================================================================================
+
+**Key Terms:**			* User Interface (UI): The digital interface used to interact with the Contentserv software
 
 **Description:**        * The UI can be in various languages such as *French, German and Spanish*.
                         * The administrator can set up the data model (attributes, tags, classes) in various languages so that it can be understood by users in multiple countries or regions.
@@ -16,7 +17,7 @@ Multilingual UI (User Interface) is a feature that provides translations for the
 **Application:**        * The system can have multiple languages of the UI for different languages.
                         * *Example:*
 
-                            The admininistrator wants the UI to be in French for a French user. The adminstrator configures translations to the UI labels in the administration section. When the user selects their desired language, the UI of the system will be translated.
+                            The administrator wants the UI to be in French for a French user. The adminstrator configures translations to the UI labels in the administration section. When the user selects their desired language, the UI of the system will be translated.
 
 ===================  ============================================================================================================================================================================
 
