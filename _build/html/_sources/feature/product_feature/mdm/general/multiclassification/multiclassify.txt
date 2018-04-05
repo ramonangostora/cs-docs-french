@@ -1,22 +1,28 @@
 ======================
 Multi-classify Objects
 ======================
-The Multi-classify Objects feature provides general users the ability to add attribution classes to the product in addition to the single Nature Class.
+
+The Multi-classify Objects feature provides users the ability to add multiple classes to a product. This enables better categorization of products as well as inheritance of relevant properties and attributes.
 
 
 ===================     =============================================================================================================================================================
+**Key Terms:**			* Nature Class: A class that defines the base type of product. This product type is specific to how the product should behave in the Contentserv software. Nature Classes could include Single Article, Product, Bundle or other custom-made product types.
+						* Attribution Class: A class that adds specific attributes to the product it is assigned to. For example a 'Mobile Phone' class may add attributes for Screen Size, Memory Size, Operating System etc.
+
 **Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class.
                           Attribution classes contain detailed descriptive properties for the product.
                         * The user is able to define the product further by adding properties based on different attribution classes.
+                        * Classifying a product with classes aids in finding that feature as well as giving the product access to class-specific sets of attributes and properties.
 
 **Related topics:**     * *Attribution classes with attributes and tags*
+						* *Property Collections*
 
 **Application:**        * Attribution classes, which are also known as Non-nature classes, contain more detailed information about the products.
                           The nature class would only have general properties.
                         * The attribution class would define the product more in detail.
                         * *Example:*
 
-                            For an energy drink, the nature class *Single Article* would just contain generic properties for the product,
+                            For an energy drink, the nature class *Single Article* would contain generic properties for the product,
                             whereas an attribution class *Beverages* would give details regarding beverages such as volume and can size.
                             As for another class *Energy Drinks*, it would give properties such as nutrition contents and caffeine contents.
 ===================     =============================================================================================================================================================
