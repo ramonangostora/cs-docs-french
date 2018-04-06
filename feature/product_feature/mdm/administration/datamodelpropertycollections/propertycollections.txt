@@ -1,32 +1,35 @@
-====================
+=====================
 Property Collections
-====================
+=====================
 
-This feature allows a user to group the attributes and tags under one area to more easily configure a group of products. 
+This feature allows a user to group the attributes and tags under one area to easily configure a group of products.
+
 
 ===================     =============================================================================================================================================================
+**Key Terms:**          * **Property:** A data field which describes a product, can also use 'attribute'.
+                        * **Attribute:** A data field which describes a product, can also use 'property'.
 
-**Key Terms:**			* Property: A data field which describes a product, can also use 'attribute'.
-						* Attribute: A data field which describes a product, can also use 'property'.
+**Description:**        * A property collection is a group of attributes, properties, tags, and roles. This collection can be added to a class or taxonomy level.
+                        * A user can then categorize a product under that class or taxonomy level to inherit a set of properties.
+                        * This feature is useful for product categories with common sets of attributes such as computers.
+                          A computer product will have attributes such as CPU, RAM, Battery Life which are common to all computers.
+                          Instead of configuring each individual computer product in your catalog with these attributes, the user can categorize the product under a class that inherits the relevant property collection.
 
-**Description:** 		* A property collection is a group of attributes, properties, tags, and roles. This 								collection can be added to a class or taxonomy level.
-						* A user can then categorize a product under that class or taxonomy level to inherit a set of properties. 
-						* This feature is useful for product categories with common sets of attributes such as computers. A computer product will have attributes such as CPU, RAM, Battery Life which are common to all computers. Instead of configuring each individual computer product in your catalog with these attributes, the user can categorize the product under a class that inherits the relevant property collection.
+**Related topics:**     * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                        * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
 
-**Related topics:**     * *Attributes and Tags*
-
-**Application:**        * The user has many shoes in their catalog. Each shoe has a common set of properties. The 							user wants all shoes in their catalog to use the same set of properties.
+**Application:**        * The user has many shoes in their catalog. Each shoe has a common set of properties. The user wants all shoes in their catalog to use the same set of properties.
                         * *Example:*
 
-                            Attributes: Size US, Size UK, Size EU, Materials, Color.
-                            These attributes are put into a property collection called Shoes and assigned to the Shoes taxonomy level. 
-                            Once a shoe product is assigned to that level of taxonomy, it will inherit all of the shoe properties defined in the property collection.	
+                            *Attributes: Size US, Size UK, Size EU, Materials, Color*.
+                            These attributes are put into a property collection called *Shoes* and assigned to the *Shoes Taxonomy Level*.
+                            Once a shoe product is assigned to that level of taxonomy, it will inherit all of the shoe properties defined in the property collection.
 
 ===================     =============================================================================================================================================================
 
 
 How to do: Property Collections
-===============================
+================================
 
 This How To guide provides instructions on how to group attributes and tags into one collection.
 To do this, follow these steps:
@@ -39,11 +42,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Click on **Property Collection Configuration**.
 
 .. image:: /feature/_images/mdmimages/propertycollection_config.PNG
 |
 |
+
 
 #. Click on the "+" icon to create a property collection.
 
@@ -51,11 +56,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Enter the name of the property collection.
 
 .. image:: /feature/_images/mdmimages/propertycollection_name.PNG
 |
 |
+
 
 #. Increase or decrease the number of rows and columns to accommodate the attributes and tags into the property collection.
 
@@ -63,11 +70,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Add the attributes, tags and roles to the property collection.
 
 .. image:: /feature/_images/mdmimages/propertycollection_canbeadded.PNG
 |
 |
+
 
 #. Drag and drop the attributes and tags into the empty rows and columns.
 
@@ -75,11 +84,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Click on **Class Configuration**.
 
 .. image:: /feature/_images/mdmimages/propertycollection_addtoclass.PNG
 |
 |
+
 
 #. Click the "+" icon in the class to add the property collection.
 
@@ -87,9 +98,11 @@ To do this, follow these steps:
 |
 |
 
+
 #. The property collection is now ready.
 
 .. image:: /feature/_images/mdmimages/propertycollection_propcoll.PNG
+|
 |
 
 
