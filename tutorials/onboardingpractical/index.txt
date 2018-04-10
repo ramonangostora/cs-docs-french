@@ -8,17 +8,17 @@ Practical Quick Start Guide
 
 |
 
-:doc:`Create User </tutorials/onboardingpractical/createuser>`
+* :doc:`Create User </tutorials/onboardingpractical/createuser>`
 
-:doc:`Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
+* :doc:`Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
 
-:doc:`Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
+* :doc:`Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
 
-:doc:`Configure Mapping </tutorials/onboardingpractical/configuremapping>`
+* :doc:`Configure Mapping </tutorials/onboardingpractical/configuremapping>`
 
-:doc:`Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
+* :doc:`Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
 
-:doc:`Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
+* :doc:`Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
 
 |
 
