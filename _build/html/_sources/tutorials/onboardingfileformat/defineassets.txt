@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+========================================
+6.2	Define Assets in an Onboarding File
+========================================
+
+#. All the assets will be listed in a single sheet of an excel file.
+#. All the assets will be listed row-wise in a sheet. Each asset will have a separate row in a sheet.
+#. The sheet will contain the following details of each asset column wise:
+
+#. AssetID: Mention the unique identification of each asset in this column. There is no restriction on column name/column header.
+
+#. Asset Name: Mention the name of each asset in this column. There is no restriction on column name/column header.
+
+.. image:: /feature/_images/mdmimages/cs_tutorial_defineassets.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
+=======
 ================================================================
 Define Articles, Tags, Taxonomy, and Class in an Onboarding File
 ================================================================
@@ -37,3 +57,4 @@ in a **Class Column** field while defining the workflow of onboarding process in
 .. image:: /feature/_images/mdmimages/cs_tutorial_definearticles_multiclass1.PNG
 |
 |
+>>>>>>> 5a3672a24b1656ca95124b21b73d61f47032708f

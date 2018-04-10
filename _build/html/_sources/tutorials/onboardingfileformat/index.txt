@@ -11,4 +11,3 @@ Onboarding File Format
    nestedvariants
    definenature
    definearticleasset
-   
