@@ -1,6 +1,6 @@
-=====================
+======================
 What is a Data Model?
-=====================
+======================
 
 Products in the real world can be described in various ways. In real life we may say a tv has dimensions, colours and a supplier. This is all data that relates to the product. When we say Data Model we are talking about the way we structure this information so that it accurately reflects reality while also capturing how different entities in Contentsphere (products, images, audio, colour) relate to one another.
 
@@ -23,11 +23,11 @@ Products in the real world can be described in various ways. In real life we may
 |
 
 
-====================    =============================================
-**Related topics:**     * *Creating a Single Article*
-                        * *Building a Taxonomy*
-                        * *How Classes work*
-====================    =============================================
+====================    ============================================================
+**Related topics:**     * :doc:`Create a New Product </tutorials/createnewproduct>`
+                        * :doc:`Set up a Taxonomy </tutorials/settinguptaxonomy>`
+                        * :doc:`How Classes work </tutorials/howclasseswork>`
+====================    ============================================================
 
 |
 
