@@ -5,6 +5,9 @@ Capabilities of Contentserv's Onboarding Portal
 .. toctree::
    :maxdepth: 1
 
-   datamodelattributemanagement/index
-   datamodeltagmanagement/index
-   datamodeldependentattributes/index
+   partnerspecificendpoints
+   flexiblefileformats
+   effortlessfiletransfer
+   realtimemapping
+   processflowcheck
+   dataremediation
