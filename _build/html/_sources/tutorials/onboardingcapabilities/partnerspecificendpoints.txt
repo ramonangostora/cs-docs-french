@@ -56,7 +56,7 @@ Steps to Configure Endpoints
 
 |
 
-#. Click on the createe Partner to whom the endpoint will be assigned.
+#. Click on the created Partner to whom the endpoint will be assigned.
 
 |
 
