@@ -15,7 +15,7 @@ and Promotional Collection.
 these articles have relationship with single articles. This relationship code will be displayed in this column.
  *Note: There would be multiple Targets for a single Source, so there would be multiple entries/ rows of different Targets for similar Source.*
 
- .. image:: /feature/_images/mdmimages/cs_tutorial_nestedvariant.PNG
+ .. image:: /tutorials/_images/cs_tutorial_definenature.PNG
  |
  |
 

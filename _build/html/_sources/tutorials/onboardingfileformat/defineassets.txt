@@ -10,7 +10,7 @@
 
 #. Asset Name: Mention the name of each asset in this column. There is no restriction on column name/column header.
 
-.. image:: /feature/_images/mdmimages/cs_tutorial_defineassets.PNG
+.. image:: /tutorials/_images/cs_tutorial_defineasset.PNG
 |
 |
 

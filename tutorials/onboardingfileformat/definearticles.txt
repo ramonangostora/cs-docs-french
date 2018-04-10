@@ -48,7 +48,7 @@ some of the defined articles are Single Article and some are Fixed Bundle. In th
 while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,
 in a **Class Column** field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab of **Data Integration** -> **Mapping** section in system.
 
-.. image:: /feature/_images/mdmimages/cs_tutorial_definearticles_multiclass1.PNG
+.. image:: /tutorials/_images/cs_tutorial_definearticle.PNG
 |
 |
 
