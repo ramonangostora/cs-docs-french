@@ -11,11 +11,11 @@ Prerequisites
 
 Key Terms
 =========
-* **Endpoints** - Endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
+* **Endpoints** - The endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
 
-* **Workflow** - Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in this section.
+* **Workflow** - The Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in this section.
 
-* **Mapping** - Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+* **Mapping** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
 
 
 Steps to Configure Endpoints
@@ -73,7 +73,7 @@ Steps to Configure Endpoints
 
 |
 
-#. Click on the **Explore** icon and click on the **Data Integration** tab.
+#. Click on the **Explore** icon and go to *Data Integration*.
 
 |
 

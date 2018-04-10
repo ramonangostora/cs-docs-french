@@ -12,13 +12,13 @@ Prerequisites
 
 Key Terms
 =========
-* **Data Integration** section defines the entire process of importing a file into the system and exporting a file from the system.
+* **Data Integration** - The Data Integration section defines the entire process of importing a file into the system and exporting a file from the system.
 
-* **Workflow** section defines the structure and components of a file that is to be imported into the system or exported from the system. to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+* **Workflow** -  The Workflow section defines the structure and components of a file that is to be imported into the system or exported from the system. to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
 
 
-Steps to Configure Endpoints
-============================
+Steps to Transfer a File
+=========================
 
 #. Log in to the application.
 
