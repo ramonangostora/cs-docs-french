@@ -18,7 +18,7 @@ For example, if you want to define unit variant, then define column header as **
  #.	**Attribute**: You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be IsBaseUnit, IsSalesUnit, etc.
   You need to provide the value of attribute against each sub type of unit variant in each row.
 
-  .. image:: /feature/_images/mdmimages/cs_tutorial_definevariants_attribute.PNG
+  .. image:: /feature/_images/mdmimages/cs_tutorial_definevariants.PNG
   |
   |
 

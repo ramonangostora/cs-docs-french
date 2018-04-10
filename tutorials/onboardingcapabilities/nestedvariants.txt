@@ -17,7 +17,7 @@ then define column header as Unit. If you define unit variant, then you need to 
 #. **Nested Variant**: You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN.
 You need to provide GTIN value in this column.
 
-.. image:: /feature/_images/mdmimages/cs_tutorial_nestedvariant.PNG
+.. image:: /tutorials/_images/cs_tutorial_nestedvariants.PNG
 |
 |
 
