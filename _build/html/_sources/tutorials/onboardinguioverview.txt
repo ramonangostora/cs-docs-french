@@ -1,3 +1,81 @@
 ============
 UI Overview
 ============
+Components that drive the onboarding/offboarding processes are detailed below:
+
+
+Information
+============
+The Information Dashboard provides the users with several widgets to gain a high level overview of the system.
+Pictured below are components for *Data Quality and Content Upload*. The data quality widget uses a traffic light rating system.
+The products with Red violations can’t be pushed into the PIM portal. It is also possible to rectify the product data by clicking on each chart.
+
+On the lower part of the screen, widgets for *'Recently Updated'* and *'Recently Added'* contents are visible.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_information.PNG
+   :alt: Contentsphere UI
+|
+
+
+Data Integration
+=================
+The Data Integration tab displays a bunch of endpoints: *Onboarding and Offboarding*.
+The summary box for each of this endpoint will display information like *Number of Files Uploaded, *Successful File and Article Uploads*, and *Number of Products with various violations*.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_dataintegration.PNG
+   :alt: Contentsphere UI
+|
+
+Import File
+=============
+Click on the **Import** icon to upload a file into the system.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_importfile.PNG
+   :alt: Contentsphere UI
+
+|
+
+Workflow Status
+================
+Workflow Status gives the user a view into the progress of any onboarding jobs.
+The Workflow Status menu will display the following: *Title of the file, the Workflow ‘Start Time’ and ‘End Time’*,
+and also, the status that goes from ‘In Progress to Completed’ in case there are no errors.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_workflowstatus.PNG
+   :alt: Contentsphere UI
+
+|
+
+Catalog
+========
+Catalog tab displays the list of uploaded products.  You can check the details of each product by clicking on them.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_catalog.PNG
+   :alt: Contentsphere UI
+
+|
+
+Media
+======
+The Media tab in onboarding portal will display all the media files uploaded along with the products details.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_media.PNG
+   :alt: Contentsphere UI
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
