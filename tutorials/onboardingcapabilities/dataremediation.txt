@@ -1,0 +1,4 @@
+=====================
+Data Remediation
+=====================
+Having a PIM integrated Onboarding portal helps in getting rid of obsolete, redundant data and organize it in an orderly manner. 
