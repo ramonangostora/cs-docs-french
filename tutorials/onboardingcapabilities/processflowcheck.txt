@@ -46,8 +46,7 @@ How to do a Process Flow Check
 |
 |
 
-#. The Graph section in the pop-up window is divided into three vertical sections. The first two vertical sections are called Workflow Modeler.
-  It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.
+#. The Graph section in the pop-up window is divided into three vertical sections. The first two vertical sections are called Workflow Modeler. It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.
 
 .. image:: /tutorials/_images/cs_processflowcheck_workflowmodeler.PNG
 |
