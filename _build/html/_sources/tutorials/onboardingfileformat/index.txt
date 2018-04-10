@@ -1,0 +1,10 @@
+========================
+Onboarding File Format
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   datamodelattributemanagement/index
+   datamodeltagmanagement/index
+   datamodeldependentattributes/index

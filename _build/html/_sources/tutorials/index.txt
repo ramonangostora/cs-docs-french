@@ -19,6 +19,7 @@ Learn the basics to get up and running quickly
 
 6. :doc:`Set up a Taxonomy <settinguptaxonomy>`
 
+
 Concepts
 ========
 
@@ -26,3 +27,17 @@ Understand core concepts
 
 * :doc:`What is a Data Model? <whatisadatamodel>`
 * :doc:`How Classes Work <howclasseswork>`
+
+
+Onboarding
+===========
+
+Learn how to use the Contentserv Onboarding system
+
+* :doc:`Overview <onboardingoverview>`
+* :doc:`Key Terms <onboardingkeyterms>`
+* :doc:`UI Overview <onboardinguioverview>`
+* :doc:`Design and Architecture <onboardingdesignandarchitecture>`
+* :doc:`Practical Quick Start Guide <onboardingpractical/index>`
+* :doc:`Onboarding File Format <onboardingfileformat/index>`
+* :doc:`Capabilities of the Onboarding Portal <onboardingcapabilities/index>`
