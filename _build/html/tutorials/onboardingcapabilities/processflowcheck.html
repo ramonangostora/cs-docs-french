@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>&lt;no title&gt; &#8212; Contentsphere  documentation</title>
+    <title>Process Flow Check &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -113,13 +113,171 @@
             <div class="breadcrumbs">
               <a href="../../index.html">Home</a> /
               
-              <span>&lt;no title&gt;</span>
+              <span>Process Flow Check</span>
               
             </div>
           
           <div class="yui-g" id="tutorials-onboardingcapabilities-processflowcheck">
             
-  
+  <div class="section" id="s-process-flow-check">
+<span id="process-flow-check"></span><h1>Process Flow Check<a class="headerlink" href="#process-flow-check" title="Permalink to this headline">¶</a></h1>
+<p>Having a process flow feature provides the user a visual representation of the entire onboarding process. Data violations, if any, are depicted in red/orange color. A successful data onboarding process is shown in green color.</p>
+<div class="section" id="s-prerequisites">
+<span id="prerequisites"></span><h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Configured Partners</li>
+<li>Configured Users</li>
+</ul>
+</div>
+<div class="section" id="s-key-terms">
+<span id="key-terms"></span><h2>Key Terms<a class="headerlink" href="#key-terms" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Workflow</strong> - A Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in the Process section.</li>
+</ul>
+</div>
+<div class="section" id="s-how-to-do-a-process-flow-check">
+<span id="how-to-do-a-process-flow-check"></span><h2>How to do a Process Flow Check<a class="headerlink" href="#how-to-do-a-process-flow-check" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Log in to the application.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Administration</strong> icon.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Navigate to <strong>Data Integration</strong> -&gt; <strong>Workflow</strong> menu.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_navigate.PNG" src="tutorials/_images/cs_processflowcheck_navigate.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create the workflow.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_clickplusicon.PNG" src="tutorials/_images/cs_processflowcheck_clickplusicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter the details such as <em>Name</em>, <em>Event Type</em>, and <em>Code</em>, then click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_enterdetails.PNG" src="tutorials/_images/cs_processflowcheck_enterdetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the created workflow. On the pop-up window that appears, configure all the components of the workflow.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_selectcreatedworkflow.PNG" src="tutorials/_images/cs_processflowcheck_selectcreatedworkflow.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>The Graph section in the pop-up window is divided into three vertical sections. The first two vertical sections are called Workflow Modeler.</li>
+</ol>
+<blockquote>
+<div>It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.</div></blockquote>
+<img alt="tutorials/_images/cs_processflowcheck_workflowmodeler.PNG" src="tutorials/_images/cs_processflowcheck_workflowmodeler.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Drag and drop the notations in Workflow Modeler to define onboarding process. The workflow starts with the Start Event.
+It acts as a process trigger. So, first element in the workflow will be the Start Event. .</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_draganddrop.PNG" src="tutorials/_images/cs_processflowcheck_draganddrop.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the Start Event notation and all the options that you can add after it, will appear on the screen.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_selectstartevent.PNG" src="tutorials/_images/cs_processflowcheck_selectstartevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Start adding the notations to define a workflow according to onboarding file. For example, if you want to add Article in a flow, then click on Task notation.
+Custom actions for different users will be managed through workflow Task.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_startaddingnotations.PNG" src="tutorials/_images/cs_processflowcheck_startaddingnotations.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once you click on the icon, the task gets added in the flow.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_clickicon.PNG" src="tutorials/_images/cs_processflowcheck_clickicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Adding Task notation simply defines the task. You need to define what kind of a task it is, whether it is import article, import asset, import relationship, etc. You can do this by clicking on the icon that looks like plier.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_definetask.PNG" src="tutorials/_images/cs_processflowcheck_definetask.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>As soon as you click on <strong>Wrench</strong> icon, a pop window appears containing types of task.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_clickwrenchicon.PNG" src="tutorials/_images/cs_processflowcheck_clickwrenchicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>If you are defining article, then select <strong>Article Import</strong> option from the list.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_selectarticleimport.PNG" src="tutorials/_images/cs_processflowcheck_selectarticleimport.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Double-click on the created task icon and enter the name for that icon.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_doubleclick.PNG" src="tutorials/_images/cs_processflowcheck_doubleclick.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Define the components of the system such as Assets, Relationships, Nature Classes, Create a task, click on the <strong>Wrench</strong> icon, and give it a name.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_definecomponents.PNG" src="tutorials/_images/cs_processflowcheck_definecomponents.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once you add all the components in a flow, append the End Event notation at the end. It represents the end of flow. Select the last component and click on the End Event notation to append the End Event at the end.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_endevent.PNG" src="tutorials/_images/cs_processflowcheck_endevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the end event icon appended at the end of flow.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_viewendevent.PNG" src="tutorials/_images/cs_processflowcheck_viewendevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on each component and fill in the details of each component in third vertical section like Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/ Class Column Name, Taxonomies and Click on SAVE button.</li>
+</ol>
+<img alt="tutorials/_images/cs_processflowcheck_clickcomponent.PNG" src="tutorials/_images/cs_processflowcheck_clickcomponent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
+</div>
+</div>
+
 
           </div>
         </div>
@@ -132,6 +290,19 @@
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+<<<<<<< HEAD
+  <h3><a href="../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Process Flow Check</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#key-terms">Key Terms</a></li>
+<li><a class="reference internal" href="#how-to-do-a-process-flow-check">How to do a Process Flow Check</a></li>
+</ul>
+</li>
+</ul>
+
+=======
+>>>>>>> 0a95d624666b7fc7313e28b59409fb64feed257c
   <h3>Browse</h3>
   <ul>
     
@@ -142,7 +313,11 @@
       <li>
         <a href="../../index.html">Contentsphere  documentation</a>
         
+<<<<<<< HEAD
+        <ul><li>Process Flow Check</li></ul>
+=======
         <ul><li>&lt;no title&gt;</li></ul>
+>>>>>>> 0a95d624666b7fc7313e28b59409fb64feed257c
         
       </li>
   </ul>
