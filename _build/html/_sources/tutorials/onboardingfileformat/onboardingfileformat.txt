@@ -1,0 +1,10 @@
+=====================
+Onboarding File Format
+=====================
+#. Onboarding file contains the following components:
+#. 	Articles, Tags, Taxonomies, and Classes
+	#. Asset
+#. 	Variants
+	#. Nested Variants
+	#. Nature Relationship
+	#. Asset-Article Relationship

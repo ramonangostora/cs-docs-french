@@ -1,0 +1,87 @@
+==================================================================
+Define Articles, Tags, Taxonomy, and Class in an Onboarding File
+==================================================================
+
+
+#. We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet.
+We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article and Asset sheets
+respectively.
+#. This sheet will contain the following details column wise:
+        #. **Source**: You need to mention the unique identification of an article in this column. This will be the ArticleID defined in the Article sheet.
+
+        #. **Destination**: You need to mention the unique identification of an asset that you want to associate with article. This will be the AssetID defined in the Asset sheet.
+Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.
+
+
+Define Articles, Tags, Taxonomy, and Class in an Onboarding File
+================================================================
+#. 	All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.
+#. 	All the articles will be listed row wise in a sheet. Each article will have a separate row in a sheet.
+#. 	The sheet will contain the following details of each article column wise:
+
+        #. 	**ArticleID**: You need to mention the unique identification of each article in this column. There is no restriction on column name/column header,
+        but the column header will be mapped in Primary Key Column field in system while defining the workflow of onboarding process.
+
+        #. Name: You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header
+        will be mapped in **Name** field in system while defining the workflow of onboarding process.
+
+        #. **Attribute1**: You need to define one of the attributes of an article in this column. There is no restriction on column name/column header.
+        It can be any attribute like Long Description, Short Description, List Price, etc.  You need to map the column name/column header in Attribute tab of
+        **Data Integration** -> **Mapping** section in system.
+
+        *Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.*
+
+        #. **Taxonomy**: You need to define all the taxonomies applied to an article in this column. There is no restriction on column name/column header,
+        but the column header will be mapped in **Taxonomy** field in system while defining the workflow of onboarding process.
+        You need to mention all the applied taxonomies to an article against each article in this column. There can be multiple taxonomies applied to an article
+        like Food, Beverages, etc. vYou need to define all applied taxonomies to an article in a single cell as a comma separated value. You need to map all
+        defined taxonomies in an onboarding file with system taxonomies in **Taxonomy** tab of **Data Integration** -> **Mapping** section in system.
+
+        #. 	**Class ID**: You need to define the class of an article in this column like Single Article, Loose Bundle, Set of Product, Fixed Bundle, etc. There is no restriction
+        on column name/column header, but the column header will be mapped in system while defining the onboarding process. Here we need to consider two things:
+
+        #.	**Single Class**: It is possible that all the defined articles in a sheet uses the same class. For example, all the defined articles are Single Article.
+        In this case, we need to select Single Class option from **Type** field while defining the workflow of onboarding process in system. Select the system class of product from Class ID
+field while defining the workflow of onboarding process.
+        #. 	**Multiple Class**: It is possible that all the defined articles in a sheet uses different classes. For example,
+some of the defined articles are Single Article and some are Fixed Bundle. In this case, we need to select **Column Class** option from **Type** field
+while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,
+in a **Class Column** field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab of **Data Integration** -> **Mapping** section in system.
+
+.. image:: /feature/_images/mdmimages/cs_tutorial_definearticles_multiclass1.PNG
+|
+|
+
+6.2	Define Assets in an Onboarding File
+========================================
+
+#. All the assets will be listed in a single sheet of an excel file.
+#. All the assets will be listed row-wise in a sheet. Each asset will have a separate row in a sheet.
+#. The sheet will contain the following details of each asset column wise:
+
+#. AssetID: Mention the unique identification of each asset in this column. There is no restriction on column name/column header.
+
+#. Asset Name: Mention the name of each asset in this column. There is no restriction on column name/column header.
+
+.. image:: /feature/_images/mdmimages/cs_tutorial_definearticles_assetname.PNG
+|
+|
+
+6.3	Define Variants in an Onboarding File
+=========================================
+
+#. A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have some variation such as color and size.
+#. All such variants of all products will be listed in a single sheet of an excel file.
+#. The variant sheet will contain the following details of each variant column wise:
+
+#. **VariantID**: Mention the unique identification of each variant in this column. There is no restriction on column name/column header.
+
+#.	**ArticleID**: Mention the unique identification of an article for which you are defining the variant. This will have the value from **ArticleID** column from the sheet in which you have defined all articles.
+
+#.	**Variant**: There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header.
+For example, if you want to define unit variant, then define column header as **Unit**.
+ If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
+ Product ID will remain same in each row when you are defining sub types of unit variant in each row.
+
+ #.	**Attribute**: You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be IsBaseUnit, IsSalesUnit, etc.
+  You need to provide the value of attribute against each sub type of unit variant in each row.

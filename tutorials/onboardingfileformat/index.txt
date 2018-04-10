@@ -5,6 +5,10 @@ Onboarding File Format
 .. toctree::
    :maxdepth: 1
 
-   datamodelattributemanagement/index
-   datamodeltagmanagement/index
-   datamodeldependentattributes/index
+   definearticles
+   defineassets
+   definevariants
+   nestedvariants
+   definenature
+   definearticleasset
+   
