@@ -13,3 +13,10 @@ This will be the AssetID defined in the Asset sheet.
  *Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.*
 
  .. image:: /tutorials/_images/cs_tutorial_defineartass.PNG
+ |
+ |
+
+
+
+ .. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
