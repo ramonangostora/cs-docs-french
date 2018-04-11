@@ -10,9 +10,9 @@
 
 #.	**VariantID**: You need to mention the unique identification of variant for which you are defining nested variant in this column.
 
-#.	**Variant**: You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as **Unit**. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
+#.	**Variant**: You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
 
-#.	**Nested Variant**: You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as **GTIN**. You need to provide GTIN value in this column.
+#.	**Nested Variant**: You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.
 
 .. image:: /tutorials/_images/cs_tutorial_nestedvariants.PNG
 |
