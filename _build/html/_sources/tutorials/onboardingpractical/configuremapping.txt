@@ -3,6 +3,7 @@ Configure Mapping
 ====================
 Mapping connects different elements defined in an onboarding file to their respective elements (*attributes, tags, classes, and taxonomies*) defined in the system.
 To configure this, follow this set of instructions:
+
 |
 
 #.	Log in to the application and click on the **Administration** button.
@@ -11,93 +12,94 @@ To configure this, follow this set of instructions:
 |
 |
 
-#.	Go to *Data Integration* then to the *Mappings* menu.
 
-.. image:: /tutorials/_images/image.PNG
+#.	Go to *Data Integration* and then, to the *Mappings* menu.
+
+.. image:: /tutorials/_images/cs_configuremapping_gotodataintegration.PNG
 |
 |
 
 
 #.	Click the "+" icon to create a new mapping.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_clicktheicontocreate.PNG
 |
 |
 
 
 #.	Provide the details like *Name and Code*. Click on the **Create** button.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_providethedetails.PNG
 |
 |
 
 
 #.	Click on the **Edit** button to edit the details.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_clickontheeditbutton.PNG
 |
 |
 
 
 #.	On the pop-up window, click on the **Attribute** tab.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_onthepopupwindow.PNG
 |
 |
 
 
 #.	Click on the **Add Mapping** button to map the attributes defined in an onboarding file with the system attributes.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_clickontheaddmapping.PNG
 |
 |
 
 
-#.  Define the **Attribute Name** used in an onboarding file on the left side textbox and select the equivalent system attribute in the **Mapped Element** field.
+#.  Define the **Attribute Name** used in an onboarding file in the left side textbox and select the equivalent system attribute in the **Mapped Element** field.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_definetheattributename.PNG
 |
 |
 
 
-#.	Likewise, map *Tags, Taxonomies, and Classes* defined in an onboarding file with the tags, taxonomies, and classes of the system in the Tag, Taxonomy, and Class tabs, respectively.
+#.	Likewise, map the *Tags, Taxonomies, and Classes* defined in an onboarding file with the tags, taxonomies, and classes of the system in the Tag, Taxonomy, and Class tabs, respectively.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_likewisemaptags.PNG
 |
 |
 
 
 #.	Click on the **Save** button.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configuremapping_clickonthesavebutton.PNG
 |
 |
 
 
 Configure Mapping: Screen Elements
-=============================
-The following details are to be provided to be able to create a new user in the system.
+===================================
+The following details are seen when creating a new mapping in the system.
 
 ======    =================================     ============================================================
 Sr No     Screen Element                        Description
 ======    =================================     ============================================================
-1         Name                                  Specify the name of mapping.
+1          Name                                  Specify the name of mapping.
 
-2         Code                                  Specify the code.
+2          Code                                  Specify the code.
 
-3         Create                                Click the **Create** button to create the mapping.
+3          Create                                Click the **Create** button to create the mapping.
 
-4         Attribute Tab                         Define the attribute used in a sheet of an onboarding file in the left side textbox and select the equivalent system attribute from **Mapped Element** field.
+4          Attribute Tab                         Define the *Attribute* used in a sheet of an onboarding file in the left side textbox and select the equivalent system attribute from **Mapped Element** field.
 
-5         Tag Tab                               Define the tag used in a sheet of an onboarding file in the left side textbox and select the equivalent system tag from Mapped Element field.
+5          Tag Tab                               Define the *Tag* used in a sheet of an onboarding file in the left side textbox and select the equivalent system tag from Mapped Element field.
 
-6         Taxonomy Tab                          Define the taxonomy used in a sheet of an onboarding file in the left side textbox and select the equivalent system taxonomy from Mapped Element field.
+6          Taxonomy Tab                          Define the *Taxonomy* used in a sheet of an onboarding file in the left side textbox and select the equivalent system taxonomy from Mapped Element field.
 
-7         Class Tab                             Define the class used in a sheet of an onboarding file in the left side textbox and select the equivalent system class from Mapped Element field.
+7          Class Tab                             Define the *Class* used in a sheet of an onboarding file in the left side textbox and select the equivalent system class from Mapped Element field.
 
-8         Save                                  Click on **Save** button to save the details of a user.
+8          Save                                  Click on **Save** button to save the details of a user.
 
-9         Cancel                                Click on **Cancel** button to cancel the details of a user.
+9          Cancel                                Click on **Cancel** button to cancel the details of a user.
 
 ======    =================================     ============================================================
 

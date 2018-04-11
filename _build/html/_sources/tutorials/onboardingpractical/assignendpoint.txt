@@ -12,14 +12,14 @@ To assign an endpoint to partners and roles, follow these steps:
 |
 
 
-#. Click on the created endpoint from *Systems* section.
+#. Click on the created endpoint from the *Systems* section.
 
 .. image:: /tutorials/_images/cs_assignendpoint_clickcreatedendpoint.PNG
 |
 |
 
 
-#.	Click on the **Roles** tab and click on the created endpoint from *Systems* section.
+#.	Click on the **Roles** tab and click on the created endpoint from the *Systems* section.
 
 .. image:: /tutorials/_images/cs_assignendpoint_clickroles.PNG
 |
@@ -40,9 +40,9 @@ The following details are to be provided to be able to assign an endpoint to the
 =========    =================================     ========================================================================================================================================================
 Sr No        Screen Element                        Description
 =========    =================================     ========================================================================================================================================================
-1            System                                Select the **Inbound Endpoint** and **Outbound Endpoint** from *System* section to associate it with the partner and role.
+1            System                                Select the **Inbound Endpoint** and **Outbound Endpoint** from the *Systems* section to associate it with the partner and role.
 
-2            Save                                  Click on the **Save** button.
+2            Save                                  Click on the **Save** button to save the details.
 
 3            Discard                               Click on the **Discard** button to discard the details.
 =========    =================================     ========================================================================================================================================================
