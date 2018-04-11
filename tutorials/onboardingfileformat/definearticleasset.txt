@@ -2,14 +2,20 @@
 Define Article-Asset Relationship in an Onboarding File
 =======================================================
 
-#.	We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet.
-#.  We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article
-    and Asset sheets respectively.
-#.	This sheet will contain the following details column wise:
-#.	**Source**: You need to mention the unique identification of an article in this column. This will be the ArticleID defined in the Article sheet.
+* We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet.
+* We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article and Asset sheets respectively.
+This sheet will contain the following details column-wise:
 
-#	**Destination**: You need to mention the unique identification of an asset that you want to associate with article.
-This will be the AssetID defined in the Asset sheet. *Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.*
+
+====================   =======================================================================================================================================================================================================================================================================
+Details                Description
+====================   =======================================================================================================================================================================================================================================================================
+Source                 You need to mention the unique identification of an article in this column. This will be the **ArticleID** defined in the **Article** sheet.
+
+Destination            You need to mention the unique identification of an asset that you want to associate with article.
+                       This will be the **AssetID** defined in the **Asset** sheet. *Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.*
+====================   =======================================================================================================================================================================================================================================================================
+
 
 .. image:: /tutorials/_images/cs_tutorial_defineartass.PNG
 |

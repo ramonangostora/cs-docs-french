@@ -1,7 +1,23 @@
 ====================================================
-6.5	Define Nature Relationship in an Onboarding File
+Define Nature Relationship in an Onboarding File
 ====================================================
 
+<<<<<<< HEAD
+* You need to mention which single articles are bundled in an article that contains more than one articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection in **Nature Relationship** sheet. We define all articles in an **Article** sheet. In **Nature Relationship** sheet we will take the article reference from **Article** sheet.
+* This sheet will contain the following details column-wise:
+
+
+====================   =======================================================================================================================================================================================================================================================================
+Details                Description
+====================   =======================================================================================================================================================================================================================================================================
+Source                 You need to mention the unique identification of an article which contains more than one article. So, you need to mention the article id of the articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection.
+
+Target                 You need to mention the unique identification of a single article, which is bundled into articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection.
+
+Relationship Column    The articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection contains more than one single article. So, these articles have relationship with single articles. This relationship code will be displayed in this column. *Note: There would be multiple Targets for a single Source, so there would be multiple entries/ rows of different Targets for similar Source.*
+====================   =======================================================================================================================================================================================================================================================================
+
+=======
 #. You need to mention which single articles are bundled in an article that contains more than one articles *( Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection) in **Nature Relationship)* sheet. We define all articles in an **Article** sheet. In **Nature Relationship** sheet we will take the article reference from **Article** sheet.
 #.This sheet will contain the following details column wise:
 #.	**Source**: You need to mention the unique identification of an article which contains more than one article. So, you need to mention the article id of the articles *( Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection)*.
@@ -9,6 +25,7 @@
 #. **Target**: You need to mention the unique identification of a single article, which is bundled into articles.
 
 #. **Relationship Column**: The articles contains more than one single article. So, these articles have relationship with single articles. This relationship code will be displayed in this column. *Note: There would be multiple Targets for a single Source, so there would be multiple entries/ rows of different Targets for similar Source.*
+>>>>>>> aedd7fceb1769cef26c1458042235a2566b95c66
 
 .. image:: /tutorials/_images/cs_tutorial_definenature.PNG
 |
