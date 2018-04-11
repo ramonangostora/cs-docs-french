@@ -1,0 +1,121 @@
+===================
+Process Flow Check
+===================
+Having a process flow feature provides the user a visual representation of the entire onboarding process. Data violations, if any, are depicted in red/orange color. A successful data onboarding process is shown in green color.
+
+Prerequisites
+=============
+* Configured Partners
+* Configured Users
+
+Key Terms
+=========
+* **Workflow** - A Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in the Process section.
+
+
+How to do a Process Flow Check
+===============================
+
+#. Log in to the application.
+
+|
+
+#. Click on the **Administration** icon.
+
+|
+
+#. Navigate to **Data Integration** -> **Workflow** menu.
+
+.. image:: /tutorials/_images/cs_processflowcheck_navigate.PNG
+|
+
+#. Click on the "+" icon to create the workflow.
+
+.. image:: /tutorials/_images/cs_processflowcheck_clickplusicon.PNG
+|
+|
+
+#. Enter the details such as *Name*, *Event Type*, and *Code*, then click on the **Create** button.
+
+.. image:: /tutorials/_images/cs_processflowcheck_enterdetails.PNG
+|
+
+#. Select the created workflow. On the pop-up window that appears, configure all the components of the workflow.
+
+.. image:: /tutorials/_images/cs_processflowcheck_selectcreatedworkflow.PNG
+|
+|
+
+#. The Graph section in the pop-up window is divided into three vertical sections. The first two vertical sections are called Workflow Modeler. It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.
+
+.. image:: /tutorials/_images/cs_processflowcheck_workflowmodeler.PNG
+|
+
+#. Drag and drop the notations in Workflow Modeler to define onboarding process. The workflow starts with the Start Event.
+   It acts as a process trigger. So, first element in the workflow will be the Start Event. .
+
+.. image:: /tutorials/_images/cs_processflowcheck_draganddrop.PNG
+|
+
+#. Select the Start Event notation and all the options that you can add after it, will appear on the screen.
+
+.. image:: /tutorials/_images/cs_processflowcheck_selectstartevent.PNG
+|
+
+#. Start adding the notations to define a workflow according to onboarding file. For example, if you want to add Article in a flow, then click on Task notation.
+   Custom actions for different users will be managed through workflow Task.
+
+.. image:: /tutorials/_images/cs_processflowcheck_startaddingnotations.PNG
+
+|
+
+#. Once you click on the icon, the task gets added in the flow.
+
+.. image:: /tutorials/_images/cs_processflowcheck_clickicon.PNG
+
+|
+
+#. Adding Task notation simply defines the task. You need to define what kind of a task it is, whether it is import article, import asset, import relationship, etc. You can do this by clicking on the icon that looks like plier.
+
+.. image:: /tutorials/_images/cs_processflowcheck_definetask.PNG
+|
+
+#. As soon as you click on **Wrench** icon, a pop window appears containing types of task.
+
+.. image:: /tutorials/_images/cs_processflowcheck_clickwrenchicon.PNG
+
+|
+
+#. If you are defining article, then select **Article Import** option from the list.
+
+.. image:: /tutorials/_images/cs_processflowcheck_selectarticleimport.PNG
+|
+
+#. Double-click on the created task icon and enter the name for that icon.
+
+.. image:: /tutorials/_images/cs_processflowcheck_doubleclick.PNG
+
+|
+
+#. Define the components of the system such as Assets, Relationships, Nature Classes, Create a task, click on the **Wrench** icon, and give it a name.
+
+.. image:: /tutorials/_images/cs_processflowcheck_definecomponents.PNG
+|
+
+#. Once you add all the components in a flow, append the End Event notation at the end. It represents the end of flow. Select the last component and click on the End Event notation to append the End Event at the end.
+
+.. image:: /tutorials/_images/cs_processflowcheck_endevent.PNG
+|
+
+#. View the end event icon appended at the end of flow.
+
+.. image:: /tutorials/_images/cs_processflowcheck_viewendevent.PNG
+|
+
+#. Click on each component and fill in the details of each component in third vertical section like Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/ Class Column Name, Taxonomies and Click on SAVE button.
+
+.. image:: /tutorials/_images/cs_processflowcheck_clickcomponent.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

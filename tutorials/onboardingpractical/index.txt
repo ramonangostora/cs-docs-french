@@ -3,9 +3,30 @@ Practical Quick Start Guide
 =============================
 
 
-.. toctree::
-   :maxdepth: 1
+:doc:`Step-By-Step Guide for Configuration </tutorials/onboardingpractical/stepbystepguideforconfiguration>`
+=============================================================================================================
 
-   datamodelattributemanagement/index
-   datamodeltagmanagement/index
-   datamodeldependentattributes/index
+|
+
+* :doc:`Create User </tutorials/onboardingpractical/createuser>`
+
+* :doc:`Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
+
+* :doc:`Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
+
+* :doc:`Configure Mapping </tutorials/onboardingpractical/configuremapping>`
+
+* :doc:`Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
+
+* :doc:`Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
+
+|
+
+:doc:`Step-By-Step Guide for Uploading Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
+======================================================================================================================
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
