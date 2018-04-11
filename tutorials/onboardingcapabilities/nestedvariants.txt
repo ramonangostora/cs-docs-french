@@ -1,6 +1,6 @@
-=========================================
-6.4	Nested Variants in an Onboarding File
-=========================================
+======================================
+Nested Variants in an Onboarding File
+======================================
 
 #. 	All nested variants of all products will be listed in a single sheet of an excel file.
 #.	The nested variant sheet will contain the following details of each nested variant column wise:

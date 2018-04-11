@@ -1,6 +1,6 @@
-===========================================================
-6.6	Define Article-Asset Relationship in an Onboarding File
-===========================================================
+=======================================================
+Define Article-Asset Relationship in an Onboarding File
+=======================================================
 
 #.	We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet.
 #.  We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article
