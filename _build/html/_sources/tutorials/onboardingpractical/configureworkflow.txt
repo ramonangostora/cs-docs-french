@@ -134,6 +134,7 @@ To configure a workflow, follow the detailed steps listed below:
 
 Configure Workflow: Screen Elements
 ====================================
+The following details are seen when creating a new workflow in the system.
 
 |
 
