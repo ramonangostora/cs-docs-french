@@ -158,7 +158,7 @@
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Select the created workflow and a pop-up window will open where you can define the workflow of onboarding process.</li>
+<li>Select the created workflow and a pop-up window will open where you can define the workflow of the onboarding process.</li>
 </ol>
 <img alt="../../_images/cs_configureworkflow_selectthecreatedwf.PNG" src="../../_images/cs_configureworkflow_selectthecreatedwf.PNG" />
 <div class="line-block">
@@ -166,7 +166,7 @@
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>The <em>Graph section</em> in the pop-up window is divided into three vertical sections. The first 2 vertical sections are called <strong>Workflow Modeler</strong>. It allows users to configure workflows using the <em>BPMN 2.0 Modeling Notation</em>. This can model complex onboarding processes using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.</li>
+<li>The <em>Graph section</em> in the pop-up window is divided into three vertical sections. The first and second vertical sections are called <strong>Workflow Modeler</strong>. It allows users to configure workflows using the <em>BPMN 2.0 Modeling Notation</em>. This can model complex onboarding processes using universally known and standardized notation. The third vertical section contains the details of each component of onboarding file.</li>
 </ol>
 <img alt="../../_images/cs_configureworkflow_thegraphsection.PNG" src="../../_images/cs_configureworkflow_thegraphsection.PNG" />
 <div class="line-block">
@@ -238,7 +238,7 @@
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Define all the components of the system like <em>Assets, Relationships, Nature Classes, etc</em> in a similar manner - Creating a task then, selecting its type by clicking on the wrench icon and lastly, naming it.</li>
+<li>Define all the components of the system like <em>Assets, Relationships, Nature Classes, etc</em> in a similar manner - (1) creating a task, (2) selecting its type by clicking on the wrench icon and (3) naming it.</li>
 </ol>
 <img alt="../../_images/cs_configureworkflow_defineallthecomponents.PNG" src="../../_images/cs_configureworkflow_defineallthecomponents.PNG" />
 <div class="line-block">
@@ -320,9 +320,9 @@
 <p><strong>Graphical Notations for Defining Workflow:</strong></p>
 <table class="docutils">
 <colgroup>
-<col width="2%" />
-<col width="12%" />
-<col width="86%" />
+<col width="4%" />
+<col width="20%" />
+<col width="76%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Sr No</th>
@@ -333,11 +333,11 @@
 <tbody valign="top">
 <tr class="row-even"><td>5</td>
 <td>Start Event</td>
-<td>It acts as a process trigger. The first element in the flow will be the Start Event.</td>
+<td>It acts as a process trigger. The first element in the flow will be the <strong>Start Event</strong>.</td>
 </tr>
 <tr class="row-odd"><td>6</td>
 <td>Intermediate Event</td>
-<td>It represents something that happens between Start Event and End Event.</td>
+<td>It represents something that happens between <strong>Start Event and End Event</strong>.</td>
 </tr>
 <tr class="row-even"><td>7</td>
 <td>End Event</td>
@@ -345,7 +345,7 @@
 </tr>
 <tr class="row-odd"><td>8</td>
 <td>Exclusive Gateway</td>
-<td>It is used to select only one of the paths from the created alternative paths or flows depending on a condition.</td>
+<td>It is used to select only one of the paths from the created alternative paths or flows, depending on a condition.</td>
 </tr>
 <tr class="row-even"><td>9</td>
 <td>Parallel Gateway</td>
@@ -357,7 +357,8 @@
 </tr>
 <tr class="row-even"><td>11</td>
 <td>Complex Gateway</td>
-<td>It is used only for the most complex flows in the business process.  Use the complex gateway if you need multiple gateways to describe the business flow.</td>
+<td>It is used only for the most complex flows in the business process.
+Use the <strong>Complex Gateway</strong> if you need multiple gateways to describe the business flow.</td>
 </tr>
 <tr class="row-odd"><td>12</td>
 <td>Event Based Gateway</td>
@@ -365,7 +366,7 @@
 </tr>
 <tr class="row-even"><td>13</td>
 <td>Task</td>
-<td>A task is a type of activity which cannot be broken down to a further level of business process details.</td>
+<td>A task is a type of activity which cannot be broken down further to a basic level of business process details.</td>
 </tr>
 <tr class="row-odd"><td>14</td>
 <td>Send Task</td>
@@ -401,7 +402,9 @@
 </tr>
 <tr class="row-odd"><td>22</td>
 <td>Transaction</td>
-<td>Transaction is a form of sub-process in which all activities must be treated as an individual activity. All the activities of a transaction must be completed to meet the objective. If any one of them fails, then all activities must be reverted.</td>
+<td><strong>Transaction</strong> is a form of subprocess in which all activities must be treated as an individual activity.
+All the activities of a transaction must be completed to meet the objective.
+If any one of them fails, then all activities must be reverted.</td>
 </tr>
 <tr class="row-even"><td>23</td>
 <td>Data Object</td>
@@ -424,8 +427,8 @@
 <table class="docutils">
 <colgroup>
 <col width="2%" />
-<col width="9%" />
-<col width="90%" />
+<col width="10%" />
+<col width="88%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Sr No</th>
@@ -436,19 +439,23 @@
 <tbody valign="top">
 <tr class="row-even"><td>25</td>
 <td>Sheet Name</td>
-<td>The onboarding file is an Excel file. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.</td>
+<td>The onboarding file is an <em>Excel file</em>. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.</td>
 </tr>
 <tr class="row-odd"><td>26</td>
 <td>Primary Key Column</td>
-<td>All the defined products in an onboarding file have unique identification or IDs. Here, in Primary Key Column we need to define the column name of the sheet which contains the unique IDs of the products. So, system will fetch all the IDs of the product from the defined column of the sheet.</td>
+<td>All the defined products in an onboarding file have unique identification or IDs.
+Here, in Primary Key Column, we need to define the column name of the sheet which contains the unique IDs of the product
+so the system will fetch all of the IDs of the product from the defined column of the sheet.</td>
 </tr>
 <tr class="row-even"><td>27</td>
 <td>Type</td>
-<td><p class="first">Here we need to select one of the options from below mentioned options:</p>
+<td><p class="first">Here, we need to select one of the options from below:</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><strong>Single Class:</strong> Select this option, if all defined products in an onboarding file use the same class in the system. For example, if all the products are <em>Individual Article</em> or all the products are <em>PID</em>.</li>
-<li><strong>Column Class:</strong> Select this option, if all defined products in an onboarding file use different types of classes in the system. For example, there are two products in a sheet; one is <em>Individual Article</em> and the other one is <em>PID</em>.</li>
+<li><strong>Single Class:</strong> Select this option, if all defined products in an onboarding file use the same class in the system.
+For example, if all the products are <em>Individual Article</em> or all the products are <em>PID</em>.</li>
+<li><strong>Column Class:</strong> Select this option, if all defined products in an onboarding file use different types of classes in the system.
+For example, there are two products in a sheet; one is <em>Individual Article</em> and the other one is <em>PID</em>.</li>
 </ul>
 </div></blockquote>
 </td>
@@ -458,8 +465,11 @@
 <td><p class="first">The value of this field is based on the selection in the <em>Type</em> field:</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><strong>Class ID:</strong> When all the defined products in an onboarding file use the same class in the system, we select <strong>Single Class</strong> option in the <em>Type</em> field. In this case, we need to select that system generated class from the list as <strong>Class ID</strong>.</li>
-<li><strong>Class Column:</strong> When defined products in an onboarding file use different classes in the system, we select <strong>Column Class</strong> option in the <em>Type</em> field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.</li>
+<li><strong>Class ID:</strong> When all the defined products in an onboarding file use the same class in the system,
+we select <strong>Single Class</strong> option in the <em>Type</em> field. In this case, we need to select that system generated class from the list as <strong>Class ID</strong>.</li>
+<li><strong>Class Column:</strong> When defined products in an onboarding file use different classes in the system,
+we select <strong>Column Class</strong> option in the <em>Type</em> field.
+In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a <em>Class Column</em> field.</li>
 </ul>
 </div></blockquote>
 </td>
@@ -484,8 +494,11 @@
 <td><p class="first">The value of this field is based on the selection in the <em>Type</em> field.</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><strong>Select Classes:</strong> When all the defined products in an onboarding file use multiple system generated non-nature classes, we select <strong>Multiple Class</strong> option in the <em>Type</em> field. In this case, we need to select the system generated classes from the list.</li>
-<li><strong>Class Column Name:</strong> When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select <strong>Column Class</strong> option in the <em>Type</em> field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a <strong>Class Column Name</strong> field.</li>
+<li><strong>Select Classes:</strong> When all the defined products in an onboarding file use multiple system generated non-nature classes,
+we select <strong>Multiple Class</strong> option in the <em>Type</em> field. In this case, we need to select the system generated classes from the list.</li>
+<li><strong>Class Column Name:</strong> When defined products in an onboarding file use multiple non-nature classes which are yet to be created,
+we select <strong>Column Class</strong> option in the <em>Type</em> field. In this case, we need to enter the column name of the sheet,
+which contains the IDs of all the non-nature classes in a <strong>Class Column Name</strong> field.</li>
 </ul>
 </div></blockquote>
 </td>
