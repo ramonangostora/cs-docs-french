@@ -1,46 +1,54 @@
 ====================================
 Assign Endpoint to Partner and Role
 ====================================
+To assign an endpoint to partners and roles, follow these steps:
 
 |
 
-#.	Step.
+#. Navigate to **Partner Administration** -> **Partners** menu and click on the created partner to whom you want to assign the endpoint.
 
-.. image:: /tutorials/_images/image.PNG
-|
-|
-
-
-#.	Step.
-
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_assignendpoint_navigate.PNG
 |
 |
 
 
-#.	Step.
+#. Click on the created endpoint from *Systems* section.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_assignendpoint_clickcreatedendpoint.PNG
 |
 |
 
 
-#.	Step.
+#.	Click on the **Roles** tab and click on the created endpoint from *Systems* section.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_assignendpoint_clickroles.PNG
 |
 |
 
 
-#.	Step.
+#.	Click on the **Save** button
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_assignendpoint_clicksave.PNG
 |
 |
 
 
-|
+Assign Endpoint to Partner and Role: Screen Elements
+=====================================================
+The following details are to be provided to be able to assign an endpoint to the partners and roles in the system.
 
+=========    =================================     ========================================================================================================================================================
+Sr No        Screen Element                        Description
+=========    =================================     ========================================================================================================================================================
+1            System                                Select the **Inbound Endpoint** and **Outbound Endpoint** from *System* section to associate it with the partner and role.
+
+2            Save                                  Click on the **Save** button.
+
+3            Discard                               Click on the **Discard** button to discard the details.
+=========    =================================     ========================================================================================================================================================
+
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
