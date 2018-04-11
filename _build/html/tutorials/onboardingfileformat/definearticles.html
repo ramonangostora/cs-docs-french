@@ -123,6 +123,7 @@
 <span id="define-articles-tags-taxonomy-and-class-in-an-onboarding-file"></span><h1>Define Articles, Tags, Taxonomy, and Class in an Onboarding File<a class="headerlink" href="#define-articles-tags-taxonomy-and-class-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.</li>
+<<<<<<< HEAD
 <li>All the articles will be listed row-wise in a sheet. Each article will have a separate row in a sheet.</li>
 <li>The sheet will contain the following details of each article column-wise:</li>
 </ul>
@@ -191,6 +192,18 @@ In this case, we need to select <strong>Column Class</strong> option from <stron
 </tr>
 </tbody>
 </table>
+=======
+<li>All the articles will be listed row wise in a sheet. Each article will have a separate row in a sheet.</li>
+<li>The sheet will contain the following details of each article column wise:</li>
+<li><strong>ArticleID</strong>: You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in system while defining the workflow of onboarding process.</li>
+<li><strong>Name</strong>: You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Name</strong> field in system while defining the workflow of onboarding process.</li>
+</ol>
+<p>#.      <strong>Attribute1</strong>: You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute <em>( Long Description, Short Description, List Price, etc.)</em>.  You need to map the column name/column header in <strong>Attribute</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. In a <strong>Class Column</strong> field while defining the workflow of onboarding process in system. You need to map all defined classes in a <strong>Class</strong> tab
+of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. <em>Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.</em></p>
+<ol class="arabic simple">
+<li><strong>Tag1</strong>: You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag (Size, Color, etc).  You need to map the column name/column header in Tag tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. You need to map column name/ column header of a sheet with system tag in this section. You also need to map the provided values of tag with sub-tags of system in this section.</li>
+</ol>
+>>>>>>> aedd7fceb1769cef26c1458042235a2566b95c66
 <img alt="../../_images/cs_tutorial_definearticle.PNG" src="../../_images/cs_tutorial_definearticle.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>

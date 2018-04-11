@@ -13,6 +13,7 @@ Details                Description
 ArticleID              You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in **Primary Key Column** field in the system
                        while defining the workflow of onboarding process.
 
+<<<<<<< HEAD
 Name                   You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in **Name** field in the system while defining the workflow of onboarding process.
 
 Attribute1             You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute such as *Long Description, Short Description, List Price,* etc.
@@ -47,6 +48,12 @@ Multiple Class         It is possible that all the defined articles in a sheet u
 
                        in a Class Column field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab of **Data Integration** -> **Mapping** section in system.
 ====================   =======================================================================================================================================================================================================================================================================
+=======
+#.	**Attribute1**: You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute *( Long Description, Short Description, List Price, etc.)*.  You need to map the column name/column header in **Attribute** tab of **Data Integration** -> **Mapping** section in system. In a **Class Column** field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab
+of **Data Integration** -> **Mapping** section in system. *Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.*
+
+#.	**Tag1**: You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag (Size, Color, etc).  You need to map the column name/column header in Tag tab of **Data Integration** -> **Mapping** section in system. You need to map column name/ column header of a sheet with system tag in this section. You also need to map the provided values of tag with sub-tags of system in this section.
+>>>>>>> aedd7fceb1769cef26c1458042235a2566b95c66
 
 
 
