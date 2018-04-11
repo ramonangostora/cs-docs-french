@@ -4,20 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Define Articles, Tags, Taxonomy, and Class in an Onboarding File &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -73,8 +65,7 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head>
-  <body>
+  </head><body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -125,20 +116,18 @@
 <li>All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.</li>
 <li>All the articles will be listed row wise in a sheet. Each article will have a separate row in a sheet.</li>
 <li>The sheet will contain the following details of each article column wise:</li>
+<li><strong>ArticleID</strong>: You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in system while defining the workflow of onboarding process.</li>
+<li><strong>Name</strong>: You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Name</strong> field in system while defining the workflow of onboarding process.</li>
 </ol>
-<p>#.      <strong>ArticleID</strong>: You need to mention the unique identification of each article in this column.
-There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in system while defining
-the workflow of onboarding process.</p>
-<p>#.      <strong>Name</strong>: You need to mention the name of each article in this column. There is no restriction on column name/column header,
-but the column header will be mapped in <strong>Name</strong> field in system while defining the workflow of onboarding process.</p>
 <p>#.      <strong>Attribute1</strong>: You need to define one of the attributes of an article in this column. There is no restriction on column name/column header.
 It can be any attribute like Long Description, Short Description, List Price, etc.  You need to map the column name/column header in Attribute
 tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system.
 in a <strong>Class Column</strong> field while defining the workflow of onboarding process in system. You need to map all defined classes in a <strong>Class</strong> tab
 of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. <em>Note: You can define as many attributes as you want in separate columns in a sheet,
 in a similar manner as we defined Attribute1.</em></p>
-<p>#.      <strong>Tag1</strong>: You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header.
-It can be any tag like Size, Color, etc.  You need to map the column name/column header in Tag tab of Data Integration -&gt; Mapping section in system. You need to map column name/ column header of a sheet with system tag in this section. You also need to map the provided values of tag with sub-tags of system in this section.</p>
+<ol class="arabic simple">
+<li><strong>Tag1</strong>: You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag like Size, Color, etc.  You need to map the column name/column header in Tag tab of Data Integration -&gt; Mapping section in system. You need to map column name/ column header of a sheet with system tag in this section. You also need to map the provided values of tag with sub-tags of system in this section.</li>
+</ol>
 <img alt="../../_images/cs_tutorial_definearticle.PNG" src="../../_images/cs_tutorial_definearticle.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
@@ -159,40 +148,16 @@ It can be any tag like Size, Color, etc.  You need to map the column name/column
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<<<<<<< HEAD
-=======
-  <h3><a href="../../contents.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Define Articles, Tags, Taxonomy, and Class in an Onboarding File</a><ul>
-<li><a class="reference internal" href="#id1">Define Articles, Tags, Taxonomy, and Class in an Onboarding File</a></li>
-</ul>
-</li>
-</ul>
-
-  <h3>Browse</h3>
-  <ul>
-    
-    
-  </ul>
-  <h3>You are here:</h3>
-  <ul>
-      <li>
-        <a href="../../index.html">Contentsphere  documentation</a>
-        
-        <ul><li>Define Articles, Tags, Taxonomy, and Class in an Onboarding File</li></ul>
-        
-      </li>
-  </ul>
-
->>>>>>> bec7ca25068c8510bb9b0f0cd41b5ddbcb31d210
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
