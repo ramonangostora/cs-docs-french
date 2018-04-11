@@ -69,7 +69,7 @@ To configure a workflow, follow the detailed steps listed below:
 |
 
 
-#.	Click on a *Task Notation* to add it to the process.
+#.	Click on a **Task Notation** to add it to the process.
 
 .. image:: /tutorials/_images/cs_configureworkflow_clickonatasknotation.PNG
 |
@@ -135,6 +135,120 @@ To configure a workflow, follow the detailed steps listed below:
 Configure Workflow: Screen Elements
 ====================================
 The following details are seen when creating a new workflow in the system.
+
+|
+
+**Create Workflow:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+1          Name                                  Specify the name of a workflow.
+
+2          Event Type                            Select the type of event from the following options:
+
+                                                  *	Business Process Workflow
+                                                  *	JMS Integration Workflow
+
+3          Code                                  Specify the code.
+
+4          Create                                Click **Create** button to create a workflow.
+======    =================================     ============================================================
+
+|
+
+**Graphical Notations for Defining Workflow:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+5         Start Event                           It acts as a process trigger. The first element in the flow will be the Start Event.
+
+6         Intermediate Event                    It represents something that happens between Start Event and End Event.
+
+7         End Event                             It represents the end of flow. It will be the last element while defining a workflow of onboarding process.
+
+8         Exclusive Gateway                     It is used to select only one of the paths from the created alternative paths or flows depending on a condition.
+
+9         Parallel Gateway                      It is used to create parallel paths without evaluating any conditions.
+
+10        Inclusive Gateway                     It is used to create alternative flows where all paths are evaluated.
+
+11        Complex Gateway                       It is used only for the most complex flows in the business process.  Use the complex gateway if you need multiple gateways to describe the business flow.
+
+12        Event Based Gateway                   The condition determining the path of a process is based on an evaluated event.
+
+13        Task                                  A task is a type of activity which cannot be broken down to a further level of business process details.
+
+14        Send Task                             It is a type of task, which is used to send a message.
+
+15        Receive Task                          It is a type of task, which is used to send a message. It is a simple task that waits for the arrival of a certain message.
+
+16        User Task                             A User Task is used to model work that needs to be done by a human actor.
+
+17        Manual Task                           It is used to model work that is done by somebody who the engine does not need to know of.
+
+18        Business Rule Task                    It is used to synchronously execute one or more rules.
+
+19        Service Task                          It is used to invoke services.
+
+20        Script Task                           It is an automated activity.
+
+21        Subprocess                            It is a compound activity. It can be expanded or collapsed to show or hide the flow objects.
+
+22        Transaction                           Transaction is a form of sub-process in which all activities must be treated as an individual activity. All the activities of a transaction must be completed to meet the objective. If any one of them fails, then all activities must be reverted.
+
+23        Data Object                           It is used store the information used by your business processes.
+
+24        Data Store                            It provides a mechanism to retrieve or update stored information of process.
+======    =================================     ============================================================
+
+|
+
+.. image:: /tutorials/_images/cs_graphicalnotations.PNG
+   :alt: Graphical Notations
+
+|
+
+**Details of Component:**
+
+======    =================================     =========================================================================================================================================================================================================================================================================================================
+Sr No     Screen Element                         Description
+======    =================================     =========================================================================================================================================================================================================================================================================================================
+25        Sheet Name                             The onboarding file is an Excel file. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.
+
+26        Primary Key Column                     All the defined products in an onboarding file have unique identification or IDs. Here, in Primary Key Column we need to define the column name of the sheet which contains the unique IDs of the products. So, system will fetch all the IDs of the product from the defined column of the sheet.
+
+27        Type                                   Here we need to select one of the options from below mentioned options:
+
+                                                    * **Single Class:** Select this option, if all defined products in an onboarding file use the same class in the system. For example, if all the products are *Individual Article* or all the products are *PID*.
+
+                                                    * **Column Class:** Select this option, if all defined products in an onboarding file use different types of classes in the system. For example, there are two products in a sheet; one is *Individual Article* and the other one is *PID*.
+
+28        Class ID/Class Column                  The value of this field is based on the selection in the *Type* field:
+
+                                                    * **Class ID:** When all the defined products in an onboarding file use the same class in the system, we select **Single Class** option in the *Type* field. In this case, we need to select that system generated class from the list as **Class ID**.
+
+                                                    * **Class Column:** When defined products in an onboarding file use different classes in the system, we select **Column Class** option in the *Type* field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.
+
+29        Multiclassification                    Select this option, if defined products in a sheet use *Non-Nature Classes*.
+
+30        Type                                   As soon as you select the **MultiClassification** option, this option will be visible. Here, we need to select one of the options from below:
+
+                                                    * **Multiple Class:** Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.
+
+                                                    * **Column Class:** Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.
+
+31        Select Classes/Class Column name       The value of this field is based on the selection in the *Type* field.
+
+                                                    * **Select Classes:** When all the defined products in an onboarding file use multiple system generated non-nature classes, we select **Multiple Class** option in the *Type* field. In this case, we need to select the system generated classes from the list.
+
+                                                    * **Class Column Name:** When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select **Column Class** option in the *Type* field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a **Class Column Name** field.
+
+32        Taxonomies                            Here, we need to enter the column name of the sheet of an onboarding file which contains the taxonomy details.
+
+33        Save                                  Click on the **Save** button to save the workflow details.
+======    =================================     =========================================================================================================================================================================================================================================================================================================
 
 |
 
