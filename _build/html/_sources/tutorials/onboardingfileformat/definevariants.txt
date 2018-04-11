@@ -2,8 +2,11 @@
 6.3	Define Variants in an Onboarding File
 =========================================
 
-#. A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have some variation such as color and size.
+#. A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have
+some variation such as color and size.
+
 #. All such variants of all products will be listed in a single sheet of an excel file.
+
 #. The variant sheet will contain the following details of each variant column wise:
 
 #. **VariantID**: Mention the unique identification of each variant in this column. There is no restriction on column name/column header.
@@ -12,15 +15,15 @@
 
 #.	**Variant**: There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header.
 For example, if you want to define unit variant, then define column header as **Unit**.
- If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
- Product ID will remain same in each row when you are defining sub types of unit variant in each row.
+If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
+Product ID will remain same in each row when you are defining sub types of unit variant in each row.
 
- #.	**Attribute**: You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be IsBaseUnit, IsSalesUnit, etc.
-  You need to provide the value of attribute against each sub type of unit variant in each row.
+#.	**Attribute**: You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be IsBaseUnit, IsSalesUnit, etc.
+You need to provide the value of attribute against each sub type of unit variant in each row.
 
-  .. image:: /feature/_images/mdmimages/cs_tutorial_definevariants.PNG
+.. image:: /tutorials/_images/cs_tutorial_definevariants.PNG
   |
   |
 
-  .. image:: /feature/_images/mdmimages/line-png-32.PNG
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
      :alt: Contentsphere line
