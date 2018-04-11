@@ -1,6 +1,6 @@
-==================================================================
+================================================================
 Define Articles, Tags, Taxonomy, and Class in an Onboarding File
-==================================================================
+================================================================
 
 
 #.	All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.
