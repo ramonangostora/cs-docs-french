@@ -318,6 +318,105 @@
 <div class="line"><br /></div>
 </div>
 <p><strong>Graphical Notations for Defining Workflow:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="2%" />
+<col width="12%" />
+<col width="86%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>5</td>
+<td>Start Event</td>
+<td>It acts as a process trigger. The first element in the flow will be the Start Event.</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td>Intermediate Event</td>
+<td>It represents something that happens between Start Event and End Event.</td>
+</tr>
+<tr class="row-even"><td>7</td>
+<td>End Event</td>
+<td>It represents the end of flow. It will be the last element while defining a workflow of onboarding process.</td>
+</tr>
+<tr class="row-odd"><td>8</td>
+<td>Exclusive Gateway</td>
+<td>It is used to select only one of the paths from the created alternative paths or flows depending on a condition.</td>
+</tr>
+<tr class="row-even"><td>9</td>
+<td>Parallel Gateway</td>
+<td>It is used to create parallel paths without evaluating any conditions.</td>
+</tr>
+<tr class="row-odd"><td>10</td>
+<td>Inclusive Gateway</td>
+<td>It is used to create alternative flows where all paths are evaluated.</td>
+</tr>
+<tr class="row-even"><td>11</td>
+<td>Complex Gateway</td>
+<td>It is used only for the most complex flows in the business process.  Use the complex gateway if you need multiple gateways to describe the business flow.</td>
+</tr>
+<tr class="row-odd"><td>12</td>
+<td>Event Based Gateway</td>
+<td>The condition determining the path of a process is based on an evaluated event.</td>
+</tr>
+<tr class="row-even"><td>13</td>
+<td>Task</td>
+<td>A task is a type of activity which cannot be broken down to a further level of business process details.</td>
+</tr>
+<tr class="row-odd"><td>14</td>
+<td>Send Task</td>
+<td>It is a type of task, which is used to send a message.</td>
+</tr>
+<tr class="row-even"><td>15</td>
+<td>Receive Task</td>
+<td>It is a type of task, which is used to send a message. It is a simple task that waits for the arrival of a certain message.</td>
+</tr>
+<tr class="row-odd"><td>16</td>
+<td>User Task</td>
+<td>A User Task is used to model work that needs to be done by a human actor.</td>
+</tr>
+<tr class="row-even"><td>17</td>
+<td>Manual Task</td>
+<td>It is used to model work that is done by somebody who the engine does not need to know of.</td>
+</tr>
+<tr class="row-odd"><td>18</td>
+<td>Business Rule Task</td>
+<td>It is used to synchronously execute one or more rules.</td>
+</tr>
+<tr class="row-even"><td>19</td>
+<td>Service Task</td>
+<td>It is used to invoke services.</td>
+</tr>
+<tr class="row-odd"><td>20</td>
+<td>Script Task</td>
+<td>It is an automated activity.</td>
+</tr>
+<tr class="row-even"><td>21</td>
+<td>Subprocess</td>
+<td>It is a compound activity. It can be expanded or collapsed to show or hide the flow objects.</td>
+</tr>
+<tr class="row-odd"><td>22</td>
+<td>Transaction</td>
+<td>Transaction is a form of sub-process in which all activities must be treated as an individual activity. All the activities of a transaction must be completed to meet the objective. If any one of them fails, then all activities must be reverted.</td>
+</tr>
+<tr class="row-even"><td>23</td>
+<td>Data Object</td>
+<td>It is used store the information used by your business processes.</td>
+</tr>
+<tr class="row-odd"><td>24</td>
+<td>Data Store</td>
+<td>It provides a mechanism to retrieve or update stored information of process.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Graphical Notations" src="../../_images/cs_graphicalnotations.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -325,8 +424,8 @@
 <table class="docutils">
 <colgroup>
 <col width="2%" />
-<col width="10%" />
-<col width="88%" />
+<col width="9%" />
+<col width="90%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Sr No</th>
@@ -348,18 +447,8 @@
 <td><p class="first">Here we need to select one of the options from below mentioned options:</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><dl class="first docutils">
-<dt><strong>Single Class</strong></dt>
-<dd>Select this option, if all defined products in an onboarding file use the same class in the system.
-For example, if all the products are <em>Individual Article</em> or all the products are <em>PID</em>.</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt><strong>Column Class</strong></dt>
-<dd>Select this option, if all defined products in an onboarding file use different types of classes in the system.
-For example, there are two products in a sheet; one is <em>Individual Article</em> and the other one is <em>PID</em>.</dd>
-</dl>
-</li>
+<li><strong>Single Class:</strong> Select this option, if all defined products in an onboarding file use the same class in the system. For example, if all the products are <em>Individual Article</em> or all the products are <em>PID</em>.</li>
+<li><strong>Column Class:</strong> Select this option, if all defined products in an onboarding file use different types of classes in the system. For example, there are two products in a sheet; one is <em>Individual Article</em> and the other one is <em>PID</em>.</li>
 </ul>
 </div></blockquote>
 </td>
@@ -369,18 +458,8 @@ For example, there are two products in a sheet; one is <em>Individual Article</e
 <td><p class="first">The value of this field is based on the selection in the <em>Type</em> field:</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><dl class="first docutils">
-<dt><strong>Class ID</strong></dt>
-<dd>When all the defined products in an onboarding file use the same class in the system, we select <strong>Single Class</strong> option in the <em>Type</em> field.
-In this case, we need to select that system generated class from the list as <strong>Class ID</strong>.</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt><strong>Class Column</strong></dt>
-<dd>When defined products in an onboarding file use different classes in the system, we select <strong>Column Class</strong> option in the <em>Type</em> field.
-In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.</dd>
-</dl>
-</li>
+<li><strong>Class ID:</strong> When all the defined products in an onboarding file use the same class in the system, we select <strong>Single Class</strong> option in the <em>Type</em> field. In this case, we need to select that system generated class from the list as <strong>Class ID</strong>.</li>
+<li><strong>Class Column:</strong> When defined products in an onboarding file use different classes in the system, we select <strong>Column Class</strong> option in the <em>Type</em> field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.</li>
 </ul>
 </div></blockquote>
 </td>
@@ -394,16 +473,8 @@ In this case, we need to enter the column name of the sheet, which contains the 
 <td><p class="first">As soon as you select the <strong>MultiClassification</strong> option, this option will be visible. Here, we need to select one of the options from below:</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><dl class="first docutils">
-<dt><strong>Multiple Class</strong></dt>
-<dd>Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt><strong>Column Class</strong></dt>
-<dd>Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.</dd>
-</dl>
-</li>
+<li><strong>Multiple Class:</strong> Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.</li>
+<li><strong>Column Class:</strong> Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.</li>
 </ul>
 </div></blockquote>
 </td>
@@ -413,18 +484,8 @@ In this case, we need to enter the column name of the sheet, which contains the 
 <td><p class="first">The value of this field is based on the selection in the <em>Type</em> field.</p>
 <blockquote class="last">
 <div><ul class="simple">
-<li><dl class="first docutils">
-<dt><strong>Select Classes</strong></dt>
-<dd>When all the defined products in an onboarding file use multiple system generated non-nature classes, we select <strong>Multiple Class</strong> option in the <em>Type</em> field.
-In this case, we need to select the system generated classes from the list.</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt><strong>Class Column Name</strong></dt>
-<dd>When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select <strong>Column Class</strong> option in the <em>Type</em> field.
-In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a <strong>Class Column Name</strong> field.</dd>
-</dl>
-</li>
+<li><strong>Select Classes:</strong> When all the defined products in an onboarding file use multiple system generated non-nature classes, we select <strong>Multiple Class</strong> option in the <em>Type</em> field. In this case, we need to select the system generated classes from the list.</li>
+<li><strong>Class Column Name:</strong> When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select <strong>Column Class</strong> option in the <em>Type</em> field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a <strong>Class Column Name</strong> field.</li>
 </ul>
 </div></blockquote>
 </td>

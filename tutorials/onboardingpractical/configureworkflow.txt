@@ -159,30 +159,62 @@ Sr No     Screen Element                        Description
 
 **Graphical Notations for Defining Workflow:**
 
-======    =======================================================     ============================================================
-Sr No     Screen Element                                               Description
-======    =======================================================     ============================================================
-6          .. image:: /feature/_images/mdmimages/line-png-32.PNG       **Start Event:** It acts as a process trigger. The first element in the flow will be the Start Event.
-
-7          Code                                  Specify the code.
-
-8          Role Type                             Select Role Type from following options:
-
-                                                  *	System Admin
-                                                  *	User
-
-9          Create                                Click **Create** button to create a role.
-
-10         Cancel                                Click **Cancel** button to cancel the role details.
 ======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+5         Start Event                           It acts as a process trigger. The first element in the flow will be the Start Event.
+
+6         Intermediate Event                    It represents something that happens between Start Event and End Event.
+
+7         End Event                             It represents the end of flow. It will be the last element while defining a workflow of onboarding process.
+
+8         Exclusive Gateway                     It is used to select only one of the paths from the created alternative paths or flows depending on a condition.
+
+9         Parallel Gateway                      It is used to create parallel paths without evaluating any conditions.
+
+10        Inclusive Gateway                     It is used to create alternative flows where all paths are evaluated.
+
+11        Complex Gateway                       It is used only for the most complex flows in the business process.  Use the complex gateway if you need multiple gateways to describe the business flow.
+
+12        Event Based Gateway                   The condition determining the path of a process is based on an evaluated event.
+
+13        Task                                  A task is a type of activity which cannot be broken down to a further level of business process details.
+
+14        Send Task                             It is a type of task, which is used to send a message.
+
+15        Receive Task                          It is a type of task, which is used to send a message. It is a simple task that waits for the arrival of a certain message.
+
+16        User Task                             A User Task is used to model work that needs to be done by a human actor.
+
+17        Manual Task                           It is used to model work that is done by somebody who the engine does not need to know of.
+
+18        Business Rule Task                    It is used to synchronously execute one or more rules.
+
+19        Service Task                          It is used to invoke services.
+
+20        Script Task                           It is an automated activity.
+
+21        Subprocess                            It is a compound activity. It can be expanded or collapsed to show or hide the flow objects.
+
+22        Transaction                           Transaction is a form of sub-process in which all activities must be treated as an individual activity. All the activities of a transaction must be completed to meet the objective. If any one of them fails, then all activities must be reverted.
+
+23        Data Object                           It is used store the information used by your business processes.
+
+24        Data Store                            It provides a mechanism to retrieve or update stored information of process.
+======    =================================     ============================================================
+
+|
+
+.. image:: /tutorials/_images/cs_graphicalnotations.PNG
+   :alt: Graphical Notations
 
 |
 
 **Details of Component:**
 
-======    =================================     ============================================================
+======    =================================     =========================================================================================================================================================================================================================================================================================================
 Sr No     Screen Element                         Description
-======    =================================     ============================================================
+======    =================================     =========================================================================================================================================================================================================================================================================================================
 25        Sheet Name                             The onboarding file is an Excel file. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.
 
 26        Primary Key Column                     All the defined products in an onboarding file have unique identification or IDs. Here, in Primary Key Column we need to define the column name of the sheet which contains the unique IDs of the products. So, system will fetch all the IDs of the product from the defined column of the sheet.
@@ -216,7 +248,7 @@ Sr No     Screen Element                         Description
 32        Taxonomies                            Here, we need to enter the column name of the sheet of an onboarding file which contains the taxonomy details.
 
 33        Save                                  Click on the **Save** button to save the workflow details.
-======    =================================     ============================================================
+======    =================================     =========================================================================================================================================================================================================================================================================================================
 
 |
 
