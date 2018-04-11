@@ -69,7 +69,7 @@ To configure a workflow, follow the detailed steps listed below:
 |
 
 
-#.	Click on a *Task Notation* to add it to the process.
+#.	Click on a **Task Notation** to add it to the process.
 
 .. image:: /tutorials/_images/cs_configureworkflow_clickonatasknotation.PNG
 |
@@ -135,6 +135,88 @@ To configure a workflow, follow the detailed steps listed below:
 Configure Workflow: Screen Elements
 ====================================
 The following details are seen when creating a new workflow in the system.
+
+|
+
+**Create Workflow:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+1          Name                                  Specify the name of a workflow.
+
+2          Event Type                            Select the type of event from the following options:
+
+                                                  *	Business Process Workflow
+                                                  *	JMS Integration Workflow
+
+3          Code                                  Specify the code.
+
+4          Create                                Click **Create** button to create a workflow.
+======    =================================     ============================================================
+
+|
+
+**Graphical Notations for Defining Workflow:**
+
+======    =======================================================     ============================================================
+Sr No     Screen Element                                               Description
+======    =======================================================     ============================================================
+6          .. image:: /feature/_images/mdmimages/line-png-32.PNG       **Start Event:** It acts as a process trigger. The first element in the flow will be the Start Event.
+
+7          Code                                  Specify the code.
+
+8          Role Type                             Select Role Type from following options:
+
+                                                  *	System Admin
+                                                  *	User
+
+9          Create                                Click **Create** button to create a role.
+
+10         Cancel                                Click **Cancel** button to cancel the role details.
+======    =================================     ============================================================
+
+|
+
+**Details of Component:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                         Description
+======    =================================     ============================================================
+25        Sheet Name                             The onboarding file is an Excel file. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.
+
+26        Primary Key Column                     All the defined products in an onboarding file have unique identification or IDs. Here, in Primary Key Column we need to define the column name of the sheet which contains the unique IDs of the products. So, system will fetch all the IDs of the product from the defined column of the sheet.
+
+27        Type                                   Here we need to select one of the options from below mentioned options:
+
+                                                    * **Single Class:** Select this option, if all defined products in an onboarding file use the same class in the system. For example, if all the products are *Individual Article* or all the products are *PID*.
+
+                                                    * **Column Class:** Select this option, if all defined products in an onboarding file use different types of classes in the system. For example, there are two products in a sheet; one is *Individual Article* and the other one is *PID*.
+
+28        Class ID/Class Column                  The value of this field is based on the selection in the *Type* field:
+
+                                                    * **Class ID:** When all the defined products in an onboarding file use the same class in the system, we select **Single Class** option in the *Type* field. In this case, we need to select that system generated class from the list as **Class ID**.
+
+                                                    * **Class Column:** When defined products in an onboarding file use different classes in the system, we select **Column Class** option in the *Type* field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.
+
+29        Multiclassification                    Select this option, if defined products in a sheet use *Non-Nature Classes*.
+
+30        Type                                   As soon as you select the **MultiClassification** option, this option will be visible. Here, we need to select one of the options from below:
+
+                                                    * **Multiple Class:** Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.
+
+                                                    * **Column Class:** Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.
+
+31        Select Classes/Class Column name       The value of this field is based on the selection in the *Type* field.
+
+                                                    * **Select Classes:** When all the defined products in an onboarding file use multiple system generated non-nature classes, we select **Multiple Class** option in the *Type* field. In this case, we need to select the system generated classes from the list.
+
+                                                    * **Class Column Name:** When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select **Column Class** option in the *Type* field. In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a **Class Column Name** field.
+
+32        Taxonomies                            Here, we need to enter the column name of the sheet of an onboarding file which contains the taxonomy details.
+
+33        Save                                  Click on the **Save** button to save the workflow details.
+======    =================================     ============================================================
 
 |
 

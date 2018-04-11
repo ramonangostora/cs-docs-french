@@ -4,12 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Configure Workflow &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -65,7 +73,8 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head><body>
+  </head>
+  <body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -189,7 +198,7 @@
 <div class="line"><br /></div>
 </div>
 <ol class="arabic simple">
-<li>Click on a <em>Task Notation</em> to add it to the process.</li>
+<li>Click on a <strong>Task Notation</strong> to add it to the process.</li>
 </ol>
 <img alt="../../_images/cs_configureworkflow_clickonatasknotation.PNG" src="../../_images/cs_configureworkflow_clickonatasknotation.PNG" />
 <div class="line-block">
@@ -266,6 +275,173 @@
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
+<p><strong>Create Workflow:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="33%" />
+<col width="61%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>Name</td>
+<td>Specify the name of a workflow.</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>Event Type</td>
+<td><p class="first">Select the type of event from the following options:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Business Process Workflow</li>
+<li>JMS Integration Workflow</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>Code</td>
+<td>Specify the code.</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>Create</td>
+<td>Click <strong>Create</strong> button to create a workflow.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Graphical Notations for Defining Workflow:</strong></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Details of Component:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="2%" />
+<col width="10%" />
+<col width="88%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>25</td>
+<td>Sheet Name</td>
+<td>The onboarding file is an Excel file. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.</td>
+</tr>
+<tr class="row-odd"><td>26</td>
+<td>Primary Key Column</td>
+<td>All the defined products in an onboarding file have unique identification or IDs. Here, in Primary Key Column we need to define the column name of the sheet which contains the unique IDs of the products. So, system will fetch all the IDs of the product from the defined column of the sheet.</td>
+</tr>
+<tr class="row-even"><td>27</td>
+<td>Type</td>
+<td><p class="first">Here we need to select one of the options from below mentioned options:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt><strong>Single Class</strong></dt>
+<dd>Select this option, if all defined products in an onboarding file use the same class in the system.
+For example, if all the products are <em>Individual Article</em> or all the products are <em>PID</em>.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Column Class</strong></dt>
+<dd>Select this option, if all defined products in an onboarding file use different types of classes in the system.
+For example, there are two products in a sheet; one is <em>Individual Article</em> and the other one is <em>PID</em>.</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-odd"><td>28</td>
+<td>Class ID/Class Column</td>
+<td><p class="first">The value of this field is based on the selection in the <em>Type</em> field:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt><strong>Class ID</strong></dt>
+<dd>When all the defined products in an onboarding file use the same class in the system, we select <strong>Single Class</strong> option in the <em>Type</em> field.
+In this case, we need to select that system generated class from the list as <strong>Class ID</strong>.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Class Column</strong></dt>
+<dd>When defined products in an onboarding file use different classes in the system, we select <strong>Column Class</strong> option in the <em>Type</em> field.
+In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a Class Column field.</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-even"><td>29</td>
+<td>Multiclassification</td>
+<td>Select this option, if defined products in a sheet use <em>Non-Nature Classes</em>.</td>
+</tr>
+<tr class="row-odd"><td>30</td>
+<td>Type</td>
+<td><p class="first">As soon as you select the <strong>MultiClassification</strong> option, this option will be visible. Here, we need to select one of the options from below:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt><strong>Multiple Class</strong></dt>
+<dd>Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Column Class</strong></dt>
+<dd>Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-even"><td>31</td>
+<td>Select Classes/Class Column name</td>
+<td><p class="first">The value of this field is based on the selection in the <em>Type</em> field.</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt><strong>Select Classes</strong></dt>
+<dd>When all the defined products in an onboarding file use multiple system generated non-nature classes, we select <strong>Multiple Class</strong> option in the <em>Type</em> field.
+In this case, we need to select the system generated classes from the list.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Class Column Name</strong></dt>
+<dd>When defined products in an onboarding file use multiple non-nature classes which are yet to be created, we select <strong>Column Class</strong> option in the <em>Type</em> field.
+In this case, we need to enter the column name of the sheet, which contains the IDs of all the non-nature classes in a <strong>Class Column Name</strong> field.</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-odd"><td>32</td>
+<td>Taxonomies</td>
+<td>Here, we need to enter the column name of the sheet of an onboarding file which contains the taxonomy details.</td>
+</tr>
+<tr class="row-even"><td>33</td>
+<td>Save</td>
+<td>Click on the <strong>Save</strong> button to save the workflow details.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 <img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
 </div>
 </div>
@@ -290,16 +466,29 @@
 </li>
 </ul>
 
+  <h3>Browse</h3>
+  <ul>
+    
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../index.html">Contentsphere  documentation</a>
+        
+        <ul><li>Configure Workflow</li></ul>
+        
+      </li>
+  </ul>
+
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
-    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
