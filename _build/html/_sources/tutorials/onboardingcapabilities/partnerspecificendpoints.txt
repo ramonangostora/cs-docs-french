@@ -11,7 +11,7 @@ Prerequisites
 
 Key Terms
 =========
-* **Endpoints** - The endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
+* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This Endpoint will be visible on the partner’s dashboard.
 
 * **Workflow** - The Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in this section.
 
@@ -56,11 +56,11 @@ Steps to Configure Endpoints
 
 |
 
-#. Click on the created Partner to whom the endpoint will be assigned.
+#. Click on the created partner to whom the endpoint will be assigned.
 
 |
 
-#. Select the created Endpoint from the *Systems* section.
+#. Select the created endpoint from the *Systems* section.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_selectcreatedendpoint.PNG
 |
@@ -69,7 +69,7 @@ Steps to Configure Endpoints
 
 |
 
-#. Select the created Endpoint from the *Systems* section.
+#. Select the created endpoint from the *Systems* section.
 
 |
 
