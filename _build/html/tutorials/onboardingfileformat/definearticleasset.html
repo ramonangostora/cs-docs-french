@@ -4,12 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Define Article-Asset Relationship in an Onboarding File &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -65,7 +73,8 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head><body>
+  </head>
+  <body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -112,15 +121,31 @@
             
   <div class="section" id="s-define-article-asset-relationship-in-an-onboarding-file">
 <span id="define-article-asset-relationship-in-an-onboarding-file"></span><h1>Define Article-Asset Relationship in an Onboarding File<a class="headerlink" href="#define-article-asset-relationship-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic simple">
+<ul class="simple">
 <li>We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet.</li>
-<li>We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article
-and Asset sheets respectively.</li>
-<li>This sheet will contain the following details column wise:</li>
-<li><strong>Source</strong>: You need to mention the unique identification of an article in this column. This will be the ArticleID defined in the Article sheet.</li>
-</ol>
-<p>#       <strong>Destination</strong>: You need to mention the unique identification of an asset that you want to associate with article.
-This will be the AssetID defined in the Asset sheet. <em>Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.</em></p>
+<li>We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article and Asset sheets respectively.</li>
+</ul>
+<p>This sheet will contain the following details column-wise:</p>
+<table class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Details</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Source</td>
+<td>You need to mention the unique identification of an article in this column. This will be the <strong>ArticleID</strong> defined in the <strong>Article</strong> sheet.</td>
+</tr>
+<tr class="row-odd"><td>Destination</td>
+<td>You need to mention the unique identification of an asset that you want to associate with article.
+This will be the <strong>AssetID</strong> defined in the <strong>Asset</strong> sheet. <em>Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.</em></td>
+</tr>
+</tbody>
+</table>
 <img alt="../../_images/cs_tutorial_defineartass.PNG" src="../../_images/cs_tutorial_defineartass.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
@@ -141,16 +166,29 @@ This will be the AssetID defined in the Asset sheet. <em>Note: There can be mult
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3>Browse</h3>
+  <ul>
+    
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../index.html">Contentsphere  documentation</a>
+        
+        <ul><li>Define Article-Asset Relationship in an Onboarding File</li></ul>
+        
+      </li>
+  </ul>
+
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
-    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>

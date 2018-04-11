@@ -4,12 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Define Articles, Tags, Taxonomy, and Class in an Onboarding File &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -65,7 +73,8 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head><body>
+  </head>
+  <body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -112,18 +121,76 @@
             
   <div class="section" id="s-define-articles-tags-taxonomy-and-class-in-an-onboarding-file">
 <span id="define-articles-tags-taxonomy-and-class-in-an-onboarding-file"></span><h1>Define Articles, Tags, Taxonomy, and Class in an Onboarding File<a class="headerlink" href="#define-articles-tags-taxonomy-and-class-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic simple">
+<ul class="simple">
 <li>All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.</li>
-<li>All the articles will be listed row wise in a sheet. Each article will have a separate row in a sheet.</li>
-<li>The sheet will contain the following details of each article column wise:</li>
-<li><strong>ArticleID</strong>: You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in system while defining the workflow of onboarding process.</li>
-<li><strong>Name</strong>: You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Name</strong> field in system while defining the workflow of onboarding process.</li>
-</ol>
-<p>#.      <strong>Attribute1</strong>: You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute like Long Description, Short Description, List Price, etc.  You need to map the column name/column header in <strong>Attribute</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. In a <strong>Class Column</strong> field while defining the workflow of onboarding process in system. You need to map all defined classes in a <strong>Class</strong> tab
-of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. <em>Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.</em></p>
-<ol class="arabic simple">
-<li><strong>Tag1</strong>: You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag like Size, Color, etc.  You need to map the column name/column header in Tag tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. You need to map column name/ column header of a sheet with system tag in this section. You also need to map the provided values of tag with sub-tags of system in this section.</li>
-</ol>
+<li>All the articles will be listed row-wise in a sheet. Each article will have a separate row in a sheet.</li>
+<li>The sheet will contain the following details of each article column-wise:</li>
+</ul>
+<table class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Details</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ArticleID</td>
+<td>You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in the system
+while defining the workflow of onboarding process.</td>
+</tr>
+<tr class="row-odd"><td>Name</td>
+<td>You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Name</strong> field in the system while defining the workflow of onboarding process.</td>
+</tr>
+<tr class="row-even"><td>Attribute1</td>
+<td>You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute such as <em>Long Description, Short Description, List Price,</em> etc.
+You need to map the column name/column header in the <strong>Attribute</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping section</strong> in the system.
+<em>Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.</em></td>
+</tr>
+<tr class="row-odd"><td>Tag1</td>
+<td>You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag like Size, Color, etc.
+You need to map the column name/column header in Tag tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. You need to map column name/column header of a sheet with system tag in this section.
+You also need to map the provided values of tag with sub-tags of system in this section.
+<em>Note: You can define as many tags as you want in separate columns in a sheet, in a similar manner as we defined Tag1.</em></td>
+</tr>
+<tr class="row-even"><td>Taxonomy</td>
+<td>You need to define all the taxonomies applied to an article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Taxonomy</strong> field in system while defining the workflow of onboarding process.
+You need to mention all the applied taxonomies to an article against each article in this column. There can be multiple taxonomies applied to an article like Food, Beverages, etc.
+You need to define all applied taxonomies to an article in a single cell as a comma separated value. You need to map all defined taxonomies in an onboarding file with system taxonomies in the <strong>Taxonomy</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping section</strong>
+in the system.</td>
+</tr>
+<tr class="row-odd"><td>Class ID</td>
+<td>You need to define the class of an article in this column such as <em>Single Article, Loose Bundle, Set of Product, Fixed Bundle,</em> etc. There is no restriction on column name/column header,
+but the column header will be mapped in system while defining the onboarding process.
+Here we need to consider two things: <strong>Single Class</strong> and <strong>Multiple Class</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Class ID</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Single Class</td>
+<td>It is possible that all the defined articles in a sheet use the same class. For example, all the defined articles are Single Article.
+In this case, we need to select <strong>Single Class</strong> option from <strong>Type</strong> field while defining the workflow of onboarding process in system. Select the system class of product from <strong>Class ID</strong> field while defining the workflow of onboarding process.</td>
+</tr>
+<tr class="row-odd"><td>Multiple Class</td>
+<td><p class="first">It is possible that all the defined articles in a sheet use different classes. For example, some of the defined articles are Single Article and some are Fixed Bundle.
+In this case, we need to select <strong>Column Class</strong> option from <strong>Type</strong> field while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,</p>
+<p class="last">in a Class Column field while defining the workflow of onboarding process in system. You need to map all defined classes in a <strong>Class</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system.</p>
+</td>
+</tr>
+</tbody>
+</table>
 <img alt="../../_images/cs_tutorial_definearticle.PNG" src="../../_images/cs_tutorial_definearticle.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
@@ -144,8 +211,6 @@ of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in s
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<<<<<<< HEAD
-=======
   <h3>Browse</h3>
   <ul>
     
@@ -161,17 +226,14 @@ of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in s
       </li>
   </ul>
 
->>>>>>> 121e82105ee90356961a2654319994c3555dd370
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
-    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
