@@ -1,3 +1,149 @@
 ==============================================
 Create Partner, Role, and Assign User to Role
 ==============================================
+To create a Partner, a Role, and also to assign a user to a specific role; follow these steps:
+
+
+|
+
+#.	Log in to the application and click on the **Administration** button.
+
+.. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
+|
+|
+
+
+#.	Go to *Partner Administration* and then to *Partners*.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_gotopartneradmin.PNG
+|
+|
+
+
+#. Click "+" icon to create a new partner.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_clickicontocreatepartner.PNG
+|
+|
+
+
+#.	Provide the following details: *Name, Type, and Code.* Then, click on the **Create** button.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_providethefollowingdetails.PNG
+|
+|
+
+
+#.	Select the created partner and then click on the **Roles** tab.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_selectthecreatedpartner.PNG
+|
+|
+
+
+#.	In that tab, click on the "+" icon to create a role that is specific to a partner.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_inthattabclickon.PNG
+|
+|
+
+
+#.	Provide the following details: *Name, Code, and Role Type.* Then, click on the **Create** button.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_providetheffdetails.PNG
+|
+|
+
+
+#.	Select the created role and click on the **Users** field.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_selectthecreatedrole.PNG
+|
+|
+
+
+#.	Select the users that you want to assign to the role from the list and then, click on the **Apply** button. The selected users will be assigned to the newly created role .
+
+.. image:: /tutorials/_images/cs_createpartnerrole_selecttheusers.PNG
+|
+|
+
+
+#.	Click on the **Save** button.
+
+.. image:: /tutorials/_images/cs_createpartnerrole_clickonthesavebutton.PNG
+|
+|
+
+
+Create Partner, Role, and Assign User to Role: Screen Elements
+===============================================================
+The following details are to be provided to be able to create a new partner and a new role in the system.
+The elements for assigning a user to a role are also enumerated.
+
+|
+
+
+**Create Partner:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+1          Name                                  Specify the name of a partner.
+
+2          Type                                  Select the type of a partner from the following options:
+
+                                                  *	Supplier
+                                                  *	Marketplaces
+                                                  *	Distributor
+                                                  *	Wholesalers
+                                                  *	Translation Agency
+                                                  *	Content Enrichment Agency
+                                                  *	Digital Asset Agency
+
+3          Code                                  Specify the code.
+
+4          Create                                Click **Create** button to create a partner.
+
+5          Cancel                                Click **Cancel** button to cancel the details of a partner.
+======    =================================     ============================================================
+
+|
+
+**Create Role:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+6          Name                                  Specify the name of a role.
+
+7          Code                                  Specify the code.
+
+8          Role Type                             Select Role Type from following options:
+
+                                                  *	System Admin
+                                                  *	User
+
+9          Create                                Click **Create** button to create a role.
+
+10         Cancel                                Click **Cancel** button to cancel the role details.
+======    =================================     ============================================================
+
+|
+
+**Assign User to Role:**
+
+======    =================================     ============================================================
+Sr No     Screen Element                        Description
+======    =================================     ============================================================
+11         Users                                 Select the users from the list and click the **Apply** button.
+                                                 The selected users will be assigned to that role.
+
+12         Save                                  Click on **Save** button to save the details.
+======    =================================     ============================================================
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

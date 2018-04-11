@@ -1,6 +1,6 @@
-==================
+=====================
 Create a New Product
-==================
+=====================
 The system allows effective management of products in the system. Products can be created, deleted, and edited.
 
 How to do: Create New Products
