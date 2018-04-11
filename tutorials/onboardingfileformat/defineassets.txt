@@ -1,6 +1,6 @@
-========================================
-6.2	Define Assets in an Onboarding File
-========================================
+===================================
+Define Assets in an Onboarding File
+===================================
 
 #. All the assets will be listed in a single sheet of an excel file.
 #. All the assets will be listed row-wise in a sheet. Each asset will have a separate row in a sheet.
