@@ -1,0 +1,86 @@
+==========================
+Partner-specific Endpoints
+==========================
+Contentserv's Onboarding portal allows the user (retailer/supplier) to have partner-specific endpoints to import their data to the system.
+Having unique endpoints ensures that the data errors are identified and mapped to the respective partners, thus improving overall data quality.
+
+Prerequisites
+=============
+* Partners
+* Users with defined Roles
+
+Key Terms
+=========
+* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This Endpoint will be visible on the partner’s dashboard.
+
+* **Workflow** - The Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in this section.
+
+* **Mapping** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+
+
+Steps to Configure Endpoints
+============================
+
+#. Log in to the application.
+
+|
+
+#. Click on the **Administration** icon.
+
+|
+
+#. Navigate to **Data Integration** -> **Endpoints** menu.
+
+.. image:: /tutorials/_images/cs_partnerspecificendpoints_navigate.PNG
+|
+|
+
+#. Click on the "+" icon to create the endpoint.
+
+|
+
+#. Enter the values for the *Name, Type, and Code*, then click on the **Create** button.
+
+.. image:: /tutorials/_images/cs_partnerspecificendpoints_entervalues.PNG
+
+|
+|
+
+#. Select the values for *Realtime Mapping*, *System*, *Workflow*, *Mapping*, *Dashboard Tab*, and *Physical Catalog*, then click on the **Save** button.
+
+.. image:: /tutorials/_images/cs_partnerspecificendpoints_selectvalues.PNG
+|
+|
+
+#. Navigate to **Partner Administration** -> **Partners** menu.
+
+|
+
+#. Click on the created partner to whom the endpoint will be assigned.
+
+|
+
+#. Select the created endpoint from the *Systems* section.
+
+.. image:: /tutorials/_images/cs_partnerspecificendpoints_selectcreatedendpoint.PNG
+|
+
+#. Click on the **Roles** tab.
+
+|
+
+#. Select the created endpoint from the *Systems* section.
+
+|
+
+#. Click on the **Explore** icon and go to *Data Integration*.
+
+|
+
+#. Click on the **File Uploads** link of the created Endpoint to upload the desired file.
+
+.. image:: /tutorials/_images/cs_partnerspecificendpoints_clickfileuploads.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

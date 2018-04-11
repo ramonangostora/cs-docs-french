@@ -1,0 +1,13 @@
+========================
+Onboarding File Format
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   definearticles
+   defineassets
+   definevariants
+   nestedvariants
+   definenature
+   definearticleasset

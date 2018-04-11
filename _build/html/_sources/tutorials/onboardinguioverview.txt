@@ -1,0 +1,81 @@
+============
+UI Overview
+============
+Components that drive the onboarding/offboarding processes are detailed below:
+
+
+Information
+============
+The Information Dashboard provides the users with several widgets to gain a high level overview of the system.
+Pictured below are components for *Data Quality and Content Upload*. The data quality widget uses a traffic light rating system.
+The products with Red violations can’t be pushed into the PIM portal. It is also possible to rectify the product data by clicking on each chart.
+
+On the lower part of the screen, widgets for *'Recently Updated'* and *'Recently Added'* contents are visible.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_information.PNG
+|
+|
+
+
+Data Integration
+=================
+The Data Integration tab displays a bunch of endpoints: *Onboarding and Offboarding*.
+The summary box for each of this endpoint will display information like *Number of Files Uploaded, Successful File and Article Uploads*, and *Number of Products with various violations*.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_dataintegration.PNG
+|
+|
+
+
+Import File
+=============
+The Import File button initiates the upload process. Click on the **Import File** icon to upload a file into the system.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_importfile.PNG
+|
+|
+
+
+Workflow Status
+================
+Workflow Status gives the user a view of the progress of any onboarding jobs.
+The Workflow Status menu will display the following: *Title of the file, the Workflow ‘Start Time’ and ‘End Time’*,
+and also, the *Status* that changes from *‘In Progress to Completed’* if there are no errors.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_workflowstatus.PNG
+|
+|
+
+
+Catalog
+========
+Catalog tab displays the list of uploaded products.  You can check the details of each product by clicking on them.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_catalog.PNG
+|
+|
+
+
+Media
+======
+The Media tab in the onboarding portal displays all the uploaded media files along with the products details.
+
+|
+
+.. image:: _images/cs_onboardinguioverview_media.PNG
+|
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

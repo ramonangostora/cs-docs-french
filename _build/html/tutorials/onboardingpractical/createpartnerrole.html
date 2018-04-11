@@ -1,0 +1,409 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Create Partner, Role, and Assign User to Role &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contentsphere Help Center</title>
+<script type="text/javascript" src="../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Help Center</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../index.html">Help Center</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    <a title="Contentsphere  documentation" href="../../index.html" accesskey="U">up</a></div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          
+            <div class="breadcrumbs">
+              <a href="../../index.html">Home</a> /
+              
+              <span>Create Partner, Role, and Assign User to Role</span>
+              
+            </div>
+          
+          <div class="yui-g" id="tutorials-onboardingpractical-createpartnerrole">
+            
+  <div class="section" id="s-create-partner-role-and-assign-user-to-role">
+<span id="create-partner-role-and-assign-user-to-role"></span><h1>Create Partner, Role, and Assign User to Role<a class="headerlink" href="#create-partner-role-and-assign-user-to-role" title="Permalink to this headline">¶</a></h1>
+<p>To create a Partner, a Role, and also to assign a user to a specific role; follow these steps:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Log in to the application and click on the <strong>Administration</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_createuser_logintotheapp.PNG" src="../../_images/cs_createuser_logintotheapp.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Go to <em>Partner Administration</em> and then to <em>Partners</em>.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_gotopartneradmin.PNG" src="../../_images/cs_createpartnerrole_gotopartneradmin.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click “+” icon to create a new partner.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_clickicontocreatepartner.PNG" src="../../_images/cs_createpartnerrole_clickicontocreatepartner.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Provide the following details: <em>Name, Type, and Code.</em> Then, click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_providethefollowingdetails.PNG" src="../../_images/cs_createpartnerrole_providethefollowingdetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the created partner and then click on the <strong>Roles</strong> tab.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_selectthecreatedpartner.PNG" src="../../_images/cs_createpartnerrole_selectthecreatedpartner.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>In that tab, click on the “+” icon to create a role that is specific to a partner.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_inthattabclickon.PNG" src="../../_images/cs_createpartnerrole_inthattabclickon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Provide the following details: <em>Name, Code, and Role Type.</em> Then, click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_providetheffdetails.PNG" src="../../_images/cs_createpartnerrole_providetheffdetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the created role and click on the <strong>Users</strong> field.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_selectthecreatedrole.PNG" src="../../_images/cs_createpartnerrole_selectthecreatedrole.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the users that you want to assign to the role from the list and then, click on the <strong>Apply</strong> button. The selected users will be assigned to the newly created role .</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_selecttheusers.PNG" src="../../_images/cs_createpartnerrole_selecttheusers.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_createpartnerrole_clickonthesavebutton.PNG" src="../../_images/cs_createpartnerrole_clickonthesavebutton.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<div class="section" id="s-create-partner-role-and-assign-user-to-role-screen-elements">
+<span id="create-partner-role-and-assign-user-to-role-screen-elements"></span><h2>Create Partner, Role, and Assign User to Role: Screen Elements<a class="headerlink" href="#create-partner-role-and-assign-user-to-role-screen-elements" title="Permalink to this headline">¶</a></h2>
+<p>The following details are to be provided to be able to create a new partner and a new role in the system.
+The elements for assigning a user to a role are also enumerated.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Create Partner:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="33%" />
+<col width="61%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td>Name</td>
+<td>Specify the name of a partner.</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>Type</td>
+<td><p class="first">Select the type of a partner from the following options:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Supplier</li>
+<li>Marketplaces</li>
+<li>Distributor</li>
+<li>Wholesalers</li>
+<li>Translation Agency</li>
+<li>Content Enrichment Agency</li>
+<li>Digital Asset Agency</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>Code</td>
+<td>Specify the code.</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>Create</td>
+<td>Click <strong>Create</strong> button to create a partner.</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td>Cancel</td>
+<td>Click <strong>Cancel</strong> button to cancel the details of a partner.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Create Role:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="33%" />
+<col width="61%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>6</td>
+<td>Name</td>
+<td>Specify the name of a role.</td>
+</tr>
+<tr class="row-odd"><td>7</td>
+<td>Code</td>
+<td>Specify the code.</td>
+</tr>
+<tr class="row-even"><td>8</td>
+<td>Role Type</td>
+<td><p class="first">Select Role Type from following options:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>System Admin</li>
+<li>User</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="row-odd"><td>9</td>
+<td>Create</td>
+<td>Click <strong>Create</strong> button to create a role.</td>
+</tr>
+<tr class="row-even"><td>10</td>
+<td>Cancel</td>
+<td>Click <strong>Cancel</strong> button to cancel the role details.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Assign User to Role:</strong></p>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="32%" />
+<col width="62%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Sr No</th>
+<th class="head">Screen Element</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>11</td>
+<td>Users</td>
+<td>Select the users from the list and click the <strong>Apply</strong> button.
+The selected users will be assigned to that role.</td>
+</tr>
+<tr class="row-odd"><td>12</td>
+<td>Save</td>
+<td>Click on <strong>Save</strong> button to save the details.</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- 
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Create Partner, Role, and Assign User to Role</a><ul>
+<li><a class="reference internal" href="#create-partner-role-and-assign-user-to-role-screen-elements">Create Partner, Role, and Assign User to Role: Screen Elements</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../index.html">Contentsphere  documentation</a>
+        
+        <ul><li>Create Partner, Role, and Assign User to Role</li></ul>
+        
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Apr 11, 2018</p>
+            </div>
+          </div>
+        
+       -->
+    </div>
+
+    <div id="ft">
+        <p class="topless">Last updated: Apr 11, 2018</p>
+      <div class="nav">
+    <a title="Contentsphere  documentation" href="../../index.html" accesskey="U">up</a></div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

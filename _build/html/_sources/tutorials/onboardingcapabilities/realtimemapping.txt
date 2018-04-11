@@ -1,0 +1,75 @@
+=================
+Real-Time Mapping
+=================
+Real-Time Mapping allows the user/partner to map attributes and tags of the products to the processes before or during the onboarding process.
+
+Prerequisites
+=============
+* Onboarding sheet
+* Predefined roles
+* Predefined organizations
+
+
+Key Terms
+=========
+* **Mappings** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+
+* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
+
+
+Steps for Real-Time Mapping
+============================
+
+#. Log in to the application.
+
+|
+
+#. Click on the **Administration** icon.
+
+|
+
+#. Navigate to **Data Integration** -> **Endpoints** menu.
+
+|
+
+#. Click on the "+" icon to create the endpoint.
+
+.. image:: /tutorials/_images/cs_realtimemapping_clickplusicon.PNG
+|
+|
+
+#. Enter the values such as *Name*, *Type (Inbound)*, and *Code*, then click on the **Create** button.
+
+|
+
+#. Enable **Realtime Mapping** and select the process to map in the workflow.
+
+.. image:: /tutorials/_images/cs_realtimemapping_enablerealtimemapping.PNG
+
+|
+|
+
+#. Click on the **Partner Administration** tab to assign the Endpoint to the Organization and Users.
+
+|
+
+#. Click on an organization. In the Systems section, view the several endpoints assigned to the organization and select the one you have just created. *Note: - An organization can have several endpoints assigned to it.*
+
+.. image:: /tutorials/_images/cs_realtimemapping_selectcreatedendpoint.PNG
+|
+
+#. Click on the **Explore** icon, then click on **Dashboard** and select the endpoint.
+
+|
+
+#. Click on the **Import File** icon to import the file.
+
+|
+
+#. In the real-time mapping window, you can see all the attributes and tags mapped to their respective fields. You may also make changes or simply ignore the attributes that are irrelevant.
+
+.. image:: /tutorials/_images/cs_realtimemapping_viewmappedattributesandtags.PNG
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

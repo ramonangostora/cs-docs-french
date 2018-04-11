@@ -1,0 +1,13 @@
+=================================================
+Capabilities of Contentserv's Onboarding Portal
+=================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   partnerspecificendpoints
+   flexiblefileformats
+   effortlessfiletransfer
+   realtimemapping
+   processflowcheck
+   dataremediation

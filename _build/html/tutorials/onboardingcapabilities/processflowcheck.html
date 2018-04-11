@@ -1,0 +1,360 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Process Flow Check &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contentsphere Help Center</title>
+<script type="text/javascript" src="../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Help Center</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../index.html">Help Center</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    <a title="Contentsphere  documentation" href="../../index.html" accesskey="U">up</a></div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          
+            <div class="breadcrumbs">
+              <a href="../../index.html">Home</a> /
+              
+              <span>Process Flow Check</span>
+              
+            </div>
+          
+          <div class="yui-g" id="tutorials-onboardingcapabilities-processflowcheck">
+            
+  <div class="section" id="s-process-flow-check">
+<span id="process-flow-check"></span><h1>Process Flow Check<a class="headerlink" href="#process-flow-check" title="Permalink to this headline">¶</a></h1>
+<p>Having a process flow feature provides the user a visual representation of the entire onboarding process. Data violations, if any, are depicted in red/orange color. A successful data onboarding process is shown in green color.</p>
+<div class="section" id="s-prerequisites">
+<span id="prerequisites"></span><h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Configured Partners</li>
+<li>Configured Users</li>
+</ul>
+</div>
+<div class="section" id="s-key-terms">
+<span id="key-terms"></span><h2>Key Terms<a class="headerlink" href="#key-terms" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Workflow</strong> - A Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in the Process section.</li>
+</ul>
+</div>
+<div class="section" id="s-how-to-do-a-process-flow-check">
+<span id="how-to-do-a-process-flow-check"></span><h2>How to do a Process Flow Check<a class="headerlink" href="#how-to-do-a-process-flow-check" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Log in to the application.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the <strong>Administration</strong> icon.</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Navigate to <strong>Data Integration</strong> -&gt; <strong>Workflow</strong> menu.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_navigate.PNG" src="../../_images/cs_processflowcheck_navigate.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on the “+” icon to create the workflow.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_clickplusicon.PNG" src="../../_images/cs_processflowcheck_clickplusicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Enter the details such as <em>Name</em>, <em>Event Type</em>, and <em>Code</em>, then click on the <strong>Create</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_enterdetails.PNG" src="../../_images/cs_processflowcheck_enterdetails.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the created workflow. On the pop-up window that appears, configure all the components of the workflow.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_selectcreatedworkflow.PNG" src="../../_images/cs_processflowcheck_selectcreatedworkflow.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>The <em>Graph</em> section in the pop-up window is divided into three vertical sections. The first two vertical sections are called <em>Workflow Modeler</em>. It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_workflowmodeler.PNG" src="../../_images/cs_processflowcheck_workflowmodeler.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Drag and drop the notations in <em>Workflow Modeler</em> to define the onboarding process. The workflow starts with the <strong>Start Event</strong>.
+It acts as a process trigger. So, first element in the workflow will be the <strong>Start Event</strong>.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_draganddrop.PNG" src="../../_images/cs_processflowcheck_draganddrop.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Select the <strong>Start Event</strong> notation to show the options for that notation.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_selectstartevent.PNG" src="../../_images/cs_processflowcheck_selectstartevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Start adding the notations to define a workflow according to the onboarding file. For example, if you want to add <em>Article</em> in a flow, then click on the <strong>Task</strong> notation.
+Custom actions for different users will be managed through workflow <strong>Task</strong>.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_startaddingnotations.PNG" src="../../_images/cs_processflowcheck_startaddingnotations.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once you clicked on the icon, the task gets added in the flow.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_clickicon.PNG" src="../../_images/cs_processflowcheck_clickicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Adding the <strong>Task</strong> notation simply defines the task. Click on the <strong>Wrench</strong> icon to define what kind of a task it is, whether it is <em>import article</em>, <em>import asset</em>, <em>import relationship</em>, etc.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_definetask.PNG" src="../../_images/cs_processflowcheck_definetask.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>As soon as you click on the <strong>Wrench</strong> icon, a window appears containing the types of task.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_clickwrenchicon.PNG" src="../../_images/cs_processflowcheck_clickwrenchicon.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>If you are defining an article, then select the <strong>Article Import</strong> option from the list.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_selectarticleimport.PNG" src="../../_images/cs_processflowcheck_selectarticleimport.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Double-click on the created task icon and enter a name for that icon.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_doubleclick.PNG" src="../../_images/cs_processflowcheck_doubleclick.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Define the components of the system such as <em>Assets, Relationships, and Nature Classes</em>. Create a task, click on the <strong>Wrench</strong> icon to select the type, and enter a name for that task.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_definecomponents.PNG" src="../../_images/cs_processflowcheck_definecomponents.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Once you added all the components in a flow, append the <strong>End Event</strong> notation at the end. It represents the end of flow. Select the last component and click on the <strong>End Event</strong> notation.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_endevent.PNG" src="../../_images/cs_processflowcheck_endevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>View the End Event icon appended at the end of flow.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_viewendevent.PNG" src="../../_images/cs_processflowcheck_viewendevent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<ol class="arabic simple">
+<li>Click on each component and in the third vertical section, fill in the details of each component such as <em>Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/ Class Column Name, Taxonomies</em>, then click on the <strong>Save</strong> button.</li>
+</ol>
+<img alt="../../_images/cs_processflowcheck_clickcomponent.PNG" src="../../_images/cs_processflowcheck_clickcomponent.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- 
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Process Flow Check</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#key-terms">Key Terms</a></li>
+<li><a class="reference internal" href="#how-to-do-a-process-flow-check">How to do a Process Flow Check</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>Browse</h3>
+  <ul>
+    
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../index.html">Contentsphere  documentation</a>
+        
+        <ul><li>Process Flow Check</li></ul>
+        
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Apr 11, 2018</p>
+            </div>
+          </div>
+        
+       -->
+    </div>
+
+    <div id="ft">
+        <p class="topless">Last updated: Apr 11, 2018</p>
+      <div class="nav">
+    <a title="Contentsphere  documentation" href="../../index.html" accesskey="U">up</a></div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

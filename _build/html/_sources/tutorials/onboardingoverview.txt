@@ -1,0 +1,43 @@
+=========
+Overview
+=========
+
+
+Introduction
+=============
+This tutorial is intended to give the reader a practical understanding of how to use the **Contentserv Onboarding Portal**.
+The goal of the Onboarding Portal is to simplify *Supplier Relationship Management* for your organization.
+The Onboarding Portal provides separate PIM systems for each of your partners.
+Through their PIM, the partner is able to manage all product data to be sent to the main PIM.
+Compared to using separate systems for partner engagement, bringing your partners into the Contentserv ecosystem has strong benefits:
+
+
+* Optimizes Performance
+    Tracking the data, you receive help in timely identification of areas that may need improvement; this guarantees optimal performance.
+
+* Reduces Costs
+    Clean, consistent, and connected data has a positive impact on purchasing costs, company data quality, and corporate image.
+    It also helps businesses take informed decisions, align tasks, and find innovative ways to significantly reduce costs.
+
+* Increases Administrative Efficiencies
+    An efficient onboarding process can cut down on the duplication of data and errors. It can also significantly drive administrative efficiencies.
+    Having one central place for all your vendor data can help you manage your relationships with heightened efficiency.
+
+* Creates Loyal Relationships
+    It is difficult to find good vendors and if you are working with them, you should be doing everything you can to empower your relationship with them.
+    A smooth and easy onboarding process helps you build the loyalty you need to keep your vendors a part of your supply chain for a long term.
+
+* Helps your Brand to stand out
+    It is a competitive world - to avoid losing your mindshare with your channel partners, it is important to have an onboarding process that helps your brand to stand out.
+    An onboarding process is an opportunity to educate your vendor what your brand has to offer to their business.
+
+
+Intended Audience
+==================
+This Onboarding tutorial is intended for anyone, who is responsible for movement of data in and out of Contentserv.
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
