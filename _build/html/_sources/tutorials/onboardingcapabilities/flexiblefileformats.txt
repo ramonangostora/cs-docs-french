@@ -1,4 +1,4 @@
 =====================
 Flexible File Formats
 =====================
-Contentserv's Onboarding portal gives its partners the flexibility of uploading their data in various formats including *.xls* and *.json*.
+Contentserv's Onboarding portal gives its partners the flexibility of uploading their data in various formats such as *.xls* and *.json*.

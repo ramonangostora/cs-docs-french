@@ -1,3 +1,45 @@
 ====================
 Configure Endpoint
 ====================
+
+|
+
+#.	Step.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#.	Step.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#.	Step.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#.	Step.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+
+#.	Step.
+
+.. image:: /tutorials/_images/image.PNG
+|
+|
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

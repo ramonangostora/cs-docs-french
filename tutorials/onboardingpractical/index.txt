@@ -3,10 +3,11 @@ Practical Quick Start Guide
 =============================
 
 
-:doc:`Step-By-Step Guide for Configuration </tutorials/onboardingpractical/stepbystepguideforconfiguration>`
-=============================================================================================================
+Step-By-Step Guide for Configuration
+=====================================
+Onboarding process requires configuration of following system components: *User, Partner and Role, Assign User to Role, Workflow, Mapping, Endpoint, and
+Assign Endpoint to Partner and Role*.
 
-|
 
 * :doc:`Create User </tutorials/onboardingpractical/createuser>`
 
@@ -22,8 +23,11 @@ Practical Quick Start Guide
 
 |
 
-:doc:`Step-By-Step Guide for Uploading Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
-======================================================================================================================
+Step-By-Step Guide for Uploading Onboarding File
+=================================================
+
+
+* :doc:`Upload Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
 
 |
 

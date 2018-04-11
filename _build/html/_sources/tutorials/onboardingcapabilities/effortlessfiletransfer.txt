@@ -14,7 +14,7 @@ Key Terms
 =========
 * **Data Integration** - The Data Integration section defines the entire process of importing a file into the system and exporting a file from the system.
 
-* **Workflow** -  The Workflow section defines the structure and components of a file that is to be imported into the system or exported from the system. to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+* **Workflow** -  The Workflow section defines the structure and components of a file that is to be imported into the system or exported from the system.
 
 
 Steps to Transfer a File
@@ -28,13 +28,13 @@ Steps to Transfer a File
 
 |
 
-#. Click on the **File Uploads** link of the created Endpoint.
+#. Click on the **File Uploads** link of the created endpoint.
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clickfileuploads.PNG
 |
 |
 
-#. Click on the **Import File** icon and upload the onboarding file to the Supplier's *Data Integration* tab.
+#. Click on the **Import File** icon and upload the onboarding file to the supplier's *Data Integration* tab.
 
 |
 
@@ -53,26 +53,13 @@ Steps to Transfer a File
 
 |
 
-#. Select all the products that are needed to be transferred to Onboard or PIM portal (Self).
+#. Select all the products that are needed to be transferred to Onboarding or PIM portal (Self).
 
 |
 
-#. Click on the **Transfer** icon and select **Transfer To PIM** or **Transfer To Onboarding option**.
+#. Click on the **Transfer** icon and select **Transfer To PIM** or **Transfer To Onboarding** option.
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clicktransfer.PNG
-|
-
-#. Select the created Endpoint from the *Systems* section.
-
-|
-
-#. Click on the **Explore** icon and click on the **Data Integration** tab.
-
-|
-
-#. Click on the **File Uploads** link of the created Endpoint to upload the desired file.
-
-.. image:: /tutorials/_images/cs_partnerspecificendpoints_clickfileuploads.PNG
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

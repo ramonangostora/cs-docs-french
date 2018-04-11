@@ -1,5 +1,5 @@
 =================
-Realtime Mapping
+Real-Time Mapping
 =================
 Real-Time Mapping allows the user/partner to map attributes and tags of the products to the processes before or during the onboarding process.
 
@@ -14,10 +14,10 @@ Key Terms
 =========
 * **Mappings** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
 
-* **Endpoint** - The endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
+* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
 
 
-Steps for Realtime Mapping
+Steps for Real-Time Mapping
 ============================
 
 #. Log in to the application.
@@ -49,20 +49,16 @@ Steps for Realtime Mapping
 |
 |
 
-#. Click on the **Partner Administration** tab to assign the Endpoints to the Organization and Users.
+#. Click on the **Partner Administration** tab to assign the Endpoint to the Organization and Users.
 
 |
 
-#. Click on an Organization.
-
-|
-
-#. In the Systems section, you will see several endpoints assigned to the organization, select the one you have just created. *Note: - An organization can have several endpoints assigned to it.*
+#. Click on an organization. In the Systems section, view the several endpoints assigned to the organization and select the one you have just created. *Note: - An organization can have several endpoints assigned to it.*
 
 .. image:: /tutorials/_images/cs_realtimemapping_selectcreatedendpoint.PNG
 |
 
-#. Click on the **Explore** icon, then click on **Dashboard** and select the Endpoint.
+#. Click on the **Explore** icon, then click on **Dashboard** and select the endpoint.
 
 |
 
@@ -70,11 +66,10 @@ Steps for Realtime Mapping
 
 |
 
-#. View all the attributes and tags mapped to their respective fields. You may also make changes or simply ignore the attributes that are irrelevant.
+#. In the real-time mapping window, you can see all the attributes and tags mapped to their respective fields. You may also make changes or simply ignore the attributes that are irrelevant.
 
 .. image:: /tutorials/_images/cs_realtimemapping_viewmappedattributesandtags.PNG
 |
-
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
