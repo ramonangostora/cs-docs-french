@@ -1,7 +1,7 @@
 ====================
 Configure Endpoint
 ====================
-To configure endpoint, follow these steps:
+To configure an endpoint, follow these steps:
 
 |
 
@@ -26,7 +26,7 @@ To configure endpoint, follow these steps:
 |
 
 
-#.	Select the values for: *Realtime Mapping, System, Workflow, Mapping, Dashboard Tab, and Physical Catalog*. Click on the **Create** button.
+#.	Select the values for: *Realtime Mapping, System, Workflow, Mapping, Dashboard Tab, and Physical Catalog*. Click on the **Save** button.
 
 .. image:: /tutorials/_images/cs_configureendpoint_selectvalues.PNG
 |
@@ -42,6 +42,7 @@ Sr No        Screen Element                        Description
 1            Name                                  Specify the name of the endpoint.
 
 2            Type                                  Select the type of endpoint from the following options:
+|
                                                    * Inbound Endpoint
                                                    * Outbound Endpoint
 
@@ -52,7 +53,7 @@ Sr No        Screen Element                        Description
 5            Realtime Mapping                      If we enable this option, it allows the user/partner to map attributes, tags, classes, and taxonomies of the system
                                                    to the attributes, tags, classes and taxonomies of an onboarding file while uploading the file.
 
-6            System                                This helps to create client specific system and this system will be assigned to partner and role.
+6            System                                This helps to create client-specific system and this system will be assigned to partner and role.
                                                    Endpoints are associated with this system.
 
 7            Mapping                               Select the mapping from the list to associate it with the endpoint.
@@ -67,7 +68,6 @@ Sr No        Screen Element                        Description
 
 12           Discard                               Click on the **Discard** button to discard the details of defined endpoint.
 =========    =================================     ========================================================================================================================================================
-
 
 |
 
