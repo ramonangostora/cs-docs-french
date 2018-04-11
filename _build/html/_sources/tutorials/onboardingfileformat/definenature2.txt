@@ -1,0 +1,16 @@
+=====================================================
+6.5	Define Nature Relationship in an Onboarding File
+=====================================================
+
+#. You need to mention which single articles are bundled in an article that contains more than one articles
+like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection in Nature Relationship sheet.
+We define all articles in an Article sheet. In Nature Relationship sheet we will take the article reference from Article sheet.
+
+
+
+
+ .. image:: /tutorials/_images/cs_tutorial_definenature.PNG
+ |
+ |
+ .. image:: /feature/_images/mdmimages/line-png-32.PNG
+    :alt: Contentsphere line

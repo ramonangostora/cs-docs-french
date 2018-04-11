@@ -1,43 +1,139 @@
-====================
+===================
 Configure Workflow
-====================
+===================
+To configure a workflow, follow the detailed steps listed below:
+
 
 |
 
-#.	Step.
+#.	Log in to the application and click on the **Administration** button.
 
-.. image:: /tutorials/_images/image.PNG
-|
-|
-
-
-#.	Step.
-
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
 |
 |
 
 
-#.	Step.
+#.	Go to the *Data Integration* tab and then to *Workflow*.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureworkflow_gotodataintegration.PNG
 |
 |
 
 
-#.	Step.
+#.	Click the "+" icon to create a new workflow.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureworkflow_clicktheicon.PNG
 |
 |
 
 
-#.	Step.
+#.	Provide the following details: *Name, Event Type, and Code*. Then, click on the **Create** button.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureworkflow_providetheffdetails.PNG
 |
 |
 
+
+#.	Select the created workflow and a pop-up window will open where you can define the workflow of onboarding process.
+
+.. image:: /tutorials/_images/cs_configureworkflow_selectthecreatedwf.PNG
+|
+|
+
+
+#.	The *Graph section* in the pop-up window is divided into three vertical sections. The first 2 vertical sections are called **Workflow Modeler**. It allows users to configure workflows using the *BPMN 2.0 Modeling Notation*. This can model complex onboarding processes using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.
+
+.. image:: /tutorials/_images/cs_configureworkflow_thegraphsection.PNG
+|
+|
+
+
+#.	Drag and drop the notations in the *Workflow Modeler* to define the onboarding process. The workflow starts with a **Start Event**. It acts as a process trigger so the first element in the workflow will be the **Start Event**.
+
+.. image:: /tutorials/_images/cs_configureworkflow_draganddrop.PNG
+|
+|
+
+
+#.	Select the **Start Event** notation to see all the options that you can add after this component. It will appear on the right side of the component.
+
+.. image:: /tutorials/_images/cs_configureworkflow_selectthestartevent.PNG
+|
+|
+
+
+#.	Add the notations to define a workflow according to the onboarding file. For example, if you want to add an *Article* in a flow, click on the **Task Notation**. Custom actions for different users will be managed through the workflow task.
+
+.. image:: /tutorials/_images/cs_configureworkflow_addthenotations.PNG
+|
+|
+
+
+#.	Click on a *Task Notation* to add it to the process.
+
+.. image:: /tutorials/_images/cs_configureworkflow_clickonatasknotation.PNG
+|
+|
+
+
+#.  Note that adding a task notation simply defines the task. Next step is to define what kind of a task it is: whether it is *Import Article, Import Asset, or Import Relationship, etc*. Do this by clicking on the **Change Type** icon (icon that looks like a wrench).
+
+.. image:: /tutorials/_images/cs_configureworkflow_notethatadding.PNG
+|
+|
+
+
+#.	Once clicked, a pop-up window will appear that contains the various tasks.
+
+.. image:: /tutorials/_images/cs_configureworkflow_onceclickedvarioustasks.PNG
+|
+|
+
+
+#.  To define an *Article*, select the *Article Import* option from the list.
+
+.. image:: /tutorials/_images/cs_configureworkflow_todefineanarticle.PNG
+|
+|
+
+
+#.	Double click on the created task and provide a name.
+
+.. image:: /tutorials/_images/cs_configureworkflow_doubleclickonthecreatedtask.PNG
+|
+|
+
+
+#.	Define all the components of the system like *Assets, Relationships, Nature Classes, etc* in a similar manner - Creating a task then, selecting its type by clicking on the wrench icon and lastly, naming it.
+
+.. image:: /tutorials/_images/cs_configureworkflow_defineallthecomponents.PNG
+|
+|
+
+
+#.	Once all the needed components are added, append the **End Event** notation. It represents the end of the process/flow. Select the last component and click on the **End Event** notation.
+
+.. image:: /tutorials/_images/cs_configureworkflow_onceallneededcomponentsareadded.PNG
+|
+|
+
+
+#.	Check that the **End Event** notation is appended.
+
+.. image:: /tutorials/_images/cs_configureworkflow_checkthattheendevent.PNG
+|
+|
+
+
+#.	Click on each component and fill out the details of each component (third vertical section): *Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/Class Column Name, and Taxonomies*. Click on the **Save** button.
+
+.. image:: /tutorials/_images/cs_configureworkflow_clickoneachcomponent.PNG
+|
+|
+
+
+Configure Workflow: Screen Elements
+====================================
 
 |
 
