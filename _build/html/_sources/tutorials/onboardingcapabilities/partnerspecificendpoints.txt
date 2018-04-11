@@ -39,7 +39,7 @@ Steps to Configure Endpoints
 
 |
 
-#. Enter the values for the *Name*, *Type*, and *Code*, then click on the **Create** button.
+#. Enter the values for the *Name, Type, and Code*, then click on the **Create** button.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_entervalues.PNG
 

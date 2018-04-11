@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Onboarding File Format &#8212; Contentsphere  documentation</title>
+    <title>6.4 Nested Variants in an Onboarding File &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -113,24 +113,34 @@
             <div class="breadcrumbs">
               <a href="../../index.html">Home</a> /
               
-              <span>Onboarding File Format</span>
+              <span>6.4     Nested Variants in an Onboarding File</span>
               
             </div>
           
-          <div class="yui-g" id="tutorials-onboardingfileformat-index">
+          <div class="yui-g" id="tutorials-onboardingfileformat-nestedvariants">
             
-  <div class="section" id="s-onboarding-file-format">
-<span id="onboarding-file-format"></span><h1>Onboarding File Format<a class="headerlink" href="#onboarding-file-format" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="definearticles.html">Define Articles, Tags, Taxonomy, and Class in an Onboarding File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="defineassets.html">6.2     Define Assets in an Onboarding File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="definevariants.html">6.3     Define Variants in an Onboarding File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="nestedvariants.html">6.4     Nested Variants in an Onboarding File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="definenature.html">6.5     Define Nature Relationship in an Onboarding File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="definearticleasset.html">6.6     Define Article-Asset Relationship in an Onboarding File</a></li>
-</ul>
+  <div class="section" id="s-nested-variants-in-an-onboarding-file">
+<span id="nested-variants-in-an-onboarding-file"></span><h1>6.4     Nested Variants in an Onboarding File<a class="headerlink" href="#nested-variants-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li>All nested variants of all products will be listed in a single sheet of an excel file.</li>
+<li>The nested variant sheet will contain the following details of each nested variant column wise:</li>
+<li><strong>Nested Variant ID</strong>: You need to mention the unique identification of each nested variant in this column. There is no restriction on column name/column header.</li>
+</ol>
+<p>#. <strong>ArticleID</strong>: You need to mention the unique identification of an article for which you are defining nested variant in this column.
+This will have the value from ArticleID column from the sheet in which you have defined all articles.</p>
+<ol class="arabic simple">
+<li><strong>VariantID</strong>: You need to mention the unique identification of variant for which you are defining nested variant in this column.</li>
+</ol>
+<p>#.      <strong>Variant</strong>: You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant,
+then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.</p>
+<p>#. <strong>Nested Variant</strong>: You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN.
+You need to provide GTIN value in this column.</p>
+<img alt="../../_images/cs_tutorial_nestedvariants.PNG" src="../../_images/cs_tutorial_nestedvariants.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
 </div>
+<img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
 </div>
 
 
@@ -155,7 +165,7 @@
       <li>
         <a href="../../index.html">Contentsphere  documentation</a>
         
-        <ul><li>Onboarding File Format</li></ul>
+        <ul><li>6.4     Nested Variants in an Onboarding File</li></ul>
         
       </li>
   </ul>

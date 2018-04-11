@@ -1,45 +1,75 @@
 ====================
 Configure Endpoint
 ====================
+To configure endpoint, follow these steps:
 
 |
 
-#.	Step.
+#. Navigate to **Data Integration** -> **Endpoints** menu.
 
-.. image:: /tutorials/_images/image.PNG
-|
-|
-
-
-#.	Step.
-
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureendpoint_navigate.PNG
 |
 |
 
 
-#.	Step.
+#.	Click the "+" icon to create the endpoint.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureendpoint_clickplusicon.PNG
 |
 |
 
 
-#.	Step.
+#.	Provide the following details: *Name, Type, and Code*. Click on the **Create** button.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureendpoint_providethedetails.PNG
 |
 |
 
 
-#.	Step.
+#.	Select the values for: *Realtime Mapping, System, Workflow, Mapping, Dashboard Tab, and Physical Catalog*. Click on the **Create** button.
 
-.. image:: /tutorials/_images/image.PNG
+.. image:: /tutorials/_images/cs_configureendpoint_selectvalues.PNG
 |
 |
 
-|
+Configure Endpoint: Screen Elements
+=============================
+The following details are to be provided to be able to configure an endpoint in the system.
 
+=========    =================================     ========================================================================================================================================================
+Sr No        Screen Element                        Description
+=========    =================================     ========================================================================================================================================================
+1            Name                                  Specify the name of the endpoint.
+
+2            Type                                  Select the type of endpoint from the following options:
+                                                   * Inbound Endpoint
+                                                   * Outbound Endpoint
+
+3            Code                                  Specify the code.
+
+4            Create                                Click on the **Create** button to create the endpoint.
+
+5            Realtime Mapping                      If we enable this option, it allows the user/partner to map attributes, tags, classes, and taxonomies of the system
+                                                   to the attributes, tags, classes and taxonomies of an onboarding file while uploading the file.
+
+6            System                                This helps to create client specific system and this system will be assigned to partner and role.
+                                                   Endpoints are associated with this system.
+
+7            Mapping                               Select the mapping from the list to associate it with the endpoint.
+
+8            Workflow                              Select the workflow from the list to associate it with the endpoint.
+
+9            Dashboard Tab                         Select the dashboard tab where you want to show the endpoint.
+
+10           Physical Catalog                      Select the physical catalog from the list where you want to show the endpoint.
+
+11           Save                                  Click on the **Save** button to save the endpoint details.
+
+12           Discard                               Click on the **Discard** button to discard the details of defined endpoint.
+=========    =================================     ========================================================================================================================================================
+
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
