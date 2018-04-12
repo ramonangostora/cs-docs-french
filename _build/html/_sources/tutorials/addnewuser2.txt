@@ -1,0 +1,72 @@
+=============
+Add New Users
+=============
+Manage different roles or profiles within the system by adding new users.
+
+
+How to do: Add New Users
+=============================
+To do this, follow these steps:
+
+
+|
+
+#. Click **Settings**.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_clicksettings.PNG
+|
+|
+
+#. Click **Partner Admin**.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_clickpartadmin.PNG
+|
+|
+
+#.  Click **Users** on the left sidebar.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_clickusers.PNG
+|
+|
+
+#.   Then, click "+" to add a user.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
+|
+|
+
+#.    Enter data in the fields.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
+|
+|
+#.  Then, click **Create**.
+
+.. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
+|
+|
+
+#.   View the added user.
+
+
+.. image:: /feature/_images/mdmimages/addingnewusers_addeduser.PNG
+|
+|
+
+Icon for the user can also be added. To do this, follow the steps below:
+
+      #.    Click **Add Icon** and select an image icon from your computer.
+
+      .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
+      |
+      |
+
+
+      #.    View the added icon.
+
+      .. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
+      |
+      |
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

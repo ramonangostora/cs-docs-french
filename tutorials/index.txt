@@ -27,8 +27,8 @@ Understand the core concepts.
 .. toctree::
    :maxdepth: 1
 
-   concepts/whatisadatamodel
-   concepts/howclasseswork
+   whatisadatamodel
+   howclasseswork
 
 
 
@@ -40,10 +40,10 @@ Learn how to use the Contentserv Onboarding system.
 .. toctree::
    :maxdepth: 1
 
-   onboarding/onboardingoverview
-   onboarding/onboardingkeyterms
-   onboarding/onboardinguioverview
-   onboarding/onboardingdesignandarchitecture
+   onboardingoverview
+   onboardingkeyterms
+   onboardinguioverview
+   onboardingdesignandarchitecture
    onboardingpractical/index
    onboardingfileformat/index
    onboardingcapabilities/index

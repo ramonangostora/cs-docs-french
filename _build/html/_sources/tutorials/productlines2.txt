@@ -1,0 +1,47 @@
+==================
+About the Product
+==================
+
+
+Master Data Management
+=======================
+
+:doc:`Master Data Management </product/MDM>` (MDM): *How to Manage Master Data from Multiple Domains*
+
+*  Automate data integration and quality assurance with contextual multi-domain solution.
+*  Fuel real-time business systems with accurate, golden records sourced from supplier data, data pools, and ERPs.
+
+|
+
+Product Information Management
+===============================
+
+:doc:`Product Information Management </product/PIM>` (PIM): *Drive Better Product Experience*
+
+* The most powerful *Product Information Management* system meets unmatched usability, flexibility, and scalability.
+* Store and maintain product information so that it can be shared with partners and drive promotion and e-commerce systems.
+
+|
+
+Marketing Content Management
+=============================
+
+:doc:`Marketing Content Management </product/MCM>` (MCM): *For Future-Proof Contextual Product Marketing*
+
+* Accelerate, simplify, and empower all promotional and marketing content processes and achieve top performance of your marketing activities.
+* Deliver customized, contextual, and promotional content or campaigns through all your selling channels.
+
+|
+
+Partner Engagement Platform
+============================
+
+:doc:`Partner Engagement Platform </product/PEP>` (PEP): *Complete and Accurate Data Integration*
+
+*  Create processes with appropriate mappings for efficient data onboarding into the system.
+*  Manage and customize profiles to maintain exclusivity of endpoints within an organization.
+
+|
+
+.. image:: _images/line-png-32.PNG
+   :alt: Contentsphere line
