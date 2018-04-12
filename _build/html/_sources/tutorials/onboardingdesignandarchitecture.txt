@@ -8,7 +8,7 @@ Architecture Diagram of the Onboarding System
 
 |
 
-.. image:: _images/cs_designandarchitecture_architecturediagram.PNG
+.. image:: /tutorials/_images/cs_designandarchitecture_architecturediagram.PNG
 |
 |
 
@@ -18,7 +18,7 @@ High Level Diagram of the Onboarding Process
 
 |
 
-.. image:: _images/cs_designandarchitecture_highlevelonboardingdiagram.PNG
+.. image:: /tutorials/_images/cs_designandarchitecture_highlevelonboardingdiagram.PNG
 |
 |
 
@@ -30,13 +30,13 @@ Process Flow Diagrams for Onboarding
 
 * **Process Flow Diagram for Configuration**
 
-.. image:: _images/cs_designandarchitecture_pfdiagramconfiguration.PNG
+.. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramconfiguration.PNG
 |
 |
 
 
 * **Process Flow Diagram for File Upload**
 
-.. image:: _images/cs_designandarchitecture_pfdiagramfileupload.PNG
+.. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramfileupload.PNG
 |
 |

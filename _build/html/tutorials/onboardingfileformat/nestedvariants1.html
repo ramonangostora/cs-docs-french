@@ -1,0 +1,243 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Nested Variants in an Onboarding File &#8212; Contentsphere  documentation</title>
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Define Nature Relationship in an Onboarding File" href="definenature1.html" />
+    <link rel="prev" title="Define Variants in an Onboarding File" href="definevariants1.html" />
+
+
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contentsphere Help Center</title>
+<script type="text/javascript" src="../../templatebuiltins.js"></script>
+<script type="text/javascript">
+(function($) {
+    if (!contentsphere_template_builtins) {
+       // templatebuiltins.js missing, do nothing.
+       return;
+    }
+    $(document).ready(function() {
+        // Hyperlink contentsphere template tags and filters
+        var base = "../../ref/templates/builtins.html";
+        if (base == "#") {
+            // Special case for builtins.html itself
+            base = "";
+        }
+        // Tags are keywords, class '.k'
+        $("div.highlight\\-html\\+contentsphere span.k").each(function(i, elem) {
+             var tagname = $(elem).text();
+             if ($.inArray(tagname, contentsphere_template_builtins.ttags) != -1) {
+                 var fragment = tagname.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + tagname + "</a>");
+             }
+        });
+        // Filters are functions, class '.nf'
+        $("div.highlight\\-html\\+contentsphere span.nf").each(function(i, elem) {
+             var filtername = $(elem).text();
+             if ($.inArray(filtername, contentsphere_template_builtins.tfilters) != -1) {
+                 var fragment = filtername.replace(/_/, '-');
+                 $(elem).html("<a href='" + base + "#" + fragment + "'>" + filtername + "</a>");
+             }
+        });
+    });
+})(jQuery);
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110467525-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110467525-1');
+</script>
+
+  </head>
+  <body>
+
+    <div class="document">
+  <div id="custom-doc" class="yui-t6">
+    <div id="top-nav">
+      <a href="../../index.html"><img src="http://contentsphere-docs.readthedocs.io/en/latest/_static/logoweb.png" class="cs-logo"></a>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="https://contentsphere.com/">Website</a></li>
+        <li class="nav-li active"><a href="http://contentsphere-docs.readthedocs.io/en/latest/">Help Center</a></li>
+        <li class="nav-li"><a href="https://contentsphere.com/contactform/">Contact</a></li>
+      </ul>
+    </div>
+    <div id="hd">
+      <h1 class="documentation-header"><a href="../../index.html">Help Center</a></h1>
+      <div id="searchbox" role="search" class="search-nav">
+        <form class="search" action="http://contentsphere-docs.readthedocs.io/en/latest/search.html" method="get">
+          <div>
+            <input type="text" class="form-input" name="q">
+            <button type="submit" class="form-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="global-nav">
+      <!-- <a title="Home page" href="../../index.html">Home</a>  |
+      <a title="Table of contents" href="../../contents.html">Table of contents</a>  |
+      <a title="Global index" href="../../genindex.html">Index</a>  | -->
+      
+    </div>
+    <!-- <div class="nav">
+    &laquo; <a href="definevariants1.html" title="Define Variants in an Onboarding File">previous</a>
+     |
+    <a href="../index.html" title="Tutorials" accesskey="U">up</a>
+   |
+    <a href="definenature1.html" title="Define Nature Relationship in an Onboarding File">next</a> &raquo;</div> -->
+
+    <div id="bd">
+      <div id="yui-main">
+        <div class="yui-b">
+          
+            <div class="breadcrumbs">
+              <a href="../../index.html">Home</a> /
+              
+                <span><a href="../index.html">Tutorials</a> /
+              
+                <span><a href="index.html">Onboarding File Format</a> /
+              
+              <span>Nested Variants in an Onboarding File</span>
+              </span></span>
+            </div>
+          
+          <div class="yui-g" id="tutorials-onboardingfileformat-nestedvariants1">
+            
+  <div class="section" id="s-nested-variants-in-an-onboarding-file">
+<span id="nested-variants-in-an-onboarding-file"></span><h1>Nested Variants in an Onboarding File<a class="headerlink" href="#nested-variants-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>All nested variants of all products will be listed in a single sheet of an excel file.</li>
+<li>The nested variant sheet will contain the following details of each nested variant column wise:</li>
+</ul>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Details</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>ArticleID</td>
+<td>You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from ArticleID column from the sheet in which you have defined all articles.</td>
+</tr>
+<tr class="row-odd"><td>VariantID</td>
+<td>You need to mention the unique identification of variant for which you are defining nested variant in this column.</td>
+</tr>
+<tr class="row-even"><td>Variant</td>
+<td>You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.</td>
+</tr>
+<tr class="row-odd"><td>Nested Variant</td>
+<td>You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.</td>
+</tr>
+<tr class="row-even"><td>Attribute</td>
+<td>You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be <strong>IsBaseUnit</strong>, <strong>IsSalesUnit</strong>, etc. You need to provide the value of attribute against each sub type of unit variant in each row.</td>
+</tr>
+</tbody>
+</table>
+<img alt="../../_images/cs_tutorial_nestedvariants.PNG" src="../../_images/cs_tutorial_nestedvariants.PNG" />
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- 
+        
+          <div class="yui-b" id="sidebar">
+            <div class="sidebar-padding">
+              
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3>Browse</h3>
+  <ul>
+    
+      <li>Prev: <a href="definevariants1.html">Define Variants in an Onboarding File</a></li>
+    
+    
+      <li>Next: <a href="definenature1.html">Define Nature Relationship in an Onboarding File</a></li>
+    
+  </ul>
+  <h3>You are here:</h3>
+  <ul>
+      <li>
+        <a href="../../index.html">Contentsphere  documentation</a>
+        
+          <ul><li><a href="../index.html">Tutorials</a>
+        
+          <ul><li><a href="index.html">Onboarding File Format</a>
+        
+        <ul><li>Nested Variants in an Onboarding File</li></ul>
+        </li></ul></li></ul>
+      </li>
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+                <h3>Last update:</h3>
+                <p class="topless">Apr 12, 2018</p>
+            </div>
+          </div>
+        
+       -->
+    </div>
+
+    <div id="ft">
+        <p class="topless">Last updated: Apr 12, 2018</p>
+      <div class="nav">
+    &laquo; <a href="definevariants1.html" title="Define Variants in an Onboarding File">previous</a>
+     |
+    <a href="../index.html" title="Tutorials" accesskey="U">up</a>
+   |
+    <a href="definenature1.html" title="Define Nature Relationship in an Onboarding File">next</a> &raquo;</div>
+    </div>
+  </div>
+
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

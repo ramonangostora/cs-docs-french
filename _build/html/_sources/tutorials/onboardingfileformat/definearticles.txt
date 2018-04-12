@@ -44,7 +44,6 @@ Single Class           It is possible that all the defined articles in a sheet u
 
 Multiple Class         It is possible that all the defined articles in a sheet use different classes. For example, some of the defined articles are Single Article and some are Fixed Bundle.
                        In this case, we need to select **Column Class** option from **Type** field while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,
-
                        in a Class Column field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab of **Data Integration** -> **Mapping** section in system.
 ====================   =======================================================================================================================================================================================================================================================================
 

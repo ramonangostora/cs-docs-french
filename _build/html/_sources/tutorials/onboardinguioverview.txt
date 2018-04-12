@@ -14,7 +14,7 @@ On the lower part of the screen, widgets for *'Recently Updated'* and *'Recently
 
 |
 
-.. image:: _images/cs_onboardinguioverview_information.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_information.PNG
 |
 |
 
@@ -26,7 +26,7 @@ The summary box for each of this endpoint will display information like *Number 
 
 |
 
-.. image:: _images/cs_onboardinguioverview_dataintegration.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_dataintegration.PNG
 |
 |
 
@@ -37,7 +37,7 @@ The Import File button initiates the upload process. Click on the **Import File*
 
 |
 
-.. image:: _images/cs_onboardinguioverview_importfile.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_importfile.PNG
 |
 |
 
@@ -50,7 +50,7 @@ and also, the *Status* that changes from *‘In Progress to Completed’* if the
 
 |
 
-.. image:: _images/cs_onboardinguioverview_workflowstatus.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_workflowstatus.PNG
 |
 |
 
@@ -61,7 +61,7 @@ Catalog tab displays the list of uploaded products.  You can check the details o
 
 |
 
-.. image:: _images/cs_onboardinguioverview_catalog.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_catalog.PNG
 |
 |
 
@@ -72,7 +72,7 @@ The Media tab in the onboarding portal displays all the uploaded media files alo
 
 |
 
-.. image:: _images/cs_onboardinguioverview_media.PNG
+.. image:: /tutorials/_images/cs_onboardinguioverview_media.PNG
 |
 |
 

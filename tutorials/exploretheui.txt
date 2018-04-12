@@ -2,7 +2,7 @@
 Explore the User Interface
 ==========================
 
-Use these screenshots to help guide you through Contentsphere's user interface:
+Use these screenshots to help guide you through Contentserv's user interface:
 
 .. image:: _images/cs_ui1.jpg
    :alt: Contentsphere UI
