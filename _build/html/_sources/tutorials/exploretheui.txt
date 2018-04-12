@@ -11,3 +11,8 @@ Use these screenshots to help guide you through Contentserv's user interface:
 
 .. image:: _images/cs_ui2.jpg
    :alt: Contentsphere UI
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
