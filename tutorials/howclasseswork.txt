@@ -5,7 +5,7 @@ How Classes work
 What is a class?
 ----------------
 
-Contentsphere uses two types of classes: *(1) Nature Class* and *(2) Non-Nature/Attribution Class*.
+Contentserv uses two types of classes: *(1) Nature Class* and *(2) Non-Nature/Attribution Class*.
 Classes define the base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
 There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.
 
@@ -176,6 +176,7 @@ Attribution Class examples with Properties
                         * *Adding Classes to a Product*
                         * *Data Model*
 ====================    =============================================
+
 
 |
 

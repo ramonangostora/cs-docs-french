@@ -1,0 +1,48 @@
+==========
+Key Terms
+==========
+
+|
+
+* Onboarding
+    Onboarding is the process of transferring product data from a partner’s system to the main PIM.
+    The product details are put together in a file and then uploaded into the retailer’s PIM system. The PIM will fetch the details of the file and validate it with the MDM.
+
+* Offboarding
+    The offboarding process allows the user to export product data from Contentserv.
+    The data can be downloaded as a file that can be pushed out to channels such as ecommerce.
+
+* User
+    The user is someone who logs into the Contentserv system.
+
+* Role
+    A role defines the permissions of a user in the system. An organization can have several roles such as an *Administrator* or a *General User*.
+    The roles vary between organizations but can be created to match the roles in your company.
+
+* Workflow
+    A workflow is a business process that is modeled digitally within Contentserv. An example of a workflow being used in Contentserv is a workflow to manage the product lifecycle.
+
+* Mapping
+    Mapping connects different elements (*attributes, tags, classes, and taxonomies*) defined in an onboarding file to their respective elements (*attributes, tags, classes, and taxonomies*) defined in the system.
+
+* Endpoint
+    The endpoint is a data gateway into the Contentserv. Custom endpoints can be configured for data import and data export.
+
+* Inbound Endpoint
+    The inbound endpoint is the gateway through which a file is imported into the system.
+
+* Outbound Endpoint
+    The outbound endpoint is the gateway through which a file is exported from the system.
+
+* Nature and Non-Nature Classes
+    *Nature Class:* A class that defines the base type of a product. This product type is specific to how the product should behave in the Contentserv software.
+    Nature Classes could include *Single Article, Product, Bundle, or other custom-made product types*.
+
+    *Attribution Class*: (also called Non-Nature Class) A class that adds specific attributes to the product it is assigned to.
+    For example, a Mobile Phone class may add attributes for *Screen Size, Memory Size, Operating System*, etc.
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

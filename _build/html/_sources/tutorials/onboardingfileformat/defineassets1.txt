@@ -1,0 +1,23 @@
+===================================
+Define Assets in an Onboarding File
+===================================
+
+* All the assets will be listed in a single sheet of an excel file.
+* All the assets will be listed row-wise in a sheet. Each asset will have a separate row in a sheet.
+* The sheet will contain the following details of each asset column-wise:
+
+====================   =======================================================================================================================================================================================================================================================================
+Details                Description
+====================   =======================================================================================================================================================================================================================================================================
+Asset ID               Mention the unique identification of each asset in this column. There is no restriction on column name/column header.
+
+Asset Name             Mention the name of each asset in this column. There is no restriction on column name/column header.
+====================   =======================================================================================================================================================================================================================================================================
+
+
+.. image:: /tutorials/_images/cs_tutorial_defineasset.PNG
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+  :alt: Contentsphere line

@@ -2,42 +2,48 @@
 Tutorials
 =========
 
-New to Contentsphere
-====================
+New to Contentserv
+=====================
 
-Learn the basics to get up and running quickly
+Learn the basics to get up and running quickly.
 
-1. :doc:`About the Product <../product/productlines>`
+.. toctree::
+   :maxdepth: 1
 
-2. :doc:`Explore the UI <exploretheui>`
+   productlines
+   exploretheui
+   addnewuser
+   addimagetoDAM
+   createnewproduct
+   settinguptaxonomy
 
-3. :doc:`Add a New User <addnewuser>`
-
-4. :doc:`Add an Image to the DAM <addimagetoDAM>`
-
-5. :doc:`Create a New Product <createnewproduct>`
-
-6. :doc:`Set up a Taxonomy <settinguptaxonomy>`
 
 
 Concepts
-========
+=========
 
-Understand core concepts
+Understand the core concepts.
 
-* :doc:`What is a Data Model? <whatisadatamodel>`
-* :doc:`How Classes Work <howclasseswork>`
+.. toctree::
+   :maxdepth: 1
+
+   whatisadatamodel
+   howclasseswork
+
 
 
 Onboarding
 ===========
 
-Learn how to use the Contentserv Onboarding system
+Learn how to use the Contentserv Onboarding system.
 
-* :doc:`Overview <onboardingoverview>`
-* :doc:`Key Terms <onboardingkeyterms>`
-* :doc:`UI Overview <onboardinguioverview>`
-* :doc:`Design and Architecture <onboardingdesignandarchitecture>`
-* :doc:`Practical Quick Start Guide <onboardingpractical/index>`
-* :doc:`Onboarding File Format <onboardingfileformat/index>`
-* :doc:`Capabilities of the Onboarding Portal <onboardingcapabilities/index>`
+.. toctree::
+   :maxdepth: 1
+
+   onboardingoverview
+   onboardingkeyterms
+   onboardinguioverview
+   onboardingdesignandarchitecture
+   onboardingpractical/index
+   onboardingfileformat/index
+   onboardingcapabilities/index

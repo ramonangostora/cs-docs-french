@@ -9,26 +9,26 @@ Onboarding process requires configuration of following system components: *User,
 Assign Endpoint to Partner and Role*.
 
 
-* :doc:`Create User </tutorials/onboardingpractical/createuser>`
+.. toctree::
+   :maxdepth: 1
 
-* :doc:`Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
-
-* :doc:`Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
-
-* :doc:`Configure Mapping </tutorials/onboardingpractical/configuremapping>`
-
-* :doc:`Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
-
-* :doc:`Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
+   createuser
+   createpartnerrole
+   configureworkflow
+   configuremapping
+   configureendpoint
+   assignendpoint
 
 |
 
 Step-By-Step Guide for Uploading Onboarding File
 =================================================
 
+.. toctree::
+   :maxdepth: 1
 
-* :doc:`Upload Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
-
+   stepbystepguideforuploading
+   
 |
 
 
