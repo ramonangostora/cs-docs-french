@@ -176,11 +176,7 @@ Attribution Class examples with Properties
                         * *Adding Classes to a Product*
                         * *Data Model*
 ====================    =============================================
-====================    ============================================================
-**Related topics:**     * :doc:`Create a New Product </tutorials/createnewproduct>`
-                        * :doc:`Set up a Taxonomy </tutorials/settinguptaxonomy>`
-                        * :doc:`How Classes work </tutorials/howclasseswork>`
-====================    ============================================================
+
 
 |
 
