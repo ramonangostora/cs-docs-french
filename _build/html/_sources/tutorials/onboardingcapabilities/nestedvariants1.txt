@@ -1,0 +1,24 @@
+======================================
+Nested Variants in an Onboarding File
+======================================
+
+#. 	All nested variants of all products will be listed in a single sheet of an excel file.
+#.	The nested variant sheet will contain the following details of each nested variant column wise:
+#.	**Nested Variant ID**: You need to mention the unique identification of each nested variant in this column. There is no restriction on column name/column header.
+
+#.	**ArticleID**: You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from **ArticleID** column from the sheet in which you have defined all articles.
+
+#.	**VariantID**: You need to mention the unique identification of variant for which you are defining nested variant in this column.
+
+#.	**Variant**: You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as **Unit**. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
+
+#.	**Nested Variant**: You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as **GTIN**. You need to provide GTIN value in this column.
+
+.. image:: /tutorials/_images/cs_tutorial_nestedvariants.PNG
+|
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
+
+ 
