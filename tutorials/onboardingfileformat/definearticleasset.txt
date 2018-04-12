@@ -20,6 +20,11 @@ Destination            You need to mention the unique identification of an asset
 |
 |
 
+| :doc:`Previous: Define Nature Relationship in an Onboarding File </tutorials/onboardingfileformat/definenature>`
+| :doc:`Next: Capabilities of Contentserv’s Onboarding Portal </tutorials/onboardingcapabilities/index>`
+
+|
+
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

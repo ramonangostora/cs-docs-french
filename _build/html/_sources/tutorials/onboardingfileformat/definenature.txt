@@ -21,6 +21,11 @@ Relationship Column    The articles like Fixed Bundle, Loose Bundle, Set of Prod
 |
 |
 
+| :doc:`Previous: Nested Variants in an Onboarding File </tutorials/onboardingfileformat/nestedvariants>`
+| :doc:`Next: Define Article-Asset Relationship in an Onboarding File </tutorials/onboardingfileformat/definearticleasset>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
 

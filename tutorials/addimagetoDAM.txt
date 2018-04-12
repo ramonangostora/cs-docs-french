@@ -59,5 +59,10 @@ To do this, follow these steps:
 
 |
 
+| :doc:`Previous: Add New Users </tutorials/addnewuser>`
+| :doc:`Next: Create a New Product </tutorials/createnewproduct>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

@@ -126,6 +126,12 @@ How to do a Process Flow Check
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickcomponent.PNG
 |
+|
+
+| :doc:`Previous: Real-Time Mapping </tutorials/onboardingcapabilities/realtimemapping>`
+| :doc:`Next: Data Remediation </tutorials/onboardingcapabilities/dataremediation>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

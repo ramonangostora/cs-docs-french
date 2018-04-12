@@ -70,6 +70,12 @@ Steps for Real-Time Mapping
 
 .. image:: /tutorials/_images/cs_realtimemapping_viewmappedattributesandtags.PNG
 |
+|
+
+| :doc:`Previous: Effortless File Transfer </tutorials/onboardingcapabilities/effortlessfiletransfer>`
+| :doc:`Next: Process Flow Check </tutorials/onboardingcapabilities/processflowcheck>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

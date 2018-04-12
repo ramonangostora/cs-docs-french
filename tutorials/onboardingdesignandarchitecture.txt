@@ -40,3 +40,12 @@ Process Flow Diagrams for Onboarding
 .. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramfileupload.PNG
 |
 |
+
+| :doc:`Previous: UI Overview </tutorials/howclasseswork>`
+| :doc:`Next: Practical Quick Start Guide </tutorials/onboardingpractical/index>`
+
+|
+
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line

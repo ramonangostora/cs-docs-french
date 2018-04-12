@@ -265,6 +265,11 @@ Sr No     Screen Element                         Description
 
 |
 
+| :doc:`Previous: Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
+| :doc:`Next: Configure Mapping </tutorials/onboardingpractical/configuremapping>`
+
+|
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

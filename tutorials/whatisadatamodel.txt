@@ -31,5 +31,10 @@ Products in the real world can be described in various ways. In real life we may
 
 |
 
+| :doc:`Previous: Set Up a Taxonomy </tutorials/settinguptaxonomy>`
+| :doc:`Next: How Classes work </tutorials/howclasseswork>`
+
+|
+
 .. image:: /tutorials/_images/line-png-32.PNG
    :alt: Contentsphere line

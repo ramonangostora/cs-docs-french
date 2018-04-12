@@ -144,6 +144,11 @@ Sr No     Screen Element                        Description
 
 |
 
+| :doc:`Previous: Create User </tutorials/onboardingpractical/createuser>`
+| :doc:`Next: Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
+
+|
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

@@ -105,6 +105,12 @@ Sr No     Screen Element                        Description
 
 |
 
+| :doc:`Previous: Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
+| :doc:`Next: Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
+
+|
+
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

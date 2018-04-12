@@ -61,6 +61,12 @@ Steps to Transfer a File
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clicktransfer.PNG
 |
+|
+
+| :doc:`Previous: Flexible File Formats </tutorials/onboardingcapabilities/flexiblefileformats>`
+| :doc:`Next: Real-Time Mapping </tutorials/onboardingcapabilities/realtimemapping>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

@@ -76,6 +76,10 @@ The Media tab in the onboarding portal displays all the uploaded media files alo
 |
 |
 
+| :doc:`Previous: Key Terms </tutorials/onboardingkeyterms>`
+| :doc:`Next: Design and Architecture </tutorials/onboardingdesignandarchitecture>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

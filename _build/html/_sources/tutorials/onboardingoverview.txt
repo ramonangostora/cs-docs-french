@@ -38,6 +38,11 @@ This Onboarding tutorial is intended for anyone, who is responsible for movement
 
 |
 
+| :doc:`Previous: How Classes work </tutorials/howclasseswork>`
+| :doc:`Next: Key Terms </tutorials/onboardingkeyterms>`
+
+|
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

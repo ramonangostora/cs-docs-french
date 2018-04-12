@@ -86,6 +86,13 @@ Sr No             Status                        Description
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clicktransfericon.PNG
 |
+|
+
+
+| :doc:`Previous: Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
+| :doc:`Next: Onboarding File Format </tutorials/onboardingfileformat/index>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

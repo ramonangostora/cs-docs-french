@@ -17,6 +17,12 @@ Asset Name             Mention the name of each asset in this column. There is n
 
 .. image:: /tutorials/_images/cs_tutorial_defineasset.PNG
 |
+|
+
+| :doc:`Previous: Define Articles, Tags, Taxonomy, and Class in an Onboarding File </tutorials/onboardingfileformat/definearticles>`
+| :doc:`Next: Define Variants in an Onboarding File </tutorials/onboardingfileformat/definevariants>`
+
+|
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

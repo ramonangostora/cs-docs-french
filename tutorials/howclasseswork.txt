@@ -180,5 +180,11 @@ Attribution Class examples with Properties
 
 |
 
+| :doc:`Previous: What is a Data Model? </tutorials/whatisadatamodel>`
+| :doc:`Next: Overview </tutorials/onboardingoverview>`
+
+|
+
+
 .. image:: /tutorials/_images/line-png-32.PNG
    :alt: Contentsphere line

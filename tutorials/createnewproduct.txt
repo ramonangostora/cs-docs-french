@@ -89,5 +89,10 @@ To do this, follow these steps:
 |
 |
 
+| :doc:`Previous: Add an Image to the DAM </tutorials/addimagetoDAM>`
+| :doc:`Next: Set Up a Taxonomy </tutorials/settinguptaxonomy>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
