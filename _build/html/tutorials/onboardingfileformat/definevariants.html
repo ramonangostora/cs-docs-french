@@ -124,9 +124,36 @@
 <span id="define-variants-in-an-onboarding-file"></span><h1>Define Variants in an Onboarding File<a class="headerlink" href="#define-variants-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have some variation such as color and size.</li>
-<li>All such variants of all products will be listed in a single sheet of an excel file</li>
+<li>All such variants of all products will be listed in a single sheet of an excel file.</li>
 <li>The variant sheet will contain the following details of each variant column-wise:</li>
 </ul>
+<table class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Details</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>VariantID</td>
+<td>Mention the unique identification of each asset in this column. There is no restriction on column name/column header.</td>
+</tr>
+<tr class="row-odd"><td>ArticleID</td>
+<td>Mention the unique identification of an article for which you are defining the variant. This will have the value from <strong>ArticleID</strong> column from the sheet in which you have defined all articles.</td>
+</tr>
+<tr class="row-even"><td>Variant</td>
+<td>There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header. For example, if you want to define unit variant, then define column header as <strong>Unit</strong>.
+If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
+Product ID will remain same in each row when you are defining sub types of unit variant in each row.</td>
+</tr>
+<tr class="row-odd"><td>Attribute</td>
+<td>You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be <strong>IsBaseUnit</strong>, <strong>IsSalesUnit</strong>, etc. You need to provide the value of attribute against each sub type of unit variant in each row.</td>
+</tr>
+</tbody>
+</table>
 <img alt="../../_images/cs_tutorial_definevariants2.PNG" src="../../_images/cs_tutorial_definevariants2.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
