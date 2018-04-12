@@ -9,15 +9,15 @@ Nested Variants in an Onboarding File
 ====================   =======================================================================================================================================================================================================================================================================
 Details                Description
 ====================   =======================================================================================================================================================================================================================================================================
-**ArticleID**          You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from ArticleID column from the sheet in which you have defined all articles.
+ArticleID              You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from ArticleID column from the sheet in which you have defined all articles.
 
-**VariantID**          You need to mention the unique identification of variant for which you are defining nested variant in this column.
+VariantID              You need to mention the unique identification of variant for which you are defining nested variant in this column.
 
-**Variant**            You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
+Variant                You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
 
-**Nested Variant**     You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.
+Nested Variant         You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.
 
-**Attribute**          You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be **IsBaseUnit**, **IsSalesUnit**, etc. You need to provide the value of attribute against each sub type of unit variant in each row.
+Attribute              You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be **IsBaseUnit**, **IsSalesUnit**, etc. You need to provide the value of attribute against each sub type of unit variant in each row.
 ====================   =======================================================================================================================================================================================================================================================================
 
 
@@ -27,5 +27,3 @@ Details                Description
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
-
- 
