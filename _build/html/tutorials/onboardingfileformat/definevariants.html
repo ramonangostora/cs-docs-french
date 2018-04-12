@@ -4,20 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Define Variants in an Onboarding File &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -73,8 +65,7 @@
   gtag('config', 'UA-110467525-1');
 </script>
 
-  </head>
-  <body>
+  </head><body>
 
     <div class="document">
   <div id="custom-doc" class="yui-t6">
@@ -123,7 +114,7 @@
 <span id="define-variants-in-an-onboarding-file"></span><h1>Define Variants in an Onboarding File<a class="headerlink" href="#define-variants-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have some variation such as color and size.</li>
-<li>All such variants of all products will be listed in a single sheet of an excel file.</li>
+<li>All such variants of all products will be listed in a single sheet of an excel file</li>
 <li>The variant sheet will contain the following details of each variant column-wise:</li>
 </ul>
 <table class="docutils">
@@ -140,15 +131,18 @@
 <tr class="row-even"><td>VariantID</td>
 <td>Mention the unique identification of each asset in this column. There is no restriction on column name/column header.</td>
 </tr>
-<tr class="row-odd"><td>ArticleID</td>
+<tr class="row-odd"><td>ArticleID**</td>
 <td>Mention the unique identification of an article for which you are defining the variant. This will have the value from <strong>ArticleID</strong> column from the sheet in which you have defined all articles.</td>
 </tr>
 <tr class="row-even"><td>Variant</td>
-<td>There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header. For example, if you want to define unit variant, then define column header as <strong>Unit</strong>.
-If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
-Product ID will remain same in each row when you are defining sub types of unit variant in each row.</td>
+<td><dl class="first last docutils">
+<dt>There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header. For example, if you want to define unit variant, then define column header as <strong>Unit</strong>.</dt>
+<dd>If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
+Product ID will remain same in each row when you are defining sub types of unit variant in each row.</dd>
+</dl>
+</td>
 </tr>
-<tr class="row-odd"><td>Attribute</td>
+<tr class="row-odd"><td><a href="#id1"><span class="problematic" id="id2">**</span></a>Attribute</td>
 <td>You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be <strong>IsBaseUnit</strong>, <strong>IsSalesUnit</strong>, etc. You need to provide the value of attribute against each sub type of unit variant in each row.</td>
 </tr>
 </tbody>
@@ -173,35 +167,22 @@ Product ID will remain same in each row when you are defining sub types of unit 
               
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3>Browse</h3>
-  <ul>
-    
-    
-  </ul>
-  <h3>You are here:</h3>
-  <ul>
-      <li>
-        <a href="../../index.html">Contentsphere  documentation</a>
-        
-        <ul><li>Define Variants in an Onboarding File</li></ul>
-        
-      </li>
-  </ul>
-
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Apr 11, 2018</p>
+                <p class="topless">Apr 12, 2018</p>
             </div>
           </div>
         
@@ -209,7 +190,7 @@ Product ID will remain same in each row when you are defining sub types of unit 
     </div>
 
     <div id="ft">
-        <p class="topless">Last updated: Apr 11, 2018</p>
+        <p class="topless">Last updated: Apr 12, 2018</p>
       <div class="nav">
     <a title="Contentsphere  documentation" href="../../index.html" accesskey="U">up</a></div>
     </div>

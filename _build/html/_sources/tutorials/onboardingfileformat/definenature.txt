@@ -14,6 +14,7 @@ Source                 You need to mention the unique identification of an artic
 Target                 You need to mention the unique identification of a single article, which is bundled into articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection.
 
 Relationship Column    The articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection contains more than one single article. So, these articles have relationship with single articles. This relationship code will be displayed in this column. *Note: There would be multiple Targets for a single Source, so there would be multiple entries/ rows of different Targets for similar Source.*
+
 ====================   =======================================================================================================================================================================================================================================================================
 
 .. image:: /tutorials/_images/cs_tutorial_definenature.PNG
