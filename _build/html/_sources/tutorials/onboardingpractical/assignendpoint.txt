@@ -50,5 +50,10 @@ Sr No        Screen Element                        Description
 
 |
 
+| :doc:`Previous: Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
+| :doc:`Next: Step-By-Step Guide for Uploading Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

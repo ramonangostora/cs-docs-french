@@ -71,5 +71,10 @@ Sr No        Screen Element                        Description
 
 |
 
+| :doc:`Previous: Configure Mapping </tutorials/onboardingpractical/configuremapping>`
+| :doc:`Next: Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

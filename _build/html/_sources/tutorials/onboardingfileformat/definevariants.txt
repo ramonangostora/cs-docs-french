@@ -28,5 +28,10 @@ Attribute              You need to mention the attribute name as column header. 
 |
 |
 
+| :doc:`Previous: Define Assets in an Onboarding File </tutorials/onboardingfileformat/defineassets>`
+| :doc:`Next: Nested Variants in an Onboarding File </tutorials/onboardingfileformat/nestedvariants>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
      :alt: Contentsphere line

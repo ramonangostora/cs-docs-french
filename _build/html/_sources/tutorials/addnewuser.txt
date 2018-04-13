@@ -68,5 +68,11 @@ Icon for the user can also be added. To do this, follow the steps below:
       |
       |
 
+| :doc:`Previous: Explore the User Interface </tutorials/exploretheui>`
+| :doc:`Next: Add an Image to the DAM </tutorials/addimagetoDAM>`
+
+|
+
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

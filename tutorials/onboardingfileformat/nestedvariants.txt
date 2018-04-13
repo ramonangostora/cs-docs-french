@@ -25,7 +25,10 @@ Attribute              You need to mention the attribute name as column header. 
 |
 |
 
+| :doc:`Previous: Define Variants in an Onboarding File </tutorials/onboardingfileformat/definevariants>`
+| :doc:`Next: Define Nature Relationship in an Onboarding File </tutorials/onboardingfileformat/definenature>`
+
+|
+
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line
-
- 

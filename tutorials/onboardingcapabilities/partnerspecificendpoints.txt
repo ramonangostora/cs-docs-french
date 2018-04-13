@@ -81,6 +81,12 @@ Steps to Configure Endpoints
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_clickfileuploads.PNG
 |
+|
+
+| :doc:`Previous: Capabilities of Contentserv’s Onboarding Portal </tutorials/onboardingcapabilities/index>`
+| :doc:`Next: Flexible File Formats </tutorials/onboardingcapabilities/flexiblefileformats>`
+
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

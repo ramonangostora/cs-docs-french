@@ -2,3 +2,12 @@
 Data Remediation
 =================
 Having a PIM-integrated Onboarding portal helps in getting rid of obsolete, redundant data and organize it in an orderly manner.
+
+|
+
+| :doc:`Previous: Process Flow Check </tutorials/onboardingcapabilities/processflowcheck>`
+
+|
+
+.. image:: /feature/_images/mdmimages/line-png-32.PNG
+   :alt: Contentsphere line
