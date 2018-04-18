@@ -1,10 +1,10 @@
 ========================
-Design and Architecture
+Conception/Architecture
 ========================
 
 
-Architecture Diagram of the Onboarding System
-==============================================
+Schéma de l’architecture du système Intégration
+================================================
 
 |
 
@@ -13,8 +13,8 @@ Architecture Diagram of the Onboarding System
 |
 
 
-High Level Diagram of the Onboarding Process
-==============================================
+Schéma global du processus d'intégration
+=========================================
 
 |
 
@@ -23,27 +23,22 @@ High Level Diagram of the Onboarding Process
 |
 
 
-Process Flow Diagrams for Onboarding
-=====================================
+Schéma des opérations du processus d'intégration
+=================================================
 
 |
 
-* **Process Flow Diagram for Configuration**
+* **Schéma des opérations du processus de configuration**
 
 .. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramconfiguration.PNG
 |
 |
 
 
-* **Process Flow Diagram for File Upload**
+* **Schéma des opérations du processus de téléchargement d'un fichier**
 
 .. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramfileupload.PNG
 |
-|
-
-| :doc:`Previous: UI Overview </tutorials/howclasseswork>`
-| :doc:`Next: Practical Quick Start Guide </tutorials/onboardingpractical/index>`
-
 |
 
 

@@ -1,46 +1,44 @@
-=========
-Overview
-=========
+=============
+Présentation
+=============
 
 
 Introduction
 =============
-This tutorial is intended to give the reader a practical understanding of how to use the **Contentserv Onboarding Portal**.
-The goal of the Onboarding Portal is to simplify *Supplier Relationship Management* for your organization.
-The Onboarding Portal provides separate PIM systems for each of your partners.
-Through their PIM, the partner is able to manage all product data to be sent to the main PIM.
-Compared to using separate systems for partner engagement, bringing your partners into the Contentserv ecosystem has strong benefits:
+Ce tutoriel vise à donner au lecteur une compréhension pratique de la façon d'utiliser le portail d'intégration Contentserv.
+L'objectif du portail d'intégration est de simplifier la gestion des relations fournisseurs pour votre entreprise.
+Le portail d'intégration contient des systèmes PIM (Gestionnaire d’informations produits) distincts pour chacun de vos partenaires.
+Grâce à son PIM, le partenaire peut gérer toutes les données produit à envoyer au PIM principal.
+Par comparaison à l'utilisation de systèmes distincts pour gérer la relation avec les partenaires,
+intégrer vos partenaires dans l'écosystème Contentserv présente de solides avantages:
 
 
-* Optimizes Performance
-    Tracking the data, you receive help in timely identification of areas that may need improvement; this guarantees optimal performance.
+* Optimise les performances
+    Suivre les données que vous recevez permet d'identifier en temps opportun les domaines qui peuvent être améliorés ; ceci à son tour garantit des performances optimales.
 
-* Reduces Costs
-    Clean, consistent, and connected data has a positive impact on purchasing costs, company data quality, and corporate image.
-    It also helps businesses take informed decisions, align tasks, and find innovative ways to significantly reduce costs.
+* Réduit les coûts
+    Des données précises, cohérentes et connectées ont un impact positif sur les coûts d'achat, la qualité des données de l'entreprise et son image commerciale.
+    Cela permet également aux entreprises de prendre des décisions éclairées, d'harmoniser leurs tâches et de trouver des moyens innovants de réduire considérablement les coûts.
 
-* Increases Administrative Efficiencies
-    An efficient onboarding process can cut down on the duplication of data and errors. It can also significantly drive administrative efficiencies.
-    Having one central place for all your vendor data can help you manage your relationships with heightened efficiency.
+* Améliore l'efficacité administrative
+    Un processus d'intégration efficace permet de réduire la duplication des données et les erreurs et peut contribuer à améliorer considérablement l'efficacité administrative.
+    Avoir une plateforme centrale pour toutes vos données fournisseurs peut vous aider à gérer plus efficacement vos relations.
 
-* Creates Loyal Relationships
-    It is difficult to find good vendors and if you are working with them, you should be doing everything you can to empower your relationship with them.
-    A smooth and easy onboarding process helps you build the loyalty you need to keep your vendors a part of your supply chain for a long term.
+* Favorise la fidélité dans les relations
+    Il est difficile de trouver de bons fournisseurs, et si vous travaillez avec eux, vous devez faire tout votre possible pour renforcer votre relation avec eux.
+    Un processus d’intégration harmonieux et simple vous permet de construire la fidélité dont vous avez besoin pour que vos fournisseurs restent dans votre chaîne d’approvisionnement pendant longtemps.
 
-* Helps your Brand to stand out
-    It is a competitive world - to avoid losing your mindshare with your channel partners, it is important to have an onboarding process that helps your brand to stand out.
-    An onboarding process is an opportunity to educate your vendor what your brand has to offer to their business.
-
-
-Intended Audience
-==================
-This Onboarding tutorial is intended for anyone, who is responsible for movement of data in and out of Contentserv.
+* Une intégration efficace permet à votre marque de se distinguer
+    C'est un monde concurrentiel, et pour éviter de perdre votre notoriété auprès vos partenaires, il est important d'avoir un processus d'intégration qui permet à votre marque de se distinguer.
+    Un processus d'intégration est l'occasion de faire savoir à votre fournisseur quels avantages votre marque peut lui apporter.
 
 |
 
-| :doc:`Previous: How Classes work </tutorials/howclasseswork>`
-| :doc:`Next: Key Terms </tutorials/onboardingkeyterms>`
+À qui ce document est-il destiné?
+===================================
+Ce tutoriel d'intégration s'adresse à toute personne responsable des transferts de données entrant et sortant de Contentserv.
 
+|
 |
 
 
