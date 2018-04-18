@@ -1,6 +1,6 @@
-==========================================
+=========================================
 Présentation de l'interface utilisateur
-===========================================
+=========================================
 Les composants moteurs du processus d'intégration/d'extraction sont:
 
 
