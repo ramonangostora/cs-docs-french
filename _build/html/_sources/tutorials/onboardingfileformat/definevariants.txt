@@ -1,36 +1,36 @@
-=========================================
-Define Variants in an Onboarding File
-=========================================
+========================================================
+Définir des variantes dans un fichier d'intégration
+========================================================
 
-* A product might have variants in terms of the size, color, and other attributes. An enterprise might manufacture or sell items that are essentially the same but have some variation such as color and size.
+* Un produit peut avoir des variantes en termes de taille, de couleur et d'autres attributs. Une entreprise peut fabriquer ou vendre des articles qui sont essentiellement les mêmes, mais qui varient légèrement par leur couleur et leur taille.
 
-* All such variants of all products will be listed in a single sheet of an excel file.
+* Toutes les variantes d'un produit seront répertoriées dans une seule feuille d'un fichier Excel.
 
-* The variant sheet will contain the following details of each variant column-wise:
+* La feuille des variantes contiendra les détails suivants pour chaque variante par colonnes:
 
 
 ====================   =======================================================================================================================================================================================================================================================================
-Details                Description
+Détails                 Description
 ====================   =======================================================================================================================================================================================================================================================================
-VariantID              Mention the unique identification of each asset in this column. There is no restriction on column name/column header.
+ID de variante          Mentionnez l'identifiant unique de chaque variante dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
 
-ArticleID              Mention the unique identification of an article for which you are defining the variant. This will have the value from **ArticleID** column from the sheet in which you have defined all articles.
+ID d'article            Mentionnez l'identifiant unique d'un article pour lequel vous définissez la variante. Elle aura la valeur de la colonne **ID d'article** de la feuille dans laquelle vous avez défini tous les articles.
 
-Variant                There are many kinds of variants in system like unit variant, language variant, embedded variant, etc. You need to mention the variant name as column header. For example, if you want to define unit variant, then define column header as **Unit**.
-                       If you define unit variant, then you need to define sub types of unit variant in this column. You can do it by defining sub types in each row of a sheet having same product ID.
-                       Product ID will remain same in each row when you are defining sub types of unit variant in each row.
+Variante                Le système comporte de nombreux types de variantes comme variante d’unité, variante de langue, variante embarquée, etc. Vous devez mentionner le nom de la variante comme en-tête de colonne.
+                        Par exemple, si vous souhaitez définir une variante d'unité, définissez l'en-tête de colonne comme **Unité**.
+                        Si vous définissez une variante d'unité, vous devez définir des sous-types de variante d'unité dans cette colonne.
+                        Pour ce faire, définissez des sous-types dans chaque ligne d'une feuille portant le même ID de produit. L'ID de produit restera identique dans chaque ligne lorsque vous définissez des sous-types de variante d’unité dans chaque ligne.
 
-Attribute              You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be **IsBaseUnit**, **IsSalesUnit**, etc. You need to provide the value of attribute against each sub type of unit variant in each row.
+Attribut                Vous devez mentionner le nom de l'attribut comme en-tête de colonne.
+                        Par exemple, si nous définissons la variante d’unité, ses attributs peuvent être **EstUnitéBase, EstUnitéVente,** etc.
+                        Vous devez indiquer la valeur de l'attribut à côté de chaque sous-type de variante d'unité dans chaque ligne.
 ====================   =======================================================================================================================================================================================================================================================================
 
 
 .. image:: /tutorials/_images/cs_tutorial_definevariants2.PNG
 |
+
 |
-
-| :doc:`Previous: Define Assets in an Onboarding File </tutorials/onboardingfileformat/defineassets>`
-| :doc:`Next: Nested Variants in an Onboarding File </tutorials/onboardingfileformat/nestedvariants>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

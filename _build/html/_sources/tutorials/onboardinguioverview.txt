@@ -6,7 +6,7 @@ Les composants moteurs du processus d'intégration/d'extraction sont:
 
 Les informations
 =================
-Le tableau de bord Informations donne aux utilisateurs plusieurs widgets pour obtenir une présentation générale du système.
+Le tableau de bord **Informations** donne aux utilisateurs plusieurs widgets pour obtenir une présentation générale du système.
 Dans l'image ci-dessous sont présentés des composants pour la qualité des données et le téléchargement de contenu.
 Le widget de qualité des données utilise un système de notation similaire aux feux de signalisation.
 Les produits qui présentent des violations rouges ne peuvent pas être diffusés dans le portail PIM. Il est également possible de rectifier les données de produit en cliquant sur chaque graphique.
@@ -22,7 +22,7 @@ Dans la partie inférieure de la capture d'écran des composants pour les produi
 
 Intégration de données
 =======================
-L’onglet Intégration de données affiche des paquets de points de terminaison - intégration et extraction.
+L’onglet **Intégration de données** affiche des paquets de points de terminaison - intégration et extraction.
 La boîte de résumé de chaque point de terminaison affichera des informations telles que le nombre de fichiers téléchargés,
 le nombre de téléchargements de fichiers et d'articles réussis ainsi que le nombre de produits présentant diverses violations.
 
@@ -47,7 +47,7 @@ Cliquez sur l'icône d'importation pour télécharger un fichier sur le système
 État du flux de travail
 ========================
 L'état du flux de travail donne à l'utilisateur une vue sur l'avancement des tâches d'intégration.
-Le menu État du flux de travail affichera – Titre du fichier, 'heure de début' et 'heure de fin' du flux de travail, et enfin, le statut basculant de « En cours » à « Terminé » s'il n'y a pas d'erreurs.
+Le menu **État du flux de travail** affichera – Titre du fichier, 'heure de début' et 'heure de fin' du flux de travail, et enfin, le statut basculant de « En cours » à « Terminé » s'il n'y a pas d'erreurs.
 
 |
 
@@ -58,7 +58,7 @@ Le menu État du flux de travail affichera – Titre du fichier, 'heure de débu
 
 Catalogue
 ==========
-L'onglet Catalogue affiche la liste des produits téléchargés. Vous pouvez vérifier les détails de chaque produit en cliquant dessus.
+L'onglet **Catalogue** affiche la liste des produits téléchargés. Vous pouvez vérifier les détails de chaque produit en cliquant dessus.
 
 |
 
@@ -69,7 +69,7 @@ L'onglet Catalogue affiche la liste des produits téléchargés. Vous pouvez vé
 
 Médias
 =======
-L’onglet Médias dans le portail d'intégration affichera tous les fichiers médias téléchargés ainsi que les détails des produits.
+L’onglet **Médias** dans le portail d'intégration affichera tous les fichiers médias téléchargés ainsi que les détails des produits.
 
 |
 

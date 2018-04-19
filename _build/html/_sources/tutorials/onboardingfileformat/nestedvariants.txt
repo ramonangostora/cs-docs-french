@@ -1,33 +1,32 @@
-=========================================
-Nested Variants in an Onboarding File
-=========================================
-
-* All nested variants of all products will be listed in a single sheet of an excel file.
-*	The nested variant sheet will contain the following details of each nested variant column wise:
+====================================================
+Variantes imbriquées dans un fichier d'intégration
+====================================================
 
 
-====================   =======================================================================================================================================================================================================================================================================
-Details                Description
-====================   =======================================================================================================================================================================================================================================================================
-ArticleID              You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from ArticleID column from the sheet in which you have defined all articles.
+* L'ensemble des variantes imbriquées de tous les produits seront répertoriées dans une seule feuille d'un fichier Excel.
 
-VariantID              You need to mention the unique identification of variant for which you are defining nested variant in this column.
+*	La feuille des variantes imbriquées contiendra les détails suivants pour chaque variante imbriquée par colonnes:
 
-Variant                You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.
 
-Nested Variant         You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.
+=========================   =======================================================================================================================================================================================================================================================================
+Détails                      Description
+=========================   =======================================================================================================================================================================================================================================================================
+ID de variante imbriquée     Vous devez mentionner l'identifiant unique de chaque variante imbriquée dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
 
-Attribute              You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be **IsBaseUnit**, **IsSalesUnit**, etc. You need to provide the value of attribute against each sub type of unit variant in each row.
-====================   =======================================================================================================================================================================================================================================================================
+ID d'article                 Vous devez mentionner l'identifiant unique d'un article pour lequel vous définissez la variante imbriquée dans cette colonne. Il aura la valeur de la colonne **ID d'article** de la feuille dans laquelle vous avez défini tous les articles.
+
+ID de variante               Vous devez mentionner l'identifiant unique de la variante pour laquelle vous définissez la variante imbriquée dans cette colonne.
+
+Variante                     Vous devez mentionner le nom de la variante comme en-tête de colonne pour laquelle vous définissez la variante imbriquée. Par exemple, si vous souhaitez définir une variante d'unité imbriquée, définissez l'en-tête de colonne comme **Unité**. Si vous définissez une variante d'unité, vous devez définir des sous-types de variante d'unité dans cette colonne pour laquelle vous souhaitez définir une variante imbriquée.
+
+Variante imbriquée           Vous devez mentionner le nom de la variante imbriquée comme en-tête de colonne. Par exemple, si vous souhaitez définir GTIN comme variante imbriquée, alors définissez l'en-tête de colonne comme **GTIN**. Vous devez indiquer la valeur GTIN dans cette colonne.
+=========================   =======================================================================================================================================================================================================================================================================
 
 
 .. image:: /tutorials/_images/cs_tutorial_nestedvariants.PNG
 |
+
 |
-
-| :doc:`Previous: Define Variants in an Onboarding File </tutorials/onboardingfileformat/definevariants>`
-| :doc:`Next: Define Nature Relationship in an Onboarding File </tutorials/onboardingfileformat/definenature>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

@@ -1,59 +1,46 @@
-================================================================
-Define Articles, Tags, Taxonomy, and Class in an Onboarding File
-================================================================
+===========================================================================================
+Définir les Articles, les Balises, la Taxonomie et la Classe dans un fichier d'intégration
+===========================================================================================
 
 
-*	All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.
-*	All the articles will be listed row-wise in a sheet. Each article will have a separate row in a sheet.
-*	The sheet will contain the following details of each article column-wise:
+*	Tous les articles et leurs attributs, balises, taxonomies et classes seront répertoriés dans une seule feuille d'un fichier Excel.
 
-====================   =======================================================================================================================================================================================================================================================================
-Details                Description
-====================   =======================================================================================================================================================================================================================================================================
-ArticleID              You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in **Primary Key Column** field in the system
-                       while defining the workflow of onboarding process.
+*	Tous les articles seront répertoriés par lignes dans une feuille. Chaque article aura une ligne distincte dans une feuille.
 
-Name                   You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in **Name** field in the system while defining the workflow of onboarding process.
-
-Attribute1             You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute such as *Long Description, Short Description, List Price,* etc.
-                       You need to map the column name/column header in the **Attribute** tab of **Data Integration** -> **Mapping section** in the system.
-                       *Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.*
-
-Tag1                   You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag like Size, Color, etc.
-                       You need to map the column name/column header in Tag tab of **Data Integration** -> **Mapping** section in system. You need to map column name/column header of a sheet with system tag in this section.
-                       You also need to map the provided values of tag with sub-tags of system in this section.
-                       *Note: You can define as many tags as you want in separate columns in a sheet, in a similar manner as we defined Tag1.*
-
-Taxonomy               You need to define all the taxonomies applied to an article in this column. There is no restriction on column name/column header, but the column header will be mapped in **Taxonomy** field in system while defining the workflow of onboarding process.
-                       You need to mention all the applied taxonomies to an article against each article in this column. There can be multiple taxonomies applied to an article like Food, Beverages, etc.
-                       You need to define all applied taxonomies to an article in a single cell as a comma separated value. You need to map all defined taxonomies in an onboarding file with system taxonomies in the **Taxonomy** tab of **Data Integration** -> **Mapping section**
-                       in the system.
-
-Class ID               You need to define the class of an article in this column such as *Single Article, Loose Bundle, Set of Product, Fixed Bundle,* etc. There is no restriction on column name/column header,
-                       but the column header will be mapped in system while defining the onboarding process.
-                       Here we need to consider two things: **Single Class** and **Multiple Class**
-
+*	La feuille contiendra les détails suivants pour chaque article par colonnes:
 
 ====================   =======================================================================================================================================================================================================================================================================
-
+Détails                 Description
 ====================   =======================================================================================================================================================================================================================================================================
-Class ID               Description
-====================   =======================================================================================================================================================================================================================================================================
-Single Class           It is possible that all the defined articles in a sheet use the same class. For example, all the defined articles are Single Article.
-                       In this case, we need to select **Single Class** option from **Type** field while defining the workflow of onboarding process in system. Select the system class of product from **Class ID** field while defining the workflow of onboarding process.
+ID d'article            Vous devez mentionner l'identifiant unique de chaque article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ **Colonne clé primaire** dans le système pendant la définition du flux de travail du processus d’intégration.
 
-Multiple Class         It is possible that all the defined articles in a sheet use different classes. For example, some of the defined articles are Single Article and some are Fixed Bundle.
-                       In this case, we need to select **Column Class** option from **Type** field while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,
-                       in a Class Column field while defining the workflow of onboarding process in system. You need to map all defined classes in a **Class** tab of **Data Integration** -> **Mapping** section in system.
+Nom                     Vous devez mentionner le nom de chaque article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ **Nom** dans le système pendant la définition du flux de travail du processus d’intégration.
+
+Attribut1               Vous devez définir un des attributs d’un article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne. Il peut s'agir de n'importe quel attribut comme Description, Description courte, Prix, etc.
+                        Vous devez mapper l’en-tête de colonne/le nom de colonne dans l’onglet **Attribut** de la section **Intégration de données -> Mappage** dans le système.
+
+                        *Remarque: Vous pouvez définir autant d'attributs que vous le souhaitez dans des colonnes distinctes sur une feuille, de la même manière que nous avons défini l'Attribut 1.*
+
+Balise1                 Vous devez mentionner l'une des balises appliquées à un article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
+                        Il peut s'agir de n'importe quelle balise comme Taille, Couleur, etc. Vous devez mapper l’en-tête de colonne/le nom de colonne dans l’onglet **Balise** de la section **Intégration de données -> Mappage** dans le système. Vous devez mapper le nom de colonne/l'en-tête de colonne d'une feuille avec une balise système dans cette section. Vous devez également mapper les valeurs fournies de la balise avec les sous-balises du système dans cette section.
+
+                        *Remarque: Vous pouvez définir autant de balises que vous le souhaitez dans des colonnes distinctes sur une feuille, de la même manière que nous avons défini la Balise 1.*
+
+Taxonomie               Vous devez définir toutes les taxonomies appliquées à un article dans cette colonne.
+                        Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ **Taxonomie** dans le système pendant la définition du flux de travail du processus d’intégration. Vous devez mentionner toutes les taxonomies appliquées à un article à côté de chaque article de cette colonne. Plusieurs taxonomies peuvent être appliquées à un même article comme Nourriture, Boissons, etc. Vous devez définir toutes les taxonomies appliquées à un article dans une seule cellule en tant que valeur séparée par des virgules. Vous devez mapper toutes les taxonomies définies dans un fichier d'intégration avec les taxonomies du système dans l'onglet **Taxonomie** de la section **Intégration de données -> Mappage** dans le système.
+
+ID de classe            Vous devez définir la classe d'un article dans cette colonne comme Article unique, Paquet en vrac, Lot de produit, Paquet fixe, etc. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le système pendant la définition du flux de travail du processus d’intégration. Ici, nous devons tenir compte de deux choses:
+
+                           * **Classe unique:** Il est possible que tous les articles définis dans une feuille utilisent la même classe. Par exemple, tous les articles définis sont Article unique. Dans ce cas, nous devons sélectionner l’option **Classe unique** dans le champ **Type** pendant la définition du flux de travail du processus d’intégration dans le système. Sélectionnez la classe de produit du système dans le champ **ID de classe** pendant la définition du flux de travail du processus d’intégration dans le système.
+
+                           * **Classe multiple:** Il est possible que tous les articles définis dans une feuille utilisent des classes différentes. Par exemple, certains des articles définis sont Article unique tandis que d'autre sont Paquets fixes. Dans ce cas, nous devons sélectionner l’option **Classe de colonne** dans le champ **Type** pendant la définition du flux de travail du processus d’intégration dans le système. Saisissez le nom de colonne/l’en-tête de colonne d’une colonne, où vous avez défini des classes à côté de chaque article dans une feuille, dans un champ **Colonne de classe** pendant la définition du flux de travail du processus d’intégration dans le système. Vous devez mapper toutes les classes définies dans un onglet **Classe** de la section **Intégration de données -> Mappage** dans le système.
+
 ====================   =======================================================================================================================================================================================================================================================================
 
 
 .. image:: /tutorials/_images/cs_tutorial_definearticle.PNG
 |
 |
-
-| :doc:`Previous: Onboarding File Format </tutorials/onboardingfileformat/index>`
-| :doc:`Next: Define Assets in an Onboarding File </tutorials/onboardingfileformat/defineassets>`
 
 |
 

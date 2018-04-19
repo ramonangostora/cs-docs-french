@@ -1,79 +1,80 @@
-====================
-Configure Endpoint
-====================
-To configure an endpoint, follow these steps:
+===================================
+Configurer le point de terminaison
+===================================
+
 
 |
 
-#. Navigate to **Data Integration** -> **Endpoints** menu.
+#. Connectez-vous à l'application et cliquez sur l'icône "Administration".
+
+.. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
+|
+|
+
+
+#. Accédez au menu **Intégration de données -> Points de terminaison**.
 
 .. image:: /tutorials/_images/cs_configureendpoint_navigate.PNG
 |
 |
 
 
-#.	Click the "+" icon to create the endpoint.
+#.	Cliquez sur l’icône "+" pour créer le point de terminaison.
 
 .. image:: /tutorials/_images/cs_configureendpoint_clickplusicon.PNG
 |
 |
 
 
-#.	Provide the following details: *Name, Type, and Code*. Click on the **Create** button.
+#.	Renseignez les informations demandées comme **Nom, Type et Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_configureendpoint_providethedetails.PNG
 |
 |
 
 
-#.	Select the values for: *Realtime Mapping, System, Workflow, Mapping, Dashboard Tab, and Physical Catalog*. Click on the **Save** button.
+#.	Renseignez les valeurs demandées comme **MAPPAGE EN TEMPS RÉEL, SYSTÈME, FLUX DE TRAVAIL, MAPPAGE, ONGLET TABLEAU DE BORD, CATALOGUE PHYSIQUE** et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_configureendpoint_selectvalues.PNG
 |
 |
 
-Configure Endpoint: Screen Elements
-=============================
-The following details are to be provided to be able to configure an endpoint in the system.
+Configurer le point de terminaison - Éléments de l’écran
+=========================================================
+
 
 =========    =================================     ========================================================================================================================================================
-Sr No        Screen Element                        Description
+N° série      Éléments de l'écran                   Description
 =========    =================================     ========================================================================================================================================================
-1            Name                                  Specify the name of the endpoint.
+1             Nom                                   Indiquez le nom du point de terminaison.
 
-2            Type                                  Select the type of endpoint from the following options:
-|
-                                                   * Inbound Endpoint
-                                                   * Outbound Endpoint
+2             Type                                  Sélectionnez le type de point de terminaison parmi les options suivantes:
 
-3            Code                                  Specify the code.
+                                                     * Point de terminaison entrant
+                                                     * Point de terminaison sortant
 
-4            Create                                Click on the **Create** button to create the endpoint.
+3             Code                                  Indiquez le code.
 
-5            Realtime Mapping                      If we enable this option, it allows the user/partner to map attributes, tags, classes, and taxonomies of the system
-                                                   to the attributes, tags, classes and taxonomies of an onboarding file while uploading the file.
+4             CRÉER                                 Cliquez sur le bouton **CRÉER** pour créer le point de terminaison.
 
-6            System                                This helps to create client-specific system and this system will be assigned to partner and role.
-                                                   Endpoints are associated with this system.
+5             MAPPAGE EN TEMPS RÉEL                 Si nous activons cette option, l'utilisateur/partenaire peut mapper les attributs, les balises, les classes et les taxonomies du système par rapport aux attributs, balises, classes et taxonomies d'un fichier d'intégration pendant le téléchargement du fichier.
 
-7            Mapping                               Select the mapping from the list to associate it with the endpoint.
+6             SYSTÈME                               Cela permet de créer un système spécifique au client et ce système sera affecté au partenaire et au rôle. Les points de terminaison sont associés à ce système.
 
-8            Workflow                              Select the workflow from the list to associate it with the endpoint.
+7             MAPPAGE                               Sélectionnez le mappage dans la liste pour l'associer au point de terminaison.
 
-9            Dashboard Tab                         Select the dashboard tab where you want to show the endpoint.
+8             FLUX DE TRAVAIL                       Sélectionnez le flux de travail dans la liste pour l’associer au point de terminaison.
 
-10           Physical Catalog                      Select the physical catalog from the list where you want to show the endpoint.
+9             ONGLET TABLEAU DE BORD                Sélectionnez l'onglet tableau de bord où vous souhaitez afficher le point de terminaison.
 
-11           Save                                  Click on the **Save** button to save the endpoint details.
+10            CATALOGUE PHYSIQUE                    Sélectionnez le catalogue physique où vous souhaitez afficher le point de terminaison.
 
-12           Discard                               Click on the **Discard** button to discard the details of defined endpoint.
+11            ENREGISTRER                           Cliquez sur le bouton **ENREGISTRER** pour sauvegarder les détails du point de terminaison.
+
+12            IGNORER                               Cliquez sur le bouton **IGNORER** pour ignorer les détails du point de terminaison défini.
 =========    =================================     ========================================================================================================================================================
 
 |
-
-| :doc:`Previous: Configure Mapping </tutorials/onboardingpractical/configuremapping>`
-| :doc:`Next: Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

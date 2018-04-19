@@ -18,7 +18,7 @@ Schéma global du processus d'intégration
 
 |
 
-.. image:: /tutorials/_images/cs_designandarchitecture_highlevelonboardingdiagram.PNG
+.. image:: /tutorials/_images/cs_french_designandarchitecture_highlevelonboardingdiagram.PNG
 |
 |
 
@@ -30,14 +30,14 @@ Schéma des opérations du processus d'intégration
 
 * **Schéma des opérations du processus de configuration**
 
-.. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramconfiguration.PNG
+.. image:: /tutorials/_images/cs_french_designandarchitecture_pfdiagramconfiguration.PNG
 |
 |
 
 
 * **Schéma des opérations du processus de téléchargement d'un fichier**
 
-.. image:: /tutorials/_images/cs_designandarchitecture_pfdiagramfileupload.PNG
+.. image:: /tutorials/_images/cs_french_designandarchitecture_pfdiagramfileupload.PNG
 |
 |
 
