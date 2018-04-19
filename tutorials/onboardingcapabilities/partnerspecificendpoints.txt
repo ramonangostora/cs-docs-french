@@ -25,7 +25,7 @@ Termes clés
 
 |
 
-#. Cliquez sur l'icône **Administration**.
+#. Cliquez sur l'icône "Administration".
 
 |
 
@@ -39,14 +39,14 @@ Termes clés
 
 |
 
-#. Renseignez les informations demandées comme *Nom,* *Type* et *Code* et cliquez sur le bouton **CRÉER**.
+#. Renseignez les informations demandées comme **Nom, Type** et **Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_entervalues.PNG
 
 |
 |
 
-#. Renseignez les informations demandées comme *MAPPAGE EN TEMPS RÉEL, SYSTÈME, FLUX DE TRAVAIL, MAPPAGE, ONGLET TABLEAU DE BORD, CATALOGUE PHYSIQUE* et cliquez sur le bouton **ENREGISTRER**.
+#. Renseignez les informations demandées comme **MAPPAGE EN TEMPS RÉEL, SYSTÈME, FLUX DE TRAVAIL, MAPPAGE, ONGLET TABLEAU DE BORD, CATALOGUE PHYSIQUE** et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_selectvalues.PNG
 |
@@ -73,7 +73,7 @@ Termes clés
 
 |
 
-#. Maintenant, cliquez sur l'icône **Explorer** et allez dans **Intégration de données**.
+#. Maintenant, cliquez sur l'icône "Explorer" et allez dans **Intégration de données**.
 
 |
 

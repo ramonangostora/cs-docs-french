@@ -24,7 +24,7 @@ Termes clés
 
 |
 
-#. Cliquez sur l'icône **Explorer** et allez dans **Intégration de données**.
+#. Cliquez sur l'icône "Explorer" et allez dans **Intégration de données**.
 
 |
 
@@ -34,7 +34,7 @@ Termes clés
 |
 |
 
-#. Cliquez sur l’icône **le Fichier d'Importation** et téléchargez le fichier d’intégration.
+#. Cliquez sur l’icône "Importer le fichier" et téléchargez le fichier d’intégration.
 
 |
 
@@ -61,7 +61,7 @@ Termes clés
 
 |
 
-#. Cliquez sur l'icône **de Transfert** et sélectionnez l'option **Transférer vers PIM** ou **Transférer vers Intégration**.
+#. Cliquez sur l'icône "Transférer" et sélectionnez l'option **Transférer vers PIM** ou **Transférer vers Intégration**.
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clicktransfer.PNG
 |

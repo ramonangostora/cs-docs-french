@@ -24,7 +24,7 @@ Key Terms
 
 |
 
-#. Cliquez sur l’icône **Administration**.
+#. Cliquez sur l’icône "Administration".
 
 |
 
@@ -38,7 +38,7 @@ Key Terms
 |
 |
 
-#. Renseignez les informations demandées comme *Nom, Type (entrant)* et *Code* et cliquez sur le bouton **CRÉER**.
+#. Renseignez les informations demandées comme **Nom, Type (entrant)** et **Code** et cliquez sur le bouton **CRÉER**.
 
 |
 
@@ -57,11 +57,11 @@ Key Terms
 .. image:: /tutorials/_images/cs_realtimemapping_selectcreatedendpoint.PNG
 |
 
-#. Cliquez sur l’icône **Explorer**. Cliquez sur le **Tableau de bord**, puis sélectionnez le point de terminaison.
+#. Cliquez sur l’icône "Explorer**. Cliquez sur le **Tableau de bord**, puis sélectionnez le point de terminaison.
 
 |
 
-#. Cliquez sur l'icône **le Fichier d'Importation** pour importer le fichier.
+#. Cliquez sur l'icône "Importer le fichier" pour importer le fichier.
 
 |
 

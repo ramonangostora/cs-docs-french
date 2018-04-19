@@ -20,7 +20,7 @@ Comment procéder
 
 |
 
-#. Cliquez sur l’icône **Administration**.
+#. Cliquez sur l’icône "Administration".
 
 |
 
@@ -36,7 +36,7 @@ Comment procéder
 |
 |
 
-#. Renseignez les informations demandées comme *Nom, Type d'événement, Code* et cliquez sur le bouton **CRÉER**.
+#. Renseignez les informations demandées comme **Nom, Type d'événement, Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_enterdetails.PNG
 |
@@ -124,7 +124,7 @@ Comment procéder
 |
 |
 
-#. Cliquez sur chaque composant et renseignez les informations demandées dans la troisième section verticale comme *Nom de la feuille, Colonne clé primaire, Type, ID de Classe/Colonne de classe, Multiclassification, Type, Sélectionner les classes/Nom de colonne de classe, Taxonomies* et cliquez sur le bouton **ENREGISTRER**.
+#. Cliquez sur chaque composant et renseignez les informations demandées dans la troisième section verticale comme **Nom de la feuille, Colonne clé primaire, Type, ID de Classe/Colonne de classe, Multiclassification, Type, Sélectionner les classes/Nom de colonne de classe, Taxonomies** et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickcomponent.PNG
 |
