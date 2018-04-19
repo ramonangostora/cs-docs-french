@@ -1,12 +1,9 @@
-=================
-Data Remediation
-=================
-Having a PIM-integrated Onboarding portal helps in getting rid of obsolete, redundant data and organize it in an orderly manner.
+==========================
+Actualisation des données
+==========================
+Un portail d'intégration embarqué PIM vous aide à vous débarrasser des données obsolètes et redondantes et vous permet de les organiser de façon ordonnée.
 
 |
-
-| :doc:`Previous: Process Flow Check </tutorials/onboardingcapabilities/processflowcheck>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

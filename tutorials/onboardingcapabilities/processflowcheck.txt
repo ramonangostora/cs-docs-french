@@ -1,136 +1,133 @@
-===================
-Process Flow Check
-===================
-Having a process flow feature provides the user a visual representation of the entire onboarding process. Data violations, if any, are depicted in red/orange color. A successful data onboarding process is shown in green color.
+==============================
+Contrôle du flux de processus
+==============================
+Avoir une fonction de flux de processus donne à l'utilisateur une représentation visuelle de l'ensemble du processus d'intégration. Les éventuelles violations de données sont marquées en rouge/orange. Un processus d’intégration de données dûment exécuté apparaît en vert.
 
-Prerequisites
-=============
-* Configured Partners
-* Configured Users
+Conditions préalables
+======================
+* Partenaires configurés
+* Utilisateurs configurés
 
-Key Terms
-=========
-* **Workflow** - A Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in the Process section.
+Termes clés
+============
+* **Flux de travail** - Le flux de travail définit la structure et les composants d’un fichier qui doit être importé dans le système ou exporté hors du système. Il fournit tous les détails sur tous les composants configurés dans une feuille. Le système interprétera le fichier importé selon la manière dont nous avons défini les détails dans la section Processus.
 
 
-How to do a Process Flow Check
-===============================
+Comment procéder
+=================
 
-#. Log in to the application.
-
-|
-
-#. Click on the **Administration** icon.
+#. Connectez-vous à l'application.
 
 |
 
-#. Navigate to **Data Integration** -> **Workflow** menu.
+#. Cliquez sur l’icône **Administration**.
+
+|
+
+#. Accédez au menu **Intégration de données** -> **Flux de travail**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_navigate.PNG
 |
 |
 
-#. Click on the "+" icon to create the workflow.
+#. Cliquez sur l’icône "+" pour créer le flux de travail.
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickplusicon.PNG
 |
 |
 
-#. Enter the details such as *Name*, *Event Type*, and *Code*, then click on the **Create** button.
+#. Renseignez les informations demandées comme *Nom, Type d'événement, Code* et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_enterdetails.PNG
 |
 |
 
-#. Select the created workflow. On the pop-up window that appears, configure all the components of the workflow.
+#. Sélectionnez le flux de travail créé et vous serez redirigé vers un menu contextuel où vous pourrez configurer tous les composants du flux de travail.
 
 .. image:: /tutorials/_images/cs_processflowcheck_selectcreatedworkflow.PNG
 |
 |
 
-#. The *Graph* section in the pop-up window is divided into three vertical sections. The first two vertical sections are called *Workflow Modeler*. It allows to configure workflows using BPMN 2.0 modelling notation. This will allow users to model complex onboarding process using universally known and standardized BPMN 2.0 notation. The third vertical section contains the details of each component of onboarding file.
+#. La section **Graphique** d'une fenêtre contextuelle est divisée en trois sections verticales. Les deux premières sections verticales sont appelées **Modélisateur de flux de travail**.
+   Cela permet de configurer les flux de travail en utilisant la notation de modélisation BPMN 2.0. Cela permettra aux utilisateurs de modéliser un processus d'intégration complexe en utilisant la notation universellement connue et normalisée BPMN 2.0.
+   La troisième section verticale contient les détails de chaque composant du fichier d'intégration.
 
 .. image:: /tutorials/_images/cs_processflowcheck_workflowmodeler.PNG
 |
 |
 
-#. Drag and drop the notations in *Workflow Modeler* to define the onboarding process. The workflow starts with the **Start Event**.
-   It acts as a process trigger. So, first element in the workflow will be the **Start Event**.
+#. Faites glisser et déposez les notations dans le **Modélisateur de flux de travail** pour définir le processus d’intégration. Le flux de travail démarre par **l'Événement de début**.
+   C'est un déclencheur de processus. Ainsi, le premier élément dans le flux de travail sera **l'Événement de début**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_draganddrop.PNG
 |
 |
 
-#. Select the **Start Event** notation to show the options for that notation.
+#. Sélectionnez la notation **Événement de début**, toutes les options que vous pouvez ajouter après lui s'afficheront à l'écran.
 
 .. image:: /tutorials/_images/cs_processflowcheck_selectstartevent.PNG
 |
 |
 
-#. Start adding the notations to define a workflow according to the onboarding file. For example, if you want to add *Article* in a flow, then click on the **Task** notation.
-   Custom actions for different users will be managed through workflow **Task**.
+#. Commencez à ajouter les notations pour définir un flux de travail en fonction du fichier d'intégration. Par exemple, si vous souhaitez ajouter un **Article** dans un flux, cliquez sur la notation **Tâche**.
+   Les actions personnalisées pour différents utilisateurs seront gérées par le flux de travail **Tâche**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_startaddingnotations.PNG
 |
 |
 
-#. Once you clicked on the icon, the task gets added in the flow.
+#. Une fois que vous cliquez sur l’icône, la tâche est ajoutée dans le flux.
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickicon.PNG
 |
 |
 
-#. Adding the **Task** notation simply defines the task. Click on the **Wrench** icon to define what kind of a task it is, whether it is *import article*, *import asset*, *import relationship*, etc.
+#. L'ajout de la notation **Tâche** définit simplement la tâche. Vous devez définir le type de tâche, qu'il s'agisse d'importer un article, d'exporter un actif, d'importer une relation, etc. Pour ce faire, cliquez sur l'icône qui ressemble à pince.
 
 .. image:: /tutorials/_images/cs_processflowcheck_definetask.PNG
 |
 |
 
-#. As soon as you click on the **Wrench** icon, a window appears containing the types of task.
+#. Dès que vous cliquez sur l'icône de pince, une fenêtre contextuelle contenant différents types de tâche apparaît.
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickwrenchicon.PNG
 |
 |
 
-#. If you are defining an article, then select the **Article Import** option from the list.
+#. Si vous définissez un article, sélectionnez l'option Importer un article dans la liste.
 
 .. image:: /tutorials/_images/cs_processflowcheck_selectarticleimport.PNG
 |
 |
 
-#. Double-click on the created task icon and enter a name for that icon.
+#. Double-cliquez sur l'icône de la tâche créée et donnez-lui un nom.
 
 .. image:: /tutorials/_images/cs_processflowcheck_doubleclick.PNG
 |
 |
 
-#. Define the components of the system such as *Assets, Relationships, and Nature Classes*. Create a task, click on the **Wrench** icon to select the type, and enter a name for that task.
+#. Vous pouvez définir tous les composants du système comme actifs, relations, classes de nature, etc. en procédant de la même manière. Créez une tâche, sélectionnez son type en cliquant sur l'icône de pince, et donnez-lui un nom.
 
 .. image:: /tutorials/_images/cs_processflowcheck_definecomponents.PNG
 |
 |
 
-#. Once you added all the components in a flow, append the **End Event** notation at the end. It represents the end of flow. Select the last component and click on the **End Event** notation.
+#. Une fois que vous avez ajouté tous les composants d'un flux, ajoutez la notation **Événement de fin**. Il représente la fin du flux. Sélectionnez le dernier composant et cliquez sur la notation **Événement de fin** pour ajouter **l'Événement de fin** à la fin.
 
 .. image:: /tutorials/_images/cs_processflowcheck_endevent.PNG
 |
 |
 
-#. View the End Event icon appended at the end of flow.
+#. Vous verrez que l’icône **Événement de fin** a été ajoutée à la fin du flux.
 
 .. image:: /tutorials/_images/cs_processflowcheck_viewendevent.PNG
 |
 |
 
-#. Click on each component and in the third vertical section, fill in the details of each component such as *Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/ Class Column Name, Taxonomies*, then click on the **Save** button.
+#. Cliquez sur chaque composant et renseignez les informations demandées dans la troisième section verticale comme *Nom de la feuille, Colonne clé primaire, Type, ID de Classe/Colonne de classe, Multiclassification, Type, Sélectionner les classes/Nom de colonne de classe, Taxonomies* et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_processflowcheck_clickcomponent.PNG
 |
-|
-
-| :doc:`Previous: Real-Time Mapping </tutorials/onboardingcapabilities/realtimemapping>`
-| :doc:`Next: Data Remediation </tutorials/onboardingcapabilities/dataremediation>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

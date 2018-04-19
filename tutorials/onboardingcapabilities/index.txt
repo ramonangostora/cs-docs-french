@@ -1,6 +1,6 @@
-=================================================
-Capabilities of Contentserv's Onboarding Portal
-=================================================
+==================================================
+Capacités du portail d'intégration de Contentserv
+==================================================
 
 .. toctree::
    :maxdepth: 1
