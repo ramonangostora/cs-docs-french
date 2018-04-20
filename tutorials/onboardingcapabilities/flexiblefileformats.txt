@@ -1,13 +1,9 @@
-=====================
-Flexible File Formats
-=====================
-Contentserv's Onboarding portal gives its partners the flexibility of uploading their data in various formats such as *.xls* and *.json*.
+==============================
+Formats de fichiers flexibles
+==============================
+Le portail d’intégration de Contentserv donne à ses partenaires la souplesse de télécharger leurs données dans différents formats comme .xls, .json.
 
 |
-
-| :doc:`Previous: Partner-specific Endpoints </tutorials/onboardingcapabilities/partnerspecificendpoints>`
-| :doc:`Next: Effortless File Transfer </tutorials/onboardingcapabilities/effortlessfiletransfer>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

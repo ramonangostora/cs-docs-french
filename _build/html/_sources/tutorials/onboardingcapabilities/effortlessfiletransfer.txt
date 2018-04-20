@@ -1,71 +1,70 @@
-=========================
-Effortless File Transfer
-=========================
-The straightforward onboarding process allows the partners to transfer their data to various catalogs (Onboarding/PIM) in an effortless manner.
+==========================================
+Transfert de fichiers en toute simplicité
+==========================================
+Le processus d'intégration simple permet aux partenaires de transférer leurs données vers différents catalogues (Intégration/PIM) très facilement.
 
-Prerequisites
-=============
-* Onboarding sheet
-* Endpoints
-* Roles
-
-
-Key Terms
-=========
-* **Data Integration** - The Data Integration section defines the entire process of importing a file into the system and exporting a file from the system.
-
-* **Workflow** -  The Workflow section defines the structure and components of a file that is to be imported into the system or exported from the system.
+Conditions préalables
+======================
+* Feuille d'intégration
+* Points de terminaison
+* Rôles
 
 
-Steps to Transfer a File
-=========================
+Termes clés
+============
+* La section **Intégration de données** définit l'intégralité du processus d'importation d'un fichier dans le système et d'exportation d'un fichier à partir du système.
 
-#. Log in to the application.
+* **Flux de travail** - Le flux de travail définit la structure et les composants d’un fichier qui doit être importé dans le système ou exporté hors du système
 
-|
 
-#. Click on the **Explore** icon and go to *Data Integration*.
+Étapes pour transférer un fichier
+==================================
+
+#. Connectez-vous à l'application.
 
 |
 
-#. Click on the **File Uploads** link of the created endpoint.
+#. Cliquez sur l'icône "Explorer" et allez dans **Intégration de données**.
+
+|
+
+#. Cliquez sur le lien **Téléchargement de fichiers** du point de terminaison créé.
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clickfileuploads.PNG
 |
 |
 
-#. Click on the **Import File** icon and upload the onboarding file to the supplier's *Data Integration* tab.
+#. Cliquez sur l’icône "Importer le fichier" et téléchargez le fichier d’intégration.
 
 |
 
-#. Click on the **Catalog** tab to check for data violations. *Note: The violations are shown in red, orange, and yellow color against each product. The products with red violations are not pushed into the PIM system.*
+#. Le fichier sélectionné sera téléchargé dans l'onglet **Intégration de données** du fournisseur.
+
+|
+
+#. Cliquez sur l'onglet **Catalogue** pour rechercher une éventuelle violation de données. *Remarque : Les violations sont indiquées en rouge, orange et jaune à côté de chaque produit. Les produits qui présentent des violations rouges ne sont pas envoyés dans le système PIM.*
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clickcatalog.PNG
 
 |
 |
 
-#. Click on the **Media** tab to see all the media files. These media files are mapped with their respective articles.
+#. Cliquez sur l'onglet **Médias** pour voir tous les fichiers multimédia. Ces fichiers multimédia sont mappés avec leurs articles respectifs.
 
 |
 
-#. Click on the **Catalog** tab.
+#. Cliquez sur l’onglet **Catalogue**.
 
 |
 
-#. Select all the products that are needed to be transferred to Onboarding or PIM portal (Self).
+#. Sélectionnez tous les produits à transférer sur le portail Intégration ou PIM (Auto).
 
 |
 
-#. Click on the **Transfer** icon and select **Transfer To PIM** or **Transfer To Onboarding** option.
+#. Cliquez sur l'icône "Transférer" et sélectionnez l'option **Transférer vers PIM** ou **Transférer vers Intégration**.
 
 .. image:: /tutorials/_images/cs_effortlessfiletransfer_clicktransfer.PNG
 |
-|
-
-| :doc:`Previous: Flexible File Formats </tutorials/onboardingcapabilities/flexiblefileformats>`
-| :doc:`Next: Real-Time Mapping </tutorials/onboardingcapabilities/realtimemapping>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

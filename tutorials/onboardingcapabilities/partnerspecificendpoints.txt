@@ -1,91 +1,86 @@
-==========================
-Partner-specific Endpoints
-==========================
-Contentserv's Onboarding portal allows the user (retailer/supplier) to have partner-specific endpoints to import their data to the system.
-Having unique endpoints ensures that the data errors are identified and mapped to the respective partners, thus improving overall data quality.
+==================================================
+Points de terminaison spécifiques aux partenaires
+==================================================
+Le portail d’intégration de Contentserv permet à l’utilisateur (détaillants/fournisseurs) d’avoir des points de terminaison spécifiques aux partenaires pour importer leurs données dans le système.
+Avoir des points de terminaison uniques garantit que les erreurs de données sont identifiées et mappées pour les partenaires respectifs, et permet ainsi d'améliorer la qualité globale des données.
 
-Prerequisites
-=============
-* Partners
-* Users with defined Roles
+Conditions préalables
+======================
+* Partenaires
+* Utilisateurs avec des rôles définis
 
-Key Terms
-=========
-* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This Endpoint will be visible on the partner’s dashboard.
+Termes clés
+============
+* **Points de terminaison** - Le point de terminaison est le processus final où nous mappons les partenaires avec le processus défini. Ce point de terminaison sera visible sur le tableau de bord du partenaire.
 
-* **Workflow** - The Workflow defines the structure and components of a file that is to be imported into the system or exported from the system. It provides all the details of all the components configured in a sheet. The system will interpret the imported file in a way we define the details in this section.
+* **Flux de travail** - Le flux de travail définit la structure et les composants d’un fichier qui doit être importé dans le système ou exporté hors du système. Il fournit tous les détails sur tous les composants configurés dans une feuille. Le système interprétera le fichier importé selon la manière dont nous en définissons les détails dans cette section.
 
-* **Mapping** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+* **Mappage** - La section mappage permet de mapper les différents éléments (attributs, balises, classes et taxonomies) définis dans un fichier d'intégration par rapport à leurs éléments respectifs (attributs, balises, classes et taxonomies) définis dans le système.
 
 
-Steps to Configure Endpoints
-============================
+Étapes pour configurer les points de terminaison
+=================================================
 
-#. Log in to the application.
-
-|
-
-#. Click on the **Administration** icon.
+#. Connectez-vous à l'application.
 
 |
 
-#. Navigate to **Data Integration** -> **Endpoints** menu.
+#. Cliquez sur l'icône "Administration".
+
+|
+
+#. Accédez au menu **Intégration de données** -> **Points de terminaison**.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_navigate.PNG
 |
 |
 
-#. Click on the "+" icon to create the endpoint.
+#. Cliquez sur l’icône "+" pour créer le point de terminaison.
 
 |
 
-#. Enter the values for the *Name, Type, and Code*, then click on the **Create** button.
+#. Renseignez les informations demandées comme **Nom, Type** et **Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_entervalues.PNG
 
 |
 |
 
-#. Select the values for *Realtime Mapping*, *System*, *Workflow*, *Mapping*, *Dashboard Tab*, and *Physical Catalog*, then click on the **Save** button.
+#. Renseignez les informations demandées comme **MAPPAGE EN TEMPS RÉEL, SYSTÈME, FLUX DE TRAVAIL, MAPPAGE, ONGLET TABLEAU DE BORD, CATALOGUE PHYSIQUE** et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_selectvalues.PNG
 |
 |
 
-#. Navigate to **Partner Administration** -> **Partners** menu.
+#. Accédez au menu **Administration des partenaires** -> **Partenaires**.
 
 |
 
-#. Click on the created partner to whom the endpoint will be assigned.
+#. Cliquez sur le partenaire créé auquel vous souhaitez affecter le point de terminaison.
 
 |
 
-#. Select the created endpoint from the *Systems* section.
+#. Sélectionnez le point de terminaison créé dans la section **Systèmes** en cliquant sur le point de terminaison.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_selectcreatedendpoint.PNG
 |
 
-#. Click on the **Roles** tab.
+#. Cliquez sur l'onglet **Rôles**.
 
 |
 
-#. Select the created endpoint from the *Systems* section.
+#. Sélectionnez le point de terminaison créé dans la section **Systèmes** en cliquant sur le point de terminaison.
 
 |
 
-#. Click on the **Explore** icon and go to *Data Integration*.
+#. Maintenant, cliquez sur l'icône "Explorer" et allez dans **Intégration de données**.
 
 |
 
-#. Click on the **File Uploads** link of the created Endpoint to upload the desired file.
+#. Cliquez sur le lien **Téléchargement de fichiers** du point de terminaison créé pour télécharger le fichier souhaité.
 
 .. image:: /tutorials/_images/cs_partnerspecificendpoints_clickfileuploads.PNG
 |
-|
-
-| :doc:`Previous: Capabilities of Contentserv’s Onboarding Portal </tutorials/onboardingcapabilities/index>`
-| :doc:`Next: Flexible File Formats </tutorials/onboardingcapabilities/flexiblefileformats>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

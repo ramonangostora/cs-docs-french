@@ -1,80 +1,74 @@
-=================
-Real-Time Mapping
-=================
-Real-Time Mapping allows the user/partner to map attributes and tags of the products to the processes before or during the onboarding process.
+======================
+Mappage en temps réel
+======================
+Le mappage en temps réel permet à l'utilisateur/partenaire de mapper les attributs et les balises des produits par rapport aux processus avant ou pendant le processus d'intégration.
 
-Prerequisites
-=============
-* Onboarding sheet
-* Predefined roles
-* Predefined organizations
+Conditions préalables
+======================
+* Feuille d'intégration
+* Rôles prédéfinis
+* Entreprise prédéfinis
 
 
 Key Terms
-=========
-* **Mappings** - The Mapping section allows to map different elements (attributes, tag, classes, and taxonomies) defined in an onboarding file to the similar elements (the attributes, tag, classes, and taxonomies) defined in the system.
+==========
+* **Mappages** - La section mappage permet de mapper les différents éléments (attributs, balises, classes et taxonomies) définis dans un fichier d'intégration par rapport à leurs éléments respectifs (attributs, balises, classes et taxonomies) définis dans le système
 
-* **Endpoints** - The Endpoint is the final process where we map the partners with the defined process. This endpoint will be visible on the partner’s dashboard.
+* **Points de terminaison** - Le point de terminaison est le processus final où nous mappons les partenaires avec le processus défini. Ce point de terminaison sera visible sur le tableau de bord du partenaire.
 
 
-Steps for Real-Time Mapping
-============================
+Étapes pour le mappage en temps réel
+=====================================
 
-#. Log in to the application.
-
-|
-
-#. Click on the **Administration** icon.
+#. Connectez-vous à l'application.
 
 |
 
-#. Navigate to **Data Integration** -> **Endpoints** menu.
+#. Cliquez sur l’icône "Administration".
 
 |
 
-#. Click on the "+" icon to create the endpoint.
+#. Accédez au menu **Intégration de données** -> **Points de terminaison**.
+
+|
+
+#. Cliquez sur l’icône "+" pour créer le point de terminaison.
 
 .. image:: /tutorials/_images/cs_realtimemapping_clickplusicon.PNG
 |
 |
 
-#. Enter the values such as *Name*, *Type (Inbound)*, and *Code*, then click on the **Create** button.
+#. Renseignez les informations demandées comme **Nom, Type (entrant)** et **Code** et cliquez sur le bouton **CRÉER**.
 
 |
 
-#. Enable **Realtime Mapping** and select the process to map in the workflow.
+#. Activez **MAPPAGE EN TEMPS RÉEL** et sélectionnez le processus à mapper dans le flux de travail.
 
 .. image:: /tutorials/_images/cs_realtimemapping_enablerealtimemapping.PNG
-
 |
 |
 
-#. Click on the **Partner Administration** tab to assign the Endpoint to the Organization and Users.
+#. Ensuite, cliquez sur l’onglet **Administration des partenaires** pour affecter le point de terminaison à **l'Entreprise** et aux **Utilisateurs**.
 
 |
 
-#. Click on an organization. In the Systems section, view the several endpoints assigned to the organization and select the one you have just created. *Note: - An organization can have several endpoints assigned to it.*
+#. Cliquez sur une entreprise. Dans la section **Systèmes**, vous trouverez plusieurs points de terminaison affectés à l'entreprise, sélectionnez celui que vous venez de créer. *Remarque: il est possible d'affecter plusieurs points de terminaison à une entreprise.*
 
 .. image:: /tutorials/_images/cs_realtimemapping_selectcreatedendpoint.PNG
 |
 
-#. Click on the **Explore** icon, then click on **Dashboard** and select the endpoint.
+#. Cliquez sur l’icône "Explorer**. Cliquez sur le **Tableau de bord**, puis sélectionnez le point de terminaison.
 
 |
 
-#. Click on the **Import File** icon to import the file.
+#. Cliquez sur l'icône "Importer le fichier" pour importer le fichier.
 
 |
 
-#. In the real-time mapping window, you can see all the attributes and tags mapped to their respective fields. You may also make changes or simply ignore the attributes that are irrelevant.
+#. Une fenêtre de mappage en temps réel s'ouvre. Vous y verrez l'ensemble des attributs et des balises mappés à leurs champs respectifs. Vous pouvez également apporter des modifications ou simplement ignorer les attributs qui ne sont pas pertinents
 
 .. image:: /tutorials/_images/cs_realtimemapping_viewmappedattributesandtags.PNG
 |
-|
-
-| :doc:`Previous: Effortless File Transfer </tutorials/onboardingcapabilities/effortlessfiletransfer>`
-| :doc:`Next: Process Flow Check </tutorials/onboardingcapabilities/processflowcheck>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
