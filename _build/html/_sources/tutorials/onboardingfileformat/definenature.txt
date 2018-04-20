@@ -1,29 +1,30 @@
-====================================================
-Define Nature Relationship in an Onboarding File
-====================================================
+=============================================================
+Définir une relation de nature dans un fichier d'intégration
+=============================================================
 
-* You need to mention which single articles are bundled in an article that contains more than one articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection in **Nature Relationship** sheet. We define all articles in an **Article** sheet. In **Nature Relationship** sheet we will take the article reference from **Article** sheet.
-* This sheet will contain the following details column-wise:
+
+* Vous devez mentionner quels articles uniques sont regroupés dans un article qui contient plus d'un article comme Lot fixe, Paquet en vrac, Lot de produit, Paquet de seuil, et Collection promotionnelle dans la feuille **Relation de nature**. Nous définissons tous les articles dans une feuille **Article**. Dans la feuille **Relation de nature**, nous récupérerons la référence de l'article dans la feuille **Article**.
+
+* Cette feuille contient les détails suivants par colonnes:
 
 
 ====================   =======================================================================================================================================================================================================================================================================
-Details                Description
+Détails                 Description
 ====================   =======================================================================================================================================================================================================================================================================
-Source                 You need to mention the unique identification of an article which contains more than one article. So, you need to mention the article id of the articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection.
+Source                  Vous devez mentionner l'identifiant unique d'un article qui contient plus d'un article. Ainsi, vous devez mentionner l'ID d'article des articles comme Paquet fixe, Paquet en vrac, Lot de produit, Paquet de seuil, et Collection promotionnelle.
 
-Target                 You need to mention the unique identification of a single article, which is bundled into articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection.
+Cible                   Vous devez mentionner l'identifiant unique d'un article unique, qui est empaqueté dans des articles comme Paquet fixe, Paquet en vrac, Lot de produit, Paquet de seuil, et Collection promotionnelle.
 
-Relationship Column    The articles like Fixed Bundle, Loose Bundle, Set of Product, Threshold Bundle, and Promotional Collection contains more than one single article. So, these articles have relationship with single articles. This relationship code will be displayed in this column. *Note: There would be multiple Targets for a single Source, so there would be multiple entries/ rows of different Targets for similar Source.*
+Colonne relation        Les articles comme Paquet fixe, Paquet en vrac, Lot de produit, Paquet de seuil, et Collection promotionnelle contiennent plus d'un article unique. Ainsi, ces articles ont une relation avec des articles uniques. Ce code de relation sera affiché dans cette colonne.
+
+                        *Remarque: Il y aurait plusieurs Cibles pour une Source unique, donc il y aurait plusieurs entrées/lignes de différentes cibles pour une source similaire.*
 
 ====================   =======================================================================================================================================================================================================================================================================
 
 .. image:: /tutorials/_images/cs_tutorial_definenature.PNG
 |
+
 |
-
-| :doc:`Previous: Nested Variants in an Onboarding File </tutorials/onboardingfileformat/nestedvariants>`
-| :doc:`Next: Define Article-Asset Relationship in an Onboarding File </tutorials/onboardingfileformat/definearticleasset>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

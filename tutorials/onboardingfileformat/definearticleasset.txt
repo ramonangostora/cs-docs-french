@@ -1,28 +1,32 @@
-=======================================================
-Define Article-Asset Relationship in an Onboarding File
-=======================================================
+==================================================================
+Définir une relation Article-Actif dans un fichier d'intégration
+==================================================================
 
-* We define relationship between articles and assets in Article-Asset Relationship sheet. We define which assets are used for an article in this sheet. We defined all articles in an Article sheet and assets in Asset sheet. In Article-Asset Relationship sheet, we will take the article and asset reference from Article and Asset sheets respectively.
-* This sheet will contain the following details column-wise:
+
+* Nous définissons la relation entre articles et actifs dans la feuille **Relation Article-Actif**.
+  Nous définissons quels actifs sont utilisés pour un article dans cette feuille.
+  Nous avons défini tous les articles dans une feuille **Article** et les actifs dans une feuille Actif.
+  Dans la feuille Relation Article-Actif, nous prendrons la référence d'article et d'actif des feuilles **Article et Actif**, respectivement.
+
+* Cette feuille contient les détails suivants par colonnes:
 
 
 ====================   =======================================================================================================================================================================================================================================================================
-Details                Description
+Détails                 Description
 ====================   =======================================================================================================================================================================================================================================================================
-Source                 You need to mention the unique identification of an article in this column. This will be the **ArticleID** defined in the **Article** sheet.
+Source                  Vous devez mentionner l'identifiant unique d'un article dans cette colonne. Ce sera **l'ID d'article** défini dans la feuille **Article**.
 
-Destination            You need to mention the unique identification of an asset that you want to associate with article.
-                       This will be the **AssetID** defined in the **Asset** sheet. *Note: There can be multiple assets associated with a single article, so there can be multiple entries/ rows of different Destination for a single Source.*
+Destination             Vous devez mentionner l'identifiant unique d’un actif que vous souhaitez associer à l’article. Ce sera **l'ID d'actif** défini dans la feuille **Actif**.
+
+                        *Remarque: Plusieurs actifs peuvent être associés à un seul article, donc il peut y avoir plusieurs entrées/lignes de destination différentes pour une source unique.*
+
 ====================   =======================================================================================================================================================================================================================================================================
 
 
 .. image:: /tutorials/_images/cs_tutorial_defineartass.PNG
 |
+
 |
-
-| :doc:`Previous: Define Nature Relationship in an Onboarding File </tutorials/onboardingfileformat/definenature>`
-| :doc:`Next: Capabilities of Contentserv’s Onboarding Portal </tutorials/onboardingcapabilities/index>`
-
 |
 
 

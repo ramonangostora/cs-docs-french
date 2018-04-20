@@ -2,10 +2,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Define Articles, Tags, Taxonomy, and Class in an Onboarding File &#8212; Contentsphere  documentation</title>
+    <title>Définir les Articles, les Balises, la Taxonomie et la Classe dans un fichier d’intégration &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Define Assets in an Onboarding File" href="defineassets.html" />
-    <link rel="prev" title="Onboarding File Format" href="index.html" />
+    <link rel="next" title="Définir des actifs dans un fichier d’intégration" href="defineassets.html" />
+    <link rel="prev" title="Format de fichier d’intégration" href="index.html" />
 
 
 
@@ -106,11 +106,11 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="index.html" title="Onboarding File Format">previous</a>
+    &laquo; <a href="index.html" title="Format de fichier d’intégration">previous</a>
      |
     <a href="../index.html" title="Tutorials" accesskey="U">up</a>
    |
-    <a href="defineassets.html" title="Define Assets in an Onboarding File">next</a> &raquo;</div> -->
+    <a href="defineassets.html" title="Définir des actifs dans un fichier d’intégration">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
@@ -121,82 +121,63 @@
               
                 <span><a href="../index.html">Tutorials</a> /
               
-                <span><a href="index.html">Onboarding File Format</a> /
+                <span><a href="index.html">Format de fichier d’intégration</a> /
               
-              <span>Define Articles, Tags, Taxonomy, and Class in an Onboarding File</span>
+              <span>Définir les Articles, les Balises, la Taxonomie et la Classe dans un fichier d’intégration</span>
               </span></span>
             </div>
           
           <div class="yui-g" id="tutorials-onboardingfileformat-definearticles">
             
-  <div class="section" id="s-define-articles-tags-taxonomy-and-class-in-an-onboarding-file">
-<span id="define-articles-tags-taxonomy-and-class-in-an-onboarding-file"></span><h1>Define Articles, Tags, Taxonomy, and Class in an Onboarding File<a class="headerlink" href="#define-articles-tags-taxonomy-and-class-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="s-definir-les-articles-les-balises-la-taxonomie-et-la-classe-dans-un-fichier-d-integration">
+<span id="definir-les-articles-les-balises-la-taxonomie-et-la-classe-dans-un-fichier-d-integration"></span><h1>Définir les Articles, les Balises, la Taxonomie et la Classe dans un fichier d’intégration<a class="headerlink" href="#definir-les-articles-les-balises-la-taxonomie-et-la-classe-dans-un-fichier-d-integration" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li>All the articles and its attributes, tags, taxonomies, and classes will be listed in a single sheet of an excel file.</li>
-<li>All the articles will be listed row-wise in a sheet. Each article will have a separate row in a sheet.</li>
-<li>The sheet will contain the following details of each article column-wise:</li>
+<li>Tous les articles et leurs attributs, balises, taxonomies et classes seront répertoriés dans une seule feuille d’un fichier Excel.</li>
+<li>Tous les articles seront répertoriés par lignes dans une feuille. Chaque article aura une ligne distincte dans une feuille.</li>
+<li>La feuille contiendra les détails suivants pour chaque article par colonnes:</li>
 </ul>
 <table class="docutils">
 <colgroup>
-<col width="7%" />
-<col width="93%" />
+<col width="2%" />
+<col width="98%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">Details</th>
+<tr class="row-odd"><th class="head">Détails</th>
 <th class="head">Description</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>ArticleID</td>
-<td>You need to mention the unique identification of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Primary Key Column</strong> field in the system
-while defining the workflow of onboarding process.</td>
+<tr class="row-even"><td>ID d’article</td>
+<td>Vous devez mentionner l’identifiant unique de chaque article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ <strong>Colonne clé primaire</strong> dans le système pendant la définition du flux de travail du processus d’intégration.</td>
 </tr>
-<tr class="row-odd"><td>Name</td>
-<td>You need to mention the name of each article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Name</strong> field in the system while defining the workflow of onboarding process.</td>
+<tr class="row-odd"><td>Nom</td>
+<td>Vous devez mentionner le nom de chaque article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ <strong>Nom</strong> dans le système pendant la définition du flux de travail du processus d’intégration.</td>
 </tr>
-<tr class="row-even"><td>Attribute1</td>
-<td>You need to define one of the attributes of an article in this column. There is no restriction on column name/column header. It can be any attribute such as <em>Long Description, Short Description, List Price,</em> etc.
-You need to map the column name/column header in the <strong>Attribute</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping section</strong> in the system.
-<em>Note: You can define as many attributes as you want in separate columns in a sheet, in a similar manner as we defined Attribute1.</em></td>
+<tr class="row-even"><td>Attribut1</td>
+<td><p class="first">Vous devez définir un des attributs d’un article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne. Il peut s’agir de n’importe quel attribut comme Description, Description courte, Prix, etc.
+Vous devez mapper l’en-tête de colonne/le nom de colonne dans l’onglet <strong>Attribut</strong> de la section <strong>Intégration de données -&gt; Mappage</strong> dans le système.</p>
+<p class="last"><em>Remarque: Vous pouvez définir autant d’attributs que vous le souhaitez dans des colonnes distinctes sur une feuille, de la même manière que nous avons défini l’Attribut 1.</em></p>
+</td>
 </tr>
-<tr class="row-odd"><td>Tag1</td>
-<td>You need to mention one of the tags applied to an article in this column. There is no restriction on column name/column header. It can be any tag like Size, Color, etc.
-You need to map the column name/column header in Tag tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system. You need to map column name/column header of a sheet with system tag in this section.
-You also need to map the provided values of tag with sub-tags of system in this section.
-<em>Note: You can define as many tags as you want in separate columns in a sheet, in a similar manner as we defined Tag1.</em></td>
+<tr class="row-odd"><td>Balise1</td>
+<td><p class="first">Vous devez mentionner l’une des balises appliquées à un article dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
+Il peut s’agir de n’importe quelle balise comme Taille, Couleur, etc. Vous devez mapper l’en-tête de colonne/le nom de colonne dans l’onglet <strong>Balise</strong> de la section <strong>Intégration de données -&gt; Mappage</strong> dans le système. Vous devez mapper le nom de colonne/l’en-tête de colonne d’une feuille avec une balise système dans cette section. Vous devez également mapper les valeurs fournies de la balise avec les sous-balises du système dans cette section.</p>
+<p class="last"><em>Remarque: Vous pouvez définir autant de balises que vous le souhaitez dans des colonnes distinctes sur une feuille, de la même manière que nous avons défini la Balise 1.</em></p>
+</td>
 </tr>
-<tr class="row-even"><td>Taxonomy</td>
-<td>You need to define all the taxonomies applied to an article in this column. There is no restriction on column name/column header, but the column header will be mapped in <strong>Taxonomy</strong> field in system while defining the workflow of onboarding process.
-You need to mention all the applied taxonomies to an article against each article in this column. There can be multiple taxonomies applied to an article like Food, Beverages, etc.
-You need to define all applied taxonomies to an article in a single cell as a comma separated value. You need to map all defined taxonomies in an onboarding file with system taxonomies in the <strong>Taxonomy</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping section</strong>
-in the system.</td>
+<tr class="row-even"><td>Taxonomie</td>
+<td>Vous devez définir toutes les taxonomies appliquées à un article dans cette colonne.
+Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le champ <strong>Taxonomie</strong> dans le système pendant la définition du flux de travail du processus d’intégration. Vous devez mentionner toutes les taxonomies appliquées à un article à côté de chaque article de cette colonne. Plusieurs taxonomies peuvent être appliquées à un même article comme Nourriture, Boissons, etc. Vous devez définir toutes les taxonomies appliquées à un article dans une seule cellule en tant que valeur séparée par des virgules. Vous devez mapper toutes les taxonomies définies dans un fichier d’intégration avec les taxonomies du système dans l’onglet <strong>Taxonomie</strong> de la section <strong>Intégration de données -&gt; Mappage</strong> dans le système.</td>
 </tr>
-<tr class="row-odd"><td>Class ID</td>
-<td>You need to define the class of an article in this column such as <em>Single Article, Loose Bundle, Set of Product, Fixed Bundle,</em> etc. There is no restriction on column name/column header,
-but the column header will be mapped in system while defining the onboarding process.
-Here we need to consider two things: <strong>Single Class</strong> and <strong>Multiple Class</strong></td>
-</tr>
-</tbody>
-</table>
-<table class="docutils">
-<colgroup>
-<col width="7%" />
-<col width="93%" />
-</colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head">Class ID</th>
-<th class="head">Description</th>
-</tr>
-</thead>
-<tbody valign="top">
-<tr class="row-even"><td>Single Class</td>
-<td>It is possible that all the defined articles in a sheet use the same class. For example, all the defined articles are Single Article.
-In this case, we need to select <strong>Single Class</strong> option from <strong>Type</strong> field while defining the workflow of onboarding process in system. Select the system class of product from <strong>Class ID</strong> field while defining the workflow of onboarding process.</td>
-</tr>
-<tr class="row-odd"><td>Multiple Class</td>
-<td>It is possible that all the defined articles in a sheet use different classes. For example, some of the defined articles are Single Article and some are Fixed Bundle.
-In this case, we need to select <strong>Column Class</strong> option from <strong>Type</strong> field while defining the workflow of onboarding process in system. Enter the column name/ column header of a column, where you have defined classes against each article in a sheet,
-in a Class Column field while defining the workflow of onboarding process in system. You need to map all defined classes in a <strong>Class</strong> tab of <strong>Data Integration</strong> -&gt; <strong>Mapping</strong> section in system.</td>
+<tr class="row-odd"><td>ID de classe</td>
+<td><p class="first">Vous devez définir la classe d’un article dans cette colonne comme Article unique, Paquet en vrac, Lot de produit, Paquet fixe, etc. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne, mais l’en-tête de colonne sera mappé dans le système pendant la définition du flux de travail du processus d’intégration. Ici, nous devons tenir compte de deux choses:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li><strong>Classe unique:</strong> Il est possible que tous les articles définis dans une feuille utilisent la même classe. Par exemple, tous les articles définis sont Article unique. Dans ce cas, nous devons sélectionner l’option <strong>Classe unique</strong> dans le champ <strong>Type</strong> pendant la définition du flux de travail du processus d’intégration dans le système. Sélectionnez la classe de produit du système dans le champ <strong>ID de classe</strong> pendant la définition du flux de travail du processus d’intégration dans le système.</li>
+<li><strong>Classe multiple:</strong> Il est possible que tous les articles définis dans une feuille utilisent des classes différentes. Par exemple, certains des articles définis sont Article unique tandis que d’autre sont Paquets fixes. Dans ce cas, nous devons sélectionner l’option <strong>Classe de colonne</strong> dans le champ <strong>Type</strong> pendant la définition du flux de travail du processus d’intégration dans le système. Saisissez le nom de colonne/l’en-tête de colonne d’une colonne, où vous avez défini des classes à côté de chaque article dans une feuille, dans un champ <strong>Colonne de classe</strong> pendant la définition du flux de travail du processus d’intégration dans le système. Vous devez mapper toutes les classes définies dans un onglet <strong>Classe</strong> de la section <strong>Intégration de données -&gt; Mappage</strong> dans le système.</li>
+</ul>
+</div></blockquote>
+</td>
 </tr>
 </tbody>
 </table>
@@ -204,10 +185,6 @@ in a Class Column field while defining the workflow of onboarding process in sys
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
-</div>
-<div class="line-block">
-<div class="line"><a class="reference internal" href="index.html"><span class="doc">Previous: Onboarding File Format</span></a></div>
-<div class="line"><a class="reference internal" href="defineassets.html"><span class="doc">Next: Define Assets in an Onboarding File</span></a></div>
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -230,10 +207,10 @@ in a Class Column field while defining the workflow of onboarding process in sys
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="index.html">Onboarding File Format</a></li>
+      <li>Prev: <a href="index.html">Format de fichier d’intégration</a></li>
     
     
-      <li>Next: <a href="defineassets.html">Define Assets in an Onboarding File</a></li>
+      <li>Next: <a href="defineassets.html">Définir des actifs dans un fichier d’intégration</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -243,9 +220,9 @@ in a Class Column field while defining the workflow of onboarding process in sys
         
           <ul><li><a href="../index.html">Tutorials</a>
         
-          <ul><li><a href="index.html">Onboarding File Format</a>
+          <ul><li><a href="index.html">Format de fichier d’intégration</a>
         
-        <ul><li>Define Articles, Tags, Taxonomy, and Class in an Onboarding File</li></ul>
+        <ul><li>Définir les Articles, les Balises, la Taxonomie et la Classe dans un fichier d’intégration</li></ul>
         </li></ul></li></ul>
       </li>
   </ul>
@@ -263,7 +240,7 @@ in a Class Column field while defining the workflow of onboarding process in sys
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Apr 13, 2018</p>
+                <p class="topless">Apr 19, 2018</p>
             </div>
           </div>
         
@@ -274,13 +251,13 @@ in a Class Column field while defining the workflow of onboarding process in sys
     <script type="text/javascript" src="https://contentsphere.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-4bqv2z/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=c6215c07"></script>
 
     <div id="ft">
-        <p class="topless">Last updated: Apr 13, 2018</p>
+        <p class="topless">Last updated: Apr 19, 2018</p>
       <div class="nav">
-    &laquo; <a href="index.html" title="Onboarding File Format">previous</a>
+    &laquo; <a href="index.html" title="Format de fichier d’intégration">previous</a>
      |
     <a href="../index.html" title="Tutorials" accesskey="U">up</a>
    |
-    <a href="defineassets.html" title="Define Assets in an Onboarding File">next</a> &raquo;</div>
+    <a href="defineassets.html" title="Définir des actifs dans un fichier d’intégration">next</a> &raquo;</div>
     </div>
   </div>
 

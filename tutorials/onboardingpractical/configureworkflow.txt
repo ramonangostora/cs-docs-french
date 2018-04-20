@@ -1,273 +1,254 @@
-===================
-Configure Workflow
-===================
-To configure a workflow, follow the detailed steps listed below:
+==============================
+Configurer le flux de travail
+==============================
 
 
 |
 
-#.	Log in to the application and click on the **Administration** button.
+#. Connectez-vous à l'application et cliquez sur l'icône "Administration".
 
 .. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
 |
 |
 
 
-#.	Go to the *Data Integration* tab and then to *Workflow*.
+#.	Accédez au menu **Intégration de données -> Flux de travail**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_gotodataintegration.PNG
 |
 |
 
 
-#.	Click the "+" icon to create a new workflow.
+#.	Cliquez sur l'icône "+" pour créer le flux de travail.
 
 .. image:: /tutorials/_images/cs_configureworkflow_clicktheicon.PNG
 |
 |
 
 
-#.	Provide the following details: *Name, Event Type, and Code*. Then, click on the **Create** button.
+#.	Renseignez les informations demandées comme **Nom, Type d'événement, Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_providetheffdetails.PNG
 |
 |
 
 
-#.	Select the created workflow and a pop-up window will open where you can define the workflow of the onboarding process.
+#.	Sélectionnez le flux de travail créé, vous serez redirigé vers une fenêtre contextuelle où vous pourrez définir le flux de travail du processus d’intégration.
 
 .. image:: /tutorials/_images/cs_configureworkflow_selectthecreatedwf.PNG
 |
 |
 
 
-#.	The *Graph section* in the pop-up window is divided into three vertical sections. The first and second vertical sections are called **Workflow Modeler**. It allows users to configure workflows using the *BPMN 2.0 Modeling Notation*. This can model complex onboarding processes using universally known and standardized notation. The third vertical section contains the details of each component of onboarding file.
+#.	La section **Graphique** d'une fenêtre contextuelle est divisée en trois sections verticales. Les deux premières sections verticales sont appelées **Modélisateur de flux de travail**. Cela permet de configurer les flux de travail en utilisant la notation de modélisation BPMN 2.0. Cela permettra aux utilisateurs de modéliser un processus d'intégration complexe en utilisant la notation universellement connue et normalisée BPMN 2.0. La troisième section verticale contient les détails de chaque composant du fichier d'intégration.
 
 .. image:: /tutorials/_images/cs_configureworkflow_thegraphsection.PNG
 |
 |
 
 
-#.	Drag and drop the notations in the *Workflow Modeler* to define the onboarding process. The workflow starts with a **Start Event**. It acts as a process trigger so the first element in the workflow will be the **Start Event**.
+#.	Faites glisser et déposez les notations dans le **Modélisateur de flux de travail** pour définir le processus d’intégration. Le flux de travail démarre avec **l'Événement de début**. C'est un déclencheur de processus. Ainsi, le premier élément dans le flux de travail sera **l'Événement de début**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_draganddrop.PNG
 |
 |
 
 
-#.	Select the **Start Event** notation to see all the options that you can add after this component. It will appear on the right side of the component.
+#.	Sélectionnez la notation **Événement de début** et toutes les options que vous pouvez ajouter après l'événement apparaîtront à l'écran.
 
 .. image:: /tutorials/_images/cs_configureworkflow_selectthestartevent.PNG
 |
 |
 
 
-#.	Add the notations to define a workflow according to the onboarding file. For example, if you want to add an *Article* in a flow, click on the **Task Notation**. Custom actions for different users will be managed through the workflow task.
+#.	Commencez à ajouter les notations pour définir un flux de travail en fonction du fichier d'intégration. Par exemple, si vous souhaitez ajouter un **Article** dans un flux, cliquez sur la notation **Tâche**. Les actions personnalisées pour différents utilisateurs seront gérées par le flux de travail **Tâche**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_addthenotations.PNG
 |
 |
 
 
-#.	Click on a **Task Notation** to add it to the process.
+#.	Une fois que vous cliquez sur la notation **Tâche**, elle est ajoutée dans le flux.
 
 .. image:: /tutorials/_images/cs_configureworkflow_clickonatasknotation.PNG
 |
 |
 
 
-#.  Note that adding a task notation simply defines the task. Next step is to define what kind of a task it is: whether it is *Import Article, Import Asset, or Import Relationship, etc*. Do this by clicking on the **Change Type** icon (icon that looks like a wrench).
+#.  L'ajout de la notation **Tâche** définit simplement la tâche. Vous devez définir le type de tâche, qu'il s'agisse d'importer un article, d'importer un actif, d'importer une relation, etc. Pour ce faire, cliquez sur l'icône qui ressemble à une pince.
 
 .. image:: /tutorials/_images/cs_configureworkflow_notethatadding.PNG
 |
 |
 
 
-#.	Once clicked, a pop-up window will appear that contains the various tasks.
+#.	Dès que vous cliquez sur l'icône en forme de pince, une fenêtre contextuelle contenant différents types de tâches apparaît.
 
 .. image:: /tutorials/_images/cs_configureworkflow_onceclickedvarioustasks.PNG
 |
 |
 
 
-#.  To define an *Article*, select the *Article Import* option from the list.
+#.  Si vous définissez un Article, sélectionnez l'option **Importer un article** dans la liste.
 
 .. image:: /tutorials/_images/cs_configureworkflow_todefineanarticle.PNG
 |
 |
 
 
-#.	Double click on the created task and provide a name.
+#.	Double-cliquez sur l'icône de la tâche créée et donnez-lui un nom.
 
 .. image:: /tutorials/_images/cs_configureworkflow_doubleclickonthecreatedtask.PNG
 |
 |
 
 
-#.	Define all the components of the system like *Assets, Relationships, Nature Classes, etc* in a similar manner - (1) creating a task, (2) selecting its type by clicking on the wrench icon and (3) naming it.
+#.	Vous pouvez définir tous les composants du système comme les actifs, relations, classes de nature, etc. de la même manière. Créez une tâche, sélectionnez-en le type en cliquant sur l'icône de pince, et donnez-lui un nom.
 
 .. image:: /tutorials/_images/cs_configureworkflow_defineallthecomponents.PNG
 |
 |
 
 
-#.	Once all the needed components are added, append the **End Event** notation. It represents the end of the process/flow. Select the last component and click on the **End Event** notation.
+#.	Une fois que vous avez ajouté tous les composants d'un flux, ajoutez la notation **Événement de fin**. Il représente la fin du flux. Sélectionnez le dernier composant et cliquez sur la notation **Événement de fin** pour ajouter **l'Événement de fin**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_onceallneededcomponentsareadded.PNG
 |
 |
 
 
-#.	Check that the **End Event** notation is appended.
+#.	Vous verrez que la notation **Événement de fin** a été ajoutée.
 
 .. image:: /tutorials/_images/cs_configureworkflow_checkthattheendevent.PNG
 |
 |
 
 
-#.	Click on each component and fill out the details of each component (third vertical section): *Sheet Name, Primary Key Column, Type, Class ID/Class Column, Multiclassification, Type, Select Classes/Class Column Name, and Taxonomies*. Click on the **Save** button.
+#.	Cliquez sur chaque composant et renseignez les détails de chaque composant dans la troisième section verticale comme **Nom de la feuille, Colonne clé primaire, Type, ID de classe/Colonne de classe, Multiclassification, Type, Sélectionner les classes/Nom de colonne de classe, Taxonomies** et cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_configureworkflow_clickoneachcomponent.PNG
 |
 |
 
 
-Configure Workflow: Screen Elements
-====================================
-The following details are seen when creating a new workflow in the system.
+Configurer le flux de travail - Éléments de l’écran
+====================================================
 
 |
 
-**Create Workflow:**
+**Créer un flux de travail:**
 
-======    =================================     ============================================================
-Sr No     Screen Element                        Description
-======    =================================     ============================================================
-1          Name                                  Specify the name of a workflow.
+=========    =================================     ============================================================
+N° série      Éléments de l'écran                   Description
+=========    =================================     ============================================================
+1             Nom                                    Indiquez le nom du flux de travail.
 
-2          Event Type                            Select the type of event from the following options:
+2             Type d'événement                       Sélectionnez le type d’événement parmi les options suivantes:
 
-                                                  *	Business Process Workflow
-                                                  *	JMS Integration Workflow
+                                                        *	Flux de travail du processus commercial
+                                                        *	Flux de travail d'intégration JMS
 
-3          Code                                  Specify the code.
+3             Code                                   Indiquez le code.
 
-4          Create                                Click **Create** button to create a workflow.
-======    =================================     ============================================================
-
-|
-
-**Graphical Notations for Defining Workflow:**
-
-======    =================================     ==============================================================================================================================
-Sr No     Screen Element                        Description
-======    =================================     ==============================================================================================================================
-5         Start Event                           It acts as a process trigger. The first element in the flow will be the **Start Event**.
-
-6         Intermediate Event                    It represents something that happens between **Start Event and End Event**.
-
-7         End Event                             It represents the end of flow. It will be the last element while defining a workflow of onboarding process.
-
-8         Exclusive Gateway                     It is used to select only one of the paths from the created alternative paths or flows, depending on a condition.
-
-9         Parallel Gateway                      It is used to create parallel paths without evaluating any conditions.
-
-10        Inclusive Gateway                     It is used to create alternative flows where all paths are evaluated.
-
-11        Complex Gateway                       It is used only for the most complex flows in the business process.
-                                                Use the **Complex Gateway** if you need multiple gateways to describe the business flow.
-
-12        Event Based Gateway                   The condition determining the path of a process is based on an evaluated event.
-
-13        Task                                  A task is a type of activity which cannot be broken down further to a basic level of business process details.
-
-14        Send Task                             It is a type of task, which is used to send a message.
-
-15        Receive Task                          It is a type of task, which is used to send a message. It is a simple task that waits for the arrival of a certain message.
-
-16        User Task                             A User Task is used to model work that needs to be done by a human actor.
-
-17        Manual Task                           It is used to model work that is done by somebody who the engine does not need to know of.
-
-18        Business Rule Task                    It is used to synchronously execute one or more rules.
-
-19        Service Task                          It is used to invoke services.
-
-20        Script Task                           It is an automated activity.
-
-21        Subprocess                            It is a compound activity. It can be expanded or collapsed to show or hide the flow objects.
-
-22        Transaction                           **Transaction** is a form of subprocess in which all activities must be treated as an individual activity.
-                                                All the activities of a transaction must be completed to meet the objective.
-                                                If any one of them fails, then all activities must be reverted.
-
-23        Data Object                           It is used store the information used by your business processes.
-
-24        Data Store                            It provides a mechanism to retrieve or update stored information of process.
-======    =================================     ==============================================================================================================================
+4             CRÉER                                  Cliquez sur le bouton CRÉER pour créer le flux de travail.
+=========    =================================     ============================================================
 
 |
 
-.. image:: /tutorials/_images/cs_graphicalnotations.PNG
-   :alt: Graphical Notations
+**Notations graphiques pour la définition du flux de travail:**
+
+=========    ===================================     ==============================================================================================================================
+N° série      Éléments de l'écran                     Description
+=========    ===================================     ==============================================================================================================================
+5             Événement de début                      Il déclenche le processus. Le premier élément dans le flux sera l'Événement de début.
+
+6             Événement intermédiaire                 Il se produit entre l'Événement de début et l'Événement de fin.
+
+7             Événement de fin                        Il représente la fin du flux. Ce sera le dernier élément dans la définition d'un flux de travail de processus d'intégration.
+
+8             Passerelle exclusive                    Elle sert à sélectionner un seul des chemins parmi les chemins alternatifs ou les flux créés en fonction d'une condition.
+
+9             Passerelle parallèle                    Elle sert à créer des chemins parallèles sans évaluer les conditions.
+
+10            Passerelle inclusive                    Elle sert à créer des flux alternatifs lorsque tous les chemins sont évalués.
+
+11            Passerelle complexe                     Elle sert uniquement pour les flux les plus complexes dans le processus commercial. Utilisez la passerelle complexe si vous avez besoin de plusieurs passerelles pour décrire le flux commercial.
+
+12            Passerelle basée sur un événement       La condition déterminant le chemin d'un processus est basée sur un événement évalué.
+
+13            Tâche                                   Une tâche est un type d'activité qui ne peut pas être décomposé dans un niveau supérieur de détails du processus commercial.
+
+14            Tâche d'envoi                           C'est un type de tâche qui sert à envoyer un message.
+
+15            Tâche de réception                      C'est un type de tâche qui sert à recevoir un message. C'est une tâche simple qui attend l'arrivée d'un message particulier.
+
+16            Tâche d'utilisateur                     Elle sert à modéliser le travail qui doit être exécuté par un acteur humain.
+
+17            Tâche manuelle                          Elle sert à modéliser le travail qui est réalisé par quelqu'un que le moteur n'a pas besoin de connaître.
+
+18            Tâche de règle commerciale              Elle sert à l'exécution synchronisée d'une ou plusieurs règles.
+
+19            Tâche de service                        Elle sert à appeler des services.
+
+20            Tâche de script                         C'est une activité automatisée.
+
+21            Sous-processus                          C'est une activité composée. Elle peut être développée ou réduite pour afficher ou masquer les objets de flux.
+
+22            Transaction                             C'est une forme de sous-processus dans laquelle chaque activité doit être traitée comme une activité individuelle. Toutes les activités d'une transaction doivent être achevées pour atteindre l'objectif. Si l'une d'entre elles n'est pas achevée, toutes les activités doivent être inversées.
+
+23            Objet de données                        Il sert à stocker les informations utilisées par vos processus commerciaux.
+
+24            Banque de données                       C'est un mécanisme qui permet de récupérer ou actualiser les informations stockées du processus.
+=========    ===================================     ==============================================================================================================================
 
 |
 
-**Details of Component:**
-
-======    =================================     =========================================================================================================================================================================================================================================================================================================
-Sr No     Screen Element                         Description
-======    =================================     =========================================================================================================================================================================================================================================================================================================
-25        Sheet Name                             The onboarding file is an *Excel file*. Excel file may contain different sheets in it. Here, we need to mention the sheet name which contains the component details.
-
-26        Primary Key Column                     All the defined products in an onboarding file have unique identification or IDs.
-                                                 Here, in Primary Key Column, we need to define the column name of the sheet which contains the unique IDs of the product
-                                                 so the system will fetch all of the IDs of the product from the defined column of the sheet.
-
-27        Type                                   Here, we need to select one of the options from below:
-
-                                                    * **Single Class:** Select this option, if all defined products in an onboarding file use the same class in the system.
-                                                      For example, if all the products are *Individual Article* or all the products are *PID*.
-
-                                                    * **Column Class:** Select this option, if all defined products in an onboarding file use different types of classes in the system.
-                                                      For example, there are two products in a sheet; one is *Individual Article* and the other one is *PID*.
-
-28        Class ID/Class Column                  The value of this field is based on the selection in the *Type* field:
-
-                                                    * **Class ID:** When all the defined products in an onboarding file use the same class in the system,
-                                                      we select **Single Class** option in the *Type* field. In this case, we need to select that system generated class from the list as **Class ID**.
-
-                                                    * **Class Column:** When defined products in an onboarding file use different classes in the system,
-                                                      we select **Column Class** option in the *Type* field.
-                                                      In this case, we need to enter the column name of the sheet, which contains the IDs of all the classes in a *Class Column* field.
-
-29        Multiclassification                    Select this option, if defined products in a sheet use *Non-Nature Classes*.
-
-30        Type                                   As soon as you select the **MultiClassification** option, this option will be visible. Here, we need to select one of the options from below:
-
-                                                    * **Multiple Class:** Select this option, if defined products in an onboarding file use multiple system generated non-nature classes.
-
-                                                    * **Column Class:** Select this option, if defined products in an onboarding file use multiple non-nature classes, which are yet to be created.
-
-31        Select Classes/Class Column name       The value of this field is based on the selection in the *Type* field.
-
-                                                    * **Select Classes:** When all the defined products in an onboarding file use multiple system generated non-nature classes,
-                                                      we select **Multiple Class** option in the *Type* field. In this case, we need to select the system generated classes from the list.
-
-                                                    * **Class Column Name:** When defined products in an onboarding file use multiple non-nature classes which are yet to be created,
-                                                      we select **Column Class** option in the *Type* field. In this case, we need to enter the column name of the sheet,
-                                                      which contains the IDs of all the non-nature classes in a **Class Column Name** field.
-
-32        Taxonomies                            Here, we need to enter the column name of the sheet of an onboarding file which contains the taxonomy details.
-
-33        Save                                  Click on the **Save** button to save the workflow details.
-======    =================================     =========================================================================================================================================================================================================================================================================================================
+.. image:: /tutorials/_images/cs_french_graphicalnotations.PNG
+   :alt: Notations graphiques
 
 |
 
-| :doc:`Previous: Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
-| :doc:`Next: Configure Mapping </tutorials/onboardingpractical/configuremapping>`
+**Détails du composant:**
 
+=========    =================================     =========================================================================================================================================================================================================================================================================================================
+N° série      Éléments de l'écran                   Description
+=========    =================================     =========================================================================================================================================================================================================================================================================================================
+25            Nom de la feuille                      Le fichier d'intégration est le fichier Excel. Celui-ci peut contenir plusieurs feuilles. Ici, nous devons préciser le nom de la feuille qui contient les détails du composant.
+
+26            Colonne clé primaire                   Tous les produits définis dans un fichier d’intégration ont une identification unique, ou ID. Ici, dans la **Colonne clé primaire**, nous devons définir le nom de colonne de la feuille qui contient les ID uniques des produits. Ainsi, le système récupérera tous les ID du produit à partir de la colonne définie de la feuille.
+
+27            Type                                   Ici, nous devons sélectionner l'une des options suivantes:
+
+                                                       * **Classe unique:** Sélectionnez cette option si tous les produits définis dans un fichier d’intégration utilisent la même classe du système. Par exemple, si tous les produits sont Article individuel ou si tous les produits sont PID.
+
+                                                       * **Classe de colonne:** Sélectionnez cette option si les produits définis dans un fichier d'intégration utilisent différents types de classes du système. Par exemple, il y a deux produits dans une feuille ; l'un est un Article individuel et l'autre est PID.
+
+28            ID de classe/                          La valeur de ce champ dépend de la sélection du champ **Type**.
+              Colonne de classe
+                                                       * **ID de classe:** Lorsque tous les produits définis dans un fichier d'intégration utilisent la même classe du système, nous sélectionnons l'option **Classe unique** dans le champ **Type**. Dans ce cas, nous devons sélectionner cette classe générée par le système dans la liste comme **ID de classe**.
+
+                                                       * **Colonne de classe:** Lorsque les produits définis dans un fichier d'intégration utilisent différentes classes du système, nous sélectionnons l'option **Classe de colonne** dans le champ **Type**. Dans ce cas, nous devons saisir le nom de la colonne de la feuille, qui contient les ID de toutes les classes dans un champ **Colonne de classe**.
+
+29            Multiclassification                    Sélectionnez cette option si les produits définis dans une feuille utilisent des classes non natures.
+
+30            Type                                   Dès que vous sélectionnez l'option **Multiclassification**, cette option est visible. Ici, nous devons sélectionner l'une des options suivantes:
+
+                                                      * **Classe multiple:** Sélectionnez cette option si les produits définis dans un fichier d'intégration utilisent plusieurs classes non natures générées par le système.
+
+                                                      * **Classe de colonne:** Sélectionnez cette option si les produits définis dans un fichier d'intégration utilisent plusieurs classes non-natures qui n'ont pas encore été créées.
+
+31            Sélectionner les classes/             La valeur de ce champ dépend de la sélection du champ Type.
+              Nom de colonne de classe
+                                                      * **Sélectionner les classes:** Lorsque les produits définis dans un fichier d'intégration utilisent plusieurs classes non natures générées par le système, nous sélectionnons l'option **Classe multiple** dans le champ **Type**. Dans ce cas, nous devons sélectionner cette classe générée par le système dans la liste.
+
+                                                      * **Nom de colonne de classe:** Lorsque des produits définis dans un fichier d'intégration utilisent plusieurs classes non-natures qui n'ont pas encore été créées, nous sélectionnons l'option **Classe de colonne** dans le champ **Type**. Dans ce cas, nous devons saisir le nom de la colonne de la feuille, qui contient les ID de toutes les classes non natures dans un champ **Nom de colonne de classe**.
+
+32            Taxonomies                            Ici, nous devons saisir le nom de la colonne de la feuille d'un fichier d'intégration qui contient les détails de la taxonomie.
+
+33            ENREGISTRER                           Cliquez sur le bouton **ENREGISTRER** pour sauvegarder les détails du flux de travail.
+=========    =================================     =========================================================================================================================================================================================================================================================================================================
+
+|
 |
 
 

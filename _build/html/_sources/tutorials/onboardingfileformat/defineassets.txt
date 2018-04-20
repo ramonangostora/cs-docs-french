@@ -1,27 +1,27 @@
-===================================
-Define Assets in an Onboarding File
-===================================
+==================================================
+Définir des actifs dans un fichier d'intégration
+==================================================
 
-* All the assets will be listed in a single sheet of an excel file.
-* All the assets will be listed row-wise in a sheet. Each asset will have a separate row in a sheet.
-* The sheet will contain the following details of each asset column-wise:
+
+* Tous les actifs seront répertoriés dans une seule feuille d'un fichier Excel.
+
+* Tous les actifs seront répertoriés par lignes dans une feuille. Chaque actif aura une ligne distincte dans une feuille.
+
+* La feuille contiendra les détails suivants de chaque actif par colonnes:
 
 ====================   =======================================================================================================================================================================================================================================================================
-Details                Description
+Détails                 Description
 ====================   =======================================================================================================================================================================================================================================================================
-Asset ID               Mention the unique identification of each asset in this column. There is no restriction on column name/column header.
+ID de l'actif           Mentionnez l'identifiant unique de chaque produit dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
 
-Asset Name             Mention the name of each asset in this column. There is no restriction on column name/column header.
+Nom de l'actif          Mentionnez le nom de chaque actif dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.
 ====================   =======================================================================================================================================================================================================================================================================
 
 
 .. image:: /tutorials/_images/cs_tutorial_defineasset.PNG
 |
+
 |
-
-| :doc:`Previous: Define Articles, Tags, Taxonomy, and Class in an Onboarding File </tutorials/onboardingfileformat/definearticles>`
-| :doc:`Next: Define Variants in an Onboarding File </tutorials/onboardingfileformat/definevariants>`
-
 |
 
 

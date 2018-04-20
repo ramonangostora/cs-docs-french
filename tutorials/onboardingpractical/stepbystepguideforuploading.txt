@@ -1,55 +1,55 @@
-=================================================
-Step-By-Step Guide for Uploading Onboarding File
-=================================================
-To upload an onboarding file, follow the steps below:
+=======================================================================
+Guide pas-à-pas pour le téléchargement d'un fichier d'intégration
+=======================================================================
+
 
 |
 
-#.	Log in to the application and click on the **Data Integration** tab.
+#.	Connectez-vous à l'application et cliquez sur l'onglet **Intégration de données**.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_logintotheapp.PNG
 |
 |
 
 
-#.	Click on the **File Uploads** link of the endpoint.
+#.	Cliquez sur le lien **Téléchargement de fichiers** du point de terminaison.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickfileuploads.PNG
 |
 |
 
 
-#.	Click on the **Import File** icon and upload the onboarding file.
+#.	Cliquez sur l’icône "Importer le fichier" et téléchargez le fichier d’intégration.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickimportfile.PNG
 |
 |
 
 
-#. Click on the **Workflow Status** tab to check the progress of the uploaded file.
+#.  Cliquez sur l'onglet **Statut du flux de travail** pour vérifier la progression du fichier téléchargé.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickworkflowstatus.PNG
 |
 
 
-Status
+Statut
 =======
 
 ==============    =========================     ========================================================================================================================================================================================================================
-Sr No             Status                        Description
+N° série           Statut                        Description
 ==============    =========================     ========================================================================================================================================================================================================================
-1                 In Progress                   This status indicates that the onboarding process is in progress. The component will be marked with orange border to show this status.
+1                  En cours                      Ce statut indique que le processus d'intégration est en cours. Le composant sera marqué par une bordure orange pour indiquer ce statut.
 
-2                 Completed                     This status indicates that the onboarding file is uploaded, data is validated, and data is pushed to the supplier’s PIM/Onboarding portal. The component will be marked with green border to show this status.
+2                  Terminé                       Ce statut indique que le fichier d'intégration est téléchargé, que les données sont validées et que les données sont envoyées au portail PIM/Intégration du fournisseur. Le composant sera marqué par une bordure verte pour indiquer ce statut.
 
-3                 Failed                        This status indicates that the onboarding process has failed, and it cannot proceed further. The component will be marked with red border to show this status.
+3                  Échec                         Ce statut indique que le processus d'intégration a échoué et qu'il ne peut pas continuer. Le composant sera marqué par une bordure rouge pour indiquer ce statut.
 
-4                 Not Started                   This status indicates that the onboarding process has not yet started. The component will be marked with gray border to show this status.
+4                  Pas démarré                   Cet état indique que le processus d'intégration n'a pas encore démarré. Le composant sera marqué par une bordure grise pour indiquer ce statut.
 ==============    =========================     ========================================================================================================================================================================================================================
 
 |
 
-#. Click on the **Catalog** tab for any data violation. The total number of violations are shown against each product. Place the cursor over the total number of violations to show the violations. The violations are shown in red, orange, and yellow color.
+#. Cliquez sur l'onglet **Catalogue** pour rechercher une éventuelle violation de données. Le nombre total de violations est indiqué à côté de chaque produit. Placez le curseur sur le nombre total de violations pour afficher le détail des violations. Les violations sont indiquées en rouge, orange et jaune.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickcatalogtab.PNG
 |
@@ -59,39 +59,37 @@ Violations
 ===========
 
 ==============    =========================     ========================================================================================================================================================================================================================
-Sr No             Status                        Description
+N° série           Violation                      Description
 ==============    =========================     ========================================================================================================================================================================================================================
-1                 Red Violation                 This is the violation with the highest priority. It cannot be ignored. The products with red violation will not be pushed to the PIM/Onboarding portal.
+1                  Violation rouge                C'est la violation qui a la priorité la plus élevée. Elle ne peut pas être ignorée. Les produits qui présentent une violation rouge ne seront pas envoyés au portail PIM/Intégration.
 
-2                 Orange Violation              This is the violation with medium priority. It can be ignored. The system will allow you to proceed with the onboarding of a product with orange violations.
+2                  Violation orange               C'est une violation qui a une priorité moyenne. Elle peut être ignorée. Le système vous permettra de poursuivre le processus d'intégration d'un produit qui présente des violations orange.
 
-3                 Yellow Violation              This is the violation with the lowest priority. It can be ignored. The system will allow you to proceed with the onboarding of a product with yellow violations. It is the least significant violation.
+3                  Violation jaune                C'est la violation qui a la priorité la plus basse. Elle peut être ignorée. Le système vous permettra de poursuivre le processus d'intégration d'un produit qui présente des violations jaune. C'est la moins importante.
 ==============    =========================     ========================================================================================================================================================================================================================
 
 |
 
-#. Click on the **Media** tab to see all the media files. These media files are mapped with their respective articles.
+#. Cliquez sur l'onglet **Médias** pour voir tous les fichiers multimédia. Ces fichiers sont mappés avec leurs articles respectifs.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickmedia.PNG
 |
 |
 
-#. Click on the **Catalog** tab and select all the products that are needed to be transferred to the Onboarding or PIM portal (Self).
+
+#. Cliquez sur l'onglet **Catalogue** et sélectionnez tous les produits à transférer sur le portail d'intégration ou PIM (Auto).
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clickcatalogtab2.PNG
 |
 |
 
-#. Click on the **Transfer** icon and select Transfer To PIM or Transfer To Onboarding option.
+
+#. Cliquez sur l'icône "Transférer" et sélectionnez l'option Transférer vers PIM ou Transférer vers Intégration.
 
 .. image:: /tutorials/_images/cs_stepbystepguideforuploading_clicktransfericon.PNG
 |
+
 |
-
-
-| :doc:`Previous: Assign Endpoint to Partner and Role </tutorials/onboardingpractical/assignendpoint>`
-| :doc:`Next: Onboarding File Format </tutorials/onboardingfileformat/index>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

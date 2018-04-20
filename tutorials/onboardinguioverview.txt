@@ -1,16 +1,17 @@
-============
-UI Overview
-============
-Components that drive the onboarding/offboarding processes are detailed below:
+=========================================
+Présentation de l'interface utilisateur
+=========================================
+Les composants moteurs du processus d'intégration/d'extraction sont:
 
 
-Information
-============
-The Information Dashboard provides the users with several widgets to gain a high level overview of the system.
-Pictured below are components for *Data Quality and Content Upload*. The data quality widget uses a traffic light rating system.
-The products with Red violations can’t be pushed into the PIM portal. It is also possible to rectify the product data by clicking on each chart.
+Les informations
+=================
+Le tableau de bord **Informations** donne aux utilisateurs plusieurs widgets pour obtenir une présentation générale du système.
+Dans l'image ci-dessous sont présentés des composants pour la qualité des données et le téléchargement de contenu.
+Le widget de qualité des données utilise un système de notation similaire aux feux de signalisation.
+Les produits qui présentent des violations rouges ne peuvent pas être diffusés dans le portail PIM. Il est également possible de rectifier les données de produit en cliquant sur chaque graphique.
 
-On the lower part of the screen, widgets for *'Recently Updated'* and *'Recently Added'* contents are visible.
+Dans la partie inférieure de la capture d'écran des composants pour les produits « Récemment créés » et « Récemment modifiés » sont visibles.
 
 |
 
@@ -19,10 +20,11 @@ On the lower part of the screen, widgets for *'Recently Updated'* and *'Recently
 |
 
 
-Data Integration
-=================
-The Data Integration tab displays a bunch of endpoints: *Onboarding and Offboarding*.
-The summary box for each of this endpoint will display information like *Number of Files Uploaded, Successful File and Article Uploads*, and *Number of Products with various violations*.
+Intégration de données
+=======================
+L’onglet **Intégration de données** affiche des paquets de points de terminaison - intégration et extraction.
+La boîte de résumé de chaque point de terminaison affichera des informations telles que le nombre de fichiers téléchargés,
+le nombre de téléchargements de fichiers et d'articles réussis ainsi que le nombre de produits présentant diverses violations.
 
 |
 
@@ -31,9 +33,9 @@ The summary box for each of this endpoint will display information like *Number 
 |
 
 
-Import File
-=============
-The Import File button initiates the upload process. Click on the **Import File** icon to upload a file into the system.
+Importer un fichier
+====================
+Cliquez sur l'icône d'importation pour télécharger un fichier sur le système.
 
 |
 
@@ -42,11 +44,10 @@ The Import File button initiates the upload process. Click on the **Import File*
 |
 
 
-Workflow Status
-================
-Workflow Status gives the user a view of the progress of any onboarding jobs.
-The Workflow Status menu will display the following: *Title of the file, the Workflow ‘Start Time’ and ‘End Time’*,
-and also, the *Status* that changes from *‘In Progress to Completed’* if there are no errors.
+État du flux de travail
+========================
+L'état du flux de travail donne à l'utilisateur une vue sur l'avancement des tâches d'intégration.
+Le menu **État du flux de travail** affichera – Titre du fichier, 'heure de début' et 'heure de fin' du flux de travail, et enfin, le statut basculant de « En cours » à « Terminé » s'il n'y a pas d'erreurs.
 
 |
 
@@ -55,9 +56,9 @@ and also, the *Status* that changes from *‘In Progress to Completed’* if the
 |
 
 
-Catalog
-========
-Catalog tab displays the list of uploaded products.  You can check the details of each product by clicking on them.
+Catalogue
+==========
+L'onglet **Catalogue** affiche la liste des produits téléchargés. Vous pouvez vérifier les détails de chaque produit en cliquant dessus.
 
 |
 
@@ -66,9 +67,9 @@ Catalog tab displays the list of uploaded products.  You can check the details o
 |
 
 
-Media
-======
-The Media tab in the onboarding portal displays all the uploaded media files along with the products details.
+Médias
+=======
+L’onglet **Médias** dans le portail d'intégration affichera tous les fichiers médias téléchargés ainsi que les détails des produits.
 
 |
 
@@ -76,10 +77,6 @@ The Media tab in the onboarding portal displays all the uploaded media files alo
 |
 |
 
-| :doc:`Previous: Key Terms </tutorials/onboardingkeyterms>`
-| :doc:`Next: Design and Architecture </tutorials/onboardingdesignandarchitecture>`
-
-|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

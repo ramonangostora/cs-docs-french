@@ -2,10 +2,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Nested Variants in an Onboarding File &#8212; Contentsphere  documentation</title>
+    <title>Variantes imbriquées dans un fichier d’intégration &#8212; Contentsphere  documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -23,8 +23,8 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Define Nature Relationship in an Onboarding File" href="definenature.html" />
-    <link rel="prev" title="Define Variants in an Onboarding File" href="definevariants.html" />
+    <link rel="next" title="Définir une relation de nature dans un fichier d’intégration" href="definenature.html" />
+    <link rel="prev" title="Définir des variantes dans un fichier d’intégration" href="definevariants.html" />
 
 
 
@@ -106,11 +106,11 @@
       
     </div>
     <!-- <div class="nav">
-    &laquo; <a href="definevariants.html" title="Define Variants in an Onboarding File">previous</a>
+    &laquo; <a href="definevariants.html" title="Définir des variantes dans un fichier d’intégration">previous</a>
      |
     <a href="../index.html" title="Tutorials" accesskey="U">up</a>
    |
-    <a href="definenature.html" title="Define Nature Relationship in an Onboarding File">next</a> &raquo;</div> -->
+    <a href="definenature.html" title="Définir une relation de nature dans un fichier d’intégration">next</a> &raquo;</div> -->
 
     <div id="bd">
       <div id="yui-main">
@@ -121,19 +121,19 @@
               
                 <span><a href="../index.html">Tutorials</a> /
               
-                <span><a href="index.html">Onboarding File Format</a> /
+                <span><a href="index.html">Format de fichier d’intégration</a> /
               
-              <span>Nested Variants in an Onboarding File</span>
+              <span>Variantes imbriquées dans un fichier d’intégration</span>
               </span></span>
             </div>
           
           <div class="yui-g" id="tutorials-onboardingfileformat-nestedvariants">
             
-  <div class="section" id="s-nested-variants-in-an-onboarding-file">
-<span id="nested-variants-in-an-onboarding-file"></span><h1>Nested Variants in an Onboarding File<a class="headerlink" href="#nested-variants-in-an-onboarding-file" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="s-variantes-imbriquees-dans-un-fichier-d-integration">
+<span id="variantes-imbriquees-dans-un-fichier-d-integration"></span><h1>Variantes imbriquées dans un fichier d’intégration<a class="headerlink" href="#variantes-imbriquees-dans-un-fichier-d-integration" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li>All nested variants of all products will be listed in a single sheet of an excel file.</li>
-<li>The nested variant sheet will contain the following details of each nested variant column wise:</li>
+<li>L’ensemble des variantes imbriquées de tous les produits seront répertoriées dans une seule feuille d’un fichier Excel.</li>
+<li>La feuille des variantes imbriquées contiendra les détails suivants pour chaque variante imbriquée par colonnes:</li>
 </ul>
 <table class="docutils">
 <colgroup>
@@ -141,38 +141,34 @@
 <col width="94%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">Details</th>
+<tr class="row-odd"><th class="head">Détails</th>
 <th class="head">Description</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>ArticleID</td>
-<td>You need to mention the unique identification of an article for which you are defining nested variant in this column. This will have the value from ArticleID column from the sheet in which you have defined all articles.</td>
+<tr class="row-even"><td>ID de variante imbriquée</td>
+<td>Vous devez mentionner l’identifiant unique de chaque variante imbriquée dans cette colonne. Il n’y a aucune restriction sur l’en-tête de colonne/le nom de colonne.</td>
 </tr>
-<tr class="row-odd"><td>VariantID</td>
-<td>You need to mention the unique identification of variant for which you are defining nested variant in this column.</td>
+<tr class="row-odd"><td>ID d’article</td>
+<td>Vous devez mentionner l’identifiant unique d’un article pour lequel vous définissez la variante imbriquée dans cette colonne. Il aura la valeur de la colonne <strong>ID d’article</strong> de la feuille dans laquelle vous avez défini tous les articles.</td>
 </tr>
-<tr class="row-even"><td>Variant</td>
-<td>You need to mention the variant name as column header for which you are defining nested variant. For example, if you want to define nested variant of unit variant, then define column header as Unit. If you define unit variant, then you need to define sub types of unit variant in this column for which you want to define nested variant.</td>
+<tr class="row-even"><td>ID de variante</td>
+<td>Vous devez mentionner l’identifiant unique de la variante pour laquelle vous définissez la variante imbriquée dans cette colonne.</td>
 </tr>
-<tr class="row-odd"><td>Nested Variant</td>
-<td>You need to mention the nested variant name as column header. For example, if you want to define GTIN as nested variant, then define column header as GTIN. You need to provide GTIN value in this column.</td>
+<tr class="row-odd"><td>Variante</td>
+<td>Vous devez mentionner le nom de la variante comme en-tête de colonne pour laquelle vous définissez la variante imbriquée. Par exemple, si vous souhaitez définir une variante d’unité imbriquée, définissez l’en-tête de colonne comme <strong>Unité</strong>. Si vous définissez une variante d’unité, vous devez définir des sous-types de variante d’unité dans cette colonne pour laquelle vous souhaitez définir une variante imbriquée.</td>
 </tr>
-<tr class="row-even"><td>Attribute</td>
-<td>You need to mention the attribute name as column header. For example, if we are defining unit variant, then its attributes can be <strong>IsBaseUnit</strong>, <strong>IsSalesUnit</strong>, etc. You need to provide the value of attribute against each sub type of unit variant in each row.</td>
+<tr class="row-even"><td>Variante imbriquée</td>
+<td>Vous devez mentionner le nom de la variante imbriquée comme en-tête de colonne. Par exemple, si vous souhaitez définir GTIN comme variante imbriquée, alors définissez l’en-tête de colonne comme <strong>GTIN</strong>. Vous devez indiquer la valeur GTIN dans cette colonne.</td>
 </tr>
 </tbody>
 </table>
 <img alt="../../_images/cs_tutorial_nestedvariants.PNG" src="../../_images/cs_tutorial_nestedvariants.PNG" />
 <div class="line-block">
 <div class="line"><br /></div>
+</div>
+<div class="line-block">
 <div class="line"><br /></div>
-</div>
-<div class="line-block">
-<div class="line"><a class="reference internal" href="definevariants.html"><span class="doc">Previous: Define Variants in an Onboarding File</span></a></div>
-<div class="line"><a class="reference internal" href="definenature.html"><span class="doc">Next: Define Nature Relationship in an Onboarding File</span></a></div>
-</div>
-<div class="line-block">
 <div class="line"><br /></div>
 </div>
 <img alt="Contentsphere line" src="../../_images/line-png-32.PNG" />
@@ -193,10 +189,10 @@
   <h3>Browse</h3>
   <ul>
     
-      <li>Prev: <a href="definevariants.html">Define Variants in an Onboarding File</a></li>
+      <li>Prev: <a href="definevariants.html">Définir des variantes dans un fichier d’intégration</a></li>
     
     
-      <li>Next: <a href="definenature.html">Define Nature Relationship in an Onboarding File</a></li>
+      <li>Next: <a href="definenature.html">Définir une relation de nature dans un fichier d’intégration</a></li>
     
   </ul>
   <h3>You are here:</h3>
@@ -206,9 +202,9 @@
         
           <ul><li><a href="../index.html">Tutorials</a>
         
-          <ul><li><a href="index.html">Onboarding File Format</a>
+          <ul><li><a href="index.html">Format de fichier d’intégration</a>
         
-        <ul><li>Nested Variants in an Onboarding File</li></ul>
+        <ul><li>Variantes imbriquées dans un fichier d’intégration</li></ul>
         </li></ul></li></ul>
       </li>
   </ul>
@@ -226,7 +222,7 @@
         </div>
       </div>
                 <h3>Last update:</h3>
-                <p class="topless">Apr 13, 2018</p>
+                <p class="topless">Apr 19, 2018</p>
             </div>
           </div>
         
@@ -237,13 +233,13 @@
     <script type="text/javascript" src="https://contentsphere.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-4bqv2z/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=c6215c07"></script>
 
     <div id="ft">
-        <p class="topless">Last updated: Apr 13, 2018</p>
+        <p class="topless">Last updated: Apr 19, 2018</p>
       <div class="nav">
-    &laquo; <a href="definevariants.html" title="Define Variants in an Onboarding File">previous</a>
+    &laquo; <a href="definevariants.html" title="Définir des variantes dans un fichier d’intégration">previous</a>
      |
     <a href="../index.html" title="Tutorials" accesskey="U">up</a>
    |
-    <a href="definenature.html" title="Define Nature Relationship in an Onboarding File">next</a> &raquo;</div>
+    <a href="definenature.html" title="Définir une relation de nature dans un fichier d’intégration">next</a> &raquo;</div>
     </div>
   </div>
 

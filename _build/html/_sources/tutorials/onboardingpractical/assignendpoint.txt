@@ -1,58 +1,59 @@
-====================================
-Assign Endpoint to Partner and Role
-====================================
-To assign an endpoint to partners and roles, follow these steps:
+==========================================================
+Affecter un point de terminaison au partenaire et au rôle
+==========================================================
 
 |
 
-#. Navigate to **Partner Administration** -> **Partners** menu and click on the created partner to whom you want to assign the endpoint.
+#. Connectez-vous à l'application et cliquez sur l'icône "Administration".
+
+.. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
+|
+|
+
+
+#. Accédez au menu **Administration de partenaires -> Partenaires** et cliquez sur le partenaire créé auquel vous souhaitez affecter le point de terminaison.
 
 .. image:: /tutorials/_images/cs_assignendpoint_navigate.PNG
 |
 |
 
 
-#. Click on the created endpoint from the *Systems* section.
+#. Sélectionnez le point de terminaison créé dans la section **Systèmes** en cliquant sur le point de terminaison.
 
 .. image:: /tutorials/_images/cs_assignendpoint_clickcreatedendpoint.PNG
 |
 |
 
 
-#.	Click on the **Roles** tab and click on the created endpoint from the *Systems* section.
+#.	Cliquez sur l'onglet **Rôles** et sélectionnez le point de terminaison créé dans la section **Systèmes** en cliquant sur le point de terminaison.
 
 .. image:: /tutorials/_images/cs_assignendpoint_clickroles.PNG
 |
 |
 
 
-#.	Click on the **Save** button
+#.	Cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_assignendpoint_clicksave.PNG
 |
 |
 
 
-Assign Endpoint to Partner and Role: Screen Elements
-=====================================================
-The following details are to be provided to be able to assign an endpoint to the partners and roles in the system.
+Affecter un point de terminaison au partenaire et au rôle - Éléments d'écran
+=============================================================================
 
 =========    =================================     ========================================================================================================================================================
-Sr No        Screen Element                        Description
+N° série      Éléments de l'écran                   Description
 =========    =================================     ========================================================================================================================================================
-1            System                                Select the **Inbound Endpoint** and **Outbound Endpoint** from the *Systems* section to associate it with the partner and role.
+1             Système                               Sélectionnez le **Point de terminaison entrant** et le **Point de terminaison sortant** dans la section **Système** pour l’associer au partenaire et au rôle.
 
-2            Save                                  Click on the **Save** button to save the details.
+2             ENREGISTRER                           Cliquez sur le bouton **ENREGISTRER** pour sauvegarder les détails.
 
-3            Discard                               Click on the **Discard** button to discard the details.
+3             IGNORER                               Cliquez sur le bouton **IGNORER** pour ignorer les détails.
 =========    =================================     ========================================================================================================================================================
 
 
 |
-
-| :doc:`Previous: Configure Endpoint </tutorials/onboardingpractical/configureendpoint>`
-| :doc:`Next: Step-By-Step Guide for Uploading Onboarding File </tutorials/onboardingpractical/stepbystepguideforuploading>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG

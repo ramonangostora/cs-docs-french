@@ -1,12 +1,12 @@
-=============================
-Practical Quick Start Guide
-=============================
+===================================
+Guide pratique de démarrage rapide
+===================================
 
 
-Step-By-Step Guide for Configuration
-=====================================
-Onboarding process requires configuration of following system components: *User, Partner and Role, Assign User to Role, Workflow, Mapping, Endpoint, and
-Assign Endpoint to Partner and Role*.
+Guide pas-à-pas pour la configuration
+======================================
+Le processus d'intégration nécessite la configuration des composants système suivants: *Utilisateur, Partenaire et rôle, Affecter des utilisateurs au rôle, Flux de travail,
+Mappages, Points de terminaison, Affecter un point de terminaison au partenaire et au rôle*.
 
 
 .. toctree::
@@ -21,14 +21,15 @@ Assign Endpoint to Partner and Role*.
 
 |
 
-Step-By-Step Guide for Uploading Onboarding File
-=================================================
+Guide pas-à-pas pour le téléchargement d'un fichier d'intégration
+==================================================================
+
 
 .. toctree::
    :maxdepth: 1
 
    stepbystepguideforuploading
-   
+
 |
 
 

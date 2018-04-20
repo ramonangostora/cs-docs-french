@@ -1,51 +1,50 @@
-==========
-Key Terms
-==========
+=============
+Termes clés
+=============
 
 |
 
-* Onboarding
-    Onboarding is the process of transferring product data from a partner’s system to the main PIM.
-    The product details are put together in a file and then uploaded into the retailer’s PIM system. The PIM will fetch the details of the file and validate it with the MDM.
+* Intégration
+    L'intégration est le processus de transfert de données produits depuis le système d'un partenaire vers le PIM principal.
+    Les informations du produit sont rassemblées dans un fichier puis téléchargées dans le système PIM du détaillant.
+    Le PIM va récupérer les détails du fichier et les valider avec le MDM.
 
-* Offboarding
-    The offboarding process allows the user to export product data from Contentserv.
-    The data can be downloaded as a file that can be pushed out to channels such as ecommerce.
+* Extraction
+    Le processus d'extraction permet à l'utilisateur d'exporter des données produits à partir de Contentserv.
+    Les données peuvent être téléchargées dans un fichier ou diffusées sur des canaux tels que le e-commerce.
 
-* User
-    The user is someone who logs into the Contentserv system.
+* Utilisateur
+    L'utilisateur est une personne qui se connecte au système Contentserv.
 
-* Role
-    A role defines the permissions of a user in the system. An organization can have several roles such as an *Administrator* or a *General User*.
-    The roles vary between organizations but can be created to match the roles in your company.
+* Rôle
+    Un rôle définit les autorisations d'un utilisateur dans le système. Une entreprise peut avoir plusieurs rôles tels qu'Administrateur ou Utilisateur général.
+    Les rôles varient selon les entreprises, mais des rôles spécifiques à votre entreprise peuvent être créés.
 
-* Workflow
-    A workflow is a business process that is modeled digitally within Contentserv. An example of a workflow being used in Contentserv is a workflow to manage the product lifecycle.
+* Flux de travail
+    Un flux de travail est un processus commercial qui est modélisé numériquement dans Contentserv.
+    Un exemple de flux de travail utilisé dans Contentserv est la gestion du cycle de vie des produits.
 
-* Mapping
-    Mapping connects different elements (*attributes, tags, classes, and taxonomies*) defined in an onboarding file to their respective elements (*attributes, tags, classes, and taxonomies*) defined in the system.
+* Mappages
+    Le mappage relie les différents éléments (*attributs, balises, classes et taxonomies*) définis dans un fichier d'intégration à leurs éléments respectifs (*attributs, balises, classes et taxonomies*) définis dans le système.
 
-* Endpoint
-    The endpoint is a data gateway into the Contentserv. Custom endpoints can be configured for data import and data export.
+* Points de terminaison
+    Le point de terminaison est une passerelle de données dans Contentserv.
+    Des points de terminaison personnalisés peuvent être configurés pour l’importation et l’exportation de données.
 
-* Inbound Endpoint
-    The inbound endpoint is the gateway through which a file is imported into the system.
+* Point de terminaison entrant
+    Le point de terminaison entrant est la passerelle par laquelle un fichier est importé dans le système.
 
-* Outbound Endpoint
-    The outbound endpoint is the gateway through which a file is exported from the system.
+* Point de terminaison sortant
+    Le point de terminaison sortant est la passerelle par laquelle le fichier est exporté hors du système.
 
-* Nature and Non-Nature Classes
-    *Nature Class:* A class that defines the base type of a product. This product type is specific to how the product should behave in the Contentserv software.
-    Nature Classes could include *Single Article, Product, Bundle, or other custom-made product types*.
+* Classe nature et non-nature
+    *Classe nature:* Classe qui définit le type de base du produit. Ce type de produit est spécifique à la façon dont le produit doit se comporter dans le logiciel Contentserv.
+    Les classes nature peuvent inclure *Article unique, Produit, Paquet ou d'autres types de produits personnalisés*.
 
-    *Attribution Class*: (also called Non-Nature Class) A class that adds specific attributes to the product it is assigned to.
-    For example, a Mobile Phone class may add attributes for *Screen Size, Memory Size, Operating System*, etc.
+    *Classe d'attribution:*  Classe qui ajoute des attributs spécifiques au produit auquel elle est affectée.
+    Par exemple, une classe Téléphonie mobile peut ajouter des attributs pour *Taille de l'écran, Taille de la mémoire, Système d'exploitation,* etc.
 
 |
-
-| :doc:`Previous: Overview </tutorials/onboardingoverview>`
-| :doc:`Next: UI Overview </tutorials/onboardinguioverview>`
-
 |
 
 

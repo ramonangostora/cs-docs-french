@@ -1,152 +1,143 @@
-==============================================
-Create Partner, Role, and Assign User to Role
-==============================================
-To create a Partner, a Role, and also to assign a user to a specific role; follow these steps:
+=====================================================================
+Créer un Partenaire, un Rôle, et Affecter des utilisateurs à un Rôle
+=====================================================================
 
 
 |
 
-#.	Log in to the application and click on the **Administration** button.
+#. Connectez-vous à l'application et cliquez sur l'icône "Administration".
 
 .. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
 |
 |
 
 
-#.	Go to *Partner Administration* and then to *Partners*.
+#.  Accédez au menu **Administration des partenaires -> Partenaires**.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_gotopartneradmin.PNG
 |
 |
 
 
-#. Click "+" icon to create a new partner.
+#.  Cliquez sur l'icône "+" pour créer le partenaire.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_clickicontocreatepartner.PNG
 |
 |
 
 
-#.	Provide the following details: *Name, Type, and Code.* Then, click on the **Create** button.
+#.  Renseignez les informations demandées comme **Nom, Type, Code** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_providethefollowingdetails.PNG
 |
 |
 
 
-#.	Select the created partner and then click on the **Roles** tab.
+#.  Sélectionnez le partenaire créé et cliquez sur l'onglet **Rôles**.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_selectthecreatedpartner.PNG
 |
 |
 
 
-#.	In that tab, click on the "+" icon to create a role that is specific to a partner.
+#.	Cliquez sur l'icône "+" pour créer un rôle spécifique au partenaire.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_inthattabclickon.PNG
 |
 |
 
 
-#.	Provide the following details: *Name, Code, and Role Type.* Then, click on the **Create** button.
+#.	Renseignez les informations demandées comme **Nom, Code, Type de Rôle** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_providetheffdetails.PNG
 |
 |
 
 
-#.	Select the created role and click on the **Users** field.
+#.	Sélectionnez le rôle créé et cliquez sur le champ Utilisateurs.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_selectthecreatedrole.PNG
 |
 |
 
 
-#.	Select the users that you want to assign to the role from the list and then, click on the **Apply** button. The selected users will be assigned to the newly created role .
+#.	Dans la liste, sélectionnez les utilisateurs que vous souhaitez affecter au rôle et cliquez sur le bouton **Appliquer**. Les utilisateurs sélectionnés seront affectés au rôle.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_selecttheusers.PNG
 |
 |
 
 
-#.	Click on the **Save** button.
+#.	Cliquez sur le bouton **ENREGISTRER**.
 
 .. image:: /tutorials/_images/cs_createpartnerrole_clickonthesavebutton.PNG
 |
 |
 
 
-Create Partner, Role, and Assign User to Role: Screen Elements
-===============================================================
-The following details are to be provided to be able to create a new partner and a new role in the system.
-The elements for assigning a user to a role are also enumerated.
+Créer un Partenaire, un Rôle, et Affecter des utilisateurs à un Rôle - Éléments d'écran
+========================================================================================
 
 |
 
+**Créer un partenaire:**
 
-**Create Partner:**
+=========    =================================     ============================================================
+N° série      Éléments de l'écran                   Description
+=========    =================================     ============================================================
+1             Nom                                   Indiquez le prénom d'un partenaire.
 
-======    =================================     ============================================================
-Sr No     Screen Element                        Description
-======    =================================     ============================================================
-1          Name                                  Specify the name of a partner.
+2             Type                                  Sélectionnez le type de partenaire dans les options suivantes :
 
-2          Type                                  Select the type of a partner from the following options:
+                                                      *	Fournisseur
+                                                      *	Places de marché
+                                                      *	Distributeur
+                                                      *	Grossistes
+                                                      *	Agence de traduction
+                                                      *	Agence d'enrichissement de contenu
+                                                      * Agence de produits numériques
 
-                                                  *	Supplier
-                                                  *	Marketplaces
-                                                  *	Distributor
-                                                  *	Wholesalers
-                                                  *	Translation Agency
-                                                  *	Content Enrichment Agency
-                                                  *	Digital Asset Agency
+3             Code                                  Indiquez le code
 
-3          Code                                  Specify the code.
+4             CRÉER                                 Cliquez sur le bouton **CRÉER** pour créer le partenaire.
 
-4          Create                                Click **Create** button to create a partner.
-
-5          Cancel                                Click **Cancel** button to cancel the details of a partner.
-======    =================================     ============================================================
-
-|
-
-**Create Role:**
-
-======    =================================     ============================================================
-Sr No     Screen Element                        Description
-======    =================================     ============================================================
-6          Name                                  Specify the name of a role.
-
-7          Code                                  Specify the code.
-
-8          Role Type                             Select Role Type from following options:
-
-                                                  *	System Admin
-                                                  *	User
-
-9          Create                                Click **Create** button to create a role.
-
-10         Cancel                                Click **Cancel** button to cancel the role details.
-======    =================================     ============================================================
+5             ANNULER                               Cliquez sur le bouton ANNULER pour annuler les informations d'un partenaire.
+=========    =================================     ============================================================
 
 |
 
-**Assign User to Role:**
+**Créer un rôle:**
 
-======    =================================     ============================================================
-Sr No     Screen Element                        Description
-======    =================================     ============================================================
-11         Users                                 Select the users from the list and click the **Apply** button.
-                                                 The selected users will be assigned to that role.
+=========    =================================     ============================================================
+N° série      Éléments de l'écran                    Description
+=========    =================================     ============================================================
+6             Nom                                   Indiquez le nom d'un rôle.
 
-12         Save                                  Click on **Save** button to save the details.
-======    =================================     ============================================================
+7             Code                                  Indiquez le code.
+
+8             Type de rôle                          Sélectionnez le Type de rôle parmi les options suivantes:
+
+                                                      *	Admin système
+                                                      *	Utilisateur
+
+9             CRÉER                                 Cliquez sur le bouton **CRÉER** pour créer un rôle.
+
+10            ANNULER                               Cliquez sur le bouton **ANNULER** pour annuler les informations du rôle.
+=========    =================================     ============================================================
 
 |
 
-| :doc:`Previous: Create User </tutorials/onboardingpractical/createuser>`
-| :doc:`Next: Configure Workflow </tutorials/onboardingpractical/configureworkflow>`
+**Affecter des utilisateurs au rôle:**
 
+=========    =================================     ============================================================
+N° série      Éléments de l'écran                    Description
+=========    =================================     ============================================================
+11            Utilisateurs                           Sélectionnez les utilisateurs dans la liste et cliquez sur le bouton Appliquer. Les utilisateurs sélectionnés seront affectés au rôle.
+
+12            ENREGISTRER                            Cliquez sur le bouton **ENREGISTRER** pour sauvegarder les détails.
+=========    =================================     ============================================================
+
+|
 |
 
 

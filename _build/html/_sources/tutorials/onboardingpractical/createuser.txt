@@ -1,72 +1,65 @@
-=============
-Create User
-=============
-To create a new user, follow the steps below:
+=====================
+Créer un utilisateur
+=====================
 
-|
 
-#.	Log in to the application and click on the **Administration** button.
+#. Connectez-vous à l'application et cliquez sur l'icône "Administration".
 
 .. image:: /tutorials/_images/cs_createuser_logintotheapp.PNG
 |
 |
 
 
-#.	Go to the *Partner Administration* tab, then to *Users*.
+#. Accédez au menu **Administration des partenaires -> Utilisateurs**.
 
 .. image:: /tutorials/_images/cs_createuser_gotopartneradmin.PNG
 |
 |
 
 
-#.	Click the "+" icon to create a new user.
+#. Cliquez sur l'icône "+" pour créer l'utilisateur.
 
 .. image:: /tutorials/_images/cs_createuser_clicktheicon.PNG
 |
 |
 
 
-#. Provide the following details: *First Name, Last Name, Username, Password, Confirm Password, E-Mail, Mobile Number, and Gender*. Click on the **Create** button.
+#. Renseignez les informations demandées comme **Prénom, Nom de famille, Nom d’utilisateur, Mot de passe, Confirmer le mot de passe, E-mail, Numéro de téléphone portable, Sexe** et cliquez sur le bouton **CRÉER**.
 
 .. image:: /tutorials/_images/cs_createuser_providethedetails.PNG
 |
 |
 
 
-Create User: Screen Elements
-=============================
-The following details are to be provided to be able to create a new user in the system.
+Créer un utilisateur - Éléments de l’écran
+===========================================
 
-======    =================================     ============================================================
-Sr No     Screen Element                        Description
-======    =================================     ============================================================
-1         First Name                            Specify the first name of a user.
+=========    =================================     ============================================================
+N° série     Éléments de l'écran                    Description
+=========    =================================     ============================================================
+1            Prénom                                 Indiquez le prénom de l'utilisateur.
 
-2         Last Name                             Specify the last name of a user.
+2            Nom de famille                         Indiquez le nom de famille de l'utilisateur.
 
-3         Username                              Specify the username, which will be used to authenticate a user when logging into the system.
+3            Nom d'utilisateur                      Indiquez le nom d'utilisateur, qui sera utilisé pour authentifier l'utilisateur quand il se connecte au système.
 
-4         Password                              Specify the password, which will be used to authenticate a user when logging into the system.
+4            Mot de passe                           Indiquez le mot de passe, qui sera utilisé pour authentifier l'utilisateur quand il se connecte au système.
 
-5         Confirm Password                      Re-enter the password to confirm it.
+5            Confirmer le mot de passe              Saisissez à nouveau le mot de passe pour le confirmer.
 
-6         E-Mail                                Specify the email address of a user.
+6            E-Mail                                 Indiquez l'adresse e-mail de l'utilisateur.
 
-7         Mobile Number                         Specify the mobile number of a user.
+7            Numéro de téléphone mobile             Indiquez le numéro de mobile de l'utilisateur.
 
-8         Gender                                Specify the gender of a user.
+8            Sexe                                   Indiquez le sexe de l'utilisateur.
 
-9         Save                                  Click on **Save** button to save the details of a user.
+9            Enregistrer                            Cliquez sur le bouton Enregistrer pour sauvegarder les informations de l'utilisateur.
 
-10        Cancel                                Click on **Cancel** button to cancel the details of a user.
+10           Annuler                                Cliquez sur le bouton Annuler pour annuler les informations de l'utilisateur.
 
-======    =================================     ============================================================
+=========    =================================     ============================================================
 
 |
-
-| :doc:`Previous: Practical Quick Start Guide </tutorials/onboardingpractical/index>`
-| :doc:`Next: Create Partner, Role, and Assign User to Role </tutorials/onboardingpractical/createpartnerrole>`
-
 |
 
 
