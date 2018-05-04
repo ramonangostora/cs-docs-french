@@ -2,7 +2,7 @@ Centre d'aide
 ==============
 
 .. image:: _images/homescreenshot-compressed.png
-   :alt: Contentsphere log in screen
+   :alt: Contentserv log in screen
 
 Comment utiliser cette ressource
 =================================
