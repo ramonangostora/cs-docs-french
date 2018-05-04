@@ -75,4 +75,4 @@ Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line

@@ -30,4 +30,4 @@ Les produits du monde réel peuvent être décrits de diverses manières. Dans l
 |
 
 .. image:: /tutorials/_images/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line

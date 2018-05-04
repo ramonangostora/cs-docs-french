@@ -2,7 +2,7 @@
 Exploration de l’Interface Utilisateur
 ==========================
 
-Ces captures d’écran vous guideront à travers l’interface utilisateur de Contentsphere :
+Ces captures d’écran vous guideront à travers l’interface utilisateur de contentserve :
 
 .. image:: _images/cs_ui1.jpg
    :alt: Contentserve UI
