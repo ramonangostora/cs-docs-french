@@ -9,7 +9,7 @@ Comment utiliser cette ressource
 
 Le Centre d’assistance contient tout ce que vous devez savoir sur la suite d’applications Contentserv puisque vous y trouverez des guides et des supports de formation.
 
-Pour faire une recherche dans cette documentation, consultez la  :ref:`Page de recherche` ou utilisez le champ de recherche de la barre de navigation.
+Pour faire une recherche dans cette documentation, consultez la :ref:`search` ou utilisez le champ de recherche de la barre de navigation.
 
 Le site est organisé en quatre domaines clés qui sont référencés tout au long du manuel.
 Le manuel est aussi l’élément de base de l’aide contextuelle et des info-bulles de l’application.
@@ -29,7 +29,7 @@ Le manuel est aussi l’élément de base de l’aide contextuelle et des info-b
 .. _le-chapitre-nouvel-utilisateur-contentserv:
 
 .. image:: _images/line-png-32.png
-   :alt: Contentsphere log in screen
+   :alt: Contentserv log in screen
 
 Nouvel utilisateur Contentserv
 ===============================
@@ -50,7 +50,7 @@ Vous débutez sur Contentserv ? Vous êtes au bon endroit !:
    :doc:`6e partie : Configurer une taxonomie <tutorials/settinguptaxonomy>`
 
 .. image:: _images/line-png-32.png
-  :alt: Contentsphere log in screen
+  :alt: Contentserv log in screen
 
 Gammes de produits Contentserv
 ===============================
