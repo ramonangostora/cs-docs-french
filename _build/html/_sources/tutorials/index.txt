@@ -1,5 +1,5 @@
 ============
-Didacticiel
+Didacticiels
 ============
 
 Nouvel utilisateur Contentserv
@@ -32,10 +32,10 @@ Comprendre les concepts de base.
 
 
 
-d'intégration
+d'Intégration
 ==============
 
-Apprenez à utiliser le système Contentserv Onboarding.
+Apprenez à utiliser le système d'Intégration de Contentserv.
 
 .. toctree::
    :maxdepth: 1
