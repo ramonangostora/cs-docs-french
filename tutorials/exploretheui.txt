@@ -1,23 +1,65 @@
 ==========================
-Explore the User Interface
+Exploration de l’Interface Utilisateur
 ==========================
 
-Use these screenshots to help guide you through Contentserv's user interface:
+Ces captures d’écran vous guideront à travers l’interface utilisateur de Contentsphere :
 
 .. image:: _images/cs_ui1.jpg
-   :alt: Contentsphere UI
+   :alt: Contentserve UI
 
 |
+Mise à jour
+
+#. **Mises à jour** de la page actuellement à l’écran
+
+Sélectionner tout
+
+#. Cette fonction **permet de sélectionner toutes les images, textes et produits** de la fenêtre à l’écran
+
+Sélectionner des Taxonomies
+
+#. Affinez votre recherche en **appliquant la taxonomie appropriée**
+
+Moteur de recherche
+
+#. Le moteur de recherche **permet d’accélérer votre processus de recherche**.
+
+Vous cherchez un **produit spécifique** ?
+
+Il suffit de taper et **rechercher** votre option parmi les suggestions.
+Zoom avant
+#. **Agrandissez le produit** en zoomant.
+
+Fonction de zoom arrière
+
+#. **Diminuer l’agrandissement** de l’image pour considérer les points essentiels, plutôt que les **informations détaillées** du produit.
+
+Fonction de rayon X
+
+#. Cliquez sur Vision **X-Ray** pour consulter les **informations les plus détaillées** d’un produit.
+
+Écran titre
+
+#. **Un écran titre** présente les produits dans un **format tabulaire**.
+
+Écran liste
+
+#. Produits disposés sous une **forme linéaire structurée**.
+
+Écran calendrier
+
+#. Cliquez sur l’écran calendrier pour voir la **chronologie** des **événements associés** aux produits.
+
+
+
 
 .. image:: _images/cs_ui2.jpg
-   :alt: Contentsphere UI
+   :alt: Contentserve UI
 
 |
 
-| :doc:`Previous: About the Product </tutorials/productlines>`
-| :doc:`Next: Add New Users </tutorials/addnewuser>`
 
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserve line
