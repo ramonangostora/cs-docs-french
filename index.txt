@@ -8,7 +8,7 @@ Comment utiliser cette ressource
 =================================
 
 Le Centre d’assistance contient tout ce que vous devez savoir sur la suite
-d’applications Contentserv puisque vous y trouverez des
+d’applications **Contentserv** puisque vous y trouverez des
 guides et des supports de formation.
 
 Pour faire une recherche dans cette documentation, consultez la :ref:`search`
@@ -19,8 +19,8 @@ Le manuel est aussi l’élément de base de l’aide contextuelle
 et des info-bulles de l’application.
 
 * :doc:`Les didacticiels </tutorials/index>` vous montrent, étape par étape,
-  comment utiliser l’application Contentserv.
-  Commencez ici si vous débutez avec Contentserv ou si vous souhaitez parfaire votre utilisation.
+  comment utiliser l’application **Contentserv**.
+  Commencez ici si vous débutez avec **Contentserv** ou si vous souhaitez parfaire votre utilisation.
   Consultez également  `le-chapitre-nouvel-utilisateur-contentserv`_ ci-dessous.
 
 * :doc:`Les guides de fonctionnalités </feature/index>` vous expliquent les fonctionnalités
