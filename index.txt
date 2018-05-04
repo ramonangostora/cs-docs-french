@@ -42,13 +42,13 @@ Nouvel utilisateur Contentserv
 
 Vous débutez sur Contentserv? Vous êtes au bon endroit:
 
-#. **Utilisateur débutant**
+#. **Utilisateur débutant:**
    :doc:`À propos du produit <product/productlines>` |
    :doc:`Exploration de l’interface utilisateur <tutorials/exploretheui>` |
    :doc:`Déploiement technique <reference/install>`
 
-#. **Didacticiel**
-   :doc:`1re partie du didacticiel : À propos du produit <product/productlines>` |
+#. **Didacticiel:**
+   :doc:`1re partie : À propos du produit <product/productlines>` |
    :doc:`2e partie : Exploration de l’interface utilisateur <tutorials/exploretheui>` |
    :doc:`3e partie : Ajouter un nouvel utilisateur <tutorials/addnewuser>` |
    :doc:`4e partie : Ajouter une image au DAM <tutorials/addimagetoDAM>` |
