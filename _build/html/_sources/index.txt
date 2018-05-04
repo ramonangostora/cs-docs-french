@@ -2,23 +2,29 @@ Centre d'aide
 ==============
 
 .. image:: _images/homescreenshot-compressed.png
-   :alt: Contentsphere log in screen
+   :alt: Contentserv log in screen
 
 Comment utiliser cette ressource
 =================================
 
-Le Centre d’assistance contient tout ce que vous devez savoir sur la suite d’applications Contentserv puisque vous y trouverez des guides et des supports de formation.
+Le Centre d’assistance contient tout ce que vous devez savoir sur la suite
+d’applications Contentserv puisque vous y trouverez des
+guides et des supports de formation.
 
-Pour faire une recherche dans cette documentation, consultez la :ref:`search` ou utilisez le champ de recherche de la barre de navigation.
+Pour faire une recherche dans cette documentation, consultez la :ref:`search`
+ou utilisez le champ de recherche de la barre de navigation.
 
 Le site est organisé en quatre domaines clés qui sont référencés tout au long du manuel.
-Le manuel est aussi l’élément de base de l’aide contextuelle et des info-bulles de l’application.
+Le manuel est aussi l’élément de base de l’aide contextuelle
+et des info-bulles de l’application.
 
-* :doc:`Les didacticiels </tutorials/index>` vous montrent, étape par étape, comment utiliser l’application Contentserv.
+* :doc:`Les didacticiels </tutorials/index>` vous montrent, étape par étape,
+  comment utiliser l’application Contentserv.
   Commencez ici si vous débutez avec Contentserv ou si vous souhaitez parfaire votre utilisation.
   Consultez également  `le-chapitre-nouvel-utilisateur-contentserv`_ ci-dessous.
 
-* :doc:`Les guides de fonctionnalités </feature/index>` vous expliquent les fonctionnalités et autres concepts clés aux utilisateurs confirmés.
+* :doc:`Les guides de fonctionnalités </feature/index>` vous expliquent les fonctionnalités
+  et autres concepts clés aux utilisateurs confirmés.
   Ils proposent aussi des informations et des explications de base utiles en donnant quelques cas concrets aux utilisateurs.
 
 * :doc:`Les guides </reference/index>` contiennent des références techniques pour la mise en œuvre et l’aide.
@@ -34,7 +40,7 @@ Le manuel est aussi l’élément de base de l’aide contextuelle et des info-b
 Nouvel utilisateur Contentserv
 ===============================
 
-Vous débutez sur Contentserv ? Vous êtes au bon endroit !:
+Vous débutez sur Contentserv? Vous êtes au bon endroit:
 
 #. **Utilisateur débutant**
    :doc:`À propos du produit <product/productlines>` |
