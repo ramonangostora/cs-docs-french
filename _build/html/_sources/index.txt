@@ -1,5 +1,5 @@
-Centre d'aide
-==============
+Getting help
+============
 
 .. image:: _images/homescreenshot-compressed.png
    :alt: Contentserv log in screen
