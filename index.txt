@@ -1,64 +1,62 @@
-Getting help
-============
+Centre d'aide
+==============
 
 .. image:: _images/homescreenshot-compressed.png
    :alt: Contentsphere log in screen
 
-Using this resource
-===================
+Comment utiliser cette ressource
+=================================
 
-The Help Center holds everything you need to know about the **Contentsphere** application suite in the form of
-training materials and guides.
+Le Centre d’assistance contient tout ce que vous devez savoir sur la suite d’applications Contentserv puisque vous y trouverez des guides et des supports de formation.
 
-To search through the documentation see the :ref:`search` or use the search field in the navigation bar.
+Pour faire une recherche dans cette documentation, consultez la  :ref:`Page de recherche` ou utilisez le champ de recherche de la barre de navigation.
 
-The site is organised into four key areas which are referenced throughout the handbook. The Handbook is also
-the basis for the context sensitive help and tooltips within the application.
+Le site est organisé en quatre domaines clés qui sont référencés tout au long du manuel.
+Le manuel est aussi l’élément de base de l’aide contextuelle et des info-bulles de l’application.
 
-* :doc:`Tutorials </tutorials/index>` take you by the hand through a series of steps to work within the **Contentsphere** application.
-  Start here if you’re new to **Contentsphere** or training on the product as a user.
-  Also look at the **note** `new-to-contentsphere`_ below
+* :doc:`Les didacticiels </tutorials/index>` vous montrent, étape par étape, comment utiliser l’application Contentserv.
+  Commencez ici si vous débutez avec Contentserv ou si vous souhaitez parfaire votre utilisation.
+  Consultez également  `le-chapitre-nouvel-utilisateur-contentserv`_ ci-dessous.
 
-* :doc:`Feature guides </feature/index>` discuss key features and concepts at a fairly high level and provide
-  useful background information and explanation, including key user stories.
+* :doc:`Les guides de fonctionnalités </feature/index>` vous expliquent les fonctionnalités et autres concepts clés aux utilisateurs confirmés.
+  Ils proposent aussi des informations et des explications de base utiles en donnant quelques cas concrets aux utilisateurs.
 
-* :doc:`Reference guides </reference/index>` contain technical reference for implementation and support of the
-  application other aspects of **Contentsphere’s** machinery. They describe how it works and how to use it but assume
-  that you have a basic understanding of key concepts
+* :doc:`Les guides </reference/index>` contiennent des références techniques pour la mise en œuvre et l’aide.
+  Ils définissent le fonctionnement et le mode d’utilisation de Contentserv en assumant que vous avez déjà acquis certains concepts clés.
 
-* :doc:`Glossary </glossary>` defines the terms found in Contentsphere.
+* :doc:`Le glossaire </glossary>` vous donne une définition des termes clés de Contentserv.
 
-.. _new-to-contentsphere:
+.. _le-chapitre-nouvel-utilisateur-contentserv:
 
 .. image:: _images/line-png-32.png
    :alt: Contentsphere log in screen
 
-New to Contentsphere
-====================
+Nouvel utilisateur Contentserv
+===============================
 
-Are you new to Contentsphere? This is the place to start!:
+Vous débutez sur Contentserv ? Vous êtes au bon endroit !:
 
-#. **Newbie**
-   :doc:`About the product <product/productlines>` |
-   :doc:`Explore the User Interface <tutorials/exploretheui>` |
-   :doc:`Technical Deployment <reference/install>`
+#. **Utilisateur débutant**
+   :doc:`À propos du produit <product/productlines>` |
+   :doc:`Exploration de l’interface utilisateur <tutorials/exploretheui>` |
+   :doc:`Déploiement technique <reference/install>`
 
-#. **Tutorial**
-   :doc:`Part 1: About the product <product/productlines>` |
-   :doc:`Part 2: Explore the User Interface <tutorials/exploretheui>` |
-   :doc:`Part 3: Add a New User <tutorials/addnewuser>` |
-   :doc:`Part 4: Add an Image to the DAM <tutorials/addimagetoDAM>` |
-   :doc:`Part 5: Create a New Product <tutorials/createnewproduct>` |
-   :doc:`Part 6: Set up a Taxonomy <tutorials/settinguptaxonomy>`
+#. **Didacticiel**
+   :doc:`1re partie du didacticiel : À propos du produit <product/productlines>` |
+   :doc:`2e partie : Exploration de l’interface utilisateur <tutorials/exploretheui>` |
+   :doc:`3e partie : Ajouter un nouvel utilisateur <tutorials/addnewuser>` |
+   :doc:`4e partie : Ajouter une image au DAM <tutorials/addimagetoDAM>` |
+   :doc:`5e partie : Créer un nouveau produit <tutorials/createnewproduct>` |
+   :doc:`6e partie : Configurer une taxonomie <tutorials/settinguptaxonomy>`
 
 .. image:: _images/line-png-32.png
   :alt: Contentsphere log in screen
 
-Contentsphere Product Lines
-===========================
-Learn about some other core functionalities of the :doc:`Contentsphere Product Lines <product/index>`:
+Gammes de produits Contentserv
+===============================
+Découvrez les autres fonctionnalités de base :doc:`des gammes de produits Contentserv <product/index>`:
 
-#. :doc:`Master Data Management <product/MDM>` with functionality supporting workflow rules, data quality, catalogue management, user security, data distribution
-#. :doc:`Product Information Management <product/PIM>` for product enrichment, digital assets, taxonomy management.
-#. :doc:`Marketing Content Management <product/MCM>` supports promotions, campaigns, target markets, target channels, customers
-#. :doc:`Partner Engagement Platform <product/PEP>` deployed for supplier engagement, collaboration, product onboarding, simple PIM and product data onboarding, offboarding.
+#. :doc:`Master Data Management <product/MDM>` propose une fonctionnalité prenant en charge les règles de workflow, la qualité des données, la gestion des catalogues, la sécurité des utilisateurs, la répartition des données.
+#. :doc:`Product Information Management <product/PIM>` permet d’optimiser les produits, les actifs numériques et la gestion de la taxonomie.
+#. :doc:`Marketing Content Management <product/MCM>` vous permet de gérer les promotions, les campagnes, les marchés cibles, les canaux cibles et les clients.
+#. :doc:`Partner Engagement Platform <product/PEP>` permet de démarcher les fournisseurs, de gérer vos collaborations, d’intégrer des produits, de gérer des informations personnelles et d’intégrer des données produit.
