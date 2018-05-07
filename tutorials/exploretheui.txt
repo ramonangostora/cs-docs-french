@@ -58,6 +58,7 @@ Zoom avant
 |
 
 Fonction de zoom arrière
+
 |
 
 #. **Diminuer l’agrandissement** de l’image pour considérer les points essentiels, plutôt que les **informations détaillées** du produit.
@@ -89,6 +90,7 @@ Fonction de rayon X
 |
 
 Écran calendrier
+
 |
 
 
@@ -111,6 +113,7 @@ Campagne
 |
 
 Promotion
+
 |
 
 #. Toutes les promotions que vous avez l’intention de proposer à vos clients apparaissent dans cet onglet.
@@ -122,9 +125,11 @@ Fournisseur
 |
 
 #. Cet onglet affiche les données de tous les fournisseurs inscrits.
+
 |
 
 Textes
+
 |
 
 #. Téléchargez vos blogs, descriptions détaillées et autres textes liés aux produits dans cet onglet.
@@ -136,6 +141,7 @@ Catalogue virtuel
 |
 
 #. L’onglet Catalogue virtuel affiche les collections enregistrées pour un mois ou une occasion spécifique. Un détaillant peut transmettre le catalogue sur n’importe quel canal de sortie.
+
 Ex. : une collection de printemps (tissus ou produits habituellement achetés au printemps).
 
 Favoris
