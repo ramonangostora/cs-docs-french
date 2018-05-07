@@ -32,7 +32,7 @@ Pour le faire, suivez les étapes suivantes:
 |
 |
 
-#.   Utilisez l’icône «?+?» pour afficher le contenu, verticalement ou horizontalement.
+#.   Utilisez l’icône « + » pour afficher le contenu, verticalement ou horizontalement.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
 |
@@ -69,4 +69,4 @@ Des icônes peuvent également être ajoutées à la taxonomie.
     |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line

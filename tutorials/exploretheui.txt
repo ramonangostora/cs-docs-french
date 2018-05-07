@@ -28,6 +28,7 @@ Vous cherchez un **produit spécifique** ?
 
 Il suffit de taper et **rechercher** votre option parmi les suggestions.
 Zoom avant
+
 #. **Agrandissez le produit** en zoomant.
 
 Fonction de zoom arrière
@@ -57,9 +58,41 @@ Fonction de rayon X
    :alt: Contentserve UI
 
 |
-
-
 |
+
+Campagne
+
+L’onglet Campagne affiche toutes les campagnes que vous avez créées pour vendre vos produits en période de fêtes ou n’importe quelle occasion spéciale.
+
+Promotion
+
+Toutes les promotions que vous avez l’intention de proposer à vos clients apparaissent dans cet onglet.
+
+Fournisseur
+
+Cet onglet affiche les données de tous les fournisseurs inscrits.
+
+Textes
+
+Téléchargez vos blogs, descriptions détaillées et autres textes liés aux produits dans cet onglet.
+
+Catalogue virtuel
+
+L’onglet Catalogue virtuel affiche les collections enregistrées pour un mois ou une occasion spécifique. Un détaillant peut transmettre le catalogue sur n’importe quel canal de sortie.
+Ex. : une collection de printemps (tissus ou produits habituellement achetés au printemps).
+
+Favoris
+
+Les recherches et filtres peuvent être ajoutés à vos favoris pour un accès plus rapide à l’avenir.
+Les nouveaux produits, s’ils sont ajoutés, avec des critères similaires seront reflétés lors de nouvelles recherches.
+
+Collection
+
+Ajoutez des produits à une collection temporaire ou permanente d’objets.
+
+Tris et filtres
+
+Classez vos produits et triez-les pour un accès et une identification simplifiée.
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentserve line
