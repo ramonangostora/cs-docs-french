@@ -1,51 +1,49 @@
-==================
-About the Product
-==================
+===================
+À propos du produit
+===================
 
 
 Master Data Management
 =======================
 
-:doc:`Master Data Management </product/MDM>` (MDM): *How to Manage Master Data from Multiple Domains*
+:doc:`Master Data Management </product/MDM>` (MDM): *Comment gérer les données de référence de plusieurs domaines*
 
-*  Automate data integration and quality assurance with contextual multi-domain solution.
-*  Fuel real-time business systems with accurate, golden records sourced from supplier data, data pools, and ERPs.
-
-|
-
-Product Information Management
-===============================
-
-:doc:`Product Information Management </product/PIM>` (PIM): *Drive Better Product Experience*
-
-* The most powerful *Product Information Management* system meets unmatched usability, flexibility, and scalability.
-* Store and maintain product information so that it can be shared with partners and drive promotion and e-commerce systems.
+*  Automatisez l’intégration des données et l’assurance qualité avec une solution multi-domaine contextuelle.
+*  Alimentez différents systèmes en temps réel avec des « golden records » précis provenant des données fournisseurs, des pools de données et des ERP.
 
 |
 
-Marketing Content Management
-=============================
+Product Information Management (gestion de l’information produit)
+=================================================================
 
-:doc:`Marketing Content Management </product/MCM>` (MCM): *For Future-Proof Contextual Product Marketing*
+:doc:`Product Information Management </product/PIM>` (PIM): *Product Information Management (gestion de l’information produit)*
 
-* Accelerate, simplify, and empower all promotional and marketing content processes and achieve top performance of your marketing activities.
-* Deliver customized, contextual, and promotional content or campaigns through all your selling channels.
+* The most powerful *Product Information Management* Le système Product Information Management le plus puissant offre une convivialité, une flexibilité et une évolutivité incomparables..
+* Stockez et maintenez les informations de vos produits afin qu’elles puissent être partagées avec les partenaires et piloter les différents systèmes de promotion et de e-commerce.
+
+|
+
+Marketing Content Management (gestion de contenu marketing)
+===========================================================
+
+:doc:`Marketing Content Management </product/MCM>` (MCM): *Pour un marketing produit contextuel et futuriste*
+
+* Accélérez, simplifiez et valorisez tous vos processus de contenu promotionnel et marketing et optimisez les performances de vos activités marketing
+* Diffusez du contenu ou des campagnes personnalisées, contextuelles et promotionnelles sur tous vos canaux de vente
 
 |
 
 Partner Engagement Platform
 ============================
 
-:doc:`Partner Engagement Platform </product/PEP>` (PEP): *Complete and Accurate Data Integration*
+:doc:`Partner Engagement Platform </product/PEP>` (PEP): *Intégration complète et précise des données*
 
-*  Create processes with appropriate mappings for efficient data onboarding into the system.
-*  Manage and customize profiles to maintain exclusivity of endpoints within an organization.
+*  Créez des processus avec des mappages appropriés pour une intégration efficace des données dans le système.
+*  Gérez et personnalisez les profils pour maintenir l’exclusivité des points de terminaison au sein d’une entreprise
 
 |
-
-:doc:`Next: Explore the User Interface </tutorials/exploretheui>`
 
 |
 
 .. image:: _images/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserve line

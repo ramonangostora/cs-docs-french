@@ -1,43 +1,44 @@
-=======================
-Set Up a Taxonomy
-=======================
-Taxonomy is a product classification used to organize the content.
+========================
+Configurer une Taxonomie
+========================
+La taxonomie est une classification de produits utilisée pour organiser le contenu.
 
-How to do: Set Up a Taxonomy
-==================================
-To do this, follow these steps:
 
-#. Click **Settings**.
+Comment configurer une taxonomie
+================================
+Pour le faire, suivez les étapes suivantes:
+
+#. Cliquez sur Settings (paramètres).
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_clicksettings.PNG
 |
 |
 
-#. Click **Data Model** tab.
+#. Cliquez sur l’onglet **Data Model**.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickdatamodel.PNG
 |
 |
 
-#.  Click   **Taxonomies** to expand.
+#.  Cliquez sur **Taxonomies** pour afficher le contenu.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_expandtaxonomy.PNG
 |
 |
 
-#.   Then, click **Master Taxonomy**.
+#.   Ensuite, cliquez sur **Master Taxonomy**.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickmastertaxonomy.PNG
 |
 |
 
-#.    Use  the "+" to expand the taxonomy, vertically or horizontally.
+#.   Utilisez l’icône « + » pour afficher le contenu, verticalement ou horizontalement.
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_useplus.PNG
 |
 |
 
-#.   Taxonomy window appears. Enter details for the new taxonomy and click **Create**.
+#.   Une fenêtre Taxonomie apparaîtra. Entrez les données de cette nouvelle taxonomie et cliquez sur Create (créer).
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
 |
@@ -47,30 +48,25 @@ To do this, follow these steps:
 |
 |
 
-Icons can also be added to the Taxonomy.
+Des icônes peuvent également être ajoutées à la taxonomie.
 
-    #. Click a section under taxonomies (in this demo, we select **Tops**).
+    #. Cliquez sur la section sous taxonomie (dans cette démo, nous sélectionnons **Tops**).
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickcollarless.PNG
     |
     |
 
-    #.   Click upload icon and select an image from your computer.
+    #.   Cliquez sur l’icône de chargement et sélectionnez une image sur votre ordinateur.
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_clickaddicon.PNG
     |
     |
 
-   #.   View the selected icon.
+   #.   Afficher l’icône sélectionnée.
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
     |
     |
 
-| :doc:`Previous: Create a New Product </tutorials/createnewproduct>`
-| :doc:`Next: What is a Data Model? </tutorials/whatisadatamodel>`
-
-|
-
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line
