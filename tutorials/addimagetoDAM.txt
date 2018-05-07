@@ -46,7 +46,7 @@ Les produits avec des images sont plus attrayants pour les utilisateurs du syst�
 |
 |
 
-#.    proposez une meilleure expérience produit à vos clientsCliquez sur les **Metadata** (métadonnées).
+#.    Proposez une meilleure expérience produit à vos clientsCliquez sur les **Metadata** (métadonnées).
 
 .. image:: /feature/_images/mdmimages/addingimage_clickmeta.PNG
 |

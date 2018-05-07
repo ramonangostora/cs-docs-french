@@ -68,11 +68,7 @@ Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les
       |
       |
 
-| :doc:`Previous: Explore the User Interface </tutorials/exploretheui>`
-| :doc:`Next: Add an Image to the DAM </tutorials/addimagetoDAM>`
-
 |
-
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: contentserve line
