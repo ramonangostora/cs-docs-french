@@ -1,11 +1,11 @@
-=========
-Tutorials
-=========
+============
+Didacticiels
+============
 
-New to Contentserv
-=====================
+Nouvel utilisateur Contentserv
+===============================
 
-Learn the basics to get up and running quickly.
+Apprenez les bases pour commencer rapidement.
 
 .. toctree::
    :maxdepth: 1
@@ -22,7 +22,7 @@ Learn the basics to get up and running quickly.
 Concepts
 =========
 
-Understand the core concepts.
+Comprendre les concepts de base.
 
 .. toctree::
    :maxdepth: 1
@@ -32,10 +32,10 @@ Understand the core concepts.
 
 
 
-Onboarding
-===========
+d'Intégration
+==============
 
-Learn how to use the Contentserv Onboarding system.
+Apprenez à utiliser le système d'Intégration de Contentserv.
 
 .. toctree::
    :maxdepth: 1
