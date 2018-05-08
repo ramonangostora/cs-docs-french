@@ -157,7 +157,8 @@ Catalogue virtuel
 
 #. L’onglet Catalogue virtuel affiche les collections enregistrées pour un mois ou une occasion spécifique. Un détaillant peut transmettre le catalogue sur n’importe quel canal de sortie.
 
-    Ex. : une collection de printemps (tissus ou produits habituellement achetés au printemps).
+Ex. : une collection de printemps (tissus ou produits habituellement achetés au printemps).
+
 |
 |
 
