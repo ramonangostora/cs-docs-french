@@ -5,6 +5,7 @@ Retour arrière
 La fonctionnalité de retour arrière permet à l'utilisateur de basculer vers (ou revenir à) une version antérieure d'un produit dans le système.
 
 ===================  =================================================================================================================================================================
+**Terme clé**             * **Retour arrière:** fonctionnalité permettant à l'utilisateur de revenir à une version souhaitée d'un produit.
 
 **Description:**          * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
                           * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
