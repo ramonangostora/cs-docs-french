@@ -88,4 +88,4 @@ Ce guide pratique fournit des instructions sur la manière de classer des objets
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
