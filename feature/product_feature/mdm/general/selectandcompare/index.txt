@@ -1,6 +1,6 @@
-==================
-Select and Compare
-==================
+=========================
+Sélectionnez et comparez
+=========================
 
 .. toctree::
    :maxdepth: 1
