@@ -1,49 +1,51 @@
-==============
-Retour arrière
-==============
+========
+Rollback
+========
 
-La fonctionnalité de retour arrière permet à l'utilisateur de basculer vers (ou revenir à) une version antérieure d'un produit dans le système.
+The Rollback feature allows a user to switch (or to revert) to a previous version of a product in the system.
 
 ===================  =================================================================================================================================================================
 
-**Description:**          * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
-                          * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
+**Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
+                          * This feature can be accessed from within a product's page under the 'Timeline' tab.
 
 **Related topics:**       * :doc:`Manage Virtual Catalogs </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
-                          * :doc:`Classifications de produits </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
-                          * :doc:`Comparer les révisions de produits </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
+                          * :doc:`Product Classifications </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
+                          * :doc:`Compare Product Revisions </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
 
-**Application:**          * La fonctionnalité de Retour arrière est utilisée pour revenir à une version particulière d'un produit.
-                          * Il s'agit d'une amélioration de la fonctionnalité de « Retour » basique, qui permet à l'utilisateur d'ajouter ou de retirer une relation/du contexte d'un produit et le faire revenir à la version précédente.
-                          * *Exemple:*
+**Application:**          * The Rollback feature is used to switch back to a desired version of a product.
+                          * This is an enhancement to the basic ‘Rollback’ feature, it allows the user add or remove any
+                            product relationship/context and return it back to the previous version.
+                          * *Example:*
 
-                              Le fournisseur peut ajouter un texte commercial dans la « description » du Chocolat Toblerone pendant les fêtes de fin d'année. Après les fêtes, il peut revenir à la version originale de la description
+                              Supplier can add commercial text in the 'description' for Toblerone Chocolates during Holiday season.
+                              Once the season is over, he can rollback to the  original description version.
 
 ===================  =================================================================================================================================================================
 
-Marche à suivre : Retour arrière
-================================
-Pour ce faire, procédez comme suit:
+How to do: Rollback
+=============================
+To do this, follow these steps:
 
-#. Allez à **PIM**.
+#. Go to **PIM**.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickpim.PNG
 |
 |
 
-#. Cliquez pour sélectionner le produit pour lequel vous souhaitez exécuter un retour en arrière (dans cette démonstration, nous sélectionnons « Jouet orange en forme d'os »).
+#. Click to select the desired product for which you want to perform rollback operation (in this demo, we select 'Orange bone toy').
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_selectproduct.PNG
 |
 |
 
-#. Cliquez sur l'onglet *Relations*.
+#. Click on the *Relationships* tab.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
 |
 |
 
-#. Dans cette démonstration, nous allons remplacer l'image et revenir à l'image précédente.
+#. In this demo, we will replace the image and roollback to the previous image.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_replaceimage.PNG
 |
@@ -56,20 +58,20 @@ Pour ce faire, procédez comme suit:
 .. image:: /feature/_images/mdmimages/cs_rollbackb_replaceimage3.PNG
 |
 |
-#. Cliquez sur **ENREGISTRER SOUS** pour enregistrer les modifications apportées au produit.
+#. Click on **SAVE** TO save to save the changes on the product.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clicksave.PNG
 |
 |
 
-#. Allez à l'onglet *Relation*.
+#. Go to *Relationship* tab.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
 |
 |
 
 
-#.  Allez à l'onglet *Chronologie*. La version actuelle du produit serait celle qui porte le numéro de la dernière version en haut.
+#.  Go to the *Timeline* tab. The current version of the product would be with the latest version number on the top.
 
   .. image:: /feature/_images/mdmimages/cs_rollbackb_clicktimeline.PNG
   |
@@ -79,7 +81,7 @@ Pour ce faire, procédez comme suit:
   |
   |
 
-#.  Cliquez sur la version antérieure au remplacement de l'image (dans cette démonstration, nous avons sélectionné « version 0 27 mars 2018 »).
+#.  Click on the version before we replaced the image (in this demo, we selected 'version 0 27th March, 2018').
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_selectversion.PNG
 |
@@ -89,11 +91,13 @@ Pour ce faire, procédez comme suit:
 |
 |
 
-#.  Une fois le retour en arrière confirmé, l'onglet Relation s'ouvre et la relation est restaurée. Vous pouvez voir l'image (revenue à l'ancienne version).
+#.    Once the rollback has been confirmed, Relationship Tab opens, and the relationship is restored.View the image (now rereverted to the old version).
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_viewimage.PNG
 |
 |
+
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

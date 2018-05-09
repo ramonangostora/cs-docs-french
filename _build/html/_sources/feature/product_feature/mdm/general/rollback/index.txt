@@ -1,6 +1,6 @@
-==============
-Retour arrière
-==============
+========
+Rollback
+========
 
 .. toctree::
    :maxdepth: 1
