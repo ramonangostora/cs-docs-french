@@ -12,7 +12,7 @@ Cela favorise une meilleure catégorisation des produits ainsi que l'héritage d
 
 **Description:**        * Pour classer le produit dans plusieurs catégories, nous ajoutons plusieurs classes d'attribution au produit, en plus de la Classe Nature unique. Les classes d'attribution contiennent des propriétés descriptives détaillées à propos du produit.
                         * L'utilisateur peut définir davantage le produit en ajoutant des propriétés basées sur différentes classes d'attribution.
-                        * •La classification d'un produit à l'aide de classes permet de trouver plus facilement cette caractéristique et permet au produit d'accéder à des ensembles d'attributs et de propriétés spécifiques à une classe.
+                        * La classification d'un produit à l'aide de classes permet de trouver plus facilement cette caractéristique et permet au produit d'accéder à des ensembles d'attributs et de propriétés spécifiques à une classe.
 
 **Thèmes associés:**    * :doc:`Collections de propriétés </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
                         * :doc:`Fonctionnement des classes </tutorials/howclasseswork>` et *Classes d'attribution avec attributs et balises*
