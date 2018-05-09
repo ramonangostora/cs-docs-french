@@ -1,52 +1,52 @@
-==================
-Product Comparison
-==================
+========================
+Comparaison de produits
+========================
 
-Product Comparison lets the user select and compare products within the PIM.
-
-
-===================    =============================================================================================================================================================
-**Description:**        * This feature provides a side-by-side comparison view of two or more products.
-                        * The comparison table uses columns for the products or services, and rows for the attributes.
-                        * Products are compared not only based on their attributes but also on their relationships.
-                        * It is accessible from the main PIM catalog by selecting several products and clicking the compare button.
-
-**Related topics:**     * *Parametric Search*
-
-**Application:**        * This feature is helpful when deciding which product to use for a promotion or comparing similar products for data quality.
-                        * *Example:*
-
-                            A user wants to start a promotion based on a shoe. The user can use the Product Comparison feature to help decide which product to select from a shortlist.
-
-===================    =============================================================================================================================================================
+Comparaison de produits permet à l'utilisateur de sélectionner et comparer des produits dans le PIM.
 
 
-How to: Product Comparison
-=============================
+====================    =============================================================================================================================================================
+**Description:**        * Cette fonctionnalité fournit une vue comparative côte-à-côte de deux produits ou plus.
+                        * Le tableau de comparaison utilise des colonnes pour les produits ou services, et des lignes pour les attributs.
+                        * Les Produits sont comparés en fonction de leurs attributs et de leurs relations.
+                        * Cette fonctionnalité est accessible à partir du catalogue PIM principal en sélectionnant plusieurs produits puis en cliquant sur le bouton Comparer.
 
-This How To guide provides instructions on how to compare products.
-To do this, follow these steps:
+**Thèmes associés:**    * :doc:`Recherche par paramètres </feature/product_feature/mdm/general/searchandexplore/parametricsearch>`
+
+**Application:**        * Cette fonctionnalité est utile pour déterminer quel produit utiliser dans une promotion ou pour comparer des produits similaires en termes de qualité des données.
+                        * *Exemple :*
+
+                            Un utilisateur souhaite lancer une promotion pour des chaussures.
+                            Il peut utiliser la fonctionnalité Comparaison de produits pour déterminer quel produit sélectionner à partir d'une liste de produits présélectionnés.
+
+====================    =============================================================================================================================================================
+
+
+Marche à suivre: Comparaison de produits
+=========================================
+
+Ce guide pratique fournit des instructions sur la manière de comparer des produits. Pour ce faire, procédez comme suit:
 
 |
 
-#. Select two or more products to be compared.
+#. Sélectionnez au moins deux produits à comparer.
 
 .. image:: /feature/_images/mdmimages/productcomparison_selectproducts.PNG
 |
 |
 
-#. Click the **Comparison View** button found at the top of the products.
+#. Cliquez sur le bouton **Vue comparative** en haut des produits.
 
 .. image:: /feature/_images/mdmimages/productcomparison_selecticon.PNG
 |
 |
 
-#. Comparison View enables the user to compare the data of two products.
+#. La Vue comparative permet à l'utilisateur de comparer les données de deux produits.
 
 .. image:: /feature/_images/mdmimages/productcomparison_comparisonview.PNG
 |
 
-*Note:  The indicators for comparing are shown at the right side. The red icon indicates "less than", the green icon with "=" indicates "equal to", and the green icon with up arrow indicates "greater than".*
+*Remarque: Les indicateurs de comparaison sont affichés à droite. L'icône rouge indique "inférieur à", l'icône verte avec le symbole "=" indique "égal à", et l'icône verte avec le symbole de flèche haute indique "supérieur à"*.
 
 |
 
