@@ -1,6 +1,6 @@
-=============================
+==============================
 Multiclassification d'objets
-=============================
+==============================
 
 La fonctionnalité Multiclassification d'objets permet aux utilisateurs d'ajouter plusieurs classes à un produit.
 Cela favorise une meilleure catégorisation des produits ainsi que l'héritage des propriétés et des attributs pertinents.
