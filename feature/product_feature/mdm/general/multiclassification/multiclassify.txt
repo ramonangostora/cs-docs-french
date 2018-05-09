@@ -6,7 +6,7 @@ La fonctionnalité Multiclassification d'objets permet aux utilisateurs d'ajoute
 Cela favorise une meilleure catégorisation des produits ainsi que l'héritage des propriétés et des attributs pertinents.
 
 
-===================     =============================================================================================================================================================
+====================    =============================================================================================================================================================
 **Termes clés:**        * **Classe nature:** Une classe qui définit le type de base du produit. Ce type de produit est spécifique à la manière dont le produit doit se comporter dans le logiciel Contentserv. Par exemple, une classe nature peut inclure *Article individuel, Produit, Lot* ou d'autres types de produits personnalisés.
                         * **Classe d'attribution:** Une classe qui ajoute des attributs spécifiques au produit auquel elle est affectée. Par exemple, une classe *Téléphone mobile* peut ajouter des attributs pour *Taille de l'écran, Capacité mémoire, Système d'exploitation,* etc.
 
@@ -26,7 +26,7 @@ Cela favorise une meilleure catégorisation des produits ainsi que l'héritage d
 															Pour une boisson énergisante, la classe nature *Article individuel* contiendrait des propriétés génériques pour le produit, tandis que la classe d'attribution *Boissons* donnerait des détails inhérents aux
 															boissons, comme la *contenance et la taille de la cannette*. Une autre classe, *Boissons énergisantes*, proposerait des propriétés comme *les valeurs nutritionnelles et la teneur en caféine*.
 
-===================     =============================================================================================================================================================
+====================    =============================================================================================================================================================
 
 
 Marche à suivre: Multiclassification d'objets

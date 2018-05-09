@@ -139,6 +139,52 @@
 <span id="multiclassification-d-objets"></span><h1>Multiclassification d’objets<a class="headerlink" href="#multiclassification-d-objets" title="Permalink to this headline">¶</a></h1>
 <p>La fonctionnalité Multiclassification d’objets permet aux utilisateurs d’ajouter plusieurs classes à un produit.
 Cela favorise une meilleure catégorisation des produits ainsi que l’héritage des propriétés et des attributs pertinents.</p>
+<table class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Termes clés:</strong></td>
+<td><ul class="first last simple">
+<li><strong>Classe nature:</strong> Une classe qui définit le type de base du produit. Ce type de produit est spécifique à la manière dont le produit doit se comporter dans le logiciel Contentserv. Par exemple, une classe nature peut inclure <em>Article individuel, Produit, Lot</em> ou d’autres types de produits personnalisés.</li>
+<li><strong>Classe d’attribution:</strong> Une classe qui ajoute des attributs spécifiques au produit auquel elle est affectée. Par exemple, une classe <em>Téléphone mobile</em> peut ajouter des attributs pour <em>Taille de l’écran, Capacité mémoire, Système d’exploitation,</em> etc.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Description:</strong></td>
+<td><ul class="first last simple">
+<li>Pour classer le produit dans plusieurs catégories, nous ajoutons plusieurs classes d’attribution au produit, en plus de la Classe Nature unique. Les classes d’attribution contiennent des propriétés descriptives détaillées à propos du produit.</li>
+<li>L’utilisateur peut définir davantage le produit en ajoutant des propriétés basées sur différentes classes d’attribution.</li>
+<li>•La classification d’un produit à l’aide de classes permet de trouver plus facilement cette caractéristique et permet au produit d’accéder à des ensembles d’attributs et de propriétés spécifiques à une classe.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Thèmes associés:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../../administration/datamodelpropertycollections/propertycollections.html"><span class="doc">Collections de propriétés</span></a></li>
+<li><a class="reference internal" href="../../../../../tutorials/howclasseswork.html"><span class="doc">Fonctionnement des classes</span></a> et <em>Classes d’attribution avec attributs et balises</em></li>
+<li><a class="reference internal" href="../../administration/inheritanceanddatatransfer/index.html"><span class="doc">Héritage et transfert de données</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Les classes d’attribution, que l’on appelle aussi classes <em>non-nature</em>, contiennent des informations plus détaillées à propos des produits. La classe <em>Nature</em> ne présenterait que des propriétés d’ordre général.</p>
+</li>
+<li><p class="first">La classe d’attribution définirait le produit plus en détail.</p>
+</li>
+<li><p class="first"><em>Exemple:</em></p>
+<blockquote>
+<div><p>Pour une boisson énergisante, la classe nature <em>Article individuel</em> contiendrait des propriétés génériques pour le produit, tandis que la classe d’attribution <em>Boissons</em> donnerait des détails inhérents aux
+boissons, comme la <em>contenance et la taille de la cannette</em>. Une autre classe, <em>Boissons énergisantes</em>, proposerait des propriétés comme <em>les valeurs nutritionnelles et la teneur en caféine</em>.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="section" id="s-marche-a-suivre-multiclassification-d-objets">
 <span id="marche-a-suivre-multiclassification-d-objets"></span><h2>Marche à suivre: Multiclassification d’objets<a class="headerlink" href="#marche-a-suivre-multiclassification-d-objets" title="Permalink to this headline">¶</a></h2>
 <p>Ce guide pratique fournit des instructions sur la manière de classer des objets dans plusieurs catégories. Pour ce faire, procédez comme suit :</p>
