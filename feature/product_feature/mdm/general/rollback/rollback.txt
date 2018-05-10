@@ -99,4 +99,4 @@ Pour ce faire, procédez comme suit:
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserve line
+   :alt: contentserv line
