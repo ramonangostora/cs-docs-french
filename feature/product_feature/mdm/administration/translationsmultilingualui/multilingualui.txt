@@ -22,7 +22,7 @@ Interface utilisateur multilingue est une fonctionnalité de traduction des él�
 
 =======================  ============================================================================================================================================================================
 
-Marche à suivre : Gestion d'une interface utilisateur multilingue
+Marche à suivre: Gestion d'une interface utilisateur multilingue
 ==================================================================
 Pour ce faire, procédez comme suit:
 

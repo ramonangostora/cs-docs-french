@@ -22,11 +22,12 @@ Interface utilisateur multilingue est une fonctionnalité de traduction des él�
 
 =======================  ============================================================================================================================================================================
 
-Marche à suivre : Gestion d'une interface utilisateur multilingue
+Marche à suivre: Gestion d'une interface utilisateur multilingue
 ==================================================================
 Pour ce faire, procédez comme suit:
 
 |
+
 #. Allez dans **Administration**.
 
 .. image:: /feature/_images/mdmimages/cs_multilingualui_gotosettings.PNG
@@ -69,4 +70,4 @@ Pour ce faire, procédez comme suit:
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line
