@@ -6,7 +6,7 @@
 Master Data Management
 =======================
 
-:doc:`Master Data Management </product/MDM>` (MDM): *Comment gérer les données de référence de plusieurs domaines*
+:doc:`Master Data Management </product/MDM>` (Master Data Management (gestion des données de référence)(MDM): *Comment gérer les données de référence de plusieurs domaines*
 
 *  Automatisez l’intégration des données et l’assurance qualité avec une solution multi-domaine contextuelle.
 *  Alimentez différents systèmes en temps réel avec des « golden records » précis provenant des données fournisseurs, des pools de données et des ERP.
@@ -46,4 +46,4 @@ Partner Engagement Platform
 |
 
 .. image:: _images/line-png-32.PNG
-   :alt: Contentserve line
+   :alt: Contentserv line

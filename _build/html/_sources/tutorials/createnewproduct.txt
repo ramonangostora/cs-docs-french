@@ -91,4 +91,4 @@ Pour le faire, suivez les étapes suivantes:
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserve line
+   :alt: contentserv line

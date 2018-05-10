@@ -5,7 +5,7 @@ Gérer différents rôles ou profils dans le système en ajoutant de nouveaux ut
 
 Comment ajouter de nouveaux utilisateurs
 =============================
-TPour le faire, suivez les étapes suivantes:
+Pour le faire, suivez les étapes suivantes:
 
 |
 
@@ -67,4 +67,4 @@ Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserve line
+   :alt: contentserv line

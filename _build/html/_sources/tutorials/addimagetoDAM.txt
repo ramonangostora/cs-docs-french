@@ -59,6 +59,6 @@ Les produits avec des images sont plus attrayants pour les utilisateurs du systÃ
 |
 |
 
-.. image:: /feature/_images/mdmimages/line-png-32.PNG
-|
+.. image:: _images/line-png-32.PNG
+   :alt: Contentserv line
 |

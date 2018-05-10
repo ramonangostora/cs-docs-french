@@ -2,10 +2,10 @@
 Exploration de l’Interface Utilisateur
 ======================================
 
-Ces captures d’écran vous guideront à travers l’interface utilisateur de contentserve :
+Ces captures d’écran vous guideront à travers l’interface utilisateur de contentserv :
 
 .. image:: _images/cs_ui1.jpg
-   :alt: Contentserve UI
+   :alt: contentserv UI
 
 |
 
@@ -46,11 +46,11 @@ Moteur de recherche
 |
 |
 
-Vous cherchez un **produit spécifique** ?
+Vous cherchez un **produit spécifique**?
 
 |
 
-Il suffit de taper et **rechercher** votre option parmi les suggestions.
+#. Il suffit de taper et **rechercher** votre option parmi les suggestions.
 
 |
 |
@@ -110,7 +110,7 @@ Fonction de rayon X
 |
 
 .. image:: _images/cs_ui2.jpg
-   :alt: Contentserve UI
+   :alt: Contentserv UI
 
 |
 |
@@ -187,4 +187,4 @@ Tris et filtres
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentserve line
+   :alt: contentserv line
