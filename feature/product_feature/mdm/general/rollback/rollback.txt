@@ -6,6 +6,7 @@ The Rollback feature allows a user to switch (or to revert) to a previous versio
 
 ===================  =================================================================================================================================================================
 
+
 **Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
                           * This feature can be accessed from within a product's page under the 'Timeline' tab.
 
