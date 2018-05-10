@@ -5,28 +5,29 @@ Interface utilisateur multilingue
 
 Interface utilisateur multilingue est une fonctionnalité de traduction des éléments de menu de l'interface utilisateur, afin que celle-ci soit utilisable dans plusieurs langues.
 
-===================  ============================================================================================================================================================================
+=======================  ============================================================================================================================================================================
 
-**Termes clés :**			*  **Interface utilisateur (UI :** L'interface numérique utilisée pour interagir avec le logiciel Contentserv
+**Termes clés :**			    *  **Interface utilisateur (UI) :** L'interface numérique utilisée pour interagir avec le logiciel Contentserv
 
-**Description:**        * L'interface utilisateur peut être affichée en différentes langues comme *le français, l'allemand et l'espagnol*.
-                        * L'administrateur peut configurer le modèle de données (attributs, balises, classes) en différentes langues afin qu'il soit compris par les utilisateurs de plusieurs pays ou régions.
-                        * La configuration de cette fonctionnalité s'effectue depuis la section d'administration.
+**Description:**          * L'interface utilisateur peut être affichée en différentes langues comme *le français, l'allemand et l'espagnol*.
+                          * L'administrateur peut configurer le modèle de données (attributs, balises, classes) en différentes langues afin qu'il soit compris par les utilisateurs de plusieurs pays ou régions.
+                          * La configuration de cette fonctionnalité s'effectue depuis la section d'administration.
 
-**Thèmes associéss:**    * :doc:`Modèle de données multilingue </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
+**Thèmes associéss:**     * :doc:`Modèle de données multilingue </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
 
-**Application:**        *	Le système peut afficher l'interface utilisateur en plusieurs langues.
-                        * *•	Exemple:*
+**Application:**          *	Le système peut afficher l'interface utilisateur en plusieurs langues.
+                          * *Exemple:*
 
-                            The administrator wants the UI to be in French for a French user. The adminstrator configures translations to the UI labels in the administration section. When the user selects their desired language, the UI of the system will be translated.
+                            L'administrateur souhaite que l'interface utilisateur soit en français pour un utilisateur français. L'administrateur configure les traductions des libellés de l'interface utilisateur dans la section d'administration. Lorsque l'utilisateur sélectionne sa langue, l'interface utilisateur du système est traduite.
 
-===================  ============================================================================================================================================================================
+=======================  ============================================================================================================================================================================
 
 Marche à suivre : Gestion d'une interface utilisateur multilingue
 ==================================================================
 Pour ce faire, procédez comme suit:
 
 |
+
 #. Allez dans **Administration**.
 
 .. image:: /feature/_images/mdmimages/cs_multilingualui_gotosettings.PNG
@@ -69,4 +70,4 @@ Pour ce faire, procédez comme suit:
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: contentserve line
