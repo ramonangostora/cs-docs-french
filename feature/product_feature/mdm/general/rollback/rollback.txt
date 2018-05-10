@@ -74,13 +74,13 @@ Pour ce faire, procédez comme suit:
 
 #.  Allez à l'onglet *Chronologie*. La version actuelle du produit serait celle qui porte le numéro de la dernière version en haut.
 
-  .. image:: /feature/_images/mdmimages/cs_rollbackb_clicktimeline.PNG
-  |
-  |
+.. image:: /feature/_images/mdmimages/cs_rollbackb_clicktimeline.PNG
+|
+|
 
-  .. image:: /feature/_images/mdmimages/cs_rollbackb_timeline.PNG
-  |
-  |
+.. image:: /feature/_images/mdmimages/cs_rollbackb_timeline.PNG
+|
+|
 
 #.  Cliquez sur la version antérieure au remplacement de l'image (dans cette démonstration, nous avons sélectionné « version 0 27 mars 2018 »).
 
