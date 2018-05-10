@@ -1,6 +1,6 @@
-==========================
+======================================
 Exploration de l’Interface Utilisateur
-==========================
+======================================
 
 Ces captures d’écran vous guideront à travers l’interface utilisateur de contentserve :
 
@@ -13,7 +13,7 @@ Mise à jour
 
 |
 
-#. **Mises à jour** de la page actuellement à l’écran
+#. **Mises à jour** de la page actuellement à l’écran.
 
 |
 |
@@ -23,7 +23,7 @@ Sélectionner tout
 
 |
 
-#. Cette fonction **permet de sélectionner toutes les images, textes et produits** de la fenêtre à l’écran
+#. Cette fonction **permet de sélectionner toutes les images, textes et produits** de la fenêtre à l’écran.
 
 |
 |
@@ -32,7 +32,7 @@ Sélectionner des Taxonomies
 
 |
 
-#. Affinez votre recherche en **appliquant la taxonomie appropriée**
+#. Affinez votre recherche en **appliquant la taxonomie appropriée**.
 
 |
 |
