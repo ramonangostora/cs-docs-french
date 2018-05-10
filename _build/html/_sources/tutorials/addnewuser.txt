@@ -3,11 +3,9 @@ Ajouter de nouveaux utilisateurs
 ================================
 Gérer différents rôles ou profils dans le système en ajoutant de nouveaux utilisateurs.
 
-
 Comment ajouter de nouveaux utilisateurs
 =============================
-TPour le faire, suivez les étapes suivantes :
-
+TPour le faire, suivez les étapes suivantes:
 
 |
 
@@ -48,19 +46,17 @@ TPour le faire, suivez les étapes suivantes :
 
 #.   Afficher l’utilisateur ajouté.
 
-
 .. image:: /feature/_images/mdmimages/addingnewusers_addeduser.PNG
 |
 |
 
-Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les étapes suivantes :
+Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les étapes suivantes:
 
       #.    Cliquez sur l’icône **Add** et sélectionnez une image sur votre ordinateur.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
       |
       |
-
 
       #.    Afficher l’icône ajoutée.
 

@@ -3,6 +3,7 @@ Ajouter une image au DAM
 ========================
 Les produits avec des images sont plus attrayants pour les utilisateurs du système, vous pouvez les stocker dans le DAM (gestionnaire des actifs). Pour le faire, suivez les étapes suivantes :
 
+|
 
 #. Cliquez sur **All**.
 
@@ -57,10 +58,6 @@ Les produits avec des images sont plus attrayants pour les utilisateurs du syst�
 .. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
 
 |
-
-| :doc:`Previous: Add New Users </tutorials/addnewuser>`
-| :doc:`Next: Create a New Product </tutorials/createnewproduct>`
-
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
