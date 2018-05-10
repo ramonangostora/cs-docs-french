@@ -8,7 +8,7 @@ Comment configurer une taxonomie
 ================================
 Pour le faire, suivez les étapes suivantes:
 
-#. Cliquez sur Settings (paramètres).
+#. Cliquez sur **Settings** (paramètres).
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_clicksettings.PNG
 |
@@ -39,10 +39,6 @@ Pour le faire, suivez les étapes suivantes:
 |
 
 #.   Une fenêtre Taxonomie apparaîtra. Entrez les données de cette nouvelle taxonomie et cliquez sur Create (créer).
-
-.. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
-|
-|
 
 .. image:: /feature/_images/mdmimages/settinguptaxonomy_taxdetails.PNG
 |

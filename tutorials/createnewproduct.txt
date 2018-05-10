@@ -10,7 +10,7 @@ Pour le faire, suivez les étapes suivantes:
 
 |
 
-#.	Click **All** from the top right.	Cliquez sur  **All**  haut à droite.
+#.	Cliquez sur  **All**  haut à droite.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
 |

@@ -27,7 +27,7 @@ TPour le faire, suivez les étapes suivantes:
 |
 |
 
-#.   TEnsuite, cliquez sur « + » pour ajouter un utilisateur.
+#.   Ensuite, cliquez sur « + » pour ajouter un utilisateur.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
 |

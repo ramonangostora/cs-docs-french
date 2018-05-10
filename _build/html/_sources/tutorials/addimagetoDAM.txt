@@ -1,7 +1,7 @@
 ========================
 Ajouter une image au DAM
 ========================
-Les produits avec des images sont plus attrayants pour les utilisateurs du système, vous pouvez les stocker dans le DAM (gestionnaire des actifs). Pour le faire, suivez les étapes suivantes :
+Les produits avec des images sont plus attrayants pour les utilisateurs du système, vous pouvez les stocker dans le DAM (gestionnaire des actifs). Pour le faire, suivez les étapes suivantes:
 
 |
 
@@ -56,9 +56,9 @@ Les produits avec des images sont plus attrayants pour les utilisateurs du syst�
 #.	Les métadonnées disponibles dans la section Métadonnées seront générées automatiquement, mais les champs peuvent aussi être remplis manuellement.
 
 .. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
-
 |
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserve line
+|
+|
