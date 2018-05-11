@@ -40,7 +40,7 @@ Pour ce faire, procédez comme suit:
 |
 |
 
-#. Cliquez sur Libellés de l'application.
+#. Cliquez sur **Libellés de l'application**.
 
 .. image:: /feature/_images/mdmimages/cs_multilingualui_selapplabel.PNG
 |
