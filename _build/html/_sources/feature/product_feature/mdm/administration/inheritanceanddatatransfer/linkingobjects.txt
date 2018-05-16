@@ -1,41 +1,42 @@
-===============
-Linking Objects
-===============
-Linking Objects allows an administrator to link an object to multiple taxonomies.
+=================
+Liaison d'objets
+=================
+La liaison d'objets permet à un administrateur de lier un objet à plusieurs taxonomies.
 
 
-====================    =============================================================================================================================================================
-**Description:**        * The feature allows the classification of objects to various sub-taxonomies for smooth navigation and easy searching of other linked objects.
-                        * It can apply multiple taxonomies to a product to show the categories the product falls under.
+=====================   ===============================================================================================================================================================
+**Terme clé:**          * **Taxonomie:** Une taxonomie est un schéma de classification utilisé pour les produits d'une organisation.
 
-**Related topics:**     * *Inheritance via Taxonomy*
-                        * *Multi-taxonomy Assignment*
+**Description:**        * La fonctionnalité permet de classer des objets dans diverses sous-taxonomies pour faciliter la navigation et la recherche d'autres objets liés.
+                        * On peut appliquer plusieurs taxonomies à un produit pour montrer à quelles catégories il appartient.
 
-**Application:**        * Link an object to a taxonomy for proper classification.
-                        * Taxonomy branches serve as classification of the parts.
-====================    =============================================================================================================================================================
+**Thèmes associés:**    * :doc:`Affectation de taxonomies multiples </feature/product_feature/mdm/general/multitaxonomyassignment/multitaxonomyassignment>`
+
+**Application:**        * Lier un objet à une taxonomie particulière pour classer cet objet.
+                        * Les branches de taxonomies servent à classer les pièces.
+=====================   ===============================================================================================================================================================
 
 
-How to do: Linking Objects
-==========================
+Marche à suivre: Liaison d'objets
+==================================
 
-Classify with ease by linking objects, and here's how to do it.
+Faciliter la classification en liant les objets, voici comment procéder.
 
 |
 
-#. Go to PIM and hover on the "+" icon.
+#. Allez à PIM et survolez l'icône « + ».
 
 .. image:: /feature/_images/mdmimages/linkingobjects_gotopim.PNG
 |
 |
 
-#. Select your product.
+#. Sélectionnez votre produit.
 
 .. image:: /feature/_images/mdmimages/linkingobjects_selectproduct.PNG
 |
 |
 
-#. Click **Add Taxonomy**.
+#. Cliquez sur **Ajouter une taxonomie**.
 
 .. image:: /feature/_images/mdmimages/linkingobjects_addtaxonomy.PNG
 |
@@ -43,11 +44,11 @@ Classify with ease by linking objects, and here's how to do it.
 |
 |
 
-#. Property collection is added via Taxonomy. You can link more products if necessary.
+#. La collection de propriétés est ajoutée via Taxonomie. Vous pouvez lier plus de produits si nécessaire.
 
 .. image:: /feature/_images/mdmimages/linkingobjects_propertycollection.PNG
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
