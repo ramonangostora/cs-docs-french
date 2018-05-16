@@ -5,7 +5,7 @@ La fonctionnalité Affectation de taxonomies multiples fournit à l'utilisateur 
 
 
 ====================    ===============================================================================================================================================================
-**Terme clé:**          * **Taxonomie:** Une taxonomie est un schéma de classification utilisé pour les produits d'une organisation
+**Terme clé:**          * **Taxonomie:** Une taxonomie est un schéma de classification utilisé pour les produits d'une organisation.
 
 **Description:**        * La fonctionnalité affecte un objet unique à plusieurs taxonomies différentes ou à plusieurs nœuds dans la même taxonomie.
                         * La fonctionnalité permet d'affecter plusieurs taxonomies à un produit unique.
