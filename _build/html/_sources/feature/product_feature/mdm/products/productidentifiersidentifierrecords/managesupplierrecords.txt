@@ -16,7 +16,7 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
 
 							              **Identifiant fournisseur:** chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.
 
-							              **Nom du fournisseur:** : chaque fournisseur peut être identifié par son nom.
+							              **Nom du fournisseur:** chaque fournisseur peut être identifié par son nom.
 
                         * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
 
