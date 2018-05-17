@@ -1,7 +1,7 @@
 ===============================
 Gestion des fiches fournisseurs
 ===============================
-Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fournisseurs et leurs identifiants dans les *Unités* qui permettent au système de remonter le *produit* au fournisseur.
+Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fournisseurs et leurs identifiants dans les *Unités* qui permettent au système de remonter le *produit* au fournisseur.
 
 
 ===================     =======================================================================================================================================================================
@@ -12,7 +12,7 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
 
 							              **GTIN (numéro d'article commercial international):** le GTIN est un numéro mondialement unique à 14 chiffres utilisé pour identifier les *articles commerciaux, produits ou services*.
 
-							              **SKU (SKU (unité de gestion des stocks):** est un code d'identification pour les produits et services d'un magasin, souvent représenté par un code-barres lisible à la machine qui permet de suivre un article aux fins d'inventaire.
+							              **SKU (unité de gestion des stocks):** est un code d'identification pour les produits et services d'un magasin, souvent représenté par un code-barres lisible à la machine qui permet de suivre un article aux fins d'inventaire.
 
 							              **Identifiant fournisseur:** chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.
 
@@ -26,11 +26,11 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
 
 							              **L'unité est une unité de base:** lorsque la mesure de base du produit est 1 unité. Par exemple, une *pièce*.
 
-**Related topics:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
+**Thèmes associés:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
 
 **Application:**        * Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.
                         * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
-                        * *Example:*
+                        * *Exemple:*
 
                             Si le *Revendeur A* reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
 
@@ -57,7 +57,7 @@ Pour gérer les fiches fournisseurs, suivez les étapes suivantes:
 |
 |
 
-#. Cliquez sur le bouton « + ».
+#. Cliquez sur le bouton « + »pour ajouter la classe fournisseur.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusbutton.PNG
 |
