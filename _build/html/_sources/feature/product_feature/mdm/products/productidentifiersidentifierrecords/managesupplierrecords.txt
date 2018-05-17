@@ -14,13 +14,13 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
 
 							              **SKU (SKU (unité de gestion des stocks):** est un code d'identification pour les produits et services d'un magasin, souvent représenté par un code-barres lisible à la machine qui permet de suivre un article aux fins d'inventaire.
 
-							              **Identifiant fournisseur:** each supplier will get a unique ID to access the product for their specific use.
+							              **Identifiant fournisseur:** chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.
 
-							              **Nom du fournisseur:** chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.
+							              **Nom du fournisseur:** : chaque fournisseur peut être identifié par son nom.
 
                         * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
 
-							              **L'unité est une unité de commande:** lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie *est une unité de commande*. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une caisse.
+							              **L'unité est une unité de commande:** lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie *est une unité de commande*. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une *caisse*.
 
 							              **L'unité est une unité de vente:** lorsque la quantité du produit est moyenne. Elle sera présente sous la catégorie *est une unité de vente*. Cette unité est généralement utilisée par les consommateurs ou les fournisseurs. Par exemple, une *boîte*.
 
@@ -32,7 +32,7 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
                         * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
                         * *Example:*
 
-                            Si le Revendeur A reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
+                            Si le *Revendeur A* reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
 
 ===================     =======================================================================================================================================================================
 
@@ -81,18 +81,19 @@ Pour gérer les fiches fournisseurs, suivez les étapes suivantes:
 |
 |
 
-#. Survolez l'icône « + » pour ajouter la classe fournisseur.
+#. Survolez l'icône « + ».
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus.PNG
 |
+|
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus1.PNG
-
-
+|
 |
 
 #. Saisissez les informations relatives au fournisseur.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_enterinformation.PNG
+|
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
