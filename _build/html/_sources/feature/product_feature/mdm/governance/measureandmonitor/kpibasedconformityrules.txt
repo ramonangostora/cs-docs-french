@@ -8,7 +8,7 @@ Règles de conformité selon les KPI est une fonctionnalité de gouvernance des 
 **Terme clé:**           * **Indicateur de performance clé (KPI):** est une mesure utilisée pour déterminer la qualité des données relative aux produits qui sont ajoutées dans le système en lien avec une norme établie.
 
 **Description:**         * Les KPI contribuent à déterminer l'exactitude des produits selon les attributs, taxonomie et balises d'un article.
-                         * Les KPI valident les 4 facteurs suivants: *Intégralité, Conformité, Unicité et Exactitude*.
+                         * Les KPI valident les 4 facteurs suivants: *Intégralité, Conformité, Unicité, et Exactitude*.
                          * Les KPI permettent un approfondissement sur la base des *taxonomie* et *balises*.
                          * Le KPI: **Conformité** vérifie l'exactitude des données du produit et inspecte également que les données respectent les normes.
 

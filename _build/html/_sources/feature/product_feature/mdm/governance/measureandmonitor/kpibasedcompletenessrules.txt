@@ -8,7 +8,7 @@ Règles d'intégralité selon les KPI est une fonctionnalité de gouvernance des
 **Terme clé:**            * **Indicateur de performance clé (KPI):** est une mesure utilisée pour déterminer la qualité des données relative aux produits qui sont ajoutées dans le système en lien avec une norme établie.
 
 **Description:**          * Les KPI démontrent l'exactitude des produits sur la base des attributs, taxonomie et balises d'un article.
-                          * Les KPI contrôlent les mesures suivantes d'exactitude des données: *Exactitude, Intégralité, Conformité et Unicité*.
+                          * Les KPI contrôlent les mesures suivantes d'exactitude des données: *Exactitude, Intégralité, Conformité, et Unicité*.
                           * Les KPI peuvent être affinés selon la *Taxonomie* et les *Balises*.
                           * Le KPI: **Intégralité**, comme son nom l'indique, assure que les données de produit sont complètes en tous points.
 
