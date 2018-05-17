@@ -26,7 +26,7 @@ Gestion des fiches fournisseursGestion des fiches fournisseurs est une fonctionn
 
 							              **L'unité est une unité de base:** lorsque la mesure de base du produit est 1 unité. Par exemple, une *pièce*.
 
-**Related topics:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierrecords/managesupplierrecords>`
+**Related topics:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
 
 **Application:**        * Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.
                         * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
