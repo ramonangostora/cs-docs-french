@@ -6,5 +6,5 @@ Measure and Monitor
    :maxdepth: 1
 
    monitordataquality
-   kpibasedcompletenessrules
+   Règles d'intégralité selon les KPI
    kpibasedconformityrules
