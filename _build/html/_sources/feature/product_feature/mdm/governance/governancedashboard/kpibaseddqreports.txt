@@ -51,7 +51,7 @@ Pour ce faire, procédez comme suit:
 |
 |
 
-#. Renseignez le nom et le code (facultatif) puis cliquez sur « Créer » pour créer le KPI.
+#. Renseignez le nom et le code (facultatif) puis cliquez sur **Créer** pour créer le KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
