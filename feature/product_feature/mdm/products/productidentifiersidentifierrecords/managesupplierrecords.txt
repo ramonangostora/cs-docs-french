@@ -1,102 +1,100 @@
-========================
-Manage Supplier Records
-========================
-Manage Supplier Records is a feature that manages supplier records and their identifiers in the *Units* that allow the system to trace back the *Product* to the *Supplier*.
+===============================
+Gestion des fiches fournisseurs
+===============================
+Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fournisseurs et leurs identifiants dans les *Unités* qui permettent au système de remonter le *produit* au fournisseur.
 
 
 ===================     =======================================================================================================================================================================
-**Description:**        * The feature allows managing of the products received from various suppliers by adhering to a few standard *Standards/Units*.
+**Terme clé :**         * **Classe:** une classe définit la configuration de base pour les produits.
+**Description:**        * La fonctionnalité permet de gérer les produits reçus de différents fournisseurs en adhérant à quelques *Nomes/Unités standard*.
 
-                        * **Standard Identifier:** Standard Identifier assigns a unique identifier to the *Products/Supplier*.
+                        * **Identifiant standard:** L'identifiant standard affecte un identifiant unique aux *Produits/Fournisseur*.
 
-							              **GTIN (Global Trade Item Number):** the GTIN is a globally unique 14-digit number used to identify *trade items, products, or services*.
+							              **GTIN (numéro d'article commercial international):** le GTIN est un numéro mondialement unique à 14 chiffres utilisé pour identifier les *articles commerciaux, produits ou services*.
 
-							              **SKU (Stock Keeping Unit):** is a product and service identification code for a store or product, often portrayed as a machine-readable bar code
-							              that helps track an item for inventory.
+							              **SKU (unité de gestion des stocks):** est un code d'identification pour les produits et services d'un magasin, souvent représenté par un code-barres lisible à la machine qui permet de suivre un article aux fins d'inventaire.
 
-							              **Supplier ID:** each supplier will get a unique ID to access the product for their specific use.
+							              **Identifiant fournisseur:** chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.
 
-							              **Supplier Name:** each supplier can be identified by its name.
+							              **Nom du fournisseur:** chaque fournisseur peut être identifié par son nom.
 
-                        * **Unit:** Units are mentioned for the measurement of the products or their distinction. This is an important information for sales. Various measurement units used are *Box, Piece, etc*.
+                        * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
 
-							              **Unit is an Order Unit:** when the quantity of the product is high. It will come under the *is order unit* category. This unit is typically used by wholesaler or a big supplier. An example is a *crate*.
+							              **L'unité est une unité de commande:** lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie *est une unité de commande*. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une *caisse*.
 
-							              **Unit is a Sales Unit:** when the quantity of the product is moderate. It will come under the *is sales unit* category.
-							              This unit is typically used by the consumer or the supplier. An example is a *box*.
+							              **L'unité est une unité de vente:** lorsque la quantité du produit est moyenne. Elle sera présente sous la catégorie *est une unité de vente*. Cette unité est généralement utilisée par les consommateurs ou les fournisseurs. Par exemple, une *boîte*.
 
-							              **Unit is a Base Unit:** when the basic measurement of the product is one unit. An example is a *piece*.
+							              **L'unité est une unité de base:** lorsque la mesure de base du produit est 1 unité. Par exemple, une *pièce*.
 
-**Related topics:**     * :doc:`Manage Product Keys </feature/product_feature/mdm/products/productidentifiersidentifierrecords/managesupplierrecords>`
+**Thèmes associés:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
 
-**Application:**        * This feature is used to manage supplier records with their identifiers in 'units' to trace back the product to the supplier.
-                        * If a similar product is sold by various suppliers, the *Standard Identifiers* will help identify which product belongs to which supplier.
-                        * *Example:*
+**Application:**        * Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.
+                        * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
+                        * *Exemple:*
 
-                            If *Retailer A* receives a product, say, **Red Bull** from 3 suppliers, a *Standard Identifier* will help identify the source of the product.
-                            Similarly, when selling a product in bulk, units selected will help a user distinguish the product selling structure whether it is an
-                            *order unit, sales unit, or a base unit*.
+                            Si le *Revendeur A* reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
 
 ===================     =======================================================================================================================================================================
 
 
 
 
-How to do: Manage Supplier Records
-===================================
-To manage supplier records, follow these steps:
+Marche à suivre: Gestion des fiches fournisseurs
+===================================================
+Pour gérer les fiches fournisseurs, suivez les étapes suivantes:
 
 |
 
-#. Log in to Contentsphere and click on the **Administration** button to enter the configuration page.
+#. Connectez-vous et cliquez sur le bouton **Administration** pour accéder à la page de configuration.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickadministration.PNG
 |
 |
 
-#. Go to the **Data Model** tab and under *Classes*, click on **Supplier**.
+#. Allez à l'onglet **Modèle de données** et sous *Classes*, cliquez sur **Fournisseur**.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_gotodatamodel.PNG
 |
 |
 
-#. Click on "+" button.
+#. Cliquez sur le bouton « + »pour ajouter la classe fournisseur.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusbutton.PNG
 |
 |
 
-#. Enter the name and enable the nature class then click on the **Create** button.
+#. Saisissez le nom et activez la classe nature puis cliquez sur le bouton **Créer**.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_entername.PNG
 |
 |
 
-#. Click on the **Explore** button.
+#. Cliquez sur le bouton **Explorer**.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickexplore.PNG
 |
 |
 
-#. Click on **Supplier**.
+#. Cliquez sur **Fournisseur**.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clicksupplier.PNG
 |
 |
 
-#. Hover on the "+" icon to add supplier class.
+#. Survolez l'icône « + ».
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus.PNG
 |
+|
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_hoverplus1.PNG
-
-
+|
 |
 
-#. Enter the information about the supplier.
+#. Saisissez les informations relatives au fournisseur.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_enterinformation.PNG
 |
+|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

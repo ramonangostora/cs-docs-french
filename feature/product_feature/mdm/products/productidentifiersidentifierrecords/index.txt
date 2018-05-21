@@ -1,5 +1,5 @@
 =========================================
-Product Identifiers - Identifier Records
+Identifiants de produit - Enregistrements d'identifiants
 =========================================
 
 .. toctree::
