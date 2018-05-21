@@ -1,120 +1,111 @@
-=====================
-KPI-based DQ Reports
-=====================
-The KPI-based DQ Reports is a data governance feature that allows an administrator set up a KPI-based Data Quality reports and link it to specific roles,
-which enables the designated users to take proper corrective actions.
+=========================
+Rapports DQ selon les KPI
+=========================
+Rapports DQ selon les KPI est une fonctionnalité de gouvernance des données qui permet à un administrateur de configurer des rapports sur la qualité des données selon des KPI et de les lier à des rôles spécifiques, ainsi les utilisateurs désignés peuvent prendre les mesures correctives adaptées.
 
 
-===================     =======================================================================================================================================================================
-**Description:**        * Data Quality Reports or Dashboards can be generated for each user/role in the system that shows a brief overview of all the products.
-                        * These reports help a user understand the products in the system and show errors in the system (if there are any).
-                        * The Data Quality Report gives a role a summary of all the products in the system that enables a user to take proper corrective actions
-                          based on the rules applied to the products and the KPI dashboard.
+=======================     =======================================================================================================================================================================
+**Terme clé:**              * **Administrateur:** Un spécialiste technique qui configure un système logiciel.
 
-**Related topics:**
-                        * :doc:`Drill Down for KPI Reports </feature/product_feature/mdm/governance/governancedashboard/drilldownforkpireports>`
+**Description:**            * Les rapports sur la qualité des données ou les Tableaux de bord peuvent être générés pour chaque utilisateur/rôle dans le système présentant un bref aperçu de tous les produits.
+                            * Ces rapports aident l'utilisateur à comprendre les produits dans le système et montre les erreurs dans le système (s'il y en a).
+                            * Le rapport sur la qualité des données fournit à un rôle le résumé de tous les produits dans le système, ce qui permet à l'utilisateur de prendre les mesures correctives adaptées selon les règles appliquées aux produits et au tableau de bord des KPI.
 
-**Application:**        * The KPI Dashboard helps a user better understand the products and take actions on it if they do not meet the set standard,
-                          which have been predefined by the rules set for those products.
-                        * *Example:*
+**Thèmes associés:**        * :doc:`Approfondissement pour les rapports sur les KPI </feature/product_feature/mdm/governance/governancedashboard/drilldownforkpireports>`
 
-                            For a supplier of fashion products, a Fashion KPI Report would give an overview of all the fashion products based on a certain rule like the completeness of GTIN.
-                            Corrective actions can be taken for products violating the rule.
 
-===================     =======================================================================================================================================================================
+**Application:**            * Le tableau de bord des KPI aide l'utilisateur à mieux comprendre les produits et à prendre des mesures s'ils ne respectent pas la norme établie, prédéfinie par les règles établies pour ces produits.
+                            * *Exemple:*
 
-How to do: KPI Based DQ Reports
-=============================
-To do this, follow these steps:
+                                Pour un fournisseur de produits de mode, un Rapport sur le KPI mode donnerait un aperçu de tous les produits de mode sur la base d'une règle particulière comme l'intégralité du GTIN. Des mesures correctives peuvent être prises pour les produits qui enfreignent la règle.
 
-#. Click   **Administration** icon.
+=======================     =======================================================================================================================================================================
+
+Marche à suivre: Rapports DQ selon les KPI
+==========================================
+Pour ce faire, procédez comme suit:
+
+|
+
+#. Cliquez sur l'icône **Administration**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_gotoadmin.PNG
 |
 |
 
-#. Click the *Data Governance* tab from the top.
+#. Cliquez sur l'onglet *Gouvernance des données* en haut.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickgov.PNG
 |
 |
 
-#.  Click   **KPIs**.
+#. Cliquez sur **KPI** à gauche dans l'onglet *Gouvernance des données*.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickkpi.PNG
 |
 |
 
-#. Click the **+** icon at the top right to create a new KPI.
+#. Cliquez sur l'icône « + » en haut à droite pour créer un nouveau KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
 |
 
-#.   Enter a name and code(optional). Then, click  **CREATE** to create the KPI.
+#. Renseignez le nom et le code (facultatif) puis cliquez sur **Créer** pour créer le KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_enterdetails.PNG
 |
 |
 
-#.      Once the KPI is created, it will appear in the list of KPI, click  the **Edit** icon.
+#. Une fois le KPI créé, il apparaîtra dans la liste des KPI, cliquez sur l'icône « Modifier » à l'extrémité droite dans la liste des KPI.
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickedit.PNG
+
+.. image:: /feature/_images/mdmimages/cs_managemasters_createsub.PNG
 |
 |
 
-#.      On the *KPI Information* tab, click to select **Class**. then, **Taxonomy**.
+#. Sélectionnez la **Classe** et la **Taxonomie** auxquelles le KPI est destiné.
 
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
 |
 |
 
-#.      Click the *Completeness* tab. Then, click to select **attributes** and **Tags**.
+#. Sélectionnez l'onglet *Intégralité* en haut et ajoutez une règle pour l'intégralité. Sélectionnez les attributs et Balises soi-disant complets.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selcomp.PNG
 |
 |
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selcompb.PNG
-|
+#. Cliquez sur l'onglet *Conformité* en haut et ajoutez une règle pour la conformité. Sélectionnez les attributs/balises et sélectionnez l'opération et la condition pour la conformité.
+
 |
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_compadrulb.PNG
-|
-|
-
-#.      Click **Apply**.  Click **SAVE** to save the changes.
-
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_compadrulc.PNG
-|
-|
-
-#.      Repeat the similars teps for *Conformity*, *Uniqueness* and  *Accuracy* tab. Click to select the attributes and tags.
+#. Suivez les mêmes étapes pour l'Exactitude et l'Unicité. Cliquez sur le bouton *Enregistrer* pour enregistrer le KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selconform.PNG
 |
 |
 
-#.      To assign the KPI to a role, click  *Partner Administration* tab and  select the Organization where the role is present ( in this  demo, we selected "Fashionista").
-
+#. Pour affecter le KPI à un rôle: Sélectionnez l'onglet Admin des partenaires puis sélectionnez l'Organisation où se trouve le rôle.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selpartad.PNG
 |
 |
 
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selfash.PNG
-|
-|
-
-#.       Click *Roles* tab and select a role ( in this demo, we selected " Garment Supplier"). Then, select a  KPI and click **APPLY**.
+#. Dans le rôle, affectez le KPI qui vient d'être créé (si aucun KPI n'est sélectionné, le rôle sera autorisé pour tous les KPI présents).
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_asskpi.PNG
 |
 |
 
+#. Déconnectez-vous du système puis connectez-vous avec l'utilisateur appartenant au rôle pour afficher le KPI correspondant à ce rôle.
 
-#.        Logout from the system and  login with the user belonging to the role, to view the KPI for that role.
+.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
+|
+|
+
+#. Déconnectez-vous du système puis connectez-vous avec l'utilisateur appartenant au rôle pour afficher le KPI correspondant à ce rôle.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
 |
@@ -124,4 +115,4 @@ To do this, follow these steps:
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
