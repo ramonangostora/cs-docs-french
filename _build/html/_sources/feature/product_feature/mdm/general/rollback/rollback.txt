@@ -7,8 +7,14 @@ La fonctionnalité de retour arrière permet à l'utilisateur de basculer vers (
 ===================      =================================================================================================================================================================
 **Terme clé**             * **Retour arrière:** fonctionnalité permettant à l'utilisateur de revenir à une version souhaitée d'un produit.
 
+<<<<<<< HEAD
 **Description:**          * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
                           * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
+=======
+
+**Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
+                          * This feature can be accessed from within a product's page under the 'Timeline' tab.
+>>>>>>> origin/Nadia_French_Multilingualui2_05092018
 
 **Related topics:**       * :doc:`Gestion des catalogues virtuels </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
                           * :doc:`Classifications de produits </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`

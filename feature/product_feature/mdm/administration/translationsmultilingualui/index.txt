@@ -1,6 +1,6 @@
-===============================
-Translations - Multilingual UI
-===============================
+==============================================
+Traduction - Interface utilisateur multilingue
+==============================================
 
 .. toctree::
    :maxdepth: 1
