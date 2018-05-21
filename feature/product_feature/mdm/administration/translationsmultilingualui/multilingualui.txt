@@ -15,7 +15,7 @@ Multilingual UI is a feature that provides translation capability for UI menu it
 **Related topics:**     * :doc:`Multilingual Data Model </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
 
 **Application:**        * The system can have multiple languages of the UI for different languages.
-                        * *Example:*
+                          * *Example:*
 
                             The administrator wants the UI to be in French for a French user. The adminstrator configures translations to the UI labels in the administration section. When the user selects their desired language, the UI of the system will be translated.
 
