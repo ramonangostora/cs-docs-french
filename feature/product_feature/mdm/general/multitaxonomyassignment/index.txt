@@ -1,6 +1,6 @@
-=========================
-Multi-taxonomy Assignment
-=========================
+====================================
+Affectation de taxonomies multiples
+====================================
 
 .. toctree::
    :maxdepth: 1

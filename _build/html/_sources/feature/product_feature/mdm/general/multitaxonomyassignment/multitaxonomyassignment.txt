@@ -1,40 +1,43 @@
-=========================
-Multi-taxonomy Assignment
-=========================
-The Multi-taxonomy Assignment feature provides general users the capability to assign an object to various taxonomies or to multiple nodes within the same taxonomy.
-
-
-===================     ===============================================================================================================================================================
-**Description:**        * The feature assigns a single object to multiple different taxonomies or to multiple nodes within the same taxonomy.
-                        * The feature allows multiple taxonomies to be assigned to a single product.
-                        * The feature enhances the classification of products/articles in a more structured way.
-
-**Related topics:**     * *Product Classification via Taxonomies*
-                        * *Search within Taxonomy*
-
-**Application:**        * This feature is used to classify a product into 2 or more structures or hierarchies. Taxonomies allow a user to have hierarchies in the system.
-                          Multiple hierarchies can be applied to a product.
-                        * *Example:*
-
-                            A user has created an energy drink product and was given a hierarchy of just *Beverages* under *Food*. The product
-                            may also have another hierarchy which can be under *Sports and Energy Drinks*. Multi-taxonomy allows a user to define more than one taxonomy for the product.
-
-===================     ===============================================================================================================================================================
-
-
-How to do: Multi-taxonomy Assignment
 ====================================
-To assign a single object to multiple different taxonomies or to multiple nodes within the same taxonomy, follow these steps:
+Affectation de taxonomies multiples
+====================================
+La fonctionnalité Affectation de taxonomies multiples fournit à l'utilisateur général la capacité d'affecter un objet à différentes taxonomies ou à plusieurs nœuds dans la même taxonomie.
+
+
+====================    ===============================================================================================================================================================
+**Terme clé:**          * **Taxonomie:** Une taxonomie est un schéma de classification utilisé pour les produits d'une organisation.
+
+**Description:**        * La fonctionnalité affecte un objet unique à plusieurs taxonomies différentes ou à plusieurs nœuds dans la même taxonomie.
+                        * La fonctionnalité permet d'affecter plusieurs taxonomies à un produit unique.
+                        * La fonctionnalité améliore la classification des produits/articles en y apportant plus de structure.
+
+**Thèmes associés:**    * :doc:`Classification des produits grâce aux taxonomies </feature/product_feature/mdm/general/multitaxonomyassignment/productclassificationviataxonomies>`
+                        * :doc:`Rechercher dans Taxonomie </feature/product_feature/mdm/general/searchandexplore/searchwithintaxonomy>`
+
+**Application:**        * Cette fonctionnalité permet de classer un produit dans au moins deux structures ou hiérarchies. Les taxonomies permettent à l'utilisateur d'établir des hiérarchies au sein du système.
+                          Plusieurs hiérarchies peuvent être appliquées au même produit.
+                        * *Exemple:*
+
+                            Un utilisateur a créé une boisson énergisante, obtenant une hiérarchie simple, Boissons sous Alimentation. Le produit peut également avoir une autre hiérarchie sous Sports et Boissons énergisantes.
+                            Taxonomies multiples permet à un utilisateur de définir plusieurs taxonomies pour le produit.
+
+
+====================    ===============================================================================================================================================================
+
+
+Marche à suivre: Affectation de taxonomies multiples
+=====================================================
+Pour affecter un objet unique à plusieurs taxonomies différentes ou à plusieurs nœuds dans la même taxonomie, suivez les étapes suivantes:
 
 |
 
-#. On the product page, click on the **Add Taxonomy** button.
+#. Sur la page du produit, cliquez sur le bouton **Ajouter une taxonomie**.
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_ontheprodpageclickaddtaxonomy.PNG
 |
 |
 
-#. From the drop-down list, select a parent taxonomy (e.g. *Products*).
+#. Dans la liste déroulante, sélectionnez une taxonomie parent (par ex., *produits*).
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectaparenttaxonomy.PNG
 |
@@ -42,24 +45,24 @@ To assign a single object to multiple different taxonomies or to multiple nodes 
 |
 |
 
-#. To further classify the product, click on the **Classify Further** button.
+#. Pour classer plus finement le produit, cliquez sur le bouton **Approfondir la classification**.
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_tofurtherclassify.PNG
 |
 |
 
-#. Select a node from the drop-down list. In the images below, the example would be *Food > Beverages > Sports and Energy Drinks*.
+#. Sélectionnez un nœud dans la liste déroulante. Dans les images ci-dessous, l'exemple serait *Alimentation* > *Boissons* > *Boissons sportives et énergisantes*.
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectanodefromthedropdownlist.PNG
 |
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectanodefromthedropdownlist2.PNG
 |
 
-*Note: The last image shows the multiple nodes within a single taxonomy that have been added to the product.*
+*Remarque: La dernière image montre les nombreux nœuds au sein d'une même taxonomie qui ont été ajoutés au produit.*
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectanodefromthedropdownlist3.PNG
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
