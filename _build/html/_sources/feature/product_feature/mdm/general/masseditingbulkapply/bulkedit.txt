@@ -1,71 +1,77 @@
-==========
-Bulk Edit
-==========
+================
+Édition en bloc
+================
 
-The Bulk Edit feature allows a user to change the values of multiple attributes/tags for multiple products in a single operation.
-
-===================     ===============================================================================================================================================================
-**Description:**        * Bulk Edit can change the values of multiple attributes/tags for multiple products in a single operation.
-                        * Bulk Edit can be used on similar or dissimilar types of products.
-                        * Bulk Edit allows multiple attributes/tags to be edited in a single operation.
-                        * Bulk Edit allows multiple attributes/tags to be changed and applied to products.
-                        * Bulk Edit is accessed from the PIM main catalog view page.
-
-**Related topics:**     * *Search within Taxonomy*
-                        * *Group By*
-
-**Application:**        * Bulk Edit is used to support a variety of actions, such as: *Editing, Labeling, Changing States, Moving, or Deleting*.
-                        * Bulk Edit saves the user from manual work by editing products in a batch instead of one product at a time.
-                        * Bulk Edit provides the functionality to change and set a variety of product attributes like *Price, Compare at Price, Weight, Tags,* and more.
-                        * *Example:*
-
-                            A food company changed the tagline or description of their products. The company can select their products in the system and change the
-                            description using bulk edit. The feature will also apply the description change to all of their products.
-
-===================     ===============================================================================================================================================================
+La fonctionnalité Édition en bloc permet à l'utilisateur de modifier les valeurs de plusieurs attributs/balises pour plusieurs produits en une seule opération.
 
 
-How to: Bulk Edit
-=====================
-To do mass editing, follow these steps:
+=====================     ===============================================================================================================================================================
+**Description:**          * Édition en bloc permet de modifier les valeurs de plusieurs attributs/balises pour plusieurs produits en une seule opération.
+                          * Édition en bloc peut être utilisée sur des types de produits similaires ou différents.
+                          * Édition en bloc permet de modifier plusieurs attributs/balises en une seule opération.
+                          * Édition en bloc permet de modifier plusieurs attributs/balises et de les appliquer aux produits.
+                          * Édition en bloc est accessible sur la page principale du catalogue PIM.
+
+**Thèmes associés:**      * :doc:`Rechercher dans Taxonomie </feature/product_feature/mdm/general/searchandexplore/searchwithintaxonomy>`
+                          * :doc:`Regrouper par </feature/product_feature/mdm/general/searchandexplore/groupby>`
+
+**Application:**          * Édition en bloc est utilisée pour réaliser différentes actions, notamment: *Édition, Étiquetage, Changement d'état, Déplacement ou Suppression*.
+                          * Édition en bloc permet à l'utilisateur d'éviter plusieurs opérations manuelles en éditant les produits dans un lot plutôt que de procéder produit par produit.
+                          * Édition en bloc permet de modifier et de définir un vaste éventail d'attributs de produit tels que *Prix, Comparer au Prix, Poids, Balises* et plus encore.
+                          * *Exemple:*
+
+                               Une entreprise agroalimentaire a modifié le slogan ou la description de ses produits.
+                               L'entreprise peut sélectionner ses produits dans le système et modifier la description grâce à Édition en bloc.
+                               La fonctionnalité appliquera aussi le changement de description à tous ses produits.
+
+=====================     ===============================================================================================================================================================
+
+
+Marche à suivre: Édition en bloc
+=================================
+Pour exécuter une opération d'édition en bloc, procédez comme suit:
 
 |
 
-#. Select the items to be edited by clicking on the thumbnail checkbox.
+#. Sélectionnez les éléments à modifier en cliquant sur la case à cocher miniature.
 
 .. image:: /feature/_images/mdmimages/bulkedit_selectitems.PNG
 |
 |
 
-#. Click on the **Bulk Edit** button.
+
+#. Cliquez sur le bouton **Édition en bloc**.
 
 .. image:: /feature/_images/mdmimages/bulkedit_clickonthebulkeditbutton.PNG
 |
 |
 
-#. View the pop-up menu that will appear with a list of attributes and tags.
+
+#. Un menu déroulant contenant une liste d'attributs et de balises s'ouvre.
 
 .. image:: /feature/_images/mdmimages/bulkedit_viewthepopupmenu.PNG
 |
 |
 
-#. Either (1) select the tags/attributes from the list or (2) search for the tags/attributes in the search bar and enter the values. Refer to the images below.
+
+#. Vous pouvez soit (1) sélectionner les balises/attributs dans la liste, soit (2) rechercher les balises/attributs dans la barre de recherche en saisissant les valeurs. Reportez-vous aux images ci-dessous.
 
 
-  #. Selecting tags/attributes from the list:
+  #. Sélection des balises/attributs dans la liste:
 
   .. image:: /feature/_images/mdmimages/bulkedit_selectingtags.PNG
   |
   |
 
-  #. Searching for tags/attributes in the search bar:
+  #. Recherche des balises/attributs dans la barre de recherche:
 
   .. image:: /feature/_images/mdmimages/bulkedit_searchingtags.PNG
   |
 
 |
 
-#. Click on the **Apply** button to do the bulk edit of the products.
+
+#. Cliquez sur le bouton **Appliquer** pour exécuter l'Édition en bloc des produits.
 
 .. image:: /feature/_images/mdmimages/bulkedit_clickontheapplybutton.PNG
 |
@@ -73,13 +79,15 @@ To do mass editing, follow these steps:
 |
 |
 
-#. View the applied changes of the bulk edit.
+
+#. Consultez les modifications appliquées par l'édition en bloc.
 
 .. image:: /feature/_images/mdmimages/bulkedit_viewappliedchange.PNG
 |
 .. image:: /feature/_images/mdmimages/bulkedit_viewappliedchange2.PNG
 |
+|
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
