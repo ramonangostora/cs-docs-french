@@ -1,45 +1,49 @@
-================
-How Classes work
-================
+============
+Les classes
+============
 
-What is a class?
-----------------
+Qu’est-ce qu’une classe?
+------------------------
 
-Contentserv uses two types of classes: *(1) Nature Class* and *(2) Non-Nature/Attribution Class*.
-Classes define the base configurations for products.  Each class that is given to a product allows that product to have a more precise definition.
-There are multiple levels of classes that can be used in conjunction to achieve a more refined classification.
+Dans Contentserv, il existe deux types de classes : *(1) La classe « Nature » et (2) La classe « Non-Nature/atributs »*.
+Les classes définissent les configurations de base de chaque produit. Chaque classe donnée à un produit permet de mieux le définir.
+Il existe plusieurs niveaux de classes et ceux-ci peuvent être utilisés conjointement pour obtenir une classification plus précise.
 
-The top level of class is *Nature Class*.  This sets up the type of product base to start with.  Nature Classes are customizable in the *Settings or Administration*.
-Below are the several default class types:
+La classe la plus élevée est la classe *« Nature »*. Elle permet de définir le type de base de produit pour commencer.
+Dans *Paramètres ou Aministration,* vous pouvez personnaliser les classes Nature.
+Voici les différents types de classes proposées par défaut:
+
 
 |
 
-Default Nature Classes
-***********************
 
-#. Single Article
-    * A stand-alone product which is a sellable item.
-    * *Example:*
+Les classes Nature par défaut
+*****************************
 
-        Dog Bed (Male/Female color scheme).
+#. Article individuel
+    * Un produit à part entière vendable.
+    * *Exemple:*
+
+        Lit pour chien (palette de couleurs masculines/féminines).
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_singlearticle.PNG
+        |
         |
 
 |
 
-#. Product
-    * A placeholder for a group of common products.
-    * *Examples:*
+#. Produit
+    * Un paramètre fictif pour un groupe de produits communs.
+    * *Exemple:*
 
-        (1) Dog Bed.
+        (1) Lit pour chien.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_product.PNG
         |
         |
         |
 
-        (2) Red Bull as the Product, which contains variants like *Regular, Sugarfree, and Zero*.
+        (2) Produit: Red Bull et ses variantes *« Normal, sans sucre et Zero »*.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_product2.PNG
         |
@@ -49,11 +53,11 @@ Default Nature Classes
 
 |
 
-#. Loose Bundle
-    * A group of products where the quantity of each product can be defined by the retailer.
-    * *Example:*
+#. Pack personnalisable
+    * Un groupe de produits dont la quantité peut être définie par le détaillant.
+    * *Exemple:*
 
-        Water Bottle Pack: Buy 10 or more for 15% off.  Each item over 10 can still receive the discount.
+        Pack de bouteilles d’eau : 15 % de réduction si vous en achetez 10 ou plus. La réduction s’appliquera aux articles 11, 12, 13... etc.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_loosebundle.PNG
         |
@@ -63,106 +67,112 @@ Default Nature Classes
 
 |
 
-#. Fixed Bundle
-    * A group of products where the quantity of each product is fixed.
-    * *Example:*
+#. Pack fixe
+    * Un groupe de produits dont la quantité de chaque produit est définie.
+    * *Exemple:*
 
-        A Shaving Kit Pack includes 3 blades and a shaving cream. As these are in the same packaging, the customer cannot add more blades for that pack purchase.
+        Un kit de rasage qui comprend 3 lames et un tube de mousse à raser. Ces produits sont proposés dans un seul et même emballage, le client ne peut donc pas ajouter de produits.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_fixedbundle.PNG
         |
         |
         .. image:: /tutorials/_images/cs_classesanddatamodels_fixedbundle2.PNG
         |
+        |
 
 |
 
-#. Set of Products
-    * Set of product recommendations like clothing pieces put on a mannequin in fashion stores.
-    * *Example:*
+#. Ensemble de produits
+    * Un ensemble de recommandations de produits comme des vêtements assortis.
+    * *Exemple:*
 
-        Hat, T-Shirt, Shorts, and Sandals for use on mannequins.
+        Chapeau, tee-shirt, shorts et sandales assorties.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_setofproducts.PNG
         |
-
-|
-
-
-#. Promotional Collection
-    * A group of products which is offered at a discounted price.
-    * *Example:*
-
-        Buy 3 bags of Dog Food for the price of 2.
-
-        .. image:: /tutorials/_images/cs_classesanddatamodels_promotionalcollection.PNG
         |
 
 |
 
 
-Attribution Classes
-********************
-*(Also called Non-Nature Classes)*
+#. Offre promotionnelle
+    * Un groupe de produits offerts à prix réduit.
+    * *Exemple:*
+
+        Achetez 3 boîtes de nourriture pour chiens pour le prix de 2.
+
+        .. image:: /tutorials/_images/cs_classesanddatamodels_promotionalcollection.PNG
+        |
+        |
+
+|
 
 
-Products, defined only by a *Nature Class* are not yet categorized in your PIM.  To give a more specific categorization, you can add *Attribution Classes*.
-The added benefit of using one or many Attribution Classes is that they have their own properties that the product will inherit.
-For example, a mobile phone product can have a *'Mobile Attribution Class'* associated with it, which would include properties for *screen size, storage*, etc.
-Every mobile phone product in your system can be given this Attribution Class.  Other Attribution Classes can be added to the mobile phone example such as *Electronics or Computer*.
-
-Below are examples of Attribution Classes and potential properties that they may hold.  Each class is fully customizable through the *Settings* backend.
+Les classes d’attributs
+************************
+*(Aussi appelé Classes Non-Nature)*
 
 
-Attribution Class examples with Properties
-*******************************************
+Les produits, définis uniquement par une *classe Nature* ne sont pas encore catégorisés dans votre PIM (gestion d’info. produit).
+Pour définir une catégorisation plus spécifique, vous pouvez ajouter des *classes d’attributs.*
+L’autre avantage apporté par l’utilisation d’une ou plusieurs classes d’attributs c’est qu’elles permettent de définir les propriétés d’un produit.
+Par exemple, un smartphone peut être associé à une *« classe d’attributs mobiles »,* qui comprend différentes caractéristiques comme la *taille de l’écran, la capacité de stockage,* etc.
+Cette classe d’attributs pourra être associée à chaque produit de votre système. D’autres classes d’attributs peuvent être définies pour les produits de la section *électronique ou* informatique.
 
-#. Electronics
-    * Voltage
+Voici quelques exemples de classes d’attributs et de caractéristiques potentielles qu’ils peuvent contenir.
+Chaque classe est entièrement personnalisable dans les *Paramètres*.
+
+
+
+Exemples de caractéristiques de classe d’attributs
+***************************************************
+
+#. Électronique
+    * Tension
 
     |
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclasselectronics.PNG
     |
     |
 
-#. Mobile (Cell phone)
-    * Screen size
+#. Mobile (smartphone)
+    * Taille d’écran
 
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilescreensize.PNG
     |
     |
 
-    * Storage and RAM
+    * Stockage et RAM
 
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilestorage.PNG
     |
     |
 
-    * Operating System
+    * Système d’exploitation
 
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobileoperatingsystem.PNG
     |
     |
 
-    * Camera
+    * Caméra
 
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassmobilecamera.PNG
     |
     |
 
-#. Food
-    * List of Nutritional Information
+#. Aliments
+    * Informations nutritionnelles
 
     |
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts.PNG
     |
     |
 
-    * Contains nuts?
+    * Contient de la noix?
 
-    * Contains pork?
+    * Contient du porc?
 
-    * Contains beef?
+    * Contient du bœuf?
 
     |
     .. image:: /tutorials/_images/cs_classesanddatamodels_attributionclassfoodnutritionfacts2.PNG
@@ -170,19 +180,15 @@ Attribution Class examples with Properties
     |
 
 
-====================    =============================================
-**Related topics:**     * *Creating a Nature Class*
-                        * *Creating a Non-Nature/Attribution Class*
-                        * *Adding Classes to a Product*
-                        * *Data Model*
-====================    =============================================
+========================    =======================================================
+**Rubriques connexes:**      * *Création d’une classe Nature*
+                             * *Création d’une classe autre que Nature/attributs*
+                             * *Ajout de classes à un produit*
+                             * *Modèle de données*
+========================    =======================================================
 
 
 |
-
-| :doc:`Previous: What is a Data Model? </tutorials/whatisadatamodel>`
-| :doc:`Next: Overview </tutorials/onboardingoverview>`
-
 |
 
 

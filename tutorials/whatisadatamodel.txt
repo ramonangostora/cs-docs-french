@@ -1,18 +1,21 @@
-======================
-What is a Data Model?
-======================
+===================================
+Qu'est-ce qu'un modèle de données?
+===================================
 
-Products in the real world can be described in various ways. In real life we may say a tv has dimensions, colours and a supplier. This is all data that relates to the product. When we say Data Model we are talking about the way we structure this information so that it accurately reflects reality while also capturing how different entities in Contentsphere (products, images, audio, colour) relate to one another.
+Les produits du monde réel peuvent être décrits de diverses manières.
+Dans la vraie vie, nous pouvons dire qu’un téléviseur a des dimensions, des couleurs et un fournisseur.
+Cela regroupe toutes les données qui ont un rapport avec le produit.
+Le Modèle de données permet donc de structurer cette information afin qu’elle reflète fidèlement la réalité tout tentant de définir le rapport entre les différents éléments de Contentserv (produits, images, audio, couleur, etc.).
 
 
-**Example:**
+**Exemple:**
 
-    A product, such as a *T-Shirt*, inherently has a Data Model that defines it. At the highest level, it is given a *Nature Class*, which could be *Product*.
-    This Product class allows the *T-Shirt* to have variants.  At this level, the *T-Shirt* describes the design but is not a sellable item.
+    Un produit, un *tee-shirt* par exemple, peut être défini par un Modèle de données. Au plus haut niveau, on lui donne une *classe Nature, « Produit »* par exemple.
+    Cette classe « Produit » permet de définir certaines variantes de ce *T-shirt*. À ce niveau, le *T-shirt* décrit la conception, il ne s’agit pas un objet vendable.
 
-    The Data Model for your *T-Shirt* also has Non-Nature/Attribution classes such as *'Clothing'*.
-    The *Clothing* Attribution Class attaches properties such as fabric and color to the *T-Shirt* product.
-    The Taxonomy is used to add the *T-Shirt* product into a broader store classification or a category system.
+    Le Modèle de données de votre *T-shirt comprend également* des classes Nature/attributs telles que *« Vêtements »*.
+    La classe Attribut *Vêtements* est associée à différentes propriétés comme le tissu et la couleur au produit *T-shirt*.
+    La Taxonomie est utilisée pour ajouter le produit *T-shirt* dans une classification de magasin plus large ou dans un système de catégories.
 
 |
 .. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
@@ -23,18 +26,15 @@ Products in the real world can be described in various ways. In real life we may
 |
 
 
-====================    ============================================================
-**Related topics:**     * :doc:`Create a New Product </tutorials/createnewproduct>`
-                        * :doc:`Set up a Taxonomy </tutorials/settinguptaxonomy>`
-                        * :doc:`How Classes work </tutorials/howclasseswork>`
-====================    ============================================================
+========================   =================================================================
+**Rubriques connexes:**     * :doc:`Créer un nouveau produit </tutorials/createnewproduct>`
+                            * :doc:`Configurer une taxonomie </tutorials/settinguptaxonomy>`
+                            * :doc:`Les classes </tutorials/howclasseswork>`
+========================   =================================================================
+
 
 |
-
-| :doc:`Previous: Set Up a Taxonomy </tutorials/settinguptaxonomy>`
-| :doc:`Next: How Classes work </tutorials/howclasseswork>`
-
 |
 
 .. image:: /tutorials/_images/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
