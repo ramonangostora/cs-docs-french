@@ -28,8 +28,8 @@ Marketing Content Management (gestion de contenu marketing)
 
 :doc:`Marketing Content Management </product/MCM>` (MCM): *Pour un marketing produit contextuel et futuriste*
 
-* Accélérez, simplifiez et valorisez tous vos processus de contenu promotionnel et marketing et optimisez les performances de vos activités marketing
-* Diffusez du contenu ou des campagnes personnalisées, contextuelles et promotionnelles sur tous vos canaux de vente
+* Accélérez, simplifiez et valorisez tous vos processus de contenu promotionnel et marketing et optimisez les performances de vos activités marketing.
+* Diffusez du contenu ou des campagnes personnalisées, contextuelles et promotionnelles sur tous vos canaux de vente.
 
 |
 
