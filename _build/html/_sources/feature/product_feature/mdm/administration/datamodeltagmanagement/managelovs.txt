@@ -1,8 +1,6 @@
 ===========
 Manage LOVs
 ===========
-
-
 Manage LOVs lets you create a property with many possible values.
 
 

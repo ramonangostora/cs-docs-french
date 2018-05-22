@@ -4,11 +4,12 @@ Gestion des fiches fournisseurs
 Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fournisseurs et leurs identifiants dans les *Unités* qui permettent au système de remonter le *produit* au fournisseur.
 
 
-===================     =======================================================================================================================================================================
-**Terme clé :**         * **Classe:** une classe définit la configuration de base pour les produits.
-**Description:**        * La fonctionnalité permet de gérer les produits reçus de différents fournisseurs en adhérant à quelques *Nomes/Unités standard*.
+====================     =======================================================================================================================================================================
+**Terme clé:**           * **Classe:** une classe définit la configuration de base pour les produits.
 
-                        * **Identifiant standard:** L'identifiant standard affecte un identifiant unique aux *Produits/Fournisseur*.
+**Description:**         * La fonctionnalité permet de gérer les produits reçus de différents fournisseurs en adhérant à quelques *Nomes/Unités standard*.
+
+                         * **Identifiant standard:** L'identifiant standard affecte un identifiant unique aux *Produits/Fournisseur*.
 
 							              **GTIN (numéro d'article commercial international):** le GTIN est un numéro mondialement unique à 14 chiffres utilisé pour identifier les *articles commerciaux, produits ou services*.
 
@@ -18,7 +19,7 @@ Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fou
 
 							              **Nom du fournisseur:** chaque fournisseur peut être identifié par son nom.
 
-                        * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
+                         * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
 
 							              **L'unité est une unité de commande:** lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie *est une unité de commande*. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une *caisse*.
 
@@ -26,17 +27,15 @@ Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fou
 
 							              **L'unité est une unité de base:** lorsque la mesure de base du produit est 1 unité. Par exemple, une *pièce*.
 
-**Thèmes associés:**     * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
+**Thèmes associés:**      * :doc:`Gestion des clés de produits </feature/product_feature/mdm/products/productidentifiersidentifierattributes/manageproductkeys>`
 
-**Application:**        * Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.
-                        * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
-                        * *Exemple:*
+**Application:**          * Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.
+                          * Si un produit similaire est vendu par plusieurs fournisseurs, les *Identifiants standard* permettront d'identifier quel produit appartient à quel fournisseur.
+                          * *Exemple:*
 
-                            Si le *Revendeur A* reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
+                               Si le *Revendeur A* reçoit un produit, par exemple du **Red Bull** de 3 fournisseurs, un *Identifiant standard* l'aidera à identifier la source du produit. De la même façon, lors de la vente d'un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu'il s'agisse d'une *unité de commande, d'une unité de vente ou d'une unité de base*.
 
-===================     =======================================================================================================================================================================
-
-
+====================     =======================================================================================================================================================================
 
 
 Marche à suivre: Gestion des fiches fournisseurs
@@ -50,6 +49,7 @@ Pour gérer les fiches fournisseurs, suivez les étapes suivantes:
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickadministration.PNG
 |
 |
+
 
 #. Allez à l'onglet **Modèle de données** et sous *Classes*, cliquez sur **Fournisseur**.
 

@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 ==============
 Retour arrière
 ==============
-=======
-========
-Rollback
-========
->>>>>>> origin/Nadia_French_Multilingualui2_05092018
+
 
 .. toctree::
    :maxdepth: 1

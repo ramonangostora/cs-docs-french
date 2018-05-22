@@ -4,19 +4,19 @@ Manage Displays
 
 The Manage Displays feature allows the user to sell multiple quantity products.
 
-===================  =================================================================================================================================================================
+===================    =================================================================================================================================================================
 
-**Description:**     * The Manage Displays feature allows you to create a Bundle of products grouped for the purpose of displays in store.
+**Description:**        * The Manage Displays feature allows you to create a Bundle of products grouped for the purpose of displays in store.
 
-**Related topics:**  * *Manage Media Links*
+**Related topics:**     * *Manage Media Links*
 
-**Application:**     * This feature brings single articles together in multiple quantities and sells them.
-                     * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities and can sell them at an offered price.
-                     * *Example:*
+**Application:**        * This feature brings single articles together in multiple quantities and sells them.
+                        * This type of bundle can be used during stock clearance, where the retailer can add a single item in multiple quantities and can sell them at an offered price.
+                        * *Example:*
 
-                        A retail company held a stock clearance sale event. With this, a retailer adds a single item in multiple quantities and sells them at a given price.
+                            A retail company held a stock clearance sale event. With this, a retailer adds a single item in multiple quantities and sells them at a given price.
 
-===================  =================================================================================================================================================================
+===================    =================================================================================================================================================================
 
 
 How to do: Manage Displays
@@ -32,11 +32,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Hover over the "+" icon.
 
 .. image:: /feature/_images/mdmimages/managedisplays_hoveron.PNG
 |
 |
+
 
 #. Click on **Loose Bundle**.
 
@@ -44,11 +46,13 @@ To do this, follow these steps:
 |
 |
 
+
 #. Enter the  necessary information.
 
 .. image:: /feature/_images/mdmimages/managedisplays_enterinformation.PNG
 |
 |
+
 
 #.  Click  **Add products**.
 
@@ -56,11 +60,13 @@ To do this, follow these steps:
 |
 |
 
+
 #.   Click the green button to add the required products (button turns to blue when selected), and click  **Add All**.
 
 .. image:: /feature/_images/mdmimages/managedisplays_selectandaddall.PNG
 |
 |
+
 
 #.    To add more products, click **Return**, and repeat the previous steps.
 
@@ -70,11 +76,13 @@ To do this, follow these steps:
 |
 |
 
+
 #.   To add an image, click  **Relationships** tab.
 
 .. image:: /feature/_images/mdmimages/managedisplays_gotorel.PNG
 |
 |
+
 
 #.   Hover over on the "+" icon and click  **Add Entity**.
 
@@ -91,6 +99,7 @@ To do this, follow these steps:
 |
 |
 
+
 #.   Click **Add Image** again.
 
 .. image:: /feature/_images/mdmimages/managedisplays_imageagain.PNG
@@ -99,11 +108,14 @@ To do this, follow these steps:
 |
 |
 
+
 #.   View bundle on the top section of the page.
 
 .. image:: /feature/_images/mdmimages/managedisplays_imageready.PNG
 |
 |
+
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

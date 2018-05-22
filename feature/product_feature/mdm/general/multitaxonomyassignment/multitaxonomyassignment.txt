@@ -37,6 +37,7 @@ Pour affecter un objet unique à plusieurs taxonomies différentes ou à plusieu
 |
 |
 
+
 #. Dans la liste déroulante, sélectionnez une taxonomie parent (par ex., *produits*).
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectaparenttaxonomy.PNG
@@ -45,17 +46,21 @@ Pour affecter un objet unique à plusieurs taxonomies différentes ou à plusieu
 |
 |
 
+
 #. Pour classer plus finement le produit, cliquez sur le bouton **Approfondir la classification**.
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_tofurtherclassify.PNG
 |
 |
 
+
 #. Sélectionnez un nœud dans la liste déroulante. Dans les images ci-dessous, l'exemple serait *Alimentation* > *Boissons* > *Boissons sportives et énergisantes*.
 
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectanodefromthedropdownlist.PNG
 |
+|
 .. image:: /feature/_images/mdmimages/multitaxonomy_selectanodefromthedropdownlist2.PNG
+|
 |
 
 *Remarque: La dernière image montre les nombreux nœuds au sein d'une même taxonomie qui ont été ajoutés au produit.*

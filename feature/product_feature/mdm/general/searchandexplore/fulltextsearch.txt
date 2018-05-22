@@ -1,8 +1,8 @@
 =================
 Full-text Search
 =================
+The Full-text Search feature gives the user the ability to search for a product or asset. The search finds any matching text within the product or asset.
 
-The Full-text Search feature gives the user the ability to search for a product or asset. The search finds any matching text within the product or asset. 
 
 ===================     =============================================================================================================================================================
 **Description:**        * This feature is used to to search for products or assets in the system using a full-text search.

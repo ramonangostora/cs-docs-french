@@ -23,6 +23,8 @@ How to do: Manage Prepacks
 ==========================
 To do this, follow these steps:
 
+|
+
 #. Click  **Administration** icon.
 
 .. image:: /feature/_images/mdmimages/cs_manageprepacks_gotoadmin.PNG

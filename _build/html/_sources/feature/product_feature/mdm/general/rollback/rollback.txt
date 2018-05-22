@@ -7,14 +7,8 @@ La fonctionnalité de retour arrière permet à l'utilisateur de basculer vers (
 ===================      =================================================================================================================================================================
 **Terme clé**             * **Retour arrière:** fonctionnalité permettant à l'utilisateur de revenir à une version souhaitée d'un produit.
 
-<<<<<<< HEAD
 **Description:**          * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
                           * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
-=======
-
-**Description:**          * The rollback allows a user to go back to any version if the user/supplier wishes to revert back to previous changes.
-                          * This feature can be accessed from within a product's page under the 'Timeline' tab.
->>>>>>> origin/Nadia_French_Multilingualui2_05092018
 
 **Related topics:**       * :doc:`Gestion des catalogues virtuels </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
                           * :doc:`Classifications de produits </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
@@ -34,11 +28,13 @@ Marche à suivre: Retour arrière
 Pour ce faire, procédez comme suit:
 
 |
+
 #. Allez à **PIM**.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickpim.PNG
 |
 |
+
 
 #. Cliquez pour sélectionner le produit pour lequel vous souhaitez exécuter un retour en arrière (dans cette démonstration, nous sélectionnons « Jouet orange en forme d'os »).
 
@@ -46,11 +42,13 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Cliquez sur l'onglet *Relations*.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
 |
 |
+
 
 #. Dans cette démonstration, nous allons remplacer l'image et revenir à l'image précédente.
 
@@ -66,17 +64,20 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Cliquez sur **ENREGISTRER SOUS** pour enregistrer les modifications apportées au produit.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clicksave.PNG
 |
 |
 
+
 #. Allez à l'onglet *Relation*.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickrelationship.PNG
 |
 |
+
 
 #.  Allez à l'onglet *Chronologie*. La version actuelle du produit serait celle qui porte le numéro de la dernière version en haut.
 
@@ -88,6 +89,7 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #.  Cliquez sur la version antérieure au remplacement de l'image (dans cette démonstration, nous avons sélectionné « version 0 27 mars 2018 »).
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_selectversion.PNG
@@ -98,6 +100,7 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #.  Une fois le retour en arrière confirmé, l'onglet Relation s'ouvre et la relation est restaurée. Vous pouvez voir l'image (revenue à l'ancienne version).
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_viewimage.PNG
@@ -105,4 +108,4 @@ Pour ce faire, procédez comme suit:
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserv line
+   :alt: Contentserv line

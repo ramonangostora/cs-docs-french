@@ -138,6 +138,62 @@
   <div class="section" id="s-gestion-des-fiches-fournisseurs">
 <span id="gestion-des-fiches-fournisseurs"></span><h1>Gestion des fiches fournisseurs<a class="headerlink" href="#gestion-des-fiches-fournisseurs" title="Permalink to this headline">¶</a></h1>
 <p>Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fournisseurs et leurs identifiants dans les <em>Unités</em> qui permettent au système de remonter le <em>produit</em> au fournisseur.</p>
+<table class="docutils">
+<colgroup>
+<col width="5%" />
+<col width="95%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Terme clé:</strong></td>
+<td><ul class="first last simple">
+<li><strong>Classe:</strong> une classe définit la configuration de base pour les produits.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Description:</strong></td>
+<td><ul class="first last">
+<li><p class="first">La fonctionnalité permet de gérer les produits reçus de différents fournisseurs en adhérant à quelques <em>Nomes/Unités standard</em>.</p>
+</li>
+<li><p class="first"><strong>Identifiant standard:</strong> L’identifiant standard affecte un identifiant unique aux <em>Produits/Fournisseur</em>.</p>
+<blockquote>
+<div><p><strong>GTIN (numéro d’article commercial international):</strong> le GTIN est un numéro mondialement unique à 14 chiffres utilisé pour identifier les <em>articles commerciaux, produits ou services</em>.</p>
+<p><strong>SKU (unité de gestion des stocks):</strong> est un code d’identification pour les produits et services d’un magasin, souvent représenté par un code-barres lisible à la machine qui permet de suivre un article aux fins d’inventaire.</p>
+<p><strong>Identifiant fournisseur:</strong> chaque fournisseur aura un identifiant unique pour accéder au produit à son usage spécifique.</p>
+<p><strong>Nom du fournisseur:</strong> chaque fournisseur peut être identifié par son nom.</p>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Unit:</strong> Les unités sont mentionnées pour mesurer ou distinguer les produits. C’est une information importante pour la vente. Les unités de mesure utilisées incluent <em>Boîte, Pièce, etc</em>.</p>
+<blockquote>
+<div><p><strong>L’unité est une unité de commande:</strong> lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie <em>est une unité de commande</em>. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une <em>caisse</em>.</p>
+<p><strong>L’unité est une unité de vente:</strong> lorsque la quantité du produit est moyenne. Elle sera présente sous la catégorie <em>est une unité de vente</em>. Cette unité est généralement utilisée par les consommateurs ou les fournisseurs. Par exemple, une <em>boîte</em>.</p>
+<p><strong>L’unité est une unité de base:</strong> lorsque la mesure de base du produit est 1 unité. Par exemple, une <em>pièce</em>.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><strong>Thèmes associés:</strong></td>
+<td><ul class="first last simple">
+<li><a class="reference internal" href="../productidentifiersidentifierattributes/manageproductkeys.html"><span class="doc">Gestion des clés de produits</span></a></li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td><strong>Application:</strong></td>
+<td><ul class="first last">
+<li><p class="first">Cette fonctionnalité est utilisée pour gérer les fiches fournisseurs et leurs identifiants dans ‘unités’ pour remonter le produit au fournisseur.</p>
+</li>
+<li><p class="first">Si un produit similaire est vendu par plusieurs fournisseurs, les <em>Identifiants standard</em> permettront d’identifier quel produit appartient à quel fournisseur.</p>
+</li>
+<li><p class="first"><em>Exemple:</em></p>
+<blockquote>
+<div><p>Si le <em>Revendeur A</em> reçoit un produit, par exemple du <strong>Red Bull</strong> de 3 fournisseurs, un <em>Identifiant standard</em> l’aidera à identifier la source du produit. De la même façon, lors de la vente d’un produit en vrac, les unités sélectionnées aideront un utilisateur à distinguer la structure de vente du produit, qu’il s’agisse d’une <em>unité de commande, d’une unité de vente ou d’une unité de base</em>.</p>
+</div></blockquote>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="section" id="s-marche-a-suivre-gestion-des-fiches-fournisseurs">
 <span id="marche-a-suivre-gestion-des-fiches-fournisseurs"></span><h2>Marche à suivre: Gestion des fiches fournisseurs<a class="headerlink" href="#marche-a-suivre-gestion-des-fiches-fournisseurs" title="Permalink to this headline">¶</a></h2>
 <p>Pour gérer les fiches fournisseurs, suivez les étapes suivantes:</p>
@@ -279,11 +335,7 @@
         </div>
       </div>
                 <h3>Last update:</h3>
-<<<<<<< HEAD
-                <p class="topless">May 21, 2018</p>
-=======
-                <p class="topless">May 16, 2018</p>
->>>>>>> origin/Brian_French_LinkingObjects_05162018
+                <p class="topless">May 22, 2018</p>
             </div>
           </div>
         
@@ -294,11 +346,7 @@
     <script type="text/javascript" src="https://contentsphere.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-4bqv2z/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=c6215c07"></script>
 
     <div id="ft">
-<<<<<<< HEAD
-        <p class="topless">Last updated: May 21, 2018</p>
-=======
-        <p class="topless">Last updated: May 16, 2018</p>
->>>>>>> origin/Brian_French_LinkingObjects_05162018
+        <p class="topless">Last updated: May 22, 2018</p>
       <div class="nav">
     &laquo; <a href="index.html" title="Identifiants de produit - Enregistrements d’identifiants">previous</a>
      |

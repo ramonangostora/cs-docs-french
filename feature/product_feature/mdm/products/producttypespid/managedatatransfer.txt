@@ -30,11 +30,13 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Click the **Class Configuration** button.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_classconfig.PNG
 |
 |
+
 
 #. Select the class.
 
@@ -42,11 +44,13 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Select the attributes and tags for data transfer.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_attribute.PNG
 |
 |
+
 
 #. Go to PIM.
 
@@ -54,11 +58,13 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Hover on the "+" icon.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_hover.PNG
 |
 |
+
 
 #. Select "Product".
 
@@ -66,11 +72,13 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Enter the properties for the product.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_properties.PNG
 |
 |
+
 
 #. Click the "+" icon to add Link Variants. Select the tag and click **Next**.
 
@@ -78,11 +86,13 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Select the SKU variant and click **Add**.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_clickadd.PNG
 |
 |
+
 
 #. Check if the product is added.
 
@@ -90,9 +100,11 @@ Management of information between PIDs and their variants has never been this ea
 |
 |
 
+
 #. Notice the transfer of data to the variant.
 
 .. image:: /feature/_images/mdmimages/managedatatransfer_productadded.PNG
+|
 |
 
 

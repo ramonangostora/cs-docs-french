@@ -1,7 +1,6 @@
 ========================
 Comparaison de produits
 ========================
-
 Comparaison de produits permet à l'utilisateur de sélectionner et comparer des produits dans le PIM.
 
 

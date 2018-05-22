@@ -1,7 +1,6 @@
 ==========================
 Manage Gift Sets/Baskets
 ==========================
-
 The Manage Gift Sets or Basket feature allows a user to group articles together in a specified quantity and sells them as a package to the customer.
 
 

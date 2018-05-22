@@ -5,6 +5,8 @@ The Export Attributes is a feature that allows exporting of attribute definition
 
 
 ===================     =======================================================================================================================================================================
+**Key Term:**           * **Attribute**: A data field which describes a product, can also use *property*.
+
 **Description:**        * This feature allows a user to export all attributes in one click.
 
 **Related topics:**     * :doc:`Manage Different Types of Attributes </feature/product_feature/mdm/administration/datamodelattributemanagement/managedifferenttypesofattributes>`
@@ -26,83 +28,47 @@ To export attributes, follow the steps provided below:
 
 |
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
-#. Log in to Contentsphere and click on the **Administration** button.
+#. Log in and click on the **Administration** button.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_logintocontentsphere.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Click on the **Data Model** tab and go to *Properties*.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_clickonthedatamodel.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Go to any attribute type (like *Date*).
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotodateandselect.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Click on the **Export all Attributes** button. This will export all the attributes that are in the system.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_onceselectedclickonthexportall.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Wait for the download to be completed.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_waitforthedownloadtocomplete.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Once downloaded, access the file and view the attribute data.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_oncecompletedaccessthefile.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

@@ -36,6 +36,7 @@ Faciliter la classification en liant les objets, voici comment procéder.
 |
 |
 
+
 #. Cliquez sur **Ajouter une taxonomie**.
 
 .. image:: /feature/_images/mdmimages/linkingobjects_addtaxonomy.PNG
@@ -43,6 +44,7 @@ Faciliter la classification en liant les objets, voici comment procéder.
 .. image:: /feature/_images/mdmimages/linkingobjects_addtaxonomy2.PNG
 |
 |
+
 
 #. La collection de propriétés est ajoutée via Taxonomie. Vous pouvez lier plus de produits si nécessaire.
 

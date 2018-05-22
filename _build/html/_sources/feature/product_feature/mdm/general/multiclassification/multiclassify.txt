@@ -1,68 +1,66 @@
-=======================
-Multi-classify Objects
-=======================
+==============================
+Multiclassification d'objets
+==============================
 
-The Multi-classify Objects feature provides users the ability to add multiple classes to a product.
-This enables better categorization of products as well as inheritance of relevant properties and attributes.
-
-
-===================     =============================================================================================================================================================
-**Key Terms:**          * **Nature Class:** A class that defines the base type of product. This product type is specific to how the product should behave in the Contentserv software. Nature Classes could include *Single Article, Product, Bundle,* or other custom-made product types.
-                        * **Attribution Class:** A class that adds specific attributes to the product it is assigned to. For example, a *Mobile Phone* class may add attributes for *Screen Size, Memory Size, Operating System,* etc.
-
-**Description:**        * To multi-classify the product, we add multiple attribution classes to the product in addition to the single Nature Class. Attribution classes contain detailed descriptive properties for the product.
-                        * The user is able to define the product further by adding properties based on different attribution classes.
-                        * Classifying a product with classes aids in finding that feature as well as giving the product access to class-specific sets of attributes and properties.
-
-**Related topics:**     * :doc:`Property Collections </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
-                        * :doc:`How Classes Work </tutorials/howclasseswork>` and *Attribution Classes with attributes and tags*
-                        * :doc:`Inheritance and Data Transfer </feature/product_feature/mdm/administration/inheritanceanddatatransfer/index>`
+La fonctionnalité Multiclassification d'objets permet aux utilisateurs d'ajouter plusieurs classes à un produit.
+Cela favorise une meilleure catégorisation des produits ainsi que l'héritage des propriétés et des attributs pertinents.
 
 
-**Application:**        * Attribution classes, which are also known as *Non-nature* classes, contain more detailed information about the products. The *Nature* class would only have general properties.
-                        * The attribution class would define the product more in detail.
-                        * *Example:*
+====================    =============================================================================================================================================================
+**Terme clé:**          * **Classe nature:** Une classe qui définit le type de base du produit. Ce type de produit est spécifique à la manière dont le produit doit se comporter dans le logiciel Contentserv. Par exemple, une classe nature peut inclure *Article individuel, Produit, Lot* ou d'autres types de produits personnalisés.
+                        * **Classe d'attribution:** Une classe qui ajoute des attributs spécifiques au produit auquel elle est affectée. Par exemple, une classe *Téléphone mobile* peut ajouter des attributs pour *Taille de l'écran, Capacité mémoire, Système d'exploitation,* etc.
 
-															For an energy drink, the nature class *Single Article* would contain generic properties for the product,
-															whereas an attribution class, *Beverages* would give details regarding beverages such as *volume and can size*.
-															As for another class, *Energy Drinks*, it would give properties such as *nutrition contents and caffeine contents*.
+**Description:**        * Pour classer le produit dans plusieurs catégories, nous ajoutons plusieurs classes d'attribution au produit, en plus de la Classe Nature unique. Les classes d'attribution contiennent des propriétés descriptives détaillées à propos du produit.
+                        * L'utilisateur peut définir davantage le produit en ajoutant des propriétés basées sur différentes classes d'attribution.
+                        * La classification d'un produit à l'aide de classes permet de trouver plus facilement cette caractéristique et permet au produit d'accéder à des ensembles d'attributs et de propriétés spécifiques à une classe.
 
-===================     =============================================================================================================================================================
+**Thèmes associés:**    * :doc:`Collections de propriétés </feature/product_feature/mdm/administration/datamodelpropertycollections/propertycollections>`
+                        * :doc:`Fonctionnement des classes </tutorials/howclasseswork>` et *Classes d'attribution avec attributs et balises*
+                        * :doc:`Héritage et transfert de données </feature/product_feature/mdm/administration/inheritanceanddatatransfer/index>`
 
 
-How to do: Multi-classify Objects
-=================================
+**Application:**        * Les classes d'attribution, que l'on appelle aussi classes *non-nature*, contiennent des informations plus détaillées à propos des produits. La classe *Nature* ne présenterait que des propriétés d'ordre général.
+                        * La classe d'attribution définirait le produit plus en détail.
+                        * *Exemple:*
 
-This How To guide provides instructions on how to multi-classify objects.
-To do this, follow these steps:
+															Pour une boisson énergisante, la classe nature *Article individuel* contiendrait des propriétés génériques pour le produit, tandis que la classe d'attribution *Boissons* donnerait des détails inhérents aux
+															boissons, comme la *contenance et la taille de la cannette*. Une autre classe, *Boissons énergisantes*, proposerait des propriétés comme *les valeurs nutritionnelles et la teneur en caféine*.
+
+====================    =============================================================================================================================================================
+
+
+Marche à suivre: Multiclassification d'objets
+==============================================
+
+Ce guide pratique fournit des instructions sur la manière de classer des objets dans plusieurs catégories. Pour ce faire, procédez comme suit :
 
 |
 
-#. Go to PIM and hover on the "+" icon.
+#. Allez à PIM et survolez l'icône "+".
 
 .. image:: /feature/_images/mdmimages/multiclassify_gotopim.PNG
 |
 |
 
-#. Click **Single Article**.
+#. Cliquez sur **Article individuel**.
 
 .. image:: /feature/_images/mdmimages/multiclassify_singlearticle.PNG
 |
 |
 
-#. Enter the name of the single article.
+#. Saisissez le nom de l'article individuel.
 
 .. image:: /feature/_images/mdmimages/multiclassify_name.PNG
 |
 |
 
-#. To add a Non-Nature class or Attribution class, click **Add Class**.
+#. Pour ajouter une classe Non-Nature ou une classe d'Attribution, cliquez sur **Ajouter une classe**.
 
 .. image:: /feature/_images/mdmimages/multiclassify_addclass.PNG
 |
 |
 
-#. Select a class from the drop-down list.
+#. Sélectionnez une classe dans la liste déroulante.
 
 .. image:: /feature/_images/mdmimages/multiclassify_dropdownlist.PNG
 |
@@ -70,7 +68,7 @@ To do this, follow these steps:
 |
 |
 
-#. To add another attribution class, click **Add Class** and select from the list.
+#. Pour ajouter une autre classe d'attribution, cliquez sur **Ajouter une classe** et sélectionnez une classe dans la liste.
 
 .. image:: /feature/_images/mdmimages/multiclassify_addclassagain.PNG
 |
@@ -78,7 +76,8 @@ To do this, follow these steps:
 |
 |
 
-#. To switch templates from nature class to non-nature class, click on the drop-down list and select an option, for example *Beverages*.
+
+#. Pour changer le modèle d'une classe nature à une classe non-nature, cliquez sur la liste déroulante et sélectionnez une option, par exemple *Boissons*.
 
 .. image:: /feature/_images/mdmimages/multiclassify_switchtemplate.PNG
 |
@@ -90,4 +89,4 @@ To do this, follow these steps:
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

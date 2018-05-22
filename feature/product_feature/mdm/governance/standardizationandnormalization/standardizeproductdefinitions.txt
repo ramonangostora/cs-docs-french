@@ -37,11 +37,13 @@ To standardize product definitions, follow these steps:
 |
 |
 
+
 #. Click on the **Data Governance** tab.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_clickdatagovernance.PNG
 |
 |
+
 
 #. Click on **Rules** then click on the “+” icon to create a rule.
 
@@ -49,11 +51,13 @@ To standardize product definitions, follow these steps:
 |
 |
 
+
 #. Enter the name and select **Standardization and Normalization** as rule type then click on the **Create** button.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_entername.PNG
 |
 |
+
 
 #. Select the *Partners,* *Endpoints,* and *Physical Catalogs* to which the rule is to be applied.
 
@@ -61,19 +65,22 @@ To standardize product definitions, follow these steps:
 |
 |
 
+
 #. In the *Cause* section, select the attributes and tags that violate the rule.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributecause.PNG
 |
 |
 
+
 #. Select the condition by which the rule is violated.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_condition.PNG
 |
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_condition2.PNG
-
 |
+|
+
 
 #. Select multiple conditions if necessary.
 
@@ -81,19 +88,22 @@ To standardize product definitions, follow these steps:
 |
 |
 
+
 #. Select the class to which the rule will be applied.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_selectclass.PNG
 |
 |
 
+
 #. In the *Effect* section, select the attributes and tags to be normalized.
 
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributeeffect.PNG
 |
 .. image:: /feature/_images/mdmimages/cs_standardizationandnormalization_attributeeffect2.PNG
-
 |
+|
+
 
 #. Click on the **Save** button to save the rule for the selected attributes and tags. For classes and taxonomies, the rule gets saved upon selection.
 

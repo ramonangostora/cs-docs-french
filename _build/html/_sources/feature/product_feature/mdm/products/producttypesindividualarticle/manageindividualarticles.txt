@@ -3,7 +3,6 @@ Manage Individual Articles
 ==========================
 Manage Individual Articles enables you to manage a product at the level of a Single Article. Any attribute, relationship or classification can be managed at the level of an individual Single Article.
 
-
 ===================  =================================================================================================================================================================
 
 **Description:**     * A Single Article is the basic unit in Contentsphere for a product without variants.

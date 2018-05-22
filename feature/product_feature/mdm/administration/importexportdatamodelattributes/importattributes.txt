@@ -5,6 +5,8 @@ The Import Attributes is a feature that allows importing of attribute definition
 
 
 ===================     =========================================================================================================================================================================
+**Key Term:**           * **Attribute:** A data field which describes a product, can also use 'property'.
+
 **Description:**        * It allows the import of a document with a list of different types of attributes: *HTML, Text, Number, Price, Concatenated, Measurement, Date, and Standard Attribute*.
                         * It also allows a user to import attributes in bulk instead of creating them one by one, manually.
 
@@ -18,89 +20,48 @@ The Import Attributes is a feature that allows importing of attribute definition
                             *Supplier A* has *Products X, Y and Z* with 25 attributes each. Rather than inputting all these attributes one by one in the system,
                             *Supplier A* can collate all information in one document and import it using this feature.
 
-<<<<<<< HEAD
-===================     =======================================================================================================================================================================
-=======
 ===================     =========================================================================================================================================================================
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 
 
 How to do: Import Attributes
-================================
+=============================
 To import attributes, follow the steps provided below:
 
 |
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
-#. Log in to Contentsphere and click on the **Administration** button.
+#. Log in and click on the **Administration** button.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_logintocontentsphere.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Click on the **Data Model** tab and go to *Properties*.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_clickonthedatamodel.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Go to any attribute type (like *Date*) and click on the **Import all Attributes** button.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_gotoanyattributeandclickonimport.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-=======
 #. Select the file from your device.
 
 .. image:: /feature/_images/mdmimages/cs_importexportdatamodelattributes_selectthefile.PNG
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
 |
 |
 
 
-<<<<<<< HEAD
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-|
-
-
-#. Step.
-
-.. image:: /feature/_images/mdmimages/image.PNG
-|
-=======
 #. Wait for the import to finish.  Once done, the added attributes can be viewed in the system.
 
->>>>>>> 59c24adf10841ed3c8376fed55d23f7d16f6dbd5
+|
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

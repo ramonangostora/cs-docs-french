@@ -1,6 +1,7 @@
-=====================
-Governance Dashboard
-=====================
+===============================
+Tableau de bord de gouvernance
+===============================
+
 
 .. toctree::
    :maxdepth: 1

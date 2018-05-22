@@ -1,6 +1,6 @@
-===================
-Multiclassification
-===================
+==============================
+Multiclassification d'objets
+==============================
 
 .. toctree::
    :maxdepth: 1

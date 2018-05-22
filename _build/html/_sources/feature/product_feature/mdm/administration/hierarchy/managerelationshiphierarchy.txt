@@ -29,17 +29,13 @@ Classification of related products is easy when you manage hierarchies. Here's h
 #. Go to PIM.
 
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_gotopim.PNG
-
 |
-
 |
 
 #. Click **Choose Taxonomies** then click the **Create Relationship Hierarchy** button.
 
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_choosetaxonomies.PNG
-
 |
-
 |
 
 #. Enter the relationship information.
@@ -47,7 +43,6 @@ Classification of related products is easy when you manage hierarchies. Here's h
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_enterinfo.PNG
 
 |
-
 |
 
 #. Click **Add Class** and select the class.
@@ -55,18 +50,16 @@ Classification of related products is easy when you manage hierarchies. Here's h
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_addclass.PNG
 
 |
-
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_addclass2.PNG
-
 |
-
 |
 
 #. Once done adding the classes, click **Apply**.
 
 .. image:: /feature/_images/mdmimages/relationshiphierarchy_clickapply.PNG
-
 |
+|
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentsphere line

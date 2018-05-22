@@ -69,6 +69,8 @@ To do this admin feature, follow the steps below:
 
 .. image:: /feature/_images/mdmimages/manageconcatenatedattributes_providethevalues.PNG
 |
+|
+
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
