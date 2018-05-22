@@ -3,8 +3,8 @@
 ===================
 
 
-Master Data Management
-=======================
+Master Data Management (gestion des données de référence)
+=========================================================
 
 :doc:`Master Data Management </product/MDM>` (MDM): *Comment gérer les données de référence de plusieurs domaines*
 
@@ -16,7 +16,7 @@ Master Data Management
 Product Information Management (gestion de l’information produit)
 =================================================================
 
-:doc:`Product Information Management </product/PIM>` (PIM): *Product Information Management (gestion de l’information produit)*
+:doc:`Product Information Management </product/PIM>` (PIM): *Proposez une meilleure expérience produit à vos clients*
 
 * The most powerful *Product Information Management* Le système Product Information Management le plus puissant offre une convivialité, une flexibilité et une évolutivité incomparables..
 * Stockez et maintenez les informations de vos produits afin qu’elles puissent être partagées avec les partenaires et piloter les différents systèmes de promotion et de e-commerce.
@@ -36,7 +36,7 @@ Marketing Content Management (gestion de contenu marketing)
 Partner Engagement Platform
 ============================
 
-:doc:`Partner Engagement Platform </product/PEP>` (PEP): *Intégration complète et précise des données*
+:doc:`Plateforme d'engagement des partenaires </product/PEP>` (PEP): *Intégration complète et précise des données*
 
 *  Créez des processus avec des mappages appropriés pour une intégration efficace des données dans le système.
 *  Gérez et personnalisez les profils pour maintenir l’exclusivité des points de terminaison au sein d’une entreprise
