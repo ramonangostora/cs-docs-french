@@ -5,10 +5,12 @@ Manage Permissions lets you define what the user can or cannot do.
 
 
 ====================    =============================================================================================================================================================
+**Key Term:**           * **Taxonomy:** A taxonomy is a scheme of classification used for an organization’s products.
+
 **Description:**        * Simply assign the user to the role with the appropriate functions and say goodbye to unnecessary system changes.
                         * Have full control as to who gets to view, edit, and delete the products in the system.
 
-**Related topics:**     * *Manage View Templates*
+**Related topics:**     * :doc:`Manage View Templates </feature/product_feature/mdm/administration/usersandpermissionsviewtemplates/manageviewtemplates>`
 
 **Application:**        * User can access only the permitted functions.
                         * *Example:*
@@ -30,11 +32,13 @@ Choose who gets to do what or not, and here's how to do it.
 |
 |
 
+
 #. Click the **Permissions Configuration** button.
 
 .. image:: /feature/_images/mdmimages/permissions_config.PNG
 |
 |
+
 
 #. On the left pane, select a role.
 
@@ -43,6 +47,7 @@ Choose who gets to do what or not, and here's how to do it.
 .. image:: /feature/_images/mdmimages/permissions_listofroles2.PNG
 |
 |
+
 
 #. Select a class and set the permission for *Create, Read, Update, and Delete*. Do the same for taxonomy. A green circle indicates that the function is enabled for that item.
 
@@ -53,6 +58,7 @@ Choose who gets to do what or not, and here's how to do it.
 .. image:: /feature/_images/mdmimages/permissions_delete.PNG
 |
 |
+
 
 #. The image below is an example that shows the role "Accountable" has been assigned the following rights.
 

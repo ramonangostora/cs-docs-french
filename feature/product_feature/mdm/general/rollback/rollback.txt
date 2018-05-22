@@ -28,6 +28,7 @@ Marche à suivre: Retour arrière
 Pour ce faire, procédez comme suit:
 
 |
+
 #. Allez à **PIM**.
 
 .. image:: /feature/_images/mdmimages/cs_rollbackb_clickpim.PNG
