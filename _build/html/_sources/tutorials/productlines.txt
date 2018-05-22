@@ -39,7 +39,7 @@ Partner Engagement Platform (Plateforme d'engagement des partenaires)
 :doc:`Partner Engagement Platform </product/PEP>` (PEP): *Intégration complète et précise des données*
 
 *  Créez des processus avec des mappages appropriés pour une intégration efficace des données dans le système.
-*  Gérez et personnalisez les profils pour maintenir l’exclusivité des points de terminaison au sein d’une entreprise
+*  Gérez et personnalisez les profils pour maintenir l’exclusivité des points de terminaison au sein d’une entreprise.
 
 |
 |
