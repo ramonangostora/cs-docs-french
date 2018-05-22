@@ -3,13 +3,15 @@ Contrôle du flux de processus
 ==============================
 Avoir une fonction de flux de processus donne à l'utilisateur une représentation visuelle de l'ensemble du processus d'intégration. Les éventuelles violations de données sont marquées en rouge/orange. Un processus d’intégration de données dûment exécuté apparaît en vert.
 
+
 Conditions préalables
 ======================
 * Partenaires configurés
 * Utilisateurs configurés
 
-Termes clés
-============
+
+Terme clé
+==========
 * **Flux de travail** - Le flux de travail définit la structure et les composants d’un fichier qui doit être importé dans le système ou exporté hors du système. Il fournit tous les détails sur tous les composants configurés dans une feuille. Le système interprétera le fichier importé selon la manière dont nous avons défini les détails dans la section Processus.
 
 

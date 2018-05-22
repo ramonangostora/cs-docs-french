@@ -10,9 +10,9 @@ Conditions préalables
 * Entreprise prédéfinis
 
 
-Key Terms
-==========
-* **Mappages** - La section mappage permet de mapper les différents éléments (attributs, balises, classes et taxonomies) définis dans un fichier d'intégration par rapport à leurs éléments respectifs (attributs, balises, classes et taxonomies) définis dans le système
+Termes clés
+============
+* **Mappages** - La section mappage permet de mapper les différents éléments (attributs, balises, classes et taxonomies) définis dans un fichier d'intégration par rapport à leurs éléments respectifs (attributs, balises, classes et taxonomies) définis dans le système.
 
 * **Points de terminaison** - Le point de terminaison est le processus final où nous mappons les partenaires avec le processus défini. Ce point de terminaison sera visible sur le tableau de bord du partenaire.
 
@@ -65,7 +65,7 @@ Key Terms
 
 |
 
-#. Une fenêtre de mappage en temps réel s'ouvre. Vous y verrez l'ensemble des attributs et des balises mappés à leurs champs respectifs. Vous pouvez également apporter des modifications ou simplement ignorer les attributs qui ne sont pas pertinents
+#. Une fenêtre de mappage en temps réel s'ouvre. Vous y verrez l'ensemble des attributs et des balises mappés à leurs champs respectifs. Vous pouvez également apporter des modifications ou simplement ignorer les attributs qui ne sont pas pertinents.
 
 .. image:: /tutorials/_images/cs_realtimemapping_viewmappedattributesandtags.PNG
 |

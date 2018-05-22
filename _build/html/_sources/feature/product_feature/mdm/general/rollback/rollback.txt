@@ -4,23 +4,23 @@ Retour arrière
 
 La fonctionnalité de retour arrière permet à l'utilisateur de basculer vers (ou revenir à) une version antérieure d'un produit dans le système.
 
-===================      =================================================================================================================================================================
-**Terme clé**             * **Retour arrière:** fonctionnalité permettant à l'utilisateur de revenir à une version souhaitée d'un produit.
+====================       =================================================================================================================================================================
+**Terme clé**               * **Retour arrière:** fonctionnalité permettant à l'utilisateur de revenir à une version souhaitée d'un produit.
 
-**Description:**          * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
-                          * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
+**Description:**            * Le retour arrière permet à l'utilisateur de revenir à n'importe quelle version lorsque l'utilisateur/le fournisseur souhaite récupérer des modifications antérieures.
+                            * Cette fonctionnalité est accessible dans la page d'un produit sous l'onglet « Chronologie ».
 
-**Related topics:**       * :doc:`Gestion des catalogues virtuels </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
-                          * :doc:`Classifications de produits </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
-                          * :doc:`Comparer les révisions de produits </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
+**Thèmes associés:**        * :doc:`Gestion des catalogues virtuels </feature/product_feature/mdm/products/catalogmanagementvirtualproductcatalogs/managevirtualcatalogs>`
+                            * :doc:`Classifications de produits </feature/product_feature/mdm/governance/classificationandcategorization/improveproductclassifications>`
+                            * :doc:`Comparer les révisions de produits </feature/product_feature/mdm/general/timelineandhistory/compareproductrevisions>`
 
-**Application:**          * La fonctionnalité de Retour arrière est utilisée pour revenir à une version particulière d'un produit.
-                          * Il s'agit d'une amélioration de la fonctionnalité de « Retour » basique, qui permet à l'utilisateur d'ajouter ou de retirer une relation/du contexte d'un produit et le faire revenir à la version précédente.
-                          * *Exemple:*
+**Application:**            * La fonctionnalité de Retour arrière est utilisée pour revenir à une version particulière d'un produit.
+                            * Il s'agit d'une amélioration de la fonctionnalité de « Retour » basique, qui permet à l'utilisateur d'ajouter ou de retirer une relation/du contexte d'un produit et le faire revenir à la version précédente.
+                            * *Exemple:*
 
-                              Le fournisseur peut ajouter un texte commercial dans la « description » du Chocolat Toblerone pendant les fêtes de fin d'année. Après les fêtes, il peut revenir à la version originale de la description
+                                 Le fournisseur peut ajouter un texte commercial dans la « description » du Chocolat Toblerone pendant les fêtes de fin d'année. Après les fêtes, il peut revenir à la version originale de la description
 
-===================      =================================================================================================================================================================
+====================      =================================================================================================================================================================
 
 
 Marche à suivre: Retour arrière
