@@ -1,68 +1,73 @@
+========================
+Ajouter une image au DAM
+========================
+Les produits avec des images sont plus attrayants pour les utilisateurs du système, vous pouvez les stocker dans le DAM (gestionnaire des actifs). Pour le faire, suivez les étapes suivantes:
 
-Add an Image to the DAM
-=======================
-Products with displayed images are more appealing for the users to the system, which can be stored in DAM (Data Asset Management).
-To do this, follow these steps:
+|
 
 
-#. Click **All**.
+#. Cliquez sur **All**.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickall.PNG
 |
 |
 
-#. Click **DAM**.
+
+#. Cliquez sur **DAM**.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickDAM.PNG
 |
 |
 
-#.  Hover on the "+".
+
+#.  Passez la souris sur l’icône « + ».
 
 .. image:: /feature/_images/mdmimages/addingimage_hoverplus.PNG
 |
 |
 
-#.   Then, click **Image**.
+
+#.   Ensuite, cliquez sur **Image**.
 
 .. image:: /feature/_images/mdmimages/addingimage_selimage.PNG
 |
 |
 
-#.    Click the **Add Image** icon on the File Preview section, and select your desired image from your computer.
+
+#.   Cliquez sur l’icône **Add Image** (ajouter une image) dans la section « File Preview » (aperçu) du fichier et sélectionnez l’image souhaitée sur votre ordinateur.
 
 .. image:: /feature/_images/mdmimages/addingimage_clickcloud.PNG
 |
 |
 
-#.   The image appears on the File Preview section, and enter a name for the image.
+
+#.   L’image s’affichera alors dans la section « File Preview » du fichier et vous n’aurez plus qu’à donner un nom à cette image.
 
 .. image:: /feature/_images/mdmimages/addingimage_entername.PNG
 |
 |
 
-#. Then, click **Save**.
+
+#.  Cliquez ensuite sur **Save** (enregistrer).
 
 .. image:: /feature/_images/mdmimages/addingimage_enternamesave.PNG
 |
 |
 
-#.    Click **Metadata**.
+
+#.  Proposez une meilleure expérience produit à vos clientsCliquez sur les **Metadata** (métadonnées).
 
 .. image:: /feature/_images/mdmimages/addingimage_clickmeta.PNG
 |
 |
 
-#.	The available metadata on the Meta Data section  will auto-complete but fields can be manually filled out as desired.
+
+#.	Les métadonnées disponibles dans la section Métadonnées seront générées automatiquement, mais les champs peuvent aussi être remplis manuellement.
 
 .. image:: /feature/_images/mdmimages/addingimage_compmeta.PNG
-
+|
 |
 
-| :doc:`Previous: Add New Users </tutorials/addnewuser>`
-| :doc:`Next: Create a New Product </tutorials/createnewproduct>`
 
-|
-
-.. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+.. image:: _images/line-png-32.PNG
+   :alt: Contentserv line

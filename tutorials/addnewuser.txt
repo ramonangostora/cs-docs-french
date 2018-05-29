@@ -1,78 +1,79 @@
-=============
-Add New Users
-=============
-Manage different roles or profiles within the system by adding new users.
+================================
+Ajouter de nouveaux utilisateurs
+================================
+Gérer différents rôles ou profils dans le système en ajoutant de nouveaux utilisateurs.
 
 
-How to do: Add New Users
-=============================
-To do this, follow these steps:
-
+Comment ajouter de nouveaux utilisateurs
+=========================================
+Pour le faire, suivez les étapes suivantes:
 
 |
 
-#. Click **Settings**.
+#.  Cliquez sur **Settings** (paramètres).
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clicksettings.PNG
 |
 |
 
-#. Click **Partner Admin**.
+
+#.  Cliquez sur **Partner Admin** (admin des partenaires).
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickpartadmin.PNG
 |
 |
 
-#.  Click **Users** on the left sidebar.
+
+#.  Cliquez sur **Users** sur la barre de gauche.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickusers.PNG
 |
 |
 
-#.   Then, click "+" to add a user.
+
+#.   Ensuite, cliquez sur « + » pour ajouter un utilisateur.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickplus.PNG
 |
 |
 
-#.    Enter data in the fields.
+
+#.   Entrez les données dans les différents champs.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
 |
 |
-#.  Then, click **Create**.
+
+
+#.  Ensuite, cliquez sur **Create** (créer).
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
 |
 |
 
-#.   View the added user.
 
+#.   Afficher l’utilisateur ajouté.
 
 .. image:: /feature/_images/mdmimages/addingnewusers_addeduser.PNG
 |
 |
 
-Icon for the user can also be added. To do this, follow the steps below:
 
-      #.    Click **Add Icon** and select an image icon from your computer.
+Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les étapes suivantes:
+
+      #.    Cliquez sur l’icône **Add** et sélectionnez une image sur votre ordinateur.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_clickaddicon.PNG
       |
       |
 
-
-      #.    View the added icon.
+      #.    Afficher l’icône ajoutée.
 
       .. image:: /feature/_images/mdmimages/addingnewusers_iconadded.PNG
       |
       |
 
-| :doc:`Previous: Explore the User Interface </tutorials/exploretheui>`
-| :doc:`Next: Add an Image to the DAM </tutorials/addimagetoDAM>`
-
 |
 
-
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

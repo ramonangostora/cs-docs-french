@@ -1,80 +1,80 @@
-===========================
-KPI-based Conformity Rules
-===========================
-The KPI-based Conformity Rules is a data governance feature that sets up rules to assess the conformance of an *Article* or a *Product* to the acceptable standards.
+===================================
+Règles de conformité selon les KPI
+===================================
+Règles de conformité selon les KPI est une fonctionnalité de gouvernance des données qui définit des règles pour évaluer la conformité d'un *Article* ou d'un *Produit* aux normes admises.
 
 
-===================     =======================================================================================================================================================================
-**Key Term:**           * **Key Performance Indicator (KPI):** is a measurement used to determine the quality of product data added into the system in relation to a set standard.
+====================     =======================================================================================================================================================================
+**Terme clé:**           * **Indicateur de performance clé (KPI):** est une mesure utilisée pour déterminer la qualité des données relative aux produits qui sont ajoutées dans le système en lien avec une norme établie.
 
-**Description:**        * KPIs help to find the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
-                        * KPIs check the following 4 factors: *Completeness, Conformity, Uniqueness, and Accuracy.*
-                        * KPIs drill down on the basis of *Taxonomy* and *Tags*.
-                        * The KPI: **Conformity** checks the accuracy of data in the product and also inspects the data compliance with respect to the standards.
+**Description:**         * Les KPI contribuent à déterminer l'exactitude des produits selon les attributs, taxonomie et balises d'un article.
+                         * Les KPI valident les 4 facteurs suivants: *Intégralité, Conformité, Unicité, et Exactitude*.
+                         * Les KPI permettent un approfondissement sur la base des *taxonomie* et *balises*.
+                         * Le KPI: **Conformité** vérifie l'exactitude des données du produit et inspecte également que les données respectent les normes.
 
-**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
-                        * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
-                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
-                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
+**Thèmes associés:**     * :doc:`Gestion des balises </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                         * :doc:`Gestion des attributs </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                         * :doc:`Gestion des taxonomies </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
+                         * :doc:`Suivi de la qualité des données </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data Conformity** is one of the most important data quality and accuracy checking characteristics. It is a very important factor for KPIs.
-                        * *Example:*
+**Application:**         * **La Conformité des données** est l'une des caractéristiques primordiales du contrôle de la qualité et de l'exactitude des données. C'est un facteur essentiel aux KPI.
+                         * *Exemple:*
 
-                            An organization sells furniture products. They have attributes for *Length of the wood* and tags for *Color*.
-                            Then, the *Conformity Rule* helps users to check that the length should not be more than 400m (40,000cm).
+                              Une organisation vend des meubles. Ils présentent des attributs pour *Longueur du bois* et des balises pour *Couleur*.
+                              Ensuite, la *Règle de conformité* aide les utilisateurs à vérifier que la longueur ne doit pas excéder 400 m (40 000 cm).
 
-===================     =======================================================================================================================================================================
+====================     =======================================================================================================================================================================
 
 
-How to do: KPI-based Conformity Rules
-======================================
-To do this feature, follow these steps:
+Marche à suivre: Règles de conformité selon les KPI
+====================================================
+Pour ce faire, procédez comme suit:
 
 |
 
-#. Log in and go to *Administration*.
+#. Connectez-vous et allez dans *Administration*.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_login.PNG
 |
 |
 
 
-#. Click on the **Data Governance** tab.
+#. Cliquez sur l'onglet **Gouvernance des données**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickondatagovernance.PNG
 |
 |
 
 
-#. Click on **KPIs**.
+#. Cliquez sur **KPI**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonkpis.PNG
 |
 |
 
 
-#. Click on the "+" icon to create a new KPI.
+#. Cliquez sur l'icône "+" pour créer un nouveau KPI.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickontheicontocreatenewkpi.PNG
 |
 |
 
 
-#. Fill out the name and click on the **Create** button.
+#. Renseignez le nom du KPI et cliquez sur le bouton **Créer**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_filloutthename.PNG
 |
 |
 
 
-#. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
+#. Une fois créé, le nouveau KPI apparaîtra dans la liste. Cliquez sur le bouton **Modifier** à droite.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_oncethekpiiscreated.PNG
 |
 |
 
 
-#. On the *KPI Details* page, select a *Class* and *Taxonomy*, which will use the KPI.  Click the **Apply** button.
+#. Sur la page *Détails du KPI*, sélectionnez une *Classe* et une *Taxonomie*, qui utiliseront le KPI. Cliquez sur le bouton **Appliquer**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_selectclassandtaxonomy.PNG
 |
@@ -83,21 +83,21 @@ To do this feature, follow these steps:
 |
 
 
-#. For the Drill down levels, add *Tags* or *Taxonomies*, where the KPI is to be categorized into.
+#. Pour approfondir le niveau de détail, ajoutez des *Balises ou des Taxonomies*, dans lesquelles le KPI sera classé.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_forthedrilldownlevels.PNG
 |
 |
 
 
-#. Click on the **Conformity** tab and click on the **+ Add Rule** button to create a new rule.
+#. Cliquez sur l'onglet **Conformité** et sur le bouton **+ Ajouter une règle** pour créer une nouvelle règle.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_clickontheconformity.PNG
 |
 |
 
 
-#. Provide the details for the *Label, Attributes, and Tags* to which the rule will be applied. Select the rules according to the requirements and standards.
+#. Renseignez les détails pour *les Libellé, Attributs et Balise* auxquels la règle sera appliquée. Sélectionnez les règles selon les exigences et les normes.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_providethedetails.PNG
 |
@@ -106,17 +106,18 @@ To do this feature, follow these steps:
 |
 
 
-#. Click the **Save** button.
+#. Cliquez sur le bouton **Enregistrer**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedconformity_clickthesave.PNG
 |
 |
 
-*Note: A notification will confirm that the rule and the KPI have been created. Click OK to continue.*
+
+*Remarque: Une notification vous confirmera que la règle et le KPI ont été créés. Cliquez sur OK pour continuer.*
 
 |
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

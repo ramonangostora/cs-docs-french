@@ -1,80 +1,80 @@
-=============================
-KPI-based Completeness Rules
-=============================
-The KPI-based Completeness Rules is a data governance feature that sets up rules to assess the completeness of an *Article* or a *Product* with respect to a KPI.
+===================================
+Règles d'intégralité selon les KPI
+===================================
+Règles d'intégralité selon les KPI est une fonctionnalité de gouvernance des données qui définit des règles pour évaluer l'intégralité d'un *Article* ou d'un *Produit* par rapport à un KPI.
 
 
-===================     =======================================================================================================================================================================
-**Key Term:**           * **Key Performance Indicator (KPI):** is a measurement used to determine the quality of product data added into the system in relation to a set standard.
+====================      =======================================================================================================================================================================
+**Terme clé:**            * **Indicateur de performance clé (KPI):** est une mesure utilisée pour déterminer la qualité des données relative aux produits qui sont ajoutées dans le système en lien avec une norme établie.
 
-**Description:**        * KPIs demonstrate the accuracy of the products on the basis of an article's attributes, taxonomy, and tags.
-                        * KPIs check the following data accuracy measures: *Accuracy, Completeness, Conformity and Uniqueness*.
-                        * KPIs can be drilled down on the basis of *Taxonomy* and *Tags*.
-                        * The KPI: **Completeness**, as the name suggests, ensures that the product data are complete in all aspects.
+**Description:**          * Les KPI démontrent l'exactitude des produits sur la base des attributs, taxonomie et balises d'un article.
+                          * Les KPI contrôlent les mesures suivantes d'exactitude des données: *Exactitude, Intégralité, Conformité, et Unicité*.
+                          * Les KPI peuvent être affinés selon la *Taxonomie* et les *Balises*.
+                          * Le KPI: **Intégralité**, comme son nom l'indique, assure que les données de produit sont complètes en tous points.
 
-**Related topics:**     * :doc:`Tag Management </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
-                        * :doc:`Attribute Management </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
-                        * :doc:`Manage Taxonomy </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
-                        * :doc:`Monitor Data Quality </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
+**Thèmes associés:**      * :doc:`Gestion des balises </feature/product_feature/mdm/administration/datamodeltagmanagement/index>`
+                          * :doc:`Gestion des attributs </feature/product_feature/mdm/administration/datamodelattributemanagement/index>`
+                          * :doc:`Gestion des taxonomies </feature/product_feature/mdm/administration/simpletaxonomytree/managetaxonomy>`
+                          * :doc:`Suivi de la qualité des données </feature/product_feature/mdm/governance/measureandmonitor/monitordataquality>`
 
-**Application:**        * **Data Completeness** is one of the most important data quality measures.  It is one of the most important factors for KPIs.
-                        * *Example:*
+**Application:**          * **L'intégralité des données** est l'une des mesures primordiales de la qualité des données. C'est l'un des facteurs essentiels des KPI.
+                          * *Exemple:*
 
-                            Supplier A with 100 fashion products sets up a rule stating that the *Name Attribute* can't be left blank.
-                            This rule will be applicable to all of 100 fashion products. If there are violations, they would be reflected in the graph.
+                               Le fournisseur A qui propose 100 produits de mode définit une règle stipulant que l'Attribut de nom ne peut pas rester vide.
+                               Cette règle sera applicable aux 100 produits de mode. Toute violation, le cas échéant, sera reflétée dans le graphique.
 
-===================     =======================================================================================================================================================================
+====================      =======================================================================================================================================================================
 
 
-How to do: KPI-based Completeness Rules
-========================================
-To do this feature, follow these steps:
+Marche à suivre: Règles d'intégralité selon les KPI
+====================================================
+Pour ce faire, procédez comme suit:
 
 |
 
-#. Log in and go to *Administration*.
+#. Connectez-vous et allez dans *Administration*.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_login.PNG
 |
 |
 
 
-#. Click on the **Data Governance** tab.
+#. Cliquez sur l'onglet **Gouvernance des données**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickondatagovernance.PNG
 |
 |
 
 
-#. Click on **KPIs**.
+#. Cliquez sur **KPI**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickonkpis.PNG
 |
 |
 
 
-#. Click on the "+" icon to create a new KPI.
+#. Cliquez sur l'icône "+" pour créer un nouveau KPI.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_clickontheicontocreatenewkpi.PNG
 |
 |
 
 
-#. Fill out the name and click on the **Create** button.
+#. Renseignez le nom du KPI et cliquez sur le bouton **Créer**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_filloutthename.PNG
 |
 |
 
 
-#. Once the KPI is created, the new KPI will be shown on the list. Click on the **Edit** button on the right.
+#. Une fois créé, le nouveau KPI apparaîtra dans la liste. Cliquez sur le bouton **Modifier** à droite.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_oncethekpiiscreated.PNG
 |
 |
 
 
-#. On the *KPI Details* page, select a *Class* and *Taxonomy*, which will use the KPI.  Click the **Apply** button.
+#. Sur la page *Détails du KPI*, sélectionnez une Classe et une *Taxonomie*, qui utiliseront le KPI. Cliquez sur le bouton **Appliquer**.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_selectclassandtaxonomy.PNG
 |
@@ -83,21 +83,21 @@ To do this feature, follow these steps:
 |
 
 
-#. For the Drill down levels, add *Tags* or *Taxonomies*, where the KPI is to be categorized into.
+#. Pour approfondir le niveau de détail, ajoutez des *Balises* ou des *Taxonomies*, dans lesquelles le KPI sera classé.
 
 .. image:: /feature/_images/mdmimages/cs_monitordataquality_forthedrilldownlevels.PNG
 |
 |
 
 
-#. Click on the **Completeness** tab and click on the **+ Add Rule** button to create a new rule.
+#. Cliquez sur l'onglet **Intégralité** et sur le bouton **+ Ajouter une règle** pour créer une nouvelle règle.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_clickoncompleteness.PNG
 |
 |
 
 
-#. Provide the details for the *Label, Attributes, and Tags* to which the rule will be applied.
+#. Renseignez les détails pour *les Libellé, Attributs et Balise* auxquels la règle sera appliquée.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_providethedetails.PNG
 |
@@ -106,17 +106,17 @@ To do this feature, follow these steps:
 |
 
 
-#. Click the **Save** button.
+#. Cliquez sur le bouton **Enregistrer**.
 
 .. image:: /feature/_images/mdmimages/cs_kpibasedcompleteness_clickthesavebutton.PNG
 |
 |
 
-*Note: A notification will confirm that the rule and the KPI have been created. Click OK to continue.*
+*Remarque: Une notification vous confirmera que la règle et le KPI ont été créés. Cliquez sur OK pour continuer.*
 
 |
 |
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line

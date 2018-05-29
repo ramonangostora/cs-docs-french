@@ -1,22 +1,25 @@
-=====================
-Create a New Product
-=====================
-The system allows effective management of products in the system. Products can be created, deleted, and edited.
+========================
+Créer un nouveau produit
+========================
+Le système permet une gestion efficace des produits. Les produits peuvent être créés, supprimés et modifiés.
 
-How to do: Create New Products
-==============================
-To do this, follow these steps:
+
+
+Comment créer de nouveaux produits
+===================================
+Pour le faire, suivez les étapes suivantes:
 
 
 |
 
-#.	Click  **All** from the top right.
+#.	Cliquez sur  **All**  haut à droite.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickall.PNG
 |
 |
 
-#. Hover over the "+" icon and select the desired product (in this demo, we select **Single Product**).
+
+#. Passez la souris sur l’icône « + » et sélectionnez le produit souhaité (dans cette démonstration, nous sélectionnons **un seul produit**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_hoverplus.PNG
 |
@@ -26,19 +29,22 @@ To do this, follow these steps:
 |
 |
 
-#. Enter the necessary information. Items with red marks are required to be filled out.
+
+#. Entrez les informations nécessaires. Les champs en rouge doivent être remplis.
 
 .. image:: /feature/_images/mdmimages/createnewprod_completeattrib.PNG
 |
 |
 
-#. Click **Add Taxonomy** to add taxonomy to the product.
+
+#. Cliquez sur **Add Taxonomy** pour ajouter une taxonomie au produit.
 
 .. image:: /feature/_images/mdmimages/createnewprod_addtax.PNG
 |
 |
 
-#. Taxonomy menu appears. Select the desired taxonomy (in this demo, we select **Tops**).
+
+#. Le menu Taxonomie apparaîtra. Sélectionnez la taxonomie souhaitée (dans cette démo, nous sélectionnons **Tops**).
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxmenu.PNG
 |
@@ -48,51 +54,55 @@ To do this, follow these steps:
 |
 |
 
-#.  View the selected taxonomy.
+
+#.  Consulter la taxonomie sélectionnée
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxselected.PNG
 |
 |
 
-#.  Click  **Relationships** tab to add an image to the product.
+
+#.  Consulter la taxonomie sélectionnéeCliquez sur l’onglet **Relationships** pour ajouter une image au produit.
 
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickrel.PNG
 |
 |
 
-#.  Click on  "+" to add an entity.
+
+#.  Cliquez sur « + » pour ajouter une entité.
 
 
 .. image:: /feature/_images/mdmimages/createnewprod_caddentity.PNG
 |
 |
 
-#.  Click the select button to add the desired image (button turns to blue when selected), then click  **Add**.
+
+#.  Cliquez sur le bouton de sélection pour ajouter l’image souhaitée (le bouton devient bleu lorsque vous le sélectionnez), puis cliquez sur **Add**.
 
 .. image:: /feature/_images/mdmimages/createnewprod_imageselect.PNG
 |
 |
+
 .. image:: /feature/_images/mdmimages/createnewprod_addall.PNG
 |
 |
 
-#.  Drag the selected image to the right pane can also be performed to add the image.
+
+#.  Vous pouvez aussi faire glisser l’image sélectionnée dans le volet de droite pour ajouter l’image.
 
 .. image:: /feature/_images/mdmimages/createnewprod_dragimage.PNG
 |
 |
 
-#.  To add more image, click **Return**, and repeat the previous steps.
+
+#.  Pour ajouter d’autres images, cliquez sur **Return** et répétez les étapes précédentes.
 
 .. image:: /feature/_images/mdmimages/createnewprod_clickret.PNG
 |
 |
 
-| :doc:`Previous: Add an Image to the DAM </tutorials/addimagetoDAM>`
-| :doc:`Next: Set Up a Taxonomy </tutorials/settinguptaxonomy>`
 
-|
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: Contentsphere line
+   :alt: Contentserv line
