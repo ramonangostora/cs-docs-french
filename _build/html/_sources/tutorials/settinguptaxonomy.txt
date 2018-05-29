@@ -58,11 +58,11 @@ Des icônes peuvent également être ajoutées à la taxonomie.
     |
     |
 
-   #.   Afficher l’icône sélectionnée.
+    #.   Afficher l’icône sélectionnée.
 
     .. image:: /feature/_images/mdmimages/settinguptaxonomy_iconadded.PNG
     |
     |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserv line
+   :alt: Contentserv line

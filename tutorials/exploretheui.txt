@@ -2,10 +2,10 @@
 Exploration de l’Interface Utilisateur
 ======================================
 
-Ces captures d’écran vous guideront à travers l’interface utilisateur de contentserv :
+Ces captures d’écran vous guideront à travers l’interface utilisateur de Contentserv:
 
 .. image:: _images/cs_ui1.jpg
-   :alt: contentserv UI
+   :alt: Contentserv UI
 
 |
 
@@ -157,7 +157,7 @@ Catalogue virtuel
 
 #. L’onglet Catalogue virtuel affiche les collections enregistrées pour un mois ou une occasion spécifique. Un détaillant peut transmettre le catalogue sur n’importe quel canal de sortie.
 
-Ex. : une collection de printemps (tissus ou produits habituellement achetés au printemps).
+     Exemple: une collection de printemps (tissus ou produits habituellement achetés au printemps).
 
 |
 |
@@ -170,6 +170,7 @@ Favoris
 
 |
 |
+
 Collection
 
 #. Ajoutez des produits à une collection temporaire ou permanente d’objets.
@@ -187,4 +188,4 @@ Tris et filtres
 
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserv line
+   :alt: Contentserv line

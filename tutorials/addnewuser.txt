@@ -15,7 +15,7 @@ Pour le faire, suivez les étapes suivantes:
 |
 |
 
-#. Cliquez sur **Partner Admin** (admin. des partenaires).
+#. Cliquez sur **Partner Admin** (admin des partenaires).
 
 .. image:: /feature/_images/mdmimages/addingnewusers_clickpartadmin.PNG
 |
@@ -38,6 +38,7 @@ Pour le faire, suivez les étapes suivantes:
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetails.PNG
 |
 |
+
 #.  Ensuite, cliquez sur **Create** (créer).
 
 .. image:: /feature/_images/mdmimages/addingnewusers_enterdetailsandcreate.PNG
@@ -67,4 +68,4 @@ Vous pouvez aussi ajouter une icône pour l’utilisateur. Pour cela, suivez les
 |
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
-   :alt: contentserv line
+   :alt: Contentserv line

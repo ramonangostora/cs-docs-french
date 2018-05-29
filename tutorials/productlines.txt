@@ -1,5 +1,5 @@
 ===================
-À propos du pProduit
+À propos du Produit
 ===================
 
 
@@ -45,4 +45,4 @@ Partner Engagement Platform (Plateforme d'engagement des partenaires)
 |
 
 .. image:: _images/line-png-32.PNG
-   :alt: Contentserve line
+   :alt: Contentserv line
