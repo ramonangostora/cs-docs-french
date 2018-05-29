@@ -5,7 +5,7 @@ Les classes
 Qu’est-ce qu’une classe?
 ------------------------
 
-Dans Contentserv, il existe deux types de classes : *(1) La classe « Nature » et (2) La classe « Non-Nature/atributs »*.
+Dans Contentserv, il existe deux types de classes: *(1) La classe « Nature » et (2) La classe « Non-Nature/atributs »*.
 Les classes définissent les configurations de base de chaque produit. Chaque classe donnée à un produit permet de mieux le définir.
 Il existe plusieurs niveaux de classes et ceux-ci peuvent être utilisés conjointement pour obtenir une classification plus précise.
 
@@ -57,7 +57,7 @@ Les classes Nature par défaut
     * Un groupe de produits dont la quantité peut être définie par le détaillant.
     * *Exemple:*
 
-        Pack de bouteilles d’eau : 15 % de réduction si vous en achetez 10 ou plus. La réduction s’appliquera aux articles 11, 12, 13... etc.
+        Pack de bouteilles d’eau: 15 % de réduction si vous en achetez 10 ou plus. La réduction s’appliquera aux articles 11, 12, 13... etc.
 
         .. image:: /tutorials/_images/cs_classesanddatamodels_loosebundle.PNG
         |

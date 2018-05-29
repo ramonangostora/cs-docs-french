@@ -18,9 +18,11 @@ Le Modèle de données permet donc de structurer cette information afin qu’ell
     La Taxonomie est utilisée pour ajouter le produit *T-shirt* dans une classification de magasin plus large ou dans un système de catégories.
 
 |
+
 .. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt.PNG
 |
 |
+
 .. image:: /tutorials/_images/cs_classesanddatamodels_datamodeltshirt2.PNG
 |
 |
@@ -31,7 +33,6 @@ Le Modèle de données permet donc de structurer cette information afin qu’ell
                             * :doc:`Configurer une taxonomie </tutorials/settinguptaxonomy>`
                             * :doc:`Les classes </tutorials/howclasseswork>`
 ========================   =================================================================
-
 
 |
 |
