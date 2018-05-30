@@ -41,6 +41,7 @@ Partner Engagement Platform (plateforme d'engagement des partenaires)
 *  Créez des processus avec des mappages appropriés pour une intégration efficace des données dans le système.
 *  Gérez et personnalisez les profils pour maintenir l’exclusivité des points de terminaison au sein d’une entreprise.
 
+
 |
 |
 
