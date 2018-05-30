@@ -87,7 +87,7 @@ N° série      Éléments de l'écran                   Description
 =========    =================================     ============================================================
 1             Nom                                   Indiquez le prénom d'un partenaire.
 
-2             Type                                  Sélectionnez le type de partenaire dans les options suivantes :
+2             Type                                  Sélectionnez le type de partenaire dans les options suivantes:
 
                                                       *	Fournisseur
                                                       *	Places de marché

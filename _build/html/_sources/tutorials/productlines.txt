@@ -18,7 +18,7 @@ Product Information Management (gestion de l’information produit)
 
 :doc:`Product Information Management </product/PIM>` (PIM): *Proposez une meilleure expérience produit à vos clients*
 
-* The most powerful *Product Information Management* Le système Product Information Management le plus puissant offre une convivialité, une flexibilité et une évolutivité incomparables..
+* Le système Product Information Management le plus puissant offre une convivialité, une flexibilité et une évolutivité incomparables.
 * Stockez et maintenez les informations de vos produits afin qu’elles puissent être partagées avec les partenaires et piloter les différents systèmes de promotion et de e-commerce.
 
 |

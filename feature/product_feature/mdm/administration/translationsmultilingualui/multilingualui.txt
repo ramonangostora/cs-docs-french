@@ -5,7 +5,7 @@ Interface utilisateur multilingue est une fonctionnalité de traduction des él�
 
 
 =====================    ============================================================================================================================================================================
-**Terme clé:**			      *  **Interface utilisateur (UI):** L'interface numérique utilisée pour interagir avec le logiciel Contentserv
+**Terme clé:**			      * **Interface utilisateur (UI):** L'interface numérique utilisée pour interagir avec le logiciel Contentserv.
 
 **Description:**          * L'interface utilisateur peut être affichée en différentes langues comme *le français, l'allemand et l'espagnol*.
                           * L'administrateur peut configurer le modèle de données (attributs, balises, classes) en différentes langues afin qu'il soit compris par les utilisateurs de plusieurs pays ou régions.
@@ -13,11 +13,10 @@ Interface utilisateur multilingue est une fonctionnalité de traduction des él�
 
 **Thèmes associéss:**     * :doc:`Modèle de données multilingue </feature/product_feature/mdm/administration/translationsdatamodel/multilingualdatamodel>`
 
-
 **Application:**          *	Le système peut afficher l'interface utilisateur en plusieurs langues.
                           * *Exemple:*
 
-                               L'administrateur souhaite que l'interface utilisateur soit en français pour un utilisateur français. L'administrateur configure les traductions des libellés de l'interface utilisateur dans la section d'administration. Lorsque l'utilisateur sélectionne sa langue, l'interface utilisateur du système est traduite.
+                                L'administrateur souhaite que l'interface utilisateur soit en français pour un utilisateur français. L'administrateur configure les traductions des libellés de l'interface utilisateur dans la section d'administration. Lorsque l'utilisateur sélectionne sa langue, l'interface utilisateur du système est traduite.
 
 =====================    ============================================================================================================================================================================
 

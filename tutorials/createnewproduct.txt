@@ -55,7 +55,7 @@ Pour le faire, suivez les étapes suivantes:
 |
 
 
-#.  Consulter la taxonomie sélectionnée
+#.  Consulter la taxonomie sélectionnée.
 
 .. image:: /feature/_images/mdmimages/createnewprod_taxselected.PNG
 |

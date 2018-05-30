@@ -21,7 +21,7 @@ et des info-bulles de l’application.
 * :doc:`Les didacticiels </tutorials/index>` vous montrent, étape par étape,
   comment utiliser l’application **Contentserv**.
   Commencez ici si vous débutez avec **Contentserv** ou si vous souhaitez parfaire votre utilisation.
-  Consultez également  `le-chapitre-nouvel-utilisateur-contentserv`_ ci-dessous.
+  Consultez également  `le-chapitre-nouvel-utilisateur-Contentserv`_ ci-dessous.
 
 * :doc:`Les guides de fonctionnalités </feature/index>` vous expliquent les fonctionnalités
   et autres concepts clés aux utilisateurs confirmés.
@@ -32,7 +32,7 @@ et des info-bulles de l’application.
 
 * :doc:`Le glossaire </glossary>` vous donne une définition des termes clés de Contentserv.
 
-.. _le-chapitre-nouvel-utilisateur-contentserv:
+.. _le-chapitre-nouvel-utilisateur-Contentserv:
 
 .. image:: _images/line-png-32.png
    :alt: Contentserv log in screen

@@ -32,7 +32,7 @@ Cela favorise une meilleure catégorisation des produits ainsi que l'héritage d
 Marche à suivre: Multiclassification d'objets
 ==============================================
 
-Ce guide pratique fournit des instructions sur la manière de classer des objets dans plusieurs catégories. Pour ce faire, procédez comme suit :
+Ce guide pratique fournit des instructions sur la manière de classer des objets dans plusieurs catégories. Pour ce faire, procédez comme suit:
 
 |
 
@@ -42,11 +42,13 @@ Ce guide pratique fournit des instructions sur la manière de classer des objets
 |
 |
 
+
 #. Cliquez sur **Article individuel**.
 
 .. image:: /feature/_images/mdmimages/multiclassify_singlearticle.PNG
 |
 |
+
 
 #. Saisissez le nom de l'article individuel.
 
@@ -54,11 +56,13 @@ Ce guide pratique fournit des instructions sur la manière de classer des objets
 |
 |
 
+
 #. Pour ajouter une classe Non-Nature ou une classe d'Attribution, cliquez sur **Ajouter une classe**.
 
 .. image:: /feature/_images/mdmimages/multiclassify_addclass.PNG
 |
 |
+
 
 #. Sélectionnez une classe dans la liste déroulante.
 
@@ -67,6 +71,7 @@ Ce guide pratique fournit des instructions sur la manière de classer des objets
 .. image:: /feature/_images/mdmimages/multiclassify_selected.PNG
 |
 |
+
 
 #. Pour ajouter une autre classe d'attribution, cliquez sur **Ajouter une classe** et sélectionnez une classe dans la liste.
 
