@@ -1,7 +1,6 @@
 ================
 Édition en bloc
 ================
-
 La fonctionnalité Édition en bloc permet à l'utilisateur de modifier les valeurs de plusieurs attributs/balises pour plusieurs produits en une seule opération.
 
 
@@ -66,6 +65,7 @@ Pour exécuter une opération d'édition en bloc, procédez comme suit:
   #. Recherche des balises/attributs dans la barre de recherche:
 
   .. image:: /feature/_images/mdmimages/bulkedit_searchingtags.PNG
+  |
   |
 
 |

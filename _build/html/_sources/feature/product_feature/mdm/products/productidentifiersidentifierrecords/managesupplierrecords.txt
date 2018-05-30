@@ -19,7 +19,7 @@ Gestion des fiches fournisseurs est une fonctionnalité qui gère les fiches fou
 
 							              **Nom du fournisseur:** chaque fournisseur peut être identifié par son nom.
 
-                         * **Unit:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
+                         * **Unité:** Les unités sont mentionnées pour mesurer ou distinguer les produits. C'est une information importante pour la vente. Les unités de mesure utilisées incluent *Boîte, Pièce, etc*.
 
 							              **L'unité est une unité de commande:** lorsque la quantité de produit est élevée. Elle sera présente sous la catégorie *est une unité de commande*. Cette unité est généralement utilisée par les grossistes ou les gros fournisseurs. Par exemple, une *caisse*.
 
@@ -57,7 +57,7 @@ Pour gérer les fiches fournisseurs, suivez les étapes suivantes:
 |
 |
 
-#. Cliquez sur le bouton « + »pour ajouter la classe fournisseur.
+#. Cliquez sur le bouton « + » pour ajouter la classe fournisseur.
 
 .. image:: /feature/_images/mdmimages/cs_productidenfitieridentifierrecords_clickplusbutton.PNG
 |

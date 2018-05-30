@@ -44,6 +44,7 @@ Ce guide pratique fournit des instructions sur la manière de comparer des produ
 
 .. image:: /feature/_images/mdmimages/productcomparison_comparisonview.PNG
 |
+|
 
 *Remarque: Les indicateurs de comparaison sont affichés à droite. L'icône rouge indique "inférieur à", l'icône verte avec le symbole "=" indique "égal à", et l'icône verte avec le symbole de flèche haute indique "supérieur à"*.
 

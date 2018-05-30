@@ -33,11 +33,13 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Cliquez sur l'onglet *Gouvernance des données* en haut.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickgov.PNG
 |
 |
+
 
 #. Cliquez sur **KPI** à gauche dans l'onglet *Gouvernance des données*.
 
@@ -45,11 +47,13 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Cliquez sur l'icône « + » en haut à droite pour créer un nouveau KPI.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_clickplus.PNG
 |
 |
+
 
 #. Renseignez le nom et le code (facultatif) puis cliquez sur « Créer » pour créer le KPI.
 
@@ -57,19 +61,20 @@ Pour ce faire, procédez comme suit:
 |
 |
 
-#. Une fois le KPI créé, il apparaîtra dans la liste des KPI, cliquez sur l'icône « Modifier » à l'extrémité droite dans la liste des KPI.
 
+#. Une fois le KPI créé, il apparaîtra dans la liste des KPI, cliquez sur l'icône « Modifier » à l'extrémité droite dans la liste des KPI.
 
 .. image:: /feature/_images/mdmimages/cs_managemasters_createsub.PNG
 |
 |
 
-#. Sélectionnez la **Classe** et la **Taxonomie** auxquelles le KPI est destiné.
 
+#. Sélectionnez la **Classe** et la **Taxonomie** auxquelles le KPI est destiné.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selclass.PNG
 |
 |
+
 
 #. Sélectionnez l'onglet *Intégralité* en haut et ajoutez une règle pour l'intégralité. Sélectionnez les attributs et Balises soi-disant complets.
 
@@ -77,8 +82,10 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Cliquez sur l'onglet *Conformité* en haut et ajoutez une règle pour la conformité. Sélectionnez les attributs/balises et sélectionnez l'opération et la condition pour la conformité.
 
+|
 |
 
 #. Suivez les mêmes étapes pour l'Exactitude et l'Unicité. Cliquez sur le bouton *Enregistrer* pour enregistrer le KPI.
@@ -87,11 +94,13 @@ Pour ce faire, procédez comme suit:
 |
 |
 
+
 #. Pour affecter le KPI à un rôle: Sélectionnez l'onglet Admin des partenaires puis sélectionnez l'Organisation où se trouve le rôle.
 
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_selpartad.PNG
 |
 |
+
 
 #. Dans le rôle, affectez le KPI qui vient d'être créé (si aucun KPI n'est sélectionné, le rôle sera autorisé pour tous les KPI présents).
 
@@ -99,11 +108,6 @@ Pour ce faire, procédez comme suit:
 |
 |
 
-#. Déconnectez-vous du système puis connectez-vous avec l'utilisateur appartenant au rôle pour afficher le KPI correspondant à ce rôle.
-
-.. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_logout.PNG
-|
-|
 
 #. Déconnectez-vous du système puis connectez-vous avec l'utilisateur appartenant au rôle pour afficher le KPI correspondant à ce rôle.
 
@@ -113,6 +117,7 @@ Pour ce faire, procédez comme suit:
 .. image:: /feature/_images/mdmimages/cs_kpibaseddqreports_viewkpi.PNG
 |
 |
+
 
 .. image:: /feature/_images/mdmimages/line-png-32.PNG
    :alt: Contentserv line

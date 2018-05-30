@@ -37,6 +37,7 @@ et des info-bulles de l’application.
 .. image:: _images/line-png-32.png
    :alt: Contentserv log in screen
 
+
 Nouvel utilisateur Contentserv
 ===============================
 
@@ -48,12 +49,12 @@ Vous débutez sur Contentserv? Vous êtes au bon endroit:
    :doc:`Déploiement technique <reference/install>`
 
 #. **Didacticiel:**
-   :doc:`1re partie : À propos du produit <product/productlines>` |
-   :doc:`2e partie : Exploration de l’interface utilisateur <tutorials/exploretheui>` |
-   :doc:`3e partie : Ajouter un nouvel utilisateur <tutorials/addnewuser>` |
-   :doc:`4e partie : Ajouter une image au DAM <tutorials/addimagetoDAM>` |
-   :doc:`5e partie : Créer un nouveau produit <tutorials/createnewproduct>` |
-   :doc:`6e partie : Configurer une taxonomie <tutorials/settinguptaxonomy>`
+   :doc:`1re partie: À propos du produit <product/productlines>` |
+   :doc:`2e partie: Exploration de l’interface utilisateur <tutorials/exploretheui>` |
+   :doc:`3e partie: Ajouter un nouvel utilisateur <tutorials/addnewuser>` |
+   :doc:`4e partie: Ajouter une image au DAM <tutorials/addimagetoDAM>` |
+   :doc:`5e partie: Créer un nouveau produit <tutorials/createnewproduct>` |
+   :doc:`6e partie: Configurer une taxonomie <tutorials/settinguptaxonomy>`
 
 .. image:: _images/line-png-32.png
   :alt: Contentserv log in screen
